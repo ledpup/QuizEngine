@@ -1,0 +1,25 @@
+﻿[
+	{
+		"Question": "Capitalism...",
+		"Answers":
+		[
+			{
+				"Text": "is a social relationship between people",
+				"Score": "1"
+			},
+			{
+				"Text": "appears as a social relationship between things",
+				"Score": "1"
+			},
+			{
+				"Text": "is a relationship between things and their prices"
+			},
+			{
+				"Text": "is a social relationship between people and things"
+			},
+			{
+				"Text": "is a natural (ahistorical) part of human society"
+			},
+		]
+	},
+]

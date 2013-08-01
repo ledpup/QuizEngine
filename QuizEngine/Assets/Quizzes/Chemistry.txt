@@ -1,0 +1,2240 @@
+[
+	{
+		"Question": "What functional groups does aspirin have?",
+		"Image": "Aspirin.png",
+		"Answers":
+		[
+			{
+				"Text": "Carboxylic acid, ester and phenyl",
+				"Score": "1"
+			},
+			{
+				"Text": "Carboxylic acid and ether"
+			},
+			{
+				"Text": "Alcohol, ester and ketone"
+			},
+			{
+				"Text": "Aldehyde and ether"
+			}
+		]
+	},
+	{
+		"KeyQuestion": "Identify the *answer text* functional group.",
+		"ValueQuestion": "What is the image of the function group on the called?",
+		"DynamicAnswer": "true",
+		"MaxNumberOfAnswers": "5",
+		"Answers":
+		[
+			{
+				"Image": "Alcohol.png",
+				"Text": "Alcohol"
+			},
+			{
+				"Image": "Carboxylic acid.png",
+				"Text": "Carboxylic acid"
+			},
+			{
+				"Image": "Carbonyl.png",
+				"Text": "Carbonyl group"
+			},
+			{
+				"Image": "Amide.png",
+				"Text": "Amide"
+			},
+			{
+				"Image": "Aldehyde.png",
+				"Text": "Aldehyde"
+			},
+			{
+				"Image": "Ester.png",
+				"Text": "Ester"
+			},
+			{
+				"Image": "Ether.png",
+				"Text": "Ether"
+			},
+			{
+				"Image": "Ketone.png",
+				"Text": "Ketone"
+			},
+		]
+	},
+	{
+		"KeyQuestion": "Identify the *answer text*.",
+		"ValueQuestion": "What is the image of the nitrogen based function group on the called?",
+		"DynamicAnswer": true,
+		"Answers":
+		[
+			{
+				"Image": "Primary Amine.png",
+				"Text": "Primary amine"
+			},
+			{
+				"Image": "Secondary Amine.png",
+				"Text": "Secondary amine"
+			},
+			{
+				"Image": "Tertiary Amine.png",
+				"Text": "Tertiary amine"
+			},
+			{
+				"Image": "Quaternary Ammonium Cation.png",
+				"Text": "Quaternary ammonium cation"
+			}
+		]
+	},
+	{
+		"Question": "One mole of carbon dioxide and one mole of salicylic acid __________.",
+		"Answers":
+		[
+			{
+				"Text": "have the same number of molecules but a different mass",
+				"Score": "1"
+			},
+			{
+				"Text": "have the same mass but a different density"
+			},
+			{
+				"Text": "have a mass of 6.022x10\u00B2\u00B3g each but a different number of molecules"
+			},
+			{
+				"Text": "have the same mass and the same density"
+			},
+			{
+				"Text": "have a different number of molecules but the same mass"
+			}
+		]
+	},
+	{
+		"Question": "The smooth endoplasmic reticulum is responsible for creating __________. The rough endoplasmic reticulum is responsible for creating __________.",
+		"Answers":
+		[
+			{
+				"Text": "lipids and carbohydrates; proteins",
+				"Score": "1"
+			},
+			{
+				"Text": "proteins; lipids and carbohydrates"
+			},
+			{
+				"Text": "lipids and proteins; DNA"
+			},
+			{
+				"Text": "carbohydrates and proteins; lipids"
+			},
+			{
+				"Text": "carbohydrates; proteins"
+			}
+		]
+	},
+	{
+		"Category": "Amino acids",
+		"Difficulty": "Medium",
+		"KeyQuestion": "From the diagrams of amino acids, select one which is *answer text*.",
+		"ValueQuestion": "What property does the pictured amino acid have?",
+		"DynamicAnswer": "true",
+		"Answers":
+		[
+			{
+				"Image": "Glycine.png",
+				"Text": "Hydrophobic"
+			},
+			{
+				"Image": "Serine.png",
+				"Text": "Polar"
+			},
+			{
+				"Image": "Lysine.png",
+				"Text": "Positively charged"
+			},
+			{
+				"Image": "Aspartic acid.png",
+				"Text": "Negatively charged"
+			},
+		]
+	},
+	{
+		"Category": "Amino acids",
+		"Difficulty": "Hard",
+		"KeyQuestion": "What is the chemical structure of *answer text*?",
+		"ValueQuestion": "What is the name of the pictured amino acid?",
+		"DynamicAnswer": "true",
+		"MaxNumberOfAnswers": "5",
+		"Answers":
+		[
+			{
+				"Image": "Glycine.png",
+				"Text": "Glycine"
+			},
+			{
+				"Image": "Serine.png",
+				"Text": "Serine"
+			},
+			{
+				"Image": "Lysine.png",
+				"Text": "Lysine"
+			},
+			{
+				"Image": "Aspartic acid.png",
+				"Text": "Aspartic acid"
+			},
+			{
+				"Image": "Alanine.png",
+				"Text": "Alanine"
+			},
+			{
+				"Image": "Proline.png",
+				"Text": "Proline"
+			},
+			{
+				"Image": "Phenylalanine.png",
+				"Text": "Phenylalanine"
+			},
+			{
+				"Image": "Cysteine.png",
+				"Text": "Cysteine"
+			},
+		]
+	},
+	{
+		"Category": "Amino acids",
+		"Difficulty": "Easy",
+		"Question": "How many essential amino acids are there?",
+		"Answers":
+		[
+			{
+				"Text": "Nine",
+				"Score": "1"
+			},
+			{
+				"Text": "Eleven"
+			},
+			{
+				"Text": "Twenty"
+			},
+			{
+				"Text": "Thirteen"
+			},
+			{
+				"Text": "Six"
+			}
+		]
+	},
+	{
+		"Category": "Amino acids",
+		"Difficulty": "Easy",
+		"Question": "How many standard amino acids are used by humans to create proteins?",
+		"Answers":
+		[
+			{
+				"Text": "Twenty",
+				"Score": "1"
+			},
+			{
+				"Text": "Forty"
+			},
+			{
+				"Text": "Eleven"
+			},
+			{
+				"Text": "Thirteen"
+			},
+			{
+				"Text": "Twenty three"
+			}
+		]
+	},
+	{
+		"Category": "Amino acids",
+		"Difficulty": "Easy",
+		"Question": "What is the general structure of α-amino acids?",
+		"Answers":
+		[
+			{
+				"Text": "H\u2082NCHRCOOH",
+				"Score": "1"
+			},
+			{
+				"Text": "H\u2082NCHRCO\u2082"
+			},
+			{
+				"Text": "H\u2083N\u207ACHRCOO\u207B",
+				"Explanation": "This is the ionised (zwitterion) form of an amino acid."
+			},
+			{
+				"Text": "H\u2082NCHCOOH",
+				"Explanation": "The R group is missing from this answer."
+			},
+			{
+				"Text": "H\u2082NCRCOOH",
+				"Explanation": "A hydrogen is missing from this answer."
+			}
+		]
+	},
+	{
+		"Category": "Amino acids",
+		"Difficulty": "Medium",
+		"Question": "What type of amino acid isomers are generally found in life?",
+		"Answers":
+		[
+			{
+				"Text": "L isomers",
+				"Score": "1"
+			},
+			{
+				"Text": "D isomers"
+			},
+			{
+				"Text": "Cis isomers"
+			},
+			{
+				"Text": "Amino acids are achiral"
+			},
+			{
+				"Text": "Trans isomers"
+			},
+		]
+	},
+	{
+		"Category": "Amino acids",
+		"Difficulty": "Medium",
+		"Question": "Which amino acid is achiral (is not an enantiomer/optical isomer)?",
+		"Answers":
+		[
+			{
+				"Image": "Glycine.png",
+				"Text": "Glycine",
+				"Score": "1"
+			},
+			{
+				"Image": "Serine.png",
+				"Text": "Serine"
+			},
+			{
+				"Image": "Lysine.png",
+				"Text": "Lysine"
+			},
+			{
+				"Image": "Aspartic acid.png",
+				"Text": "Aspartic acid"
+			},
+			{
+				"Image": "Alanine.png",
+				"Text": "Alanine"
+			},
+		]
+	},
+	{
+		"Category": "Amino acids",
+		"Difficulty": "Easy",
+		"Question": "Peptides are formed by amino acids bonding with the carboxyl group of the N-terminal end.",
+		"Explanation": "Peptides are formed by amino acids bonding with the carboxyl group of the C-terminal end.",
+		"Answers":
+		[
+			{
+				"Text": "False",
+				"Score": ".5"
+			},
+			{
+				"Text": "True"
+			},
+		]
+	},
+	{
+		"Category": "Amino acids",
+		"Difficulty": "Easy",
+		"Question": "A zwitterion is a neutral molecule with positive and negative electrical charge regions.",
+		"Answers":
+		[
+			{
+				"Text": "True",
+				"Score": ".5"
+			},
+			{
+				"Text": "False"
+			},
+		]
+	},
+	{
+		"Category": "Amino acids",
+		"Difficulty": "Medium",
+		"Question": "The formation of a peptide bond between glycine (CH\u2082NH\u2082COOH) and alanine (CH\u2083CHNH\u2082COOH) creates what products?",
+		"Answers":
+		[
+			{
+				"Text": "Glycylalanine and water",
+				"Score": "1"
+			},
+			{
+				"Text": "Glycinalanine and water"
+			},
+			{
+				"Text": "Glycinalanine and carbon dioxide"
+			},
+			{
+				"Text": "Glycylalanine and ammonia"
+			},
+			{
+				"Text": "None of the above",
+				"IsLast": "true"
+			},
+		]
+	},
+	{
+		"Category": "Proteins",
+		"Difficulty": "Medium",
+		"KeyQuestion": "A protein's *answer text* can be described as __________.",
+		"ValueQuestion": "What is a protein structure that is *answer text* called?",
+		"KeyValue": "true",
+		"Answers":
+		[
+			{
+				"Key": "Primary structure",
+				"Text": "the amino acid sequence"
+			},
+			{
+				"Key": "Secondary structure",
+				"Text": "local structures stabilized by hydrogen bonds. E.g., α-helix, β-sheet and turns"
+			},
+			{
+				"Key": "Tertiary structure",
+				"Text": "characterised by a hydrophobic core, salt bridges, hydrogen and disulfide bonds"
+			},
+			{
+				"Key": "Quaternary structure",
+				"Text": "the structure formed by several polypeptide chains which function as a single protein complex"
+			}
+		]
+	},
+	{
+		"Category": "Proteins",
+		"Difficulty": "Easy",
+		"Question": "Protein creation occurs by: double-stranded DNA \u2192 translation \u2192 single-stranded messenger RNA \u2192 transcription \u2192 protein.",
+		"Explanation": "Protein creation occurs by: double-stranded DNA \u2192 transcription \u2192 single-stranded messenger RNA \u2192 translation \u2192 protein.",
+		"Answers":
+		[
+			{
+				"Text": "False",
+				"Score": ".5"
+			},
+			{
+				"Text": "True"
+			},
+		]
+	},
+	{
+		"Category": "Amino acids",
+		"Difficulty": "Easy",
+		"Question": "Peptide bonds are created by condensation or dehydration.",
+		"Answers":
+		[
+			{
+				"Text": "True",
+				"Score": ".5"
+			},
+			{
+				"Text": "False"
+			},
+		]
+	},
+	{
+		"Category": "Proteins",
+		"Difficulty": "Easy",
+		"KeyQuestion": "A class of proteins called *answer text* can be described as __________.",
+		"ValueQuestion": "What is the protein class where proteins are *answer text*?",
+		"KeyValue": "true",
+		"Answers":
+		[
+			{
+				"Key": "Globular proteins",
+				"Text": "spherical proteins that are water-soluble"
+			},
+			{
+				"Key": "Fibrous proteins",
+				"Text": "tough, typically inert and water-insoluble protein chains in fibers or sheets"
+			},
+			{
+				"Key": "Simple proteins",
+				"Text": "only amino acid residues"
+			},
+			{
+				"Key": "Conjugated proteins",
+				"Text": "one or more non-amino acid residues"
+			},
+			{
+				"Key": "Metalloproteins",
+				"Text": "proteins that contain a metal ion cofactor"
+			},
+		]
+	},
+	{
+		"Category": "Proteins",
+		"Difficulty": "Hard",
+		"Question": "α-helices and β-sheets are properties of what type of protein structure?",
+		"Answers":
+		[
+			{
+				"Text": "Secondary structure",
+				"Score": "1",
+				"Explanation": "The secondary structure is regularly repeating local structures stabilized by hydrogen bonds. E.g., α-helix, β-sheet and turns."
+			},
+			{
+				"Text": "Primary structure",
+				"Explanation": "The primary structure is the amino acid sequence."
+			},
+			{
+				"Text": "Tertiary structure",
+				"Explanation": "The tertiary structure is characterised by a hydrophobic core, salt bridges, hydrogen and disulfide bonds."
+			},
+			{
+				"Text": "Quaternary structure",
+				"Explanation": "The quaternary structure is formed by several polypeptide chains which function as a single protein complex."
+			},
+			{
+				"Text": "Quinary structure",
+				"Explanation": "Proteins do not have a quinary structure."
+			},
+		]
+	},
+	{
+		"Category": "Proteins",
+		"Difficulty": "Hard",
+		"Question": "What is the basic structural features of haemoglobin in humans?",
+		"Answers":
+		[
+			{
+				"Text": "Four globular protein subunits associated with a non-protein heme group.",
+				"Score": "1"
+			},
+			{
+				"Text": "Four fibrous protein subunits associated with a non-protein heme group."
+			},
+			{
+				"Text": "Two fibrous protein subunits associated with a protein heme group."
+			},
+			{
+				"Text": "Six globular protein subunits associated with a protein heme group."
+			},
+			{
+				"Text": "Six fibrous protein subunits associated with a non-protein heme group."
+			},
+		]
+	},
+	{
+		"Category": "Cells",
+		"Difficulty": "Medium",
+		"Question": "In which organelle will you find a convoluted inner membrane?",
+		"Explanation": "The innner membrane of the mitochondrion increases its surface area by folding back on itself into numerous cristae",
+		"Answers":
+		[
+			{
+				"Text": "Mitochondria",
+				"Score": "1"
+			},
+			{
+				"Text": "Nucleolus"
+			},
+			{
+				"Text": "Ribosomes"
+			},
+			{
+				"Text": "Centromere"
+			},
+			{
+				"Text": "Lysosomes"
+			},
+		]
+	},
+	{
+		"Category": "Cells",
+		"Difficulty": "Medium",
+		"Question": "Which of the following is the correct order when going from the smallest to the largest structure?",
+		"Answers":
+		[
+			{
+				"Text": "Building blocks, macromolecules, organelles, cells, tissues",
+				"Score": "1"
+			},
+			{
+				"Text": "Building blocks, cells, organelles, macromolecules, tissues"
+			},
+			{
+				"Text": "Macromolecules, building blocks, organelles, tissues, cells"
+			},
+			{
+				"Text": "Tissues, cells, organelles, macromolecules, building blocks"
+			},
+			{
+				"Text": "Cells, organelles, tissues, building blocks, macromolecules",
+				"Explanation": "This answer is ordered from largest to smallest structure."
+			},
+		]
+	},
+	{
+		"Category": "Cells",
+		"Difficulty": "Medium",
+		"Question": "Which of the following is considered to be the \"universal energy molecule\"?",
+		"Answers":
+		[
+			{
+				"Text": "Adenosine triphosphate",
+				"Score": "1"
+			},
+			{
+				"Text": "Adenosine monophosphate"
+			},
+			{
+				"Text": "Adenosine"
+			},
+			{
+				"Text": "Cytosine triphosphate"
+			},
+			{
+				"Text": "Cytosine monophosphate"
+			},
+		]
+	},
+	{
+		"Category": "Amino acids and proteins",
+		"Difficulty": "Medium",
+		"Question": "Which of the following is not involved in stabilisation of the protein 3-dimensional structure?",
+		"Answers":
+		[
+			{
+				"Text": "Peptide bonding",
+				"Score": "1",
+				"Explanation": "Peptide bondings form the primary structure."
+			},
+			{
+				"Text": "Disulphide bridges"
+			},
+			{
+				"Text": "Hydrogen bonding"
+			},
+			{
+				"Text": "Hydrophobic interaction"
+			},
+			{
+				"Text": "Electrostatic forces of attraction"
+			},
+		]
+	},
+	{
+		"Category": "Amino acids and proteins",
+		"Difficulty": "Medium",
+		"Question": "What kind of secondary protein structure will be formed if a sequence of amino acids bends back on itself and hydrogen bonds are formed between the pre-bend amino acids and the post-bend amino acids?",
+		"Answers":
+		[
+			{
+				"Text": "Anti-parallel beta-sheet",
+				"Score": "1"
+			},
+			{
+				"Text": "Parallel petide bond"
+			},
+			{
+				"Text": "Parallel beta-sheet"
+			},
+			{
+				"Text": "Parallel alpha-helix"
+			},
+			{
+				"Text": "Anti-parallel alpha-helix"
+			},
+		]
+	},
+	{
+		"Category": "Amino acids and proteins",
+		"Difficulty": "Hard",
+		"Question": "Which of the following amino acids contain sulphur?",
+		"Answers":
+		[
+			{
+				"Text": "Cysteine",
+				"Score": "1"
+			},
+			{
+				"Text": "Glutamic acid"
+			},
+			{
+				"Text": "Arginine"
+			},
+			{
+				"Text": "No amino acid contains sulphur"
+			},
+			{
+				"Text": "Methionine"
+			},
+		]
+	},
+	{
+		"Category": "Amino acids and proteins",
+		"Difficulty": "Medium",
+		"Question": "Which of the following statements best describes a peptide bond?",
+		"Answers":
+		[
+			{
+				"Text": "Condensation reaction between the amino group of one amino acid with the carboxylic acid group of another",
+				"Score": "1"
+			},
+			{
+				"Text": "Joining of proteins using the hydrogen groups in a quaternary structure"
+			},
+			{
+				"Text": "Hydration reaction between the carboxylic acid group of one amino acid and the amino group of another"
+			},
+			{
+				"Text": "Bond formed between the alpha-carbon of one amino acid with the polar R-group of another"
+			},
+			{
+				"Text": "Bond between the R-group of one amino acid with the R-group of another"
+			},
+		]
+	},
+	{
+		"Category": "Amino acids and proteins",
+		"Difficulty": "Hard",
+		"Question": "Which of the following amino acids causes bending of the protein chain?",
+		"Answers":
+		[
+			{
+				"Text": "Proline",
+				"Score": "1"
+			},
+			{
+				"Text": "Lysine"
+			},
+			{
+				"Text": "Arginine"
+			},
+			{
+				"Text": "No amino acid contains sulphur"
+			},
+			{
+				"Text": "Serine"
+			},
+		]
+	},
+	{
+		"Category": "Amino acids and proteins",
+		"Difficulty": "Hard",
+		"Question": "Disulphide bridges in proteins are formed between which amino acids?",
+		"Answers":
+		[
+			{
+				"Text": "Two cysteine residues",
+				"Score": "1"
+			},
+			{
+				"Text": "Arginine and glycine"
+			},
+			{
+				"Text": "Two glycine residues"
+			},
+			{
+				"Text": "Two arginine residues"
+			},
+			{
+				"Text": "Arginine and cysteine"
+			},
+		]
+	},
+	{
+		"Category": "Amino acids and proteins",
+		"Difficulty": "Medium",
+		"Question": "How many peptide bonds and amino acids will you find in a pentapeptide?",
+		"Answers":
+		[
+			{
+				"Text": "4 peptide bonds and 5 amino acids",
+				"Score": "1"
+			},
+			{
+				"Text": "5 peptide bonds and 5 amino acids"
+			},
+			{
+				"Text": "3 peptide bonds and 5 amino acids"
+			},
+			{
+				"Text": "5 peptide bonds and 4 amino acids"
+			},
+			{
+				"Text": "3 amino acids and 5 peptide bonds"
+			},
+		]
+	},
+	{
+		"Category": "Amino acids and proteins",
+		"Difficulty": "Medium",
+		"Question": "Which group of proteins are involved in helping other proteins fold into the correct 3-dimensional structure?",
+		"Answers":
+		[
+			{
+				"Text": "Chaperones",
+				"Score": "1"
+			},
+			{
+				"Text": "Hydrolases"
+			},
+			{
+				"Text": "Actins"
+			},
+			{
+				"Text": "Peptidases"
+			},
+			{
+				"Text": "Immunoglobulins"
+			},
+		]
+	},
+	{
+		"Category": "Enzymes",
+		"Difficulty": "Easy",
+		"Question": "Vitamins are apoenzymes.",
+		"Explanation": "Vitamins are coenzymes.",
+		"Answers":
+		[
+			{
+				"Text": "False",
+				"Score": "1"
+			},
+			{
+				"Text": "True"
+			}
+		]
+	},
+	{
+		"Category": "Enzymes",
+		"Difficulty": "Easy",
+		"Question": "Which of the following is the best definition of activation energy?",
+		"Answers":
+		[
+			{
+				"Text": "Energy required to achieve the transition state",
+				"Score": "1"
+			},
+			{
+				"Text": "Temperature required to start kinetic activity of substrates"
+			},
+			{
+				"Text": "Energy required for proximity and orientation of substrates"
+			},
+			{
+				"Text": "Energy expended during an exothermic reaction"
+			},
+			{
+				"Text": "Energy expended during an endothermic reaction"
+			},
+		]
+	},
+	{
+		"Category": "Enzymes",
+		"Difficulty": "Meidum",
+		"Question": "If the Km value is low then the affinity is high.",
+		"Answers":
+		[
+			{
+				"Text": "True",
+				"Score": "1"
+			},
+			{
+				"Text": "False"
+			}
+		]
+	},
+	{
+		"Category": "Enzymes",
+		"Difficulty": "Medium",
+		"Question": "If enzyme affinity for a substrate has decreased which parameter will change and how?",
+		"Answers":
+		[
+			{
+				"Text": "K\u2098 will increase",
+				"Score": "1"
+			},
+			{
+				"Text": "K\u2098 will decrease",
+				"Explanation": "A decrease in K\u2098 indicates an increase in affinity."
+			},
+			{
+				"Text": "V\u2098\u2090\u2093 will increase"
+			},
+			{
+				"Text": "V\u2080 will stay the same"
+			},
+			{
+				"Text": "V\u2098\u2090\u2093 will decrease"
+			},
+		]
+	},
+	{
+		"Category": "Enzymes",
+		"Difficulty": "Medium",
+		"Question": "Vitamin B1 is an example of which type of prosthetic group?",
+		"Answers":
+		[
+			{
+				"Text": "Coenzyme",
+				"Score": "1"
+			},
+			{
+				"Text": "Cofactor"
+			},
+			{
+				"Text": "Holoenzyme"
+			},
+			{
+				"Text": "Apoenzyme"
+			},
+			{
+				"Text": "Isomerase"
+			},
+		]
+	},
+	{
+		"Category": "Enzymes",
+		"Difficulty": "Medium",
+		"Question": "Which type of inhibitor can be overcome by increasing the substrate concentration?",
+		"Answers":
+		[
+			{
+				"Text": "Competitive",
+				"Score": "1"
+			},
+			{
+				"Text": "Incompetitive"
+			},
+			{
+				"Text": "Uncompetitive"
+			},
+			{
+				"Text": "Noncompetitive"
+			},
+			{
+				"Text": "Analogous"
+			},
+		]
+	},
+	{
+		"Category": "Enzymes",
+		"Difficulty": "Easy",
+		"Question": "If the final energy state of a reaction is less than the initial steady state what type of reaction is it?",
+		"Answers":
+		[
+			{
+				"Text": "Exothermic",
+				"Score": "1"
+			},
+			{
+				"Text": "Endothermic"
+			},
+			{
+				"Text": "Transition"
+			},
+			{
+				"Text": "Athermic"
+			},
+			{
+				"Text": "Polychromic"
+			},
+		]
+	},
+	{
+		"Category": "Enzymes",
+		"Difficulty": "Easy",
+		"Question": "Which type of amino acid is more predominant in the cleft of an enzyme?",
+		"Answers":
+		[
+			{
+				"Text": "Hydrophobic",
+				"Score": "1",
+				"Explanation": "By being hydrophobic, it excludes water and leaves space for the substrate."
+			},
+			{
+				"Text": "Hydrophilic"
+			},
+			{
+				"Text": "Transition"
+			},
+			{
+				"Text": "Athermic"
+			},
+			{
+				"Text": "Polychromic"
+			},
+		]
+	},
+	{
+		"Category": "Enzymes",
+		"Difficulty": "Easy",
+		"Question": "Which parameters are plotted on a Lineweaver-Burk plot?",
+		"Image": "Lineweaver-Burke plot - no labels on axes.png",
+		"Answers":
+		[
+			{
+				"Text": "1/[S] and 1/V\u2080",
+				"Score": "1"
+			},
+			{
+				"Text": "[S] and V\u2080"
+			},
+			{
+				"Text": "1/substrate concentration and 1/V\u2098\u2090\u2093"
+			},
+			{
+				"Text": "1/unit time and V\u2098\u2090\u2093"
+			},
+			{
+				"Text": "[S] and V\u2098\u2090\u2093"
+			},
+		]
+	},
+	{
+		"Category": "Enzymes",
+		"Difficulty": "Easy",
+		"KeyQuestion": "On a Michaelis-Menton plot, *answer text* can be defined as __________.",
+		"ValueQuestion": "On a Michaelis-Menton plot, *answer text* has which symbol?",
+		"KeyValue": "true",
+		"Answers":
+		[
+			{
+				"Key": "[S]",
+				"Text": "substrate concentration"
+			},
+			{
+				"Key": "V\u2098\u2090\u2093",
+				"Text": "maximum reaction velocity"
+			},
+			{
+				"Key": "V\u2080",
+				"Text": "(V\u2098\u2090\u2093 * [S]) / (K\u2098 + [S])"
+			},
+			{
+				"Key": "K\u2098",
+				"Text": "Michaelis constant affinity between enzyme and substrate",
+				"Explanation": "K\u2098 is found when V\u2098\u2090\u2093/2"
+			},
+		]
+	},
+	{
+		"Category": "Enzymes",
+		"Difficulty": "Medium",
+		"KeyQuestion": "Below are Lineweaver–Burk plots of different types of reversible enzyme inhibitors. The arrow shows the effect of increasing concentrations of inhibitor. Which plot can be described as *answer text*?",
+		"ValueQuestion": "The picture is a Lineweaver–Burk plot. The arrow shows the effect of increasing concentrations of inhibitor. What type of reversible enzyme inhibitor would produce this graph?",
+		"DynamicAnswer": "true",
+		"Answers":
+		[
+			{
+				"Image": "Competitive.png",
+				"Text": "Competitive"
+			},
+			{
+				"Image": "Non-competitive.png",
+				"Text": "Non-competitive"
+			},
+			{
+				"Image": "Uncompetitive.png",
+				"Text": "Uncompetitive"
+			},
+			{
+				"Image": "Mixed.png",
+				"Text": "Mixed"
+			}
+		]
+	},
+	{
+		"Category": "Enzymes",
+		"Difficulty": "Easy",
+		"Question": "Which of the following statements best describes the lock and key theory of enzyme specificity?",
+		"Answers":
+		[
+			{
+				"Text": "Shape and size of the binding site will only allow access to a specific substrate",
+				"Score": "1"
+			},
+			{
+				"Text": "Shape and size of the catalytic site will only allow access to a specific substrate"
+			},
+			{
+				"Text": "The catalytic site is able to change its shape slightly to fit the substrate"
+			},
+			{
+				"Text": "Shape and size of the binding site is able to change slightly in order to fit the substrate"
+			},
+			{
+				"Text": "None of the answers are correct",
+				"IsLast": "true"
+			},
+		]
+	},
+	{
+		"Category": "Enzymes",
+		"Difficulty": "Medium",
+		"Question": "Which type of inhibitor would be present if V\u2098\u2090\u2093 is decreased and K\u2098 remains the same on addition of the inhibitor?",
+		"Answers":
+		[
+			{
+				"Text": "Noncompetitive",
+				"Score": "1"
+			},
+			{
+				"Text": "Competitive",
+				"Explanation": "V\u2098\u2090\u2093 remains the same and K\u2098 increases for competitive inhibitors"
+			},
+			{
+				"Text": "Uncompetitive"
+			},
+			{
+				"Text": "Analogous"
+			},
+			{
+				"Text": "Mixed"
+			},
+		]
+	},
+	{
+		"Category": "Enzymes",
+		"Difficulty": "Medium",
+		"Question": "Which of the following options will increase enzyme activity until a certain point and then there is a rapid loss of activity?",
+		"Answers":
+		[
+			{
+				"Text": "Temperature",
+				"Score": "1",
+				"Explanation": "A point will be reached at which the thermal energy disrupt the hydrogen bonds and denatures the enzyme."
+			},
+			{
+				"Text": "pH"
+			},
+			{
+				"Text": "Ionic concentration"
+			},
+			{
+				"Text": "Hydrogen ion concentration"
+			},
+			{
+				"Text": "Concentration of substrate"
+			},
+		]
+	},
+	{
+		"Category": "Enzymes",
+		"Difficulty": "Hard",
+		"Question": "Which of the following claims about non-competitive inhibitor enzymes is not correct?",
+		"Answers":
+		[
+			{
+				"Text": "Only binds to enzyme-substrate complex",
+				"Score": "1"
+			},
+			{
+				"Text": "Different structure to substrate"
+			},
+			{
+				"Text": "Does not bind to active site"
+			},
+			{
+				"Text": "Binds equally to free enzyme or enzyme-substrate complex"
+			},
+			{
+				"Text": "All of the above are correct",
+				"IsLast": "true"
+			},
+		]
+	},
+	{
+		"Category": "Enzymes",
+		"Difficulty": "Hard",
+		"Question": "Which of the following claims about uncompetitive inhibitor enzymes is not correct?",
+		"Answers":
+		[
+			{
+				"Text": "Binds equally to free enzyme or enzyme-substrate complex",
+				"Score": "1"
+			},
+			{
+				"Text": "Different structure to substrate"
+			},
+			{
+				"Text": "Only binds to enzyme-substrate complex"
+			},
+			{
+				"Text": "Substrate required for inhibition"
+			},
+			{
+				"Text": "All of the above are correct",
+				"IsLast": "true"
+			},
+		]
+	},
+	{
+		"Category": "Enzymes",
+		"Difficulty": "Easy",
+		"Question": "Which of the following is not an inhibitor enzymes?",
+		"Answers":
+		[
+			{
+				"Text": "Hyper-competitive",
+				"Score": "1"
+			},
+			{
+				"Text": "Competitive"
+			},
+			{
+				"Text": "Non-competitive"
+			},
+			{
+				"Text": "Uncompetitive"
+			},
+			{
+				"Text": "All are inhibitor enzymes",
+				"IsLast": "true"
+			},
+		]
+	},
+	{
+		"Category": "Enzymes",
+		"Difficulty": "Medium",
+		"Question": "Identify the Lineweaver-Burke plot.",
+		"Answers":
+		[
+			{
+				"Image": "Lineweaver-Burke plot.png",
+				"Score": "1"
+			},
+			{
+				"Image": "Michaelis-Menten saturation curve of an enzyme reaction.png"
+			},
+			{
+				"Image": "Hanes-Woolf plot.png"
+			},
+			{
+				"Text": "None of these is a Lineweaver-Burke plot",
+				"IsLast": "true"
+			},
+		]
+	},
+	{
+		"Category": "Nucleic acids",
+		"Difficulty": "Medium",
+		"Question": "Adenosine bonded with ribose is a type of:",
+		"Answers":
+		[
+			{
+				"Text": "None of the above",
+				"Score": "1",
+				"Explanation": "A nucleic acid with ribose bond group is called a nucleoside.",
+				"IsLast": "true"
+			},
+			{
+				"Text": "Nucleic acid"
+			},
+			{
+				"Text": "Nucleotide"
+			},
+			{
+				"Text": "Nucleosome"
+			},
+			{
+				"Text": "Energy molecule"
+			},
+		]
+	},
+	{
+		"Category": "Nucleic acids",
+		"Difficulty": "Easy",
+		"Question": "When building DNA, bonding occurs at the 3'-end of the nucleotide.",
+		"Answers":
+		[
+			{
+				"Text": "True",
+				"Score": "0.5"
+			},
+			{
+				"Text": "False"
+			}
+		]
+	},
+	{
+		"Category": "Nucleic acids",
+		"Difficulty": "Easy",
+		"Question": "How many nucleotide base pairs code of a codon?",
+		"Answers":
+		[
+			{
+				"Text": "Three",
+				"Score": "1"
+			},
+			{
+				"Text": "Two"
+			},
+			{
+				"Text": "Four"
+			},
+			{
+				"Text": "Twenty"
+			},
+			{
+				"Text": "None of the above",
+				"IsLast": "true"
+			},
+		]
+	},
+	{
+		"Category": "Nucleic acids",
+		"Difficulty": "Easy",
+		"Question": "How many hydrogen bonds can there be between guanine and cytosine?",
+		"Answers":
+		[
+			{
+				"Text": "Three",
+				"Score": "1"
+			},
+			{
+				"Text": "Two"
+			},
+			{
+				"Text": "Four"
+			},
+			{
+				"Text": "Twenty"
+			},
+			{
+				"Text": "None of the above",
+				"IsLast": "true"
+			},
+		]
+	},
+	{
+		"Category": "Nucleic acids",
+		"Difficulty": "Easy",
+		"Question": "There are two types of nucleic acid. The two-ringed pyrimidines and single ringed purines.",
+		"Explanation": "Purines have two rings. Pyrimidines are single ringed.",
+		"Answers":
+		[
+			{
+				"Text": "False",
+				"Score": "0.5"
+			},
+			{
+				"Text": "True"
+			}
+		]
+	},
+	{
+		"Category": "Nucleic acids",
+		"Difficulty": "Medium",
+		"Question": "Thymine is a purine molecule.",
+		"Explanation": "Thymine has a single ring. It is a pyrimidine molecule.",
+		"Image": "Thymine.png",
+		"Answers":
+		[
+			{
+				"Text": "False",
+				"Score": "0.5"
+			},
+			{
+				"Text": "True"
+			}
+		]
+	},
+	{
+		"Category": "Nucleic acids",
+		"Difficulty": "Easy",
+		"Question": "Which nucleic acid does not form part of a DNA molecule?",
+		"Answers":
+		[
+			{
+				"Image": "Uracil.png",
+				"Text": "Uracil",
+				"Score": "1"
+			},
+			{
+				"Image": "Thymine.png",
+				"Text": "Thymine"
+			},
+			{
+				"Image": "Adenine.png",
+				"Text": "Adenine"
+			},
+			{
+				"Image": "Guanine.png",
+				"Text": "Guanine"
+			},
+			{
+				"Image": "Cytosine.png",
+				"Text": "Cytosine"
+			},
+		]
+	},
+	{
+		"Category": "Nucleic acids",
+		"Difficulty": "Easy",
+		"Question": "Which nucleic acid does not form part of a RNA molecule?",
+		"Answers":
+		[
+			{
+				"Image": "Thymine.png",
+				"Text": "Thymine",
+				"Score": "1"
+			},
+			{
+				"Image": "Uracil.png",
+				"Text": "Uracil"
+			},
+			{
+				"Image": "Adenine.png",
+				"Text": "Adenine"
+			},
+			{
+				"Image": "Guanine.png",
+				"Text": "Guanine"
+			},
+			{
+				"Image": "Cytosine.png",
+				"Text": "Cytosine"
+			},
+		]
+	},
+	{
+		"Category": "Nucleic acids",
+		"Difficulty": "Medium",
+		"Question": "Which of the following is a nucleoside triphosphate energy molecule?",
+		"Answers":
+		[
+			{
+				"Text": "All of the above",
+				"Score": "1",
+				"IsLast": "true"
+			},
+			{
+				"Text": "ATP"
+			},
+			{
+				"Text": "GTP"
+			},
+			{
+				"Text": "CTP"
+			},
+			{
+				"Text": "UTP"
+			},
+		]
+	},
+	{
+		"Category": "Nucleic acids",
+		"Difficulty": "Medium",
+		"Question": "Guanine-cytosine regions of DNA are weaker bonds because:",
+		"Answers":
+		[
+			{
+				"Text": "None of the above; guanine-cytosine regions are stronger",
+				"Score": "1",
+				"IsLast": "true"
+			},
+			{
+				"Text": "It has two hydrogen bonds"
+			},
+			{
+				"Text": "It has three hydrogen bonds"
+			},
+			{
+				"Text": "It bonds two pyrimidine molecules"
+			},
+			{
+				"Text": "It bonds two purine molecules"
+			},
+		]
+	},
+	{
+		"Category": "Nucleic acids",
+		"Difficulty": "Hard",
+		"Question": "How many codon permutations are there? How many are not redundant?",
+		"Answers":
+		[
+			{
+				"Text": "64; 21",
+				"Score": "1",
+				"Explanation": "4\u00B3 = 64 (number of nucleic acids to the power of the number of nucleotides in a codon). 20 codons code for the 20 amino acids. 1 codon codes for the stop codon."
+			},
+			{
+				"Text": "32; 20"
+			},
+			{
+				"Text": "64; 20"
+			},
+			{
+				"Text": "81; 21"
+			},
+			{
+				"Text": "21; 64"
+			},
+		]
+	},
+	{
+		"Category": "Nucleic acids",
+		"Difficulty": "Medium",
+		"Question": "What is the function of a stop codon?",
+		"Answers":
+		[
+			{
+				"Text": "It marks the end of a protein",
+				"Score": "1"
+			},
+			{
+				"Text": "It marks the end of an amino acid"
+			},
+			{
+				"Text": "It marks the end of a chromosome"
+			},
+			{
+				"Text": "It marks the start of an amino acid"
+			},
+			{
+				"Text": "None of the above",
+				"IsLast": "true"
+			},
+		]
+	},
+	{
+		"Category": "Nucleic acids",
+		"Difficulty": "Hard",
+		"Question": "Which amino acid is always the start codon of a protein in a mRNA sequence?",
+		"Answers":
+		[
+			{
+				"Image": "Methionine.png",
+				"Text": "Methionine",
+				"Score": "1",
+				"Explanation": "The start codon, as a sequence of nucleic acids, is AUG (or ATG in DNA)."
+			},
+			{
+				"Image": "Lysine.png",
+				"Text": "Lysine"
+			},
+			{
+				"Image": "Proline.png",
+				"Text": "Proline"
+			},
+			{
+				"Image": "Cysteine.png",
+				"Text": "Cysteine"
+			},
+			{
+				"Text": "None of these molecules",
+				"IsLast": "true"
+			},
+		]
+	},
+	{
+		"Category": "Nucleic acids",
+		"Difficulty": "Hard",
+		"Question": "Which amino acid always acts as the end codon of a protein in a mRNA sequence?",
+		"Explanation": "The end codon (UAG, UAA and UGA in RNA; TAG, TAG and TGA in DNA) codes for selenocysteine, the 21st proteinogenic amino acid.",
+		"Answers":
+		[
+			{
+				"Text": "None of these molecules",
+				"Score": "1",
+				"IsLast": "true"
+			},
+			{
+				"Image": "Alanine.png",
+				"Text": "Alanine"
+			},
+			{
+				"Image": "Proline.png",
+				"Text": "Proline"
+			},
+			{
+				"Image": "Lysine.png",
+				"Text": "Lysine"
+			},
+			{
+				"Image": "Serine.png",
+				"Text": "Serine"
+			},
+		]
+	},
+	{
+		"Category": "Nucleic acids",
+		"Difficulty": "Medium",
+		"Question": "What is the sequence of nucleic acids in mRNA that acts as the start codon?",
+		"Answers":
+		[
+			{
+				"Text": "AUG",
+				"Score": "1"
+			},
+			{
+				"Text": "UAA",
+				"Explanation": "This is a stop codon in RNA."
+			},
+			{
+				"Text": "ATG",
+				"Explanation": "This is the start codon in DNA."
+			},
+			{
+				"Text": "TAG",
+				"Explanation": "This is a stop codon in DNA."
+			},
+			{
+				"Text": "UGA",
+				"Explanation": "This is a stop codon in RNA."
+			},
+			
+		]
+	},
+	{
+		"Category": "Nucleic acids",
+		"Difficulty": "Medium",
+		"Question": "Which molecule brings amino acids to the ribosome during translation?",
+		"Answers":
+		[
+			{
+				"Text": "tRNA",
+				"Score": "1"
+			},
+			{
+				"Text": "cRNA"
+			},
+			{
+				"Text": "rRNA"
+			},
+			{
+				"Text": "mRNA"
+			},
+			{
+				"Text": "RNA polymerase"
+			},
+		]
+	},
+	{
+		"Category": "Nucleic acids",
+		"Difficulty": "Medium",
+		"Question": "Which nucleic acids have a two ring structure?",
+		"Answers":
+		[
+			{
+				"Text": "Guanine and adenine",
+				"Score": "1",
+				"Explanation": "Guanine and adenine are purines. Cytosine, thymine and uracil are pyrimidines."
+			},
+			{
+				"Text": "Adenine and thymine"
+			},
+			{
+				"Text": "Cytosine and uracil"
+			},
+			{
+				"Text": "Uracil and thymine"
+			},
+			{
+				"Text": "Cytosine and adenine"
+			},
+		]
+	},
+	{
+		"Category": "Nucleic acids",
+		"Difficulty": "Medium",
+		"Question": "Transcription is dependent on which enzyme complex?",
+		"Answers":
+		[
+			{
+				"Text": "RNA polymerase",
+				"Score": "1"
+			},
+			{
+				"Text": "DNA polymersase"
+			},
+			{
+				"Text": "RNA deoxyreductase"
+			},
+			{
+				"Text": "DNA deoxyreductase"
+			},
+			{
+				"Text": "None of the above",
+				"IsLast": "true"
+			},
+		]
+	},
+	{
+		"Category": "Nucleic acids",
+		"Difficulty": "Easy",
+		"Question": "Which 4 nucleic acids are used in DNA?",
+		"Answers":
+		[
+			{
+				"Text": "AGTC",
+				"Score": "1"
+			},
+			{
+				"Text": "AGCU"
+			},
+			{
+				"Text": "AGTU"
+			},
+			{
+				"Text": "GCTU"
+			},
+			{
+				"Text": "GCUA"
+			},
+		]
+	},
+	{
+		"Category": "Nucleic acids",
+		"Difficulty": "Medium",
+		"Question": "Which order does tRNA move through the ribosome during translation?",
+		"Answers":
+		[
+			{
+				"Text": "A,P,E",
+				"Score": "1",
+				"Explanation": "Acyl binding, peptidyl transfer and finally exit"
+			},
+			{
+				"Text": "A,E,P"
+			},
+			{
+				"Text": "E,A,P"
+			},
+			{
+				"Text": "P,A,E"
+			},
+			{
+				"Text": "P,E,A"
+			},
+		]
+	},
+	{
+		"Category": "Nucleic acids",
+		"Difficulty": "Easy",
+		"Question": "Which sugar is used to link nucleic acids in mRNA?",
+		"Answers":
+		[
+			{
+				"Text": "Ribose",
+				"Score": "1"
+			},
+			{
+				"Text": "Glucoribose"
+			},
+			{
+				"Text": "Deoxyglucose"
+			},
+			{
+				"Text": "Glucose"
+			},
+			{
+				"Text": "Deoxyribose"
+			},
+		]
+	},
+	{
+		"Category": "Nucleic acids",
+		"Difficulty": "Medium",
+		"Question": "Which protein can double-stranded DNA (dsDNA) be wound around to assist in packaging into the nucleus?",
+		"Answers":
+		[
+			{
+				"Text": "Histone",
+				"Score": "1"
+			},
+			{
+				"Text": "Albumin"
+			},
+			{
+				"Text": "Myosin"
+			},
+			{
+				"Text": "RNA primer"
+			},
+			{
+				"Text": "Transferin"
+			},
+		]
+	},
+	{
+		"Category": "Nucleic acids",
+		"Difficulty": "Hard",
+		"Question": "Which molecule is released when 2 nucleic acids are joined together?",
+		"Answers":
+		[
+			{
+				"Text": "Pyrophosphate",
+				"Score": "1",
+				"Explanation": "The anion, salts, and esters of pyrophosphoric acid are called pyrophosphates. Any salt or ester containing two phosphate groups is called a diphosphate."
+			},
+			{
+				"Text": "Phosphoribose"
+			},
+			{
+				"Text": "Diphosphoribose"
+			},
+			{
+				"Text": "Monophosphate"
+			},
+			{
+				"Text": "Triphosphate"
+			},
+		]
+	},
+	{
+		"Category": "Nucleic acids",
+		"Difficulty": "Medium",
+		"Question": "Which pair of nucleic acid bases is joined by 3 hydrogen bonds?",
+		"Answers":
+		[
+			{
+				"Text": "G-C",
+				"Score": "1"
+			},
+			{
+				"Text": "G-T"
+			},
+			{
+				"Text": "A-C"
+			},
+			{
+				"Text": "G-U"
+			},
+			{
+				"Text": "A-T"
+			},
+		]
+	},
+	{
+		"Category": "Nucleic acids",
+		"Difficulty": "Easy",
+		"Question": "The exon region of DNA remains present within the final mature RNA after RNA splicing.",
+		"Explanation": "Exons remain while introns are removed by RNA splicing.",
+		"Answers":
+		[
+			{
+				"Text": "True",
+				"Score": "0.5"
+			},
+			{
+				"Text": "False"
+			}
+		]
+	},
+	{
+		"Category": "Nucleic acids",
+		"Difficulty": "Hard",
+		"KeyQuestion": "What is the feature with label \"*answer text*\" on the picture of DNA replication?",
+		"ValueQuestion": "Identify the *answer text* on the picture of DNA replication.",
+		"KeyValue": "true",
+		"MaxNumberOfAnswers": "5",
+		"Image": "DNA replication.png",
+		"Answers":
+		[
+			{
+				"Key": "A",
+				"Text": "Topoisomerase"
+			},
+			{
+				"Key": "B",
+				"Text": "Single-strand binding proteins"
+			},
+			{
+				"Key": "C",
+				"Text": "Helicase"
+			},
+			{
+				"Key": "D",
+				"Text": "DNA-polymerase (Polδ)"
+			},
+			{
+				"Key": "E",
+				"Text": "DNA-polymerase (Polα)"
+			},
+			{
+				"Key": "F",
+				"Text": "DNA-ligase"
+			},
+			{
+				"Key": "G",
+				"Text": "Okazaki fragment"
+			},
+			{
+				"Key": "H",
+				"Text": "RNA primer"
+			},
+			{
+				"Key": "I",
+				"Text": "DNA primase"
+			},
+		]
+	},
+	{
+		"Category": "Nucleic acids",
+		"Difficulty": "Medium",
+		"Question": "A silent mutation is a mutation where a codon that translates for an amino acid still translates for that amino acid after the mutation.",
+		"Answers":
+		[
+			{
+				"Text": "True",
+				"Score": "0.5"
+			},
+			{
+				"Text": "False"
+			}
+		]
+	},
+	{
+		"Category": "Protein separation",
+		"Difficulty": "Medium",
+		"Question": "Which of the following is required to separate a specific protein by affinity chromatography?",
+		"Answers":
+		[
+			{
+				"Text": "Ligand",
+				"Score": "1",
+				"Explanation": "Ligands are molecules that will recognise only one specific protein and bind it to the column while all other proteins are eluted off the column."
+			},
+			{
+				"Text": "Gel with the correct pore size"
+			},
+			{
+				"Text": "Anionic resin"
+			},
+			{
+				"Text": "High electrical current"
+			},
+			{
+				"Text": "Density gradient"
+			},
+		]
+	},
+	{
+		"Category": "Protein separation",
+		"Difficulty": "Medium",
+		"Question": "To concentrate a protein solution which of the following will be the most effective?",
+		"Answers":
+		[
+			{
+				"Text": "Use a high concentration sucrose solution on the opposite site of a water permeable membrane to the protein solution",
+				"Score": "1"
+			},
+			{
+				"Text": "Add the protein solution to one side of an impermeable membrane and weak solution of sucrose on the other side"
+			},
+			{
+				"Text": "Add a high concentration of sucrose molecules to the protein solution on the opposite side of a water permeable membrane to a given volume of water"
+			},
+			{
+				"Text": "Add the protein solution to one side of a membrane with pours large enough to allow proteins to fit through and an equal volume of water on the other side"
+			},
+			{
+				"Text": "Place the protein solution on one side of a protein permeable membrane and a sucrose solution on the other"
+			},
+		]
+	},
+	{
+		"Category": "Protein separation",
+		"Difficulty": "Medium",
+		"Question": "Why is sodium dodecyl sulphate added to a protein mixture?",
+		"Answers":
+		[
+			{
+				"Text": "Breaks 2° and 3° structure and allows separation of protein by size and charge density",
+				"Score": "1"
+			},
+			{
+				"Text": "To stabilise the secondary structures so that alpha helical structures can be visualised"
+			},
+			{
+				"Text": "Control the pH of the mobile phase"
+			},
+			{
+				"Text": "Breaks peptide bonds so that Edman sequence analysis can be performed",
+				"Explanation": "SDS does not break the peptide bonds"
+			},
+			{
+				"Text": "None of the above",
+				"IsLast": "true"
+			},
+		]
+	},
+	{
+		"Category": "Protein separation",
+		"Difficulty": "Medium",
+		"Question": "Which two principles are commonly used in 2-dimensional electrophoresis? The picture displays the results of these approaches.",
+		"Image": "2D gel electrophoresis.jpg",
+		"Answers":
+		[
+			{
+				"Text": "None of the above",
+				"Score": "1",
+				"IsLast": "true",
+				"Explanation": "The two principles commonly used are isoelectric focusing and SDS-PAGE"
+			},
+			{
+				"Text": "Isoelectric focusing and ion-exchange"
+			},
+			{
+				"Text": "Edman degradation and SDS-PAGE"
+			},
+			{
+				"Text": "Affinity binding and ion-exchange"
+			},
+			{
+				"Text": "Isoelectric focusing and affinity binding"
+			},
+			
+		]
+	},
+	{
+		"Category": "Protein separation",
+		"Difficulty": "Medium",
+		"Question": "\"The mixture to be separated is spotted and allowed to impregnate the stationary phase before being placed in a solution of mobile phase. The mobile phase is then allowed to move through the stationary phase and the different solute particles able to partition and separate. When the separation is complete the spots can be located and identified.\"\r\n\r\nWhich technique is being described?",
+		"Answers":
+		[
+			{
+				"Text": "Thin layer chromatography",
+				"Score": "1"
+			},
+			{
+				"Text": "Ion-exchange chromatography"
+			},
+			{
+				"Text": "High pressure liquid chromatography"
+			},
+			{
+				"Text": "Gel filtration chromatography"
+			},
+			{
+				"Text": "Affinity chromatography"
+			},
+			
+		]
+	},
+	{
+		"Category": "Protein separation",
+		"Difficulty": "Easy",
+		"Question": "Sephadex beads are used in which separation technique?",
+		"Answers":
+		[
+			{
+				"Text": "Gel filtration chromatography",
+				"Score": "1"
+			},
+			{
+				"Text": "Ultracentrifugation"
+			},
+			{
+				"Text": "Electrophoresis"
+			},
+			{
+				"Text": "Ultrasonic disruption"
+			},
+			{
+				"Text": "HPLC"
+			},
+		]
+	},
+	{
+		"Category": "Protein separation",
+		"Difficulty": "Easy",
+		"Question": "Which of the following is classified as biological method of cell disruption?",
+		"Answers":
+		[
+			{
+				"Text": "Lytic enzymes",
+				"Score": "1"
+			},
+			{
+				"Text": "Ultrasonics"
+			},
+			{
+				"Text": "Pressure homogeniser"
+			},
+			{
+				"Text": "Freeze thawing"
+			},
+			{
+				"Text": "Mortar and pestle"
+			},
+		]
+	},
+	{
+		"Category": "Protein separation",
+		"Difficulty": "Easy",
+		"Question": "Which method of cell disruption physically put holes in the cell membrane?",
+		"Answers":
+		[
+			{
+				"Text": "Freeze thawing ",
+				"Score": "1"
+			},
+			{
+				"Text": "Ultrasonics"
+			},
+			{
+				"Text": "Blender"
+			},
+			{
+				"Text": "High pressure homogeniser"
+			},
+			{
+				"Text": "Mortar and pestle"
+			},
+		]
+	},
+	{
+		"Category": "Protein separation",
+		"Difficulty": "Easy",
+		"Question": "What is not a technique that can be used for peptide sequencing?",
+		"Answers":
+		[
+			{
+				"Text": "Electrophoresis",
+				"Score": "1"
+			},
+			{
+				"Text": "Mass spectrometry"
+			},
+			{
+				"Text": "Edman degradation"
+			},
+			{
+				"Text": "Prediction via DNA/RNA sequences"
+			},
+			{
+				"Text": "None of the above. All techniques can be used for peptide sequencing.",
+				"IsLast": "true"
+			},
+		]
+	},
+	{
+		"Category": "Protein separation",
+		"Difficulty": "Easy",
+		"Question": "What is not an example of column chromatography?",
+		"Answers":
+		[
+			{
+				"Text": "Thin layer chromatography",
+				"Score": "1"
+			},
+			{
+				"Text": "Gel filtration"
+			},
+			{
+				"Text": "Ion-exchange"
+			},
+			{
+				"Text": "Affinity"
+			},
+			{
+				"Text": "None of the above. All techniques are examples of column chromatography.",
+				"IsLast": "true"
+			},
+		]
+	},
+	{
+		"Category": "Protein separation",
+		"Difficulty": "Easy",
+		"Question": "The diagram illustrates the theory of a type of chromatography. What type of chromatography is this?",
+		"Image": "Gel filtration.png",
+		"Answers":
+		[
+			{
+				"Text": "Gel filtration",
+				"Score": "1"
+			},
+			{
+				"Text": "Thin layer chromatography"
+			},
+			{
+				"Text": "Ion-exchange"
+			},
+			{
+				"Text": "Affinity"
+			},
+			{
+				"Text": "Isoelectric focusing",
+				"Explanation": "Isoelectric focusing is a type of electrophoresis."
+			},
+		]
+	},
+	{
+		"Category": "Protein separation",
+		"Difficulty": "Easy",
+		"Question": "The image is a picture of a machine that performs what type of homogenisation?",
+		"Image": "Ultrasonic homogeniser.png",
+		"Answers":
+		[
+			{
+				"Text": "Ultrasonic",
+				"Score": "1"
+			},
+			{
+				"Text": "Pressure"
+			},
+			{
+				"Text": "Osmotic shock"
+			},
+			{
+				"Text": "Electrophoresis",
+				"Explanation": "Electrophoresis is not a form of homogenisation."
+			},
+			{
+				"Text": "Dialysis"
+			},
+		]
+	},
+	{
+		"Category": "Protein separation",
+		"Difficulty": "Easy",
+		"Question": "Which is not a step in the process of protein separation and characterisation?",
+		"Answers":
+		[
+			{
+				"Text": "All of the above are steps in the process of protein separation and characterisation",
+				"Score": "1",
+				"IsLast": "true"
+			},
+			{
+				"Text": "Protein purification"
+			},
+			{
+				"Text": "Homogenisation"
+			},
+			{
+				"Text": "Electrophoresis"
+			},
+			{
+				"Text": "Protein sequencing"
+			},
+		]
+	},
+	{
+		"Category": "Enzymes",
+		"Difficulty": "Medium",
+		"Question": "What are the parameters of the x and y axes of a Michaelis-Menten plot?",
+		"Image": "Michaelis-Menten saturation curve of an enzyme reaction - no labels on axes.png",
+		"Answers":
+		[
+			{
+				"Text": "Reaction rate and substrate concentration",
+				"Score": "1"
+			},
+			{
+				"Text": "1/[S] and 1/V\u2080"
+			},
+			{
+				"Text": "[S] and time"
+			},
+			{
+				"Text": "[S] and V\u2080"
+			},
+			{
+				"Text": "Reaction rate and V\u2080"
+			},
+		]
+	},
+]

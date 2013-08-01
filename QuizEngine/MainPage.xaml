@@ -1,0 +1,221 @@
+﻿<common:LayoutAwarePage
+    x:Class="QuizEngine.MainPage"
+    DataContext="{Binding DefaultViewModel, RelativeSource={RelativeSource Self}}"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:QuizEngine"
+    xmlns:common="using:QuizEngine.Common"
+    xmlns:controls="using:QuizEngine.Controls" 
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Page.BottomAppBar>
+        <AppBar x:Name="globalAppBar" IsSticky="True">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <!-- Panel for contextual commands, populated by the actve gesture page (see GesturePageBase.Selected) -->
+                <StackPanel x:Name="contextualItemsPanel" Grid.Column="0" Orientation="Horizontal" HorizontalAlignment="Left"/>
+
+                <!-- Panel for non contextual commands, populated by the actve gesture page (see GesturePageBase.Selected) -->
+                <StackPanel x:Name="nonContextualItemsPanel" Grid.Column="1" Orientation="Horizontal" HorizontalAlignment="Right"/>
+            </Grid>
+        </AppBar>
+    </Page.BottomAppBar>
+
+    <Page.Resources>
+        <CollectionViewSource x:Name="gesturesViewSource"/>
+    </Page.Resources>
+
+    <Grid>
+        
+        <Grid.Background>
+            <ImageBrush x:Name="BackImage" Stretch="Uniform" AlignmentY="Top" AlignmentX="Right" Opacity="0.5" />
+        </Grid.Background>
+        
+        <SemanticZoom
+            x:Name="semanticZoom"
+            IsZoomedInViewActive="True"
+            ViewChangeStarted="OnViewChangeStarted"
+            ViewChangeCompleted="OnViewChangeCompleted">
+
+            <SemanticZoom.ZoomedOutView>
+                <GridView
+                    x:Name="zoomedOutGridView"
+                    ItemsSource="{Binding Source={StaticResource gesturesViewSource}}"
+                    ScrollViewer.VerticalScrollMode="Enabled"
+                    ScrollViewer.IsHorizontalScrollChainingEnabled="False"
+                    IsItemClickEnabled="True"
+                    IsSwipeEnabled="False"
+                    SelectionMode="None"
+                    VerticalAlignment="Stretch">
+
+                    <GridView.ItemContainerStyle>
+                        <Style TargetType="GridViewItem">
+                            <Setter Property="Width" Value="175"/>
+                            <Setter Property="Height" Value="175"/>
+                        </Style>
+                    </GridView.ItemContainerStyle>
+
+                    <GridView.ItemsPanel>
+                        <ItemsPanelTemplate>
+                            <WrapGrid Orientation="Horizontal" Margin="40"/>
+                        </ItemsPanelTemplate>
+                    </GridView.ItemsPanel>
+
+                    <GridView.ItemTemplate>
+                        <DataTemplate>
+                            <Grid HorizontalAlignment="Center">
+
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="*"/>
+                                    <RowDefinition Height="*"/>
+                                    <RowDefinition Height="*"/>
+                                </Grid.RowDefinitions>
+
+                                <!--<Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="*"/>
+                                </Grid.ColumnDefinitions>-->
+
+                                <Border
+                                    Grid.Row="1"
+                                    BorderThickness="5"
+                                    />
+
+                                <Image
+                                    Grid.Row="0"
+                                    Source="{Binding ZoomedOutImage}"
+                                    Stretch="Uniform"
+                                    VerticalAlignment="Top"
+                                    />
+
+                                <TextBlock
+                                    Grid.Row="2" 
+                                    Text="{Binding Id}" 
+                                    Style="{StaticResource AppTitleTextStyle}"
+                                    FontSize="32"
+                                    HorizontalAlignment="Center"
+                                    TextAlignment="Center"
+                                    VerticalAlignment="Bottom"
+                                    FontWeight="Bold"
+                                    />
+
+                            </Grid>
+                        </DataTemplate>
+                    </GridView.ItemTemplate>
+                </GridView>
+            </SemanticZoom.ZoomedOutView>
+
+            <SemanticZoom.ZoomedInView>
+                <controls:SemanticFlipView
+                    x:Name="zoomedInFlipView"
+                    ItemsSource="{Binding Source={StaticResource gesturesViewSource}}"
+                    ScrollViewer.IsHorizontalScrollChainingEnabled="False"
+                    AutomationProperties.AutomationId="ZoomedInView"
+                    AutomationProperties.Name="Zoomed-in View"
+                    SelectionChanged="OnSelectionChanged"
+                    >
+
+                    <!--<FlipView.ItemContainerStyle>
+                        <Style TargetType="FlipViewItem">
+                            <Setter Property="Margin" Value="100,0,100,75"/>
+                        </Style>
+                    </FlipView.ItemContainerStyle>-->
+
+                    <FlipView.ItemsPanel>
+                        <ItemsPanelTemplate>
+                            <StackPanel Orientation="Horizontal"/>
+                        </ItemsPanelTemplate>
+                    </FlipView.ItemsPanel>
+
+                    <FlipView.ItemTemplate>
+                        <DataTemplate>
+                            <UserControl TabNavigation="Cycle">
+                                <Grid>
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="*"/>
+                                        <RowDefinition Height="Auto"/>
+                                        <RowDefinition Height="*"/>
+                                        <RowDefinition Height="20*"/>
+                                        <RowDefinition Height="*"/>
+                                        <RowDefinition Height="35*"/>
+                                        <RowDefinition Height="*"/>
+                                        
+                                    </Grid.RowDefinitions>
+
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="*"/>
+                                        <ColumnDefinition Width="15*"/>
+                                        <ColumnDefinition Width="11*"/>
+                                        <ColumnDefinition Width="*"/>
+                                    </Grid.ColumnDefinitions>
+
+                                    <TextBlock
+                                        Text="{Binding Title}"
+                                        Grid.Column="1"
+                                        Grid.Row="1"
+                                        Style="{StaticResource AppTitleTextStyle}"
+                                        IsHitTestVisible="False"/>
+
+                                    <Border
+                                        Grid.Column="1"
+                                        Grid.ColumnSpan="{Binding QuestionDescriptionColumnSpan}"
+                                        Grid.Row="3"
+                                        Background="Black"
+                                        Opacity="0.5"
+                                        />
+                                    
+                                    <TextBlock
+                                        Text="{Binding Description}"
+                                        Grid.Column="1"
+                                        Grid.Row="3"
+                                        Margin="5,0"
+                                        Style="{StaticResource AppDescriptionTextStyle}"
+                                        IsHitTestVisible="False"
+                                        HorizontalAlignment="Left"
+                                        TextAlignment="Justify"
+                                        />
+
+                                    <Border
+                                        Visibility="{Binding ImageBorderVisibility}"
+                                        Grid.Row="1"
+                                        Grid.Column="2"
+                                        Grid.RowSpan="6"
+                                        Grid.ColumnSpan="2"
+                                        Background="#CC000000"
+                                        Padding="30"
+                                        VerticalAlignment="Top"
+                                        HorizontalAlignment="Right"
+                                        Canvas.ZIndex="1">
+
+                                        <Image
+                                            Source="{Binding QuestionImage}"
+                                            Stretch="Uniform" />
+                                    </Border>
+
+                                    
+                                    
+                                    <ContentPresenter
+                                        Grid.Column="1"
+                                        Grid.ColumnSpan="{Binding QuestionColumnSpan}"
+                                        Grid.Row="5"
+                                        Content="{Binding PlayArea}"/>
+
+                                    
+
+                                </Grid>
+                            </UserControl>
+                        </DataTemplate>
+                    </FlipView.ItemTemplate>
+                </controls:SemanticFlipView>
+            </SemanticZoom.ZoomedInView>
+        </SemanticZoom>
+
+    </Grid>
+
+
+</common:LayoutAwarePage>

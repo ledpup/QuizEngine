@@ -1,0 +1,320 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F7509144-4356-496B-9EFA-DF641059491F}</ProjectGuid>
+    <OutputType>AppContainerExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>QuizEngine</RootNamespace>
+    <AssemblyName>QuizEngine</AssemblyName>
+    <DefaultLanguage>en-US</DefaultLanguage>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{BC8A1FFA-BEE3-4634-8014-F334798102B3};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <PackageCertificateKeyFile>QuizEngine_TemporaryKey.pfx</PackageCertificateKeyFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|ARM'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\ARM\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE</DefineConstants>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>ARM</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|ARM'">
+    <OutputPath>bin\ARM\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE</DefineConstants>
+    <Optimize>true</Optimize>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>ARM</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE</DefineConstants>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE</DefineConstants>
+    <Optimize>true</Optimize>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE</DefineConstants>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE</DefineConstants>
+    <Optimize>true</Optimize>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <!-- A reference to the entire .Net Framework and Windows SDK are automatically included -->
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ExtensionMethods.cs" />
+    <Compile Include="NewAttemptPage.xaml.cs">
+      <DependentUpon>NewAttemptPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="QuestionPage.xaml.cs">
+      <DependentUpon>QuestionPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Common\BindableBase.cs" />
+    <Compile Include="Common\BooleanNegationConverter.cs" />
+    <Compile Include="Common\BooleanToVisibilityConverter.cs" />
+    <Compile Include="Common\LayoutAwarePage.cs" />
+    <Compile Include="Common\RichTextColumns.cs" />
+    <Compile Include="Common\SuspensionManager.cs" />
+    <Compile Include="GesturePageBase.cs" />
+    <Compile Include="IGesturePageInfo.cs" />
+    <Compile Include="MainPage.xaml.cs">
+      <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SemanticFlipView.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <AppxManifest Include="Package.appxmanifest">
+      <SubType>Designer</SubType>
+    </AppxManifest>
+    <None Include="QuizEngine_TemporaryKey.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Assets\Answered.png" />
+    <Content Include="Assets\Logo.png" />
+    <Content Include="Assets\Quizzes\Capital.jpg" />
+    <Content Include="Assets\Quizzes\Chemistry.png" />
+    <Content Include="Assets\Quizzes\Chemistry.txt" />
+    <Content Include="Assets\Quizzes\Chemistry\2D gel electrophoresis.jpg" />
+    <Content Include="Assets\Quizzes\Chemistry\Adenine.png" />
+    <Content Include="Assets\Quizzes\Chemistry\Alanine.png" />
+    <Content Include="Assets\Quizzes\Chemistry\Alcohol.png" />
+    <Content Include="Assets\Quizzes\Chemistry\Aldehyde.png" />
+    <Content Include="Assets\Quizzes\Chemistry\Amide.png" />
+    <Content Include="Assets\Quizzes\Chemistry\Aspartic acid.png" />
+    <Content Include="Assets\Quizzes\Chemistry\Aspirin.png" />
+    <Content Include="Assets\Quizzes\Chemistry\Carbonyl.png" />
+    <Content Include="Assets\Quizzes\Chemistry\Carboxylic acid.png" />
+    <Content Include="Assets\Quizzes\Chemistry\Competitive.png" />
+    <Content Include="Assets\Quizzes\Chemistry\Cysteine.png" />
+    <Content Include="Assets\Quizzes\Chemistry\Cytosine.png" />
+    <Content Include="Assets\Quizzes\Chemistry\DNA replication.png" />
+    <Content Include="Assets\Quizzes\Chemistry\Ester.png" />
+    <Content Include="Assets\Quizzes\Chemistry\Ether.png" />
+    <Content Include="Assets\Quizzes\Chemistry\Gel filtration.png" />
+    <Content Include="Assets\Quizzes\Chemistry\Glycine.png" />
+    <Content Include="Assets\Quizzes\Chemistry\Guanine.png" />
+    <Content Include="Assets\Quizzes\Chemistry\Hanes-Woolf plot.png" />
+    <Content Include="Assets\Quizzes\Chemistry\Ketone.png" />
+    <Content Include="Assets\Quizzes\Chemistry\Lineweaver-Burke plot - no labels on axes.png" />
+    <Content Include="Assets\Quizzes\Chemistry\Lineweaver-Burke plot.png" />
+    <Content Include="Assets\Quizzes\Human Body Systems\Lung volumes.png" />
+    <Content Include="Assets\Quizzes\Chemistry\Lysine.png" />
+    <Content Include="Assets\Quizzes\Chemistry\Methionine.png" />
+    <Content Include="Assets\Quizzes\Chemistry\Michaelis-Menten saturation curve of an enzyme reaction - no labels on axes.png" />
+    <Content Include="Assets\Quizzes\Chemistry\Michaelis-Menten saturation curve of an enzyme reaction.png" />
+    <Content Include="Assets\Quizzes\Chemistry\Mixed.png" />
+    <Content Include="Assets\Quizzes\Chemistry\Non-competitive.png" />
+    <Content Include="Assets\Quizzes\Chemistry\Phenylalanine.png" />
+    <Content Include="Assets\Quizzes\Chemistry\Primary Amine.png" />
+    <Content Include="Assets\Quizzes\Chemistry\Proline.png" />
+    <Content Include="Assets\Quizzes\Chemistry\Quaternary Ammonium Cation.png" />
+    <Content Include="Assets\Quizzes\Chemistry\Secondary Amine.png" />
+    <Content Include="Assets\Quizzes\Chemistry\Serine.png" />
+    <Content Include="Assets\Quizzes\Chemistry\Tertiary Amine.png" />
+    <Content Include="Assets\Quizzes\Chemistry\Thymine.png" />
+    <Content Include="Assets\Quizzes\Chemistry\Ultrasonic homogeniser.png" />
+    <Content Include="Assets\Quizzes\Chemistry\Uncompetitive.png" />
+    <Content Include="Assets\Quizzes\Chemistry\Uracil.png" />
+    <Content Include="Assets\Quizzes\Human Body Systems.png" />
+    <Content Include="Assets\Quizzes\Human Body Systems.txt" />
+    <Content Include="Assets\Quizzes\Human Body Systems\Anaphase.png" />
+    <Content Include="Assets\Quizzes\Human Body Systems\Anterior Muscles.png" />
+    <Content Include="Assets\Quizzes\Human Body Systems\Bipolar neuron.png" />
+    <Content Include="Assets\Quizzes\Human Body Systems\Blood typing.png" />
+    <Content Include="Assets\Quizzes\Human Body Systems\Cranial Nerves.png" />
+    <Content Include="Assets\Quizzes\Human Body Systems\Dimer.png" />
+    <Content Include="Assets\Quizzes\Human Body Systems\Electrical conduction system of the heart.png" />
+    <Content Include="Assets\Quizzes\Human Body Systems\Epidermis.png" />
+    <Content Include="Assets\Quizzes\Human Body Systems\Ester.png" />
+    <Content Include="Assets\Quizzes\Human Body Systems\Ether.png" />
+    <Content Include="Assets\Quizzes\Human Body Systems\Heart Diagram - blood vessels.png" />
+    <Content Include="Assets\Quizzes\Human Body Systems\Heart Diagram.png" />
+    <Content Include="Assets\Quizzes\Human Body Systems\Heart Layers.png" />
+    <Content Include="Assets\Quizzes\Human Body Systems\Hematopoiesis.png" />
+    <Content Include="Assets\Quizzes\Human Body Systems\Human Ear.png" />
+    <Content Include="Assets\Quizzes\Human Body Systems\Human Eye.png" />
+    <Content Include="Assets\Quizzes\Human Body Systems\Human skull - side - bones.png" />
+    <Content Include="Assets\Quizzes\Human Body Systems\Human skull - side - landmarks.png" />
+    <Content Include="Assets\Quizzes\Human Body Systems\Hypertonic.png" />
+    <Content Include="Assets\Quizzes\Human Body Systems\Hypotonic.png" />
+    <Content Include="Assets\Quizzes\Human Body Systems\Isotonic.png" />
+    <Content Include="Assets\Quizzes\Human Body Systems\Long bone.png" />
+    <Content Include="Assets\Quizzes\Human Body Systems\Lymphatic ducts - correct.png" />
+    <Content Include="Assets\Quizzes\Human Body Systems\Lymphatic ducts - incorrect.png" />
+    <Content Include="Assets\Quizzes\Human Body Systems\Meninges.png" />
+    <Content Include="Assets\Quizzes\Human Body Systems\Metaphase.png" />
+    <Content Include="Assets\Quizzes\Human Body Systems\Monomer.png" />
+    <Content Include="Assets\Quizzes\Human Body Systems\Multipolar neuron.png" />
+    <Content Include="Assets\Quizzes\Human Body Systems\Neuron cell.png" />
+    <Content Include="Assets\Quizzes\Human Body Systems\Normal ECG Tracing.png" />
+    <Content Include="Assets\Quizzes\Human Body Systems\Pentamer.png" />
+    <Content Include="Assets\Quizzes\Human Body Systems\Posterior Muscles.png" />
+    <Content Include="Assets\Quizzes\Human Body Systems\Prometaphase.png" />
+    <Content Include="Assets\Quizzes\Human Body Systems\Prophase.png" />
+    <Content Include="Assets\Quizzes\Human Body Systems\Pseudostratified Columnar.png" />
+    <Content Include="Assets\Quizzes\Human Body Systems\Pseudounipolar neuron.png" />
+    <Content Include="Assets\Quizzes\Human Body Systems\Simple Columnar.png" />
+    <Content Include="Assets\Quizzes\Human Body Systems\Simple Cuboidal.png" />
+    <Content Include="Assets\Quizzes\Human Body Systems\Simple Squamous.png" />
+    <Content Include="Assets\Quizzes\Human Body Systems\Skin layers.png" />
+    <Content Include="Assets\Quizzes\Human Body Systems\Spinal reflex arc.png" />
+    <Content Include="Assets\Quizzes\Human Body Systems\Stratified Columnar.png" />
+    <Content Include="Assets\Quizzes\Human Body Systems\Stratified Cuboidal.png" />
+    <Content Include="Assets\Quizzes\Human Body Systems\Stratified Squamous.png" />
+    <Content Include="Assets\Quizzes\Human Body Systems\Telophase.png" />
+    <Content Include="Assets\Quizzes\Human Body Systems\Unipolar neuron.png" />
+    <Content Include="Assets\Quizzes\Spanish Civil War.png" />
+    <Content Include="Assets\Quizzes\Spanish Civil War.txt" />
+    <Content Include="Assets\Quizzes\Spanish Civil War\Alfonists.png" />
+    <Content Include="Assets\Quizzes\Spanish Civil War\Army of Africa.png" />
+    <Content Include="Assets\Quizzes\Spanish Civil War\Asturias.jpg" />
+    <Content Include="Assets\Quizzes\Spanish Civil War\Bundesarchiv_Bild_183-2006-1204-514,_Spanien,_Schlacht_um_Guadalajara.jpg" />
+    <Content Include="Assets\Quizzes\Spanish Civil War\Bundesarchiv_Bild_183-H25224,_Guernica,_Ruinen.jpg" />
+    <Content Include="Assets\Quizzes\Spanish Civil War\Carlist poster.jpg" />
+    <Content Include="Assets\Quizzes\Spanish Civil War\Carlists.png" />
+    <Content Include="Assets\Quizzes\Spanish Civil War\CEDA.png" />
+    <Content Include="Assets\Quizzes\Spanish Civil War\CNT poster.jpg" />
+    <Content Include="Assets\Quizzes\Spanish Civil War\CNT-AIT.png" />
+    <Content Include="Assets\Quizzes\Spanish Civil War\CNT-FAI.png" />
+    <Content Include="Assets\Quizzes\Spanish Civil War\Condor Legion 1.png" />
+    <Content Include="Assets\Quizzes\Spanish Civil War\Condor Legion 2.png" />
+    <Content Include="Assets\Quizzes\Spanish Civil War\Cruzada.jpg" />
+    <Content Include="Assets\Quizzes\Spanish Civil War\Dragon Rapide.jpg" />
+    <Content Include="Assets\Quizzes\Spanish Civil War\Durruti poster.jpg" />
+    <Content Include="Assets\Quizzes\Spanish Civil War\Euzkadi.jpg" />
+    <Content Include="Assets\Quizzes\Spanish Civil War\Extremadura.png" />
+    <Content Include="Assets\Quizzes\Spanish Civil War\Falange poster.jpg" />
+    <Content Include="Assets\Quizzes\Spanish Civil War\Falange.png" />
+    <Content Include="Assets\Quizzes\Spanish Civil War\Federica Montseny.jpg" />
+    <Content Include="Assets\Quizzes\Spanish Civil War\Flag_of_Spain_%281931_-_1939%29.svg.png" />
+    <Content Include="Assets\Quizzes\Spanish Civil War\Flag_of_Spain_%281938_-_1945%29.svg.png" />
+    <Content Include="Assets\Quizzes\Spanish Civil War\Flag_of_Spain_%28Civil%29_alternate_colours.svg.png" />
+    <Content Include="Assets\Quizzes\Spanish Civil War\Germany.PNG" />
+    <Content Include="Assets\Quizzes\Spanish Civil War\Guernica.jpg" />
+    <Content Include="Assets\Quizzes\Spanish Civil War\Ha llegado.jpg" />
+    <Content Include="Assets\Quizzes\Spanish Civil War\International Brigades.png" />
+    <Content Include="Assets\Quizzes\Spanish Civil War\Internationalist Star.png" />
+    <Content Include="Assets\Quizzes\Spanish Civil War\Italy.png" />
+    <Content Include="Assets\Quizzes\Spanish Civil War\Map_of_the_Spanish_Civil_War_in_February_1939.png" />
+    <Content Include="Assets\Quizzes\Spanish Civil War\Map_of_the_Spanish_Civil_War_in_July_1938.png" />
+    <Content Include="Assets\Quizzes\Spanish Civil War\Map_of_the_Spanish_Civil_War_in_October_1937.png" />
+    <Content Include="Assets\Quizzes\Spanish Civil War\Map_of_the_Spanish_Civil_War_in_September_1936.png" />
+    <Content Include="Assets\Quizzes\Spanish Civil War\PCE.png" />
+    <Content Include="Assets\Quizzes\Spanish Civil War\Popular Front.png" />
+    <Content Include="Assets\Quizzes\Spanish Civil War\Portugal.png" />
+    <Content Include="Assets\Quizzes\Spanish Civil War\POUM poster.jpg" />
+    <Content Include="Assets\Quizzes\Spanish Civil War\POUM.png" />
+    <Content Include="Assets\Quizzes\Spanish Civil War\PSUC Poster.jpg" />
+    <Content Include="Assets\Quizzes\Spanish Civil War\PSUC.png" />
+    <Content Include="Assets\Quizzes\Spanish Civil War\UGT anti-fascist poster.jpg" />
+    <Content Include="Assets\Quizzes\Spanish Civil War\UGT.png" />
+    <Content Include="Assets\Quizzes\Spanish Civil War\United Kingdom.png" />
+    <Content Include="Assets\Quizzes\Spanish Civil War\Yoke and Arrows.png" />
+    <Content Include="Assets\SmallLogo.png" />
+    <Content Include="Assets\SplashScreen.png" />
+    <Content Include="Assets\StoreLogo.png" />
+    <Content Include="Assets\Quizzes\Capital.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Unanswered.png" />
+    <Content Include="Common\ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Page Include="NewAttemptPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="QuestionPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Common\StandardStyles.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="MainPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+  <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '11.0' ">
+    <VisualStudioVersion>11.0</VisualStudioVersion>
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\WindowsXaml\v$(VisualStudioVersion)\Microsoft.Windows.UI.Xaml.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

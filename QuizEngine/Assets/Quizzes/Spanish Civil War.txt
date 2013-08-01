@@ -1,0 +1,981 @@
+[
+	{
+		"Difficulty": "Medium",
+		"Question": "Which period of the war does the map depict?\r\n\r\nNationalist controlled area is pink.\r\nRepublican controlled area is blue.",
+		"Image": "Map_of_the_Spanish_Civil_War_in_October_1937.png",
+		"Answers":
+		[
+			{
+				"Text": "October 1937",
+				"Score": "1"
+			},
+			{
+				"Text": "October 1938"
+			},
+			{
+				"Text": "February 1939"
+			},
+			{
+				"Text": "October 1936"
+			},
+			{
+				"Text": "July 1938"
+			}
+		]
+	},
+	{
+		"Difficulty": "Medium",
+		"Question": "What was the nationality of the person who flew Francisco Franco from the Canary Islands to Morocco?",
+		"Answers":
+		[
+			{
+				"Text": "British",
+				"Image": "United Kingdom.png",
+				"Score": "1"
+			},
+			{
+				"Text": "German",
+				"Image": "Germany.png"
+			},
+			{
+				"Text": "Portuguese",
+				"Image": "Portugal.png"
+			},
+			{
+				"Text": "Italian",
+				"Image": "Italy.png"
+			}
+		]
+	},
+	{
+		"Difficulty": "Medium",
+		"Question": "Which of the following flags represents the Popular Front?",
+		"Answers":
+		[
+			{
+				"Image": "Popular Front.png",
+				"Score": "1"
+			},
+			{
+				"Image": "Carlists.png"
+			},
+			{
+				"Image": "International Brigades.png"
+			},
+			{
+				"Image": "Falange.png"
+			}
+		]
+	},
+	{
+		"Difficulty": "Medium",
+		"Question": "With which Spanish military organisation did George Orwell fight?",
+		"Answers":
+		[
+			{
+				"Image": "POUM.png",
+				"Score": "1"
+			},
+			{
+				"Image": "International Brigades.png"
+			},
+			{
+				"Image": "CNT-FAI.png"
+			},
+			{
+				"Image": "Popular Front.png"
+			}
+		]
+	},
+	{
+		"Difficulty": "Medium",
+		"Question": "Where was the \"fifth column\"?",
+		"Explanation": "Emilio Mola told a journalist in 1936 that as his four columns of troops approached Madrid, a \"fifth column\" of supporters inside the city would support him and undermine the Republican government from within.",
+		"Answers":
+		[
+			{
+				"Text": "Madrid",
+				"Score": "1"
+			},
+			{
+				"Text": "Seville"
+			},
+			{
+				"Text": "Zaragoza"
+			},
+			{
+				"Text": "Guernica"
+			},
+			{
+				"Text": "Barcelona"
+			}
+		]
+	},
+	{
+		"Difficulty": "Medium",
+		"Question": "The PSUC was located in __________.",
+		"Answers":
+		[
+			{
+				"Text": "Catalonia",
+				"Score": "1"
+			},
+			{
+				"Text": "Basque Country"
+			},
+			{
+				"Text": "Aragon"
+			},
+			{
+				"Text": "Andalusia"
+			},
+			{
+				"Text": "Galicia"
+			}
+		]
+	},
+	{
+		"Difficulty": "Hard",
+		"Question": "The International Brigades was composed of more people from __________ than any other of the combinations below.",
+		"Explanation": "The International Brigades included 9,000 Frenchmen, 5,000 Germans and Austrians and 3,350 Italians.",
+		"Image": "Internationalist Star.png",
+		"Answers":
+		[
+			{
+				"Text": "France, Germany and Italy",
+				"Score": "1"
+			},
+			{
+				"Text": "Portugal, France and the United Kingdom"
+			},
+			{
+				"Text": "the USSR, the USA and the United Kingdom"
+			},
+			{
+				"Text": "the USSR, France and Germany"
+			}
+		]
+	},
+	{
+		"Difficulty": "Medium",
+		"Question": "José Antonio Primo de Rivera founded which Spanish political faction?",
+		"Answers":
+		[
+			{
+				"Text": "Falange",
+				"Image": "Falange.png",
+				"Score": "1"
+			},
+			{
+				"Text": "Carlism",
+				"Image": "Carlists.png"
+			},
+			{
+				"Text": "PSUC",
+				"Image": "PSUC.png"
+			},
+			{
+				"Text": "CEDA",
+				"Image": "CEDA.png"
+			}
+		]
+	},
+	{
+		"Difficulty": "Hard",
+		"Question": "The POUM were outlawed in June 1937 because they were \"__________\".",
+		"Image": "POUM poster.jpg",
+		"Explanation": "\"'Trotskyism', according to Frente Rojo (the Valencia Communist paper) 'is not a political doctrine. Trotskyism is an official capitalist organization, a Fascist terrorist band occupied in crime and sabotage against the people.' The P.O.U.M. was a 'Trotskyist' organization in league with the Fascists and part of 'Franco's Fifth Column'.\" - Homage to Catalonia, George Orwell",
+		"Answers":
+		[
+			{
+				"Text": "Trotskyist-fascists",
+				"Score": "1"
+			},
+			{
+				"Text": "Communists"
+			},
+			{
+				"Text": "Anarcho-syndicalists"
+			},
+			{
+				"Text": "Secessionists"
+			}
+		]
+	},	
+	{
+		"Difficulty": "Hard",
+		"Question": "Who said:\r\n\r\n\"We have always lived in slums and holes in the wall. We will know how to accommodate ourselves for a while. For you must not forget that we can also build. It is we who built these palaces and cities, here in Spain and America and everywhere. We, the workers. We can build others to take their place. And better ones. We are not in the least afraid of ruins. We are going to inherit the earth; there is not the slightest doubt about that. The bourgeoisie might blast and ruin its own world before it leaves the stage of history. We carry a new world here, in our hearts. That world is growing in this minute.\"",
+		"Explanation": "",
+		"Answers":
+		[
+			{
+				"Text": "Buenaventura Durruti",
+				"Score": "1"
+			},
+			{
+				"Text": "Federica Montseny"
+			},
+			{
+				"Text": "Juan García Oliver"
+			},
+			{
+				"Text": "Emilio Mola",
+				"Explanation": "Emilio Mola was one of the main military leaders who instigated the coup against the Second Republic. He would have never said anything like that."
+			},
+			{
+				"Text": "Andreu Nin",
+				"Explanation": "Andreu Nin was one of the leaders of the POUM. He might have said something along those lines, but he didn't."
+			}
+		]
+	},
+	{
+		"Difficulty": "Hard",
+		"Question": "Who flew Francisco Franco from the Canary Islands to Morocco?",
+		"Image": "Dragon Rapide.jpg",
+		"Answers":
+		[
+			{
+				"Text": "Cecil Bebb",
+				"Score": "1",
+				"Explanation": "On July 11, 1936 Bebb left London, flying a Dragon Rapide. He picked up Franco in the Canary Islands and flew him to Tetuán in Spanish Morocco."
+			},
+			{
+				"Text": "George Orwell"
+			},
+			{
+				"Text": "Norman Bethune"
+			},
+			{
+				"Text": "Emilio Mola"
+			},
+			{
+				"Text": "Andreu Nin"
+			}
+		]
+	},
+	{
+		"Difficulty": "Easy",
+		"Question": "Between which years was the Spanish Civil War fought?",
+		"Answers":
+		[
+			{
+				"Text": "1936-1939",
+				"Score": "1"
+			},
+			{
+				"Text": "1934-1937"
+			},
+			{
+				"Text": "1934-1940"
+			},
+			{
+				"Text": "1937-1940"
+			}
+		]
+	},
+	{
+		"Difficulty": "Easy",
+		"Question": "German bombers of the Condor Legion bombed the village of Guernica into oblivion. Which artist immortalized this catastrophe in a mural?",
+		"Image": "Guernica.jpg",
+		"Answers":
+		[
+			{
+				"Text": "Pablo Picasso",
+				"Score": "1"
+			},
+			{
+				"Text": "Salvador Dalí"
+			},
+			{
+				"Text": "Diego Velasquez"
+			},
+			{
+				"Text": "Luis Buñuel"
+			},
+			{
+				"Text": "None of the above",
+				"IsLast": "true"
+			}
+		]
+	},
+	{
+		"Difficulty": "Easy",
+		"Question": "Which countries aided the Republicans during the war?",
+		"Explanation": "The French government was sympathetic to the Republic and offered assistance during 1936, but stopped after it signed the Non-Intervention Pact.",
+		"Answers":
+		[
+			{
+				"Text": "USSR and Mexico",
+				"Score": "1"
+			},
+			{
+				"Text": "USSR and United Kingdom"
+			},
+			{
+				"Text": "France and United Kingdom"
+			},
+			{
+				"Text": "USSR and Portugal"
+			},
+			{
+				"Text": "France and Portugal"
+			}
+		]
+	},
+	{
+		"Difficulty": "Easy",
+		"Question": "Which countries aided the Nationalists during the war?",
+		"Answers":
+		[
+			{
+				"Text": "Germany, Italy and Portugal",
+				"Score": "1"
+			},
+			{
+				"Text": "Germany, France and United Kingdom"
+			},
+			{
+				"Text": "Germany, Portugal and France"
+			},
+			{
+				"Text": "Italy and France"
+			},
+			{
+				"Text": "France and Portugal"
+			}
+		]
+	},
+	{
+		"Difficulty": "Medium",
+		"Question": "The May Riots in Barcelona 1937 were:",
+		"Explanation": "Anarchists and the POUM were defeated by Communists with the help of the Catalan and Spanish government. The POUM were outlawed the following month.",
+		"Answers":
+		[
+			{
+				"Text": "Clashes between factions in the Republican side.",
+				"Score": "1"
+			},
+			{
+				"Text": "Demonstrations by Franco's supporters against \"anarchist dictatorship\" in the Catalan city."
+			},
+			{
+				"Text": "Starving civil population demonstrations claiming for a better distribution of provisions."
+			},
+			{
+				"Text": "None of the above.",
+				"IsLast": "true"
+			}
+		]
+	},
+	{
+		"Difficulty": "Medium",
+		"Question": "The Battle of Guadalajara was a significant battle of the Spanish Civil War because __________.",
+		"Explanation": "The Battle of Guadalajara (8–23 March, 1937) was a defeat for Italian and Nationalist forces attempting to encircle Madrid.",
+		"Image": "Bundesarchiv_Bild_183-2006-1204-514,_Spanien,_Schlacht_um_Guadalajara.jpg",
+		"Answers":
+		[
+			{
+				"Text": "it was the last major victory for the Republican army",
+				"Score": "1"
+			},
+			{
+				"Text": "the Italian Corps of Volunteer Troops were decisive in the Nationalist's victory"
+			},
+			{
+				"Text": "it was the first of many Republican victories"
+			},
+			{
+				"Text": "despite overwhelming numbers, Nationalist forces succeeded in taking Guadalajara",
+				"Explanation": "The Italian and Nationalist forces were larger, 50,000 vs 20,000 that fought for the Republic. The Nationalists had more guns and armoured vehicles, but less aircraft."
+			}
+		]
+	},
+	{
+		"Difficulty": "Medium",
+		"Question": "What was the name of the German foreign forces that fought for the Nationalists during the Spanish Civil War?",
+		"Image": "Condor Legion 2.png",
+		"Answers":
+		[
+			{
+				"Text": "Condor Legion",
+				"Score": "1"
+			},
+			{
+				"Text": "Viriatos",
+				"Explanation": "Viriatos was the generic name given to Portuguese volunteers who fought with the Nationalists."
+			},
+			{
+				"Text": "Spanischkorps"
+			},
+			{
+				"Text": "Iron Guard",
+				"Explanation": "The Iron Guard is the name given to a far-right movement in Romania. They contributed a legion of Romanian fascists, led by Ion Moța."
+			},
+			{
+				"Text": "Blue Division",
+				"Explanation": "The Blue Division was a unit of Spanish volunteers that served in the German Army on the Eastern Front of the Second World War."
+			}
+		]
+	},
+	{
+		"Difficulty": "Hard",
+		"Question": "The Irish Brigade fought on the Nationalist side of Francisco Franco during the Spanish Civil War.",
+		"Explanation": "The unit was formed wholly of Roman Catholics by the politician Eoin O'Duffy, who had previously organised the banned quasi-fascist Blueshirts and openly fascist Greenshirts in Ireland. Despite the declaration by the Irish government that participation in the war was unwelcome and ill-advised, 700 of O'Duffy's followers went to Spain.",
+		"Answers":
+		[
+			{
+				"Text": "True",
+				"Score": "0.5"
+			},
+			{
+				"Text": "False"
+			}
+		]
+	},
+	{
+		"Difficulty": "Hard",
+		"Question": "At the early stages of the Spanish Civil War, which Nationalist political faction supplied the largest number of volunteers?",
+		"Explanation": "By September 1936, the total Falangist volunteers numbered at 35,000, accounting for 55 percent of all civilian forces of the Nationals. - Stanley G. Payne. Fascism in Spain, 1923–1977. Madison, Wisconsin, USA: Wisconsin University Press, 1999. Pp. 242.",
+		"Answers":
+		[
+			{
+				"Text": "Falange",
+				"Image": "Falange.png",
+				"Score": "1"
+			},
+			{
+				"Text": "Alfonists",
+				"Image": "Alfonists.png"
+			},
+			{
+				"Text": "Carlists",
+				"Image": "Carlists.png"
+			},
+			{
+				"Text": "CEDA",
+				"Image": "CEDA.png"
+			},
+			{
+				"Text": "Army of Africa",
+				"Image": "Army of Africa.png"
+			}
+		]
+	},
+	{
+		"Difficulty": "Hard",
+		"Question": "What was the name of the Falange paramilitary militia?",
+		"Image": "Yoke and Arrows.png",
+		"Answers":
+		[
+			{
+				"Text": "Blueshirts",
+				"Score": "1",
+				"Explanation": "Their name (Camisas Azules in Spanish) refers to the blue uniform worn by the militia. The colour was chosen because it is the colour workers' overalls, as the Falange sought to gain support among the Spanish working class."
+			},
+			{
+				"Text": "Brownshirts",
+				"Explanation": "The Sturmabteilung (SA) (or Brownshirts) functioned as the original paramilitary wing of the Nazi Party."
+			},
+			{
+				"Text": "Blackshirts",
+				"Explanation": "The Blackshirts were fascist paramilitary armed squads in Italy during the period immediately following World War I and until the end of World War II."
+			},
+			{
+				"Text": "Redshirts",
+				"Explanation": "The Iron Guard is the name given to a far-right movement in Romania. They contributed a legion of Romanian fascists to the Nationalist cause, led by Ion Moța."
+			},
+			{
+				"Text": "Silver Shirts",
+				"Explanation": "The Silver Legion of America, commonly known as the Silver Shirts, was an underground US fascist organization founded by William Dudley Pelley."
+			}
+		]
+	},
+	{
+		"Difficulty": "Medium",
+		"Question": "Who transported the bulk of the Army of Africa from Morocco to Spain at the beginning of the war?",
+		"Answers":
+		[
+			{
+				"Text": "Transport planes from Germany and Italy",
+				"Score": "1"
+			},
+			{
+				"Text": "The Republican Navy"
+			},
+			{
+				"Text": "German and Italian Navy"
+			},
+			{
+				"Text": "Portuguese Navy and transport planes"
+			},
+			{
+				"Text": "The Army of Africa's Navy"
+			}
+		]
+	},
+	{
+		"Difficulty": "Hard",
+		"Question": "Which city was the Durruti Column attempting to capture before it was diverted to the defence of Madrid?",
+		"Image": "Durruti poster.jpg",
+		"Answers":
+		[
+			{
+				"Text": "Zaragoza",
+				"Score": "1"
+			},
+			{
+				"Text": "Madrid"
+			},
+			{
+				"Text": "Seville"
+			},
+			{
+				"Text": "Pamplona"
+			},
+			{
+				"Text": "Guadalajara"
+			}
+		]
+	},
+	{
+		"Difficulty": "Medium",
+		"Question": "Who stopped the military's coup attempt of July 17th, 1936?",
+		"Answers":
+		[
+			{
+				"Text": "The Spanish working class",
+				"Score": "1"
+			},
+			{
+				"Text": "The Civil Guards"
+			},
+			{
+				"Text": "The Republic's paramilitary forces"
+			},
+			{
+				"Text": "The Assault Guards"
+			},
+			{
+				"Text": "The Falange"
+			}
+		]
+	},
+	{
+		"Difficulty": "Medium",
+		"Question": "The CNT (National Labour Confederation) was:",
+		"Image": "CNT poster.jpg",
+		"Answers":
+		[
+			{
+				"Text": "An anarcho-syndicalist trade union that believed in the revolutionary overthrow of capitalism.",
+				"Score": "1"
+			},
+			{
+				"Text": "A strong socialist movement that was mainly based in Catalonia."
+			},
+			{
+				"Text": "A peasants' organisation funded by the Catholic church."
+			},
+			{
+				"Text": "The main trade union attached to the Falange."
+			},
+			{
+				"Text": "A communist union associated with the PCE. At their height they had over one million members."
+			}
+		]
+	},
+	{
+		"Difficulty": "Medium",
+		"Question": "The Spanish Republic was solely anti-clerical during the Spanish Civil War.",
+		"Explanation": "The majority of the Republic was against religion and especially the Catholic Church. However, the conservative, strongly Catholic Basque country was part of the Republic until it was defeated by the Nationalists during the Battle of Bilbao in June 1937.",
+		"Answers":
+		[
+			{
+				"Text": "False",
+				"Score": "0.5"
+			},
+			{
+				"Text": "True"
+			}
+		]
+	},
+	{
+		"Difficulty": "Medium",
+		"Question": "Who wrote:\r\n\r\n\"It was the first time I had ever been in a town where the working class was in the saddle. Practically every building of any size had been seized by the workers and was draped with red flags or with the red and black flag of the Anarchists; every wall was scrawled with the hammer and sickle and with the initials of the revolutionary parties; almost every church had been gutted and its images burnt. Churches here and there were being systematically demolished by gangs of workmen. Every shop and café had an inscription saying that it had been collectivised; even the bootblacks had been collectivised and their boxes painted red and black. Waiters and shop-walkers looked you in the face and treated you as an equal.\"",
+		"Answers":
+		[
+			{
+				"Text": "George Orwell",
+				"Score": "1",
+				"Explanation": "This quote was taken from Homage to Catalonia, Orwell's personal account of his experiences and observations in the Spanish Civil War. The first edition was published in 1938."
+			},
+			{
+				"Text": "Ernest Hemingway"
+			},
+			{
+				"Text": "Buenaventura Durruti"
+			},
+			{
+				"Text": "Arthur Koestler",
+				"Explanation": "In 1936, Koestler undertook a visit to General Francisco Franco's headquarters in Seville on behalf of the Comintern. In 1937 he returned to Loyalist Spain as a war correspondent but was captured by the Nationalist rebels."
+			},
+			{
+				"Text": "Gustav Regler",
+				"Explanation": "Regler served as political commissar of the XII International Brigade during the Spanish Civil War. Whilst in Spain he befriended Ernest Hemingway, and was wounded at the Battle of Guadalajara."
+			}
+		]
+	},
+	{
+		"Difficulty": "Medium",
+		"Question": "Federica Montseny is famous because she was:",
+		"Image": "Federica Montseny.jpg",
+		"Answers":
+		[
+			{
+				"Text": "All of the above",
+				"Score": "1",
+				"IsLast": "true"
+			},
+			{
+				"Text": "An anarchist minister of parliament"
+			},
+			{
+				"Text": "A campaigner for the first legal abortion laws in Spain"
+			},
+			{
+				"Text": "A prominent female leader of the CNT"
+			},
+			{
+				"Text": "First female minister of a Spanish government"
+			}
+		]
+	},
+	{
+		"Difficulty": "Easy",
+		"Question": "Which map of Spain represents the final stages of the war?\r\n\r\nNationalist controlled area is pink.\r\nRepublican controlled area is blue.",
+		"DynamicImage": "true",
+		"Answers":
+		[
+			{
+				"Image": "Map_of_the_Spanish_Civil_War_in_February_1939.png",
+				"Score": "1"
+			},
+			{
+				"Image": "Map_of_the_Spanish_Civil_War_in_October_1937.png"
+			},
+			{
+				"Image": "Map_of_the_Spanish_Civil_War_in_July_1938.png"
+			},
+			{
+				"Image": "Map_of_the_Spanish_Civil_War_in_September_1936.png"
+			}
+		]
+	},
+	{
+		"Difficulty": "Easy",
+		"Question": "What was the Popular Front (Frente Popular)?",
+		"Explanation": "The Popular Front was a coalition of left-wing parties that contested the national elections in February 1936. The Popular Front defeated the National Front (a collection of right-wing parties) and won the 1936 election, forming the new Spanish Government. In July 1936, Francisco Franco and other conservative/monarchist generals instigated a coup d'état which started the Spanish Civil War.",
+		"Answers":
+		[
+			{
+				"Text": "None of the above",
+				"Score": "1",
+				"IsLast": "true"
+			},
+			{
+				"Text": "A coalition of right-wing parties that contested the national elections in February 1936"
+			},
+			{
+				"Text": "An alliance of left-wing parties and unions formed during the civil war"
+			},
+			{
+				"Text": "One of the main battle fronts over the war. It was situated in Eastern Spain"
+			}
+		]
+	},
+	{
+		"Difficulty": "Hard",
+		"KeyQuestion": "The *answer text* was the __________.",
+		"ValueQuestion": "What is the name of the political organisation that was the *answer text*?",
+		"KeyValue": "true",
+		"MaxNumberOfAnswers": "5",
+		"Answers":
+		[
+			{
+				"Key": "PSOE",
+				"Text": "largest socialist representatives of the Republican government"
+			},
+			{
+				"Key": "PCE",
+				"Text": "communist party aligned with the USSR"
+			},
+			{
+				"Key": "CNT",
+				"Text": "confederation of anarcho-syndicalist labour unions"
+			},
+			{
+				"Key": "UGT",
+				"Text": "trade union affiliated to the socialist party"
+			},
+			{
+				"Key": "FAI",
+				"Text": "organisation of anarchist militants"
+			},
+			{
+				"Key": "PSUC",
+				"Text": "unified Catalan socialist party under communist control"
+			},
+			{
+				"Key": "POUM",
+				"Text": "anti-Stalinist Marxist organisation"
+			},
+			{
+				"Key": "PNV",
+				"Text": "largest Basque nationalist party"
+			},
+			{
+				"Key": "IR",
+				"Text": "left-wing republican party founded in 1934"
+			},
+			{
+				"Key": "GP",
+				"Text": "political party in Galicia, part of the Popular Front"
+			}
+		]
+	},
+	{
+		"Difficulty": "Hard",
+		"Question": "The formation of which political party does the poster on the right refer?",
+		"Explanation": "The PSUC formed from four left-wing groups; the Catalan Federation of Spanish Socialist Workers' Party, Communist Party of Catalonia, Socialist Union of Catalonia and Proletarian Catalan Party. They aligned with Russian controlled communists.",
+		"Image": "PSUC Poster.jpg",
+		"Answers":
+		[
+			{
+				"Text": "PSUC",
+				"Score": "1"
+			},
+			{
+				"Text": "POUM"
+			},
+			{
+				"Text": "PCE"
+			},
+			{
+				"Text": "UHP"
+			},
+			{
+				"Text": "CNT-FAI"
+			}
+		]
+	},
+	{
+		"Difficulty": "Hard",
+		"Question": "Which political faction was not part of the National Block (National Front) during the 1936 election?",
+		"Answers":
+		[
+			{
+				"Text": "Falange",
+				"Image": "Falange.png",
+				"Score": "1"
+			},
+			{
+				"Text": "CEDA",
+				"Image": "CEDA.png"
+			},
+			{
+				"Text": "Carlists",
+				"Image": "Carlists.png"
+			},
+			{
+				"Text": "Alfonists",
+				"Image": "Alfonists.png"
+			},
+			{
+				"Text": "All participated in the block",
+				"IsLast": "true"
+			}
+		]
+	},
+	{
+		"Difficulty": "Easy",
+		"Question": "Which map of Spain represents the initial stages of the war?\r\n\r\nNationalist controlled area is pink.\r\nRepublican controlled area is blue.",
+		"DynamicImage": "true",
+		"Answers":
+		[
+			{
+				"Image": "Map_of_the_Spanish_Civil_War_in_September_1936.png",
+				"Score": "1"
+			},
+			{
+				"Image": "Map_of_the_Spanish_Civil_War_in_October_1937.png"
+			},
+			{
+				"Image": "Map_of_the_Spanish_Civil_War_in_July_1938.png"
+			},
+			{
+				"Image": "Map_of_the_Spanish_Civil_War_in_February_1939.png"
+			}
+		]
+	},
+	{
+		"Difficulty": "Medium",
+		"Question": "The Assault Guards were aligned with the Republic whereas the Civil Guards aligned with the Nationalists.",
+		"Explanation": "More Civil Guards (around 50%) went over to the Nationalists than continued serving the Republic and more Assault Guards (around 70%) remained loyal than fought for the Nationalists. However, thousands of personnel from both forces could be found on either side of the conflict.",
+		"Answers":
+		[
+			{
+				"Text": "False",
+				"Score": "0.5"
+			},
+			{
+				"Text": "True"
+			}
+		]
+	},
+	{
+		"Difficulty": "Medium",
+		"Question": "Which of the following posters is not a Republican poster?",
+		"DynamicImage": "true",
+		"Answers":
+		[
+			{
+				"Image": "Ha llegado.jpg",
+				"Score": "1",
+				"Explanation": "A fascist (Falange) poster saying \"Spain has arrived\"."
+			},
+			{
+				"Image": "Euzkadi.jpg",
+				"Explanation": "A poster enlisting Catalan support for the offensive in Euskadi (the Basque Country)."
+			},
+			{
+				"Image": "POUM poster.jpg",
+				"Explanation": "\"Workers, the POUM gives you hope.\""
+			},
+			{
+				"Image": "UGT anti-fascist poster.jpg",
+				"Explanation": "This is a UGT anti-religious poster, suggesting that fascism is \"how the church has planted its religion in Spain\"."
+			},
+			{
+				"Text": "All are Republican posters",
+				"IsLast": "true"
+			}
+		]
+	},
+	{
+		"Difficulty": "Hard",
+		"Question": "Which of the following posters is not a Nationalist poster?",
+		"DynamicImage": "true",
+		"Answers":
+		[
+			{
+				"Text": "All are Nationalist posters",
+				"Score": "1",
+				"IsLast": "true"
+			},
+			{
+				"Image": "Ha llegado.jpg",
+				"Explanation": "A fascist (Falange) poster saying \"Spain has arrived\"."
+			},
+			{
+				"Image": "Cruzada.jpg",
+				"Explanation": "\"Spain, the guide of world spirit\""
+			},
+			{
+				"Image": "Carlist poster.jpg",
+				"Explanation": "These soldiers are Carlists as indicated by their prominent red berets, symbols of the Carlists in Spain. They take their name from Carlos V, son of Ferdinand VII, who was a pretender to the throne of Spain with his declaration to be rightful heir on October 1, 1833."
+			},
+			{
+				"Image": "Falange poster.jpg",
+				"Explanation": "\"Subsidy for the combatant. I compiled! Comply and do what others require to complete this work. Social work of national syndicalism.\""
+			}
+		]
+	},
+	{
+		"Difficulty": "Medium",
+		"Question": "Why does this poster, created in the Asturias region, refer to the year 1934?",
+		"Explanation": "The Asturian miners' strike of 1934 was a major strike action, against CEDA entering the government. It took took place in Asturias in northern Spain and developed into a revolutionary uprising. It was crushed by the Spanish Navy and the Spanish Republican Army, the latter using mainly Moorish troops from Spanish Morocco.",
+		"Image": "Asturias.jpg",
+		"Answers":
+		[
+			{
+				"Text": "There was a large miners' strike and uprising in Asturias in 1934",
+				"Score": "1"
+			},
+			{
+				"Text": "The Spanish Civil War began in 1934"
+			},
+			{
+				"Text": "Asturias declared independence from Spain in 1934"
+			},
+			{
+				"Text": "The coup attempt against the Republic by the military was defeated in Asturias in 1934"
+			}
+		]
+	},
+	{
+		"Difficulty": "Medium",
+		"Question": "Which was the last Republican controlled city to fall to the Nationalists?",
+		"Explanation": "On 28 March 1939, Madrid fell to the Nationalists. The next day, Valencia, which had held out under the guns of the Nationalists for close to two years, also surrendered.",
+		"Answers":
+		[
+			{
+				"Text": "Valencia",
+				"Score": "1"
+			},
+			{
+				"Text": "Madrid"
+			},
+			{
+				"Text": "Barcelona"
+			},
+			{
+				"Text": "Sevilla"
+			},
+			{
+				"Text": "Bilbao"
+			}
+		]
+	},
+	{
+		"Difficulty": "Medium",
+		"Question": "What occurred in the Extremadura region of Spain in 1936 before the invasion by the Army of Africa?",
+		"Image": "Extremadura.png",
+		"Explanation": "\"[...] the Army strategically butchered and terrorised the pro-Republican population, especially the rural landless [...] It was a war of agrarian counter-reform [...] The large landowners who owned the vast estates which covered most of the southern half of Spain rode along [...] to reclaim by force of arms the land on which the Republic had settled the landless poor.\" - Helen Graham, The Spanish Civil War. A very short introduction",
+		"Answers":
+		[
+			{
+				"Text": "Thousands of peasants had taken over the land, legalised by the Republican government",
+				"Score": "1"
+			},
+			{
+				"Text": "There had been a massive build-up of Republican forces"
+			},
+			{
+				"Text": "A pro-Republican Portuguese army crossed the border to fight against the Nationalists"
+			},
+			{
+				"Text": "There was mass movement of refugees out of the region"
+			}
+		]
+	},
+	{
+		"Difficulty": "Medium",
+		"Question": "Which regions had the largest number of collectives, established at the beginning of the revolution in 1936?",
+		"Answers":
+		[
+			{
+				"Text": "xx",
+				"Score": "1"
+			},
+			{
+				"Text": "xx"
+			},
+			{
+				"Text": "xx"
+			},
+			{
+				"Text": "xx"
+			}
+		]
+	},
+]

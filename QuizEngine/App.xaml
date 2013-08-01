@@ -1,0 +1,112 @@
+﻿<Application
+    x:Class="QuizEngine.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:QuizEngine">
+
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+
+                <!-- 
+                    Styles that define common aspects of the platform look and feel
+                    Required by Visual Studio project and item templates
+                 -->
+                <ResourceDictionary Source="Common/StandardStyles.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+
+            <!-- App colors and brushes-->
+            <Color x:Key="AppBlue">#FF3FA1C6</Color>
+            <Color x:Key="AppOrange">#FFF2942F</Color>
+            <Color x:Key="AppWhite">#FFFFFFFF</Color>
+            <Color x:Key="Black">#FF000000</Color>
+            <Color x:Key="Red">#FFCC0000</Color>
+            <Color x:Key="Green">#FF00CC00</Color>
+            <SolidColorBrush x:Key="AppBlueBrush" Color="{StaticResource AppBlue}"/>
+            <SolidColorBrush x:Key="AppOrangeBrush" Color="{StaticResource AppOrange}"/>
+            <SolidColorBrush x:Key="AppWhiteBrush" Color="{StaticResource AppWhite}"/>
+            <SolidColorBrush x:Key="BlackBrush" Color="{StaticResource Black}"/>
+            <SolidColorBrush x:Key="RedBrush" Color="{StaticResource Red}"/>
+            <SolidColorBrush x:Key="GreenBrush" Color="{StaticResource Green}"/>
+
+            <!-- Styles -->
+            <Style
+                x:Key="AppBasicTextStyle"
+                TargetType="TextBlock">
+
+                <Setter Property="FontFamily" Value="{StaticResource ContentControlThemeFontFamily}"/>
+                <Setter Property="FontSize" Value="16"/>
+                <Setter Property="FontWeight" Value="Normal"/>
+                <Setter Property="Foreground" Value="{StaticResource AppWhite}"/>
+                <Setter Property="TextAlignment" Value="Left"/>
+                <Setter Property="TextWrapping" Value="Wrap"/>
+                <Setter Property="VerticalAlignment" Value="Top"/>
+            </Style>
+
+            <Style
+                x:Key="ButtonStyle"
+                TargetType="Button">
+
+                <Setter Property="FontFamily" Value="{StaticResource ContentControlThemeFontFamily}"/>
+                <Setter Property="FontSize" Value="16"/>
+                <Setter Property="FontWeight" Value="Bold"/>
+                <Setter Property="Foreground" Value="{StaticResource AppWhite}"/>
+                <Setter Property="VerticalAlignment" Value="Top"/>
+            </Style>
+
+            <Style
+                x:Key="AppTitleTextStyle"
+                BasedOn="{StaticResource AppBasicTextStyle}"
+                TargetType="TextBlock">
+
+                <Setter Property="FontSize" Value="46"/>
+                <Setter Property="FontWeight" Value="SemiLight"/>
+                <Setter Property="Foreground" Value="{StaticResource AppBlue}"/>
+            </Style>
+
+            <Style
+                x:Key="AppDescriptionTextStyle"
+                BasedOn="{StaticResource AppBasicTextStyle}"
+                TargetType="TextBlock">
+
+                <Setter Property="FontSize" Value="20"/>
+            </Style>
+
+            <Style
+                x:Key="AppSubtitleTextStyle"
+                BasedOn="{StaticResource AppBasicTextStyle}"
+                TargetType="TextBlock">
+
+                <Setter Property="FontSize" Value="28"/>
+                <Setter Property="Foreground" Value="{StaticResource AppOrange}"/>
+            </Style>
+
+            <Style
+                x:Key="AppContentTextStyle"
+                BasedOn="{StaticResource AppBasicTextStyle}"
+                TargetType="TextBlock">
+
+            </Style>
+
+            <Style
+                x:Key="AppSmallContentTextStyle"
+                BasedOn="{StaticResource AppBasicTextStyle}"
+                TargetType="TextBlock">
+
+                <Setter Property="FontSize" Value="10.5"/>
+            </Style>
+
+
+            <Style
+                x:Key="LinksAppBarButtonStyle"
+                BasedOn="{StaticResource AppBarButtonStyle}"
+                TargetType="ButtonBase">
+
+                <Setter Property="AutomationProperties.AutomationId" Value="LinkAppBarButton"/>
+                <Setter Property="AutomationProperties.Name" Value="Links"/>
+                <Setter Property="Content" Value="&#xE167;"/>
+            </Style>
+            
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>
