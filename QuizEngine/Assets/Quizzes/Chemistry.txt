@@ -1210,6 +1210,9 @@
 				"Image": "Hanes-Woolf plot.png"
 			},
 			{
+				"Image": "Oxygen-haemoglobin dissociation curve.png"
+			},
+			{
 				"Text": "None of these is a Lineweaver-Burke plot",
 				"IsLast": "true"
 			},

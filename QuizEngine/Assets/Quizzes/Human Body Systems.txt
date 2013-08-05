@@ -4833,4 +4833,229 @@
 			},
 		]
 	},
+	{
+		"Category": "Respiratory System",
+		"Difficulty": "Medium",
+		"Question": "What is the most important factor in determining how much oxygen binds to haemoglobin?",
+		"Answers":
+		[
+			{
+				"Text": "Partial pressure of oxygen",
+				"Score": "1"
+			},
+			{
+				"Text": "Solubility of the oxygen"
+			},
+			{
+				"Text": "Surface area"
+			},
+			{
+				"Text": "Diffusion distance"
+			},
+			{
+				"Text": "Molecular weight"
+			},
+		]
+	},
+	{
+		"Category": "Respiratory System",
+		"Difficulty": "Medium",
+		"Question": "List the mechanisms responsible for O\u2082 transport and relative percentage contribution of each.",
+		"Answers":
+		[
+			{
+				"Text": "98.5% combined with haemoglobin (Hb); 1.5% dissolved in plasma",
+				"Score": "1"
+			},
+			{
+				"Text": "97% combined with haemoglobin (Hb); 3% dissolved in water"
+			},
+			{
+				"Text": "50% combined with haemoglobin (Hb); 50% dissolved in plasma"
+			},
+			{
+				"Text": "98% combined with haemoglobin (Hb); 2% dissolved in leukocytes"
+			},
+			{
+				"Text": "90% combined with haemoglobin (Hb); 10% dissolved in leukocytes"
+			},
+		]
+	},
+	{
+		"Category": "Respiratory System",
+		"Difficulty": "Medium",
+		"Question": "What are the labels for the x and y axes of the image of the oxygen-haemoglobin dissociation curve?",
+		"Image": "Oxygen-haemoglobin dissociation curve - no labels on axes.png",
+		"Answers":
+		[
+			{
+				"Text": "Percentage saturation of haemoglobin; PO\u2082 (mmHg)",
+				"Score": "1"
+			},
+			{
+				"Text": "Percentage saturation of oxygen; PO\u2082 (mmHg)"
+			},
+			{
+				"Text": "Percentage saturation of CO\u2082; PO\u2082 (mmHg)"
+			},
+			{
+				"Text": "Absolute saturation of haemoglobin; PCO\u2082 (mmHg)"
+			},
+			{
+				"Text": "Relative saturation of haemoglobin; PCO\u2082 (mmHg)"
+			},
+		]
+	},
+	{
+		"Category": "Respiratory System",
+		"Difficulty": "Medium",
+		"Question": "Which is the correct statament about factors that influence the affinity of haemoglobin (Hb) for oxygen?",
+		"Answers":
+		[
+			{
+				"Text": "As PCO\u2082 ↑ and pH ↓, affinity of Hb for O\u2082 ↓. As temperature ↑, affinity of Hb for O\u2082 ↓.",
+				"Score": "1",
+				"Explanation": "These changes, increased temperature, more CO\u2082 production and hence a decrease in pH, all occur during exercise. When you are exercising it is advantageous for the affinity of Hb for O\u2082 to decrease so that more oxygen can be delivered to the exercising tissue.  This is a useful way to remember the direction of change to Hb affinity."
+			},
+			{
+				"Text": "As PCO\u2082 ↑ and pH ↓, affinity of Hb for O\u2082 ↓. As temperature ↓, affinity of Hb for O\u2082 ↓."
+			},
+			{
+				"Text": "As PCO\u2082 ↑ and pH ↓, affinity of Hb for O\u2082 ↓. As temperature ↑, affinity of Hb for O\u2082 ↑."
+			},
+			{
+				"Text": "As PCO\u2082 ↑ and pH ↑, affinity of Hb for O\u2082 ↓. As temperature ↑, affinity of Hb for O\u2082 ↓."
+			},
+			{
+				"Text": "As PCO\u2082 ↓ and pH ↑, affinity of Hb for O\u2082 ↓. As temperature ↑, affinity of Hb for O\u2082 ↓."
+			},
+		]
+	},
+	{
+		"Category": "Respiratory System",
+		"Difficulty": "Medium",
+		"Question": "HCO\u2083\u207B should be higher in a systemic vein as CO\u2082 is rapidly converted to HCO\u2083\u207B which is the transport form until the reaction is reversed in the lungs where CO\u2082 is exhaled.",
+		"Answers":
+		[
+			{
+				"Text": "True",
+				"Score": ".5"
+			},
+			{
+				"Text": "False"
+			},
+		]
+	},
+	{
+		"Category": "Respiratory System",
+		"Difficulty": "Hard",
+		"Question": "Which nerves covey impulses from the respiratory centre to the diaphragm?",
+		"Answers":
+		[
+			{
+				"Text": "Phrenic nerves",
+				"Score": "1"
+			},
+			{
+				"Text": "Apneustic nerves"
+			},
+			{
+				"Text": "Pneumotaxic nerves"
+			},
+			{
+				"Text": "Accessory nerves"
+			},
+			{
+				"Text": "Respirato nerves"
+			},
+		]
+	},
+	{
+		"Category": "Respiratory System",
+		"Difficulty": "Easy",
+		"Question": "What is a normal range for pH in systemic arterial blood?",
+		"Answers":
+		[
+			{
+				"Text": "7.35 - 7.45",
+				"Score": "1"
+			},
+			{
+				"Text": "7.45 - 7.55"
+			},
+			{
+				"Text": "6.25 - 6.35"
+			},
+			{
+				"Text": "7.25 - 7.35"
+			},
+			{
+				"Text": "None of the above",
+				"IsLast": "true"
+			},
+		]
+	},
+	{
+		"Category": "Respiratory System",
+		"Difficulty": "Easy",
+		"Question": "Which is not a mechanism that allows removal of H\u207A from the blood?",
+		"Answers":
+		[
+			{
+				"Text": "Inhalation of O\u2082",
+				"Score": "1"
+			},
+			{
+				"Text": "Exhalation of CO\u2082"
+			},
+			{
+				"Text": "Excretion of H\u207A in urine"
+			},
+			{
+				"Text": "Buffer systems"
+			},
+			{
+				"Text": "All of these mechanisms remove H\u207A from the blood",
+				"IsLast": "true"
+			},
+		]
+	},
+	{
+		"Category": "Respiratory System",
+		"Difficulty": "Easy",
+		"KeyQuestion": "The condition *answer text* has the effect of __________.",
+		"ValueQuestion": "A condition where there is *answer text* is called __________.",
+		"KeyValue": "true",
+		"Score": ".75",
+		"Answers":
+		[
+			{
+				"Key": "Hypercapnia",
+				"Text": "increased level of PCO2 above normal (40mmHg)."
+			},
+			{
+				"Key": "Acidosis",
+				"Text": "CNS depression via decreased synaptic transmission, disorientation, coma and death"
+			},
+			{
+				"Key": "Alkalosis",
+				"Text": "CNS and PNS overexcitability caused by increased synaptic transmission, muscle spasms, convulsions and death"
+			},
+		]
+	},
+	{
+		"Category": "Respiratory System",
+		"Difficulty": "Hard",
+		"Question": "The mechanisms responsible for CO\u2082 transport and relative percentage contribution of each are: 55% as HCO\u2083\u207B, 38% bound to amino acids in the globin part of Hb, 7% dissolved in plasma",
+		"Answers":
+		[
+			{
+				"Text": "True",
+				"Score": ".5"
+			},
+			{
+				"Text": "False"
+			},
+		]
+	},
 ]
