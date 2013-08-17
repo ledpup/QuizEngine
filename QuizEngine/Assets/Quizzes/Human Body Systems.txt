@@ -2019,17 +2019,17 @@
 		"Answers":
 		[
 			{
-				"Text": "Receptor \u2192 sensory nerve \u2192 CNS \u2192 motor nerve \u2192 effector",
+				"Text": "Receptor → sensory nerve → CNS → motor nerve → effector",
 				"Score": "1"
 			},
 			{
-				"Text": "Effector \u2192 sensory nerve \u2192 PNS \u2192 motor nerve \u2192 receptor"
+				"Text": "Effector → sensory nerve → PNS → motor nerve → receptor"
 			},
 			{
-				"Text": "Effector \u2192 motor nerve \u2192 PNS \u2192 sensory nerve \u2192 receptor"
+				"Text": "Effector → motor nerve → PNS → sensory nerve → receptor"
 			},
 			{
-				"Text": "Receptor \u2192 motor nerve \u2192 CNS \u2192 sensory nerve \u2192 effector"
+				"Text": "Receptor → motor nerve → CNS → sensory nerve → effector"
 			},
 		]
 	},
@@ -2483,20 +2483,20 @@
 		"Answers":
 		[
 			{
-				"Text": "Proerythroblast (in marrow) \u2192 reticulocyte (released into blood) \u2192 erythrocyte",
+				"Text": "Proerythroblast (in marrow) → reticulocyte (released into blood) → erythrocyte",
 				"Score": "1"
 			},
 			{
-				"Text": "Proerythroblast (released into blood) \u2192 reticulocyte \u2192 erythrocyte"
+				"Text": "Proerythroblast (released into blood) → reticulocyte → erythrocyte"
 			},
 			{
-				"Text": "Reticulocyte (in marrow) \u2192 proerythroblast (released into blood) \u2192 erythrocyte"
+				"Text": "Reticulocyte (in marrow) → proerythroblast (released into blood) → erythrocyte"
 			},
 			{
-				"Text": "Reticulocyte (in marrow) \u2192 proerythroblast \u2192 erythrocyte (released in blood)"
+				"Text": "Reticulocyte (in marrow) → proerythroblast → erythrocyte (released in blood)"
 			},
 			{
-				"Text": "Proerythroblast (in marrow) \u2192 reticulocyte \u2192 erythrocyte (released into blood)",
+				"Text": "Proerythroblast (in marrow) → reticulocyte → erythrocyte (released into blood)",
 				"Score": "1"
 			},
 		]
@@ -3088,7 +3088,7 @@
 			},
 			{
 				"Key": "PR segment",
-				"Text": "the impulse from the AV node \u2192 bundle of His \u2192 bundle branches \u2192 Purkinje fibers"
+				"Text": "the impulse from the AV node → bundle of His → bundle branches → Purkinje fibers"
 			},
 		]
 	},
@@ -3168,7 +3168,7 @@
 	{
 		"Category": "Cardiovascular System",
 		"Difficulty": "Easy",
-		"Question": "The blood vessel flow around the body follows the following pattern: heart \u2192 arteries \u2192 arterioles \u2192 capillaries \u2192 venules \u2192 veins \u2192 heart",
+		"Question": "The blood vessel flow around the body follows the following pattern: heart → arteries → arterioles → capillaries → venules → veins → heart",
 		"Answers":
 		[
 			{
@@ -3819,8 +3819,8 @@
 	{
 		"Category": "Lymphatic System",
 		"Difficulty": "Medium",
-		"Question": "The sequence of flow of the lymphatic system is: Lymphatic capillaries \u2192 Lymphatic vessels \u2192 Lymphatic ducts \u2192 Lymph trunks \u2192 Venous blood.",
-		"Explanation": "The sequence of flow of the lymphatic system is: Lymphatic capillaries \u2192 Lymphatic vessels \u2192 Lymph trunks \u2192 Lymphatic ducts \u2192 Venous blood.",
+		"Question": "The sequence of flow of the lymphatic system is: Lymphatic capillaries → Lymphatic vessels → Lymphatic ducts → Lymph trunks → Venous blood.",
+		"Explanation": "The sequence of flow of the lymphatic system is: Lymphatic capillaries → Lymphatic vessels → Lymph trunks → Lymphatic ducts → Venous blood.",
 		"Answers":
 		[
 			{

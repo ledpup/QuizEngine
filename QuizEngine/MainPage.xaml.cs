@@ -97,7 +97,7 @@ namespace QuizEngine
 
             //_quizQuestions = _quizQuestions.Where(x => x.Category == "Cardiovascular System").ToList();
 
-
+            _quizQuestions.Reverse();
             //_quizQuestions.Shuffle();
             for (var i = 0; i < _quizQuestions.Count; i++)
             {

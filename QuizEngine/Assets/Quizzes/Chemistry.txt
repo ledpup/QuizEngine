@@ -410,8 +410,8 @@
 	{
 		"Category": "Proteins",
 		"Difficulty": "Easy",
-		"Question": "Protein creation occurs by: double-stranded DNA \u2192 translation \u2192 single-stranded messenger RNA \u2192 transcription \u2192 protein.",
-		"Explanation": "Protein creation occurs by: double-stranded DNA \u2192 transcription \u2192 single-stranded messenger RNA \u2192 translation \u2192 protein.",
+		"Question": "Protein creation occurs by: double-stranded DNA → translation → single-stranded messenger RNA → transcription → protein.",
+		"Explanation": "Protein creation occurs by: double-stranded DNA → transcription → single-stranded messenger RNA → translation → protein.",
 		"Answers":
 		[
 			{
@@ -2237,6 +2237,566 @@
 			},
 			{
 				"Text": "Reaction rate and V\u2080"
+			},
+		]
+	},
+	{
+		"Category": "Carbohydrates",
+		"Difficulty": "Easy",
+		"Question": "Which is the most abundant group of biomolecules on Earth?",
+		"Answers":
+		[
+			{
+				"Text": "Carbohydrates",
+				"Score": "1"
+			},
+			{
+				"Text": "Lipids"
+			},
+			{
+				"Text": "DNA"
+			},
+			{
+				"Text": "Nucleic acids"
+			},
+			{
+				"Text": "Proteins"
+			},
+		]
+	},
+	{
+		"Category": "Carbohydrates",
+		"Difficulty": "Easy",
+		"Question": "Alpha and beta conformations of glucose are known as what?",
+		"Answers":
+		[
+			{
+				"Text": "Anomers",
+				"Score": "1"
+			},
+			{
+				"Text": "Epimers"
+			},
+			{
+				"Text": "Optical isomers"
+			},
+			{
+				"Text": "Heterologs"
+			},
+			{
+				"Text": "Aldonic group"
+			},
+		]
+	},
+	{
+		"Category": "Carbohydrates",
+		"Difficulty": "Medium",
+		"Question": "Bendict's reaction is used to identify which class of carbohydrates?",
+		"Answers":
+		[
+			{
+				"Text": "Reducing sugars",
+				"Score": "1"
+			},
+			{
+				"Text": "D-isomers"
+			},
+			{
+				"Text": "L-isomers"
+			},
+			{
+				"Text": "Starch"
+			},
+			{
+				"Text": "Disaccharides"
+			},
+		]
+	},
+	{
+		"Category": "Carbohydrates",
+		"Difficulty": "Easy",
+		"Question": "If another asymmetric carbon centre is added to a tetrose what will it become?",
+		"Answers":
+		[
+			{
+				"Text": "Pentose",
+				"Score": "1"
+			},
+			{
+				"Text": "Triose"
+			},
+			{
+				"Text": "A tetrose epimer"
+			},
+			{
+				"Text": "Hexose"
+			},
+			{
+				"Text": "Disaccharide"
+			},
+		]
+	},
+	{
+		"Category": "Carbohydrates",
+		"Difficulty": "Easy",
+		"Question": "What term is used to describe a monosaccharides with 5-carbons and a terminal carbonyl group?",
+		"Answers":
+		[
+			{
+				"Text": "Aldopentose",
+				"Score": "1"
+			},
+			{
+				"Text": "Aldofuranose"
+			},
+			{
+				"Text": "Ketohexose"
+			},
+			{
+				"Text": "Polysaccharide"
+			},
+			{
+				"Text": "Ketodisaccharide"
+			},
+		]
+	},
+	{
+		"Category": "Carbohydrates",
+		"Difficulty": "Medium",
+		"Question": "Which statement best describes a D-isomer when considered as a Fischer projection?",
+		"Answers":
+		[
+			{
+				"Text": "Sugar molecule with the OH group on the last asymmetric carbon atom on the right-hand side",
+				"Score": "1"
+			},
+			{
+				"Text": "Sugar molecule with the OH group on the last symmetric carbon atom on the right-hand side"
+			},
+			{
+				"Text": "Sugar molecule with the OH group on the last carbon atom on the right-hand side"
+			},
+			{
+				"Text": "Sugar molecule with the OH group on the last symmetric carbon atom on the left-hand side"
+			},
+			{
+				"Text": "Sugar molecule with the OH group on the internal carbon atom on the left-hand side"
+			},
+		]
+	},
+	{
+		"Category": "Carbohydrates",
+		"Difficulty": "Medium",
+		"Question": "What is the disaccharide that is made up of two glucose molecules?",
+		"Answers":
+		[
+			{
+				"Text": "Maltose",
+				"Score": "1"
+			},
+			{
+				"Text": "Sucrose"
+			},
+			{
+				"Text": "Starch"
+			},
+			{
+				"Text": "Lactose"
+			},
+			{
+				"Text": "Galactose"
+			},
+		]
+	},
+	{
+		"Category": "Carbohydrates",
+		"Difficulty": "Easy",
+		"Question": "Which sugar is used to link nucleic acids in transfer RNA?",
+		"Answers":
+		[
+			{
+				"Text": "Ribose",
+				"Score": "1"
+			},
+			{
+				"Text": "2-deoxyribose"
+			},
+			{
+				"Text": "L-ribulose"
+			},
+			{
+				"Text": "Purine"
+			},
+			{
+				"Text": "D-glucose"
+			},
+		]
+	},
+	{
+		"Category": "Carbohydrates",
+		"Difficulty": "Medium",
+		"Question": "Which chemical can be used to detect the presence of starch?",
+		"Answers":
+		[
+			{
+				"Text": "Iodine",
+				"Score": "1"
+			},
+			{
+				"Text": "Benedict's reagent"
+			},
+			{
+				"Text": "Fehling's solution"
+			},
+			{
+				"Text": "Iron"
+			},
+			{
+				"Text": "Phosphate"
+			},
+		]
+	},
+	{
+		"Category": "Carbohydrates",
+		"Difficulty": "Easy",
+		"Question": "Ribose is which type of monosaccharide?",
+		"Answers":
+		[
+			{
+				"Text": "Aldopentose",
+				"Score": "1"
+			},
+			{
+				"Text": "Aldofuranose"
+			},
+			{
+				"Text": "Ketohexose"
+			},
+			{
+				"Text": "Aldotetrose"
+			},
+			{
+				"Text": "Ketodisaccharide"
+			},
+		]
+	},
+	{
+		"Category": "Carbohydrates",
+		"Difficulty": "Easy",
+		"Question": "The ketotetroses have one chiral centre and, therefore, two possible stereoisomers: erythrulose (L- and D-form). Only the L enantiomer is naturally occurring.",
+		"Answers":
+		[
+			{
+				"Text": "False",
+				"Score": ".5"
+			},
+			{
+				"Text": "True",
+				"Explanation": "Only the D enantiomer is naturally occurring."
+			}
+		]
+	},
+	{
+		"Category": "Carbohydrates",
+		"Difficulty": "Hard",
+		"KeyQuestion": "What is the definition of \"*answer text*\"?",
+		"ValueQuestion": "What is defined as *answer text*?",
+		"KeyValue": "true",
+		"MaxNumberOfAnswers": "5",
+		"Answers":
+		[
+			{
+				"Key": "Hemiacetal",
+				"Text": "compounds that are derived from aldehydes and ketones respectively"
+			},
+			{
+				"Key": "Pyranose",
+				"Text": "a compound that includes a six-membered ring of five carbon atoms and one oxygen atom"
+			},
+			{
+				"Key": "Stereoisomer",
+				"Text": "molecules that differ in their three-dimensional orientations of their atoms in space"
+			},
+			{
+				"Key": "Anomer",
+				"Text": "cyclic saccharide that differs at the hemiacetal carbon, designated alpha (α) or beta (β)"
+			},
+			{
+				"Key": "Furanose",
+				"Text": "a five-member ring system consisting of four carbon atoms and one oxygen atom"
+			},
+			{
+				"Key": "Mutarotation",
+				"Text": "the change in the optical rotation that occurs by epimerisation"
+			},
+			{
+				"Key": "Epimer",
+				"Text": "stereoisomers that differ in configuration of only one stereogenic centre"
+			},
+		]
+	},
+	{
+		"Category": "Carbohydrates",
+		"Difficulty": "Hard",
+		"KeyQuestion": "Which of the following 2D Fischer projections of carbohydrates represents *answer text*?",
+		"ValueQuestion": "What is the name of the pictured carbohydrate?",
+		"DynamicAnswer": "true",
+		"MaxNumberOfAnswers": "5",
+		"Answers":
+		[
+			{
+				"Image": "D-Galactose.png",
+				"Text": "D-Galactose"
+			},
+			{
+				"Image": "L-Galactose.png",
+				"Text": "L-Galactose"
+			},
+			{
+				"Image": "D-glyceraldehyde-2D-Fischer.png",
+				"Text": "D-Glyceraldehyde"
+			},
+			{
+				"Image": "L-glyceraldehyde-2D-Fischer.png",
+				"Text": "L-Glyceraldehyde"
+			},
+			{
+				"Image": "D-Glucose.png",
+				"Text": "D-Glucose"
+			},
+			{
+				"Image": "L-Glucose.png",
+				"Text": "L-Glucose"
+			},
+			{
+				"Image": "D-Fructose.png",
+				"Text": "D-Fructose"
+			},
+			{
+				"Image": "L-Fructose.png",
+				"Text": "L-Fructose"
+			},
+		]
+	},
+	{
+		"Category": "Carbohydrates",
+		"Difficulty": "Hard",
+		"KeyQuestion": "Which of the following Hawthorn projections of carbohydrates represents *answer text*?",
+		"ValueQuestion": "What is the name of the pictured carbohydrate?",
+		"DynamicAnswer": "true",
+		"Answers":
+		[
+			{
+				"Image": "Alpha-D-Glucofuranose.png",
+				"Text": "α-D-Glucofuranose"
+			},
+			{
+				"Image": "Alpha-D-Glucopyranose.png",
+				"Text": "α-D-Glucopyranose"
+			},
+			{
+				"Image": "Beta-D-Glucofuranose.png",
+				"Text": "β-D-Glucofuranose"
+			},
+			{
+				"Image": "Beta-D-Glucopyranose.png",
+				"Text": "β-D-Glucopyranose"
+			}
+		]
+	},
+	{
+		"Category": "Carbohydrates",
+		"Difficulty": "Hard",
+		"Question": "Each of these isomers of glucose have a corresponding stereoisomer that differ only on the orientation of the highlighted OH bond (in red). Which of these isomers is an anomer?",
+		"Answers":
+		[
+			{
+				"Image": "β-D-glucopyranose.png",
+				"Text": "β-D-glucopyranose",
+				"Score": ".5"
+			},
+			{
+				"Image": "β-D-mannopyranose.png",
+				"Text": "β-D-mannopyranose",
+				"Explanation": "The stereoisomer of β-D-mannopyranose (α-D-glucopyranose) is an epimer but not an anomer. An anomer must differ at the hemiacetal carbon."
+			}
+		]
+	},
+	{
+		"Category": "Carbohydrates",
+		"Difficulty": "Easy",
+		"Question": "Cellulose is a simple polysaccharide. It's a homopolysaccharide, made up of D-glucose in β(1→4) glycosidic links.",
+		"Answers":
+		[
+			{
+				"Text": "True",
+				"Score": ".5"
+			},
+			{
+				"Text": "False"
+			}
+		]
+	},
+	{
+		"Category": "Carbohydrates",
+		"Difficulty": "Medium",
+		"KeyQuestion": "The formation of *answer text* requires __________.",
+		"ValueQuestion": "What is formed when *answer text* are combined?",
+		"KeyValue": "true",
+		"Answers":
+		[
+			{
+				"Key": "Lactose",
+				"Text": "glucose and galactose"
+			},
+			{
+				"Key": "Sucrose",
+				"Text": "glucose and fructose"
+			},
+			{
+				"Key": "Maltose",
+				"Text": "two glucose molecules"
+			},
+			{
+				"Key": "Lactulose",
+				"Text": "fructose and galactose"
+			}
+		]
+	},
+	{
+		"Category": "Carbohydrates",
+		"Difficulty": "Medium",
+		"Question": "A glycosidic bond is a type of covalent bond that joins a carbohydrate (sugar) molecule to another carbohydrate.",
+		"Answers":
+		[
+			{
+				"Text": "False",
+				"Score": ".5"
+			},
+			{
+				"Text": "True",
+				"Explanation": "The join is between a carbohydrate and another group, which may or may not be another carbohydrate."
+			}
+		]
+	},
+	{
+		"Category": "Carbohydrates",
+		"Difficulty": "Medium",
+		"Question": "There are two different types of disaccharides: reducing disaccharides, in which one monosaccharide, the reducing sugar, still has a free hemiacetal unit; and non-reducing disaccharides, in which the components bond through an acetal linkage between their anomeric centers and neither monosaccharide has a free hemiacetal unit.",
+		"Answers":
+		[
+			{
+				"Text": "True",
+				"Score": ".5"
+			},
+			{
+				"Text": "False"
+			}
+		]
+	},
+	{
+		"Category": "Carbohydrates",
+		"Difficulty": "Medium",
+		"Question": "Sucrose is an example of a reducing disaccharide. Maltose is an examples of a non-reducing disaccharide.",
+		"Answers":
+		[
+			{
+				"Text": "False",
+				"Score": ".5"
+			},
+			{
+				"Text": "True",
+				"Explanation": "Maltose is an example of a reducing disaccharide (α(1→4) bond). Sucrose is an examples of a non-reducing disaccharide (α(1→2)β bond)."
+			}
+		]
+	},
+	{
+		"Category": "Carbohydrates",
+		"Difficulty": "Medium",
+		"Question": "The pictured image is of a non-reducing disaccharide.",
+		"Image": "Saccharose.png",
+		"Answers":
+		[
+			{
+				"Text": "True",
+				"Score": ".5"
+			},
+			{
+				"Text": "False",
+				"Explanation": "This is an image of sucrose. Unlike most disaccharides, the glycosidic bond is formed between the reducing ends of both glucose and fructose, and not between the reducing end of one and the non-reducing end of the other. This linkage inhibits further bonding to other saccharide units."
+			}
+		]
+	},
+	{
+		"Category": "Carbohydrates",
+		"Difficulty": "Easy",
+		"Question": "Two monosaccharides are bonded via a dehydration reaction (also called a condensation reaction or dehydration synthesis) that leads to the addition of an hydroxyl group and formation of a glycosidic bond.",
+		"Answers":
+		[
+			{
+				"Text": "False",
+				"Score": ".5"
+			},
+			{
+				"Text": "True",
+				"Explanation": "The formation of a glycosidic bond comes from the loss of a molecule of water."
+			}
+		]
+	},
+	{
+		"Category": "Carbohydrates",
+		"Difficulty": "Easy",
+		"Question": "The cicada's exoskeleton is mostly composed which polysaccharide?",
+		"Image": "Lyristes_plebejus.jpg",
+		"Copyright": "Jodelet / Lépinay",
+		"Answers":
+		[
+			{
+				"Text": "Chitin",
+				"Score": "1",
+				"Explanation": "Chitin is a long-chain polymer of a N-acetylglucosamine, a derivative of glucose."
+			},
+			{
+				"Text": "Starch"
+			},
+			{
+				"Text": "Cellulose"
+			},
+			{
+				"Text": "Glycogen"
+			},
+			{
+				"Text": "Agar"
+			},
+		]
+	},
+	{
+		"Category": "Carbohydrates",
+		"Difficulty": "Hard",
+		"KeyQuestion": "The homopolysaccharide *answer text* is composed of __________.",
+		"ValueQuestion": "What is the name of the homopolysaccharide that is composed of *answer text*?",
+		"KeyValue": "true",
+		"Answers":
+		[
+			{
+				"Key": "Agar",
+				"Text": "D-galactose in α(1→4) and α(1→3) galactosidic links"
+			},
+			{
+				"Key": "Glycogen",
+				"Text": "D-glucose in α(1→4) and α(1→6) glycosidic links, branched every 8-10 residues"
+			},
+			{
+				"Key": "Cellulose",
+				"Text": "D-glucose in β(1→4) glycosidic links"
+			},
+			{
+				"Key": "Amylose starch",
+				"Text": "D-glucose in α(1→4) glycosidic links"
+			},
+			{
+				"Key": "Amylopectin starch",
+				"Text": "D-glucose in α(1→4) and α(1→6) glycosidic links, branched every 24-30 residues"
 			},
 		]
 	},
