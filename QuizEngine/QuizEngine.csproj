@@ -179,6 +179,9 @@
     <Content Include="Assets\Quizzes\Chemistry\Saccharose.png" />
     <Content Include="Assets\Quizzes\Chemistry\β-D-glucopyranose.png" />
     <Content Include="Assets\Quizzes\Chemistry\β-D-mannopyranose.png" />
+    <Content Include="Assets\Quizzes\Human Body Systems\Cyclic-adenosine-monophosphate-2D-skeletal.png" />
+    <Content Include="Assets\Quizzes\Human Body Systems\Endocrine_central_nervous.png" />
+    <Content Include="Assets\Quizzes\Human Body Systems\Gray1180.png" />
     <Content Include="Assets\Quizzes\Human Body Systems\Lung volumes.png" />
     <Content Include="Assets\Quizzes\Chemistry\Lysine.png" />
     <Content Include="Assets\Quizzes\Chemistry\Methionine.png" />
@@ -231,6 +234,7 @@
     <Content Include="Assets\Quizzes\Human Body Systems\Normal ECG Tracing.png" />
     <Content Include="Assets\Quizzes\Human Body Systems\Oxygen-haemoglobin dissociation curve - no labels on axes.png" />
     <Content Include="Assets\Quizzes\Human Body Systems\Oxygen-haemoglobin dissociation curve.png" />
+    <Content Include="Assets\Quizzes\Human Body Systems\Parathyroid glands.jpg" />
     <Content Include="Assets\Quizzes\Human Body Systems\Pentamer.png" />
     <Content Include="Assets\Quizzes\Human Body Systems\Posterior Muscles.png" />
     <Content Include="Assets\Quizzes\Human Body Systems\Prometaphase.png" />
@@ -246,6 +250,7 @@
     <Content Include="Assets\Quizzes\Human Body Systems\Stratified Cuboidal.png" />
     <Content Include="Assets\Quizzes\Human Body Systems\Stratified Squamous.png" />
     <Content Include="Assets\Quizzes\Human Body Systems\Telophase.png" />
+    <Content Include="Assets\Quizzes\Human Body Systems\Thyroid.png" />
     <Content Include="Assets\Quizzes\Human Body Systems\Unipolar neuron.png" />
     <Content Include="Assets\Quizzes\Spanish Civil War.png" />
     <Content Include="Assets\Quizzes\Spanish Civil War.txt" />

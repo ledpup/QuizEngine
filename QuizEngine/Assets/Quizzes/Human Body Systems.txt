@@ -5031,7 +5031,7 @@
 		[
 			{
 				"Key": "Hypercapnia",
-				"Text": "increased level of PCO2 above normal (40mmHg)."
+				"Text": "increased level of PCO\u2082 above normal (40mmHg)."
 			},
 			{
 				"Key": "Acidosis",
@@ -5055,6 +5055,718 @@
 			},
 			{
 				"Text": "False"
+			},
+		]
+	},
+	{
+		"Category": "Endocrine System",
+		"Difficulty": "Easy",
+		"Question": "When one hormone's action is opposing the action of another hormone it is called:",
+		"Answers":
+		[
+			{
+				"Text": "Antagonistic",
+				"Score": "1"
+			},
+			{
+				"Text": "Synergistic"
+			},
+			{
+				"Text": "Permissive"
+			},
+			{
+				"Text": "Circulating"
+			},
+			{
+				"Text": "Local"
+			},
+		]
+	},
+	{
+		"Category": "Endocrine System",
+		"Difficulty": "Easy",
+		"Question": "Which hormone is stimulated by increasing levels of blood glucose?",
+		"Answers":
+		[
+			{
+				"Text": "Insulin",
+				"Score": "1"
+			},
+			{
+				"Text": "Glucagon",
+				"Explanation": "Glucagon is stimulated by decreasing levels of blood glucose."
+			},
+			{
+				"Text": "Leutinizing hormone"
+			},
+			{
+				"Text": "Parathyroid hormone"
+			},
+			{
+				"Text": "Calcitonin"
+			},
+		]
+	},
+	{
+		"Category": "Endocrine System",
+		"Difficulty": "Easy",
+		"Question": "Which hormone is stimulated by decreasing levels of blood glucose?",
+		"Answers":
+		[
+			{
+				"Text": "Glucagon",
+				"Score": "1"
+			},
+			{
+				"Text": "Insulin",
+				"Explanation": "Insulin is stimulated by increasing levels of blood glucose."
+			},
+			{
+				"Text": "Leutinizing hormone"
+			},
+			{
+				"Text": "Parathyroid hormone"
+			},
+			{
+				"Text": "Calcitonin"
+			},
+		]
+	},
+	{
+		"Category": "Endocrine System",
+		"Difficulty": "Easy",
+		"Question": "Which of the following hormones opposes the action of parathyroid hormone?",
+		"Image": "Parathyroid glands.jpg",
+		"Answers":
+		[
+			{
+				"Text": "Calcitonin",
+				"Score": "1"
+			},
+			{
+				"Text": "Thyroid stimulating hormone"
+			},
+			{
+				"Text": "Testosterone"
+			},
+			{
+				"Text": "Insulin"
+			},
+			{
+				"Text": "Calcitriol"
+			},
+		]
+	},
+	{
+		"Category": "Endocrine System",
+		"Difficulty": "Easy",
+		"Question": "Which of the following anterior pituitary hormones stimulates growth?",
+		"Image": "Gray1180.png",
+		"Answers":
+		[
+			{
+				"Text": "Human growth hormone",
+				"Score": "1"
+			},
+			{
+				"Text": "Thyroid stimulating hormone"
+			},
+			{
+				"Text": "Prolactin"
+			},
+			{
+				"Text": "Thyrotropin"
+			},
+			{
+				"Text": "Follicle stimulating hormone"
+			},
+		]
+	},
+	{
+		"Category": "Endocrine System",
+		"Difficulty": "Medium",
+		"Question": "Parathyroid hormone is the major regulator of which ions in the blood?",
+		"Image": "Parathyroid glands.jpg",
+		"Answers":
+		[
+			{
+				"Text": "Calcium",
+				"Score": "1"
+			},
+			{
+				"Text": "Sodium"
+			},
+			{
+				"Text": "Potassium"
+			},
+			{
+				"Text": "Chloride"
+			},
+			{
+				"Text": "Manganese"
+			},
+		]
+	},
+	{
+		"Category": "Endocrine System",
+		"Difficulty": "Easy",
+		"Question": "Which of the following anterior pituitary hormones stimulates milk production?",
+		"Image": "Gray1180.png",
+		"Answers":
+		[
+			{
+				"Text": "Prolactin",
+				"Score": "1"
+			},
+			{
+				"Text": "Leutinizing hormone"
+			},
+			{
+				"Text": "Thyrotropin"
+			},
+			{
+				"Text": "Melanocyte stimulating hormone"
+			},
+			{
+				"Text": "Adrenocorticotropic hormone"
+			},
+		]
+	},
+	{
+		"Category": "Endocrine System",
+		"Difficulty": "Medium",
+		"Question": "When a hormone is present in excessive levels, the number of target-cell receptors may decrease. This is called:",
+		"Answers":
+		[
+			{
+				"Text": "Down regulation",
+				"Score": "1"
+			},
+			{
+				"Text": "Up regulation"
+			},
+			{
+				"Text": "Paracrine"
+			},
+			{
+				"Text": "Circulating hormone"
+			},
+			{
+				"Text": "Receptor recognition"
+			},
+		]
+	},
+	{
+		"Category": "Endocrine System",
+		"Difficulty": "Medium",
+		"Question": "Which gland secretes the hormone melatonin?",
+		"Answers":
+		[
+			{
+				"Text": "Pineal",
+				"Score": "1"
+			},
+			{
+				"Text": "Pituitary"
+			},
+			{
+				"Text": "Hypothalamus"
+			},
+			{
+				"Text": "Thyroid"
+			},
+			{
+				"Text": "Adrenal"
+			},
+		]
+	},
+	{
+		"Category": "Endocrine System",
+		"Difficulty": "Medium",
+		"Question": "What controls the anterior pituitary gland?",
+		"Image": "Gray1180.png",
+		"Answers":
+		[
+			{
+				"Text": "Action of hypothalamic hormones",
+				"Score": "1"
+			},
+			{
+				"Text": "The peripheral nervous system"
+			},
+			{
+				"Text": "Chemical signals from the blood"
+			},
+			{
+				"Text": "Action potentials from the thalamus"
+			},
+			{
+				"Text": "Chemical changes in CSF"
+			},
+		]
+	},
+	{
+		"Category": "Endocrine System",
+		"Difficulty": "Easy",
+		"KeyQuestion": "The *answer text* __________.",
+		"ValueQuestion": "What is the name for something that *answer text*?",
+		"KeyValue": "true",
+		"Answers":
+		[
+			{
+				"Key": "Nervous system",
+				"Text": "has a fast response and short duration"
+			},
+			{
+				"Key": "Endocrine system",
+				"Text": "has a slower response and longer duration"
+			},
+			{
+				"Key": "Endocrine gland",
+				"Text": "secretes hormones into interstitial fluid and blood"
+			},
+			{
+				"Key": "Exocrine gland",
+				"Text": "secretes products into ducts that connect to body cavity, lumen of organ or body surface"
+			},
+		]
+	},
+	{
+		"Category": "Endocrine System",
+		"Difficulty": "Medium",
+		"Question": "When there is high level of circulating hormone the receptor number decreases (up regulation) making target cell less sensitive to the hormone. When there is a low level of circulating hormone the receptor number increases (down regulation), making the target cell more sensitive to the hormone.",
+		"Answers":
+		[
+			{
+				"Text": "False",
+				"Score": ".5"
+			},
+			{
+				"Text": "True",
+				"Explanation": "Down regulation occurs when high levels decrease. Up regulation occurs when low levels increase."
+			},
+		]
+	},
+	{
+		"Category": "Endocrine System",
+		"Difficulty": "Medium",
+		"Question": "Which statement about the action of a hormone does not apply to a lipid soluble hormone?",
+		"Answers":
+		[
+			{
+				"Text": "Hormone binds to receptor on target cell plasma membrane",
+				"Score": "1",
+				"Explanation": "A water soluble hormone binds to a receptor on a target cell plasma membrane."
+			},
+			{
+				"Text": "Hormone alters gene expression"
+			},
+			{
+				"Text": "Hormone binds to receptors located in target cell"
+			},
+			{
+				"Text": "Hormone crosses plasma membrane"
+			},
+			{
+				"Text": "Hormone detaches from transport protein in blood"
+			},
+		]
+	},
+	{
+		"Category": "Endocrine System",
+		"Difficulty": "Hard",
+		"Question": "How is cyclic AMP formed?",
+		"Image": "Cyclic-adenosine-monophosphate-2D-skeletal.png",
+		"ImageText": "Cyclic adenosine monophosphate (cAMP)",
+		"Answers":
+		[
+			{
+				"Text": "cAMP is formed from ATP by adenylate cyclase",
+				"Score": "1"
+			},
+			{
+				"Text": "cAMP is formed from ADP by adenylate cyclase"
+			},
+			{
+				"Text": "cAMP is formed during ATP synthesis by the enzyme adenylate kinase by combining two ADP molecules"
+			},
+			{
+				"Text": "cAMP is formed from ATP by adenylate kinase"
+			},
+			{
+				"Text": "cAMP is formed by hydrolysis of ATP into cAMP and pyrophosphate"
+			},
+		]
+	},
+	{
+		"Category": "Endocrine System",
+		"Difficulty": "Hard",
+		"Question": "Cyclic AMP is termed the __________ messenger.",
+		"Image": "Cyclic-adenosine-monophosphate-2D-skeletal.png",
+		"ImageText": "Cyclic adenosine monophosphate (cAMP)",
+		"Answers":
+		[
+			{
+				"Text": "secondary",
+				"Score": "1"
+			},
+			{
+				"Text": "tertiary"
+			},
+			{
+				"Text": "primary"
+			},
+			{
+				"Text": "repeating"
+			},
+			{
+				"Text": "None of the above",
+				"IsLast": "true"
+			},
+		]
+	},
+	{
+		"Category": "Endocrine System",
+		"Difficulty": "Easy",
+		"Question": "Which hormone effect occurs when more than one hormone produces the same effect and their combined effects are greater than the sum of the two hormones acting alone?",
+		"Answers":
+		[
+			{
+				"Text": "Synergistic",
+				"Score": "1"
+			},
+			{
+				"Text": "Permissive"
+			},
+			{
+				"Text": "Antagonistic"
+			},
+			{
+				"Text": "Contractile"
+			},
+			{
+				"Text": "None of the above",
+				"IsLast": "true"
+			},
+		]
+	},
+	{
+		"Category": "Endocrine System",
+		"Difficulty": "Medium",
+		"Question": "The hypothalamus contains neuro-secretory cells that produce releasing and inhibiting hormones that affect release of posterior pituitary hormones.",
+		"Image": "Endocrine_central_nervous.png",
+		"Answers":
+		[
+			{
+				"Text": "False",
+				"Score": ".5"
+			},
+			{
+				"Text": "True",
+				"Explanation": "The hypothalamus affects anterior pituitary hormones."
+			},
+		]
+	},
+	{
+		"Category": "Endocrine System",
+		"Difficulty": "Hard",
+		"Question": "Which hormone is not produced by the hypothalamus?",
+		"Answers":
+		[
+			{
+				"Text": "Leutinizing hormone (LH)",
+				"Score": "1",
+				"Explanation": "Leutinizing hormone is produced by gonadotroph cells in the anterior pituitary gland."
+			},
+			{
+				"Text": "Growth hormone releasing/inhibiting hormones (GHRH/GHIH)"
+			},
+			{
+				"Text": "Thyrotropin releasing hormone (TRH)"
+			},
+			{
+				"Text": "Gonadotropin releasing hormone (GnRH)"
+			},
+			{
+				"Text": "Prolactin releasing/inhibiting hormones (PRH/PIH)"
+			},
+		]
+	},
+	{
+		"Category": "Endocrine System",
+		"Difficulty": "Medium",
+		"Question": "Hormones produced by the hypothalamus and pituitary gland regulate which body function?",
+		"Answers":
+		[
+			{
+				"Text": "All of the above",
+				"Score": "1",
+				"IsLast": "true"
+			},
+			{
+				"Text": "Growth"
+			},
+			{
+				"Text": "Development"
+			},
+			{
+				"Text": "Metabolism"
+			},
+			{
+				"Text": "Homeostasis"
+			},
+		]
+	},
+	{
+		"Category": "Endocrine System",
+		"Difficulty": "Medium",
+		"Question": "An anterior pituitary hormone that influences another endocrine gland is called a trophic hormone or tropin.",
+		"Answers":
+		[
+			{
+				"Text": "True",
+				"Score": ".5"
+			},
+			{
+				"Text": "False"
+			},
+		]
+	},
+	{
+		"Category": "Endocrine System",
+		"Difficulty": "Hard",
+		"Question": "Which anterior pituitary hormone does not stimulate a second endocrine gland to release a hormone?",
+		"Answers":
+		[
+			{
+				"Text": "Prolactin (PRL)",
+				"Score": "1",
+				"Explanation": "Prolactin is a peptide hormone best known for its role in lactation."
+			},
+			{
+				"Text": "Thyroid-stimulating hormone (TSH)",
+				"Explanation": "TSH is a hormone that stimulates the thyroid gland to produce thyroxine (T4), and then triiodothyronine (T3) which stimulates the metabolism of almost every tissue in the body."
+			},
+			{
+				"Text": "Adrenocorticotropic hormone (ACTH)",
+				"Explanation": "ACTH, also known as corticotropin, is a polypeptide tropic hormone produced and secreted by the anterior pituitary gland. Its principal effects are increased production and release of corticosteroids."
+			},
+			{
+				"Text": "Follicle-stimulating hormone (FSH)",
+				"Explanation": "FSH regulates female reproductive cycle and stimulates production of oocytes, sperm and estrogen."
+			},
+			{
+				"Text": "Leutinizing hormone (LH)",
+				"Explanation": "In females, LH supports theca cells in the ovaries that provide androgens and hormonal precursors for estradiol production. In the male, LH acts upon the Leydig cells of the testis and is responsible for the production of testosterone."
+			},
+		]
+	},
+	{
+		"Category": "Endocrine System",
+		"Difficulty": "Hard",
+		"Question": "Which anterior pituitary hormone acts synergistically with leutinizing hormone (LH)?",
+		"Answers":
+		[
+			{
+				"Text": "Follicle-stimulating hormone (FSH)",
+				"Score": "1",
+				"Explanation": "FSH regulates female reproductive cycle and stimulates production of oocytes, sperm and estrogen."
+			},
+			{
+				"Text": "Thyroid-stimulating hormone (TSH)",
+				"Explanation": "TSH is a hormone that stimulates the thyroid gland to produce thyroxine (T4), and then triiodothyronine (T3) which stimulates the metabolism of almost every tissue in the body."
+			},
+			{
+				"Text": "Adrenocorticotropic hormone (ACTH)",
+				"Explanation": "ACTH, also known as corticotropin, is a polypeptide tropic hormone produced and secreted by the anterior pituitary gland. Its principal effects are increased production and release of corticosteroids."
+			},
+			{
+				"Text": "Prolactin (PRL)",
+				"Explanation": "Prolactin is a peptide hormone best known for its role in lactation."
+			},
+			{
+				"Text": "Oxytocin (Oxt)",
+				"Explanation": "Oxytocin is produced in the posterior pituitary gland and the hypothalamus. It is not an anterior pituitary hormone."
+			},
+		]
+	},
+	{
+		"Category": "Endocrine System",
+		"Difficulty": "Hard",
+		"KeyQuestion": "The pituitary gland hormone known as *answer text* __________.",
+		"ValueQuestion": "What is the name for the pituitary gland hormone that *answer text*?",
+		"KeyValue": "true",
+		"MaxNumberOfAnswers": "5",
+		"Answers":
+		[
+			{
+				"Key": "Thyroid-stimulating hormone (TSH)",
+				"Text": "stimulates the thyroid gland to produce thyroxine (T4) and then triiodothyronine (T3)"
+			},
+			{
+				"Key": "Adrenocorticotropic hormone (ACTH)",
+				"Text": "stimulates secretion of glucocorticoids by adrenal cortex"
+			},
+			{
+				"Key": "Prolactin (PRL)",
+				"Text": "is a peptide hormone best known for its role in lactation"
+			},
+			{
+				"Key": "Oxytocin (Oxt)",
+				"Text": "aids uterine smooth muscle contraction and milk ejection from mammary glands"
+			},
+			{
+				"Key": "Antidiuretic hormone (ADH)",
+				"Text": "functions to retain water in the body and to constrict blood vessels"
+			},
+			{
+				"Key": "Melatonin",
+				"Text": "encourages the entrainment of the circadian rhythms of several biological functions"
+			},
+			{
+				"Key": "Growth hormone",
+				"Text": "stimulates growth, cell reproduction and regeneration"
+			},
+			{
+				"Key": "Follicle-stimulating hormone (FSH)",
+				"Text": "stimulates production of oocytes, sperm and estrogen"
+			},
+			{
+				"Key": "Luteinizing Hormone (LH)",
+				"Text": "causes ovulation, stimulates secretion of estrogen, progesterone and testosterone"
+			},
+		]
+	},
+	{
+		"Category": "Endocrine System",
+		"Difficulty": "Medium",
+		"Question": "Which two hormones are stored and released from the posterior pituitary gland? Where are they synthesised?",
+		"Answers":
+		[
+			{
+				"Text": "Oxytocin and antidiuretic hormone (ADH); hypothalamus",
+				"Score": "1"
+			},
+			{
+				"Text": "Oxytocin and prolactin; hypothalamus"
+			},
+			{
+				"Text": "Oxytocin and prolactin; anterior pituitary hormone"
+			},
+			{
+				"Text": "Luteinizing Hormone (LH) and Follicle-stimulating hormone (FSH); hypothalamus"
+			},
+			{
+				"Text": "Luteinizing Hormone (LH) and antidiuretic hormone (ADH); hypothalamus"
+			},
+		]
+	},
+	{
+		"Category": "Endocrine System",
+		"Difficulty": "Medium",
+		"Question": "What effect would drinking a large volume of water have on the osmotic pressure of your blood? What effect does it have on the level of antidiuretic hormone (ADH)?",
+		"Answers":
+		[
+			{
+				"Text": "Decrease osmotic pressure and decrease ADH to allow excretion of water",
+				"Score": "1"
+			},
+			{
+				"Text": "Increase osmotic pressure and decrease ADH to allow excretion of water"
+			},
+			{
+				"Text": "Increase osmotic pressure and increase ADH to allow excretion of water"
+			},
+			{
+				"Text": "Decrease osmotic pressure and increase ADH to allow excretion of water"
+			},
+			{
+				"Text": "None of the above",
+				"IsLast": "true"
+			},
+		]
+	},
+	{
+		"Category": "Endocrine System",
+		"Difficulty": "Medium",
+		"Question": "Which hormones does the thyroid gland produce and which cells secrete each type?",
+		"Image": "Thyroid.png",
+		"Answers":
+		[
+			{
+				"Text": "Triiodothyronine (T3), Thyroxine (T4) from follicular cells; Calcitonin from parafollicular cells",
+				"Score": "1"
+			},
+			{
+				"Text": "Triiodothyronine (T3), Thyroxine (T4) from parafollicular cells; Melatonin from follicular cells"
+			},
+			{
+				"Text": "Thyroxine (T4) from parafollicular cells; Triiodothyronine (T3), Calcitonin from follicular cells"
+			},
+			{
+				"Text": "Triiodothyronine (T3) from follicular cells; Thyroxine (T4) from parafollicular cells"
+			},
+			{
+				"Text": "Thyroxine (T4) from parafollicular cells; Melatonin from parafollicular cells"
+			},
+		]
+	},
+	{
+		"Category": "Endocrine System",
+		"Difficulty": "Hard",
+		"KeyQuestion": "The hormone known as *answer text* __________.",
+		"ValueQuestion": "What is the name for the hormone that *answer text*?",
+		"KeyValue": "true",
+		"MaxNumberOfAnswers": "5",
+		"Answers":
+		[
+			{
+				"Key": "Triiodothyronine (T3) and Thyroxine (T4)",
+				"Text": "increases basal metabolic rate (BMR) and increases use of glucose and FA's for ATP production"
+			},
+			{
+				"Key": "Calcitonin",
+				"Text": "lowers blood Ca\u00B2\u207A and phosphates by inhibiting bone resorption by osteoclasts"
+			},
+			{
+				"Key": "Parathyroid Hormone (PTH)",
+				"Text": "increases blood Ca\u00B2\u207A and Mg\u00B2\u207A by increasing bone resorption"
+			},
+			{
+				"Key": "Mineralocorticoids",
+				"Text": "increases blood Na\u207A and water, decreases K\u207A"
+			},
+			{
+				"Key": "Glucocorticoids",
+				"Text": "increases protein breakdown, stimulates gluconeogenesis and lipolysis"
+			},
+			{
+				"Key": "Epinephrine/norepinephrine",
+				"Text": "enhances sympathetic response during stress"
+			},
+			{
+				"Key": "Glucagon",
+				"Text": "raises blood glucose levels by causing liver cells to breakdown glycogen into glucose"
+			},
+			{
+				"Key": "Insulin",
+				"Text": "lowers blood glucose; glucose → glycogen in liver, glucose → fat in adipose cells"
+			},
+			{
+				"Key": "Relaxin",
+				"Text": "increases flexibility of pubic symphysis in pregnancy, dilates cervix during labour"
+			},
+			{
+				"Key": "Inhibin",
+				"Text": "inhibits secretion of follicle-stimulating hormone (FSH) from anterior pituitary"
+			},
+			{
+				"Key": "Testosterone",
+				"Text": "causes descent of testes before birth and regulates spermatogenesis"
+			},
+			{
+				"Key": "Estrogen and progesterone",
+				"Text": "regulates female reproductive cycle, maintains pregnancy, and prepares mammary glands for lactation"
 			},
 		]
 	},
