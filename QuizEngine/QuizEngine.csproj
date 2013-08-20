@@ -141,6 +141,7 @@
     <Content Include="Assets\Quizzes\Chemistry.txt" />
     <Content Include="Assets\Quizzes\Chemistry\2D gel electrophoresis.jpg" />
     <Content Include="Assets\Quizzes\Chemistry\Adenine.png" />
+    <Content Include="Assets\Quizzes\Chemistry\ALA.png" />
     <Content Include="Assets\Quizzes\Chemistry\Alanine.png" />
     <Content Include="Assets\Quizzes\Chemistry\Alcohol.png" />
     <Content Include="Assets\Quizzes\Chemistry\Aldehyde.png" />
@@ -163,8 +164,11 @@
     <Content Include="Assets\Quizzes\Chemistry\DNA replication.png" />
     <Content Include="Assets\Quizzes\Chemistry\Ester.png" />
     <Content Include="Assets\Quizzes\Chemistry\Ether.png" />
+    <Content Include="Assets\Quizzes\Chemistry\Fat_triglyceride_shorthand_formula.png" />
     <Content Include="Assets\Quizzes\Chemistry\Gel filtration.png" />
     <Content Include="Assets\Quizzes\Chemistry\Glycine.png" />
+    <Content Include="Assets\Quizzes\Chemistry\Glycolipid.jpg" />
+    <Content Include="Assets\Quizzes\Chemistry\Glycolysis.png" />
     <Content Include="Assets\Quizzes\Chemistry\Guanine.png" />
     <Content Include="Assets\Quizzes\Chemistry\Hanes-Woolf plot.png" />
     <Content Include="Assets\Quizzes\Chemistry\Ketone.png" />
@@ -175,8 +179,11 @@
     <Content Include="Assets\Quizzes\Chemistry\Lineweaver-Burke plot - no labels on axes.png" />
     <Content Include="Assets\Quizzes\Chemistry\Lineweaver-Burke plot.png" />
     <Content Include="Assets\Quizzes\Chemistry\Lyristes_plebejus.jpg" />
+    <Content Include="Assets\Quizzes\Chemistry\Oleic acid.png" />
     <Content Include="Assets\Quizzes\Chemistry\Oxygen-haemoglobin dissociation curve.png" />
+    <Content Include="Assets\Quizzes\Chemistry\Pyruvate.png" />
     <Content Include="Assets\Quizzes\Chemistry\Saccharose.png" />
+    <Content Include="Assets\Quizzes\Chemistry\Troph_flowchart.png" />
     <Content Include="Assets\Quizzes\Chemistry\β-D-glucopyranose.png" />
     <Content Include="Assets\Quizzes\Chemistry\β-D-mannopyranose.png" />
     <Content Include="Assets\Quizzes\Human Body Systems\Cyclic-adenosine-monophosphate-2D-skeletal.png" />

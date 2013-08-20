@@ -5770,4 +5770,198 @@
 			},
 		]
 	},
+	{
+		"Category": "Endocrine System",
+		"Difficulty": "Medium",
+		"Question": "The pancreas has both endocrine and exocrine functions.",
+		"Explanation": "The hormones produced include glucagon and insulin (to regulate blood glucose levels), somatostatin (inhibits secretion of glucagon and insulin and slows nutrient absorption) and pancreatic polypeptide (inhibits somatostatin secretion, contraction of the gall bladder and the secretion of pancreatic digestive enzymes). Its main exocrine functions include the production of an alkaline pancreatic ﬂ uid which buffers acidic stomach secretions, inhibiting the action of pepsin and providing a pH more favourable to the digestive enzymes of the small intestine.",
+		"Answers":
+		[
+			{
+				"Text": "True",
+				"Score": ".5"
+			},
+			{
+				"Text": "False"
+			},
+		]
+	},
+	{
+		"Category": "Endocrine System",
+		"Difficulty": "Medium",
+		"Question": "Homeostasis of hormonal secretions is maintained only by negative feedback mechanisms.",
+		"Explanation": "Normally negative feedback mechanisms maintain hormonal secretions. During childbirth, oxytocin stimulates contractions of the uterus. These contractions stimulate additional oxytocin release and intensify the response to the initial contraction stimulus, a positive feedback cycle.",
+		"Answers":
+		[
+			{
+				"Text": "False",
+				"Score": ".5"
+			},
+			{
+				"Text": "True"
+			},
+		]
+	},
+	{
+		"Category": "Endocrine System",
+		"Difficulty": "Easy",
+		"Question": "The hypothalamus has a posterior and anterior lobe.",
+		"Explanation": "The hypothalamus is a small region of the brain, below the thalamus.",
+		"Answers":
+		[
+			{
+				"Text": "False",
+				"Score": ".5"
+			},
+			{
+				"Text": "True",
+				"Explanation": "It is the pituitary gland that has posterior and anterior regions. The anterior region receives hormones from the hypothalamus."
+			},
+		]
+	},
+	{
+		"Category": "Endocrine System",
+		"Difficulty": "Medium",
+		"Question": "Oxytocin is produced by the pineal gland.",
+		"Answers":
+		[
+			{
+				"Text": "False",
+				"Score": ".5"
+			},
+			{
+				"Text": "True",
+				"Explanation": "Oxytocin is synthesized in the hypothalamus and is stored in the posterior pituitary."
+			},
+		]
+	},
+	{
+		"Category": "Endocrine System",
+		"Difficulty": "Medium",
+		"Question": "Body hair is produced in response to a follicle-stimulating hormone (FSH).",
+		"Answers":
+		[
+			{
+				"Text": "False",
+				"Score": ".5"
+			},
+			{
+				"Text": "True",
+				"Explanation": "In females, FSH initiates the development of oocytes and induces the secretion of oestrogens. In males, FSH stimulates the production of sperm."
+			},
+		]
+	},
+	{
+		"Category": "Endocrine System",
+		"Difficulty": "Medium",
+		"Question": "Oestrogens are present in males.",
+		"Explanation": "Oestrogens are steroid hormones present in both males and females but in significantly higher quantities in females where they are the primary female sex hormone. They are produced primarily by developing follicles in the ovaries, the corpus luteum and the placenta.",
+		"Answers":
+		[
+			{
+				"Text": "True",
+				"Score": ".5"
+			},
+			{
+				"Text": "False"
+			},
+		]
+	},
+	{
+		"Category": "Endocrine System",
+		"Difficulty": "Medium",
+		"Question": "The principal actions of thyroid hormones increase the basal metabolic rate.",
+		"Explanation": "The thyroid gland secretes two major thyroid hormones: thyroxine (T4) and triiodothyronine (T3). The two hormones regulate oxygen use, basal metabolic rate, cellular metabolism and direct growth and development.",
+		"Answers":
+		[
+			{
+				"Text": "True",
+				"Score": ".5"
+			},
+			{
+				"Text": "False"
+			},
+		]
+	},
+	{
+		"Category": "Endocrine System",
+		"Difficulty": "Hard",
+		"Question": "Calcitonin is produced by the thyroid gland.",
+		"Explanation": "The thyroid gland produces calcitonin in addition to the thyroid hormones, T3 and T4.",
+		"Answers":
+		[
+			{
+				"Text": "True",
+				"Score": ".5",
+				"Explanation": "Calcitonin decreases the concentration of calcium in blood by inhibiting bone breakdown (resorption). With reduced bone resorption, less calcium enters the blood from the bone causing a decrease of available plasma calcium." 
+			},
+			{
+				"Text": "False"
+			},
+		]
+	},
+	{
+		"Category": "Endocrine System",
+		"Difficulty": "Medium",
+		"Question": "Bone resorption is facilitated by the action of the parathyroid hormone (PTH).",
+		"Explanation": "The parathyroid hormone (PTH) regulates blood calcium levels in combination with calcitonin. It acts as an antagonist of calcitonin since it increases the concentration of calcium in the blood.",
+		"Answers":
+		[
+			{
+				"Text": "True",
+				"Score": ".5"
+			},
+			{
+				"Text": "False"
+			},
+		]
+	},
+	{
+		"Category": "Endocrine System",
+		"Difficulty": "Medium",
+		"Question": "The adrenal glands can be structurally and functionally differentiated into three distinct regions.",
+		"Explanation": "The adrenal glands can be differentiated into an outer cortex and an inner medulla. Adrenal cortex hormones (corticoids) differ significantly in function from those of the adrenal medulla (catecholamines).",
+		"Answers":
+		[
+			{
+				"Text": "False",
+				"Score": ".5"
+			},
+			{
+				"Text": "True"
+			},
+		]
+	},
+	{
+		"Category": "Endocrine System",
+		"Difficulty": "Easy",
+		"Question": "The hormones produced by the adrenal medulla have major effects on heart rate and blood pressure.",
+		"Explanation": "The adrenal medulla produces the catecholamines adrenaline and noradrenaline in response to sympathetic nervous impulses which affect both heart rate and blood pressure when an individual is exposed to stress.",
+		"Answers":
+		[
+			{
+				"Text": "True",
+				"Score": ".5"
+			},
+			{
+				"Text": "False"
+			},
+		]
+	},
+	{
+		"Category": "Endocrine System",
+		"Difficulty": "Medium",
+		"Question": "All endocrine glands store the hormones they produce.",
+		"Explanation": "Most endocrine glands do not store their hormones but secrete them into the blood as required. The thyroid is different because it stores considerable amounts of both thyroid hormones which are released when required.",
+		"Answers":
+		[
+			{
+				"Text": "False",
+				"Score": ".5"
+			},
+			{
+				"Text": "True"
+			},
+		]
+	},
 ]

@@ -2800,4 +2800,455 @@
 			},
 		]
 	},
+	{
+		"Category": "Lipids",
+		"Difficulty": "Easy",
+		"Question": "What term is used to describe a biomolecule that has both a hydrophilic and hydrophobic ends?",
+		"Answers":
+		[
+			{
+				"Text": "Amphipathic",
+				"Score": "1"
+			},
+			{
+				"Text": "Hydrophobic"
+			},
+			{
+				"Text": "Chiral"
+			},
+			{
+				"Text": "Aromatic"
+			},
+			{
+				"Text": "Homeopathic"
+			},
+		]
+	},
+	{
+		"Category": "Lipids",
+		"Difficulty": "Easy",
+		"Question": "How is excess cholesterol removed from the body?",
+		"Answers":
+		[
+			{
+				"Text": "Converted to bile acids",
+				"Score": "1"
+			},
+			{
+				"Text": "Catabolised to carbon dioxide and water"
+			},
+			{
+				"Text": "Anabolised to fatty acids"
+			},
+			{
+				"Text": "Broken down by specific enzymes into its carbon skeleton"
+			},
+			{
+				"Text": "Undergoes beta-oxidation spiral"
+			},
+		]
+	},
+	{
+		"Category": "Lipids",
+		"Difficulty": "Easy",
+		"Question": "Cholesterol is the starting molecule for the synthesis of which of the following molecules?",
+		"Answers":
+		[
+			{
+				"Text": "Oestrogens and testosterone",
+				"Score": "1"
+			},
+			{
+				"Text": "Fatty acids and phospholipids"
+			},
+			{
+				"Text": "Ketones and aldehydes"
+			},
+			{
+				"Text": "Carbohydrates"
+			},
+			{
+				"Text": "Nucleic acids and triglycerides"
+			},
+		]
+	},
+	{
+		"Category": "Lipids",
+		"Difficulty": "Medium",
+		"Question": "Which bond formation is likely to cause a bend in a fatty acid chain?",
+		"Answers":
+		[
+			{
+				"Text": "Cis carbon-carbon double bond",
+				"Score": "1"
+			},
+			{
+				"Text": "Cis carbon-carbon single bond",
+				"Explanation": "Cis isomers only exist as double bonds."
+			},
+			{
+				"Text": "Trans carbon-carbon double bond"
+			},
+			{
+				"Text": "Trans carbon-carbon single bond",
+				"Explanation": "Trans isomers only exist as double bonds."
+			},
+			{
+				"Text": "Trans carboxylic acid group"
+			},
+		]
+	},
+	{
+		"Category": "Lipids",
+		"Difficulty": "Hard",
+		"Question": "How many acetyl CoA molecules can be produced from a 16-carbon saturated fatty acid?",
+		"Answers":
+		[
+			{
+				"Text": "8",
+				"Score": "1"
+			},
+			{
+				"Text": "1"
+			},
+			{
+				"Text": "2"
+			},
+			{
+				"Text": "16"
+			},
+			{
+				"Text": "None"
+			},
+		]
+	},
+	{
+		"Category": "Lipids",
+		"Difficulty": "Medium",
+		"Question": "Which class of molecule is pictured?",
+		"Image": "Glycolipid.jpg",
+		"Answers":
+		[
+			{
+				"Text": "Glycolipid",
+				"Score": "1"
+			},
+			{
+				"Text": "Saturated fatty acid"
+			},
+			{
+				"Text": "Pyrimidine"
+			},
+			{
+				"Text": "Terpene"
+			},
+			{
+				"Text": "Purine"
+			},
+		]
+	},
+	{
+		"Category": "Lipids",
+		"Difficulty": "Medium",
+		"Question": "Which class of molecule is pictured?",
+		"Image": "Fat_triglyceride_shorthand_formula.png",
+		"Answers":
+		[
+			{
+				"Text": "Triglyceride",
+				"Score": "1"
+			},
+			{
+				"Text": "Saturated fatty acid"
+			},
+			{
+				"Text": "Monounsaturated fatty acid"
+			},
+			{
+				"Text": "Polyunsaturated fatty acid"
+			},
+			{
+				"Text": "Phospholipid"
+			},
+		]
+	},
+	{
+		"Category": "Lipids",
+		"Difficulty": "Medium",
+		"Question": "Which class of molecule is pictured?",
+		"Image": "ALA.png",
+		"Answers":
+		[
+			{
+				"Text": "Polyunsaturated fatty acid",
+				"Score": "1"
+			},
+			{
+				"Text": "Saturated fatty acid"
+			},
+			{
+				"Text": "Monounsaturated fatty acid"
+			},
+			{
+				"Text": "Simple triglyceride"
+			},
+			{
+				"Text": "Complex triglyceride"
+			},
+		]
+	},
+	{
+		"Category": "Lipids",
+		"Difficulty": "Medium",
+		"Question": "Which type of configuration of the C=C double bond would cause the structure shown?",
+		"Image": "Oleic acid.png",
+		"Answers":
+		[
+			{
+				"Text": "Cis-",
+				"Score": "1"
+			},
+			{
+				"Text": "Trans-"
+			},
+			{
+				"Text": "Lac-"
+			},
+			{
+				"Text": "D-isomer"
+			},
+			{
+				"Text": "L-isomer"
+			},
+		]
+	},
+	{
+		"Category": "Carbohydrate metabolism",
+		"Difficulty": "Easy",
+		"Question": "Humans cannot fix carbon (convert from inorganic carbon to organic carbon). They use organic carbon for growth. What class of the primary nutrition groups are humans?",
+		"Image": "Troph_flowchart.png",
+		"ImageText": "Wickey-nl",
+		"Answers":
+		[
+			{
+				"Text": "Chemoorganoheterotroph",
+				"Score": "1"
+			},
+			{
+				"Text": "Photoautotroph"
+			},
+			{
+				"Text": "Lithoautotroph"
+			},
+			{
+				"Text": "Chemoorganoautotroph"
+			},
+			{
+				"Text": "Bradytroph",
+				"Explanation": "A bradytroph is a strain of an organism that exhibits slow growth in the absence of an external source of a particular metabolite. This is usually due to a defect in an enzyme required in the metabolic pathway producing this chemical."
+			},
+		]
+	},
+	{
+		"Category": "Carbohydrate metabolism",
+		"Difficulty": "Easy",
+		"Question": "What is the end-point in the metabolic pathway of glycolysis?",
+		"Image": "Glycolysis.png",
+		"ImageText": "JohnyAbb",
+		"Answers":
+		[
+			{
+				"Text": "Two pyruvate molecules",
+				"Score": "1"
+			},
+			{
+				"Text": "Four ATP molecules"
+			},
+			{
+				"Text": "A net gain of two ATP molecules"
+			},
+			{
+				"Text": "A pyruvate molecule"
+			},
+			{
+				"Text": "An ATP molecule"
+			},
+		]
+	},
+	{
+		"Category": "Carbohydrate metabolism",
+		"Difficulty": "Medium",
+		"Question": "What is the function of a kinase within the glycolytic pathway?",
+		"Answers":
+		[
+			{
+				"Text": "Transfer phosphate groups from high-energy donor molecules, such as ATP, to specific substrates",
+				"Score": "1"
+			},
+			{
+				"Text": "Catalyse the addition of a phosphate group from an inorganic phosphate to an aceptor",
+				"Explanation": "The catalysis of the addition of a phosphate group from an inorganic phosphate (phosphate + hydrogen) to an acceptor is done by a phosphorylase, not a kinase."
+			},
+			{
+				"Text": "Catalyse the reaction from ATP to ADP"
+			},
+			{
+				"Text": "Catalyse the reaction from ADP to AMP"
+			},
+			{
+				"Text": "React with Mg\u00B2\u207A and ATP to give glucose 6-phosphate",
+				"Explanation": "Kinases are enzymes not reactants. Glucose 6-phosphate is only the product when a hexokinase isozyme (enzymes that differ in amino acid sequence but catalyze the same chemical reaction) acts as an enzyme when glucose breaks down. Another reaction that uses a kinase could result in fructose 1,6-bisphosphate." 
+			},
+		]
+	},
+	{
+		"Category": "Carbohydrate metabolism",
+		"Difficulty": "Medium",
+		"KeyQuestion": "The reaction known as *answer text* is the __________.",
+		"ValueQuestion": "The *answer text* is known as __________.",
+		"KeyValue": "true",
+		"Answers":
+		[
+			{
+				"Key": "Substrate-level phosphorylation",
+				"Text": "reaction that results in ATP or GTP by the transfer of a phosphoryl (PO3) group to ADP or GDP"
+			},
+			{
+				"Key": "Beta-oxidation",
+				"Text": "process by which fatty acids are broken down to generate acetyl-coA, and NADH and FADH2"
+			},
+			{
+				"Key": "Glycolysis",
+				"Text": "metabolic pathway that converts glucose into pyruvate"
+			},
+			{
+				"Key": "Citric acid cycle",
+				"Text": "series of chemical reactions used to generate energy through the oxidisation of acetate"
+			},
+		]
+	},
+	{
+		"Category": "Carbohydrate metabolism",
+		"Difficulty": "Medium",
+		"Question": "What is the net gain in ATP and NADH at the end of the glycolytic pathway per glucose?",
+		"Answers":
+		[
+			{
+				"Text": "2 ATP; 2 NADH",
+				"Score": "1"
+			},
+			{
+				"Text": "4 ATP; 2 NADH"
+			},
+			{
+				"Text": "0 ATP; 2 NADH"
+			},
+			{
+				"Text": "2 ATP; 0 NADH"
+			},
+			{
+				"Text": "1 ATP; 1 NADH"
+			},
+		]
+	},
+	{
+		"Category": "Carbohydrate metabolism",
+		"Difficulty": "Medium",
+		"Question": "What is name of the stage of glycolytic pathway where glucose is broken down, resulting in fructose 1,6-bisphosphate?",
+		"Answers":
+		[
+			{
+				"Text": "Energy investment",
+				"Score": "1"
+			},
+			{
+				"Text": "Splitting"
+			},
+			{
+				"Text": "Energy conservation"
+			},
+			{
+				"Text": "Energy yield"
+			},
+			{
+				"Text": "None of the above",
+				"IsLast": "true"
+			},
+		]
+	},
+	{
+		"Category": "Carbohydrate metabolism",
+		"Difficulty": "Medium",
+		"Question": "During the energy investment stage of the glycolytic pathway, how many ATP molecules are used per glucose?",
+		"Answers":
+		[
+			{
+				"Text": "2",
+				"Score": "1"
+			},
+			{
+				"Text": "4"
+			},
+			{
+				"Text": "None"
+			},
+			{
+				"Text": "1"
+			},
+			{
+				"Text": "8"
+			},
+		]
+	},
+	{
+		"Category": "Carbohydrate metabolism",
+		"Difficulty": "Medium",
+		"Question": "How does pyruvate feature in human biochemistry?",
+		"Image": "Pyruvate.png",
+		"ImageText": "Pyruvate",
+		"Answers":
+		[
+			{
+				"Text": "All of the above",
+				"Score": "1",
+				"IsLast": "true",
+				"Explanation": "Pyruvate can also be reduced by lactate dehydrogenase to produce lactate."
+			},
+			{
+				"Text": "It is the output of the anaerobic metabolism of glucose known as glycolysis"
+			},
+			{
+				"Text": "Pyruvate is converted into acetyl-coenzyme A (acetyl CoA), the main input of the citric acid cycle"
+			},
+			{
+				"Text": "Pyruvate is converted to oxaloacetate by an anaplerotic reaction"
+			},
+			{
+				"Text": "Pyruvate is converted to the amino acid alanine"
+			},
+		]
+	},
+	{
+		"Category": "Lipids",
+		"Difficulty": "Easy",
+		"KeyQuestion": "The lipid suffix *answer text* means the lipid is __________.",
+		"ValueQuestion": "What is lipid suffix for a lipid that is *answer text*?",
+		"KeyValue": "true",
+		"Score": ".75",
+		"Answers":
+		[
+			{
+				"Key": "-anoic",
+				"Text": "a saturated fatty acid"
+			},
+			{
+				"Key": "-enoic",
+				"Text": "an unsaturated fatty acid"
+			},
+			{
+				"Key": "-ate",
+				"Text": "a charged carboxylic group"
+			},
+		]
+	},
 ]
