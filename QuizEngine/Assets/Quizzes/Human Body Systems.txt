@@ -31,7 +31,7 @@
 		"KeyQuestion": "What is the nerve with label \"*answer text*\" on the image?",
 		"ValueQuestion": "Identify the *answer text* nerve on the image.",
 		"KeyValue": "true",
-		"MaxNumberOfAnswers": "5",
+		"MaxNumberOfAnswers": "6",
 		"Image": "Cranial Nerves.png",
 		"Answers":
 		[
@@ -118,7 +118,7 @@
 		"KeyQuestion": "What is label \"*answer text*\" on the picture of the long bone?",
 		"ValueQuestion": "The *answer text* has which label on the picture of the long bone?",
 		"KeyValue": true,
-		"MaxNumberOfAnswers": "5",
+		"MaxNumberOfAnswers": "6",
 		"Image": "Long bone.png",
 		"Answers":
 		[
@@ -596,7 +596,7 @@
 		"KeyQuestion": "Which bone is labelled \"*answer text*\" on the picture of the human skull?",
 		"ValueQuestion": "The *answer text* bone has which label on the picture of the human skull?",
 		"KeyValue": "true",
-		"MaxNumberOfAnswers": "5",
+		"MaxNumberOfAnswers": "6",
 		"Image": "Human skull - side - bones.png",
 		"Answers":
 		[
@@ -650,7 +650,7 @@
 		"KeyQuestion": "Which landmark is labelled \"*answer text*\" on the picture of the human skull?",
 		"ValueQuestion": "The *answer text* has which label on the picture of the human skull?",
 		"KeyValue": "true",
-		"MaxNumberOfAnswers": "5",
+		"MaxNumberOfAnswers": "6",
 		"Image": "Human skull - side - landmarks.png",
 		"Answers":
 		[
@@ -931,7 +931,7 @@
 		"KeyQuestion": "What is cranial nerve number \"*answer text*\" called?",
 		"ValueQuestion": "What number is the *answer text* cranial nerve?",
 		"KeyValue": "true",
-		"MaxNumberOfAnswers": 5,
+		"MaxNumberOfAnswers": "6",
 		"Answers":
 		[
 			{
@@ -1115,7 +1115,7 @@
 		"KeyQuestion": "What is label \"*answer text*\" on the picture of the human ear?",
 		"ValueQuestion": "The *answer text* is which label on the picture of the human ear?",
 		"KeyValue": true,
-		"MaxNumberOfAnswers": "5",
+		"MaxNumberOfAnswers": "6",
 		"Image": "Human Ear.png",
 		"Answers":
 		[
@@ -1177,7 +1177,7 @@
 		"KeyQuestion": "What is label \"*answer text*\" on the picture of the human eye?",
 		"ValueQuestion": "The *answer text* is which label on the picture of the human eye?",
 		"KeyValue": true,
-		"MaxNumberOfAnswers": "5",
+		"MaxNumberOfAnswers": "6",
 		"Image": "Human Eye.png",
 		"Answers":
 		[
@@ -1688,7 +1688,7 @@
 		"KeyQuestion": "What is the muscle with label \"*answer text*\" on the anterior picture of the human muscles?",
 		"ValueQuestion": "Identify the *answer text* muscle on the anterior picture of the human muscles.",
 		"KeyValue": "true",
-		"MaxNumberOfAnswers": "5",
+		"MaxNumberOfAnswers": "6",
 		"Image": "Anterior Muscles.png",
 		"Answers":
 		[
@@ -1758,7 +1758,7 @@
 		"KeyQuestion": "What is the muscle with label \"*answer text*\" on the posterior picture of the human muscles?",
 		"ValueQuestion": "Identify the *answer text* muscle on the posterior picture of the human muscles.",
 		"KeyValue": "true",
-		"MaxNumberOfAnswers": "5",
+		"MaxNumberOfAnswers": "6",
 		"Image": "Posterior Muscles.png",
 		"Answers":
 		[
@@ -1940,7 +1940,7 @@
 		"KeyQuestion": "What is the feature with label \"*answer text*\" on the picture of the spinal reflex arc?",
 		"ValueQuestion": "Identify the *answer text* feature on the spinal reflex arc.",
 		"KeyValue": "true",
-		"MaxNumberOfAnswers": "5",
+		"MaxNumberOfAnswers": "6",
 		"Image": "Spinal reflex arc.png",
 		"Answers":
 		[
@@ -2104,7 +2104,7 @@
 		"KeyQuestion": "What is the feature with label \"*answer text*\" on the picture of the meninges of the brain?",
 		"ValueQuestion": "Identify the *answer text* on the picture of meninges of the brain.",
 		"KeyValue": "true",
-		"MaxNumberOfAnswers": "5",
+		"MaxNumberOfAnswers": "6",
 		"Image": "Meninges.png",
 		"Answers":
 		[
@@ -2192,7 +2192,7 @@
 		"KeyQuestion": "What is the feature with label \"*answer text*\" on the picture of a neuron?",
 		"ValueQuestion": "Identify the *answer text* on the picture of a neuron.",
 		"KeyValue": "true",
-		"MaxNumberOfAnswers": "5",
+		"MaxNumberOfAnswers": "6",
 		"Image": "Neuron cell.png",
 		"Answers":
 		[
@@ -2254,7 +2254,7 @@
 		"KeyQuestion": "What is the feature with label \"*answer text*\" on the picture of thin and thick skin?",
 		"ValueQuestion": "Identify the *answer text* on the picture of thin and thick skin.",
 		"KeyValue": "true",
-		"MaxNumberOfAnswers": "5",
+		"MaxNumberOfAnswers": "6",
 		"Image": "Skin layers.png",
 		"Answers":
 		[
@@ -2833,7 +2833,7 @@
 		"KeyQuestion": "What is the feature with label \"*answer text*\" on the picture of the heart?",
 		"ValueQuestion": "Identify the *answer text* on the picture of the heart.",
 		"KeyValue": "true",
-		"MaxNumberOfAnswers": "5",
+		"MaxNumberOfAnswers": "6",
 		"Image": "Heart Diagram - blood vessels.png",
 		"Answers":
 		[
@@ -2885,7 +2885,7 @@
 		"KeyQuestion": "What is the feature with label \"*answer text*\" on the picture of the heart?",
 		"ValueQuestion": "Identify the *answer text* on the picture of the heart.",
 		"KeyValue": "true",
-		"MaxNumberOfAnswers": "5",
+		"MaxNumberOfAnswers": "6",
 		"Image": "Heart Diagram.png",
 		"Answers":
 		[
@@ -2973,7 +2973,7 @@
 		"KeyQuestion": "What is the feature with label \"*answer text*\" on the picture of the electrical conduction system of the heart?",
 		"ValueQuestion": "Identify the *answer text* on the picture of the electrical conduction system of the heart.",
 		"KeyValue": "true",
-		"MaxNumberOfAnswers": "5",
+		"MaxNumberOfAnswers": "6",
 		"Image": "Electrical conduction system of the heart.png",
 		"Answers":
 		[
