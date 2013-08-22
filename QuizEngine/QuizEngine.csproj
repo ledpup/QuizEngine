@@ -186,9 +186,14 @@
     <Content Include="Assets\Quizzes\Chemistry\Troph_flowchart.png" />
     <Content Include="Assets\Quizzes\Chemistry\β-D-glucopyranose.png" />
     <Content Include="Assets\Quizzes\Chemistry\β-D-mannopyranose.png" />
+    <Content Include="Assets\Quizzes\Human Body Systems\Anatomy_of_liver_and_gall_bladder.png" />
+    <Content Include="Assets\Quizzes\Human Body Systems\Control-of-stomach-acid-sec.png" />
     <Content Include="Assets\Quizzes\Human Body Systems\Cyclic-adenosine-monophosphate-2D-skeletal.png" />
     <Content Include="Assets\Quizzes\Human Body Systems\Endocrine_central_nervous.png" />
     <Content Include="Assets\Quizzes\Human Body Systems\Gray1180.png" />
+    <Content Include="Assets\Quizzes\Human Body Systems\Gray1223.png" />
+    <Content Include="Assets\Quizzes\Human Body Systems\Gut_wall.png" />
+    <Content Include="Assets\Quizzes\Human Body Systems\Layers_of_the_Gastrointestinal_Tract.png" />
     <Content Include="Assets\Quizzes\Human Body Systems\Lung volumes.png" />
     <Content Include="Assets\Quizzes\Chemistry\Lysine.png" />
     <Content Include="Assets\Quizzes\Chemistry\Methionine.png" />

@@ -5964,4 +5964,669 @@
 			},
 		]
 	},
+	{
+		"Category": "Digestive System",
+		"Difficulty": "Easy",
+		"Question": "During digestion, which of following processes is the primary function of the mouth?",
+		"Answers":
+		[
+			{
+				"Text": "Ingestion",
+				"Score": "1"
+			},
+			{
+				"Text": "Secretion"
+			},
+			{
+				"Text": "Mixing and propulsion"
+			},
+			{
+				"Text": "Absorption"
+			},
+			{
+				"Text": "None of the above",
+				"IsLast": "true"
+			},
+		]
+	},
+	{
+		"Category": "Digestive System",
+		"Difficulty": "Medium",
+		"Question": "Which of the following is not a function of the liver?",
+		"Image": "Anatomy_of_liver_and_gall_bladder.png",
+		"ImageCopyright": "Jiju Kurian Punnoose",
+		"Answers":
+		[
+			{
+				"Text": "Storage of bilirubin",
+				"Score": "1"
+			},
+			{
+				"Text": "Metabolism of carbohydrates"
+			},
+			{
+				"Text": "Protein metabolism"
+			},
+			{
+				"Text": "Synthesis of bile salts"
+			},
+			{
+				"Text": "Storage of vitamins"
+			},
+		]
+	},
+	{
+		"Category": "Digestive System",
+		"Difficulty": "Easy",
+		"Question": "The oesophagus has both a digestive and respiratory function.",
+		"Explanation": "The oesophagus is only concerned with the transport of solids and liquids into the stomach through the process of peristalsis.",
+		"Answers":
+		[
+			{
+				"Text": "False",
+				"Score": ".5"
+			},
+			{
+				"Text": "True"
+			},
+		]
+	},
+	{
+		"Category": "Digestive System",
+		"Difficulty": "Medium",
+		"Question": "The pyloric sphincter prevents the stomach contents from flowing back into the oesophagus.",
+		"Explanation": "The cardiac sphincter is located at the entrance of the stomach at the base of the oesophagus. It prevents the back-flow of stomach contents into the oesophagus. The pyloric sphincter (or pylorus) is a ring of smooth muscle located at the opening between the stomach and the duodenum.",
+		"Answers":
+		[
+			{
+				"Text": "False",
+				"Score": ".5"
+			},
+			{
+				"Text": "True"
+			},
+		]
+	},
+	{
+		"Category": "Digestive System",
+		"Difficulty": "Medium",
+		"Question": "Hydrochloric acid (HCl) is produced by chief cells within the small intestine.",
+		"Explanation": "The parietal cells produce HCl and intrinsic factor. HCl protects the small intestine against bacteria, denatures proteins, stimulates the secretion of hormones that promote the fl ow of bile and pancreatic juice (secretin and cholecystokinin (CCK)), and helps to activate pepsinogen into pepsin.",
+		"Answers":
+		[
+			{
+				"Text": "False",
+				"Score": ".5"
+			},
+			{
+				"Text": "True"
+			},
+		]
+	},
+	{
+		"Category": "Digestive System",
+		"Difficulty": "Medium",
+		"Question": "Gastric emptying is regulated by neuronal and hormonal reflexes.",
+		"Answers":
+		[
+			{
+				"Text": "True",
+				"Score": ".5"
+			},
+			{
+				"Text": "False"
+			},
+		]
+	},
+	{
+		"Category": "Digestive System",
+		"Difficulty": "Medium",
+		"Question": "Which of the following is not a part of the small intestine?",
+		"Answers":
+		[
+			{
+				"Text": "Caecum",
+				"Score": "1",
+				"Explanation": "The caecum is a pouch that is considered to be the beginning of the large intestine. It receives faecal material from the ileum, and connects to the ascending colon of the large intestine."
+			},
+			{
+				"Text": "Duodenum",
+				"Explanation": "The duodenum precedes the jejunum and ileum and is the shortest part of the small intestine. Here the digestive juices from the pancreas (digestive enzymes) and hormones and the gall bladder (bile) mix. The digestive enzymes break down proteins and bile and emulsify fats into micelles."
+			},
+			{
+				"Text": "Jejunum",
+				"Explanation": "The jejunum is the midsection of the small intestine, connecting the duodenum to the ileum. In the jejunum, products of digestion (sugars, amino acids, and fatty acids) are absorbed into the bloodstream."
+			},
+			{
+				"Text": "Ileum",
+				"Explanation": "The ileum is the last part of the small intestine. It has villi similar to the jejunum, and absorbs mainly vitamin B12 and bile acids, as well as any other remaining nutrients."
+			},
+			{
+				"Text": "All of the above are parts of the small intestine",
+				"IsLast": "true",
+				"Explanation": "The caecum is part of the large intestine."
+			},
+		]
+	},
+	{
+		"Category": "Digestive System",
+		"Difficulty": "Medium",
+		"Question": "Which of the following is not a major layer of the gastrointestinal tract?",
+		"Answers":
+		[
+			{
+				"Text": "Sigmoid flexure",
+				"Score": "1",
+				"Explanation": "The sigmoid flexure is the part of the large intestine that is closest to the rectum and anus."
+			},
+			{
+				"Text": "Mucosa",
+				"Explanation": "The mucosa is the innermost layer of the gastrointestinal tract that is surrounding the lumen, or open space within the tube. This layer comes in direct contact with digested food (chyme). It contains the epithelium, lamina propria and muscularis mucosae."
+			},
+			{
+				"Text": "Submucosa",
+				"Explanation": "The submucosa consists of a dense irregular layer of connective tissue with large blood vessels, lymphatics, and nerves branching into the mucosa and muscularis externa."
+			},
+			{
+				"Text": "Muscularis externa",
+				"Explanation": "The muscularis externa consists of an inner circular layer and a longitudinal outer muscular layer. The circular muscle layer prevents food from travelling backward and the longitudinal layer shortens the tract."
+			},
+			{
+				"Text": "Serosa",
+				"Explanation": "The serosa or adventitia is the outermost layer of the GI tract consists of several layers of connective tissue."
+			},
+		]
+	},
+	{
+		"Category": "Digestive System",
+		"Difficulty": "Easy",
+		"Question": "Which of the following is not a part of the large intestine?",
+		"Image": "Gray1223.png",
+		"Answers":
+		[
+			{
+				"Text": "Anus",
+				"Score": "1"
+			},
+			{
+				"Text": "Rectum",
+				"Explanation": "The rectum is the final straight portion of the large intestine. The human rectum is about 12 centimetres long."
+			},
+			{
+				"Text": "Colon",
+				"Explanation": "Colon includes the ascending colon, transverse colon, descending colon and sigmoid colon: The main function of the Colon is to absorb water, but it also contains bacteria that produce beneficial vitamins like vitamin K."
+			},
+			{
+				"Text": "Caecum",
+				"Explanation": "The caecum is a pouch that is considered to be the beginning of the large intestine. It receives faecal material from the ileum, and connects to the ascending colon of the large intestine."
+			},
+			{
+				"Text": "All of the above are part of the large intestine",
+				"IsLast": "true",
+				"Explanation": "The anus is not part of the large intestine."
+			},
+		]
+	},
+	{
+		"Category": "Digestive System",
+		"Difficulty": "Medium",
+		"Question": "Which layer of the gastrointestinal tract contains the lamina propria?",
+		"Image": "Gut_wall.png",
+		"Answers":
+		[
+			{
+				"Text": "Mucosa",
+				"Score": "1",
+				"Explanation": "The mucosa is the innermost layer of the gastrointestinal tract that is surrounding the lumen, or open space within the tube. This layer comes in direct contact with digested food (chyme). It contains the epithelium, lamina propria and muscularis mucosae."
+			},
+			{
+				"Text": "Submucosa",
+				"Explanation": "The submucosa consists of a dense irregular layer of connective tissue with large blood vessels, lymphatics, and nerves branching into the mucosa and muscularis externa."
+			},
+			{
+				"Text": "Muscularis externa",
+				"Explanation": "The muscularis externa consists of an inner circular layer and a longitudinal outer muscular layer. The circular muscle layer prevents food from travelling backward and the longitudinal layer shortens the tract."
+			},
+			{
+				"Text": "Serosa",
+				"Explanation": "The serosa or adventitia is the outermost layer of the GI tract consists of several layers of connective tissue."
+			},
+			{
+				"Text": "None of the above",
+				"IsLast": "true"
+			},
+		]
+	},
+	{
+		"Category": "Digestive System",
+		"Difficulty": "Medium",
+		"Question": "In the mouth, the tooth sockets are lined with __________.",
+		"Answers":
+		[
+			{
+				"Text": "Periodontal ligament",
+				"Score": "1"
+			},
+			{
+				"Text": "Cementum",
+				"Explanation": "Cementum is a specialized calcified substance covering the root of a tooth. The cementum is the part of the periodontium that attaches the teeth to the alveolar bone by anchoring the periodontal ligament."
+			},
+			{
+				"Text": "Gingivae",
+				"Explanation": "The gingivae or gums, consist of the mucosal tissue that lies over the mandible and maxilla bones inside the mouth."
+			},
+			{
+				"Text": "Pulp"
+			},
+			{
+				"Text": "Root"
+			},
+		]
+	},
+	{
+		"Category": "Digestive System",
+		"Difficulty": "Easy",
+		"Question": "Which of the following accessory organs stores bile?",
+		"Answers":
+		[
+			{
+				"Text": "Gallbladder",
+				"Score": "1"
+			},
+			{
+				"Text": "Liver"
+			},
+			{
+				"Text": "Teeth"
+			},
+			{
+				"Text": "Pharynx"
+			},
+			{
+				"Text": "Salivary glands"
+			},
+		]
+	},
+	{
+		"Category": "Digestive System",
+		"Difficulty": "Hard",
+		"Question": "Which cell secretes the hormone that promotes production of hydrochloric acid?",
+		"Image": "Control-of-stomach-acid-sec.png",
+		"ImageUrl": "http://en.wikipedia.org/wiki/File:Control-of-stomach-acid-sec.png",
+		"Answers":
+		[
+			{
+				"Text": "G cell",
+				"Score": "1",
+				"Explanation": "The G cell is a type of cell in the stomach and duodenum that secretes gastrin. It works in conjunction with gastric chief cells and parietal cells."
+			},
+			{
+				"Text": "Chief cell",
+				"Explanation": "A gastric chief cell is a cell in the stomach that releases pepsinogen, gastric lipase and chymosin. It works in conjunction with the parietal cell, which releases gastric acid, converting the pepsinogen into pepsin."
+			},
+			{
+				"Text": "Mucus cell"
+			},
+			{
+				"Text": "D cell"
+			},
+			{
+				"Text": "Parietal cell",
+				"Explanation": "Parietal cells are the stomach epithelial cells that secrete gastric acid (HCl) and intrinsic factor. These cells are only located in glands found in a particular area of the stomach, known as the fundus."
+			},
+		]
+	},
+	{
+		"Category": "Digestive System",
+		"Difficulty": "Medium",
+		"Question": "The enzyme pepsin digests which dietary component?",
+		"Answers":
+		[
+			{
+				"Text": "Proteins",
+				"Score": "1"
+			},
+			{
+				"Text": "Fats"
+			},
+			{
+				"Text": "Carbohydrates"
+			},
+			{
+				"Text": "Vitamins"
+			},
+			{
+				"Text": "Nucleic acids"
+			},
+		]
+	},
+	{
+		"Category": "Digestive System",
+		"Difficulty": "Medium",
+		"Question": "The ileum is the longest section of:",
+		"Answers":
+		[
+			{
+				"Text": "the small intestine",
+				"Score": "1"
+			},
+			{
+				"Text": "the large intestine"
+			},
+			{
+				"Text": "the liver"
+			},
+			{
+				"Text": "the stomach"
+			},
+			{
+				"Text": "the oesophagus"
+			},
+		]
+	},
+	{
+		"Category": "Digestive System",
+		"Difficulty": "Medium",
+		"Question": "The mucosa of the large intestine produce __________ secretions.",
+		"Answers":
+		[
+			{
+				"Text": "alkaline",
+				"Score": "1"
+			},
+			{
+				"Text": "acidic"
+			},
+			{
+				"Text": "fatty"
+			},
+			{
+				"Text": "sweet"
+			},
+			{
+				"Text": "sour"
+			},
+		]
+	},
+	{
+		"Category": "Digestive System",
+		"Difficulty": "Medium",
+		"KeyQuestion": "The layer of the gastrointestinal tract (GIT) called the *answer text* is __________.",
+		"ValueQuestion": "What is the name for the layer of the gastrointestinal tract (GIT) that is *answer text*?",
+		"KeyValue": "true",
+		"Answers":
+		[
+			{
+				"Key": "Mucosa",
+				"Text": "the layer that surrounds the lumen and absorbs nutrients"
+			},
+			{
+				"Key": "Submucosa",
+				"Text": "a dense irregular layer of connective tissue with large blood vessels, lymphatics, and nerves"
+			},
+			{
+				"Key": "Muscularis externa",
+				"Text": "an inner circular layer and a longitudinal outer muscular layer"
+			},
+			{
+				"Key": "Serosa",
+				"Text": "the outermost layer of the GIT that suspends GIT in the abdominopelvic cavity"
+			},
+		]
+	},
+	{
+		"Category": "Digestive System",
+		"Difficulty": "Hard",
+		"KeyQuestion": "The stomach cell called the *answer text* __________.",
+		"ValueQuestion": "What is the name for the stomach cell that *answer text*?",
+		"KeyValue": "true",
+		"Answers":
+		[
+			{
+				"Key": "Chief cell",
+				"Text": "is activated by pepsin which breaks down proteins to peptidess"
+			},
+			{
+				"Key": "Parietal cell",
+				"Text": "secretes HCL to kill microbes in food. Converts pepsinogen to pepsin"
+			},
+			{
+				"Key": "G cell",
+				"Text": "stimulates parietal cells to secrete HCl and chief cells to secrete pepsinogen"
+			},
+			{
+				"Key": "Mucous cell",
+				"Text": "secretes protective barrier that prevents digestion of stomach wall"
+			},
+		]
+	},
+	{
+		"Category": "Digestive System",
+		"Difficulty": "Medium",
+		"Question": "List the regions of the small intestine in order from the stomach to large intestine.",
+		"Answers":
+		[
+			{
+				"Text": "Duodenum, jejunum, ileum",
+				"Score": "1"
+			},
+			{
+				"Text": "Jejunum, duodenum, ileum"
+			},
+			{
+				"Text": "Ileum, Duodenum, jejunum"
+			},
+			{
+				"Text": "Jejunum, ileum, duodenum"
+			},
+			{
+				"Text": "Ileum, jejunum, duodenum"
+			},
+		]
+	},
+	{
+		"Category": "Digestive System",
+		"Difficulty": "Easy",
+		"Question": "List the major parts of the gastrointestinal tract from mouth to anus",
+		"Answers":
+		[
+			{
+				"Text": "Mouth, pharynx, esophagus, stomach, small intestine, large intestine, anus",
+				"Score": "1"
+			},
+			{
+				"Text": "Mouth, pharynx, esophagus, stomach, large intestine, small intestine, anus"
+			},
+			{
+				"Text": "Mouth, esophagus, pharynx, stomach, small intestine, large intestine, anus"
+			},
+			{
+				"Text": "Mouth, pharynx, esophagus, small intestine, large intestine, stomach, anus"
+			},
+			{
+				"Text": "Anus, large intestine, small intestine, stomach, esophagus, pharynx, mouth"
+			},
+		]
+	},
+	{
+		"Category": "Digestive System",
+		"Difficulty": "Medium",
+		"Question": "List the salivary glands located around the mouth.",
+		"Answers":
+		[
+			{
+				"Text": "Parotid, submandibular, sublingual",
+				"Score": "1"
+			},
+			{
+				"Text": "Parotid, submaxillar, sublingual"
+			},
+			{
+				"Text": "Carotid, submaxillar, sublingual"
+			},
+			{
+				"Text": "Carotid, submandibular, superlingual"
+			},
+			{
+				"Text": "Parotid, submandibular, superlingual"
+			},
+		]
+	},
+	{
+		"Category": "Digestive System",
+		"Difficulty": "Medium",
+		"Question": "What is not a component of pancreatic juice?",
+		"Answers":
+		[
+			{
+				"Text": "Hydrochloric acid",
+				"Score": "1"
+			},
+			{
+				"Text": "Water"
+			},
+			{
+				"Text": "Salts"
+			},
+			{
+				"Text": "Sodium bicarbonate"
+			},
+			{
+				"Text": "Digestive enzymes"
+			},
+		]
+	},
+	{
+		"Category": "Digestive System",
+		"Difficulty": "Hard",
+		"Question": "Which blood vessels enter and leave the liver?",
+		"Answers":
+		[
+			{
+				"Text": "Hepatic artery and hepatic portal vein enter liver; hepatic vein leaves liver",
+				"Score": "1"
+			},
+			{
+				"Text": "Hepatic artery enters liver; hepatic vein and hepatic portal vein leave liver"
+			},
+			{
+				"Text": "Hepatic vein enters liver; hepatic artery and hepatic portal vein leave liver; "
+			},
+			{
+				"Text": "Hepatic artery and hepatic portal vein enter liver; hepatic artery leaves liver"
+			},
+			{
+				"Text": "Hepatic artery and hepatic portal vein enter and leave liver"
+			},
+		]
+	},
+	{
+		"Category": "Digestive System",
+		"Difficulty": "Medium",
+		"KeyQuestion": "What is label \"*answer text*\" on the picture of the layers of the gastrointestinal tract?",
+		"ValueQuestion": "Identify the *answer text* on the picture of the layers of the gastrointestinal tract.",
+		"KeyValue": "true",
+		"MaxNumberOfAnswers": "6",
+		"Image": "Layers_of_the_Gastrointestinal_Tract.png",
+		"ImageUrl": "http://cnx.org/content/m46506/latest/?collection=col11496/latest",
+		"Answers":
+		[
+			{
+				"Key": "A",
+				"Text": "Lumen"
+			},
+			{
+				"Key": "B",
+				"Text": "Mucosa"
+			},
+			{
+				"Key": "B1",
+				"Text": "Mucosa's epithelium"
+			},
+			{
+				"Key": "B2",
+				"Text": "Lamina propria"
+			},
+			{
+				"Key": "B3",
+				"Text": "Muscularis mucosae"
+			},
+			{
+				"Key": "C",
+				"Text": "Muscularis externa"
+			},
+			{
+				"Key": "C1",
+				"Text": "Circular muscle"
+			},
+			{
+				"Key": "C2",
+				"Text": "Longitudinal muscle"
+			},
+			{
+				"Key": "D",
+				"Text": "Serosa"
+			},
+			{
+				"Key": "D1",
+				"Text": "Areolar connective tissue"
+			},
+			{
+				"Key": "D2",
+				"Text": "Serosa's epithelium"
+			},
+			{
+				"Key": "E",
+				"Text": "Submucosa"
+			},
+		]
+	},
+	{
+		"Category": "Digestive System",
+		"Difficulty": "Easy",
+		"Question": "Which of these organs is not considered an accessory digestive structure?",
+		"Answers":
+		[
+			{
+				"Text": "Mouth",
+				"Score": "1"
+			},
+			{
+				"Text": "Salivary glands"
+			},
+			{
+				"Text": "Pancreas"
+			},
+			{
+				"Text": "Liver"
+			},
+			{
+				"Text": "Gallbladder"
+			},
+		]
+	},
+	{
+		"Category": "Digestive System",
+		"Difficulty": "Medium",
+		"Question": "Which of the following membranes covers the stomach?",
+		"Answers":
+		[
+			{
+				"Text": "Visceral peritoneum",
+				"Score": "1"
+			},
+			{
+				"Text": "Parietal peritoneum "
+			},
+			{
+				"Text": "Mesocolon"
+			},
+			{
+				"Text": "Falciform ligament"
+			},
+			{
+				"Text": "Parietal pericardium"
+			},
+		]
+	},
 ]
