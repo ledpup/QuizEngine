@@ -6051,7 +6051,7 @@
 		"Category": "Digestive System",
 		"Difficulty": "Medium",
 		"Question": "Hydrochloric acid (HCl) is produced by chief cells within the small intestine.",
-		"Explanation": "The parietal cells produce HCl and intrinsic factor. HCl protects the small intestine against bacteria, denatures proteins, stimulates the secretion of hormones that promote the fl ow of bile and pancreatic juice (secretin and cholecystokinin (CCK)), and helps to activate pepsinogen into pepsin.",
+		"Explanation": "The parietal cells produce HCl and intrinsic factor. HCl protects the small intestine against bacteria, denatures proteins, stimulates the secretion of hormones that promote the flow of bile and pancreatic juice (secretin and cholecystokinin (CCK)), and helps to activate pepsinogen into pepsin.",
 		"Answers":
 		[
 			{
@@ -6384,7 +6384,7 @@
 		[
 			{
 				"Key": "Chief cell",
-				"Text": "is activated by pepsin which breaks down proteins to peptidess"
+				"Text": "is activated by pepsin which breaks down proteins to peptides"
 			},
 			{
 				"Key": "Parietal cell",
@@ -6503,20 +6503,20 @@
 		"Answers":
 		[
 			{
-				"Text": "Hepatic artery and hepatic portal vein enter liver; hepatic vein leaves liver",
+				"Text": "Hepatic artery and hepatic portal vein enter; hepatic vein leaves",
 				"Score": "1"
 			},
 			{
-				"Text": "Hepatic artery enters liver; hepatic vein and hepatic portal vein leave liver"
+				"Text": "Hepatic artery enters; hepatic vein and hepatic portal vein leave"
 			},
 			{
-				"Text": "Hepatic vein enters liver; hepatic artery and hepatic portal vein leave liver; "
+				"Text": "Hepatic vein enters; hepatic artery and hepatic portal vein leave"
 			},
 			{
-				"Text": "Hepatic artery and hepatic portal vein enter liver; hepatic artery leaves liver"
+				"Text": "Hepatic artery and hepatic portal vein enter; hepatic artery leaves"
 			},
 			{
-				"Text": "Hepatic artery and hepatic portal vein enter and leave liver"
+				"Text": "Hepatic artery and hepatic portal vein enter and leave"
 			},
 		]
 	},

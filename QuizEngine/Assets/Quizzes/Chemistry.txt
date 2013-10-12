@@ -1262,7 +1262,7 @@
 	{
 		"Category": "Nucleic acids",
 		"Difficulty": "Easy",
-		"Question": "How many nucleotide base pairs code of a codon?",
+		"Question": "How many nucleotide base pairs code for a codon?",
 		"Answers":
 		[
 			{

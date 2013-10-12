@@ -25,9 +25,9 @@ namespace QuizEngine
     public sealed partial class QuestionPage : GesturePageBase
     {
         QuizQuestion _quizQuestion;
-        public const string Quiz = "Human Body Systems";
+        //public const string Quiz = "Human Body Systems";
         //public const string Quiz = "Chemistry";
-        //public const string Quiz = "Spanish Civil War";
+        public const string Quiz = "Spanish Civil War";
 
 
         public QuestionPage(QuestionAnswer quizQuestion) :

@@ -172,6 +172,7 @@
                                     <TextBlock
                                         Text="{Binding Description}"
                                         Grid.Column="1"
+                                        Grid.ColumnSpan="{Binding QuestionDescriptionColumnSpan}"
                                         Grid.Row="3"
                                         Margin="5,0"
                                         Style="{StaticResource AppDescriptionTextStyle}"
