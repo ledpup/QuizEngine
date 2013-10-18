@@ -136,78 +136,10 @@
                         <DataTemplate>
                             <UserControl TabNavigation="Cycle">
                                 <Grid>
-                                    <Grid.RowDefinitions>
-                                        <RowDefinition Height="*"/>
-                                        <RowDefinition Height="Auto"/>
-                                        <RowDefinition Height="*"/>
-                                        <RowDefinition Height="20*"/>
-                                        <RowDefinition Height="*"/>
-                                        <RowDefinition Height="35*"/>
-                                        <RowDefinition Height="*"/>
-                                        
-                                    </Grid.RowDefinitions>
-
-                                    <Grid.ColumnDefinitions>
-                                        <ColumnDefinition Width="*"/>
-                                        <ColumnDefinition Width="15*"/>
-                                        <ColumnDefinition Width="11*"/>
-                                        <ColumnDefinition Width="*"/>
-                                    </Grid.ColumnDefinitions>
-
-                                    <TextBlock
-                                        Text="{Binding Title}"
-                                        Grid.Column="1"
-                                        Grid.Row="1"
-                                        Style="{StaticResource AppTitleTextStyle}"
-                                        IsHitTestVisible="False"/>
-
-                                    <Border
-                                        Grid.Column="1"
-                                        Grid.ColumnSpan="{Binding QuestionDescriptionColumnSpan}"
-                                        Grid.Row="3"
-                                        Background="Black"
-                                        Opacity="0.5"
-                                        />
-                                    
-                                    <TextBlock
-                                        Text="{Binding Description}"
-                                        Grid.Column="1"
-                                        Grid.ColumnSpan="{Binding QuestionDescriptionColumnSpan}"
-                                        Grid.Row="3"
-                                        Margin="5,0"
-                                        Style="{StaticResource AppDescriptionTextStyle}"
-                                        IsHitTestVisible="False"
-                                        HorizontalAlignment="Left"
-                                        TextAlignment="Justify"
-                                        />
-
-                                    <Border
-                                        Visibility="{Binding ImageBorderVisibility}"
-                                        Grid.Row="1"
-                                        Grid.Column="2"
-                                        Grid.RowSpan="6"
-                                        Grid.ColumnSpan="2"
-                                        Background="#CC000000"
-                                        Padding="30"
-                                        VerticalAlignment="Top"
-                                        HorizontalAlignment="Right"
-                                        Canvas.ZIndex="1">
-
-                                        <Image
-                                            Source="{Binding QuestionImage}"
-                                            Stretch="Uniform" />
-                                    </Border>
-
-                                    
-                                    
-                                    <ContentPresenter
-                                        Grid.Column="1"
+                                    <!--Grid.Column="1"
                                         Grid.ColumnSpan="{Binding QuestionColumnSpan}"
-                                        Grid.Row="5"
-                                        Content="{Binding PlayArea}"/>
-
-                                    
-
+                                        Grid.Row="5"-->
+                                    <ContentPresenter Content="{Binding PlayArea}" />
                                 </Grid>
                             </UserControl>
                         </DataTemplate>

@@ -53,7 +53,7 @@ namespace QuizEngine.Common
             if (Windows.ApplicationModel.DesignMode.DesignModeEnabled) return;
 
             // Create an empty default view model
-            this.DefaultViewModel = new ObservableDictionary<String, Object>();
+            DefaultViewModel = new ObservableDictionary<String, Object>();
 
             // When this page is part of the visual tree make two changes:
             // 1) Map application view state to visual state for the page
@@ -402,7 +402,7 @@ namespace QuizEngine.Common
         /// Implementation of IObservableMap that supports reentrancy for use as a default view
         /// model.
         /// </summary>
-        private class ObservableDictionary<K, V> : IObservableMap<K, V>
+        public class ObservableDictionary<K, V> : IObservableMap<K, V>
         {
             private class ObservableDictionaryChangedEventArgs : IMapChangedEventArgs<K>
             {

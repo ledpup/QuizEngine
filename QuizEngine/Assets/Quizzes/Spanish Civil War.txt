@@ -90,7 +90,7 @@
 	{
 		"Difficulty": "Medium",
 		"Question": "Where was the \"fifth column\"?",
-		"Explanation": "Emilio Mola told a journalist in 1936 that as his four columns of troops approached Madrid, a \"fifth column\" of supporters inside the city would support him and undermine the Republican government from within.",
+		"Explanation": "Emilio Mola: \"My First Column is approaching the City from the North, my Second Column from the East, my Third Column from the South and my Fourth Column from the West. But, it is my Fifth Column that shall take the City.\"\r\nThe journalist asked the obvious question. \"General Mola, where is your Fifth Column?\" To which he replied: \"In the City.\" - http://www.philatelic-evangelist.com/2013/03/journey-to-west-and-salisbury-fifth.html",
 		"Answers":
 		[
 			{
@@ -420,7 +420,7 @@
 	{
 		"Difficulty": "Hard",
 		"Question": "The Irish Brigade fought on the Nationalist side of Francisco Franco during the Spanish Civil War.",
-		"Explanation": "The unit was formed wholly of Roman Catholics by the politician Eoin O'Duffy, who had previously organised the banned quasi-fascist Blueshirts and openly fascist Greenshirts in Ireland. Despite the declaration by the Irish government that participation in the war was unwelcome and ill-advised, 700 of O'Duffy's followers went to Spain.",
+		"Explanation": "The unit was formed wholly of Roman Catholics by the politician Eoin O'Duffy, who had previously organised the banned quasi-fascist Blueshirts and openly fascist Greenshirts in Ireland. Despite the declaration by the Irish government that participation in the war was unwelcome and ill-advised, 600 of O'Duffy's followers went to Spain. Their contribution was small. They were withdrawn after only one action in which they found themselves attacked by their own side. Beevor, A. - The Battle for Spain",
 		"Answers":
 		[
 			{
@@ -820,7 +820,7 @@
 	{
 		"Difficulty": "Medium",
 		"Question": "The Assault Guards were aligned with the Republic whereas the Civil Guards aligned with the Nationalists.",
-		"Explanation": "More Civil Guards (around 50%) went over to the Nationalists than continued serving the Republic and more Assault Guards (around 70%) remained loyal than fought for the Nationalists. However, thousands of personnel from both forces could be found on either side of the conflict.",
+		"Explanation": "More Civil Guards (around 40%) went over to the Nationalists than continued serving the Republic and more Assault Guards (around 60%) remained loyal than fought for the Nationalists. However, thousands of personnel from both forces could be found on either side of the conflict.",
 		"Answers":
 		[
 			{
@@ -960,21 +960,158 @@
 	},
 	{
 		"Difficulty": "Medium",
-		"Question": "Which regions had the largest number of collectives, established at the beginning of the revolution in 1936?",
+		"Question": "Which region had the largest number of collectives, established at the beginning of the revolution in 1936?",
+		"Image": "Anarchist collective.jpg",
 		"Answers":
 		[
 			{
-				"Text": "xx",
+				"Text": "Aragon",
 				"Score": "1"
 			},
 			{
-				"Text": "xx"
+				"Text": "Andalucia"
+			},
+			{
+				"Text": "Catalonia"
+			},
+			{
+				"Text": "Narvarre"
+			}
+		]
+	},
+	{
+		"Difficulty": "Hard",
+		"Question": "Andrés Nin was killed by:",
+		"Image": "POUM poster 2.jpg",
+		"Answers":
+		[
+			{
+				"Text": "The NKVD - the Soviet secret police",
+				"Score": "1"
+			},
+			{
+				"Text": "The SIM - the Second Spanish Republic's secret police"
+			},
+			{
+				"Text": "The SIFNE/SIPM - the Nationalist's secret police"
+			},
+			{
+				"Text": "The Blueshirts - the paramilitary arm of the Falange"
+			}
+		]
+	},
+	{
+		"Difficulty": "Hard",
+		"Question": "What was the name of the first International Brigade that was formed?",
+		"Image": "International Brigades poster.jpg",
+		"Answers":
+		[
+			{
+				"Text": "XI International Brigade",
+				"Score": "1"
+			},
+			{
+				"Text": "X International Brigade"
+			},
+			{
+				"Text": "I International Brigade"
+			},
+			{
+				"Text": "VI International Brigade"
+			}
+		]
+	},
+	{
+		"Difficulty": "Medium",
+		"Question": "The marked areas on the map represent control by which faction at the start of the Spanish Civil War?",
+		"Image": "Anarchist Spain.png",
+		"Answers":
+		[
+			{
+				"Text": "Anarchists",
+				"Score": "1"
+			},
+			{
+				"Text": "Carlists"
+			},
+			{
+				"Text": "The Falange"
+			},
+			{
+				"Text": "Republicans"
+			},
+			{
+				"Text": "Communists"
+			}
+		]
+	},
+	{
+		"Difficulty": "Medium",
+		"Question": "Why did Franco decide not to attack Barcelona towards the end of the Aragon campaign, instead heading towards the coast around Vinaròs?",
+		"Answers":
+		[
+			{
+				"Text": "He was afraid that France would intervene in the war and support Catalonia",
+				"Score": "1"
+			},
+			{
+				"Text": "The Republic army was too heavily defended around Barcelona"
 			},
 			{
 				"Text": "xx"
 			},
 			{
 				"Text": "xx"
+			}
+		]
+	},
+	{
+		"Difficulty": "Medium",
+		"Question": "The USA, not wanting to be seen siding with fascists nor wanting to appear pro-communist, followed the lead of the Non-Intervention Committee and did not get involved in the Spanish Civil War.",
+		"Explanation": "Because of pressure from the Catholic lobby, the USA did not trade with the Republic. However, \"Ford, Studebaker and General Motors supplied 12,000 trucks to the nationalists, nearly three times as many as the Axis powers, and the chemical giant, Dupont of Nemours, provided 40,000 bombs, sending them via Germany so as to circumvent the Neutrality Act. In 1945 the under-secretary at the Spanish foreign ministry, José Maria Doussinague, admitted that 'without American petroleum and American trucks and American credit, we could never have won the civil war'.\"",
+		"Answers":
+		[
+			{
+				"Text": "False",
+				"Score": "0.5"
+			},
+			{
+				"Text": "True"
+			}
+		]
+	},
+	{
+		"Difficulty": "Medium",
+		"Question": "The actions of the British Royal Navy were astonishing for a non-interventionist power. Not only were communications facilities provided in Gibraltar to speak directly to Rome, Berlin and Lisbon, but the battleship HMS Queen Elizabeth was moved in front of Algeciras bay to prevent republican warships shelling the port.",
+		"Explanation": "The claim above is a quote from Anthony Beevor, The Battle for Spain. \"Britain would apply an arms embargo without waiting for other powers to respond. This in effect meant denying arms to the recognized government and often ignoring those going to the rebels, for the British government refused to acknowledge the proof of German and Italian intervention.\" - also from Beevor",
+		"Answers":
+		[
+			{
+				"Text": "True",
+				"Score": "0.5"
+			},
+			{
+				"Text": "False"
+			}
+		]
+	},
+	{
+		"Difficulty": "Medium",
+		"Question": "Select the list of military offensives that is in correct chronological order, from earliest to latest.",
+		"Answers":
+		[
+			{
+				"Text": "Jarama, Guadalajara, Brunete, Teruel, Ebro",
+				"Score": "1"
+			},
+			{
+				"Text": "Guadalajara, Jarama, Teruel, Ebro, Brunete"
+			},
+			{
+				"Text": "Teruel, Jarama, Guadalajara, Brunete, Ebro"
+			},
+			{
+				"Text": "Brunete, Teruel, Guadalajara, Jarama, Ebro"
 			}
 		]
 	},

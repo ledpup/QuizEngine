@@ -10,6 +10,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
+using Windows.UI.ViewManagement;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Controls.Primitives;
@@ -30,6 +31,10 @@ namespace QuizEngine
     {
         public static MainPage Current;
 
+        //public const string Quiz = "Human Body Systems";
+        //public const string Quiz = "Chemistry";
+        public const string Quiz = "Spanish Civil War";
+
         // Data source for the semantic zoom
         private List<IGesturePageInfo> _pages;
 
@@ -38,13 +43,15 @@ namespace QuizEngine
         //private Button _linksButton;
 
         List<QuizQuestion> _quizQuestions;
-        Random _random = new Random();
+        readonly Random _random = new Random();
 
-        public MainPage()
+        //private NewQuizAttemptPage.QuizConfig _quizConfig;
+
+        public MainPage()//NewQuizAttemptPage.QuizConfig quizConfig)
         {
             this.InitializeComponent();
 
-            MainPage.Current = this;
+            Current = this;
 
             // Links button
             //this._links = new Dictionary<string, Uri>();
@@ -55,13 +62,13 @@ namespace QuizEngine
             //this._links["API: ManipulationStarted event"] = new Uri("http://msdn.microsoft.com/en-us/library/windows/apps/windows.ui.input.gesturerecognizer.manipulationstarted.aspx");
             //this._linksButton = GesturePageBase.CreateLinksAppBarButton(this._links);
 
-            NewMethod1();
-
         }
 
-        private async void NewMethod1()
+        private void NewMethod1()
         {
-            await LoadQuiz();
+            //await LoadQuiz();
+
+            PrepareQuestions(_quizQuestions);
 
             var quizAttempt = new QuizAttempt();
 
@@ -73,6 +80,7 @@ namespace QuizEngine
                 quizAttempt.Answers.Add(new QuestionAnswer { Question = quizQuestion });
                 _pages.Add(new QuestionPage(questionAndanswer).AppPageInfo);
             }
+            _pages.Add(new FinishQuizPage().AppPageInfo);
 
             gesturesViewSource.Source = _pages;
 
@@ -86,41 +94,33 @@ namespace QuizEngine
         /// property is typically used to configure the page.</param>
         protected override void OnNavigatedTo(NavigationEventArgs e)
         {
+            _quizQuestions = (List<QuizQuestion>)e.Parameter;
 
+            NewMethod1();
         }
 
-        private async Task LoadQuiz()
-        {
-            var quizText = await ReadQuizFromFile(@"Assets\Quizzes\" + QuestionPage.Quiz + ".txt");
+        //private async Task LoadQuiz()
+        //{
 
-            _quizQuestions = Deserialize<List<QuizQuestion>>(quizText);
+        //    _quizQuestions.Reverse();
 
-            //_quizQuestions = _quizQuestions.Where(x => x.Category == "Cardiovascular System").ToList();
+        //    PrepareQuestions(_quizQuestions);
+        //}
 
-            _quizQuestions.Reverse();
-            //_quizQuestions.Shuffle();
-            for (var i = 0; i < _quizQuestions.Count; i++)
-            {
-                _quizQuestions[i].QuestionNumber = i + 1;
 
-                for (var j = 0; j < _quizQuestions[i].Answers.Count; j++)
-                {
-                    _quizQuestions[i].Answers[j].Id = j;
-                }
-            }
-
-            PrepareQuestions(_quizQuestions);
-        }
 
         public BitmapImage BackgroundImage
         {
             get
             {
-                return new BitmapImage(new Uri("ms-appx:///Assets/Quizzes/" + QuestionPage.Quiz + ".png"));
+                return new BitmapImage(new Uri("ms-appx:///Assets/Quizzes/" + Quiz + ".png"));
 
                 //return new ImageBrush {ImageSource = bitmapImage};
             }
         }
+
+
+
 
         private void PrepareQuestions(IEnumerable<QuizQuestion> quizQuestions)
         {
@@ -151,7 +151,7 @@ namespace QuizEngine
                     question.Answers[selectedAnswer].Score = question.Score;
                     if (question.KeyValue)
                     {
-                        if (_random.Next(2) == 0 || string.IsNullOrEmpty(question.ValueQuestion))
+                        if (_random.Next(2) == 0 || String.IsNullOrEmpty(question.ValueQuestion))
                         {
                             question.Key = true;
                             question.Question = question.KeyQuestion;
@@ -165,7 +165,7 @@ namespace QuizEngine
                     }
                     else if (question.DynamicAnswer)
                     {
-                        if (_random.Next(2) == 0 || string.IsNullOrEmpty(question.ValueQuestion))
+                        if (_random.Next(2) == 0 || String.IsNullOrEmpty(question.ValueQuestion))
                         {
                             question.Question = question.KeyQuestion;
                             question.Question = question.Question.Replace("*answer text*", question.Answers[selectedAnswer].Text);
@@ -190,36 +190,7 @@ namespace QuizEngine
             
         }
 
-        private static async Task<string> ReadQuizFromFile(string fileName)
-        {
-            var folder = Windows.ApplicationModel.Package.Current.InstalledLocation;
 
-            var file = await folder.GetFileAsync(fileName);
-            var quizText = await Windows.Storage.FileIO.ReadTextAsync(file);
-            return quizText;
-        }
-
-        public static string Serialize(object instance)
-        {
-            using (var stream = new MemoryStream())
-            {
-                var serializer = new DataContractJsonSerializer(instance.GetType());
-                serializer.WriteObject(stream, instance);
-                stream.Position = 0;
-                using (var reader = new StreamReader(stream))
-                { return reader.ReadToEnd(); }
-            }
-        }
-
-        public static T Deserialize<T>(string json)
-        {
-            var bytes = Encoding.UTF8.GetBytes(json);
-            using (var stream = new MemoryStream(bytes))
-            {
-                var serializer = new DataContractJsonSerializer(typeof(T));
-                return (T)serializer.ReadObject(stream);
-            }
-        }
 
 
         // SelectionChanged event handler for the SemanticFlipView
@@ -231,15 +202,13 @@ namespace QuizEngine
             // Let the page know it is has been unselected
             foreach (var item in e.RemovedItems)
             {
-                var gesturePage = (item as IGesturePageInfo).PlayArea;
-                gesturePage.Selected = false;
+                ((IGesturePageInfo)item).Selected = false;
             }
 
             // Let the page know it has been selected
             foreach (var item in e.AddedItems)
             {
-                var gesturePage = (item as IGesturePageInfo).PlayArea;
-                gesturePage.Selected = true;
+                ((IGesturePageInfo)item).Selected = true;
             }
         }
 
@@ -252,9 +221,9 @@ namespace QuizEngine
             if (!e.IsSourceZoomedInView)
             {
                 // Unsnap the app (if necessary) before going into zoomed in view
-                if (Windows.UI.ViewManagement.ApplicationView.Value == Windows.UI.ViewManagement.ApplicationViewState.Snapped)
+                if (ApplicationView.Value == ApplicationViewState.Snapped)
                 {
-                    if (!Windows.UI.ViewManagement.ApplicationView.TryUnsnap())
+                    if (!ApplicationView.TryUnsnap())
                     {
                         // Could not unsnap, go back to zoomed out view
                         this.semanticZoom.IsZoomedInViewActive = false;
@@ -270,7 +239,7 @@ namespace QuizEngine
 
             foreach (var page in _pages)
             {
-                page.ResetQuestionAnswerIcon();
+                page.UpdateZoomedOutImage();
             }
         }
 
@@ -319,6 +288,8 @@ namespace QuizEngine
         public int QuestionNumber;
         [DataMemberAttribute]
         public string Category;
+        [DataMemberAttribute]
+        public string Difficulty;
         [DataMemberAttribute]
         public string Question;
         [DataMemberAttribute]

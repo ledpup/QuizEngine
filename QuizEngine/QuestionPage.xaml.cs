@@ -1,4 +1,5 @@
-﻿using QuizEngine.Controls;
+﻿using System.ComponentModel;
+using QuizEngine.Controls;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -22,26 +23,76 @@ namespace QuizEngine
     /// <summary>
     /// An empty page that can be used on its own or navigated to within a Frame.
     /// </summary>
-    public sealed partial class QuestionPage : GesturePageBase
+    public sealed partial class QuestionPage : GesturePageBase, INotifyPropertyChanged
     {
+        public event PropertyChangedEventHandler PropertyChanged;
+
+        private void NotifyPropretyChanged(string property)
+        {
+            if (PropertyChanged != null)
+                PropertyChanged(this, new PropertyChangedEventArgs(property));
+        }
+
         QuizQuestion _quizQuestion;
-        //public const string Quiz = "Human Body Systems";
-        //public const string Quiz = "Chemistry";
-        public const string Quiz = "Spanish Civil War";
 
-
-        public QuestionPage(QuestionAnswer quizQuestion) :
-            base(quizQuestion.Question)
+        public QuestionPage(QuestionAnswer quizQuestion)
         {
             InitializeComponent();
 
             _quizQuestion = quizQuestion.Question;
 
-            _appPageInfo = new GesturePageInfo(_quizQuestion, this);//uniqueId, title, description, similarTo, imagePath, this);
+            //_quizQuestion = quizQuestion;
+            Id = _quizQuestion.QuestionNumber.ToString();
+            Title = "Question " + _quizQuestion.QuestionNumber;
+            Description = _quizQuestion.Question;
+            QuestionImage = "Assets/Quizzes/" + MainPage.Quiz + "/" + _quizQuestion.Image;
+
+            //_appPageInfo = new GesturePageInfo(this);//uniqueId, title, description, similarTo, imagePath, this);
 
             Answers.ItemWidth = ItemWidth;
 
             DisplayAnswers();
+        }
+
+        public string Id { get; private set; }
+
+        public string Title { get; private set; }
+
+        public string Description { get; private set; }
+
+        public string QuestionImage { get; private set; }
+
+        public Visibility ImageBorderVisibility
+        {
+            get
+            {
+                return QuestionImage.EndsWith(".png") || QuestionImage.EndsWith(".jpg") ? Visibility.Visible : Visibility.Collapsed;
+            }
+        }
+
+        public int QuestionColumnSpan
+        {
+            get
+            {
+                if (ImageBorderVisibility == Visibility.Visible)
+                    return 1;
+
+                return 2;
+            }
+        }
+
+        public int QuestionDescriptionColumnSpan
+        {
+            get
+            {
+                if (ImageBorderVisibility == Visibility.Visible)
+                    return 1;
+
+                if (_quizQuestion.Question.Length < 300)
+                    return 1;
+
+                return 2;
+            }
         }
 
         double ItemWidth
@@ -84,7 +135,7 @@ namespace QuizEngine
 
                 if (!string.IsNullOrEmpty(answer.Image))
                 {
-                    var uri = new Uri("ms-appx:///Assets/Quizzes/" + Quiz + "/" + answer.Image);
+                    var uri = new Uri("ms-appx:///Assets/Quizzes/" + MainPage.Quiz + "/" + answer.Image);
                     var image = new Image
                     {
                         Source = new BitmapImage(uri),
@@ -161,6 +212,7 @@ namespace QuizEngine
             Explanation.Text = "" + _quizQuestion.Explanation;
             Explanation.Text += " " + _quizQuestion.SelectedAnswer.Explanation;
             Explanation.Text = Explanation.Text.Trim();
+            Explanation.Visibility = string.IsNullOrEmpty(Explanation.Text) ? Visibility.Collapsed : Visibility.Visible;
 
             if (_quizQuestion.SelectedAnswer.Score > 0)
             {

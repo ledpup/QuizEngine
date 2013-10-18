@@ -11,6 +11,8 @@
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
+using QuizEngine.Common;
+using Windows.Foundation.Collections;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Media;
@@ -71,30 +73,32 @@ namespace QuizEngine.Controls
         /// the <see cref="SemanticZoomPage"/> and has to use that page's AppBar.
         /// </remarks>
         /// <seealso cref="SemanticZoomPage"/>
-        public GesturePageBase(QuizQuestion quizQuestion)
+        public GesturePageBase()
         {
             // Create GesturePageInfo
             // NOTE: we need a separate class to avoid issues when using this control as data item for the SemanticZoom
-            _appPageInfo = new GesturePageInfo(quizQuestion, this);
-            
+            _appPageInfo = new GesturePageInfo(this);
+
             // The content of the global app bar in this app is a grid that contains
             // two panels for contextual and non-contextual items respectively.
             var appBar = (Windows.UI.Xaml.Controls.AppBar)QuizEngine.MainPage.Current.FindName("globalAppBar");
             var grid = appBar.Content as Windows.UI.Xaml.Controls.Grid;
-            this._contextualItemsPanel = grid.Children[0] as Windows.UI.Xaml.Controls.StackPanel;
-            this._nonContextualItemsPanel = grid.Children[1] as Windows.UI.Xaml.Controls.StackPanel;
-            
+            _contextualItemsPanel = grid.Children[0] as Windows.UI.Xaml.Controls.StackPanel;
+            _nonContextualItemsPanel = grid.Children[1] as Windows.UI.Xaml.Controls.StackPanel;
+
             // Create data structures for links and non contextual items, they will be populated by extending classes
-            this._nonContextualItems = new List<Windows.UI.Xaml.Controls.Button>();
+            _nonContextualItems = new List<Windows.UI.Xaml.Controls.Button>();
             //this._links = new Dictionary<string, Uri>();
 
-            this._isSelected = false;
+            DefaultViewModel = new LayoutAwarePage.ObservableDictionary<String, Object>();
+
+            _isSelected = false;
         }
 
         protected IGesturePageInfo _appPageInfo;
         public IGesturePageInfo AppPageInfo
         {
-            get { return this._appPageInfo; }
+            get { return _appPageInfo; }
         }
 
         public ImageBrush ZoomedOutImage;
@@ -118,21 +122,21 @@ namespace QuizEngine.Controls
         private bool _isSelected;
         internal bool Selected
         {
-            get { return this._isSelected; }
+            get { return _isSelected; }
             set
             {
-                if (this._isSelected != value)
+                if (_isSelected != value)
                 {
                     if (value)
                     {
-                        this.OnSelected();
+                        OnSelected();
                     }
                     else
                     {
-                        this.OnUnselected();
+                        OnUnselected();
                     }
 
-                    this._isSelected = value;
+                    _isSelected = value;
                 }
             }
         }
@@ -141,9 +145,9 @@ namespace QuizEngine.Controls
         protected virtual void OnSelected()
         {
             // Populate the panel for non contextual items
-            foreach (var item in this._nonContextualItems)
+            foreach (var item in _nonContextualItems)
             {
-                this._nonContextualItemsPanel.Children.Add(item);
+                _nonContextualItemsPanel.Children.Add(item);
             }
         }
 
@@ -151,9 +155,26 @@ namespace QuizEngine.Controls
         protected virtual void OnUnselected()
         {
             // Remove items from the panel for non contextual items
-            foreach (var item in this._nonContextualItems)
+            foreach (var item in _nonContextualItems)
             {
-                this._nonContextualItemsPanel.Children.Remove(item);
+                _nonContextualItemsPanel.Children.Remove(item);
+            }
+        }
+
+        public static readonly DependencyProperty DefaultViewModelProperty =
+            DependencyProperty.Register("DefaultViewModel", typeof(IObservableMap<String, Object>),
+            typeof(GesturePageBase), null);
+
+        protected IObservableMap<String, Object> DefaultViewModel
+        {
+            get
+            {
+                return this.GetValue(DefaultViewModelProperty) as IObservableMap<String, Object>;
+            }
+
+            set
+            {
+                this.SetValue(DefaultViewModelProperty, value);
             }
         }
     }
@@ -162,15 +183,10 @@ namespace QuizEngine.Controls
 
     sealed class GesturePageInfo : IGesturePageInfo, INotifyPropertyChanged
     {
-        private readonly QuizQuestion _quizQuestion;
+        //private readonly QuizQuestion _quizQuestion;
 
-        public GesturePageInfo(QuizQuestion quizQuestion, GesturePageBase playArea)//id, String title, String description, string questionImage, GesturePageBase playArea)
+        public GesturePageInfo(GesturePageBase playArea)//id, String title, String description, string questionImage, GesturePageBase playArea)
         {
-            _quizQuestion = quizQuestion;
-            Id = quizQuestion.QuestionNumber.ToString();
-            Title = "Question " + quizQuestion.QuestionNumber;
-            Description = quizQuestion.Question;
-            QuestionImage = "Assets/Quizzes/" + QuestionPage.Quiz + "/" + quizQuestion.Image;
             PlayArea = playArea;
         }
 
@@ -182,15 +198,7 @@ namespace QuizEngine.Controls
                 PropertyChanged(this, new PropertyChangedEventArgs(property));
         }
 
-        public string Id { get; private set; }
-
-        public string Title { get; private set; }
-
-        public string Description { get; private set; }
-
-        public string QuestionImage { get; private set; }
-
-        public void ResetQuestionAnswerIcon()
+        public void UpdateZoomedOutImage()
         {
             NotifyPropretyChanged("ZoomedOutImage");
         }
@@ -199,47 +207,18 @@ namespace QuizEngine.Controls
         {
             get
             {
-                if (_quizQuestion.SelectedAnswer == null)
-                {
-                    return new BitmapImage(new Uri("ms-appx:///Assets/Unanswered.png"));
-                }
+                //if (_quizQuestion.SelectedAnswer == null)
+                //{
+                //    return new BitmapImage(new Uri("ms-appx:///Assets/Unanswered.png"));
+                //}
                 return new BitmapImage(new Uri("ms-appx:///Assets/Answered.png"));
             }
         }
 
-        public Visibility ImageBorderVisibility
-        {
-            get
-            {
-                return QuestionImage.EndsWith(".png") || QuestionImage.EndsWith(".jpg") ? Visibility.Visible : Visibility.Collapsed;
-            }
-        }
-
-        public int QuestionColumnSpan
-        {
-            get
-            {
-                if (ImageBorderVisibility == Visibility.Visible)
-                    return 1;
-
-                return 2;
-            }
-        }
-
-        public int QuestionDescriptionColumnSpan
-        {
-            get
-            {
-                if (ImageBorderVisibility == Visibility.Visible)
-                    return 1;
-
-                if (_quizQuestion.Question.Length < 300)
-                    return 1;
-
-                return 2;
-            }
-        }
+        
 
         public GesturePageBase PlayArea { get; private set; }
+
+        public bool Selected { get { return PlayArea.Selected; } set { PlayArea.Selected = value; } }
     }
 }

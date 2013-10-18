@@ -106,9 +106,15 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
+    <Compile Include="EnhancedSlider.xaml.cs">
+      <DependentUpon>EnhancedSlider.xaml</DependentUpon>
+    </Compile>
     <Compile Include="ExtensionMethods.cs" />
-    <Compile Include="NewAttemptPage.xaml.cs">
-      <DependentUpon>NewAttemptPage.xaml</DependentUpon>
+    <Compile Include="FinishQuizPage.xaml.cs">
+      <DependentUpon>FinishQuizPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="NewQuizAttemptPage.xaml.cs">
+      <DependentUpon>NewQuizAttemptPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="QuestionPage.xaml.cs">
       <DependentUpon>QuestionPage.xaml</DependentUpon>
@@ -267,6 +273,8 @@
     <Content Include="Assets\Quizzes\Spanish Civil War.png" />
     <Content Include="Assets\Quizzes\Spanish Civil War.txt" />
     <Content Include="Assets\Quizzes\Spanish Civil War\Alfonists.png" />
+    <Content Include="Assets\Quizzes\Spanish Civil War\Anarchist collective.jpg" />
+    <Content Include="Assets\Quizzes\Spanish Civil War\Anarchist Spain.png" />
     <Content Include="Assets\Quizzes\Spanish Civil War\Army of Africa.png" />
     <Content Include="Assets\Quizzes\Spanish Civil War\Asturias.jpg" />
     <Content Include="Assets\Quizzes\Spanish Civil War\Bundesarchiv_Bild_183-2006-1204-514,_Spanien,_Schlacht_um_Guadalajara.jpg" />
@@ -293,6 +301,7 @@
     <Content Include="Assets\Quizzes\Spanish Civil War\Germany.PNG" />
     <Content Include="Assets\Quizzes\Spanish Civil War\Guernica.jpg" />
     <Content Include="Assets\Quizzes\Spanish Civil War\Ha llegado.jpg" />
+    <Content Include="Assets\Quizzes\Spanish Civil War\International Brigades poster.jpg" />
     <Content Include="Assets\Quizzes\Spanish Civil War\International Brigades.png" />
     <Content Include="Assets\Quizzes\Spanish Civil War\Internationalist Star.png" />
     <Content Include="Assets\Quizzes\Spanish Civil War\Italy.png" />
@@ -303,6 +312,7 @@
     <Content Include="Assets\Quizzes\Spanish Civil War\PCE.png" />
     <Content Include="Assets\Quizzes\Spanish Civil War\Popular Front.png" />
     <Content Include="Assets\Quizzes\Spanish Civil War\Portugal.png" />
+    <Content Include="Assets\Quizzes\Spanish Civil War\POUM poster 2.jpg" />
     <Content Include="Assets\Quizzes\Spanish Civil War\POUM poster.jpg" />
     <Content Include="Assets\Quizzes\Spanish Civil War\POUM.png" />
     <Content Include="Assets\Quizzes\Spanish Civil War\PSUC Poster.jpg" />
@@ -325,7 +335,19 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Page Include="NewAttemptPage.xaml">
+    <Page Include="CustomStyles.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="EnhancedSlider.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="FinishQuizPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="NewQuizAttemptPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
