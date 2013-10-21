@@ -11,6 +11,7 @@
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
+using System.Runtime.CompilerServices;
 using QuizEngine.Common;
 using Windows.Foundation.Collections;
 using Windows.UI.Xaml;
@@ -75,22 +76,24 @@ namespace QuizEngine.Controls
         /// <seealso cref="SemanticZoomPage"/>
         public GesturePageBase()
         {
+            DefaultViewModel = new LayoutAwarePage.ObservableDictionary<String, Object>();
+
             // Create GesturePageInfo
             // NOTE: we need a separate class to avoid issues when using this control as data item for the SemanticZoom
             _appPageInfo = new GesturePageInfo(this);
 
             // The content of the global app bar in this app is a grid that contains
             // two panels for contextual and non-contextual items respectively.
-            var appBar = (Windows.UI.Xaml.Controls.AppBar)QuizEngine.MainPage.Current.FindName("globalAppBar");
-            var grid = appBar.Content as Windows.UI.Xaml.Controls.Grid;
-            _contextualItemsPanel = grid.Children[0] as Windows.UI.Xaml.Controls.StackPanel;
-            _nonContextualItemsPanel = grid.Children[1] as Windows.UI.Xaml.Controls.StackPanel;
+            //var appBar = (Windows.UI.Xaml.Controls.AppBar)QuizEngine.MainPage.Current.FindName("globalAppBar");
+            //var grid = appBar.Content as Windows.UI.Xaml.Controls.Grid;
+            //_contextualItemsPanel = grid.Children[0] as Windows.UI.Xaml.Controls.StackPanel;
+            //_nonContextualItemsPanel = grid.Children[1] as Windows.UI.Xaml.Controls.StackPanel;
 
             // Create data structures for links and non contextual items, they will be populated by extending classes
-            _nonContextualItems = new List<Windows.UI.Xaml.Controls.Button>();
-            //this._links = new Dictionary<string, Uri>();
+            //_nonContextualItems = new List<Windows.UI.Xaml.Controls.Button>();
+            //_links = new Dictionary<string, Uri>();
 
-            DefaultViewModel = new LayoutAwarePage.ObservableDictionary<String, Object>();
+            
 
             _isSelected = false;
         }
@@ -145,20 +148,20 @@ namespace QuizEngine.Controls
         protected virtual void OnSelected()
         {
             // Populate the panel for non contextual items
-            foreach (var item in _nonContextualItems)
-            {
-                _nonContextualItemsPanel.Children.Add(item);
-            }
+            //foreach (var item in _nonContextualItems)
+            //{
+            //    _nonContextualItemsPanel.Children.Add(item);
+            //}
         }
 
         // Called when this is no longer the selected page in the FlipView
         protected virtual void OnUnselected()
         {
             // Remove items from the panel for non contextual items
-            foreach (var item in _nonContextualItems)
-            {
-                _nonContextualItemsPanel.Children.Remove(item);
-            }
+            //foreach (var item in _nonContextualItems)
+            //{
+            //    _nonContextualItemsPanel.Children.Remove(item);
+            //}
         }
 
         public static readonly DependencyProperty DefaultViewModelProperty =
@@ -192,15 +195,17 @@ namespace QuizEngine.Controls
 
         public event PropertyChangedEventHandler PropertyChanged;
 
-        private void NotifyPropretyChanged(string property)
+        public void NotifyPropertyChanged([CallerMemberName] string propertyName = "")
         {
             if (PropertyChanged != null)
-                PropertyChanged(this, new PropertyChangedEventArgs(property));
+            {
+                PropertyChanged(this, new PropertyChangedEventArgs(propertyName));
+            }
         }
 
         public void UpdateZoomedOutImage()
         {
-            NotifyPropretyChanged("ZoomedOutImage");
+            NotifyPropertyChanged("ZoomedOutImage");
         }
 
         public ImageSource ZoomedOutImage

@@ -42,19 +42,19 @@ namespace QuizEngine
 
         }
 
-        public void ResetQuestionAnswerIcon()
-        {
-            NotifyPropretyChanged("ZoomedOutImage");
-        }
+        //public void ResetQuestionAnswerIcon()
+        //{
+        //    NotifyPropretyChanged("ZoomedOutImage");
+        //}
 
-        //public bool Selected { get; set; }
+        ////public bool Selected { get; set; }
 
-        public event PropertyChangedEventHandler PropertyChanged;
+        //public event PropertyChangedEventHandler PropertyChanged;
 
-        private void NotifyPropretyChanged(string property)
-        {
-            if (PropertyChanged != null)
-                PropertyChanged(this, new PropertyChangedEventArgs(property));
-        }
+        //private void NotifyPropretyChanged(string property)
+        //{
+        //    if (PropertyChanged != null)
+        //        PropertyChanged(this, new PropertyChangedEventArgs(property));
+        //}
     }
 }

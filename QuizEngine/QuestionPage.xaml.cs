@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel;
+using System.Runtime.CompilerServices;
 using QuizEngine.Controls;
 using System;
 using System.Collections.Generic;
@@ -23,17 +24,19 @@ namespace QuizEngine
     /// <summary>
     /// An empty page that can be used on its own or navigated to within a Frame.
     /// </summary>
-    public sealed partial class QuestionPage : GesturePageBase, INotifyPropertyChanged
+    public sealed partial class QuestionPage : GesturePageBase//, INotifyPropertyChanged
     {
-        public event PropertyChangedEventHandler PropertyChanged;
+        //public event PropertyChangedEventHandler PropertyChanged;
 
-        private void NotifyPropretyChanged(string property)
-        {
-            if (PropertyChanged != null)
-                PropertyChanged(this, new PropertyChangedEventArgs(property));
-        }
+        //public void NotifyPropertyChanged([CallerMemberName] string propertyName = "")
+        //{
+        //    if (PropertyChanged != null)
+        //    {
+        //        PropertyChanged(this, new PropertyChangedEventArgs(propertyName));
+        //    }
+        //}
 
-        QuizQuestion _quizQuestion;
+        readonly QuizQuestion _quizQuestion;
 
         public QuestionPage(QuestionAnswer quizQuestion)
         {
@@ -42,10 +45,26 @@ namespace QuizEngine
             _quizQuestion = quizQuestion.Question;
 
             //_quizQuestion = quizQuestion;
-            Id = _quizQuestion.QuestionNumber.ToString();
-            Title = "Question " + _quizQuestion.QuestionNumber;
+            //Id = _quizQuestion.QuestionNumber.ToString();
+            Title = "Question " + quizQuestion.Question.QuestionNumber;
             Description = _quizQuestion.Question;
             QuestionImage = "Assets/Quizzes/" + MainPage.Quiz + "/" + _quizQuestion.Image;
+
+            txtTitle.DataContext = Title;
+
+            DescriptionBorder.DataContext = QuestionDescriptionColumnSpan;
+            txtDescription.DataContext = QuestionDescriptionColumnSpan;
+            brdExplanation.DataContext = QuestionDescriptionColumnSpan;
+            Answers.DataContext = QuestionDescriptionColumnSpan;
+            Explanation.DataContext = QuestionDescriptionColumnSpan;
+
+            txtDescription.Text = Description;
+            
+            brdImageBorderVisibility.Visibility = ImageBorderVisibility;
+
+            imgQuestionImage.DataContext = QuestionImage;
+
+
 
             //_appPageInfo = new GesturePageInfo(this);//uniqueId, title, description, similarTo, imagePath, this);
 
@@ -54,7 +73,11 @@ namespace QuizEngine
             DisplayAnswers();
         }
 
-        public string Id { get; private set; }
+        //private string id;
+        //public string Id { get { return id; } private set { id = value; NotifyPropertyChanged(); } }
+
+        //private string title;
+        //public string Title { get { return title; } private set { title = value; NotifyPropertyChanged(); } }
 
         public string Title { get; private set; }
 
@@ -88,7 +111,7 @@ namespace QuizEngine
                 if (ImageBorderVisibility == Visibility.Visible)
                     return 1;
 
-                if (_quizQuestion.Question.Length < 300)
+                if (Description.Length < 300)
                     return 1;
 
                 return 2;
@@ -128,7 +151,7 @@ namespace QuizEngine
                     HorizontalAlignment = HorizontalAlignment.Left,
                     VerticalContentAlignment = VerticalAlignment.Center,
                     BorderThickness = new Thickness(1),
-                    Padding = new Thickness(12),
+                    Padding = new Thickness(13),
                     //Margin = new Thickness(2),
                     Background = new SolidColorBrush(new Color {A = 125}),
                 };
@@ -200,6 +223,8 @@ namespace QuizEngine
 
             var newAnswer = _quizQuestion.Answers.Single(x => x.Id == int.Parse(button.Tag.ToString()));
 
+            brdExplanation.Visibility = Visibility.Collapsed;
+
             if (_quizQuestion.SelectedAnswer == newAnswer)
             {
                 _quizQuestion.SelectedAnswer = null;
@@ -212,7 +237,7 @@ namespace QuizEngine
             Explanation.Text = "" + _quizQuestion.Explanation;
             Explanation.Text += " " + _quizQuestion.SelectedAnswer.Explanation;
             Explanation.Text = Explanation.Text.Trim();
-            Explanation.Visibility = string.IsNullOrEmpty(Explanation.Text) ? Visibility.Collapsed : Visibility.Visible;
+            brdExplanation.Visibility = string.IsNullOrEmpty(Explanation.Text) ? Visibility.Collapsed : Visibility.Visible;
 
             if (_quizQuestion.SelectedAnswer.Score > 0)
             {
