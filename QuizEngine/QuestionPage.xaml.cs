@@ -151,7 +151,7 @@ namespace QuizEngine
                     HorizontalAlignment = HorizontalAlignment.Left,
                     VerticalContentAlignment = VerticalAlignment.Center,
                     BorderThickness = new Thickness(1),
-                    Padding = new Thickness(13),
+                    Padding = new Thickness(12),
                     //Margin = new Thickness(2),
                     Background = new SolidColorBrush(new Color {A = 125}),
                 };
