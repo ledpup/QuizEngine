@@ -55,7 +55,7 @@ namespace QuizEngine
             DescriptionBorder.DataContext = QuestionDescriptionColumnSpan;
             txtDescription.DataContext = QuestionDescriptionColumnSpan;
             brdExplanation.DataContext = QuestionDescriptionColumnSpan;
-            Answers.DataContext = QuestionDescriptionColumnSpan;
+            Answers.DataContext = AnswersColumnSpan;
             Explanation.DataContext = QuestionDescriptionColumnSpan;
 
             txtDescription.Text = Description;
@@ -93,14 +93,14 @@ namespace QuizEngine
             }
         }
 
-        public int QuestionColumnSpan
+        public int AnswersColumnSpan
         {
             get
             {
-                if (ImageBorderVisibility == Visibility.Visible)
-                    return 1;
+                if (_quizQuestion.ImageAnswers)
+                    return 3;
 
-                return 2;
+                return 1;
             }
         }
 
@@ -114,7 +114,7 @@ namespace QuizEngine
                 if (Description.Length < 300)
                     return 1;
 
-                return 2;
+                return 3;
             }
         }
 
