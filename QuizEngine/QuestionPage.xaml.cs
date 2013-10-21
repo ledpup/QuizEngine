@@ -98,7 +98,7 @@ namespace QuizEngine
             get
             {
                 if (_quizQuestion.ImageAnswers)
-                    return 3;
+                    return 2;
 
                 return 1;
             }
@@ -114,7 +114,7 @@ namespace QuizEngine
                 if (Description.Length < 300)
                     return 1;
 
-                return 3;
+                return 2;
             }
         }
 

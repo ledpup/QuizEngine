@@ -17,21 +17,15 @@
             <RowDefinition Height="20*"/>
             <RowDefinition Height="*"/>
             <RowDefinition Height="35*"/>
-            <RowDefinition Height="auto"/>
+            <RowDefinition Height="Auto"/>
         </Grid.RowDefinitions>
 
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="*"/>
             <ColumnDefinition Width="15*"/>
-            <ColumnDefinition Width="*"/>
             <ColumnDefinition Width="11*"/>
             <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
-
-        <!--<Grid.RowDefinitions>
-            <RowDefinition Height="*" />
-            <RowDefinition Height="Auto" />
-        </Grid.RowDefinitions>-->
 
         <TextBlock
             x:Name="txtTitle"
@@ -44,14 +38,15 @@
         <Border
             x:Name="brdImageBorderVisibility"
             Grid.Row="1"
-            Grid.Column="3"
+            Grid.Column="2"
             Grid.RowSpan="6"
             Grid.ColumnSpan="2"
             Background="#CC000000"
             Padding="30"
             VerticalAlignment="Top"
             HorizontalAlignment="Right"
-            Canvas.ZIndex="1" Margin="0,1,0,0">
+            Canvas.ZIndex="1"
+            Margin="20,0,20,0">
 
             <Image
                 x:Name="imgQuestionImage"
@@ -85,7 +80,9 @@
 
         <Border
             x:Name="brdExplanation"
-            Grid.Column="1" Grid.ColumnSpan="{Binding}" Grid.Row="6"
+            Grid.Column="1"
+            Grid.ColumnSpan="2"
+            Grid.Row="6"
             Background="Black"
             Opacity="0.5"
             Visibility="Collapsed"
@@ -93,7 +90,7 @@
         <TextBlock
             x:Name="Explanation"
             Grid.Column="1" 
-            Grid.ColumnSpan="{Binding}" 
+            Grid.ColumnSpan="2" 
             Grid.Row="6"
             Padding="4"
             Style="{StaticResource AppDescriptionTextStyle}"
