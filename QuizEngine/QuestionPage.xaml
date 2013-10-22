@@ -39,14 +39,14 @@
             x:Name="brdImageBorderVisibility"
             Grid.Row="1"
             Grid.Column="2"
-            Grid.RowSpan="6"
+            Grid.RowSpan="5"
             Grid.ColumnSpan="2"
             Background="#CC000000"
             Padding="30"
             VerticalAlignment="Top"
             HorizontalAlignment="Right"
             Canvas.ZIndex="1"
-            Margin="20,0,20,0">
+            Margin="10,0,10,0">
 
             <Image
                 x:Name="imgQuestionImage"
