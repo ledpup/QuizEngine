@@ -43,7 +43,7 @@ namespace QuizEngine
 
             this.InitializeComponent();
 
-            ConfigureQuestions(_quizConfig);
+            //ConfigureQuestions(_quizConfig);
 
             Easy.IsChecked = true;
             Medium.IsChecked = true;
@@ -51,7 +51,8 @@ namespace QuizEngine
             Easy_Click(Easy, null);
             Medium_Click(Medium, null);
             Hard_Click(Hard, null);
-
+            Test.IsChecked = true;
+            Test_Checked(null, null);
             //NumberOfQuestions.Maximum = _completeQuizQuestions.Count;
         }
 
@@ -96,7 +97,6 @@ namespace QuizEngine
         private void StartQuiz_Click(object sender, RoutedEventArgs e)
         {
             _quizConfig.NumberOfQuestions = (int)NumberOfQuestions.Value;
-
             _quizQuestions.Shuffle();
             _quizQuestions = _quizQuestions.Take(_quizConfig.NumberOfQuestions).ToList();
 
@@ -115,10 +115,6 @@ namespace QuizEngine
 
         private void SetDifficulty(CheckBox button, string difficulty)
         {
-            //button.Background = new SolidColorBrush(new Color { A = 125 });
-
-            //button.IsChecked = !button.IsChecked;
-
             if (button.IsChecked == true)
             {
                 _quizConfig.Difficulties.Add(difficulty); 
@@ -126,7 +122,6 @@ namespace QuizEngine
             else
             {
                 _quizConfig.Difficulties.Remove(difficulty);
-                //button.Background = (SolidColorBrush)Application.Current.Resources["GreenBrush"];
             }
             ConfigureQuestions(_quizConfig);
         }
@@ -134,7 +129,25 @@ namespace QuizEngine
         private void ConfigureQuestions(QuizConfig quizConfig)
         {
             _quizQuestions = _completeQuizQuestions.Where(x => quizConfig.Difficulties.Contains(x.Difficulty)).ToList();
-            NumberOfQuestions.Maximum = _quizQuestions.Count;
+
+            if (_quizQuestions.Count >= NumberOfQuestions.Minimum)
+            {
+                NumberOfQuestions.Maximum = _quizQuestions.Count;
+                NumberOfQuestions.IsEnabled = true;
+            }
+            else
+            {
+                NumberOfQuestions.Maximum = NumberOfQuestions.Minimum;
+                NumberOfQuestions.IsEnabled = false;
+            }
+
+            DifficultyWarning.Visibility = Visibility.Collapsed;
+            StartQuiz.IsEnabled = true;
+            if (_quizQuestions.Count == 0)
+            {
+                StartQuiz.IsEnabled = false;
+                DifficultyWarning.Visibility = Visibility.Visible;
+            }
         }
 
         private void Easy_Click(object sender, RoutedEventArgs e)
@@ -150,6 +163,16 @@ namespace QuizEngine
         private void Hard_Click(object sender, RoutedEventArgs e)
         {
             SetDifficulty((CheckBox)sender, "Hard");
+        }
+
+        private void Test_Checked(object sender, RoutedEventArgs e)
+        {
+            QuizTypeDescription.Text = "Test Mode: A timed quiz where answers and score are revealed at the end of quiz. You have one minute per question.";
+        }
+
+        private void Practice_Checked(object sender, RoutedEventArgs e)
+        {
+            QuizTypeDescription.Text = "Practice Mode: A relaxed quiz where answers are displayed as you go. There is no time-limit on the quiz.";
         }
     }
 }

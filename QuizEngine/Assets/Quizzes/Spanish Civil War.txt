@@ -90,7 +90,7 @@
 	{
 		"Difficulty": "Medium",
 		"Question": "Where was the \"fifth column\"?",
-		"Explanation": "Emilio Mola: \"My First Column is approaching the City from the North, my Second Column from the East, my Third Column from the South and my Fourth Column from the West. But, it is my Fifth Column that shall take the City.\"\r\nThe journalist asked the obvious question. \"General Mola, where is your Fifth Column?\" To which he replied: \"In the City.\" - http://www.philatelic-evangelist.com/2013/03/journey-to-west-and-salisbury-fifth.html",
+		"Explanation": "Emilio Mola: \"My First Column is approaching the City from the North, my Second Column from the East, my Third Column from the South and my Fourth Column from the West. But, it is my Fifth Column that shall take the City.\"\r\nThe journalist asked the obvious question. \"General Mola, where is your Fifth Column?\" Mola replied: \"In the City.\" - http://www.philatelic-evangelist.com/2013/03/journey-to-west-and-salisbury-fifth.html",
 		"Answers":
 		[
 			{
@@ -237,7 +237,7 @@
 			{
 				"Text": "Cecil Bebb",
 				"Score": "1",
-				"Explanation": "On July 11, 1936 Bebb left London, flying a Dragon Rapide. He picked up Franco in the Canary Islands and flew him to Tetuán in Spanish Morocco."
+				"Explanation": "On July 11, 1936 Bebb and Major Pollard left London, flying a Dragon Rapide. Pollard was an agent of the British secret services, MI6. They picked up Franco in the Canary Islands and flew him to Tetuán in Spanish Morocco."
 			},
 			{
 				"Text": "George Orwell"
@@ -587,7 +587,7 @@
 	{
 		"Difficulty": "Medium",
 		"Question": "The Spanish Republic was solely anti-clerical during the Spanish Civil War.",
-		"Explanation": "The majority of the Republic was against religion and especially the Catholic Church. However, the conservative, strongly Catholic Basque country was part of the Republic until it was defeated by the Nationalists during the Battle of Bilbao in June 1937.",
+		"Explanation": "The majority of the Republic was against religion and especially the Catholic Church. However, the conservative, strongly Catholic Basque Country was part of the Republic until it was defeated by the Nationalists during the Battle of Bilbao in June 1937.",
 		"Answers":
 		[
 			{
@@ -820,7 +820,7 @@
 	{
 		"Difficulty": "Medium",
 		"Question": "The Assault Guards were aligned with the Republic whereas the Civil Guards aligned with the Nationalists.",
-		"Explanation": "More Civil Guards (around 40%) went over to the Nationalists than continued serving the Republic and more Assault Guards (around 60%) remained loyal than fought for the Nationalists. However, thousands of personnel from both forces could be found on either side of the conflict.",
+		"Explanation": "Less Civil Guards (around 40%) stayed with the Republic than those of the Assault Guards (around 60% remained loyal). However, thousands of personnel from both forces could be found on either side of the conflict.",
 		"Answers":
 		[
 			{
@@ -960,22 +960,26 @@
 	},
 	{
 		"Difficulty": "Medium",
-		"Question": "Which region had the largest number of collectives, established at the beginning of the revolution in 1936?",
+		"Question": "Which regions had the largest number of collectives, established at the beginning of the revolution in 1936?",
 		"Image": "Anarchist collective.jpg",
+		"Explanation": "\"The regions most affected [by collectivisation] were Catalonia and Aragón, where about 70 per cent of the workforce was involved. The total for the whole of republican territory was nearly 800,000 on the land and a little over a million in industry.\" - Anthony Beevor, The Battle for Spain",
 		"Answers":
 		[
 			{
-				"Text": "Aragon",
+				"Text": "Catalonia and Aragon",
 				"Score": "1"
 			},
 			{
-				"Text": "Andalucia"
+				"Text": "Extremadura and Castile"
 			},
 			{
-				"Text": "Catalonia"
+				"Text": "Andalucia and the Levant"
 			},
 			{
-				"Text": "Narvarre"
+				"Text": "Galicia and Asturias"
+			},
+			{
+				"Text": "Narvarre and the Basque Country"
 			}
 		]
 	},
@@ -1051,24 +1055,24 @@
 		"Answers":
 		[
 			{
-				"Text": "He was afraid that France would intervene in the war and support Catalonia",
+				"Text": "He was concerned that France would intervene in the war and support Catalonia",
 				"Score": "1"
 			},
 			{
 				"Text": "The Republic army was too heavily defended around Barcelona"
 			},
 			{
-				"Text": "xx"
+				"Text": "The Nationalist forces were heavily demoralised after the Aragon offensive"
 			},
 			{
-				"Text": "xx"
+				"Text": "Franco had heard news of the Republican build-up that became the Battle of Ebro"
 			}
 		]
 	},
 	{
 		"Difficulty": "Medium",
 		"Question": "The USA, not wanting to be seen siding with fascists nor wanting to appear pro-communist, followed the lead of the Non-Intervention Committee and did not get involved in the Spanish Civil War.",
-		"Explanation": "Because of pressure from the Catholic lobby, the USA did not trade with the Republic. However, \"Ford, Studebaker and General Motors supplied 12,000 trucks to the nationalists, nearly three times as many as the Axis powers, and the chemical giant, Dupont of Nemours, provided 40,000 bombs, sending them via Germany so as to circumvent the Neutrality Act. In 1945 the under-secretary at the Spanish foreign ministry, José Maria Doussinague, admitted that 'without American petroleum and American trucks and American credit, we could never have won the civil war'.\"",
+		"Explanation": "Because of pressure from the Catholic lobby, the USA did not trade with the Republic. However, \"Ford, Studebaker and General Motors supplied 12,000 trucks to the nationalists, nearly three times as many as the Axis powers, and the chemical giant, Dupont of Nemours, provided 40,000 bombs, sending them via Germany so as to circumvent the Neutrality Act. In 1945 the under-secretary at the Spanish foreign ministry, José Maria Doussinague, admitted that 'without American petroleum and American trucks and American credit, we could never have won the civil war'.\" - Anthony Beevor, The Battle for Spain",
 		"Answers":
 		[
 			{
@@ -1083,7 +1087,7 @@
 	{
 		"Difficulty": "Medium",
 		"Question": "The actions of the British Royal Navy were astonishing for a non-interventionist power. Not only were communications facilities provided in Gibraltar to speak directly to Rome, Berlin and Lisbon, but the battleship HMS Queen Elizabeth was moved in front of Algeciras bay to prevent republican warships shelling the port.",
-		"Explanation": "The claim above is a quote from Anthony Beevor, The Battle for Spain. \"Britain would apply an arms embargo without waiting for other powers to respond. This in effect meant denying arms to the recognized government and often ignoring those going to the rebels, for the British government refused to acknowledge the proof of German and Italian intervention.\" - also from Beevor",
+		"Explanation": "The claim above is a from Anthony Beevor's The Battle for Spain. Also from the same book: \"Britain would apply an arms embargo without waiting for other powers to respond. This in effect meant denying arms to the recognized government and often ignoring those going to the rebels, for the British government refused to acknowledge the proof of German and Italian intervention.\"",
 		"Answers":
 		[
 			{
@@ -1112,6 +1116,27 @@
 			},
 			{
 				"Text": "Brunete, Teruel, Guadalajara, Jarama, Ebro"
+			}
+		]
+	},
+	{
+		"Difficulty": "Easy",
+		"Question": "Before the outbreak of the Spanish Civil War, Francisco Franco was:",
+		"Image": "Franco.jpg",
+		"Answers":
+		[
+			{
+				"Text": "A Spanish general in the Republican army",
+				"Score": "1"
+			},
+			{
+				"Text": "The leader of the Falange (the Spanish fascists)"
+			},
+			{
+				"Text": "A Spanish nationalist and leader of the CEDA (Spanish Confederation of Autonomous Right-wing Groups)"
+			},
+			{
+				"Text": "The leader of the Army of Africa (Spain's African military units)"
 			}
 		]
 	},

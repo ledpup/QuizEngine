@@ -8,7 +8,12 @@
     xmlns:uc="using:QuizEngine"
     mc:Ignorable="d">
 
-    <Grid Background="{StaticResource ApplicationPageBackgroundThemeBrush}">
+    <Grid>
+        
+        <Grid.Background>
+            <ImageBrush Stretch="UniformToFill" AlignmentY="Top" Opacity="0.5" ImageSource="ms-appx:///Assets/Quizzes/Spanish Civil War - New attempt background.jpg" />
+        </Grid.Background>
+
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="*"/>
             <ColumnDefinition Width="3*"/>
@@ -19,7 +24,10 @@
             <RowDefinition Height="3*"/>
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
-        <Rectangle HorizontalAlignment="Center" Margin="0" VerticalAlignment="Center" Grid.Column="1" Stretch="UniformToFill" Grid.Row="1" />
+
+        <TextBlock Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="3" Margin="20" Style="{StaticResource AppTitleTextStyle}" Foreground="White">The Spanish Civil War Quiz</TextBlock>
+
+        <Rectangle HorizontalAlignment="Center" Margin="0" VerticalAlignment="Center" Grid.Column="1" Stretch="UniformToFill" Grid.Row="1" Fill="{StaticResource BlackBrush}" Opacity="0.5" />
 
         <Grid Grid.Column="1" Grid.Row="1" Margin="50">
             <Grid.ColumnDefinitions>
@@ -31,26 +39,30 @@
                 <RowDefinition Height="2*"/>
                 <RowDefinition Height="*"/>
                 <RowDefinition Height="*"/>
+                <RowDefinition Height="Auto"/>
             </Grid.RowDefinitions>
 
             <TextBlock Grid.Column="0" Grid.Row="0" Style="{StaticResource AppBasicTextStyle}" VerticalAlignment="Center">Difficulty:</TextBlock>
-            <StackPanel Grid.Column="1" Grid.Row="0" Orientation="Horizontal">
-                <CheckBox x:Name="Easy" Click="Easy_Click" Padding="10" Width="125">Easy</CheckBox>
-                <CheckBox x:Name="Medium" Padding="10" Click="Medium_Click" Width="125">Medium</CheckBox>
-                <CheckBox x:Name="Hard" Padding="10" Click="Hard_Click" Width="125">Hard</CheckBox>
+            <StackPanel Grid.Column="1" Grid.Row="0">
+                <StackPanel Orientation="Horizontal">
+                    <CheckBox x:Name="Easy" Click="Easy_Click" Padding="10" Width="125">Easy</CheckBox>
+                    <CheckBox x:Name="Medium" Padding="10" Click="Medium_Click" Width="125">Medium</CheckBox>
+                    <CheckBox x:Name="Hard" Padding="10" Click="Hard_Click" Width="125">Hard</CheckBox>
+                </StackPanel>
+                <TextBlock x:Name="DifficultyWarning" Foreground="{StaticResource RedBrush}" Style="{StaticResource AppBasicTextStyle}" HorizontalAlignment="Center" Visibility="Collapsed">At least one difficulty level needs to be selected to start the quiz.</TextBlock>
             </StackPanel>
             <TextBlock Grid.Column="0" Grid.Row="1" Style="{StaticResource AppBasicTextStyle}" VerticalAlignment="Center">Number of Questions:</TextBlock>
-            <uc:EnhancedSlider x:Name="NumberOfQuestions" Grid.Column="1" Grid.Row="1" HorizontalAlignment="Stretch" Margin="0" VerticalAlignment="Center" Minimum="5" Maximum="50" Value="10" />
+            <uc:EnhancedSlider x:Name="NumberOfQuestions" Grid.Column="1" Grid.Row="1" HorizontalAlignment="Stretch" Margin="0" VerticalAlignment="Center" Minimum="5" Maximum="50" Value="20" />
 
             <TextBlock Grid.Column="0" Grid.Row="2" Style="{StaticResource AppBasicTextStyle}" VerticalAlignment="Center">Quiz mode:</TextBlock>
             <StackPanel Grid.Column="1" Grid.Row="2" VerticalAlignment="Center">
                 <StackPanel Orientation="Horizontal">
-                    <Button Padding="10" Width="125">Practice</Button>
-                    <Button Padding="10" Width="125">Test</Button>
+                    <RadioButton GroupName="Group1" Padding="10" Width="125" Checked="Practice_Checked">Practice</RadioButton>
+                    <RadioButton x:Name="Test" GroupName="Group1" Padding="10" Width="125" Checked="Test_Checked">Test</RadioButton>
                 </StackPanel>
-                <TextBlock x:Name="QuizTypeDescription" Grid.Column="1" Grid.Row="2"></TextBlock>
+                <TextBlock x:Name="QuizTypeDescription" Style="{StaticResource AppBasicTextStyle}"></TextBlock>
             </StackPanel>
-            <Button Grid.Column="0" Grid.Row="3" Grid.ColumnSpan="2" HorizontalAlignment="Center" Click="StartQuiz_Click" Padding="20" Width="250">Start Quiz</Button>
+            <Button x:Name="StartQuiz" Grid.Column="0" Grid.Row="3" Grid.ColumnSpan="2" HorizontalAlignment="Center" Click="StartQuiz_Click" Padding="20" Width="250">Start Quiz</Button>            
         </Grid>
     </Grid>
 </Page>
