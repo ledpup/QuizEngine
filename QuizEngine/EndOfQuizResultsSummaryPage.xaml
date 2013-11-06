@@ -1,0 +1,25 @@
+﻿<Page
+    x:Class="QuizEngine.EndOfQuizResultsSummary"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:QuizEngine"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+    <ScrollViewer ZoomMode="Disabled">
+        <StackPanel Background="{StaticResource ApplicationPageBackgroundThemeBrush}">
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+                <TextBlock Margin="5" Style="{StaticResource AppTitleTextStyle}">Results:</TextBlock>
+                <TextBlock x:Name="Results" Margin="5" Style="{StaticResource AppTitleTextStyle}"></TextBlock>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+                <TextBlock Margin="5" Style="{StaticResource AppTitleTextStyle}">Duration:</TextBlock>
+                <TextBlock x:Name="Duration" Margin="5" Style="{StaticResource AppTitleTextStyle}"></TextBlock>
+            </StackPanel>
+        
+            <StackPanel x:Name="QuestionsAndAnswers" />
+            <Button Margin="10" Padding="20" HorizontalAlignment="Center" Click="Button_Click">New Quiz</Button>
+        
+        </StackPanel>
+    </ScrollViewer>
+</Page>

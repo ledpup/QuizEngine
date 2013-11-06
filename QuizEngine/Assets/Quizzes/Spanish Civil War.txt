@@ -90,7 +90,7 @@
 	{
 		"Difficulty": "Medium",
 		"Question": "Where was the \"fifth column\"?",
-		"Explanation": "Emilio Mola: \"My First Column is approaching the City from the North, my Second Column from the East, my Third Column from the South and my Fourth Column from the West. But, it is my Fifth Column that shall take the City.\"\r\nThe journalist asked the obvious question. \"General Mola, where is your Fifth Column?\" Mola replied: \"In the City.\" - http://www.philatelic-evangelist.com/2013/03/journey-to-west-and-salisbury-fifth.html",
+		"Explanation": "Emilio Mola: \"My First Column is approaching the City from the North, my Second Column from the East, my Third Column from the South and my Fourth Column from the West. But, it is my Fifth Column that shall take the City.\" The journalist asked the obvious question. \"General Mola, where is your Fifth Column?\" Mola replied: \"In the City.\" - http://www.philatelic-evangelist.com/2013/03/journey-to-west-and-salisbury-fifth.html",
 		"Answers":
 		[
 			{
@@ -138,7 +138,6 @@
 		"Difficulty": "Hard",
 		"Question": "The International Brigades was composed of more people from __________ than any other of the combinations below.",
 		"Explanation": "The International Brigades included 9,000 Frenchmen, 5,000 Germans and Austrians and 3,350 Italians.",
-		"Image": "Internationalist Star.png",
 		"Answers":
 		[
 			{
@@ -300,7 +299,7 @@
 	},
 	{
 		"Difficulty": "Easy",
-		"Question": "Which countries aided the Republicans during the war?",
+		"Question": "Which countries openly aided the Republicans during the war?",
 		"Explanation": "The French government was sympathetic to the Republic and offered assistance during 1936, but stopped after it signed the Non-Intervention Pact.",
 		"Answers":
 		[
@@ -324,7 +323,8 @@
 	},
 	{
 		"Difficulty": "Easy",
-		"Question": "Which countries aided the Nationalists during the war?",
+		"Question": "Which countries openly aided the Nationalists during the war?",
+		"Explanation": "The UK, by sending an MI6 agent to help transport Franco to Morocco, by blocking Spanish naval attacks and by maintaining a moribund non-intervention pact, covertly aided the Nationalists.",
 		"Answers":
 		[
 			{
@@ -791,7 +791,8 @@
 				"Image": "Alfonists.png"
 			},
 			{
-				"Text": "All participated in the block",
+				"Text": "[All participated in the block]",
+				"Image": "Blank flag.png",
 				"IsLast": "true"
 			}
 		]
@@ -856,7 +857,8 @@
 				"Explanation": "This is a UGT anti-religious poster, suggesting that fascism is \"how the church has planted its religion in Spain\"."
 			},
 			{
-				"Text": "All are Republican posters",
+				"Text": "[All are Republican posters]",
+				"Image": "Blank poster.png",
 				"IsLast": "true"
 			}
 		]
@@ -868,7 +870,8 @@
 		"Answers":
 		[
 			{
-				"Text": "All are Nationalist posters",
+				"Text": "[All are Nationalist posters]",
+				"Image": "Blank poster.png",
 				"Score": "1",
 				"IsLast": "true"
 			},
@@ -1133,11 +1136,230 @@
 				"Text": "The leader of the Falange (the Spanish fascists)"
 			},
 			{
-				"Text": "A Spanish nationalist and leader of the CEDA (Spanish Confederation of Autonomous Right-wing Groups)"
+				"Text": "The leader of the CEDA (Spanish Confederation of Autonomous Right-wing Groups)"
 			},
 			{
 				"Text": "The leader of the Army of Africa (Spain's African military units)"
 			}
 		]
 	},
+	{
+		"Difficulty": "Medium",
+		"Question": "Who did Colonal Rada describe as men 'with faith in victory, with faith in God; one hand holding a grenade, the other a rosary'?",
+		"Image": "Carlist poster.jpg",
+		"Answers":
+		[
+			{
+				"Text": "Requetés",
+				"Explanation": "The requetés were the Carlist militia. A group of traditionalists that fought in corps in defence of the religious and monarchical traditions.",
+				"Score": "1"
+			},
+			{
+				"Text": "Falange (the Spanish fascists)"
+			},
+			{
+				"Text": "CEDA (Spanish Confederation of Autonomous Right-wing Groups)"
+			},
+			{
+				"Text": "Anarcho-syndicalists"
+			},
+			{
+				"Text": "Crusaders"
+			}
+		]
+	},
+	{
+		"Difficulty": "Medium",
+		"Question": "As part of the failed coup-attempt against the government, the Nationalists initially controlled (or quickly captured) the regions of Galicia, Leon, Old Castile and Navarre (as well as parts of Andalusia). Over the next few years, the remaining regions of Spain fell to the nationalists in which order? (Ordered by first to last.)",
+		"Image": "Spanish Regions.png",
+		"Answers":
+		[
+			{
+				"Text": "Andalusia, Extremadura, Basque Country, Asturias, Aragon, Catalonia, New Castile",
+				"Score": "1"
+			},
+			{
+				"Text": "Andalusia, Extremadura, Aragon, Catalonia, New Castile, Basque Country, Asturias"
+			},
+			{
+				"Text": "Basque Country, Asturias, Andalusia, Extremadura, New Castile, Catalonia, Aragon"
+			},
+			{
+				"Text": "Andalusia, Extremadura, Aragon, Basque Country, Asturias, New Castile, Catalonia"
+			},
+			{
+				"Text": "Andalusia, Basque Country, Extremadura, Asturias, Catalonia, Aragon, New Castile"
+			}
+		]
+	},
+	{
+		"Difficulty": "Easy",
+		"Question": "Salvador Dalí, as a prominent member of the socialist Surrealist movement was sympathetic to the Republic's cause.",
+		"Image": "salvador-dali-soft-construction-with-boiled-beans-premonition-of-civil-war.jpg",
+		"Answers":
+		[
+			{
+				"Text": "False",
+				"Score": "0.5",
+				"Explanation": "Dalí didn't declare support for the Republic. Dalí fled Spain during the war. Dalí returned to Catalonia after World War II. He congratulated Franco for his \"clearing Spain of destructive forces\". He became openly Catholic from the 1950s."
+			},
+			{
+				"Text": "True"
+			}
+		]
+	},
+	{
+		"Difficulty": "Medium",
+		"Question": "At the end of the failed coup but before the start of war proper, which was the only city listed below (i.e., the largest Spanish cities) that the rebellious Spanish officers controlled?",
+		"Answers":
+		[
+			{
+				"Text": "Seville",
+				"Score": "1"
+			},
+			{
+				"Text": "Barcelona"
+			},
+			{
+				"Text": "Valencia"
+			},
+			{
+				"Text": "Bilbao"
+			},
+			{
+				"Text": "Madrid"
+			}
+		]
+	},
+	{
+		"Difficulty": "Medium",
+		"Question": "When asked by the US journalist John T. Whitaker about his reason for killing 4,000 people during the Badajoz massacre (10% of the city's population), who answered:\r\n\r\n\"Of course we have killed them. What did you suppose? Will I take 4,000 red prisoners with my column, having to advance against the clock? Or will I leave them in my rearguard so that Badajoz will be red another time?\"",
+		"Explanation": "Yagüe, \"The Butcher of Badajoz\", was a colonel in the Nationalist army. He was one of the key Spanish officers that led the coup against the government. He was also a strong supporter of the Falange.",
+		"Answers":
+		[
+			{
+				"Text": "Juan Yagüe",
+				"Score": "1"
+			},
+			{
+				"Text": "Francisco Franco"
+			},
+			{
+				"Text": "Emilio Mola"
+			},
+			{
+				"Text": "Gonzalo Queipo de Llano"
+			}
+		]
+	},
+	{
+		"Difficulty": "Easy",
+		"Question": "During the Spanish Civil War, who were the Rebels?",
+		"Answers":
+		[
+			{
+				"Text": "The Nationalists",
+				"Score": "1"
+			},
+			{
+				"Text": "The anarchists (CNT/FAI)"
+			},
+			{
+				"Text": "The Popular Front"
+			},
+			{
+				"Text": "The communists (PCE, PSUC, etc)"
+			}
+		]
+	},
+	{
+		"Difficulty": "Easy",
+		"Question": "Who were the Loyalists?",
+		"Answers":
+		[
+			{
+				"Text": "Those loyal to the Republican government",
+				"Score": "1"
+			},
+			{
+				"Text": "Those loyal to King Alfonso VIII"
+			},
+			{
+				"Text": "Supporters of Francisco Franco"
+			},
+			{
+				"Text": "Those that supported Carlism - a separate line of the Bourbon family"
+			}
+		]
+	},
+	{
+		"Difficulty": "Easy",
+		"Question": "At the end of the civil war, to where did the majority of left-wing Spaniards retreat?",
+		"Answers":
+		[
+			{
+				"Text": "France",
+				"Image": "Flag of France.png",
+				"Score": "1"
+			},
+			{
+				"Text": "United Kingdom",
+				"Image": "United Kingdom.png"
+			},
+			{
+				"Text": "Portugal",
+				"Image": "Portugal.png"
+			},
+			{
+				"Text": "USSR",
+				"Image": "Flag of the Soviet Union.png"
+			},
+			{
+				"Text": "Mexico",
+				"Image": "Flag of Mexico.png"
+			},
+		]
+	},
+	{
+		"Difficulty": "Medium",
+		"Question": "Who were the mujeres libres (free women)?",
+		"Image": "WomenMilitiaSpain.jpg",
+		"Answers":
+		[
+			{
+				"Text": "Anarchist women that struggled for the dual cause of social revolution and women's liberation",
+				"Score": "1"
+			},
+			{
+				"Text": "Anarchist militiawomen"
+			},
+			{
+				"Text": "The women's movement of the Falange"
+			},
+			{
+				"Text": "Name of the Carlist women's movement"
+			}
+		]
+	},
+	{
+		"Difficulty": "Medium",
+		"Question": "What was the result of the Battle of the Ebro?",
+		"Image": "Battle of the Ebro.png",
+		"Answers":
+		[
+			{
+				"Text": "The effective end of the Republican army",
+				"Score": "1"
+			},
+			{
+				"Text": "The only truly successful Republican offensive of the war"
+			},
+			{
+				"Text": "The abandonment of the Republican militia system"
+			},
+			{
+				"Text": "The end of anarchist control of Aragon and Catalonia"
+			}
+		]
+	}
 ]

@@ -36,6 +36,8 @@
             <ImageBrush x:Name="BackImage" Stretch="Uniform" AlignmentY="Top" AlignmentX="Right" Opacity="0.5" />
         </Grid.Background>
         
+        <TextBlock x:Name="TimeRemaining"></TextBlock>
+        
         <SemanticZoom
             x:Name="semanticZoom"
             IsZoomedInViewActive="True"

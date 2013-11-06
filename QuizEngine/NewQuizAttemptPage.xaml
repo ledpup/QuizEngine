@@ -29,7 +29,7 @@
 
         <Rectangle HorizontalAlignment="Center" Margin="0" VerticalAlignment="Center" Grid.Column="1" Stretch="UniformToFill" Grid.Row="1" Fill="{StaticResource BlackBrush}" Opacity="0.5" />
 
-        <Grid Grid.Column="1" Grid.Row="1" Margin="50">
+        <Grid Grid.Column="1" Grid.Row="1" Margin="25">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="*"/>
                 <ColumnDefinition Width="3*"/>
@@ -57,12 +57,12 @@
             <TextBlock Grid.Column="0" Grid.Row="2" Style="{StaticResource AppBasicTextStyle}" VerticalAlignment="Center">Quiz mode:</TextBlock>
             <StackPanel Grid.Column="1" Grid.Row="2" VerticalAlignment="Center">
                 <StackPanel Orientation="Horizontal">
-                    <RadioButton GroupName="Group1" Padding="10" Width="125" Checked="Practice_Checked">Practice</RadioButton>
+                    <RadioButton x:Name="Practice" GroupName="Group1" Padding="10" Width="125" Checked="Practice_Checked">Practice</RadioButton>
                     <RadioButton x:Name="Test" GroupName="Group1" Padding="10" Width="125" Checked="Test_Checked">Test</RadioButton>
                 </StackPanel>
                 <TextBlock x:Name="QuizTypeDescription" Style="{StaticResource AppBasicTextStyle}"></TextBlock>
             </StackPanel>
-            <Button x:Name="StartQuiz" Grid.Column="0" Grid.Row="3" Grid.ColumnSpan="2" HorizontalAlignment="Center" Click="StartQuiz_Click" Padding="20" Width="250">Start Quiz</Button>            
+            <Button x:Name="StartQuiz" Grid.Column="0" Grid.Row="3" Grid.ColumnSpan="2" HorizontalAlignment="Center" Click="StartQuiz_Click" Padding="10" Width="250">Start Quiz</Button>            
         </Grid>
     </Grid>
 </Page>

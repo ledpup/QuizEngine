@@ -18,6 +18,7 @@ using Windows.UI.Xaml;
 using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Media.Imaging;
+using QuizEngine;
 
 namespace QuizEngine.Controls
 {
@@ -74,13 +75,15 @@ namespace QuizEngine.Controls
         /// the <see cref="SemanticZoomPage"/> and has to use that page's AppBar.
         /// </remarks>
         /// <seealso cref="SemanticZoomPage"/>
-        public GesturePageBase()
+        public GesturePageBase(ZoomedOutInfo zoomedOutInfo)
         {
             DefaultViewModel = new LayoutAwarePage.ObservableDictionary<String, Object>();
 
+            ZoomedOutInfo = zoomedOutInfo;
+
             // Create GesturePageInfo
             // NOTE: we need a separate class to avoid issues when using this control as data item for the SemanticZoom
-            _appPageInfo = new GesturePageInfo(this);
+            _appPageInfo = new GesturePageInfo(this, zoomedOutInfo);
 
             // The content of the global app bar in this app is a grid that contains
             // two panels for contextual and non-contextual items respectively.
@@ -104,7 +107,7 @@ namespace QuizEngine.Controls
             get { return _appPageInfo; }
         }
 
-        public ImageBrush ZoomedOutImage;
+        //public virtual ImageBrush ZoomedOutImage { get; set; }
 
         //protected readonly Dictionary<string, Uri> _links;
         //public IEnumerable<KeyValuePair<string, Uri>> Links
@@ -167,6 +170,7 @@ namespace QuizEngine.Controls
         public static readonly DependencyProperty DefaultViewModelProperty =
             DependencyProperty.Register("DefaultViewModel", typeof(IObservableMap<String, Object>),
             typeof(GesturePageBase), null);
+        public ZoomedOutInfo ZoomedOutInfo;
 
         protected IObservableMap<String, Object> DefaultViewModel
         {
@@ -187,10 +191,12 @@ namespace QuizEngine.Controls
     sealed class GesturePageInfo : IGesturePageInfo, INotifyPropertyChanged
     {
         //private readonly QuizQuestion _quizQuestion;
+        private ZoomedOutInfo _zoomedOutInfo;
 
-        public GesturePageInfo(GesturePageBase playArea)//id, String title, String description, string questionImage, GesturePageBase playArea)
+        public GesturePageInfo(GesturePageBase playArea, ZoomedOutInfo zoomedOutInfo)
         {
             PlayArea = playArea;
+            _zoomedOutInfo = zoomedOutInfo;
         }
 
         public event PropertyChangedEventHandler PropertyChanged;
@@ -203,6 +209,8 @@ namespace QuizEngine.Controls
             }
         }
 
+        public string Id { get { return _zoomedOutInfo.Text; } }
+
         public void UpdateZoomedOutImage()
         {
             NotifyPropertyChanged("ZoomedOutImage");
@@ -212,11 +220,7 @@ namespace QuizEngine.Controls
         {
             get
             {
-                //if (_quizQuestion.SelectedAnswer == null)
-                //{
-                //    return new BitmapImage(new Uri("ms-appx:///Assets/Unanswered.png"));
-                //}
-                return new BitmapImage(new Uri("ms-appx:///Assets/Answered.png"));
+                return new BitmapImage(new Uri(string.Format("ms-appx:///Assets/{0}", _zoomedOutInfo.Image)));
             }
         }
 

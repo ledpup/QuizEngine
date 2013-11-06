@@ -106,12 +106,18 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
+    <Compile Include="EndOfQuizResultsSummaryPage.xaml.cs">
+      <DependentUpon>EndOfQuizResultsSummaryPage.xaml</DependentUpon>
+    </Compile>
     <Compile Include="EnhancedSlider.xaml.cs">
       <DependentUpon>EnhancedSlider.xaml</DependentUpon>
     </Compile>
     <Compile Include="ExtensionMethods.cs" />
     <Compile Include="FinishQuizPage.xaml.cs">
       <DependentUpon>FinishQuizPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="AnswerControl.xaml.cs">
+      <DependentUpon>AnswerControl.xaml</DependentUpon>
     </Compile>
     <Compile Include="NewQuizAttemptPage.xaml.cs">
       <DependentUpon>NewQuizAttemptPage.xaml</DependentUpon>
@@ -128,6 +134,7 @@
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SemanticFlipView.cs" />
+    <Compile Include="ZoomedOutInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <AppxManifest Include="Package.appxmanifest">
@@ -137,6 +144,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Assets\Answered.png" />
+    <Content Include="Assets\Fin.png" />
     <Content Include="Assets\Logo.png" />
     <Content Include="Assets\Quizzes\Capital.jpg" />
     <Content Include="Assets\Quizzes\Chemistry.png" />
@@ -274,6 +282,9 @@
     <Content Include="Assets\Quizzes\Spanish Civil War\Anarchist Spain.png" />
     <Content Include="Assets\Quizzes\Spanish Civil War\Army of Africa.png" />
     <Content Include="Assets\Quizzes\Spanish Civil War\Asturias.jpg" />
+    <Content Include="Assets\Quizzes\Spanish Civil War\Battle of the Ebro.png" />
+    <Content Include="Assets\Quizzes\Spanish Civil War\Blank flag.png" />
+    <Content Include="Assets\Quizzes\Spanish Civil War\Blank poster.png" />
     <Content Include="Assets\Quizzes\Spanish Civil War\Bundesarchiv_Bild_183-2006-1204-514,_Spanien,_Schlacht_um_Guadalajara.jpg" />
     <Content Include="Assets\Quizzes\Spanish Civil War\Bundesarchiv_Bild_183-H25224,_Guernica,_Ruinen.jpg" />
     <Content Include="Assets\Quizzes\Spanish Civil War\Carlist poster.jpg" />
@@ -292,6 +303,9 @@
     <Content Include="Assets\Quizzes\Spanish Civil War\Falange poster.jpg" />
     <Content Include="Assets\Quizzes\Spanish Civil War\Falange.png" />
     <Content Include="Assets\Quizzes\Spanish Civil War\Federica Montseny.jpg" />
+    <Content Include="Assets\Quizzes\Spanish Civil War\Flag of France.png" />
+    <Content Include="Assets\Quizzes\Spanish Civil War\Flag of Mexico.png" />
+    <Content Include="Assets\Quizzes\Spanish Civil War\Flag of the Soviet Union.png" />
     <Content Include="Assets\Quizzes\Spanish Civil War\Flag_of_Spain_%281931_-_1939%29.svg.png" />
     <Content Include="Assets\Quizzes\Spanish Civil War\Flag_of_Spain_%281938_-_1945%29.svg.png" />
     <Content Include="Assets\Quizzes\Spanish Civil War\Flag_of_Spain_%28Civil%29_alternate_colours.svg.png" />
@@ -301,7 +315,6 @@
     <Content Include="Assets\Quizzes\Spanish Civil War\Ha llegado.jpg" />
     <Content Include="Assets\Quizzes\Spanish Civil War\International Brigades poster.jpg" />
     <Content Include="Assets\Quizzes\Spanish Civil War\International Brigades.png" />
-    <Content Include="Assets\Quizzes\Spanish Civil War\Internationalist Star.png" />
     <Content Include="Assets\Quizzes\Spanish Civil War\Italy.png" />
     <Content Include="Assets\Quizzes\Spanish Civil War\Map_of_the_Spanish_Civil_War_in_February_1939.png" />
     <Content Include="Assets\Quizzes\Spanish Civil War\Map_of_the_Spanish_Civil_War_in_July_1938.png" />
@@ -315,9 +328,12 @@
     <Content Include="Assets\Quizzes\Spanish Civil War\POUM.png" />
     <Content Include="Assets\Quizzes\Spanish Civil War\PSUC Poster.jpg" />
     <Content Include="Assets\Quizzes\Spanish Civil War\PSUC.png" />
+    <Content Include="Assets\Quizzes\Spanish Civil War\salvador-dali-soft-construction-with-boiled-beans-premonition-of-civil-war.jpg" />
+    <Content Include="Assets\Quizzes\Spanish Civil War\Spanish Regions.png" />
     <Content Include="Assets\Quizzes\Spanish Civil War\UGT anti-fascist poster.jpg" />
     <Content Include="Assets\Quizzes\Spanish Civil War\UGT.png" />
     <Content Include="Assets\Quizzes\Spanish Civil War\United Kingdom.png" />
+    <Content Include="Assets\Quizzes\Spanish Civil War\WomenMilitiaSpain.jpg" />
     <Content Include="Assets\Quizzes\Spanish Civil War\Yoke and Arrows.png" />
     <Content Include="Assets\SmallLogo.png" />
     <Content Include="Assets\SplashScreen.png" />
@@ -337,11 +353,19 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
+    <Page Include="EndOfQuizResultsSummaryPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="EnhancedSlider.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
     <Page Include="FinishQuizPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="AnswerControl.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

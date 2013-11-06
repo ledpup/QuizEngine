@@ -39,6 +39,7 @@ namespace QuizEngine
         readonly QuizQuestion _quizQuestion;
 
         public QuestionPage(QuestionAnswer quizQuestion)
+            : base(new ZoomedOutInfo { Text = quizQuestion.Question.QuestionNumber.ToString(), Image = "Unanswered.png" })
         {
             InitializeComponent();
 
@@ -46,11 +47,9 @@ namespace QuizEngine
 
             //_quizQuestion = quizQuestion;
             //Id = _quizQuestion.QuestionNumber.ToString();
-            Title = "Question " + quizQuestion.Question.QuestionNumber;
+            txtTitle.DataContext = _quizQuestion.Title;
             Description = _quizQuestion.Question;
-            QuestionImage = "Assets/Quizzes/" + MainPage.Quiz + "/" + _quizQuestion.Image;
-
-            txtTitle.DataContext = Title;
+            QuestionImage = _quizQuestion.ImageFullPath;
 
             DescriptionBorder.DataContext = QuestionDescriptionColumnSpan;
             txtDescription.DataContext = QuestionDescriptionColumnSpan;
@@ -72,6 +71,7 @@ namespace QuizEngine
 
             DisplayAnswers();
         }
+
 
         //private string id;
         //public string Id { get { return id; } private set { id = value; NotifyPropertyChanged(); } }
@@ -136,11 +136,12 @@ namespace QuizEngine
             
         }
 
+
+
         private void DisplayAnswers()
         {
             foreach (var answer in _quizQuestion.Answers)
             {
-
                 var stackPanel = new StackPanel();
 
                 var button = new Button
@@ -234,9 +235,9 @@ namespace QuizEngine
 
             _quizQuestion.SelectedAnswer = newAnswer;
 
-            Explanation.Text = "" + _quizQuestion.Explanation;
-            Explanation.Text += " " + _quizQuestion.SelectedAnswer.Explanation;
-            Explanation.Text = Explanation.Text.Trim();
+            ZoomedOutInfo.Image = _quizQuestion.SelectedAnswer == null ? "Unanswered.png" : "Answered.png";
+
+            Explanation.Text = _quizQuestion.FullExplanation;
             brdExplanation.Visibility = string.IsNullOrEmpty(Explanation.Text) ? Visibility.Collapsed : Visibility.Visible;
 
             if (_quizQuestion.SelectedAnswer.Score > 0)

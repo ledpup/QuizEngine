@@ -26,13 +26,6 @@ namespace QuizEngine
         public NewQuizAttemptPage()
         {
             NewMethod();
-
-
-            
-
-            
-
-            
         }
 
         private async void NewMethod()
@@ -91,13 +84,14 @@ namespace QuizEngine
 
             _completeQuizQuestions = ExtensionMethods.Deserialize<List<QuizQuestion>>(quizText);
 
-            _completeQuizQuestions.Reverse();
+            //_completeQuizQuestions.Reverse();
         }
 
         private void StartQuiz_Click(object sender, RoutedEventArgs e)
         {
             _quizConfig.NumberOfQuestions = (int)NumberOfQuestions.Value;
-            _quizQuestions.Shuffle();
+            //_quizQuestions.Shuffle();
+            _quizQuestions.Reverse();
             _quizQuestions = _quizQuestions.Take(_quizConfig.NumberOfQuestions).ToList();
 
             for (var i = 0; i < _quizQuestions.Count; i++)
@@ -110,7 +104,7 @@ namespace QuizEngine
                 }
             }
 
-            Frame.Navigate(typeof(MainPage), _quizQuestions);
+            Frame.Navigate(typeof(MainPage), new QuizAttempt(_quizQuestions, (bool)Practice.IsChecked));
         }
 
         private void SetDifficulty(CheckBox button, string difficulty)

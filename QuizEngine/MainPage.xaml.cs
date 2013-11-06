@@ -42,7 +42,7 @@ namespace QuizEngine
         //private Dictionary<string, Uri> _links;
         //private Button _linksButton;
 
-        List<QuizQuestion> _quizQuestions;
+        QuizAttempt _quizAttempt;
         readonly Random _random = new Random();
 
         //private NewQuizAttemptPage.QuizConfig _quizConfig;
@@ -53,6 +53,7 @@ namespace QuizEngine
 
             Current = this;
 
+            
             // Links button
             //this._links = new Dictionary<string, Uri>();
             //this._links["Doc: Touch Interaction Design"] = new Uri("http://msdn.microsoft.com/en-us/library/windows/apps/hh465415.aspx");
@@ -68,19 +69,21 @@ namespace QuizEngine
         {
             //await LoadQuiz();
 
-            PrepareQuestions(_quizQuestions);
+            var quizQuestions = _quizAttempt.QuizQuestions;
 
-            var quizAttempt = new QuizAttempt();
+            PrepareQuestions(quizQuestions);
+
+            //var quizAttempt = new QuizAttempt();
 
             _pages = new List<IGesturePageInfo>();
-            foreach (var quizQuestion in _quizQuestions)
+            foreach (var quizQuestion in quizQuestions)
             {
                 var questionAndanswer = new QuestionAnswer {Question = quizQuestion};
-                quizAttempt.Answers.Add(questionAndanswer);
-                quizAttempt.Answers.Add(new QuestionAnswer { Question = quizQuestion });
+                //quizAttempt.Answers.Add(questionAndanswer);
+                //quizAttempt.Answers.Add(new QuestionAnswer { Question = quizQuestion });
                 _pages.Add(new QuestionPage(questionAndanswer).AppPageInfo);
             }
-            _pages.Add(new FinishQuizPage().AppPageInfo);
+            _pages.Add(new FinishQuizPage(_quizAttempt, this).AppPageInfo);
 
             gesturesViewSource.Source = _pages;
 
@@ -94,9 +97,13 @@ namespace QuizEngine
         /// property is typically used to configure the page.</param>
         protected override void OnNavigatedTo(NavigationEventArgs e)
         {
-            _quizQuestions = (List<QuizQuestion>)e.Parameter;
+            base.OnNavigatedTo(e);
+
+            _quizAttempt = (QuizAttempt)e.Parameter;
 
             NewMethod1();
+
+            DispatcherTimerSetup();
         }
 
         //private async Task LoadQuiz()
@@ -106,8 +113,38 @@ namespace QuizEngine
 
         //    PrepareQuestions(_quizQuestions);
         //}
+        DispatcherTimer _dispatcherTimer;
+        int _timesToTick;
+        private int _timesTicked;
+        private DateTimeOffset _quizEnds;
 
+        void DispatcherTimerSetup()
+        {
+            _dispatcherTimer = new DispatcherTimer();
+            _dispatcherTimer.Tick += DispatcherTimer_Tick;
+            _dispatcherTimer.Interval = new TimeSpan(0, 0, 1);
+            _timesToTick = _quizAttempt.QuizQuestions.Count;
+            _quizAttempt.QuizStart = DateTimeOffset.Now;
+            _dispatcherTimer.Start();
+            _quizEnds = _quizAttempt.QuizStart.AddSeconds(_timesToTick);
+        }
 
+        void DispatcherTimer_Tick(object sender, object e)
+        {
+            _timesTicked++;
+
+            var timeTaken = _quizAttempt.QuizStart.AddSeconds(_timesTicked);
+            var timeRemaining = _quizEnds - timeTaken;
+            TimeRemaining.Text = timeRemaining.ToString();
+
+            if (_timesTicked >= _timesToTick)
+            {
+                _dispatcherTimer.Stop();
+                _quizAttempt.EndQuiz();
+                
+                Frame.Navigate(typeof(EndOfQuizResultsSummary), _quizAttempt);
+            }
+        }
 
         public BitmapImage BackgroundImage
         {
@@ -243,9 +280,6 @@ namespace QuizEngine
             }
         }
 
-
-
-
         // ViewChangeCompleted event handler for the SemanticZoom
         private void OnViewChangeCompleted(object sender, SemanticZoomViewChangedEventArgs e)
         {
@@ -268,12 +302,53 @@ namespace QuizEngine
 
     public class QuizAttempt
     {
-        public QuizAttempt()
+        public QuizAttempt(List<QuizQuestion> quizQuestions, bool practiceMode)
         {
-            Answers = new List<QuestionAnswer>();
+            QuizQuestions = quizQuestions;
+            PracticeMode = practiceMode;
+            QuizStart = DateTimeOffset.Now;
         }
 
-        public List<QuestionAnswer> Answers;
+        public void EndQuiz()
+        {
+            if (QuizEnd != DateTimeOffset.MinValue)
+                throw new Exception("The quiz has already ended.");
+
+            QuizEnd = DateTimeOffset.Now;
+        }
+
+        public bool PracticeMode;
+
+        public List<QuizQuestion> QuizQuestions;
+        public DateTimeOffset QuizStart;
+        public DateTimeOffset QuizEnd;
+
+        private float Score
+        {
+            get { return QuizQuestions.Where(x => x.SelectedAnswer != null).Sum(x => x.SelectedAnswer.Score); }
+        }
+
+        private float ScoreOutOf { get { return QuizQuestions.Sum(x => x.Answers.Single(a => a.Score > 0).Score); } }
+        private double ScorePercentage { get { return Math.Round((Score / ScoreOutOf) * 100); } }
+
+        public string QuizResult()
+        {
+            return string.Format("{0}/{1} ({2}%)", Score, ScoreOutOf, ScorePercentage);
+        }
+
+        public int MaxQuizDuration
+        {
+            get { return QuizQuestions.Count; }
+        }
+        public bool QuizDurationExpired
+        {
+            get { return QuizDuration.Minutes > MaxQuizDuration; }
+        }
+
+        public TimeSpan QuizDuration
+        {
+            get { return QuizEnd.Subtract(QuizStart); }
+        }
     }
 
     public class QuestionAnswer
@@ -286,6 +361,7 @@ namespace QuizEngine
     public class QuizQuestion
     {
         public int QuestionNumber;
+        public string Title { get { return "Question " + QuestionNumber; } }
         [DataMemberAttribute]
         public string Category;
         [DataMemberAttribute]
@@ -315,6 +391,17 @@ namespace QuizEngine
         [DataMemberAttribute]
         public List<Answer> Answers;
 
+        private Answer _correctAnswer;
+        public Answer CorrectAnswer
+        {
+            get
+            {
+                if (_correctAnswer == null)
+                    _correctAnswer = Answers.Single(x => x.Score > 0);
+                return _correctAnswer;
+            }
+        }
+
         [DataMemberAttribute]
         public float Score
         {
@@ -329,7 +416,23 @@ namespace QuizEngine
                 _score = value;
             }
         }
+
+        public string FullExplanation
+        {
+            get
+            {
+                var explanation = "" + Explanation;
+                if (SelectedAnswer != null)
+                    explanation += " " + SelectedAnswer.Explanation;
+
+                return explanation.Trim();
+            }
+            
+        }
+
         private float _score;
+
+        public string ImageFullPath { get { return "Assets/Quizzes/" + MainPage.Quiz + "/" + Image; } }
     }
 
     [DataContractAttribute]
