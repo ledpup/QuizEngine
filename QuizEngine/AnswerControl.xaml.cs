@@ -33,55 +33,50 @@ namespace QuizEngine
             if (!string.IsNullOrEmpty(quizQuestion.Image))
                 imgQuestionImage.Source = new BitmapImage(new Uri("ms-appx:///" + quizQuestion.ImageFullPath));
 
+            var answerCorrect = quizQuestion.SelectedAnswer == quizQuestion.CorrectAnswer;
+
             if (quizQuestion.SelectedAnswer == null)
             {
-                YourAnswer.Content = new TextBlock
-                    {
-                        Text = "[Not answered]",
-                        Foreground = (SolidColorBrush)Application.Current.Resources["RedBrush"],
-                        Style = Application.Current.Resources["AppDescriptionTextStyle"] as Style
-                    };
+                YourTextAnswer.Text = "[Not answered]";
+                YourTextAnswer.Foreground = (SolidColorBrush) Application.Current.Resources["RedBrush"];
+                YourTextAnswer.SetValue(Grid.ColumnSpanProperty, 2);
             }
-            else if (quizQuestion.SelectedAnswer != quizQuestion.CorrectAnswer)
+            else
             {
-                YourAnswer.Content = BuildAnswer(quizQuestion.SelectedAnswer, (SolidColorBrush) Application.Current.Resources["RedBrush"]);
+                var answerColour = answerCorrect
+                                       ? (SolidColorBrush)Application.Current.Resources["GreenBrush"]
+                                       : (SolidColorBrush)Application.Current.Resources["RedBrush"];
+                BuildAnswer(YourTextAnswer, YourImageAnswer, quizQuestion.SelectedAnswer, answerColour);
             }
-            CorrectAnswer.Content = BuildAnswer(quizQuestion.CorrectAnswer, (SolidColorBrush) Application.Current.Resources["GreenBrush"]);
+            
+            
+            BuildAnswer(CorrectTextAnswer, CorrectImageAnswer, quizQuestion.CorrectAnswer, (SolidColorBrush) Application.Current.Resources["GreenBrush"] );
+
+            //var image = answerCorrect ? "Tick.png" : "Cross.png";
+
+            //imgCorrect.Source = new BitmapImage(new Uri("ms-appx:///Assets/" + image));
         }
 
-        private object BuildAnswer(Answer answer, SolidColorBrush foreground)
+        private void BuildAnswer(TextBlock textAnswer, Image imageAnswer, Answer answer, SolidColorBrush foreground)
         {
-            var stackPanel = new StackPanel {Orientation = Orientation.Horizontal};
+            if (!string.IsNullOrEmpty(answer.Text))
+            {
+                textAnswer.Text = answer.Text;
+                if (foreground != null)
+                {
+                    textAnswer.Foreground = foreground;
+                }
+            }
 
             if (!string.IsNullOrEmpty(answer.Image))
             {
                 var uri = new Uri("ms-appx:///Assets/Quizzes/" + MainPage.Quiz + "/" + answer.Image);
-                var image = new Image
-                    {
-                        Source = new BitmapImage(uri),
-                        Stretch = Stretch.Uniform,
-                        MaxHeight = 100,
-                    };
-
-                stackPanel.Children.Add(image);
+                imageAnswer.Source = new BitmapImage(uri);
             }
-
-            if (!string.IsNullOrEmpty(answer.Text))
+            else
             {
-                var answerText = new TextBlock
-                    {
-                        Text = answer.Text,
-                        Style = Application.Current.Resources["AppDescriptionTextStyle"] as Style
-                    };
-                if (foreground != null)
-                {
-                    answerText.Foreground = foreground;
-                }
-
-                stackPanel.Children.Add(answerText);
+                textAnswer.SetValue(Grid.ColumnSpanProperty, 2);
             }
-
-            return stackPanel;
         }
     }
 }

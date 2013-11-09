@@ -37,12 +37,14 @@ namespace QuizEngine
         //}
 
         readonly QuizQuestion _quizQuestion;
+        private bool _practiceMode;
 
-        public QuestionPage(QuestionAnswer quizQuestion)
+        public QuestionPage(bool practiceMode, QuestionAnswer quizQuestion)
             : base(new ZoomedOutInfo { Text = quizQuestion.Question.QuestionNumber.ToString(), Image = "Unanswered.png" })
         {
             InitializeComponent();
 
+            _practiceMode = practiceMode;
             _quizQuestion = quizQuestion.Question;
 
             //_quizQuestion = quizQuestion;
@@ -237,16 +239,23 @@ namespace QuizEngine
 
             ZoomedOutInfo.Image = _quizQuestion.SelectedAnswer == null ? "Unanswered.png" : "Answered.png";
 
-            Explanation.Text = _quizQuestion.FullExplanation;
-            brdExplanation.Visibility = string.IsNullOrEmpty(Explanation.Text) ? Visibility.Collapsed : Visibility.Visible;
-
-            if (_quizQuestion.SelectedAnswer.Score > 0)
+            if (_practiceMode)
             {
-                button.Background = (SolidColorBrush) Application.Current.Resources["GreenBrush"];
+                Explanation.Text = _quizQuestion.FullExplanation;
+                brdExplanation.Visibility = string.IsNullOrEmpty(Explanation.Text) ? Visibility.Collapsed : Visibility.Visible;
+
+                if (_quizQuestion.SelectedAnswer.Score > 0)
+                {
+                    button.Background = (SolidColorBrush) Application.Current.Resources["GreenBrush"];
+                }
+                else
+                {
+                    button.Background = (SolidColorBrush) Application.Current.Resources["RedBrush"];
+                }
             }
             else
             {
-                button.Background = (SolidColorBrush) Application.Current.Resources["RedBrush"];
+                button.Background = (SolidColorBrush)Application.Current.Resources["AppBlueBrush"];
             }
         }
     }

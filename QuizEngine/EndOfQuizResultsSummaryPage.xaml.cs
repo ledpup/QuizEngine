@@ -38,6 +38,7 @@ namespace QuizEngine
             _quizAttempt = (QuizAttempt)e.Parameter;
 
             Results.Text = _quizAttempt.QuizResult();
+            
             Duration.Text = _quizAttempt.QuizDuration.ToString();
 
             foreach (var question in _quizAttempt.QuizQuestions)

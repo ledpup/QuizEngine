@@ -7,7 +7,7 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
     <ScrollViewer ZoomMode="Disabled">
-        <StackPanel Background="{StaticResource ApplicationPageBackgroundThemeBrush}">
+        <StackPanel Margin="50,0">
             <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
                 <TextBlock Margin="5" Style="{StaticResource AppTitleTextStyle}">Results:</TextBlock>
                 <TextBlock x:Name="Results" Margin="5" Style="{StaticResource AppTitleTextStyle}"></TextBlock>

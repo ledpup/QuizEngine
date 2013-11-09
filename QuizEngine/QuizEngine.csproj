@@ -144,6 +144,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Assets\Answered.png" />
+    <Content Include="Assets\Cross.png" />
     <Content Include="Assets\Fin.png" />
     <Content Include="Assets\Logo.png" />
     <Content Include="Assets\Quizzes\Capital.jpg" />
@@ -341,6 +342,7 @@
     <Content Include="Assets\Quizzes\Capital.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="Assets\Tick.png" />
     <Content Include="Assets\Unanswered.png" />
     <Content Include="Common\ReadMe.txt" />
   </ItemGroup>

@@ -12,6 +12,7 @@ using Windows.UI.Xaml.Controls.Primitives;
 using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
+using Windows.UI.Xaml.Media.Animation;
 using Windows.UI.Xaml.Navigation;
 
 // The Blank Page item template is documented at http://go.microsoft.com/fwlink/?LinkId=234238
@@ -25,6 +26,8 @@ namespace QuizEngine
     {
         public NewQuizAttemptPage()
         {
+            this.InitializeComponent();
+
             NewMethod();
         }
 
@@ -44,8 +47,8 @@ namespace QuizEngine
             Easy_Click(Easy, null);
             Medium_Click(Medium, null);
             Hard_Click(Hard, null);
-            Test.IsChecked = true;
-            Test_Checked(null, null);
+            Practice.IsChecked = true;
+            Practice_Checked(null, null);
             //NumberOfQuestions.Maximum = _completeQuizQuestions.Count;
         }
 
@@ -56,11 +59,12 @@ namespace QuizEngine
         /// property is typically used to configure the page.</param>
         protected override void OnNavigatedTo(NavigationEventArgs e)
         {
-            //NewMethod();
-
-
-
-            //ConfigureQuestions(quizConfig);
+            var f0 = Resources["Storyboard0"] as Storyboard;
+            if (f0 != null) f0.Begin();
+            var f1 = Resources["Storyboard1"] as Storyboard;
+            if (f1 != null) f1.Begin();
+            var f2 = Resources["Storyboard2"] as Storyboard;
+            if (f2 != null) f2.Begin();
         }
 
         public class QuizConfig
@@ -166,7 +170,7 @@ namespace QuizEngine
 
         private void Practice_Checked(object sender, RoutedEventArgs e)
         {
-            QuizTypeDescription.Text = "Practice Mode: A relaxed quiz where answers are displayed as you go. There is no time-limit on the quiz.";
+            QuizTypeDescription.Text = "Practice Mode: A non time-limit quiz where answers are displayed as you go. Green highlight is a correct answer. Red highlight is an incorrect answer.";
         }
     }
 }

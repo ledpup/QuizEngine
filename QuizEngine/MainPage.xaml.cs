@@ -81,7 +81,7 @@ namespace QuizEngine
                 var questionAndanswer = new QuestionAnswer {Question = quizQuestion};
                 //quizAttempt.Answers.Add(questionAndanswer);
                 //quizAttempt.Answers.Add(new QuestionAnswer { Question = quizQuestion });
-                _pages.Add(new QuestionPage(questionAndanswer).AppPageInfo);
+                _pages.Add(new QuestionPage(_quizAttempt.PracticeMode, questionAndanswer).AppPageInfo);
             }
             _pages.Add(new FinishQuizPage(_quizAttempt, this).AppPageInfo);
 
@@ -103,7 +103,11 @@ namespace QuizEngine
 
             NewMethod1();
 
-            DispatcherTimerSetup();
+            if (!_quizAttempt.PracticeMode)
+            {
+                _quizAttempt.DispatcherTimer.Tick += DispatcherTimer_Tick;
+            }
+
         }
 
         //private async Task LoadQuiz()
@@ -113,33 +117,18 @@ namespace QuizEngine
 
         //    PrepareQuestions(_quizQuestions);
         //}
-        DispatcherTimer _dispatcherTimer;
-        int _timesToTick;
-        private int _timesTicked;
-        private DateTimeOffset _quizEnds;
 
-        void DispatcherTimerSetup()
-        {
-            _dispatcherTimer = new DispatcherTimer();
-            _dispatcherTimer.Tick += DispatcherTimer_Tick;
-            _dispatcherTimer.Interval = new TimeSpan(0, 0, 1);
-            _timesToTick = _quizAttempt.QuizQuestions.Count;
-            _quizAttempt.QuizStart = DateTimeOffset.Now;
-            _dispatcherTimer.Start();
-            _quizEnds = _quizAttempt.QuizStart.AddSeconds(_timesToTick);
-        }
+
+
 
         void DispatcherTimer_Tick(object sender, object e)
         {
-            _timesTicked++;
+            var quizTimeOut = _quizAttempt.UpdateTimeRemainingOnQuiz();
+            
+            TimeRemaining.Text =  _quizAttempt.QuizTimeRemaining.ToString();
 
-            var timeTaken = _quizAttempt.QuizStart.AddSeconds(_timesTicked);
-            var timeRemaining = _quizEnds - timeTaken;
-            TimeRemaining.Text = timeRemaining.ToString();
-
-            if (_timesTicked >= _timesToTick)
+            if (quizTimeOut)
             {
-                _dispatcherTimer.Stop();
                 _quizAttempt.EndQuiz();
                 
                 Frame.Navigate(typeof(EndOfQuizResultsSummary), _quizAttempt);
@@ -306,11 +295,29 @@ namespace QuizEngine
         {
             QuizQuestions = quizQuestions;
             PracticeMode = practiceMode;
+            DispatcherTimerSetup();
+        }
+
+        public DispatcherTimer DispatcherTimer;
+        int _timesToTick;
+        private int _timesTicked;
+        private DateTimeOffset _quizEnds;
+        public TimeSpan QuizTimeRemaining;
+
+        void DispatcherTimerSetup()
+        {
+            DispatcherTimer = new DispatcherTimer {Interval = new TimeSpan(0, 0, 1)};
+
+            _timesToTick = 60 * QuizQuestions.Count;
             QuizStart = DateTimeOffset.Now;
+            DispatcherTimer.Start();
+            _quizEnds = QuizStart.AddSeconds(_timesToTick);
         }
 
         public void EndQuiz()
         {
+            DispatcherTimer.Stop();
+
             if (QuizEnd != DateTimeOffset.MinValue)
                 throw new Exception("The quiz has already ended.");
 
@@ -347,7 +354,21 @@ namespace QuizEngine
 
         public TimeSpan QuizDuration
         {
-            get { return QuizEnd.Subtract(QuizStart); }
+            get
+            {
+                var duration = QuizEnd.Subtract(QuizStart);
+                return new TimeSpan(0, duration.Hours, duration.Minutes, duration.Seconds);
+            }
+        }
+
+        internal bool UpdateTimeRemainingOnQuiz()
+        {
+            _timesTicked++;
+
+            var timeTaken = QuizStart.AddSeconds(_timesTicked);
+            QuizTimeRemaining = _quizEnds - timeTaken;
+
+            return _timesTicked >= _timesToTick;
         }
     }
 
