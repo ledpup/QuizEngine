@@ -9,23 +9,6 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-    <Page.BottomAppBar>
-        <AppBar x:Name="globalAppBar" IsSticky="True">
-            <Grid>
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="*"/>
-                    <ColumnDefinition Width="*"/>
-                </Grid.ColumnDefinitions>
-
-                <!-- Panel for contextual commands, populated by the actve gesture page (see GesturePageBase.Selected) -->
-                <StackPanel x:Name="contextualItemsPanel" Grid.Column="0" Orientation="Horizontal" HorizontalAlignment="Left"/>
-
-                <!-- Panel for non contextual commands, populated by the actve gesture page (see GesturePageBase.Selected) -->
-                <StackPanel x:Name="nonContextualItemsPanel" Grid.Column="1" Orientation="Horizontal" HorizontalAlignment="Right"/>
-            </Grid>
-        </AppBar>
-    </Page.BottomAppBar>
-
     <Page.Resources>
         <CollectionViewSource x:Name="gesturesViewSource"/>
     </Page.Resources>

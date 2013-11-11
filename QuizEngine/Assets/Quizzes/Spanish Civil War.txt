@@ -203,7 +203,7 @@
 	},	
 	{
 		"Difficulty": "Hard",
-		"Question": "Who said:\r\n\r\n\"We have always lived in slums and holes in the wall. We will know how to accommodate ourselves for a while. For you must not forget that we can also build. It is we who built these palaces and cities, here in Spain and America and everywhere. We, the workers. We can build others to take their place. And better ones. We are not in the least afraid of ruins. We are going to inherit the earth; there is not the slightest doubt about that. The bourgeoisie might blast and ruin its own world before it leaves the stage of history. We carry a new world here, in our hearts. That world is growing in this minute.\"",
+		"Question": "Who said: \"We have always lived in slums and holes in the wall. We will know how to accommodate ourselves for a while. For you must not forget that we can also build. It is we who built these palaces and cities, here in Spain and America and everywhere. We, the workers. We can build others to take their place. And better ones. We are not in the least afraid of ruins. We are going to inherit the earth; there is not the slightest doubt about that. The bourgeoisie might blast and ruin its own world before it leaves the stage of history. We carry a new world here, in our hearts. That world is growing in this minute.\"",
 		"Explanation": "",
 		"Answers":
 		[
@@ -218,12 +218,10 @@
 				"Text": "Juan García Oliver"
 			},
 			{
-				"Text": "Emilio Mola",
-				"Explanation": "Emilio Mola was one of the main military leaders who instigated the coup against the Second Republic. He would have never said anything like that."
+				"Text": "Emilio Mola"
 			},
 			{
-				"Text": "Andreu Nin",
-				"Explanation": "Andreu Nin was one of the leaders of the POUM. He might have said something along those lines, but he didn't."
+				"Text": "Andreu Nin"
 			}
 		]
 	},
@@ -375,7 +373,7 @@
 		"Answers":
 		[
 			{
-				"Text": "it was the last major victory for the Republican army",
+				"Text": "it was one of few major victories for the Republican army",
 				"Score": "1"
 			},
 			{
@@ -420,7 +418,7 @@
 	{
 		"Difficulty": "Hard",
 		"Question": "The Irish Brigade fought on the Nationalist side of Francisco Franco during the Spanish Civil War.",
-		"Explanation": "The unit was formed wholly of Roman Catholics by the politician Eoin O'Duffy, who had previously organised the banned quasi-fascist Blueshirts and openly fascist Greenshirts in Ireland. Despite the declaration by the Irish government that participation in the war was unwelcome and ill-advised, 600 of O'Duffy's followers went to Spain. Their contribution was small. They were withdrawn after only one action in which they found themselves attacked by their own side. Beevor, A. - The Battle for Spain",
+		"Explanation": "The unit was formed wholly of Roman Catholics by the politician Eoin O'Duffy, who had previously organised the banned quasi-fascist Blueshirts and openly fascist Greenshirts in Ireland. Despite the declaration by the Irish government that participation in the war was unwelcome and ill-advised, 600 of O'Duffy's followers went to Spain. Their contribution was small. They were withdrawn after only one action in which they found themselves attacked by their own side. Beevor, A., The Battle for Spain",
 		"Answers":
 		[
 			{
@@ -492,11 +490,12 @@
 	},
 	{
 		"Difficulty": "Medium",
-		"Question": "Who transported the bulk of the Army of Africa from Morocco to Spain at the beginning of the war?",
+		"Question": "What transported the bulk of the Army of Africa from Morocco to Spain at the beginning of the war?",
 		"Answers":
 		[
 			{
 				"Text": "Transport planes from Germany and Italy",
+				"Explanation": "\"Although the airlift began almost immediately with a few Spanish air force Breguets, Nieuports and Italian Savoias, it was chiefly effected by Junkers 52s sent by Hitler, who remarked later that Franco should erect a monument to the plane because it was so vital to his victory.\" - Beevor, A., The Battle for Spain",
 				"Score": "1"
 			},
 			{
@@ -601,7 +600,7 @@
 	},
 	{
 		"Difficulty": "Medium",
-		"Question": "Who wrote:\r\n\r\n\"It was the first time I had ever been in a town where the working class was in the saddle. Practically every building of any size had been seized by the workers and was draped with red flags or with the red and black flag of the Anarchists; every wall was scrawled with the hammer and sickle and with the initials of the revolutionary parties; almost every church had been gutted and its images burnt. Churches here and there were being systematically demolished by gangs of workmen. Every shop and café had an inscription saying that it had been collectivised; even the bootblacks had been collectivised and their boxes painted red and black. Waiters and shop-walkers looked you in the face and treated you as an equal.\"",
+		"Question": "Who wrote: \"It was the first time I had ever been in a town where the working class was in the saddle. Practically every building of any size had been seized by the workers and was draped with red flags or with the red and black flag of the Anarchists; every wall was scrawled with the hammer and sickle and with the initials of the revolutionary parties; almost every church had been gutted and its images burnt. Churches here and there were being systematically demolished by gangs of workmen. Every shop and café had an inscription saying that it had been collectivised; even the bootblacks had been collectivised and their boxes painted red and black. Waiters and shop-walkers looked you in the face and treated you as an equal.\"",
 		"Answers":
 		[
 			{
@@ -616,12 +615,10 @@
 				"Text": "Buenaventura Durruti"
 			},
 			{
-				"Text": "Arthur Koestler",
-				"Explanation": "In 1936, Koestler undertook a visit to General Francisco Franco's headquarters in Seville on behalf of the Comintern. In 1937 he returned to Loyalist Spain as a war correspondent but was captured by the Nationalist rebels."
+				"Text": "Arthur Koestler"
 			},
 			{
-				"Text": "Gustav Regler",
-				"Explanation": "Regler served as political commissar of the XII International Brigade during the Spanish Civil War. Whilst in Spain he befriended Ernest Hemingway, and was wounded at the Battle of Guadalajara."
+				"Text": "Gustav Regler"
 			}
 		]
 	},
@@ -988,7 +985,7 @@
 	},
 	{
 		"Difficulty": "Hard",
-		"Question": "Andrés Nin was killed by:",
+		"Question": "Andrés Nin was one of the leaders of the POUM - a Marxist inspire communist party that was not affiliated with the USSR. He was killed by:",
 		"Image": "POUM poster 2.jpg",
 		"Answers":
 		[
@@ -1170,7 +1167,7 @@
 	},
 	{
 		"Difficulty": "Medium",
-		"Question": "As part of the failed coup-attempt against the government, the Nationalists initially controlled (or quickly captured) the regions of Galicia, Leon, Old Castile and Navarre (as well as parts of Andalusia). Over the next few years, the remaining regions of Spain fell to the nationalists in which order? (Ordered by first to last.)",
+		"Question": "As part of the failed coup-attempt against the government, the Nationalists initially controlled (or quickly captured) the regions of Galicia, Leon, Old Castile and Navarre (as well as parts of Andalusia). Over the next few years, the remaining regions of Spain fell to the Nationalists in which order? (Ordered by first to last.)",
 		"Image": "Spanish Regions.png",
 		"Answers":
 		[
@@ -1194,7 +1191,7 @@
 	},
 	{
 		"Difficulty": "Easy",
-		"Question": "Salvador Dalí, as a prominent member of the socialist Surrealist movement was sympathetic to the Republic's cause.",
+		"Question": "Salvador Dalí, as a prominent member of the Surrealist movement was sympathetic to the Republic's cause.",
 		"Image": "salvador-dali-soft-construction-with-boiled-beans-premonition-of-civil-war.jpg",
 		"Answers":
 		[
@@ -1210,7 +1207,7 @@
 	},
 	{
 		"Difficulty": "Medium",
-		"Question": "At the end of the failed coup but before the start of war proper, which was the only city listed below (i.e., the largest Spanish cities) that the rebellious Spanish officers controlled?",
+		"Question": "At the end of the failed coup but before the start of war, which was the only city listed below (i.e., the largest Spanish cities) that the rebellious Spanish officers controlled?",
 		"Answers":
 		[
 			{
@@ -1344,7 +1341,6 @@
 	{
 		"Difficulty": "Medium",
 		"Question": "What was the result of the Battle of the Ebro?",
-		"Image": "Battle of the Ebro.png",
 		"Answers":
 		[
 			{
@@ -1359,6 +1355,123 @@
 			},
 			{
 				"Text": "The end of anarchist control of Aragon and Catalonia"
+			}
+		]
+	},
+	{
+		"Difficulty": "Easy",
+		"Question": "What was the final stage in the events that led to the Spanish Civil War?",
+		"Answers":
+		[
+			{
+				"Text": "A coup attempt by military officers",
+				"Score": "1"
+			},
+			{
+				"Text": "Social revolution of anarchists and communists"
+			},
+			{
+				"Text": "The election of the Popular Front in 1936"
+			},
+			{
+				"Text": "The election of the National Block in 1936"
+			}
+		]
+	},
+	{
+		"Difficulty": "Easy",
+		"Question": "During the war, about half of the Catholic ecclesiastical community was killed by anarchists, communists and socialists (i.e., pro-Republican forces.)",
+		"Explanation": "\"[...] of a total ecclesiastical community of around 115,000, thirteen bishops, 4,184 priests, 2,365 members of other orders and 283 nuns were killed, the vast majority during the summer of 1936.\" - Beevor, A., The Battle for Spain",
+		"Answers":
+		[
+			{
+				"Text": "False",
+				"Score": "1"
+			},
+			{
+				"Text": "True"
+			}
+		]
+	},
+	{
+		"Difficulty": "Easy",
+		"Question": "The Second Spanish Republic existed between which years?",
+		"Image": "Republique-allegorie.jpg",
+		"Answers":
+		[
+			{
+				"Text": "1931-1939",
+				"Score": "1"
+			},
+			{
+				"Text": "1934-1939"
+			},
+			{
+				"Text": "1931-1936"
+			},
+			{
+				"Text": "1936-1939"
+			},
+			{
+				"Text": "None of the above",
+				"IsLast": "true"
+			}
+		]
+	},
+	{
+		"Difficulty": "Medium",
+		"Question": "Although the workers' collectives, formed during the social revolution of 1936, were the exemplar of left-wing communism and anarchism, they were less productive than traditional organisations of production.",
+		"Image": "Collective farmers.jpg",
+		"Explanation": "\"The communists attacked the self-managed collectives as inefficient, but in Aragón production increased by a fifth. Not only was non-collectivized production lower, but the individualists were to show the worst possible traits of the introverted and suspicious smallholder.\" - Beevor, A., The Battle for Spain",
+		"Answers":
+		[
+			{
+				"Text": "False",
+				"Score": "1"
+			},
+			{
+				"Text": "True"
+			}
+		]
+	},
+	{
+		"Difficulty": "Easy",
+		"Question": "What was the common salute made by those that supported the Republic side?",
+		"Image": "Santander fascists.jpg",
+		"Answers":
+		[
+			{
+				"Text": "Clenched fist",
+				"Score": "1"
+			},
+			{
+				"Text": "Roman salute"
+			},
+			{
+				"Text": "Bellamy salute"
+			},
+			{
+				"Text": "Zogist salute"
+			}
+		]
+	},
+	{
+		"Difficulty": "Medium",
+		"Question": "To whom was Diego Abad de Santillán referring when he wrote: \"Whether Negrín won with his communist cohorts, or Franco won with his Italians and Germans, the results would be the same for us.\"",
+		"Answers":
+		[
+			{
+				"Text": "Anarchists",
+				"Score": "1"
+			},
+			{
+				"Text": "Peasants"
+			},
+			{
+				"Text": "Socialists"
+			},
+			{
+				"Text": "Liberals"
 			}
 		]
 	}

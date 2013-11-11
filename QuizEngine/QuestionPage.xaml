@@ -9,25 +9,42 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-    <Grid>
-        <Grid.RowDefinitions>
-            <RowDefinition Height="*"/>
-            <RowDefinition Height="Auto"/>
-            <RowDefinition Height="*"/>
-            <RowDefinition Height="20*"/>
-            <RowDefinition Height="*"/>
-            <RowDefinition Height="35*"/>
-            <RowDefinition Height="15*"/>
-        </Grid.RowDefinitions>
+    <Page.Resources>
+        <Storyboard x:Name="Storyboard1">
+            <DoubleAnimationUsingKeyFrames x:Name="TranslateX" Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateX)" Storyboard.TargetName="imageToAnimate">
+                <EasingDoubleKeyFrame KeyTime="0" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2.4" Value="-400"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames x:Name="Opacity" Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="imageToAnimate">
+                <EasingDoubleKeyFrame KeyTime="0" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.5" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2" Value="1"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2.5" Value="1"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2.8" Value="0"/>
+            </DoubleAnimationUsingKeyFrames>
+        </Storyboard>
+    </Page.Resources>
 
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="*"/>
-            <ColumnDefinition Width="15*"/>
-            <ColumnDefinition Width="11*"/>
-            <ColumnDefinition Width="*"/>
-        </Grid.ColumnDefinitions>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="20*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="35*"/>
+                <RowDefinition Height="15*"/>
+            </Grid.RowDefinitions>
 
-        <TextBlock
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="15*"/>
+                <ColumnDefinition Width="11*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <TextBlock
             x:Name="txtTitle"
             Text="{Binding}"
             Grid.Column="1"
@@ -35,7 +52,7 @@
             Style="{StaticResource AppTitleTextStyle}"
             IsHitTestVisible="False"/>
 
-        <Border
+            <Border
             x:Name="brdImageBorderVisibility"
             Grid.Row="1"
             Grid.Column="2"
@@ -48,13 +65,13 @@
             Canvas.ZIndex="1"
             Margin="10,0,10,0">
 
-            <Image
+                <Image
                 x:Name="imgQuestionImage"
                 Source="{Binding}"
                 Stretch="Uniform" />
-        </Border>
+            </Border>
 
-        <Border
+            <Border
             x:Name="DescriptionBorder"
             Grid.Column="1"
             Grid.ColumnSpan="{Binding}"
@@ -63,7 +80,7 @@
             Opacity="0.5"
             />
 
-        <TextBlock
+            <TextBlock
             x:Name="txtDescription"
             Grid.Column="1"
             Grid.ColumnSpan="{Binding}"
@@ -76,9 +93,9 @@
             TextAlignment="Justify"
             />
 
-        <VariableSizedWrapGrid x:Name="Answers" Grid.Column="1" Grid.ColumnSpan="{Binding}" Grid.Row="5" Margin="0,20" VerticalAlignment="Top" />
+            <VariableSizedWrapGrid x:Name="Answers" Grid.Column="1" Grid.ColumnSpan="{Binding}" Grid.Row="5" Margin="0,20" VerticalAlignment="Top" />
 
-        <Border
+            <Border
             x:Name="brdExplanation"
             Grid.Column="1"
             Grid.ColumnSpan="2"
@@ -87,7 +104,7 @@
             Opacity="0.5"
             Visibility="Collapsed"
             />
-        <TextBlock
+            <TextBlock
             x:Name="Explanation"
             Grid.Column="1" 
             Grid.ColumnSpan="2" 
@@ -99,6 +116,16 @@
             Margin="10,0,0,0"
             TextAlignment="Justify"
             />
+
+        <Image Grid.Column="1" Grid.Row="3" x:Name="imageToAnimate" Source="/Assets/Hand.png" Width="75" Stretch="Uniform" RenderTransformOrigin="0.5,0.5" HorizontalAlignment="Right" Canvas.ZIndex="1">
+            <Image.RenderTransform>
+                <CompositeTransform/>
+            </Image.RenderTransform>
+        </Image>
     </Grid>
+
+
+    
+    
 
 </controls:GesturePageBase>

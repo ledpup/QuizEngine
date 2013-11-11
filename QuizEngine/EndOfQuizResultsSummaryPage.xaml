@@ -18,7 +18,7 @@
             </StackPanel>
         
             <StackPanel x:Name="QuestionsAndAnswers" />
-            <Button Margin="10" Padding="20" HorizontalAlignment="Center" Click="Button_Click">New Quiz</Button>
+            <Button Margin="10,30,10,10" Padding="10" Width="250" HorizontalAlignment="Center" Click="Button_Click">New Quiz</Button>
         
         </StackPanel>
     </ScrollViewer>

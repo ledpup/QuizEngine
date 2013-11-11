@@ -14,6 +14,7 @@ using Windows.UI.Xaml.Controls.Primitives;
 using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
+using Windows.UI.Xaml.Media.Animation;
 using Windows.UI.Xaml.Media.Imaging;
 using Windows.UI.Xaml.Navigation;
 
@@ -72,6 +73,16 @@ namespace QuizEngine
             Answers.ItemWidth = ItemWidth;
 
             DisplayAnswers();
+
+            if (_quizQuestion.QuestionNumber == 1)
+            {
+                var f = Resources["Storyboard1"] as Storyboard;
+                if (f != null) f.Begin();
+            }
+            else
+            {
+                imageToAnimate.Visibility = Visibility.Collapsed;
+            }
         }
 
 
@@ -135,7 +146,7 @@ namespace QuizEngine
         /// property is typically used to configure the page.</param>
         protected override void OnNavigatedTo(NavigationEventArgs e)
         {
-            
+
         }
 
 

@@ -170,7 +170,7 @@ namespace QuizEngine
 
         private void Practice_Checked(object sender, RoutedEventArgs e)
         {
-            QuizTypeDescription.Text = "Practice Mode: A non time-limit quiz where answers are displayed as you go. Green highlight is a correct answer. Red highlight is an incorrect answer.";
+            QuizTypeDescription.Text = "Practice Mode: A no time-limit quiz where answers are displayed as you go. Green highlight is a correct answer. Red highlight is an incorrect answer.";
         }
     }
 }

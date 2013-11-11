@@ -10,6 +10,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
+using Windows.UI.Core;
 using Windows.UI.ViewManagement;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
@@ -53,7 +54,7 @@ namespace QuizEngine
 
             Current = this;
 
-            
+            Window.Current.SizeChanged += VisualStateChanged;
             // Links button
             //this._links = new Dictionary<string, Uri>();
             //this._links["Doc: Touch Interaction Design"] = new Uri("http://msdn.microsoft.com/en-us/library/windows/apps/hh465415.aspx");
@@ -223,7 +224,7 @@ namespace QuizEngine
         private void OnSelectionChanged(object sender, SelectionChangedEventArgs e)
         {
             // Close the app bar
-            this.globalAppBar.IsOpen = false;
+            //this.globalAppBar.IsOpen = false;
 
             // Let the page know it is has been unselected
             foreach (var item in e.RemovedItems)
@@ -242,7 +243,7 @@ namespace QuizEngine
         private void OnViewChangeStarted(object sender, SemanticZoomViewChangedEventArgs e)
         {
             // Close the app bar
-            this.globalAppBar.IsOpen = false;
+            //this.globalAppBar.IsOpen = false;
 
             if (!e.IsSourceZoomedInView)
             {
@@ -287,6 +288,21 @@ namespace QuizEngine
                 //this.nonContextualItemsPanel.Children.Remove(this._linksButton);
             }
         }
+
+        private void VisualStateChanged(object sender, WindowSizeChangedEventArgs e)
+        {
+            string visualState = DetermineVisualState(ApplicationView.Value);
+
+            if (visualState == "Snapped" || visualState == "Filled")
+            {             
+             // Custom logic.
+            }
+            else
+            {
+             // Return to normal UI.
+            }
+        }
+
     }
 
     public class QuizAttempt

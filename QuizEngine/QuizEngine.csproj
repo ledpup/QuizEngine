@@ -146,6 +146,7 @@
     <Content Include="Assets\Answered.png" />
     <Content Include="Assets\Cross.png" />
     <Content Include="Assets\Fin.png" />
+    <Content Include="Assets\Hand.png" />
     <Content Include="Assets\Logo.png" />
     <Content Include="Assets\Quizzes\Capital.jpg" />
     <Content Include="Assets\Quizzes\Chemistry.png" />
@@ -283,7 +284,6 @@
     <Content Include="Assets\Quizzes\Spanish Civil War\Anarchist Spain.png" />
     <Content Include="Assets\Quizzes\Spanish Civil War\Army of Africa.png" />
     <Content Include="Assets\Quizzes\Spanish Civil War\Asturias.jpg" />
-    <Content Include="Assets\Quizzes\Spanish Civil War\Battle of the Ebro.png" />
     <Content Include="Assets\Quizzes\Spanish Civil War\Blank flag.png" />
     <Content Include="Assets\Quizzes\Spanish Civil War\Blank poster.png" />
     <Content Include="Assets\Quizzes\Spanish Civil War\Bundesarchiv_Bild_183-2006-1204-514,_Spanien,_Schlacht_um_Guadalajara.jpg" />
@@ -294,6 +294,7 @@
     <Content Include="Assets\Quizzes\Spanish Civil War\CNT poster.jpg" />
     <Content Include="Assets\Quizzes\Spanish Civil War\CNT-AIT.png" />
     <Content Include="Assets\Quizzes\Spanish Civil War\CNT-FAI.png" />
+    <Content Include="Assets\Quizzes\Spanish Civil War\Collective farmers.jpg" />
     <Content Include="Assets\Quizzes\Spanish Civil War\Condor Legion 1.png" />
     <Content Include="Assets\Quizzes\Spanish Civil War\Condor Legion 2.png" />
     <Content Include="Assets\Quizzes\Spanish Civil War\Cruzada.jpg" />
@@ -329,7 +330,9 @@
     <Content Include="Assets\Quizzes\Spanish Civil War\POUM.png" />
     <Content Include="Assets\Quizzes\Spanish Civil War\PSUC Poster.jpg" />
     <Content Include="Assets\Quizzes\Spanish Civil War\PSUC.png" />
+    <Content Include="Assets\Quizzes\Spanish Civil War\Republique-allegorie.jpg" />
     <Content Include="Assets\Quizzes\Spanish Civil War\salvador-dali-soft-construction-with-boiled-beans-premonition-of-civil-war.jpg" />
+    <Content Include="Assets\Quizzes\Spanish Civil War\Santander fascists.jpg" />
     <Content Include="Assets\Quizzes\Spanish Civil War\Spanish Regions.png" />
     <Content Include="Assets\Quizzes\Spanish Civil War\UGT anti-fascist poster.jpg" />
     <Content Include="Assets\Quizzes\Spanish Civil War\UGT.png" />
