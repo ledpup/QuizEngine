@@ -1,25 +1,69 @@
-﻿<Page
+﻿<common:LayoutAwarePage
     x:Class="QuizEngine.EndOfQuizResultsSummary"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:local="using:QuizEngine"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:common="using:QuizEngine.Common"
     mc:Ignorable="d">
-    <ScrollViewer ZoomMode="Disabled">
-        <StackPanel Margin="50,0">
-            <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
-                <TextBlock Margin="5" Style="{StaticResource AppTitleTextStyle}">Results:</TextBlock>
-                <TextBlock x:Name="Results" Margin="5" Style="{StaticResource AppTitleTextStyle}"></TextBlock>
-            </StackPanel>
-            <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
-                <TextBlock Margin="5" Style="{StaticResource AppTitleTextStyle}">Duration:</TextBlock>
-                <TextBlock x:Name="Duration" Margin="5" Style="{StaticResource AppTitleTextStyle}"></TextBlock>
-            </StackPanel>
+    <Grid>
+        <Grid x:Name="SnappedOrFilledScreen">
+            <Grid.Background>
+                <ImageBrush Stretch="Uniform" ImageSource="Assets/Quizzes/Spanish Civil War - New attempt background.jpg"></ImageBrush>
+            </Grid.Background>
+            <TextBlock Margin="20" Style="{StaticResource AppTitleTextStyle}" Foreground="White">The Spanish Civil War Quiz</TextBlock>
+        </Grid>
+
+        <ScrollViewer x:Name="Fullscreen" ZoomMode="Disabled">
+            <StackPanel Margin="50,0">
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+                    <TextBlock Margin="5" Style="{StaticResource AppTitleTextStyle}">Results:</TextBlock>
+                    <TextBlock x:Name="Results" Margin="5" Style="{StaticResource AppTitleTextStyle}"></TextBlock>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+                    <TextBlock Margin="5" Style="{StaticResource AppTitleTextStyle}">Duration:</TextBlock>
+                    <TextBlock x:Name="Duration" Margin="5" Style="{StaticResource AppTitleTextStyle}"></TextBlock>
+                </StackPanel>
         
-            <StackPanel x:Name="QuestionsAndAnswers" />
-            <Button Margin="10,30,10,10" Padding="10" Width="250" HorizontalAlignment="Center" Click="Button_Click">New Quiz</Button>
+                <StackPanel x:Name="QuestionsAndAnswers" />
+                <Button Margin="10,30,10,10" Padding="10" Width="250" HorizontalAlignment="Center" Click="Button_Click">New Quiz</Button>
         
-        </StackPanel>
-    </ScrollViewer>
-</Page>
+            </StackPanel>
+        </ScrollViewer>
+
+        <VisualStateManager.VisualStateGroups>
+            <VisualStateGroup x:Name="ApplicationViewStates">
+                <VisualState x:Name="FullScreenLandscape">
+                    <Storyboard>
+                        <ObjectAnimationUsingKeyFrames Storyboard.TargetName="SnappedOrFilledScreen" Storyboard.TargetProperty="Visibility">
+                            <DiscreteObjectKeyFrame KeyTime="0" Value="Collapsed"/>
+                        </ObjectAnimationUsingKeyFrames>
+                        <ObjectAnimationUsingKeyFrames Storyboard.TargetName="Fullscreen" Storyboard.TargetProperty="Visibility">
+                            <DiscreteObjectKeyFrame KeyTime="0" Value="Visible"/>
+                        </ObjectAnimationUsingKeyFrames>
+                    </Storyboard>
+                </VisualState>
+                <VisualState x:Name="Filled">
+                    <Storyboard>
+                        <ObjectAnimationUsingKeyFrames Storyboard.TargetName="SnappedOrFilledScreen" Storyboard.TargetProperty="Visibility">
+                            <DiscreteObjectKeyFrame KeyTime="0" Value="Visible"/>
+                        </ObjectAnimationUsingKeyFrames>
+                        <ObjectAnimationUsingKeyFrames Storyboard.TargetName="Fullscreen" Storyboard.TargetProperty="Visibility">
+                            <DiscreteObjectKeyFrame KeyTime="0" Value="Collapsed"/>
+                        </ObjectAnimationUsingKeyFrames>
+                    </Storyboard>
+                </VisualState>
+                <VisualState x:Name="Snapped">
+                    <Storyboard>
+                        <ObjectAnimationUsingKeyFrames Storyboard.TargetName="SnappedOrFilledScreen" Storyboard.TargetProperty="Visibility">
+                            <DiscreteObjectKeyFrame KeyTime="0" Value="Visible"/>
+                        </ObjectAnimationUsingKeyFrames>
+                        <ObjectAnimationUsingKeyFrames Storyboard.TargetName="Fullscreen" Storyboard.TargetProperty="Visibility">
+                            <DiscreteObjectKeyFrame KeyTime="0" Value="Collapsed"/>
+                        </ObjectAnimationUsingKeyFrames>
+                    </Storyboard>
+                </VisualState>
+            </VisualStateGroup>
+        </VisualStateManager.VisualStateGroups>
+    </Grid>
+</common:LayoutAwarePage>

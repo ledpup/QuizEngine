@@ -25,8 +25,10 @@
             </DoubleAnimationUsingKeyFrames>
         </Storyboard>
     </Page.Resources>
-
         <Grid>
+        <Image x:Name="FullscreenImage" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="4" Grid.RowSpan="7" Stretch="Uniform" Visibility="Collapsed" Canvas.ZIndex="2" Tapped="FullscreenImage_Tapped" ></Image>
+    
+        <Grid x:Name="Mainscreen">
             <Grid.RowDefinitions>
                 <RowDefinition Height="*"/>
                 <RowDefinition Height="Auto"/>
@@ -43,7 +45,9 @@
                 <ColumnDefinition Width="11*"/>
                 <ColumnDefinition Width="*"/>
             </Grid.ColumnDefinitions>
-
+            
+            
+            
             <TextBlock
             x:Name="txtTitle"
             Text="{Binding}"
@@ -68,7 +72,7 @@
                 <Image
                 x:Name="imgQuestionImage"
                 Source="{Binding}"
-                Stretch="Uniform" />
+                Stretch="Uniform" Tapped="imgQuestionImage_Tapped" />
             </Border>
 
             <Border
@@ -123,9 +127,9 @@
             </Image.RenderTransform>
         </Image>
     </Grid>
+    </Grid>
 
 
-    
-    
+
 
 </controls:GesturePageBase>

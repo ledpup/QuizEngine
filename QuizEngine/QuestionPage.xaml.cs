@@ -269,5 +269,18 @@ namespace QuizEngine
                 button.Background = (SolidColorBrush)Application.Current.Resources["AppBlueBrush"];
             }
         }
+
+        private void imgQuestionImage_Tapped(object sender, TappedRoutedEventArgs e)
+        {
+            FullscreenImage.Visibility = Visibility.Visible;
+            FullscreenImage.Source = imgQuestionImage.Source;
+            Mainscreen.Opacity = 0.45;
+        }
+
+        private void FullscreenImage_Tapped(object sender, TappedRoutedEventArgs e)
+        {
+            FullscreenImage.Visibility = Visibility.Collapsed;
+            Mainscreen.Opacity = 1;
+        }
     }
 }

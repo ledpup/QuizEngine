@@ -2,8 +2,11 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using QuizEngine.Common;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
+using Windows.UI.Core;
+using Windows.UI.ViewManagement;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Controls.Primitives;
@@ -19,11 +22,13 @@ namespace QuizEngine
     /// <summary>
     /// An empty page that can be used on its own or navigated to within a Frame.
     /// </summary>
-    public sealed partial class EndOfQuizResultsSummary : Page
+    public sealed partial class EndOfQuizResultsSummary : LayoutAwarePage
     {
         public EndOfQuizResultsSummary()
         {
             this.InitializeComponent();
+
+            Window.Current.SizeChanged += VisualStateChanged;
         }
 
         QuizAttempt _quizAttempt;
@@ -52,6 +57,20 @@ namespace QuizEngine
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             Frame.Navigate(typeof (NewQuizAttemptPage));
+        }
+
+        private void VisualStateChanged(object sender, WindowSizeChangedEventArgs e)
+        {
+            var visualState = DetermineVisualState(ApplicationView.Value);
+
+            if (visualState == "Snapped" || visualState == "Filled")
+            {
+                VisualStateManager.GoToState(this, "Filled", false);
+            }
+            else
+            {
+                VisualStateManager.GoToState(this, "FullScreenLandscape", false);
+            }
         }
     }
 }

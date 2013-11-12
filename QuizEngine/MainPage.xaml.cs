@@ -291,15 +291,15 @@ namespace QuizEngine
 
         private void VisualStateChanged(object sender, WindowSizeChangedEventArgs e)
         {
-            string visualState = DetermineVisualState(ApplicationView.Value);
+            var visualState = DetermineVisualState(ApplicationView.Value);
 
             if (visualState == "Snapped" || visualState == "Filled")
-            {             
-             // Custom logic.
+            {
+                VisualStateManager.GoToState(this, "Filled", false); 
             }
             else
             {
-             // Return to normal UI.
+                VisualStateManager.GoToState(this, "FullScreenLandscape", false); 
             }
         }
 

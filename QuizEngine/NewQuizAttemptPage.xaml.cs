@@ -3,9 +3,12 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
+using QuizEngine.Common;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
 using Windows.UI;
+using Windows.UI.Core;
+using Windows.UI.ViewManagement;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Controls.Primitives;
@@ -22,13 +25,15 @@ namespace QuizEngine
     /// <summary>
     /// An empty page that can be used on its own or navigated to within a Frame.
     /// </summary>
-    public sealed partial class NewQuizAttemptPage : Page
+    public sealed partial class NewQuizAttemptPage : LayoutAwarePage
     {
         public NewQuizAttemptPage()
         {
             this.InitializeComponent();
 
             NewMethod();
+
+            Window.Current.SizeChanged += VisualStateChanged;
         }
 
         private async void NewMethod()
@@ -36,10 +41,6 @@ namespace QuizEngine
             _quizConfig = new QuizConfig();
 
             await ReadQuizData();
-
-            this.InitializeComponent();
-
-            //ConfigureQuestions(_quizConfig);
 
             Easy.IsChecked = true;
             Medium.IsChecked = true;
@@ -171,6 +172,20 @@ namespace QuizEngine
         private void Practice_Checked(object sender, RoutedEventArgs e)
         {
             QuizTypeDescription.Text = "Practice Mode: A no time-limit quiz where answers are displayed as you go. Green highlight is a correct answer. Red highlight is an incorrect answer.";
+        }
+
+        private void VisualStateChanged(object sender, WindowSizeChangedEventArgs e)
+        {
+            var visualState = DetermineVisualState(ApplicationView.Value);
+
+            if (visualState == "Snapped" || visualState == "Filled")
+            {
+                VisualStateManager.GoToState(this, "Filled", false);
+            }
+            else
+            {
+                VisualStateManager.GoToState(this, "FullScreenLandscape", false);
+            }
         }
     }
 }

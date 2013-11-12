@@ -1474,5 +1474,25 @@
 				"Text": "Liberals"
 			}
 		]
+	},
+	{
+		"Difficulty": "Easy",
+		"Question": "What were the International Brigades?",
+		"Answers":
+		[
+			{
+				"Text": "Formalised military units of foreign volunteers organised by the Comintern",
+				"Score": "1"
+			},
+			{
+				"Text": "Batallions of Italian and German volunteers who helped the Nationalists"
+			},
+			{
+				"Text": "Groups of volunteers who came over to Spain to help civilians in devastated areas"
+			},
+			{
+				"Text": "Members of foreign left-wing parties who integrated into the milita at the start of the war"
+			}
+		]
 	}
 ]
