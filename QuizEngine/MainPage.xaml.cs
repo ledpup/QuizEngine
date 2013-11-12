@@ -10,6 +10,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
+using Windows.Storage;
 using Windows.UI.Core;
 using Windows.UI.ViewManagement;
 using Windows.UI.Xaml;
@@ -88,7 +89,9 @@ namespace QuizEngine
 
             gesturesViewSource.Source = _pages;
 
-            BackImage.ImageSource = BackgroundImage;
+            SelectBackgroundImage();
+
+            
         }
 
         /// <summary>
@@ -136,18 +139,38 @@ namespace QuizEngine
             }
         }
 
+        public async Task<IReadOnlyList<StorageFile>> GetFiles()
+        {
+            StorageFolder folder = await Windows.ApplicationModel.Package.Current.InstalledLocation.GetFolderAsync("Assets\\Quizzes\\Spanish Civil War backgrounds");
+            
+            if (folder != null)
+                return await folder.GetFilesAsync();
+            else
+                return null;
+        }
+
+        async void SelectBackgroundImage()
+        {
+            var fileList = await GetFiles();
+
+            var backgroundIndex = _random.Next(fileList.Count);
+
+            _backgroundImage = new BitmapImage(new Uri(string.Format("ms-appx:///Assets/Quizzes/{0} backgrounds/{1}", Quiz, fileList[backgroundIndex].Name)));
+
+            BackImage.ImageSource = BackgroundImage;
+        }
+
+        private BitmapImage _backgroundImage;
         public BitmapImage BackgroundImage
         {
             get
             {
-                return new BitmapImage(new Uri("ms-appx:///Assets/Quizzes/" + Quiz + ".png"));
+                if (_backgroundImage == null)
+                    throw new Exception("Background image has not been set");
 
-                //return new ImageBrush {ImageSource = bitmapImage};
+                return _backgroundImage;
             }
         }
-
-
-
 
         private void PrepareQuestions(IEnumerable<QuizQuestion> quizQuestions)
         {

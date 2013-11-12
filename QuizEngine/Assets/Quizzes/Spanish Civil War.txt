@@ -1491,7 +1491,7 @@
 				"Text": "Groups of volunteers who came over to Spain to help civilians in devastated areas"
 			},
 			{
-				"Text": "Members of foreign left-wing parties who integrated into the milita at the start of the war"
+				"Text": "Members of foreign left-wing parties who integrated into the militia at the start of the war"
 			}
 		]
 	}

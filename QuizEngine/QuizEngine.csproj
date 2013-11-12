@@ -276,8 +276,11 @@
     <Content Include="Assets\Quizzes\Human Body Systems\Telophase.png" />
     <Content Include="Assets\Quizzes\Human Body Systems\Thyroid.png" />
     <Content Include="Assets\Quizzes\Human Body Systems\Unipolar neuron.png" />
-    <Content Include="Assets\Quizzes\Spanish Civil War - New attempt background.jpg" />
-    <Content Include="Assets\Quizzes\Spanish Civil War.png" />
+    <Content Include="Assets\Quizzes\Spanish Civil War - main background.jpg" />
+    <Content Include="Assets\Quizzes\Spanish Civil War backgrounds\Al Front.jpg" />
+    <Content Include="Assets\Quizzes\Spanish Civil War backgrounds\Arriba España.jpg" />
+    <Content Include="Assets\Quizzes\Spanish Civil War backgrounds\No pasaran.png" />
+    <Content Include="Assets\Quizzes\Spanish Civil War backgrounds\They shall not pass.jpg" />
     <Content Include="Assets\Quizzes\Spanish Civil War.txt" />
     <Content Include="Assets\Quizzes\Spanish Civil War\Alfonists.png" />
     <Content Include="Assets\Quizzes\Spanish Civil War\Anarchist collective.jpg" />

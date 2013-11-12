@@ -274,7 +274,7 @@ namespace QuizEngine
         {
             FullscreenImage.Visibility = Visibility.Visible;
             FullscreenImage.Source = imgQuestionImage.Source;
-            Mainscreen.Opacity = 0.45;
+            Mainscreen.Opacity = 0.4;
         }
 
         private void FullscreenImage_Tapped(object sender, TappedRoutedEventArgs e)

@@ -14,14 +14,14 @@
             <DoubleAnimationUsingKeyFrames x:Name="TranslateX" Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateX)" Storyboard.TargetName="imageToAnimate">
                 <EasingDoubleKeyFrame KeyTime="0" Value="0"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:2" Value="0"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:2.4" Value="-400"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2.5" Value="-400"/>
             </DoubleAnimationUsingKeyFrames>
             <DoubleAnimationUsingKeyFrames x:Name="Opacity" Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="imageToAnimate">
                 <EasingDoubleKeyFrame KeyTime="0" Value="0"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:1.5" Value="0"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:2" Value="1"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:2.5" Value="1"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:2.8" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2.6" Value="1"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2.9" Value="0"/>
             </DoubleAnimationUsingKeyFrames>
         </Storyboard>
     </Page.Resources>
