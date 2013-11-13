@@ -11,13 +11,13 @@
             <Grid.Background>
                 <ImageBrush Stretch="Uniform" ImageSource="Assets/Quizzes/Spanish Civil War - main background.jpg"></ImageBrush>
             </Grid.Background>
-            <TextBlock Margin="20" Style="{StaticResource AppTitleTextStyle}" Foreground="White">The Spanish Civil War Quiz</TextBlock>
+            <TextBlock Margin="20" Style="{StaticResource AppTitleTextStyle}" Foreground="White">Spanish Civil War Quiz</TextBlock>
         </Grid>
 
         <ScrollViewer x:Name="Fullscreen" ZoomMode="Disabled">
             <StackPanel Margin="50,0">
                 <Button Margin="10,30,10,30" Padding="10" Width="250" HorizontalAlignment="Center" Click="Button_Click">New Quiz</Button>
-                <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+                <StackPanel x:Name="ResultsStackPanel" Orientation="Horizontal" HorizontalAlignment="Right">
                     <TextBlock Margin="5" Style="{StaticResource AppTitleTextStyle}">Results:</TextBlock>
                     <TextBlock x:Name="Results" Margin="5" Style="{StaticResource AppTitleTextStyle}"></TextBlock>
                 </StackPanel>

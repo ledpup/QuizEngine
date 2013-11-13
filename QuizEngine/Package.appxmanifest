@@ -15,9 +15,9 @@
   </Resources>
   <Applications>
     <Application Id="App" Executable="$targetnametoken$.exe" EntryPoint="QuizEngine.App">
-      <VisualElements DisplayName="QuizEngine" Logo="Assets\Logo.png" SmallLogo="Assets\SmallLogo.png" Description="QuizEngine" ForegroundText="light" BackgroundColor="#464646">
-        <DefaultTile ShowName="allLogos" />
-        <SplashScreen Image="Assets\SplashScreen.png" />
+      <VisualElements DisplayName="Spanish Civil War Quiz" Logo="Assets\Logo.png" SmallLogo="Assets\SmallLogo.png" Description="QuizEngine" ForegroundText="light" BackgroundColor="#464646">
+        <DefaultTile ShowName="allLogos" WideLogo="Assets\WideLogo.png" />
+        <SplashScreen Image="Assets\SplashScreen.png" BackgroundColor="black" />
         <InitialRotationPreference>
           <Rotation Preference="landscape" />
           <Rotation Preference="landscapeFlipped" />

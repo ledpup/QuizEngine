@@ -42,7 +42,14 @@ namespace QuizEngine
         {
             _quizAttempt = (QuizAttempt)e.Parameter;
 
-            Results.Text = _quizAttempt.QuizResult();
+            if (_quizAttempt.PracticeMode)
+            {
+                ResultsStackPanel.Visibility = Visibility.Collapsed;
+            }
+            else
+            {
+                Results.Text = _quizAttempt.QuizResult();    
+            }
             
             Duration.Text = _quizAttempt.QuizDuration.ToString();
 

@@ -1,6 +1,6 @@
 [
 	{
-		"Difficulty": "Medium",
+		"Difficulty": "Hard",
 		"Question": "Which period of the war does the map depict?\r\n\r\nNationalist controlled area is pink.\r\nRepublican controlled area is blue.",
 		"Image": "Map_of_the_Spanish_Civil_War_in_October_1937.png",
 		"Answers":
@@ -183,7 +183,7 @@
 		"Difficulty": "Hard",
 		"Question": "The POUM were outlawed in June 1937 because they were \"__________\".",
 		"Image": "POUM poster.jpg",
-		"Explanation": "\"'Trotskyism', according to Frente Rojo (the Valencia Communist paper) 'is not a political doctrine. Trotskyism is an official capitalist organization, a Fascist terrorist band occupied in crime and sabotage against the people.' The P.O.U.M. was a 'Trotskyist' organization in league with the Fascists and part of 'Franco's Fifth Column'.\" - Homage to Catalonia, George Orwell",
+		"Explanation": "\"'Trotskyism', according to Frente Rojo (the Valencia Communist paper) 'is not a political doctrine. Trotskyism is an official capitalist organization, a Fascist terrorist band occupied in crime and sabotage against the people.' The P.O.U.M. was a 'Trotskyist' organization in league with the Fascists and part of 'Franco's Fifth Column'.\" - George Orwell, Homage to Catalonia",
 		"Answers":
 		[
 			{
@@ -350,17 +350,17 @@
 		"Answers":
 		[
 			{
-				"Text": "Clashes between factions in the Republican side.",
+				"Text": "Clashes between factions in the Republican side",
 				"Score": "1"
 			},
 			{
-				"Text": "Demonstrations by Franco's supporters against \"anarchist dictatorship\" in the Catalan city."
+				"Text": "Demonstrations by Franco's supporters against \"anarchist dictatorship\" in the Catalan city"
 			},
 			{
-				"Text": "Starving civil population demonstrations claiming for a better distribution of provisions."
+				"Text": "Starving civil population demonstrations claiming for a better distribution of provisions"
 			},
 			{
-				"Text": "None of the above.",
+				"Text": "None of the above",
 				"IsLast": "true"
 			}
 		]
@@ -959,7 +959,7 @@
 		]
 	},
 	{
-		"Difficulty": "Medium",
+		"Difficulty": "Hard",
 		"Question": "Which regions had the largest number of collectives, established at the beginning of the revolution in 1936?",
 		"Image": "Anarchist collective.jpg",
 		"Explanation": "\"The regions most affected [by collectivisation] were Catalonia and Aragón, where about 70 per cent of the workforce was involved. The total for the whole of republican territory was nearly 800,000 on the land and a little over a million in industry.\" - Anthony Beevor, The Battle for Spain",
@@ -1100,7 +1100,7 @@
 		]
 	},
 	{
-		"Difficulty": "Medium",
+		"Difficulty": "Hard",
 		"Question": "Select the list of military offensives that is in correct chronological order, from earliest to latest.",
 		"Answers":
 		[
@@ -1190,7 +1190,7 @@
 		]
 	},
 	{
-		"Difficulty": "Easy",
+		"Difficulty": "Medium",
 		"Question": "Salvador Dalí, as a prominent member of the Surrealist movement was sympathetic to the Republic's cause.",
 		"Image": "salvador-dali-soft-construction-with-boiled-beans-premonition-of-civil-war.jpg",
 		"Answers":
@@ -1381,6 +1381,7 @@
 	{
 		"Difficulty": "Easy",
 		"Question": "During the war, about half of the Catholic ecclesiastical community was killed by anarchists, communists and socialists (i.e., pro-Republican forces.)",
+		"Image": "Leftists shooting statue.jpg",
 		"Explanation": "\"[...] of a total ecclesiastical community of around 115,000, thirteen bishops, 4,184 priests, 2,365 members of other orders and 283 nuns were killed, the vast majority during the summer of 1936.\" - Beevor, A., The Battle for Spain",
 		"Answers":
 		[
@@ -1436,8 +1437,8 @@
 	},
 	{
 		"Difficulty": "Easy",
-		"Question": "What was the common salute made by those that supported the Republic side?",
-		"Image": "Santander fascists.jpg",
+		"Question": "What was the common salute made by those that supported the Republicans?",
+		"Image": "Robert Capa - clenched fist.jpg",
 		"Answers":
 		[
 			{
@@ -1457,7 +1458,7 @@
 	},
 	{
 		"Difficulty": "Medium",
-		"Question": "To whom was Diego Abad de Santillán referring when he wrote: \"Whether Negrín won with his communist cohorts, or Franco won with his Italians and Germans, the results would be the same for us.\"",
+		"Question": "To whom was Diego Abad de Santillán referring to as \"us\" when he wrote: \"Whether Negrín won with his communist cohorts, or Franco won with his Italians and Germans, the results would be the same for us.\"",
 		"Answers":
 		[
 			{
@@ -1494,5 +1495,395 @@
 				"Text": "Members of foreign left-wing parties who integrated into the militia at the start of the war"
 			}
 		]
+	},
+	{
+		"Difficulty": "Easy",
+		"Question": "What was the purpose of the fascist powers' (Germany and Italy) military aid to the Nationalists?",
+		"Image": "Guernica bombing.jpg",
+		"Answers":
+		[
+			{
+				"Text": "All of the above",
+				"IsLast": "true",
+				"Score": "1"
+			},
+			{
+				"Text": "To establish another fascist state in Europe"
+			},
+			{
+				"Text": "To test new military hardware and strategies"
+			},
+			{
+				"Text": "To gain access to Spanish resources"
+			}
+		]
+	},
+	{
+		"Difficulty": "Medium",
+		"Question": "By the end of the war, where did the majority of the Spanish Republic's gold reserves reside?",
+		"Answers":
+		[
+			{
+				"Text": "USSR",
+				"Image": "Flag of the Soviet Union.png",
+				"Score": "1"
+			},
+			{
+				"Text": "Nationalist Spain",
+				"Image": "Nationalist flag.png"
+			},
+			{
+				"Text": "Germany",
+				"Image": "Germany.png"
+			},
+			{
+				"Text": "Republic in exile",
+				"Image": "Flag of Spain (1931-1939).png"
+			}
+		]
+	},
+	{
+		"Difficulty": "Hard",
+		"Question": "What was the best quality tank of the Spanish Civil War?",
+		"Image": "T-26 tank in Spain.jpg",
+		"Answers":
+		[
+			{
+				"Text": "Soviet T-26",
+				"Score": "1"
+			},
+			{
+				"Text": "German Panzer I"
+			},
+			{
+				"Text": "Soviet BT-5"
+			},
+			{
+				"Text": "Italian tankettes"
+			},
+			{
+				"Text": "French Renault FT-17"
+			}
+		]
+	},
+	{
+		"Difficulty": "Easy",
+		"Question": "The Spanish Civil War was:",
+		"Answers":
+		[
+			{
+				"Text": "All of the above",
+				"Score": "1",
+				"IsLast": "true"
+			},
+			{
+				"Text": "A war between communism and fascism"
+			},
+			{
+				"Text": "A complex conflict between various political and social forces"
+			},
+			{
+				"Text": "A coup, social revolution and finally, conventional civil war"
+			},
+			{
+				"Text": "The result of years of class conflict within Spain"
+			}
+		]
+	},
+	{
+		"Difficulty": "Easy",
+		"Question": "José Antonio Primo de Rivera, the leader of the Spanish Falange (Spanish fascists), was:",
+		"Image": "Jose Antonio De Rivera - Painting.jpg",
+		"Answers":
+		[
+			{
+				"Text": "The son of a 20th century Spanish dictator",
+				"Score": "1"
+			},
+			{
+				"Text": "The son of an arch-bishop of the Spanish Catholic Church"
+			},
+			{
+				"Text": "The son of a prominent left-wing intellectual"
+			},
+			{
+				"Text": "A nephew of Francisco Franco"
+			},
+			{
+				"Text": "None of the above",
+				"IsLast": "true"
+			}
+		]
+	},
+	{
+		"Difficulty": "Easy",
+		"Question": "Identify the flag of the Spanish anarcho-syndicalists.",
+		"Answers":
+		[
+			{
+				"Image": "CNT-FAI.png",
+				"Score": "0.5"
+			},
+			{
+				"Image": "Falange.png"
+			}
+		]
+	},
+	{
+		"Difficulty": "Easy",
+		"Question": "What was the common salute made by those that supported the Nationalist?",
+		"Image": "Santander fascists.jpg",
+		"Answers":
+		[
+			{
+				"Text": "Roman salute",
+				"Score": "1"
+			},
+			{
+				"Text": "Clenched fist"
+			},
+			{
+				"Text": "Bellamy salute",
+				"Explanation": "The Bellamy salute is the salute described by Francis Bellamy to accompany the American Pledge of Allegiance. It looks the same as the Roman/fascist salute but was abandoned after the Roman salute became the salute of fascism."
+			},
+			{
+				"Text": "Zogist salute"
+			}
+		]
+	},
+	{
+		"Difficulty": "Medium",
+		"Question": "Identify the flag of the UGT (General Union of Workers).",
+		"Answers":
+		[
+			{
+				"Image": "UGT.png",
+				"Score": "1"
+			},
+			{
+				"Image": "Flag of the Soviet Union.png",
+				"Explanation": "You selected the flag of the USSR."
+			},
+			{
+				"Image": "PCE.png",
+				"Explanation": "You selected the flag of the Spanish Communist Party (PCE)."
+			},
+			{
+				"Image": "Popular Front.png",
+				"Explanation": "You selected the flag of the Popular Front."
+			},
+			{
+				"Image": "Army of Africa.png",
+				"Explanation": "You selected the flag of the Army of Africa."
+			}
+		]
+	},
+	{
+		"Difficulty": "Medium",
+		"Question": "Which Spanish political party was affiliated with the USSR?",
+		"Answers":
+		[
+			{
+				"Text": "PCE",
+				"Score": "1"
+			},
+			{
+				"Text": "PSOE"
+			},
+			{
+				"Text": "POUM"
+			},
+			{
+				"Text": "PNV"
+			},
+			{
+				"Text": "CEDA"
+			}
+		]
+	},
+	{
+		"Difficulty": "Medium",
+		"Question": "Which of the follow political organisations did not have a youth movement associated with them?",
+		"Answers":
+		[
+			{
+				"Text": "None of the above",
+				"Score": "1",
+				"IsLast": "true"
+			},
+			{
+				"Text": "Spanish Falange",
+				"Explanation": "The Spanish Falange's youth movement was the OJE (Organización Juvenil Española - Spanish Youth Organisation)."
+			},
+			{
+				"Text": "POUM",
+				"Explanation": "The POUM's youth movement was the JCI (Juventud Comunista Ibérica - Iberian Communist Youth)."
+			},
+			{
+				"Text": "CNT/FAI",
+				"Explanation": "The anarchist youth movement was the FIJL (Federación Ibérica de Juventudes Libertarias - Iberian Federation of Libertarian Youth)."
+			},
+			{
+				"Text": "PSOE",
+				"Explanation": "The PSOE's youth movement was the Federacion de Juventudes Socialistas (Federation of Socialist Youth)."
+			}
+		]
+	},
+	{
+		"Difficulty": "Hard",
+		"Question": "Which of the following was the emblem of the Air Force of the Spanish Republic during the Spanish Civil War?",
+		"Answers":
+		[
+			{
+				"Image": "Emblem of the Air Force of the Spanish Republic (1936-1939).png",
+				"Score": "1"
+			},
+			{
+				"Image": "Emblem of the Air Force of the Spanish Republic (1934-1936).png"
+			},
+			{
+				"Image": "Emblem of the Air Force of the Spanish Republic (1931-1934).png"
+			},
+			{
+				"Image": "Blank emblem.png",
+				"Text": "[None of these emblems]",
+				"IsLast": "true"
+			}
+		]
+	},
+	{
+		"Difficulty": "Hard",
+		"Question": "The emblem pictured on the right is the emblem of which foreign organisation that was involved in the Spanish Civil War?",
+		"Image": "Emblem of Viriatos Volunteers.png",
+		"Answers":
+		[
+			{
+				"Text": "Portuguese Viriatos",
+				"Score": "1",
+				"Explanation": "In the first weeks of the war the Portuguese army tried to form a Viriatos Legion to aid the right-wing insurgents in Spain. The Legion was disbanded before any recruitment drive could take place after pro-Republican incidents in Portugal convinced the government that direct intervention on the side of the Nationalists could cause further unrest. Portuguese volunteers who subsequently enlisted directly in the Spanish Foreign Legion and Carlist militias were known as Viriatos. http://en.wikipedia.org/wiki/Viriatos"
+			},
+			{
+				"Text": "German Condor Legion"
+			},
+			{
+				"Text": "Italian Corps of Volunteer Troops (CTV)"
+			},
+			{
+				"Text": "International Brigades"
+			},
+			{
+				"Text": "None of the above",
+				"IsLast": "true"
+			}
+		]
+	},
+	{
+		"Difficulty": "Medium",
+		"Question": "What were the names of the German and Italian corps that operated in Spain during the civil war?",
+		"Image": "Condor Legion 1.png",
+		"Answers":
+		[
+			{
+				"Text": "Condor Legion and the Corps of Volunteer Troops (CTV)",
+				"Score": "1"
+			},
+			{
+				"Text": "Condor Legion and the Viriatos"
+			},
+			{
+				"Text": "Condor Legion and the Iron Guard"
+			},
+			{
+				"Text": "Condor Legion and the Blue Division"
+			}
+		]
+	},
+	{
+		"Difficulty": "Easy",
+		"Question": "Identify the flag of Nationalist Spain.",
+		"Answers":
+		[
+			{
+				"Image": "Nationalist flag.png",
+				"Score": "1"
+			},
+			{
+				"Image": "Alfonists.png",
+				"Explanation": "You chose the Alfonist flag"
+			},
+			{
+				"Image": "Flag of Spain (1931-1939).png",
+				"Explanation": "You chose the flag of the Second Spanish Republic"
+			},
+			{
+				"Image": "Falange.png",
+				"Explanation": "You chose the Spanish Falange flag"
+			},
+			{
+				"Image": "Portugal.png",
+				"Explanation": "You chose the Portuguese flag"
+			}
+		]
+	},
+	{
+		"Difficulty": "Medium",
+		"Question": "Who used the phrase \"¡No pasarán!\" (\"They shall not pass!\") in their speech for the defence of Madrid in July 1936?",
+		"Image": "No pasaran.png",
+		"Answers":
+		[
+			{
+				"Text": "Isidora Dolores Ibárruri Gómez (La Pasionaria)",
+				"Score": "1",
+				"Explanation": "La Pasionaria (\"the Passionflower\") was a Spanish Republican leader of the Spanish Civil War, a member of the Spanish Communist Party (PCE), of Basque origin."
+			},
+			{
+				"Text": "Federica Montseny"
+			},
+			{
+				"Text": "Buenaventura Durruti"
+			},
+			{
+				"Text": "Enrique Líster"
+			},
+			{
+				"Text": "Valentín González (El Campesino)"
+			}
+		]
+	},
+	{
+		"Difficulty": "Easy",
+		"Question": "In Homage to Catalonia, George Orwell wrote: \"[Under] the surface-aspect of the town, under the luxury and growing poverty, under the seeming gaiety of the streets with their propaganda-posters, and thronging crowds, there was an unmistakable and horrible feeling of political rivalry and hatred. People of all shades of opinion were saying forebodingly: \"There's going to be trouble before long.\" The danger was quite simple and intelligible. It was the antagonism between those who wished the revolution to go forward and those who wished to check or prevent it - ultimately, between Anarchists and Communists.\"\r\n\r\nWho wanted to suspend the revolution?",
+		"Answers":
+		[
+			{
+				"Text": "Communists",
+				"Score": "1"
+			},
+			{
+				"Text": "Anarchists"
+			}
+		]
+	},
+	{
+		"Difficulty": "Medium",
+		"Question": "Aside from communists, Francisco Franco had a (peculiar) aversion for:",
+		"Answers":
+		[
+			{
+				"Text": "Freemasons",
+				"Score": "1",
+				"Explanation": "\"We have torn up Marxist materialism and we have disorientated Masonry. We have thwarted the Satanic machinations of the clandestine Masonic superstate. Despite its control of the world’s press and numerous international politicians. Spain’s struggle is a Crusade; as soldiers of God we carry with us the evangelism of the world!\" - Francisco Franco, speech to the women's section of the Falange in Madrid (11 September 1945)"
+			},
+			{
+				"Text": "Trade unionists"
+			},
+			{
+				"Text": "Anarchists"
+			},
+			{
+				"Text": "Marxists"
+			}
+		]
 	}
 ]
+

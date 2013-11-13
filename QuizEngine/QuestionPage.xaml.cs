@@ -274,13 +274,25 @@ namespace QuizEngine
         {
             FullscreenImage.Visibility = Visibility.Visible;
             FullscreenImage.Source = imgQuestionImage.Source;
+
+            brdImageBorderVisibility.Visibility = Visibility.Collapsed;
             Mainscreen.Opacity = 0.4;
+            foreach (Button button in Answers.Children)
+            {
+                button.IsEnabled = false;
+            }
         }
 
         private void FullscreenImage_Tapped(object sender, TappedRoutedEventArgs e)
         {
             FullscreenImage.Visibility = Visibility.Collapsed;
+
+            brdImageBorderVisibility.Visibility = Visibility.Visible;
             Mainscreen.Opacity = 1;
+            foreach (Button button in Answers.Children)
+            {
+                button.IsEnabled = true;
+            }
         }
     }
 }

@@ -9,7 +9,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>QuizEngine</RootNamespace>
     <AssemblyName>QuizEngine</AssemblyName>
-    <DefaultLanguage>en-US</DefaultLanguage>
+    <DefaultLanguage>en-AU</DefaultLanguage>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{BC8A1FFA-BEE3-4634-8014-F334798102B3};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <PackageCertificateKeyFile>QuizEngine_TemporaryKey.pfx</PackageCertificateKeyFile>
@@ -279,6 +279,8 @@
     <Content Include="Assets\Quizzes\Spanish Civil War - main background.jpg" />
     <Content Include="Assets\Quizzes\Spanish Civil War backgrounds\Al Front.jpg" />
     <Content Include="Assets\Quizzes\Spanish Civil War backgrounds\Arriba España.jpg" />
+    <Content Include="Assets\Quizzes\Spanish Civil War backgrounds\Carlist poster.jpg" />
+    <Content Include="Assets\Quizzes\Spanish Civil War backgrounds\Centelles - horses.jpg" />
     <Content Include="Assets\Quizzes\Spanish Civil War backgrounds\No pasaran.png" />
     <Content Include="Assets\Quizzes\Spanish Civil War backgrounds\They shall not pass.jpg" />
     <Content Include="Assets\Quizzes\Spanish Civil War.txt" />
@@ -287,10 +289,10 @@
     <Content Include="Assets\Quizzes\Spanish Civil War\Anarchist Spain.png" />
     <Content Include="Assets\Quizzes\Spanish Civil War\Army of Africa.png" />
     <Content Include="Assets\Quizzes\Spanish Civil War\Asturias.jpg" />
+    <Content Include="Assets\Quizzes\Spanish Civil War\Blank emblem.png" />
     <Content Include="Assets\Quizzes\Spanish Civil War\Blank flag.png" />
     <Content Include="Assets\Quizzes\Spanish Civil War\Blank poster.png" />
     <Content Include="Assets\Quizzes\Spanish Civil War\Bundesarchiv_Bild_183-2006-1204-514,_Spanien,_Schlacht_um_Guadalajara.jpg" />
-    <Content Include="Assets\Quizzes\Spanish Civil War\Bundesarchiv_Bild_183-H25224,_Guernica,_Ruinen.jpg" />
     <Content Include="Assets\Quizzes\Spanish Civil War\Carlist poster.jpg" />
     <Content Include="Assets\Quizzes\Spanish Civil War\Carlists.png" />
     <Content Include="Assets\Quizzes\Spanish Civil War\CEDA.png" />
@@ -303,6 +305,10 @@
     <Content Include="Assets\Quizzes\Spanish Civil War\Cruzada.jpg" />
     <Content Include="Assets\Quizzes\Spanish Civil War\Dragon Rapide.jpg" />
     <Content Include="Assets\Quizzes\Spanish Civil War\Durruti poster.jpg" />
+    <Content Include="Assets\Quizzes\Spanish Civil War\Emblem of the Air Force of the Spanish Republic %281931-1934%29.png" />
+    <Content Include="Assets\Quizzes\Spanish Civil War\Emblem of the Air Force of the Spanish Republic %281934-1936%29.png" />
+    <Content Include="Assets\Quizzes\Spanish Civil War\Emblem of the Air Force of the Spanish Republic %281936-1939%29.png" />
+    <Content Include="Assets\Quizzes\Spanish Civil War\Emblem of Viriatos Volunteers.png" />
     <Content Include="Assets\Quizzes\Spanish Civil War\Euzkadi.jpg" />
     <Content Include="Assets\Quizzes\Spanish Civil War\Extremadura.png" />
     <Content Include="Assets\Quizzes\Spanish Civil War\Falange poster.jpg" />
@@ -310,21 +316,24 @@
     <Content Include="Assets\Quizzes\Spanish Civil War\Federica Montseny.jpg" />
     <Content Include="Assets\Quizzes\Spanish Civil War\Flag of France.png" />
     <Content Include="Assets\Quizzes\Spanish Civil War\Flag of Mexico.png" />
+    <Content Include="Assets\Quizzes\Spanish Civil War\Flag of Spain %281931-1939%29.png" />
     <Content Include="Assets\Quizzes\Spanish Civil War\Flag of the Soviet Union.png" />
-    <Content Include="Assets\Quizzes\Spanish Civil War\Flag_of_Spain_%281931_-_1939%29.svg.png" />
-    <Content Include="Assets\Quizzes\Spanish Civil War\Flag_of_Spain_%281938_-_1945%29.svg.png" />
-    <Content Include="Assets\Quizzes\Spanish Civil War\Flag_of_Spain_%28Civil%29_alternate_colours.svg.png" />
     <Content Include="Assets\Quizzes\Spanish Civil War\Franco.jpg" />
     <Content Include="Assets\Quizzes\Spanish Civil War\Germany.PNG" />
+    <Content Include="Assets\Quizzes\Spanish Civil War\Guernica bombing.jpg" />
     <Content Include="Assets\Quizzes\Spanish Civil War\Guernica.jpg" />
     <Content Include="Assets\Quizzes\Spanish Civil War\Ha llegado.jpg" />
     <Content Include="Assets\Quizzes\Spanish Civil War\International Brigades poster.jpg" />
     <Content Include="Assets\Quizzes\Spanish Civil War\International Brigades.png" />
     <Content Include="Assets\Quizzes\Spanish Civil War\Italy.png" />
+    <Content Include="Assets\Quizzes\Spanish Civil War\Jose Antonio De Rivera - Painting.jpg" />
+    <Content Include="Assets\Quizzes\Spanish Civil War\Leftists shooting statue.jpg" />
     <Content Include="Assets\Quizzes\Spanish Civil War\Map_of_the_Spanish_Civil_War_in_February_1939.png" />
     <Content Include="Assets\Quizzes\Spanish Civil War\Map_of_the_Spanish_Civil_War_in_July_1938.png" />
     <Content Include="Assets\Quizzes\Spanish Civil War\Map_of_the_Spanish_Civil_War_in_October_1937.png" />
     <Content Include="Assets\Quizzes\Spanish Civil War\Map_of_the_Spanish_Civil_War_in_September_1936.png" />
+    <Content Include="Assets\Quizzes\Spanish Civil War\Nationalist flag.png" />
+    <Content Include="Assets\Quizzes\Spanish Civil War\No pasaran.png" />
     <Content Include="Assets\Quizzes\Spanish Civil War\PCE.png" />
     <Content Include="Assets\Quizzes\Spanish Civil War\Popular Front.png" />
     <Content Include="Assets\Quizzes\Spanish Civil War\Portugal.png" />
@@ -334,22 +343,27 @@
     <Content Include="Assets\Quizzes\Spanish Civil War\PSUC Poster.jpg" />
     <Content Include="Assets\Quizzes\Spanish Civil War\PSUC.png" />
     <Content Include="Assets\Quizzes\Spanish Civil War\Republique-allegorie.jpg" />
+    <Content Include="Assets\Quizzes\Spanish Civil War\Robert Capa - clenched fist.jpg" />
     <Content Include="Assets\Quizzes\Spanish Civil War\salvador-dali-soft-construction-with-boiled-beans-premonition-of-civil-war.jpg" />
     <Content Include="Assets\Quizzes\Spanish Civil War\Santander fascists.jpg" />
     <Content Include="Assets\Quizzes\Spanish Civil War\Spanish Regions.png" />
+    <Content Include="Assets\Quizzes\Spanish Civil War\T-26 tank in Spain.jpg" />
     <Content Include="Assets\Quizzes\Spanish Civil War\UGT anti-fascist poster.jpg" />
     <Content Include="Assets\Quizzes\Spanish Civil War\UGT.png" />
     <Content Include="Assets\Quizzes\Spanish Civil War\United Kingdom.png" />
     <Content Include="Assets\Quizzes\Spanish Civil War\WomenMilitiaSpain.jpg" />
     <Content Include="Assets\Quizzes\Spanish Civil War\Yoke and Arrows.png" />
     <Content Include="Assets\SmallLogo.png" />
-    <Content Include="Assets\SplashScreen.png" />
+    <Content Include="Assets\SplashScreen.scale-100.png" />
+    <Content Include="Assets\SplashScreen.scale-140.png" />
+    <Content Include="Assets\SplashScreen.scale-180.png" />
     <Content Include="Assets\StoreLogo.png" />
     <Content Include="Assets\Quizzes\Capital.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="Assets\Tick.png" />
     <Content Include="Assets\Unanswered.png" />
+    <Content Include="Assets\WideLogo.scale-100.png" />
     <Content Include="Common\ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>

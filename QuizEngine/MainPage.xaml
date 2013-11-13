@@ -18,7 +18,7 @@
             <Grid.Background>
                 <ImageBrush Stretch="Uniform" ImageSource="Assets/Quizzes/Spanish Civil War - main background.jpg"></ImageBrush>
             </Grid.Background>
-            <TextBlock Margin="20" Style="{StaticResource AppTitleTextStyle}" Foreground="White">The Spanish Civil War Quiz</TextBlock>
+            <TextBlock Margin="20" Style="{StaticResource AppTitleTextStyle}" Foreground="White">Spanish Civil War Quiz</TextBlock>
         </Grid>
         <Grid x:Name="Fullscreen">
         
