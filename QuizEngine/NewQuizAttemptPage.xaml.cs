@@ -95,8 +95,8 @@ namespace QuizEngine
         private void StartQuiz_Click(object sender, RoutedEventArgs e)
         {
             _quizConfig.NumberOfQuestions = (int)NumberOfQuestions.Value;
-            //_quizQuestions.Shuffle();
-            _quizQuestions.Reverse();
+            _quizQuestions.Shuffle();
+            //_quizQuestions.Reverse();
             _quizQuestions = _quizQuestions.Take(_quizConfig.NumberOfQuestions).ToList();
 
             for (var i = 0; i < _quizQuestions.Count; i++)
@@ -166,12 +166,12 @@ namespace QuizEngine
 
         private void Test_Checked(object sender, RoutedEventArgs e)
         {
-            QuizTypeDescription.Text = "Test Mode: A timed quiz where answers and score are revealed at the end of quiz. You have one minute per question.";
+            QuizTypeDescription.Text = "Test: Timed quiz. Answers revealed at the end of quiz. One minute per question.";
         }
 
         private void Practice_Checked(object sender, RoutedEventArgs e)
         {
-            QuizTypeDescription.Text = "Practice Mode: A no time-limit quiz where answers are displayed as you go. Green highlight is a correct answer. Red highlight is an incorrect answer.";
+            QuizTypeDescription.Text = "Practice: No time-limit. Answers are displayed as you go. Green highlight = correct answer. Red highlight = incorrect answer.";
         }
 
         private void VisualStateChanged(object sender, WindowSizeChangedEventArgs e)

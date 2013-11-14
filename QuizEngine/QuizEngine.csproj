@@ -12,7 +12,9 @@
     <DefaultLanguage>en-AU</DefaultLanguage>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{BC8A1FFA-BEE3-4634-8014-F334798102B3};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
-    <PackageCertificateKeyFile>QuizEngine_TemporaryKey.pfx</PackageCertificateKeyFile>
+    <PackageCertificateKeyFile>QuizEngine_StoreKey.pfx</PackageCertificateKeyFile>
+    <AppxAutoIncrementPackageRevision>True</AppxAutoIncrementPackageRevision>
+    <PackageCertificateThumbprint>8244B418999E1DCC87C275CE3102083C7041836E</PackageCertificateThumbprint>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -140,142 +142,14 @@
     <AppxManifest Include="Package.appxmanifest">
       <SubType>Designer</SubType>
     </AppxManifest>
+    <None Include="QuizEngine_StoreKey.pfx" />
     <None Include="QuizEngine_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Assets\Answered.png" />
-    <Content Include="Assets\Cross.png" />
     <Content Include="Assets\Fin.png" />
     <Content Include="Assets\Hand.png" />
     <Content Include="Assets\Logo.png" />
-    <Content Include="Assets\Quizzes\Capital.jpg" />
-    <Content Include="Assets\Quizzes\Chemistry.png" />
-    <Content Include="Assets\Quizzes\Chemistry.txt" />
-    <Content Include="Assets\Quizzes\Chemistry\2D gel electrophoresis.jpg" />
-    <Content Include="Assets\Quizzes\Chemistry\Adenine.png" />
-    <Content Include="Assets\Quizzes\Chemistry\ALA.png" />
-    <Content Include="Assets\Quizzes\Chemistry\Alanine.png" />
-    <Content Include="Assets\Quizzes\Chemistry\Alcohol.png" />
-    <Content Include="Assets\Quizzes\Chemistry\Aldehyde.png" />
-    <Content Include="Assets\Quizzes\Chemistry\Alpha-D-Glucofuranose.png" />
-    <Content Include="Assets\Quizzes\Chemistry\Alpha-D-Glucopyranose.png" />
-    <Content Include="Assets\Quizzes\Chemistry\Amide.png" />
-    <Content Include="Assets\Quizzes\Chemistry\Aspartic acid.png" />
-    <Content Include="Assets\Quizzes\Chemistry\Aspirin.png" />
-    <Content Include="Assets\Quizzes\Chemistry\Beta-D-Glucofuranose.png" />
-    <Content Include="Assets\Quizzes\Chemistry\Beta-D-Glucopyranose.png" />
-    <Content Include="Assets\Quizzes\Chemistry\Carbonyl.png" />
-    <Content Include="Assets\Quizzes\Chemistry\Carboxylic acid.png" />
-    <Content Include="Assets\Quizzes\Chemistry\Competitive.png" />
-    <Content Include="Assets\Quizzes\Chemistry\Cysteine.png" />
-    <Content Include="Assets\Quizzes\Chemistry\Cytosine.png" />
-    <Content Include="Assets\Quizzes\Chemistry\D-Fructose.png" />
-    <Content Include="Assets\Quizzes\Chemistry\D-Galactose.png" />
-    <Content Include="Assets\Quizzes\Chemistry\D-Glucose.png" />
-    <Content Include="Assets\Quizzes\Chemistry\D-glyceraldehyde-2D-Fischer.png" />
-    <Content Include="Assets\Quizzes\Chemistry\DNA replication.png" />
-    <Content Include="Assets\Quizzes\Chemistry\Ester.png" />
-    <Content Include="Assets\Quizzes\Chemistry\Ether.png" />
-    <Content Include="Assets\Quizzes\Chemistry\Fat_triglyceride_shorthand_formula.png" />
-    <Content Include="Assets\Quizzes\Chemistry\Gel filtration.png" />
-    <Content Include="Assets\Quizzes\Chemistry\Glycine.png" />
-    <Content Include="Assets\Quizzes\Chemistry\Glycolipid.jpg" />
-    <Content Include="Assets\Quizzes\Chemistry\Glycolysis.png" />
-    <Content Include="Assets\Quizzes\Chemistry\Guanine.png" />
-    <Content Include="Assets\Quizzes\Chemistry\Hanes-Woolf plot.png" />
-    <Content Include="Assets\Quizzes\Chemistry\Ketone.png" />
-    <Content Include="Assets\Quizzes\Chemistry\L-Fructose.png" />
-    <Content Include="Assets\Quizzes\Chemistry\L-Galactose.png" />
-    <Content Include="Assets\Quizzes\Chemistry\L-Glucose.png" />
-    <Content Include="Assets\Quizzes\Chemistry\L-glyceraldehyde-2D-Fischer.png" />
-    <Content Include="Assets\Quizzes\Chemistry\Lineweaver-Burke plot - no labels on axes.png" />
-    <Content Include="Assets\Quizzes\Chemistry\Lineweaver-Burke plot.png" />
-    <Content Include="Assets\Quizzes\Chemistry\Lyristes_plebejus.jpg" />
-    <Content Include="Assets\Quizzes\Chemistry\Oleic acid.png" />
-    <Content Include="Assets\Quizzes\Chemistry\Oxygen-haemoglobin dissociation curve.png" />
-    <Content Include="Assets\Quizzes\Chemistry\Pyruvate.png" />
-    <Content Include="Assets\Quizzes\Chemistry\Saccharose.png" />
-    <Content Include="Assets\Quizzes\Chemistry\Troph_flowchart.png" />
-    <Content Include="Assets\Quizzes\Chemistry\β-D-glucopyranose.png" />
-    <Content Include="Assets\Quizzes\Chemistry\β-D-mannopyranose.png" />
-    <Content Include="Assets\Quizzes\Human Body Systems\Anatomy_of_liver_and_gall_bladder.png" />
-    <Content Include="Assets\Quizzes\Human Body Systems\Control-of-stomach-acid-sec.png" />
-    <Content Include="Assets\Quizzes\Human Body Systems\Cyclic-adenosine-monophosphate-2D-skeletal.png" />
-    <Content Include="Assets\Quizzes\Human Body Systems\Endocrine_central_nervous.png" />
-    <Content Include="Assets\Quizzes\Human Body Systems\Gray1180.png" />
-    <Content Include="Assets\Quizzes\Human Body Systems\Gray1223.png" />
-    <Content Include="Assets\Quizzes\Human Body Systems\Gut_wall.png" />
-    <Content Include="Assets\Quizzes\Human Body Systems\Layers_of_the_Gastrointestinal_Tract.png" />
-    <Content Include="Assets\Quizzes\Human Body Systems\Lung volumes.png" />
-    <Content Include="Assets\Quizzes\Chemistry\Lysine.png" />
-    <Content Include="Assets\Quizzes\Chemistry\Methionine.png" />
-    <Content Include="Assets\Quizzes\Chemistry\Michaelis-Menten saturation curve of an enzyme reaction - no labels on axes.png" />
-    <Content Include="Assets\Quizzes\Chemistry\Michaelis-Menten saturation curve of an enzyme reaction.png" />
-    <Content Include="Assets\Quizzes\Chemistry\Mixed.png" />
-    <Content Include="Assets\Quizzes\Chemistry\Non-competitive.png" />
-    <Content Include="Assets\Quizzes\Chemistry\Phenylalanine.png" />
-    <Content Include="Assets\Quizzes\Chemistry\Primary Amine.png" />
-    <Content Include="Assets\Quizzes\Chemistry\Proline.png" />
-    <Content Include="Assets\Quizzes\Chemistry\Quaternary Ammonium Cation.png" />
-    <Content Include="Assets\Quizzes\Chemistry\Secondary Amine.png" />
-    <Content Include="Assets\Quizzes\Chemistry\Serine.png" />
-    <Content Include="Assets\Quizzes\Chemistry\Tertiary Amine.png" />
-    <Content Include="Assets\Quizzes\Chemistry\Thymine.png" />
-    <Content Include="Assets\Quizzes\Chemistry\Ultrasonic homogeniser.png" />
-    <Content Include="Assets\Quizzes\Chemistry\Uncompetitive.png" />
-    <Content Include="Assets\Quizzes\Chemistry\Uracil.png" />
-    <Content Include="Assets\Quizzes\Human Body Systems.png" />
-    <Content Include="Assets\Quizzes\Human Body Systems.txt" />
-    <Content Include="Assets\Quizzes\Human Body Systems\Anaphase.png" />
-    <Content Include="Assets\Quizzes\Human Body Systems\Anterior Muscles.png" />
-    <Content Include="Assets\Quizzes\Human Body Systems\Bipolar neuron.png" />
-    <Content Include="Assets\Quizzes\Human Body Systems\Blood typing.png" />
-    <Content Include="Assets\Quizzes\Human Body Systems\Cranial Nerves.png" />
-    <Content Include="Assets\Quizzes\Human Body Systems\Dimer.png" />
-    <Content Include="Assets\Quizzes\Human Body Systems\Electrical conduction system of the heart.png" />
-    <Content Include="Assets\Quizzes\Human Body Systems\Epidermis.png" />
-    <Content Include="Assets\Quizzes\Human Body Systems\Ester.png" />
-    <Content Include="Assets\Quizzes\Human Body Systems\Ether.png" />
-    <Content Include="Assets\Quizzes\Human Body Systems\Heart Diagram - blood vessels.png" />
-    <Content Include="Assets\Quizzes\Human Body Systems\Heart Diagram.png" />
-    <Content Include="Assets\Quizzes\Human Body Systems\Heart Layers.png" />
-    <Content Include="Assets\Quizzes\Human Body Systems\Hematopoiesis.png" />
-    <Content Include="Assets\Quizzes\Human Body Systems\Human Ear.png" />
-    <Content Include="Assets\Quizzes\Human Body Systems\Human Eye.png" />
-    <Content Include="Assets\Quizzes\Human Body Systems\Human skull - side - bones.png" />
-    <Content Include="Assets\Quizzes\Human Body Systems\Human skull - side - landmarks.png" />
-    <Content Include="Assets\Quizzes\Human Body Systems\Hypertonic.png" />
-    <Content Include="Assets\Quizzes\Human Body Systems\Hypotonic.png" />
-    <Content Include="Assets\Quizzes\Human Body Systems\Isotonic.png" />
-    <Content Include="Assets\Quizzes\Human Body Systems\Long bone.png" />
-    <Content Include="Assets\Quizzes\Human Body Systems\Lymphatic ducts - correct.png" />
-    <Content Include="Assets\Quizzes\Human Body Systems\Lymphatic ducts - incorrect.png" />
-    <Content Include="Assets\Quizzes\Human Body Systems\Meninges.png" />
-    <Content Include="Assets\Quizzes\Human Body Systems\Metaphase.png" />
-    <Content Include="Assets\Quizzes\Human Body Systems\Monomer.png" />
-    <Content Include="Assets\Quizzes\Human Body Systems\Multipolar neuron.png" />
-    <Content Include="Assets\Quizzes\Human Body Systems\Neuron cell.png" />
-    <Content Include="Assets\Quizzes\Human Body Systems\Normal ECG Tracing.png" />
-    <Content Include="Assets\Quizzes\Human Body Systems\Oxygen-haemoglobin dissociation curve - no labels on axes.png" />
-    <Content Include="Assets\Quizzes\Human Body Systems\Oxygen-haemoglobin dissociation curve.png" />
-    <Content Include="Assets\Quizzes\Human Body Systems\Parathyroid glands.jpg" />
-    <Content Include="Assets\Quizzes\Human Body Systems\Pentamer.png" />
-    <Content Include="Assets\Quizzes\Human Body Systems\Posterior Muscles.png" />
-    <Content Include="Assets\Quizzes\Human Body Systems\Prometaphase.png" />
-    <Content Include="Assets\Quizzes\Human Body Systems\Prophase.png" />
-    <Content Include="Assets\Quizzes\Human Body Systems\Pseudostratified Columnar.png" />
-    <Content Include="Assets\Quizzes\Human Body Systems\Pseudounipolar neuron.png" />
-    <Content Include="Assets\Quizzes\Human Body Systems\Simple Columnar.png" />
-    <Content Include="Assets\Quizzes\Human Body Systems\Simple Cuboidal.png" />
-    <Content Include="Assets\Quizzes\Human Body Systems\Simple Squamous.png" />
-    <Content Include="Assets\Quizzes\Human Body Systems\Skin layers.png" />
-    <Content Include="Assets\Quizzes\Human Body Systems\Spinal reflex arc.png" />
-    <Content Include="Assets\Quizzes\Human Body Systems\Stratified Columnar.png" />
-    <Content Include="Assets\Quizzes\Human Body Systems\Stratified Cuboidal.png" />
-    <Content Include="Assets\Quizzes\Human Body Systems\Stratified Squamous.png" />
-    <Content Include="Assets\Quizzes\Human Body Systems\Telophase.png" />
-    <Content Include="Assets\Quizzes\Human Body Systems\Thyroid.png" />
-    <Content Include="Assets\Quizzes\Human Body Systems\Unipolar neuron.png" />
     <Content Include="Assets\Quizzes\Spanish Civil War - main background.jpg" />
     <Content Include="Assets\Quizzes\Spanish Civil War backgrounds\Al Front.jpg" />
     <Content Include="Assets\Quizzes\Spanish Civil War backgrounds\Arriba España.jpg" />
@@ -358,13 +232,10 @@
     <Content Include="Assets\SplashScreen.scale-140.png" />
     <Content Include="Assets\SplashScreen.scale-180.png" />
     <Content Include="Assets\StoreLogo.png" />
-    <Content Include="Assets\Quizzes\Capital.txt">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Assets\Tick.png" />
     <Content Include="Assets\Unanswered.png" />
     <Content Include="Assets\WideLogo.scale-100.png" />
     <Content Include="Common\ReadMe.txt" />
+    <None Include="Package.StoreAssociation.xml" />
   </ItemGroup>
   <ItemGroup>
     <ApplicationDefinition Include="App.xaml">

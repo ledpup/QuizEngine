@@ -226,7 +226,7 @@
 		]
 	},
 	{
-		"Difficulty": "Hard",
+		"Difficulty": "Medium",
 		"Question": "Who flew Francisco Franco from the Canary Islands to Morocco?",
 		"Image": "Dragon Rapide.jpg",
 		"Answers":
@@ -246,7 +246,7 @@
 				"Text": "Emilio Mola"
 			},
 			{
-				"Text": "Andreu Nin"
+				"Text": "Arthur Koestler"
 			}
 		]
 	},
@@ -479,8 +479,8 @@
 				"Explanation": "The Blackshirts were fascist paramilitary armed squads in Italy during the period immediately following World War I and until the end of World War II."
 			},
 			{
-				"Text": "Redshirts",
-				"Explanation": "The Iron Guard is the name given to a far-right movement in Romania. They contributed a legion of Romanian fascists to the Nationalist cause, led by Ion Moța."
+				"Text": "Greenshirts",
+				"Explanation": "The Iron Guard (occasionally referred to as greenshirts) was a far-right movement in Romania. They contributed a legion of Romanian fascists to the Nationalist cause, led by Ion Moța."
 			},
 			{
 				"Text": "Silver Shirts",
@@ -686,7 +686,7 @@
 				"Text": "An alliance of left-wing parties and unions formed during the civil war"
 			},
 			{
-				"Text": "One of the main battle fronts over the war. It was situated in Eastern Spain"
+				"Text": "One of the main battle fronts of the war. It was situated in eastern Spain"
 			}
 		]
 	},
@@ -985,7 +985,7 @@
 	},
 	{
 		"Difficulty": "Hard",
-		"Question": "Andrés Nin was one of the leaders of the POUM - a Marxist inspire communist party that was not affiliated with the USSR. He was killed by:",
+		"Question": "Andrés Nin was one of the leaders of the POUM - a Marxist inspire communist party that was not affiliated with the USSR. He was tortured and killed by:",
 		"Image": "POUM poster 2.jpg",
 		"Answers":
 		[
@@ -1087,7 +1087,7 @@
 	{
 		"Difficulty": "Medium",
 		"Question": "The actions of the British Royal Navy were astonishing for a non-interventionist power. Not only were communications facilities provided in Gibraltar to speak directly to Rome, Berlin and Lisbon, but the battleship HMS Queen Elizabeth was moved in front of Algeciras bay to prevent republican warships shelling the port.",
-		"Explanation": "The claim above is a from Anthony Beevor's The Battle for Spain. Also from the same book: \"Britain would apply an arms embargo without waiting for other powers to respond. This in effect meant denying arms to the recognized government and often ignoring those going to the rebels, for the British government refused to acknowledge the proof of German and Italian intervention.\"",
+		"Explanation": "The claim above is from Anthony Beevor's The Battle for Spain. Also from the same book: \"Britain would apply an arms embargo without waiting for other powers to respond. This in effect meant denying arms to the recognized government and often ignoring those going to the rebels, for the British government refused to acknowledge the proof of German and Italian intervention.\"",
 		"Answers":
 		[
 			{
@@ -1191,7 +1191,7 @@
 	},
 	{
 		"Difficulty": "Medium",
-		"Question": "Salvador Dalí, as a prominent member of the Surrealist movement was sympathetic to the Republic's cause.",
+		"Question": "Salvador Dalí, as a prominent member of the Surrealist movement, was sympathetic to the Republic's cause.",
 		"Image": "salvador-dali-soft-construction-with-boiled-beans-premonition-of-civil-war.jpg",
 		"Answers":
 		[
@@ -1230,7 +1230,7 @@
 	},
 	{
 		"Difficulty": "Medium",
-		"Question": "When asked by the US journalist John T. Whitaker about his reason for killing 4,000 people during the Badajoz massacre (10% of the city's population), who answered:\r\n\r\n\"Of course we have killed them. What did you suppose? Will I take 4,000 red prisoners with my column, having to advance against the clock? Or will I leave them in my rearguard so that Badajoz will be red another time?\"",
+		"Question": "When asked by the US journalist John T. Whitaker about his reason for ordering the killing 4,000 people during the Badajoz massacre (10% of the city's population), who answered:\r\n\r\n\"Of course we killed them. What did you suppose? Will I take 4,000 red prisoners with my column, having to advance against the clock? Or will I leave them in my rearguard so that Badajoz will be red another time?\"",
 		"Explanation": "Yagüe, \"The Butcher of Badajoz\", was a colonel in the Nationalist army. He was one of the key Spanish officers that led the coup against the government. He was also a strong supporter of the Falange.",
 		"Answers":
 		[
@@ -1884,6 +1884,53 @@
 				"Text": "Marxists"
 			}
 		]
+	},
+	{
+		"Difficulty": "Easy",
+		"Question": "Throughout the period of the Spanish Civil War, which of the following powers was not pro-Nationalist?",
+		"Answers":
+		[
+			{
+				"Text": "France",
+				"Score": "1",
+				"Explanation": "France was initially pro-Republican. It aided the Republic and traded war material. France soon ended this activity and co-organised (with the UK) the Non-Intervention Committee that effectively aided the fascists."
+			},
+			{
+				"Text": "United Kingdom",
+				"Explanation": "The UK was decidedly pro-fascist throughout the war. It sent MI6 agents to transport Franco to Spanish Morocco. It's navy defended the Nationalist controlled city of Algeciras. It co-organised (with France) the Non-Intervention Committee that effectively aided the fascists."
+			},
+			{
+				"Text": "United States of America",
+				"Explanation": "In January 1937, the US government passed a resolution to ban the export of arms to Spain. However, US corporations supported the fascists - automakers supplied trucks to the Nationalists and DuPont supplied bombs (via Germany)."
+			},
+			{
+				"Text": "Portugal",
+				"Explanation": "In the first weeks of the war the Portuguese army tried to form a Viriatos Legion to aid the right-wing insurgents in Spain. The Legion was disbanded before any recruitment drive could take place after pro-Republican incidents in Portugal. Portugal contributed money, munitions, manpower and support to Nationalist forces throughout the war."
+			},
+			{
+				"Text": "All of the above",
+				"IsLast": "true"
+			}
+		]
+	},
+	{
+		"Difficulty": "Easy",
+		"Question": "The two main belligerents of the Spanish Civil War were:",
+		"Answers":
+		[
+			{
+				"Text": "Nationalists and republicans",
+				"Score": "1"
+			},
+			{
+				"Text": "Communists and fascists"
+			},
+			{
+				"Text": "Rebels and nationalists"
+			},
+			{
+				"Text": "Anarchists and Marxists"
+			}
+		]
 	}
 ]
-

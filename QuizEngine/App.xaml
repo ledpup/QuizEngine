@@ -73,6 +73,24 @@
             </Style>
 
             <Style
+                x:Key="AppCheckBoxStyle"
+                TargetType="CheckBox">
+
+                <Setter Property="FontFamily" Value="{StaticResource ContentControlThemeFontFamily}"/>
+                <Setter Property="Foreground" Value="{StaticResource AppWhite}"/>
+                <Setter Property="FontSize" Value="20"/>
+            </Style>
+
+            <Style
+                x:Key="AppRadioButtonStyle"
+                TargetType="RadioButton">
+
+                <Setter Property="FontFamily" Value="{StaticResource ContentControlThemeFontFamily}"/>
+                <Setter Property="Foreground" Value="{StaticResource AppWhite}"/>
+                <Setter Property="FontSize" Value="20"/>
+            </Style>
+
+            <Style
                 x:Key="AppSubtitleTextStyle"
                 BasedOn="{StaticResource AppBasicTextStyle}"
                 TargetType="TextBlock">
