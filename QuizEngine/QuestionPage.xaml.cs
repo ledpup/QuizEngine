@@ -73,15 +73,16 @@ namespace QuizEngine
             Answers.ItemWidth = ItemWidth;
 
             DisplayAnswers();
+            
+        }
 
+        private void AnimateHand()
+        {
             if (_quizQuestion.QuestionNumber == 1)
             {
+                imageToAnimate.Visibility = Visibility.Visible;
                 var f = Resources["Storyboard1"] as Storyboard;
                 if (f != null) f.Begin();
-            }
-            else
-            {
-                imageToAnimate.Visibility = Visibility.Collapsed;
             }
         }
 
@@ -230,6 +231,8 @@ namespace QuizEngine
 
         void button_Click(object sender, RoutedEventArgs e)
         {
+            AnimateHand();
+
             var button = ((Button) sender);
 
             foreach (Button answer in Answers.Children.Where(x => x is Button))
@@ -268,6 +271,8 @@ namespace QuizEngine
             {
                 button.Background = (SolidColorBrush)Application.Current.Resources["AppBlueBrush"];
             }
+
+            
         }
 
         private void imgQuestionImage_Tapped(object sender, TappedRoutedEventArgs e)

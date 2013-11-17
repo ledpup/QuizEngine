@@ -59,32 +59,32 @@
             this.InitializeComponent();
         }
 
-        /// <summary>
-        /// Enables the textBox for input.
-        /// </summary>
-        private void SliderButton_Click(object sender, RoutedEventArgs e)
-        {
-            this.textBox.IsEnabled = true;
-            this.textBox.Focus(FocusState.Programmatic);
-        }
+        ///// <summary>
+        ///// Enables the textBox for input.
+        ///// </summary>
+        //private void SliderButton_Click(object sender, RoutedEventArgs e)
+        //{
+        //    this.textBox.IsEnabled = true;
+        //    this.textBox.Focus(FocusState.Programmatic);
+        //}
 
-        /// <summary>
-        /// Returns to 'Label' mode.
-        /// </summary>
-        private void TextBox_LostFocus(object sender, RoutedEventArgs e)
-        {
-            this.textBox.IsEnabled = false;
-        }
+        ///// <summary>
+        ///// Returns to 'Label' mode.
+        ///// </summary>
+        //private void TextBox_LostFocus(object sender, RoutedEventArgs e)
+        //{
+        //    this.textBox.IsEnabled = false;
+        //}
 
-        /// <summary>
-        /// Return to 'Label' mode on Enter key.
-        /// </summary>
-        private void TextBox_KeyUp(object sender, KeyRoutedEventArgs e)
-        {
-            if (e.Key == Windows.System.VirtualKey.Enter)
-            {
-                this.textBox.IsEnabled = false;
-            }
-        }
+        ///// <summary>
+        ///// Return to 'Label' mode on Enter key.
+        ///// </summary>
+        //private void TextBox_KeyUp(object sender, KeyRoutedEventArgs e)
+        //{
+        //    if (e.Key == Windows.System.VirtualKey.Enter)
+        //    {
+        //        this.textBox.IsEnabled = false;
+        //    }
+        //}
     }
 }

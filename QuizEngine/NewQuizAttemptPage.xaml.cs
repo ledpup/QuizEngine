@@ -166,12 +166,12 @@ namespace QuizEngine
 
         private void Test_Checked(object sender, RoutedEventArgs e)
         {
-            QuizTypeDescription.Text = "Test: Timed quiz. Answers revealed at the end of quiz. One minute per question.";
+            QuizTypeDescription.Text = "Timed quiz.\r\nAnswers revealed at the end of quiz.\r\nOne minute per question.";
         }
 
         private void Practice_Checked(object sender, RoutedEventArgs e)
         {
-            QuizTypeDescription.Text = "Practice: No time-limit. Answers are displayed as you go. Green highlight = correct answer. Red highlight = incorrect answer.";
+            QuizTypeDescription.Text = "No time-limit.\r\nAnswers are displayed as you go.\r\nGreen highlight is a correct answer (red = incorrect).";
         }
 
         private void VisualStateChanged(object sender, WindowSizeChangedEventArgs e)

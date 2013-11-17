@@ -136,7 +136,7 @@
 	},
 	{
 		"Difficulty": "Hard",
-		"Question": "The International Brigades was composed of more people from __________ than any other of the combinations below.",
+		"Question": "The International Brigades was composed of more people from __________ than any of the other combinations below.",
 		"Explanation": "The International Brigades included 9,000 Frenchmen, 5,000 Germans and Austrians and 3,350 Italians.",
 		"Answers":
 		[
@@ -468,7 +468,7 @@
 			{
 				"Text": "Blueshirts",
 				"Score": "1",
-				"Explanation": "Their name (Camisas Azules in Spanish) refers to the blue uniform worn by the militia. The colour was chosen because it is the colour workers' overalls, as the Falange sought to gain support among the Spanish working class."
+				"Explanation": "Their name (Camisas Azules in Spanish) refers to the blue uniform worn by the militia. The colour was chosen because it was the colour of workers' overalls, as the Falange sought to gain support among the Spanish working class."
 			},
 			{
 				"Text": "Brownshirts",
@@ -743,7 +743,7 @@
 	{
 		"Difficulty": "Hard",
 		"Question": "The formation of which political party does the poster on the right refer?",
-		"Explanation": "The PSUC formed from four left-wing groups; the Catalan Federation of Spanish Socialist Workers' Party, Communist Party of Catalonia, Socialist Union of Catalonia and Proletarian Catalan Party. They aligned with Russian controlled communists.",
+		"Explanation": "The PSUC formed from four left-wing groups; the Catalan Federation of Spanish Socialist Workers' Party (PSO), Communist Party of Catalonia (PCC), Socialist Union of Catalonia (USC) and Proletarian Catalan Party (PCP). They aligned with Russian controlled communists (PCE).",
 		"Image": "PSUC Poster.jpg",
 		"Answers":
 		[
@@ -1259,7 +1259,7 @@
 				"Score": "1"
 			},
 			{
-				"Text": "The anarchists (CNT/FAI)"
+				"Text": "The anarchists (CNT-FAI)"
 			},
 			{
 				"Text": "The Popular Front"
@@ -1544,7 +1544,7 @@
 	},
 	{
 		"Difficulty": "Hard",
-		"Question": "What was the best quality tank of the Spanish Civil War?",
+		"Question": "What was the best tank of the Spanish Civil War?",
 		"Image": "T-26 tank in Spain.jpg",
 		"Answers":
 		[
@@ -1720,7 +1720,7 @@
 				"Explanation": "The POUM's youth movement was the JCI (Juventud Comunista Ibérica - Iberian Communist Youth)."
 			},
 			{
-				"Text": "CNT/FAI",
+				"Text": "CNT-FAI",
 				"Explanation": "The anarchist youth movement was the FIJL (Federación Ibérica de Juventudes Libertarias - Iberian Federation of Libertarian Youth)."
 			},
 			{
@@ -1930,6 +1930,87 @@
 			},
 			{
 				"Text": "Anarchists and Marxists"
+			}
+		]
+	},
+	{
+		"Difficulty": "Medium",
+		"Question": "The anarchist movement in Spain, like much of Europe at the time, was only influential in the rural regions of Spain. Anarchism did not have much appeal to the Spanish working class.",
+		"Explanation": "Though it is true that large rural areas of Spain (Andalusia, Aragon, the Levant) were strongly anarchist, anarchism was popular in some of the most industrialised cities of Spain, such as Barcelona, Madrid, Zaragosa and Valencia. Anarcho-syndicalism, an entirely industrial tendency of anarchism, was one of the largest movements in Spain.",
+		"Answers":
+		[
+			{
+				"Text": "False",
+				"Score": "0.5"
+			},
+			{
+				"Text": "True"
+			}
+		]
+	},
+	{
+		"Difficulty": "Easy",
+		"Question": "What was the most prevalent anarchist tendency in Spain up to and during the civil war?",
+		"Answers":
+		[
+			{
+				"Text": "Anarcho-syndicalism",
+				"Score": "1"
+			},
+			{
+				"Text": "Anarcho-communism"
+			},
+			{
+				"Text": "Anarcho-capitalism"
+			},
+			{
+				"Text": "Mutualism"
+			},
+			{
+				"Text": "Platformism"
+			}
+		]
+	},
+	{
+		"Difficulty": "Hard",
+		"Question": "What was the smallest organisational unit of the FAI (Federation of Iberian Anarchists)?",
+		"Answers":
+		[
+			{
+				"Text": "Affinity group",
+				"Score": "1"
+			},
+			{
+				"Text": "Revolutionary cell"
+			},
+			{
+				"Text": "Workers' centre"
+			},
+			{
+				"Text": "Commune"
+			},
+			{
+				"Text": "Syndicate"
+			}
+		]
+	},
+	{
+		"Difficulty": "Hard",
+		"Question": "What was the relationship between the FAI and AIT?",
+		"Answers":
+		[
+			{
+				"Text": "The FAI was the Iberian member organisation of the AIT",
+				"Score": "1"
+			},
+			{
+				"Text": "The FAI was the militant, anarcho-communist wing of the AIT"
+			},
+			{
+				"Text": "The AIT and FAI were competing anarchist organisations within Spain"
+			},
+			{
+				"Text": "The AIT was succeeded by the FAI when it formed in 1927"
 			}
 		]
 	}
