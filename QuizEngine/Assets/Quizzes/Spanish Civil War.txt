@@ -183,6 +183,7 @@
 		"Difficulty": "Hard",
 		"Question": "The POUM were outlawed in June 1937 because they were \"__________\".",
 		"Image": "POUM poster.jpg",
+		"ImageText": "Workers\r\nThe POUM gives you hope",
 		"Explanation": "\"'Trotskyism', according to Frente Rojo (the Valencia Communist paper) 'is not a political doctrine. Trotskyism is an official capitalist organization, a Fascist terrorist band occupied in crime and sabotage against the people.' The P.O.U.M. was a 'Trotskyist' organization in league with the Fascists and part of 'Franco's Fifth Column'.\" - George Orwell, Homage to Catalonia",
 		"Answers":
 		[
@@ -895,6 +896,7 @@
 		"Question": "Why does this poster, created in the Asturias region, refer to the year 1934?",
 		"Explanation": "The Asturian miners' strike of 1934 was a major strike action, against CEDA entering the government. It took took place in Asturias in northern Spain and developed into a revolutionary uprising. It was crushed by the Spanish Navy and the Spanish Republican Army, the latter using mainly Moorish troops from Spanish Morocco.",
 		"Image": "Asturias.jpg",
+		"ImageText": "Help! the families of the combatants of the north",
 		"Answers":
 		[
 			{
@@ -940,7 +942,7 @@
 		"Difficulty": "Medium",
 		"Question": "What occurred in the Extremadura region of Spain in 1936 before the invasion by the Army of Africa?",
 		"Image": "Extremadura.png",
-		"Explanation": "\"[...] the Army strategically butchered and terrorised the pro-Republican population, especially the rural landless [...] It was a war of agrarian counter-reform [...] The large landowners who owned the vast estates which covered most of the southern half of Spain rode along [...] to reclaim by force of arms the land on which the Republic had settled the landless poor.\" - Helen Graham, The Spanish Civil War. A very short introduction",
+		"Explanation": "\"[...] the Army strategically butchered and terrorised the pro-Republican population, especially the rural landless [...] It was a war of agrarian counter-reform [...] The large landowners who owned the vast estates which covered most of the southern half of Spain rode along [...] to reclaim by force of arms the land on which the Republic had settled the landless poor.\" - Helen Graham, The Spanish Civil War: A very short introduction",
 		"Answers":
 		[
 			{
@@ -987,6 +989,7 @@
 		"Difficulty": "Hard",
 		"Question": "Andrés Nin was one of the leaders of the POUM - a Marxist inspire communist party that was not affiliated with the USSR. He was tortured and killed by:",
 		"Image": "POUM poster 2.jpg",
+		"ImageText": "Peasants\r\nThe land is yours",
 		"Answers":
 		[
 			{
@@ -1008,6 +1011,7 @@
 		"Difficulty": "Hard",
 		"Question": "What was the name of the first International Brigade that was formed?",
 		"Image": "International Brigades poster.jpg",
+		"ImageText": "From the Popular Front of Madrid to the Popular Front of the world\r\nHomage to the International Brigades",
 		"Answers":
 		[
 			{
@@ -1193,6 +1197,7 @@
 		"Difficulty": "Medium",
 		"Question": "Salvador Dalí, as a prominent member of the Surrealist movement, was sympathetic to the Republic's cause.",
 		"Image": "salvador-dali-soft-construction-with-boiled-beans-premonition-of-civil-war.jpg",
+		"ImageText": "Soft Construction with Boiled Beans (Premonition of Civil War)",
 		"Answers":
 		[
 			{
@@ -1829,6 +1834,7 @@
 		"Difficulty": "Medium",
 		"Question": "Who used the phrase \"¡No pasarán!\" (\"They shall not pass!\") in their speech for the defence of Madrid in July 1936?",
 		"Image": "No pasaran.png",
+		"ImageText": "They shall not pass!\r\nFascism wants to conquer Madrid\r\nMadrid will be the tomb of fascism",
 		"Answers":
 		[
 			{
@@ -2011,6 +2017,75 @@
 			},
 			{
 				"Text": "The AIT was succeeded by the FAI when it formed in 1927"
+			}
+		]
+	},
+	{
+		"Difficulty": "Medium",
+		"Question": "The fascist Italian state, under control by Benito Mussolini, contributed how many Italian troops to the Nationalist's cause during the civil war?",
+		"Image": "La garra del invasor Italiano.png",
+		"ImageText": "The claw of the Italian invader intends to enslave us",
+		"Explanation": "\"Such was the scale of Mussolini's aid in weaponry and manpower (75,000 troops), we can say that from March 1937 Fascist Italy was at war with the Spanish Republic.\" - Helen Graham, The Spanish Civil War: A very short introduction",
+		"Answers":
+		[
+			{
+				"Text": "75,000",
+				"Score": "1"
+			},
+			{
+				"Text": "150,000"
+			},
+			{
+				"Text": "20,000"
+			},
+			{
+				"Text": "5,000"
+			}
+		]
+	},
+	{
+		"Difficulty": "Medium",
+		"Question": "In an interview with Jay Allen, Francisco Franco stated: \"I will save Spain from Marxism whatever the cost.\"\r\nAllen then asked: \"And if that means shooting half of Spain?\"\r\nWhat was Franco's famous response?",
+		"Answers":
+		[
+			{
+				"Text": "\"As I said, whatever the cost.\"",
+				"Score": "1"
+			},
+			{
+				"Text": "\"It won't come to that.\""
+			},
+			{
+				"Text": "\"If it means shooting all of Spain, I'd do it.\""
+			},
+			{
+				"Text": "\"Long live death!\"",
+				"Explanation": "\"Long live death!\" was a battle cry of the Nationalists, but was not Franco's response."
+			}
+		]
+	},
+	{
+		"Difficulty": "Medium",
+		"Question": "Who was regarded as \"the blue-eyed Lenin of the Spanish Revolution\"?",
+		"Image": "Largo Caballero.jpg",
+		"Answers":
+		[
+			{
+				"Text": "Largo Caballero",
+				"Score": "1",
+				"Explanation": "Largo Caballero was one of the historic leaders of the Spanish Socialist Workers' Party (PSOE) and of the Workers' General Union (UGT). In 1936 and 1937 Caballero served as the Prime Minister of the Second Spanish Republic during the Spanish Civil War."
+			},
+			{
+				"Text": "Juan Negrín"
+			},
+			{
+				"Text": "Andreu Nin"
+			},
+			{
+				"Text": "Enrique Líster"
+			},
+			{
+				"Text": "Valentín González (El Campesino)"
 			}
 		]
 	}

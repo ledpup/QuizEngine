@@ -444,6 +444,8 @@ namespace QuizEngine
         [DataMemberAttribute]
         public string Image;
         [DataMemberAttribute]
+        public string ImageText;
+        [DataMemberAttribute]
         public string Copyright;
         [DataMemberAttribute]
         public string Explanation;
@@ -491,6 +493,7 @@ namespace QuizEngine
         }
 
         private float _score;
+
 
         public string ImageFullPath { get { return "Assets/Quizzes/" + MainPage.Quiz + "/" + Image; } }
     }

@@ -67,10 +67,18 @@
             Canvas.ZIndex="1"
             Margin="10,0,10,0">
 
-                <Image
-                x:Name="imgQuestionImage"
-                Source="{Binding}"
-                Stretch="Uniform" Tapped="imgQuestionImage_Tapped" />
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition ></RowDefinition>
+                        <RowDefinition Height="Auto" ></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <Image
+                    x:Name="imgQuestionImage" Grid.Row="0"
+                    Source="{Binding}"
+                    Stretch="Uniform" Tapped="imgQuestionImage_Tapped" />
+
+                    <TextBlock x:Name="ImageText" Grid.Row="1" Style="{StaticResource AppDescriptionTextStyle}" HorizontalAlignment="Center" TextAlignment="Center" Visibility="Collapsed"></TextBlock>
+                </Grid>
             </Border>
 
             <Border

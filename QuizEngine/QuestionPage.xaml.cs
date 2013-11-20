@@ -65,8 +65,11 @@ namespace QuizEngine
             brdImageBorderVisibility.Visibility = ImageBorderVisibility;
 
             imgQuestionImage.DataContext = QuestionImage;
-
-
+            if (_quizQuestion.ImageText != null)
+            {
+                ImageText.Text = _quizQuestion.ImageText;
+                ImageText.Visibility = Visibility.Visible;
+            }
 
             //_appPageInfo = new GesturePageInfo(this);//uniqueId, title, description, similarTo, imagePath, this);
 

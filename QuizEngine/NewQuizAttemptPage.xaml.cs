@@ -88,15 +88,13 @@ namespace QuizEngine
             var quizText = await ExtensionMethods.ReadQuizFromFile(@"Assets\Quizzes\" + MainPage.Quiz + ".txt");
 
             _completeQuizQuestions = ExtensionMethods.Deserialize<List<QuizQuestion>>(quizText);
-
-            //_completeQuizQuestions.Reverse();
         }
 
         private void StartQuiz_Click(object sender, RoutedEventArgs e)
         {
             _quizConfig.NumberOfQuestions = (int)NumberOfQuestions.Value;
-            _quizQuestions.Shuffle();
-            //_quizQuestions.Reverse();
+            //_quizQuestions.Shuffle();
+            _quizQuestions.Reverse();
             _quizQuestions = _quizQuestions.Take(_quizConfig.NumberOfQuestions).ToList();
 
             for (var i = 0; i < _quizQuestions.Count; i++)
