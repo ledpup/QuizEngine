@@ -89,9 +89,8 @@ namespace QuizEngine
 
             gesturesViewSource.Source = _pages;
 
-            SelectBackgroundImage();
-
-            
+            SelectBackgroundImage(BackImage, _random, "backgrounds");
+            SelectBackgroundImage(BackgroundImageSnappedOrFilledScreen, _random, "backgrounds - main");
         }
 
         /// <summary>
@@ -139,38 +138,38 @@ namespace QuizEngine
             }
         }
 
-        public async Task<IReadOnlyList<StorageFile>> GetFiles()
+        public static async Task<IReadOnlyList<StorageFile>> GetFiles(string folder)
         {
-            StorageFolder folder = await Windows.ApplicationModel.Package.Current.InstalledLocation.GetFolderAsync("Assets\\Quizzes\\Spanish Civil War backgrounds");
+            StorageFolder storageFolder = await Windows.ApplicationModel.Package.Current.InstalledLocation.GetFolderAsync("Assets\\Quizzes\\" + Quiz + " " + folder);
             
             if (folder != null)
-                return await folder.GetFilesAsync();
+                return await storageFolder.GetFilesAsync();
             else
                 return null;
         }
 
-        async void SelectBackgroundImage()
+        public static async void SelectBackgroundImage(ImageBrush image, Random random, string folder)
         {
-            var fileList = await GetFiles();
+            var fileList = await GetFiles(folder);
 
-            var backgroundIndex = _random.Next(fileList.Count);
+            var backgroundIndex = random.Next(fileList.Count);
 
-            _backgroundImage = new BitmapImage(new Uri(string.Format("ms-appx:///Assets/Quizzes/{0} backgrounds/{1}", Quiz, fileList[backgroundIndex].Name)));
+            var backgroundImage = new BitmapImage(new Uri(string.Format("ms-appx:///Assets/Quizzes/{0} {1}/{2}", Quiz, folder, fileList[backgroundIndex].Name)));
 
-            BackImage.ImageSource = BackgroundImage;
+            image.ImageSource = backgroundImage;
         }
 
-        private BitmapImage _backgroundImage;
-        public BitmapImage BackgroundImage
-        {
-            get
-            {
-                if (_backgroundImage == null)
-                    throw new Exception("Background image has not been set");
+        //private BitmapImage _backgroundImage;
+        //public BitmapImage BackgroundImage
+        //{
+        //    get
+        //    {
+        //        if (_backgroundImage == null)
+        //            throw new Exception("Background image has not been set");
 
-                return _backgroundImage;
-            }
-        }
+        //        return _backgroundImage;
+        //    }
+        //}
 
         private void PrepareQuestions(IEnumerable<QuizQuestion> quizQuestions)
         {

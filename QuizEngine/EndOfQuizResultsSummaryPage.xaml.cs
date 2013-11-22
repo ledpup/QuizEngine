@@ -28,6 +28,9 @@ namespace QuizEngine
         {
             this.InitializeComponent();
 
+            var random = new Random();
+            MainPage.SelectBackgroundImage(BackgroundImageSnappedOrFilledScreen, random, "backgrounds - main");
+
             Window.Current.SizeChanged += VisualStateChanged;
         }
 

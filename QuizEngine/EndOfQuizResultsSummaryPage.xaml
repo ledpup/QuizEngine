@@ -9,7 +9,7 @@
     <Grid>
         <Grid x:Name="SnappedOrFilledScreen">
             <Grid.Background>
-                <ImageBrush Stretch="Uniform" ImageSource="Assets/Quizzes/Spanish Civil War - main background.jpg"></ImageBrush>
+                <ImageBrush x:Name="BackgroundImageSnappedOrFilledScreen" Stretch="Uniform" ></ImageBrush>
             </Grid.Background>
             <TextBlock Margin="20" Style="{StaticResource AppTitleTextStyle}" Foreground="White">Spanish Civil War Quiz</TextBlock>
         </Grid>

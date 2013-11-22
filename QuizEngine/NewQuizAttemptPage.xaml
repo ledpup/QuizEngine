@@ -35,14 +35,14 @@
     <Grid>
         <Grid x:Name="SnappedOrFilledScreen">
             <Grid.Background>
-                <ImageBrush Stretch="Uniform" ImageSource="Assets/Quizzes/Spanish Civil War - main background.jpg"></ImageBrush>
+                <ImageBrush x:Name="BackgroundImageSnappedOrFilledScreen" Stretch="Uniform"></ImageBrush>
             </Grid.Background>
             <TextBlock Margin="20" Style="{StaticResource AppTitleTextStyle}" Foreground="White">Spanish Civil War Quiz</TextBlock>
         </Grid>
 
         <Grid x:Name="Fullscreen">
             <Grid.Background>
-                <ImageBrush Stretch="UniformToFill" AlignmentY="Top" Opacity="0.5" ImageSource="ms-appx:///Assets/Quizzes/Spanish Civil War - main background.jpg" />
+                <ImageBrush x:Name="BackgroundImage" Stretch="UniformToFill" AlignmentY="Top" Opacity="0.5" />
             </Grid.Background>
 
             <Grid.ColumnDefinitions>
@@ -52,7 +52,7 @@
             </Grid.ColumnDefinitions>
             <Grid.RowDefinitions>
                 <RowDefinition Height="*"/>
-                <RowDefinition Height="3*"/>
+                <RowDefinition Height="3.5*"/>
                 <RowDefinition Height="*"/>
             </Grid.RowDefinitions>
 
@@ -60,13 +60,14 @@
 
             <Rectangle x:Name="Rectangle" HorizontalAlignment="Center" Margin="0" VerticalAlignment="Center" Grid.Column="1" Stretch="UniformToFill" Grid.Row="1" Fill="{StaticResource BlackBrush}" Opacity="0.5" />
 
-            <Grid x:Name="Controls" Grid.Column="1" Grid.Row="1" Margin="15">
+            <Grid x:Name="Controls" Grid.Column="1" Grid.Row="1" Margin="10">
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="*"/>
                     <ColumnDefinition Width="Auto"/>
                     <ColumnDefinition Width="3.5*"/>
                 </Grid.ColumnDefinitions>
                 <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
                     <RowDefinition Height="*"/>
                     <RowDefinition Height="*"/>
                     <RowDefinition Height="*"/>
@@ -88,13 +89,17 @@
                 <TextBlock Grid.Column="0" Grid.Row="2" Style="{StaticResource AppDescriptionTextStyle}" VerticalAlignment="Center">Quiz mode:</TextBlock>
                     
                     <StackPanel Grid.Column="1" Grid.Row="2" Orientation="Vertical" VerticalAlignment="Center">
-                        <RadioButton x:Name="Practice" GroupName="Group1" Padding="10" Width="125" Checked="Practice_Checked" Style="{StaticResource AppRadioButtonStyle}">Practice</RadioButton>
-                        <RadioButton x:Name="Test" GroupName="Group1" Padding="10" Width="125" Checked="Test_Checked" Style="{StaticResource AppRadioButtonStyle}">Test</RadioButton>
+                        <RadioButton x:Name="Practice" GroupName="Group1" Padding="10" Checked="Practice_Checked" Style="{StaticResource AppRadioButtonStyle}">Practice</RadioButton>
+                        <RadioButton x:Name="Test" GroupName="Group1" Padding="10" Checked="Test_Checked" Style="{StaticResource AppRadioButtonStyle}">Test</RadioButton>
                     </StackPanel>
                 <TextBlock x:Name="QuizTypeDescription" Grid.Column="2" Grid.Row="2" Margin="20,0,0,0" Style="{StaticResource AppDescriptionTextStyle}" VerticalAlignment="Center" />
-                
-                <Button x:Name="StartQuiz" Grid.Column="0" Grid.Row="3" Grid.ColumnSpan="3" HorizontalAlignment="Center" Click="StartQuiz_Click" Padding="10" Width="250">Start Quiz</Button>
-                <TextBlock x:Name="DifficultyWarning" Grid.Column="0" Grid.Row="4" Grid.ColumnSpan="3" FontWeight="Bold" Foreground="{StaticResource RedBrush}" Style="{StaticResource AppDescriptionTextStyle}" HorizontalAlignment="Center" Visibility="Collapsed">At least one difficulty level needs to be selected to start the quiz.</TextBlock>
+                <TextBlock Grid.Column="0" Grid.Row="3" Style="{StaticResource AppDescriptionTextStyle}" VerticalAlignment="Center">Question order:</TextBlock>
+                <StackPanel Grid.Column="1" Grid.Row="3" Grid.ColumnSpan="2" Orientation="Horizontal" VerticalAlignment="Center">
+                    <RadioButton x:Name="RandomOrder" GroupName="Group2" Padding="10" Style="{StaticResource AppRadioButtonStyle}" IsChecked="True">Random</RadioButton>
+                    <RadioButton GroupName="Group2" Padding="10"  Style="{StaticResource AppRadioButtonStyle}">Newest to oldest</RadioButton>
+                </StackPanel>
+                <Button x:Name="StartQuiz" Grid.Column="0" Grid.Row="4" Grid.ColumnSpan="3" HorizontalAlignment="Center" Click="StartQuiz_Click" Padding="10" Width="250">Start Quiz</Button>
+                <TextBlock x:Name="DifficultyWarning" Grid.Column="0" Grid.Row="5" Grid.ColumnSpan="3" FontWeight="Bold" Foreground="{StaticResource RedBrush}" Style="{StaticResource AppDescriptionTextStyle}" HorizontalAlignment="Center" Visibility="Collapsed">At least one difficulty level needs to be selected to start the quiz.</TextBlock>
             </Grid>
         </Grid>
 

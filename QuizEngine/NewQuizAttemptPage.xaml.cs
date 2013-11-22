@@ -50,6 +50,10 @@ namespace QuizEngine
             Hard_Click(Hard, null);
             Practice.IsChecked = true;
             Practice_Checked(null, null);
+
+            var random = new Random();
+            MainPage.SelectBackgroundImage(BackgroundImageSnappedOrFilledScreen, random, "backgrounds - main");
+            MainPage.SelectBackgroundImage(BackgroundImage, random, "backgrounds - main");
             //NumberOfQuestions.Maximum = _completeQuizQuestions.Count;
         }
 
@@ -93,8 +97,14 @@ namespace QuizEngine
         private void StartQuiz_Click(object sender, RoutedEventArgs e)
         {
             _quizConfig.NumberOfQuestions = (int)NumberOfQuestions.Value;
-            //_quizQuestions.Shuffle();
-            _quizQuestions.Reverse();
+            if ((bool) RandomOrder.IsChecked)
+            {
+                _quizQuestions.Shuffle();
+            }
+            else
+            {
+                _quizQuestions.Reverse();
+            }
             _quizQuestions = _quizQuestions.Take(_quizConfig.NumberOfQuestions).ToList();
 
             for (var i = 0; i < _quizQuestions.Count; i++)
@@ -164,12 +174,12 @@ namespace QuizEngine
 
         private void Test_Checked(object sender, RoutedEventArgs e)
         {
-            QuizTypeDescription.Text = "Timed quiz.\r\nAnswers revealed at the end of quiz.\r\nOne minute per question.";
+            QuizTypeDescription.Text = "Timed quiz\r\nAnswers revealed at the end of quiz\r\nOne minute per question";
         }
 
         private void Practice_Checked(object sender, RoutedEventArgs e)
         {
-            QuizTypeDescription.Text = "No time-limit.\r\nAnswers are displayed as you go.\r\nGreen highlight is a correct answer (red = incorrect).";
+            QuizTypeDescription.Text = "No time-limit\r\nAnswers are displayed as you go\r\nGreen highlight is a correct answer (red is incorrect)";
         }
 
         private void VisualStateChanged(object sender, WindowSizeChangedEventArgs e)

@@ -124,7 +124,7 @@
 				"Text": "Basque Country"
 			},
 			{
-				"Text": "Aragon"
+				"Text": "Aragón"
 			},
 			{
 				"Text": "Andalusia"
@@ -183,7 +183,7 @@
 		"Difficulty": "Hard",
 		"Question": "The POUM were outlawed in June 1937 because they were \"__________\".",
 		"Image": "POUM poster.jpg",
-		"ImageText": "Workers\r\nThe POUM gives you hope",
+		"ImageText": "\"Workers\r\nThe POUM gives you hope\"",
 		"Explanation": "\"'Trotskyism', according to Frente Rojo (the Valencia Communist paper) 'is not a political doctrine. Trotskyism is an official capitalist organization, a Fascist terrorist band occupied in crime and sabotage against the people.' The P.O.U.M. was a 'Trotskyist' organization in league with the Fascists and part of 'Franco's Fifth Column'.\" - George Orwell, Homage to Catalonia",
 		"Answers":
 		[
@@ -684,7 +684,7 @@
 				"Text": "A coalition of right-wing parties that contested the national elections in February 1936"
 			},
 			{
-				"Text": "An alliance of left-wing parties and unions formed during the civil war"
+				"Text": "An alliance of left-wing parties and unions formed during the Civil War"
 			},
 			{
 				"Text": "One of the main battle fronts of the war. It was situated in eastern Spain"
@@ -896,7 +896,7 @@
 		"Question": "Why does this poster, created in the Asturias region, refer to the year 1934?",
 		"Explanation": "The Asturian miners' strike of 1934 was a major strike action, against CEDA entering the government. It took took place in Asturias in northern Spain and developed into a revolutionary uprising. It was crushed by the Spanish Navy and the Spanish Republican Army, the latter using mainly Moorish troops from Spanish Morocco.",
 		"Image": "Asturias.jpg",
-		"ImageText": "Help! the families of the combatants of the north",
+		"ImageText": "\"Help the families of the combatants of the north!\"",
 		"Answers":
 		[
 			{
@@ -968,7 +968,7 @@
 		"Answers":
 		[
 			{
-				"Text": "Catalonia and Aragon",
+				"Text": "Catalonia and Aragón",
 				"Score": "1"
 			},
 			{
@@ -989,7 +989,7 @@
 		"Difficulty": "Hard",
 		"Question": "Andrés Nin was one of the leaders of the POUM - a Marxist inspire communist party that was not affiliated with the USSR. He was tortured and killed by:",
 		"Image": "POUM poster 2.jpg",
-		"ImageText": "Peasants\r\nThe land is yours",
+		"ImageText": "\"Peasants\r\nThe land is yours\"",
 		"Answers":
 		[
 			{
@@ -1011,7 +1011,7 @@
 		"Difficulty": "Hard",
 		"Question": "What was the name of the first International Brigade that was formed?",
 		"Image": "International Brigades poster.jpg",
-		"ImageText": "From the Popular Front of Madrid to the Popular Front of the world\r\nHomage to the International Brigades",
+		"ImageText": "\"From the Popular Front of Madrid to the Popular Front of the world\r\nHomage to the International Brigades\"",
 		"Answers":
 		[
 			{
@@ -1055,18 +1055,19 @@
 	},
 	{
 		"Difficulty": "Medium",
-		"Question": "Why did Franco decide not to attack Barcelona towards the end of the Aragon campaign, instead heading towards the coast around Vinaròs?",
+		"Question": "Why did Franco decide not to attack Barcelona towards the end of the Aragón campaign, instead heading towards the coast around Vinaròs?",
 		"Answers":
 		[
 			{
 				"Text": "He was concerned that France would intervene in the war and support Catalonia",
-				"Score": "1"
+				"Score": "1",
+				"Explanation": "\"More importantly, however, to have launched an offensive against Catalonia at that point would have left a substantial Republican force in the centre-south zone. Turning away from Catalonia in spring 1938 and towards the centre-south army, thus lengthening the conflict, was about maximizing the destruction and demoralization visited on the Republic’s human resources. It was, then, entirely consistent with Franco’s underlying war aims.\" - Helen Graham, The Spanish Civil War: A very short introduction"
 			},
 			{
 				"Text": "The Republic army was too heavily defended around Barcelona"
 			},
 			{
-				"Text": "The Nationalist forces were heavily demoralised after the Aragon offensive"
+				"Text": "The Nationalist forces were heavily demoralised after the Aragón offensive"
 			},
 			{
 				"Text": "Franco had heard news of the Republican build-up that became the Battle of Ebro"
@@ -1076,7 +1077,7 @@
 	{
 		"Difficulty": "Medium",
 		"Question": "The USA, not wanting to be seen siding with fascists nor wanting to appear pro-communist, followed the lead of the Non-Intervention Committee and did not get involved in the Spanish Civil War.",
-		"Explanation": "Because of pressure from the Catholic lobby, the USA did not trade with the Republic. However, \"Ford, Studebaker and General Motors supplied 12,000 trucks to the nationalists, nearly three times as many as the Axis powers, and the chemical giant, Dupont of Nemours, provided 40,000 bombs, sending them via Germany so as to circumvent the Neutrality Act. In 1945 the under-secretary at the Spanish foreign ministry, José Maria Doussinague, admitted that 'without American petroleum and American trucks and American credit, we could never have won the civil war'.\" - Anthony Beevor, The Battle for Spain",
+		"Explanation": "Because of pressure from the Catholic lobby, the USA did not trade with the Republic. However, \"Ford, Studebaker and General Motors supplied 12,000 trucks to the nationalists, nearly three times as many as the Axis powers, and the chemical giant, Dupont of Nemours, provided 40,000 bombs, sending them via Germany so as to circumvent the Neutrality Act. In 1945 the under-secretary at the Spanish foreign ministry, José Maria Doussinague, admitted that 'without American petroleum and American trucks and American credit, we could never have won the Civil War'.\" - Anthony Beevor, The Battle for Spain",
 		"Answers":
 		[
 			{
@@ -1176,20 +1177,20 @@
 		"Answers":
 		[
 			{
-				"Text": "Andalusia, Extremadura, Basque Country, Asturias, Aragon, Catalonia, New Castile",
+				"Text": "Andalusia, Extremadura, Basque Country, Asturias, Aragón, Catalonia, New Castile",
 				"Score": "1"
 			},
 			{
-				"Text": "Andalusia, Extremadura, Aragon, Catalonia, New Castile, Basque Country, Asturias"
+				"Text": "Andalusia, Extremadura, Aragón, Catalonia, New Castile, Basque Country, Asturias"
 			},
 			{
-				"Text": "Basque Country, Asturias, Andalusia, Extremadura, New Castile, Catalonia, Aragon"
+				"Text": "Basque Country, Asturias, Andalusia, Extremadura, New Castile, Catalonia, Aragón"
 			},
 			{
-				"Text": "Andalusia, Extremadura, Aragon, Basque Country, Asturias, New Castile, Catalonia"
+				"Text": "Andalusia, Extremadura, Aragón, Basque Country, Asturias, New Castile, Catalonia"
 			},
 			{
-				"Text": "Andalusia, Basque Country, Extremadura, Asturias, Catalonia, Aragon, New Castile"
+				"Text": "Andalusia, Basque Country, Extremadura, Asturias, Catalonia, Aragón, New Castile"
 			}
 		]
 	},
@@ -1296,7 +1297,7 @@
 	},
 	{
 		"Difficulty": "Easy",
-		"Question": "At the end of the civil war, to where did the majority of left-wing Spaniards retreat?",
+		"Question": "At the end of the Civil War, to where did the majority of left-wing Spaniards retreat?",
 		"Answers":
 		[
 			{
@@ -1359,7 +1360,7 @@
 				"Text": "The abandonment of the Republican militia system"
 			},
 			{
-				"Text": "The end of anarchist control of Aragon and Catalonia"
+				"Text": "The end of anarchist control of Aragón and Catalonia"
 			}
 		]
 	},
@@ -1784,7 +1785,7 @@
 	},
 	{
 		"Difficulty": "Medium",
-		"Question": "What were the names of the German and Italian corps that operated in Spain during the civil war?",
+		"Question": "What were the names of the German and Italian corps that operated in Spain during the Civil War?",
 		"Image": "Condor Legion 1.png",
 		"Answers":
 		[
@@ -1834,7 +1835,7 @@
 		"Difficulty": "Medium",
 		"Question": "Who used the phrase \"¡No pasarán!\" (\"They shall not pass!\") in their speech for the defence of Madrid in July 1936?",
 		"Image": "No pasaran.png",
-		"ImageText": "They shall not pass!\r\nFascism wants to conquer Madrid\r\nMadrid will be the tomb of fascism",
+		"ImageText": "\"They shall not pass!\r\nFascism wants to conquer Madrid\r\nMadrid will be the tomb of fascism\"",
 		"Answers":
 		[
 			{
@@ -1899,7 +1900,7 @@
 			{
 				"Text": "France",
 				"Score": "1",
-				"Explanation": "France was initially pro-Republican. It aided the Republic and traded war material. France soon ended this activity and co-organised (with the UK) the Non-Intervention Committee that effectively aided the fascists."
+				"Explanation": "France was initially pro-Republican. It aided the Republic and traded war materiel. France soon ended this activity and co-organised (with the UK) the Non-Intervention Committee that effectively aided the fascists."
 			},
 			{
 				"Text": "United Kingdom",
@@ -1907,7 +1908,7 @@
 			},
 			{
 				"Text": "United States of America",
-				"Explanation": "In January 1937, the US government passed a resolution to ban the export of arms to Spain. However, US corporations supported the fascists - automakers supplied trucks to the Nationalists and DuPont supplied bombs (via Germany)."
+				"Explanation": "In January 1937, the US government passed a resolution to ban the export of arms to Spain. However, US corporations supported the fascists - automakers supplied trucks to the Nationalists, Texaco supplied oil and DuPont supplied bombs (via Germany)."
 			},
 			{
 				"Text": "Portugal",
@@ -1941,8 +1942,8 @@
 	},
 	{
 		"Difficulty": "Medium",
-		"Question": "The anarchist movement in Spain, like much of Europe at the time, was only influential in the rural regions of Spain. Anarchism did not have much appeal to the Spanish working class.",
-		"Explanation": "Though it is true that large rural areas of Spain (Andalusia, Aragon, the Levant) were strongly anarchist, anarchism was popular in some of the most industrialised cities of Spain, such as Barcelona, Madrid, Zaragosa and Valencia. Anarcho-syndicalism, an entirely industrial tendency of anarchism, was one of the largest movements in Spain.",
+		"Question": "The anarchist movement in Spain, like much of Europe at the time, was only influential with peasants in the rural regions of Spain. Anarchism did not have much appeal to the Spanish working class.",
+		"Explanation": "Large rural areas of Spain (Andalusia, Aragón, the Levant) had a large anarchist base. However, anarchism was popular in some of the most industrialised cities of Spain, such as Barcelona, Madrid, Zaragoza and Valencia. Anarcho-syndicalism, a predominantly industrial tendency of anarchism, was one of the largest movements in Spain.",
 		"Answers":
 		[
 			{
@@ -1956,7 +1957,9 @@
 	},
 	{
 		"Difficulty": "Easy",
-		"Question": "What was the most prevalent anarchist tendency in Spain up to and during the civil war?",
+		"Question": "What was the most prevalent anarchist tendency in Spain up to and during the Civil War?",
+		"Image": "Columna de Hierro poster 2.jpg",
+		"ImageText": "\"Iron Column\r\nFor a free humanity!\r\nFor anarchy!\"",
 		"Answers":
 		[
 			{
@@ -2003,6 +2006,8 @@
 	{
 		"Difficulty": "Hard",
 		"Question": "What was the relationship between the FAI and AIT?",
+		"Image": "Camarada.jpg",
+		"ImageText": "\"Comrade!\r\nWork and struggle for the revolution\"",
 		"Answers":
 		[
 			{
@@ -2022,9 +2027,9 @@
 	},
 	{
 		"Difficulty": "Medium",
-		"Question": "The fascist Italian state, under control by Benito Mussolini, contributed how many Italian troops to the Nationalist's cause during the civil war?",
+		"Question": "The fascist Italian state, under control by Benito Mussolini, contributed how many Italian troops to the Nationalist's cause during the Civil War?",
 		"Image": "La garra del invasor Italiano.png",
-		"ImageText": "The claw of the Italian invader intends to enslave us",
+		"ImageText": "\"The claw of the Italian invader intends to enslave us\"",
 		"Explanation": "\"Such was the scale of Mussolini's aid in weaponry and manpower (75,000 troops), we can say that from March 1937 Fascist Italy was at war with the Spanish Republic.\" - Helen Graham, The Spanish Civil War: A very short introduction",
 		"Answers":
 		[
@@ -2046,6 +2051,7 @@
 	{
 		"Difficulty": "Medium",
 		"Question": "In an interview with Jay Allen, Francisco Franco stated: \"I will save Spain from Marxism whatever the cost.\"\r\nAllen then asked: \"And if that means shooting half of Spain?\"\r\nWhat was Franco's famous response?",
+		"Image": "Franco painting.png",
 		"Answers":
 		[
 			{
@@ -2056,7 +2062,7 @@
 				"Text": "\"It won't come to that.\""
 			},
 			{
-				"Text": "\"If it means shooting all of Spain, I'd do it.\""
+				"Text": "\"If it means shooting all of Spain, I'll do it.\""
 			},
 			{
 				"Text": "\"Long live death!\"",
@@ -2086,6 +2092,265 @@
 			},
 			{
 				"Text": "Valentín González (El Campesino)"
+			}
+		]
+	},
+	{
+		"Difficulty": "Medium",
+		"Question": "The Army of Africa was composed of which military forces?",
+		"Image": "Moorish troops near Navalcanero 30 October 1936.png",
+		"Answers":
+		[
+			{
+				"Text": "Moroccan Regulares and the Spanish Legion",
+				"Score": "1"
+			},
+			{
+				"Text": "Moroccan Regulares"
+			},
+			{
+				"Text": "The Spanish Legion"
+			},
+			{
+				"Text": "Mercenaries from North Africa"
+			}
+		]
+	},
+	{
+		"Difficulty": "Medium",
+		"Question": "Which of the following military offensives of the Spanish Civil War was not a defeat for the Republicans?",
+		"Image": "Savoia-Marchetti_SM.81.jpg",
+		"Answers":
+		[
+			{
+				"Text": "Battle for Madrid",
+				"Score": "1",
+				"Explanation": "The Battle for Madrid ended in stalemate in November 1936 with Republican and Nationalist forces exhausted. The Siege of Madrid continued until 28 March 1939 when Nationalist forces entered the city after the collapse of the Republican front."
+			},
+			{
+				"Text": "Battle of the Ebro"
+			},
+			{
+				"Text": "Battle of Jarama"
+			},
+			{
+				"Text": "Battle of Teruel"
+			}
+		]
+	},
+	{
+		"Difficulty": "Medium",
+		"Question": "The purpose of the battles of Corunna Road, Jarama and Guadalajara was to encircle Madrid, cut-off supply from Valencia and defeat the city of Madrid.",
+		"Answers":
+		[
+			{
+				"Text": "True",
+				"Score": "0.5",
+				"Explanation": "None of these Nationalist offensives achieved their goal, though only the Battle of Guadalajara was a victory for the Republic of Spain." 
+			},
+			{
+				"Text": "False"
+			}
+		]
+	},
+	{
+		"Difficulty": "Medium",
+		"Question": "The pictured poster mentions July 1936, in reference to the Battle for Madrid. Which military offensive does the date of July 1937 refer?",
+		"Image": "No Pasaran, pasaremos.jpg",
+		"ImageText": "\"They shall not pass! - July 1936\r\nJuly 1937 - We will pass!\"",
+		"Answers":
+		[
+			{
+				"Text": "Battle of Brunete",
+				"Score": "1",
+				"Explanation": "The Battle of Brunete (6 July – 25 July 1937), fought 15 miles west of Madrid, was a Republican attempt to alleviate the pressure exerted by the Nationalists on the capital and on the north during the Spanish Civil War. Although initially successful, the Republicans were forced to retreat from Brunete and suffered devastating casualties from the battle."
+			},
+			{
+				"Text": "Zaragoza Offensive"
+			},
+			{
+				"Text": "Battle of Belchite"
+			},
+			{
+				"Text": "Battle of Teruel"
+			}
+		]
+	},
+	{
+		"Difficulty": "Easy",
+		"Question": "In 1939 the Prime Minister of the Second Spanish Republic, Juan Negrín said:\r\n\r\n\"To fight on because there was no other choice, even if winning was not possible, then to salvage what we could – and at the very end our self respect... Why go on resisting? Quite simply because we knew what capitulation would mean.\"\r\n\r\nWhat did capitulation mean?",
+		"Answers":
+		[
+			{
+				"Text": "The White Terror",
+				"Score": "1",
+				"Explanation": "The White Terror in Spain began at the start of the rebellion, intensified at the Nationalist victory and continued for years after of the war. There were tens of thousands of executions, hundreds of thousands of people imprisoned in concentration camps and tens of thousands forced into slave labour."
+			},
+			{
+				"Text": "The start of the Second World War"
+			},
+			{
+				"Text": "A fascist Europe"
+			},
+			{
+				"Text": "An authoritarian, Catholic state"
+			},
+			{
+				"Text": "None of the above",
+				"IsLast": "true"
+			}
+		]
+	},
+	{
+		"Difficulty": "Medium",
+		"Question": "Zaragoza, the capital of Aragón, was one of the key anarchist centres of Spain. Nevertheless, unlike other anarchist centres (e.g., Barcelona) and many other major Spanish cities, it was captured by the rebels at the beginning of the military coup.",
+		"Answers":
+		[
+			{
+				"Text": "True",
+				"Score": "0.5",
+				"Explanation": "The Durruti Column, along with many other militias, unsuccessfully attempted to capture Zaragoza early in the Civil War. One of the objectives of the Battle of Belchite, fought between 24 August and 7 September 1937, was to take Zaragoza which was only a few kilometres behind Nationalist lines. This offensive failed to capture Zaragoza and it remained Nationalist controlled throughout the war."
+			},
+			{
+				"Text": "False"
+			}
+		]
+	}
+	,
+	{
+		"Difficulty": "Easy",
+		"Question": "Franco forced the unification of the Spanish Falange, Carlists, Alfonists and CEDA into a single Nationalist movement under his control. Similarly, the Republic forced the CNT-FAI, UGT, POUM and other republican factions into a single movement.",
+		"Image": "CNT and UGT.png",
+		"ImageText": "\"Fields and factories for the syndicates!\"",
+		"Answers":
+		[
+			{
+				"Text": "True",
+				"Score": "0.5",
+				"Explanation": "The Republic outlawed the POUM and arrested and tried the POUM leaders. CNT-FAI dominated committees (such as the Regional Defense Council of Aragón) were dissolved. The industrial and agricultural collectives in Aragón, Catalonia and elsewhere were broken-up and pre-1936 property ownership was re-established. Pre-revolution social relationships were restored, effectively ending the social revolution. The militia, organised by the POUM, CNT-FAI and other political parties were absorbed into the Republican army."
+			},
+			{
+				"Text": "False"
+			}
+		]
+	},
+	{
+		"Difficulty": "Medium",
+		"Question": "What was the name of the film made by Ernest Hemingway, John Dos Passos and Joris Ivens in 1937?",
+		"Image": "Hemingway-Capa.jpg",
+		"Answers":
+		[
+			{
+				"Text": "The Spanish Earth",
+				"Score": "1"
+			},
+			{
+				"Text": "Spain in Flames"
+			},
+			{
+				"Text": "España 1936"
+			},
+			{
+				"Text": "Blockade"
+			}
+		]
+	},
+	{
+		"Difficulty": "Medium",
+		"Question": "The Iron Column was part of which Spanish political faction?",
+		"Image": "Column de Hierro poster.jpg",
+		"ImageText": "\"Iron Column\r\nPeasant, the revolution will give you land.\"",
+		"Answers":
+		[
+			{
+				"Text": "Anarchist",
+				"Score": "1"
+			},
+			{
+				"Text": "POUM"
+			},
+			{
+				"Text": "Communist"
+			},
+			{
+				"Text": "Fascist"
+			}
+		]
+	},
+	{
+		"Difficulty": "Hard",
+		"Question": "Robert Capa's most famous photo of the Spanish Civil War is The Falling Soldier. It is a photo of Federico Borrell Garcia, a POUM soldier, falling to his death after being shot. The Falling Soldier was published in the July 12, 1937 issue of Life magazine. The caption stated \"Robert Capa's camera catches a Spanish soldier the instant he is dropped by a bullet through the head in front of Córdoba.\" What aspect of the veracity of the photo and its description has been questioned?",
+		"Image": "The Falling Soldier.png",
+		"ImageText": "The Falling Soldier",
+		"Answers":
+		[
+			{
+				"Text": "All of the above",
+				"Score": "1",
+				"IsLast": "true"
+			},
+			{
+				"Text": "The soldier wasn't shot",
+				"Explanation": "José Manuel Susperregui claimed that the photograph was staged, as were all the others in the same series supposedly taken on the front."
+			},
+			{
+				"Text": "The photo wasn't taken at Cerro Mariano",
+				"Explanation": "José Manuel Susperregui of the University of País Vasco concluded that the photograph had not been taken at Cerro Muriano but at another location about 35 mi (56 km) away."
+			},
+			{
+				"Text": "The subject wasn't Federico Borrell Garcia",
+				"Explanation": "A Spanish historian later identified the dead soldier as Federico Borrell García, from Alcoi (Alicante), but this identification has been disputed."
+			},
+			{
+				"Text": "The photo wasn't taken by Robert Capa",
+				"Explanation": "Kotaro Sawaki has presented a case for Gerda Taro to be acknowledged as the real photographer."
+			}
+		]
+	},
+	{
+		"Difficulty": "Hard",
+		"Question": "Who said: \"Our brave Legionaries and Regulares have shown the red cowards what it means to be a man. And, incidentally the wives of reds too. These Communist and Anarchist women, after all, have made themselves fair game by their doctrine of free love. And now they have at least the acquaintance of real men, and not milksops of militiamen. Kicking their legs about and struggling won't save them.\"",
+		"Image": "Gonzalo Queipo de Llano.jpg",
+		"Answers":
+		[
+			{
+				"Text": "Gonzalo Queipo de Llano",
+				"Score": "1",
+				"Explanation": "During the Spanish Civil War, de Llano secured the capture of Seville with a force of at least 4,000 troops. Subsequently, he was appointed the commander of the Nationalist Army of the South. His influence began to decline in February 1938, when Francisco Franco named himself Sole Head of the New State and appointed his brother-in-law Ramón Serrano Súñer Minister of the Interior and Propaganda."
+			},
+			{
+				"Text": "Francisco Franco"
+			},
+			{
+				"Text": "Emilio Mola"
+			},
+			{
+				"Text": "Juan Yagüe"
+			}
+		]
+	},
+	{
+		"Difficulty": "Hard",
+		"Question": "Which of the following was an anarchist division of Spanish militia?",
+		"Answers":
+		[
+			{
+				"Text": "Iron Column",
+				"Score": "1"
+			},
+			{
+				"Text": "Iron Guard"
+			},
+			{
+				"Text": "Blue Division"
+			},
+			{
+				"Text": "29th Division",
+				"Explanation": "The 29th Division was a POUM division on the Aragón front."
+			},
+			{
+				"Text": "All of the above",
+				"IsLast": "true"
 			}
 		]
 	}
