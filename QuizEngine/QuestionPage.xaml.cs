@@ -159,12 +159,12 @@ namespace QuizEngine
         {
             foreach (var answer in _quizQuestion.Answers)
             {
-                var stackPanel = new StackPanel();
+                var buttonContent = new StackPanel();
 
                 var button = new Button
                 {
                     Tag = answer.Id,
-                    Content = stackPanel,
+                    Content = buttonContent,
                     HorizontalContentAlignment = HorizontalAlignment.Left,
                     HorizontalAlignment = HorizontalAlignment.Left,
                     VerticalContentAlignment = VerticalAlignment.Center,
@@ -173,6 +173,9 @@ namespace QuizEngine
                     //Margin = new Thickness(2),
                     Background = new SolidColorBrush(new Color {A = 125}),
                 };
+
+                button.Holding += ButtonOnHolding;
+                button.DoubleTapped += button_DoubleTapped;
 
                 if (!string.IsNullOrEmpty(answer.Image))
                 {
@@ -186,7 +189,7 @@ namespace QuizEngine
 
                     button.HorizontalContentAlignment = HorizontalAlignment.Center;
 
-                    stackPanel.Children.Add(image);
+                    buttonContent.Children.Add(image);
                 }
 
                 if (!string.IsNullOrEmpty(answer.Text))
@@ -224,11 +227,31 @@ namespace QuizEngine
                     }
 
                     if (!string.IsNullOrEmpty(textBlock.Text))
-                        stackPanel.Children.Add(textBlock);
+                        buttonContent.Children.Add(textBlock);
                 }
 
                 button.Click += button_Click;
                 Answers.Children.Add(button);
+            }
+        }
+
+        void button_DoubleTapped(object sender, DoubleTappedRoutedEventArgs e)
+        {
+            EnlargeAnswerImage(sender);
+        }
+
+        private void ButtonOnHolding(object sender, HoldingRoutedEventArgs holdingRoutedEventArgs)
+        {
+            EnlargeAnswerImage(sender);
+        }
+
+        private void EnlargeAnswerImage(object sender)
+        {
+            var buttonContect = (StackPanel)((Button)sender).Content;
+            var image = buttonContect.Children.SingleOrDefault(x => x is Image);
+            if (image != null)
+            {
+                FullSizeImage(((Image)image).Source);
             }
         }
 
@@ -280,8 +303,13 @@ namespace QuizEngine
 
         private void imgQuestionImage_Tapped(object sender, TappedRoutedEventArgs e)
         {
+            FullSizeImage(imgQuestionImage.Source);
+        }
+
+        private void FullSizeImage(ImageSource imageSource)
+        {
             FullscreenImage.Visibility = Visibility.Visible;
-            FullscreenImage.Source = imgQuestionImage.Source;
+            FullscreenImage.Source = imageSource;
 
             brdImageBorderVisibility.Visibility = Visibility.Collapsed;
             Mainscreen.Opacity = 0.4;
@@ -295,7 +323,10 @@ namespace QuizEngine
         {
             FullscreenImage.Visibility = Visibility.Collapsed;
 
-            brdImageBorderVisibility.Visibility = Visibility.Visible;
+            if (!string.IsNullOrEmpty(_quizQuestion.Image))
+            {
+                brdImageBorderVisibility.Visibility = Visibility.Visible;
+            }
             Mainscreen.Opacity = 1;
             foreach (Button button in Answers.Children)
             {

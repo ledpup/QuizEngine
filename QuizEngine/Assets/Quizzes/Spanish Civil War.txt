@@ -844,15 +844,15 @@
 			},
 			{
 				"Image": "Euzkadi.jpg",
-				"Explanation": "A poster enlisting Catalan support for the offensive in Euskadi (the Basque Country)."
+				"Explanation": "You chose a poster enlisting Catalan support for the offensive in Euskadi (the Basque Country)."
 			},
 			{
 				"Image": "POUM poster.jpg",
-				"Explanation": "\"Workers, the POUM gives you hope.\""
+				"Explanation": "You chose POUM poster saying \"Workers, the POUM gives you hope.\""
 			},
 			{
 				"Image": "UGT anti-fascist poster.jpg",
-				"Explanation": "This is a UGT anti-religious poster, suggesting that fascism is \"how the church has planted its religion in Spain\"."
+				"Explanation": "You chose a UGT anti-religious poster, suggesting that fascism is \"how the church has planted its religion in Spain\"."
 			},
 			{
 				"Text": "[All are Republican posters]",
@@ -875,19 +875,19 @@
 			},
 			{
 				"Image": "Ha llegado.jpg",
-				"Explanation": "A fascist (Falange) poster saying \"Spain has arrived\"."
+				"Explanation": "You chose a fascist (Falange) poster saying \"Spain has arrived\"."
 			},
 			{
 				"Image": "Cruzada.jpg",
-				"Explanation": "\"Spain, the guide of world spirit\""
+				"Explanation": "You chose a Natioanlist poster that says \"Spain, the guide of world spirit\""
 			},
 			{
 				"Image": "Carlist poster.jpg",
-				"Explanation": "These soldiers are Carlists as indicated by their prominent red berets, symbols of the Carlists in Spain. They take their name from Carlos V, son of Ferdinand VII, who was a pretender to the throne of Spain with his declaration to be rightful heir on October 1, 1833."
+				"Explanation": "You chose a Requetés poster. These soldiers are Carlists as indicated by their prominent red berets, symbols of the Carlists in Spain. They take their name from Carlos V, son of Ferdinand VII, who was a pretender to the throne of Spain with his declaration to be rightful heir on October 1, 1833."
 			},
 			{
 				"Image": "Falange poster.jpg",
-				"Explanation": "\"Subsidy for the combatant. I compiled! Comply and do what others require to complete this work. Social work of national syndicalism.\""
+				"Explanation": "You chose a Spanish Falange poster that says \"Subsidy for the combatant. I compiled! Comply and do what others require to complete this work. Social work of national syndicalism.\""
 			}
 		]
 	},
@@ -896,7 +896,7 @@
 		"Question": "Why does this poster, created in the Asturias region, refer to the year 1934?",
 		"Explanation": "The Asturian miners' strike of 1934 was a major strike action, against CEDA entering the government. It took took place in Asturias in northern Spain and developed into a revolutionary uprising. It was crushed by the Spanish Navy and the Spanish Republican Army, the latter using mainly Moorish troops from Spanish Morocco.",
 		"Image": "Asturias.jpg",
-		"ImageText": "\"Help the families of the combatants of the north!\"",
+		"ImageText": "\"Aid the families of the combatants of the North!\"",
 		"Answers":
 		[
 			{
@@ -1532,7 +1532,8 @@
 			{
 				"Text": "USSR",
 				"Image": "Flag of the Soviet Union.png",
-				"Score": "1"
+				"Score": "1",
+				"Explanation": "The Republic sent its gold reserve to the Soviet Union to pay for arms and supplies. That reserve was worth £63,000,000 ($315,000,000) in 1939 prices. In 1956, the Soviet Union announced that Spain still owed it $50,000,000."
 			},
 			{
 				"Text": "Nationalist Spain",
@@ -1943,6 +1944,8 @@
 	{
 		"Difficulty": "Medium",
 		"Question": "The anarchist movement in Spain, like much of Europe at the time, was only influential with peasants in the rural regions of Spain. Anarchism did not have much appeal to the Spanish working class.",
+		"Image": "Industry and Agriculture.jpg",
+		"ImageText": "\"Industry\r\nAgriculture\r\nEverything for the front\"",
 		"Explanation": "Large rural areas of Spain (Andalusia, Aragón, the Levant) had a large anarchist base. However, anarchism was popular in some of the most industrialised cities of Spain, such as Barcelona, Madrid, Zaragoza and Valencia. Anarcho-syndicalism, a predominantly industrial tendency of anarchism, was one of the largest movements in Spain.",
 		"Answers":
 		[
@@ -2119,7 +2122,8 @@
 	{
 		"Difficulty": "Medium",
 		"Question": "Which of the following military offensives of the Spanish Civil War was not a defeat for the Republicans?",
-		"Image": "Savoia-Marchetti_SM.81.jpg",
+		"Image": "Savoia-Marchetti SM.81 and Fiat CR.32.jpg",
+		"ImageText": "Italian Savoia Marchetti SM.81 bombers with Fiat CR.32 fighters",
 		"Answers":
 		[
 			{
@@ -2220,8 +2224,6 @@
 	{
 		"Difficulty": "Easy",
 		"Question": "Franco forced the unification of the Spanish Falange, Carlists, Alfonists and CEDA into a single Nationalist movement under his control. Similarly, the Republic forced the CNT-FAI, UGT, POUM and other republican factions into a single movement.",
-		"Image": "CNT and UGT.png",
-		"ImageText": "\"Fields and factories for the syndicates!\"",
 		"Answers":
 		[
 			{
@@ -2267,43 +2269,13 @@
 				"Score": "1"
 			},
 			{
-				"Text": "POUM"
+				"Text": "Socialist"
 			},
 			{
 				"Text": "Communist"
 			},
 			{
 				"Text": "Fascist"
-			}
-		]
-	},
-	{
-		"Difficulty": "Hard",
-		"Question": "Robert Capa's most famous photo of the Spanish Civil War is The Falling Soldier. It is a photo of Federico Borrell Garcia, a POUM soldier, falling to his death after being shot. The Falling Soldier was published in the July 12, 1937 issue of Life magazine. The caption stated \"Robert Capa's camera catches a Spanish soldier the instant he is dropped by a bullet through the head in front of Córdoba.\" What aspect of the veracity of the photo and its description has been questioned?",
-		"Image": "The Falling Soldier.png",
-		"ImageText": "The Falling Soldier",
-		"Answers":
-		[
-			{
-				"Text": "All of the above",
-				"Score": "1",
-				"IsLast": "true"
-			},
-			{
-				"Text": "The soldier wasn't shot",
-				"Explanation": "José Manuel Susperregui claimed that the photograph was staged, as were all the others in the same series supposedly taken on the front."
-			},
-			{
-				"Text": "The photo wasn't taken at Cerro Mariano",
-				"Explanation": "José Manuel Susperregui of the University of País Vasco concluded that the photograph had not been taken at Cerro Muriano but at another location about 35 mi (56 km) away."
-			},
-			{
-				"Text": "The subject wasn't Federico Borrell Garcia",
-				"Explanation": "A Spanish historian later identified the dead soldier as Federico Borrell García, from Alcoi (Alicante), but this identification has been disputed."
-			},
-			{
-				"Text": "The photo wasn't taken by Robert Capa",
-				"Explanation": "Kotaro Sawaki has presented a case for Gerda Taro to be acknowledged as the real photographer."
 			}
 		]
 	},
@@ -2342,14 +2314,308 @@
 				"Text": "Iron Guard"
 			},
 			{
-				"Text": "Blue Division"
-			},
-			{
 				"Text": "29th Division",
 				"Explanation": "The 29th Division was a POUM division on the Aragón front."
 			},
 			{
 				"Text": "All of the above",
+				"IsLast": "true"
+			}
+		]
+	},
+	{
+		"Difficulty": "Easy",
+		"Question": "About 32,000 foreign volunteers, organised by the Comintern, fought for the Spanish Republic. The USSR also supplied war materiel and personnel (around 3,000 people). The Nationalists received fair less international volunteers and were forced to fight against international communism alone.",
+		"Explanation": "About 75,000 soldiers of the Italian army fought in Spain for the Nationalists. About 16,000 German military personnel fought mostly as pilots, ground crew, artillery men, in tanks, and as military advisers and instructors. About 75,000 Moroccan mercenaries (the Regulares) fought in the Nationalist ranks. Around 8,000 troops came from Portugal. - http://en.wikipedia.org/wiki/Foreign_involvement_in_the_Spanish_Civil_War",
+		"Answers":
+		[
+			{
+				"Text": "False",
+				"Score": "0.5"
+			},
+			{
+				"Text": "True"
+			}
+		]
+	},
+	{
+		"Difficulty": "Hard",
+		"Question": "Which of the following Spanish Civil War posters is not a poster of the revolutionary left?",
+		"Answers":
+		[
+			{
+				"Image": "Izquierda Republicana.jpg",
+				"Score": "1",
+				"Explanation": "\"Republican Left\r\nDefend smallholdings on pain of death to the thief\""
+			},
+			{
+				"Image": "Alplastar al fascismo.jpg",
+				"Explanation": "19 July 1936\r\nand always our common objective\r\nCrush fascism!\r\nPropaganda office CNT FAI JJIL\""
+			},
+			{
+				"Image": "CNT and UGT.png",
+				"Explanation": "\"Fields and factories for the syndicates!\""
+			},
+			{
+				"Image": "Columna de Hierro poster 2.jpg",
+				"Explanation": "\"Iron Column\r\nFor a free humanity!\r\nFor anarchy!\""
+			},
+			{
+				"Image": "Union Discipline - POUM.png",
+				"Explanation": "Union! Discipline for socialism! - POUM"
+			}
+		]
+	},
+	{
+		"Difficulty": "Medium",
+		"Question": "In July 1938, eight months before the end of the war, Franco announced that there had already been a total of 470,000 murders in the Republican zone. Since the end of the war, that number has been revised. What is the estimated number of killings that occurred during the Spanish Civil War due to the Red Terror (i.e., killings within the Republican zone)?",
+		"Answers":
+		[
+			{
+				"Text": "50,000",
+				"Score": "1",
+				"Explanation": "\"The most reliable recent figure, produced by the foremost expert on the subject, José Luis Ledesma, is 49,272. However, uncertainty over the scale of the killings in Republican Madrid could see that figure rise. Even for areas where reliable studies exist, new information and excavations of common graves see the numbers being revised constantly, albeit within relatively small parameters.\" - Paul Preston, The Spanish Holocaust, 2007"
+			},
+			{
+				"Text": "530,000"
+			},
+			{
+				"Text": "85,000",
+				"Explanation": "\"To prove the scale of Republican iniquity to the world, on 26 April 1940 [Franco] set up a massive state investigation, the Causa General, 'to gather trustworthy information' [...] the Causa General concluded that the number of deaths was 85,940. Although inflated and including many duplications, this figure was still so far below Franco's claims that, for over a quarter of a century, it was omitted from editions of the published résumé of the Causa General's findings.\" - Paul Preston, The Spanish Holocaust, 2007"
+			},
+			{
+				"Text": "250,000"
+			},
+			{
+				"Text": "700,000"
+			}
+		]
+	},
+	{
+		"Difficulty": "Hard",
+		"Question": "\"[In] Badajoz, there were 1,437 victims of the left as against 8,914 victims of the rebels; in Seville, 447 victims of the left, 12,507 victims of the rebels; in Cádiz, 97 victims of the left, 3,071 victims of the rebels; and in Huelva, 101 victims of the left, 6,019 victims of the rebels. In places where there was no Republican violence, the figures for rebel killings are almost incredible, for example Navarre, 3,280, La Rioja, 1,977.\" - Paul Preston, The Spanish Holocaust, 2007\r\n\r\nThere were significantly more killings by the the left than by the rebels in only one city. Which city was it?",
+		"Answers":
+		[
+			{
+				"Text": "Madrid",
+				"Score": "1",
+				"Explanation": "\"The killings throughout the war when the capital was under Republican control seem to have been nearer three times those carried out after the rebel occupation.\" - Paul Preston, The Spanish Holocaust, 2007\r\n\r\nMost of the killings occurred during the Paracuellos massacres, an attempt by the Republic to eliminate the fifth column during the Battle for Madrid."
+			},
+			{
+				"Text": "Zaragoza",
+				"Explanation": "Zaragoza was Nationalist controlled throughout the war. It is essentially impossible that the left could have killed more people than the rebels in Zaragoza."
+			},
+			{
+				"Text": "Barcelona"
+			},
+			{
+				"Text": "Bilbao"
+			},
+			{
+				"Text": "Valencia"
+			}
+		]
+	},
+	{
+		"Difficulty": "Hard",
+		"Question": "Which of the following was the most effective fighter aircraft of the Republic?",
+		"Answers":
+		[
+			{
+				"Image": "Polikarpov I-16 Mosca.jpg",
+				"Text": "Polikarpov I-16 Mosca",
+				"Score": "1",
+				"Explanation": "The successor to the Chato, over 280 Mosca (\"housefly\", also called the \"rata\" (rat) by the Nationalists) Soviet fighters flew for the Spanish Republic during the war."
+			},
+			{
+				"Image": "Polikarpov I-15 Chato.jpg",
+				"Text": "Polikarpov I-15 Chato",
+				"Explanation": "The Chato (\"snubnose\") was the main Republican fighter of the war. 155 were delivered from the USSR and the Republic built 240."
+			},
+			{
+				"Image": "Grumman G-23 Delfin.jpg",
+				"Text": "Grumman G-23 Delfin"
+			},
+			{
+				"Image": "Messerschmitt Bf 109B.png",
+				"Text": "Messerschmitt Bf 109",
+				"Explanation": "Although the Republic bought aircraft from Focke-Wulf, they did not have any Messerschmitt Bf109s."
+			}
+		]
+	},
+	{
+		"Difficulty": "Hard",
+		"Question": "Which of the following aircraft was the main plane used by the Nationalists to transport soldiers of the Army of Africa from Morocco to Spain during the first few months of the war (July to October 1936)?",
+		"Answers":
+		[
+			{
+				"Image": "Junkers Ju 52.png",
+				"Text": "Junkers Ju 52",
+				"Score": "1",
+				"Explanation": "The German Junkers Ju 52 was a transport plane that would also see service as a bomber, though it was an easy target for the Soviet Chatos and Moscas."
+			},
+			{
+				"Image": "Nationalist Tupolev SB 2M-100A.jpg",
+				"Text": "Tupolev SB",
+				"Explanation": "The Tupolev SB was a Soviet manufactured bomber. What Nationalist operated Tupolev SBs there were would have been captured from the Republicans."
+			},
+			{
+				"Image": "Heinkel He 111.png",
+				"Text": "Heinkel He 111"
+			},
+			{
+				"Image": "Savoia-Marchetti SM.81.png",
+				"Text": "Savoia-Marchetti SM.81",
+				"Explanation": "The Italian Savoia-Marchetti SM.81 was used to transport Moroccan troops, though there were far fewer of them than the Junkers Ju 52."
+			}
+		]
+	},
+	{
+		"Difficulty": "Medium",
+		"Question": "Which of the following posters is not a pro-Republican poster?",
+		"DynamicImage": "true",
+		"Answers":
+		[
+			{
+				"Text": "[All are Republican posters]",
+				"Image": "Blank poster.png",
+				"Score": "1",
+				"IsLast": "true"
+			},
+			{
+				"Image": "Socialism is Liberation.jpg",
+				"Explanation": "You chose a POUM poster saying \"Socialism is Liberation\"."
+			},
+			{
+				"Image": "Un Borracho.jpg",
+				"Explanation": "You chose a Republican government poster that says \"A drunk is a parasite! Eliminate him!\""
+			},
+			{
+				"Image": "España.jpg",
+				"Explanation": "You chose a Republican government poster that says \"Spain, whose six sonorous letters resound today in our soul with a shout of war and tomorrow with an exclamation of jubilation and peace tomorrow.\""
+			},
+			{
+				"Image": "The Ultraleftist.jpg",
+				"Explanation": "You chose a pro-Republican but anti-revolutionary poster of the SRI (a Comintern ally). It says:\r\n\"The Ultraleftist:\r\nThe ambusher wears many disguises to assassinate from under cover!\r\nWe annihilate him wherever we find him!\"\r\nThis poster was probably directed against CNT-FAI or POUM militants."
+			}
+		]
+	},
+	{
+		"Difficulty": "Medium",
+		"Question": "What is the estimated number of deaths from the White Terror (extra-judicial killings in the Nationalist zone)?",
+		"Answers":
+		[
+			{
+				"Text": "150,000",
+				"Score": "1",
+				"Explanation": "\"The currently most reliable, yet still tentative, figure for deaths at the hands of the military rebels and their supporters is 130,199. However, it is unlikely that such deaths were fewer than 150,000 and they could well be more. Some areas have been studied only partially; others hardly at all.\" - Paul Preston, The Spanish Holocaust, 2007"
+			},
+			{
+				"Text": "530,000"
+			},
+			{
+				"Text": "50,000"
+			},
+			{
+				"Text": "25,000"
+			},
+			{
+				"Text": "220,000"
+			}
+		]
+	},
+	{
+		"Difficulty": "Medium",
+		"Question": "What was the name of the secret society that enabled the rebelling military officers to plot their July 1936 coup throughout Spain? Who was the leader in 1936, before the coup d'état?",
+		"Answers":
+		[
+			{
+				"Text": "Spanish Military Union; Emilio Mola",
+				"Score": "1",
+				"Explanation": "Unión Militar Española (Spanish Military Union) was a pro-fascist secret society of officers of the Spanish Republican Armed Forces involved in a conspiracy to bring about the restoration of the monarchy during the 1930s. Members of this organization became part of the Nationalist forces during the Spanish Civil War."
+			},
+			{
+				"Text": "Spanish Military Union; Francisco Franco",
+				"Explanation": "Franco would not have taken full control of the Spanish Military Union until the deaths José Sanjurjo, then Emilio Mola in June 1937."
+			},
+			{
+				"Text": "Spanish Falange; Francisco Franco",
+				"Explanation": "Franco did not become the leader of the Falange until April 1937, almost a year after the failed coup."
+			},
+			{
+				"Text": "Spanish Falange; Gonzalo Queipo de Llano"
+			},
+			{
+				"Text": "Spanish Falange; Jose Antonio De Rivera",
+				"Explanation": "Although de Rivera was the leader of the Falange, the Falange were neither a secret organisation nor the instigators of the coup against the Spanish Republic."
+			}
+		]
+	},
+	{
+		"Difficulty": "Medium",
+		"Question": "Who said:\r\n\r\n\"We must extend the terror; we must impose the impression of dominion while eliminating without scruples everyone who does not think as we do.\"",
+		"Image": "Emilio Mola.jpg",
+		"Answers":
+		[
+			{
+				"Text": "Emilio Mola",
+				"Score": "1"
+			},
+			{
+				"Text": "Francisco Franco"
+			},
+			{
+				"Text": "José Sanjurjo"
+			},
+			{
+				"Text": "Gonzalo Queipo de Llano"
+			},
+			{
+				"Text": "Jose Antonio De Rivera"
+			}
+		]
+	},
+	{
+		"Difficulty": "Medium",
+		"Question": "Which two famous political opposites both died on the same day, 20 November 1936?",
+		"Answers":
+		[
+			{
+				"Text": "Buenaventura Durruti; Jose Antonio De Rivera",
+				"Score": "1"
+			},
+			{
+				"Text": "Buenaventura Durruti; Emilio Mola"
+			},
+			{
+				"Text": "Buenaventura Durruti; José Sanjurjo"
+			},
+			{
+				"Text": "Gonzalo Queipo de Llano"
+			},
+			{
+				"Text": ""
+			}
+		]
+	},
+	{
+		"Difficulty": "Medium",
+		"Question": "The woman pictured is likely to have been a member of which of the following organisations?",
+		"Image": "Margarita Catalana.jpg",
+		"Answers":
+		[
+			{
+				"Text": "Margaritas",
+				"Score": "1"
+			},
+			{
+				"Text": "Mujeres libres"
+			},
+			{
+				"Text": "Sección Femenina"
+			},
+			{
+				"Text": "None of the above",
 				"IsLast": "true"
 			}
 		]

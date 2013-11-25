@@ -56,7 +56,7 @@
                 <RowDefinition Height="*"/>
             </Grid.RowDefinitions>
 
-            <TextBlock x:Name="Title" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="3" Margin="20" Style="{StaticResource AppTitleTextStyle}" Foreground="White">Spanish Civil War Quiz</TextBlock>
+            <TextBlock x:Name="Title" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="3" Margin="20" Style="{StaticResource AppTitleTextStyle}" FontSize="48" Foreground="White">Spanish Civil War Quiz</TextBlock>
 
             <Rectangle x:Name="Rectangle" HorizontalAlignment="Center" Margin="0" VerticalAlignment="Center" Grid.Column="1" Stretch="UniformToFill" Grid.Row="1" Fill="{StaticResource BlackBrush}" Opacity="0.5" />
 
