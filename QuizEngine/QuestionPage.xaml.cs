@@ -61,8 +61,8 @@ namespace QuizEngine
             Explanation.DataContext = QuestionDescriptionColumnSpan;
 
             txtDescription.Text = Description;
-            
-            brdImageBorderVisibility.Visibility = ImageBorderVisibility;
+
+            brdMediaBorderVisibility.Visibility = ImageBorderVisibility;
 
             imgQuestionImage.DataContext = QuestionImage;
             if (_quizQuestion.ImageText != null)
@@ -71,7 +71,12 @@ namespace QuizEngine
                 ImageText.Visibility = Visibility.Visible;
             }
 
-            //_appPageInfo = new GesturePageInfo(this);//uniqueId, title, description, similarTo, imagePath, this);
+            if (!string.IsNullOrEmpty(_quizQuestion.Audio))
+            {
+                Media.Visibility = Visibility.Visible;
+                MediaContent.Source = new Uri("ms-appx:///Assets/Quizzes/" + MainPage.Quiz + "/" + _quizQuestion.Audio);
+            }
+            
 
             Answers.ItemWidth = ItemWidth;
 
@@ -106,6 +111,10 @@ namespace QuizEngine
         {
             get
             {
+                if (!string.IsNullOrEmpty(_quizQuestion.Audio))
+                {
+                    return Visibility.Visible; 
+                }
                 return QuestionImage.EndsWith(".png") || QuestionImage.EndsWith(".jpg") ? Visibility.Visible : Visibility.Collapsed;
             }
         }
@@ -143,17 +152,18 @@ namespace QuizEngine
             }
         }
 
-        /// <summary>
-        /// Invoked when this page is about to be displayed in a Frame.
-        /// </summary>
-        /// <param name="e">Event data that describes how this page was reached.  The Parameter
-        /// property is typically used to configure the page.</param>
-        protected override void OnNavigatedTo(NavigationEventArgs e)
+        protected override void OnSelected()
         {
-
+            //if (_wasPlaying)
+            //{
+            //    MediaContent.Play();    
+            //}
         }
 
-
+        protected override void OnUnselected()
+        {
+            //MediaContent.Pause();
+        }
 
         private void DisplayAnswers()
         {
@@ -175,7 +185,7 @@ namespace QuizEngine
                 };
 
                 button.Holding += ButtonOnHolding;
-                button.DoubleTapped += button_DoubleTapped;
+                button.RightTapped+=ButtonOnRightTapped;
 
                 if (!string.IsNullOrEmpty(answer.Image))
                 {
@@ -235,7 +245,7 @@ namespace QuizEngine
             }
         }
 
-        void button_DoubleTapped(object sender, DoubleTappedRoutedEventArgs e)
+        private void ButtonOnRightTapped(object sender, RightTappedRoutedEventArgs rightTappedRoutedEventArgs)
         {
             EnlargeAnswerImage(sender);
         }
@@ -311,7 +321,7 @@ namespace QuizEngine
             FullscreenImage.Visibility = Visibility.Visible;
             FullscreenImage.Source = imageSource;
 
-            brdImageBorderVisibility.Visibility = Visibility.Collapsed;
+            brdMediaBorderVisibility.Visibility = Visibility.Collapsed;
             Mainscreen.Opacity = 0.4;
             foreach (Button button in Answers.Children)
             {
@@ -325,13 +335,27 @@ namespace QuizEngine
 
             if (!string.IsNullOrEmpty(_quizQuestion.Image))
             {
-                brdImageBorderVisibility.Visibility = Visibility.Visible;
+                brdMediaBorderVisibility.Visibility = Visibility.Visible;
             }
             Mainscreen.Opacity = 1;
             foreach (Button button in Answers.Children)
             {
                 button.IsEnabled = true;
             }
+        }
+
+        void Play_Click(object sender, RoutedEventArgs e)
+        {
+            MediaContent.Play();
+            PlayMedia.Visibility = Visibility.Collapsed;
+            PauseMedia.Visibility = Visibility.Visible;
+        }
+
+        void Pause_Click(object sender, RoutedEventArgs e)
+        {
+            MediaContent.Pause();
+            PauseMedia.Visibility = Visibility.Collapsed;
+            PlayMedia.Visibility = Visibility.Visible;
         }
     }
 }

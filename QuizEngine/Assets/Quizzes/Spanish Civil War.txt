@@ -2200,7 +2200,7 @@
 				"Text": "An authoritarian, Catholic state"
 			},
 			{
-				"Text": "None of the above",
+				"Text": "All of the above",
 				"IsLast": "true"
 			}
 		]
@@ -2346,11 +2346,11 @@
 			{
 				"Image": "Izquierda Republicana.jpg",
 				"Score": "1",
-				"Explanation": "\"Republican Left\r\nDefend smallholdings on pain of death to the thief\""
+				"Explanation": "\"Republican Left\r\nDefend smallholdings on pain of death to the thief\"\r\n\r\nThe Republican Left (Izquierda Republicana) formed in 1934. It received the 3rd highest number of votes in the 1936 election where it was part of the Popular Front. Like the Republican Union (Unión Republicana) it was neither socialist nor revolutionary."
 			},
 			{
 				"Image": "Alplastar al fascismo.jpg",
-				"Explanation": "19 July 1936\r\nand always our common objective\r\nCrush fascism!\r\nPropaganda office CNT FAI JJIL\""
+				"Explanation": "\"19 July 1936\r\nand always our common objective\r\nCrush fascism!\r\nPropaganda office CNT FAI JJIL\""
 			},
 			{
 				"Image": "CNT and UGT.png",
@@ -2425,7 +2425,7 @@
 				"Image": "Polikarpov I-16 Mosca.jpg",
 				"Text": "Polikarpov I-16 Mosca",
 				"Score": "1",
-				"Explanation": "The successor to the Chato, over 280 Mosca (\"housefly\", also called the \"rata\" (rat) by the Nationalists) Soviet fighters flew for the Spanish Republic during the war."
+				"Explanation": "The successor to the Chato, over 280 Mosca Soviet fighters flew for the Spanish Republic during the war. The Mosca (\"housefly\") was also called the \"Rata\" (rat) by the Nationalists."
 			},
 			{
 				"Image": "Polikarpov I-15 Chato.jpg",
@@ -2582,7 +2582,8 @@
 		[
 			{
 				"Text": "Buenaventura Durruti; Jose Antonio De Rivera",
-				"Score": "1"
+				"Score": "1",
+				"Explanation": "Durruti was a central figure of Spanish anarchism as an influential member of the CNT and FAI. He was killed during the Battle for Madrid, probably by a stray bullet.\r\nDe Rivera was the leader of the Spanish Falange. He was arrest in March 14, 1936 and held at the prison in Alicante. On October 3 1936 he was charged with conspiracy against the Republic and military insurrection, both capital offences. On November 18 at 2:30 AM he was found guilty and sentenced to death by firing squad. The sentence was carried out early in the morning of November 20, 1936."
 			},
 			{
 				"Text": "Buenaventura Durruti; Emilio Mola"
@@ -2591,10 +2592,10 @@
 				"Text": "Buenaventura Durruti; José Sanjurjo"
 			},
 			{
-				"Text": "Gonzalo Queipo de Llano"
+				"Text": "Francisco Ascaso; Emilio Mola"
 			},
 			{
-				"Text": ""
+				"Text": "Francisco Ascaso; Jose Antonio De Rivera"
 			}
 		]
 	},
@@ -2617,6 +2618,114 @@
 			{
 				"Text": "None of the above",
 				"IsLast": "true"
+			}
+		]
+	},
+	{
+		"Difficulty": "Hard",
+		"Question": "Robert Capa's most famous photo of the Spanish Civil War is The Falling Soldier. It is a photo of Federico Borrell Garcia, a POUM soldier, falling to his death after being shot. The Falling Soldier was published in the July 12, 1937 issue of Life magazine. The caption stated \"Robert Capa's camera catches a Spanish soldier the instant he is dropped by a bullet through the head in front of Córdoba.\" What aspect of the veracity of the photo and its description has been questioned?",
+		"Image": "The Falling Soldier.png",
+		"ImageText": "The Falling Soldier",
+		"Answers":
+		[
+			{
+					"Text": "All of the above",
+					"Score": "1",
+					"IsLast": "true"
+			},
+			{
+					"Text": "The soldier wasn't shot",
+					"Explanation": "José Manuel Susperregui claimed that the photograph was staged, as were all the others in the same series supposedly taken on the front."
+			},
+			{
+					"Text": "The photo wasn't taken at Cerro Mariano",
+					"Explanation": "José Manuel Susperregui of the University of País Vasco concluded that the photograph had not been taken at Cerro Muriano but at another location about 35 mi (56 km) away."
+			},
+			{
+					"Text": "The subject wasn't Federico Borrell Garcia",
+					"Explanation": "A Spanish historian later identified the dead soldier as Federico Borrell García, from Alcoi (Alicante), but this identification has been disputed."
+			},
+			{
+					"Text": "The photo wasn't taken by Robert Capa",
+					"Explanation": "Kotaro Sawaki has presented a case for Gerda Taro to be acknowledged as the real photographer."
+			}
+		]
+	},
+	{
+		"Difficulty": "Hard",
+		"Question": "Which song of the Spanish Civil War has the lyrics:\r\n\r\nThe most precious good\t\tRaise the revolutionary flag\r\nis freedom\t\t\tWhich carries the people to emancipation\r\nAnd we have to defend it\t\tRaise the revolutionary flag\r\nWith faith and courage\t\tWhich carries the people to emancipation",
+		"Audio": "A las Barricadas.mp3",
+		"Answers":
+		[
+			{
+				"Text": "To the Barricades! (A las Barricadas)",
+				"Score": "1",
+				"Explanation": "A las Barricadas (To The Barricades) was one of the most popular songs of the Spanish anarchists during the Spanish Civil War. A las Barricadas is sung to the tune of Warszawianka 1905. The lyrics were written by Valeriano Orobón Fernández in 1936."
+			},
+			{
+				"Text": "Facing the Sun (Cara al Sol)"
+			},
+			{
+				"Text": "The Interationale"
+			},
+			{
+				"Text": "Jarama Valley"
+			}
+		]
+	},
+	{
+		"Difficulty": "Hard",
+		"Question": "Which of the following is the oldest political movement/organisation?",
+		"Answers":
+		[
+			{
+				"Text": "PSOE",
+				"Score": "1",
+				"Explanation": "The PSOE was founded in 1879. It was one of the oldest political parties at the time of the Spanish Civil War. It was older than the Republican Left (founded in 1934), Republican Union (1934) and the Spanish Communist Party (the PCE, founded in 1921)."
+			},
+			{
+				"Text": "CNT-FAI",
+				"Explanation": "The anarchist trade union, the CNT was formed in 1910. The federation of anarchist groups, the FAI, was founded in 1927."
+				
+			},
+			{
+				"Text": "CEDA",
+				"Explanation": "CEDA was formed in 1933 from Popular Action and National Action."
+			},
+			{
+				"Text": "Falange",
+				"Explanation": "The Falange was formed in 1933."
+				
+			},
+			{
+				"Text": "POUM",
+				"Explanation": "The POUM was formed in 1935 by former members of the CNT who had been partially inspired by the Russian Revolution and Trotsky, but mostly Karl Marx."
+			}
+		]
+	},
+	{
+		"Difficulty": "Easy",
+		"Question": "Which regions of Spain were the separatist regions during the time of the Second Spanish Republic?",
+		"Image": "Spanish Regions.png",
+		"Answers":
+		[
+			{
+				"Text": "The Basque Country and Catalonia",
+				"Score": "1"
+			},
+			{
+				"Text": "Catalonia and Galicia"
+				
+			},
+			{
+				"Text": "Andalusia and the Basque Country"
+			},
+			{
+				"Text": "Aragon, Catalonia and Galicia"
+				
+			},
+			{
+				"Text": "Aragon and Valencia"
 			}
 		]
 	}

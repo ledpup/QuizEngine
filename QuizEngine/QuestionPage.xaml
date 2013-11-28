@@ -55,7 +55,7 @@
             IsHitTestVisible="False"/>
 
             <Border
-            x:Name="brdImageBorderVisibility"
+            x:Name="brdMediaBorderVisibility"
             Grid.Row="1"
             Grid.Column="2"
             Grid.RowSpan="5"
@@ -69,7 +69,8 @@
 
                 <Grid>
                     <Grid.RowDefinitions>
-                        <RowDefinition ></RowDefinition>
+                        <RowDefinition></RowDefinition>
+                        <RowDefinition Height="Auto" ></RowDefinition>
                         <RowDefinition Height="Auto" ></RowDefinition>
                     </Grid.RowDefinitions>
                     <Image
@@ -78,6 +79,17 @@
                     Stretch="Uniform" Tapped="imgQuestionImage_Tapped" />
 
                     <TextBlock x:Name="ImageText" Grid.Row="1" Style="{StaticResource AppDescriptionTextStyle}" HorizontalAlignment="Center" TextAlignment="Center" Visibility="Collapsed"></TextBlock>
+
+                    <StackPanel x:Name="Media" Grid.Row="2" HorizontalAlignment="Center" Visibility="Collapsed">
+                        <MediaElement x:Name="MediaContent" AutoPlay="False" />
+
+                        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+
+                            <Button x:Name="PlayMedia" Style="{StaticResource PlayAppBarButtonStyle}" Click="Play_Click"/>
+                            <Button x:Name="PauseMedia" Style="{StaticResource PauseAppBarButtonStyle}" Click="Pause_Click" Visibility="Collapsed" />
+
+                        </StackPanel>
+                    </StackPanel>
                 </Grid>
             </Border>
 
