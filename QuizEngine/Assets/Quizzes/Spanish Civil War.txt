@@ -205,7 +205,6 @@
 	{
 		"Difficulty": "Hard",
 		"Question": "Who said: \"We have always lived in slums and holes in the wall. We will know how to accommodate ourselves for a while. For you must not forget that we can also build. It is we who built these palaces and cities, here in Spain and America and everywhere. We, the workers. We can build others to take their place. And better ones. We are not in the least afraid of ruins. We are going to inherit the earth; there is not the slightest doubt about that. The bourgeoisie might blast and ruin its own world before it leaves the stage of history. We carry a new world here, in our hearts. That world is growing in this minute.\"",
-		"Explanation": "",
 		"Answers":
 		[
 			{
@@ -285,7 +284,7 @@
 				"Text": "Salvador Dalí"
 			},
 			{
-				"Text": "Diego Velasquez"
+				"Text": "Andre Breton"
 			},
 			{
 				"Text": "Luis Buñuel"
@@ -561,26 +560,26 @@
 		]
 	},
 	{
-		"Difficulty": "Medium",
+		"Difficulty": "Easy",
 		"Question": "The CNT (National Labour Confederation) was:",
 		"Image": "CNT poster.jpg",
 		"Answers":
 		[
 			{
-				"Text": "An anarcho-syndicalist trade union that believed in the revolutionary overthrow of capitalism.",
+				"Text": "An anarcho-syndicalist trade union that believed in the revolutionary overthrow of capitalism",
 				"Score": "1"
 			},
 			{
-				"Text": "A strong socialist movement that was mainly based in Catalonia."
+				"Text": "A strong socialist movement that was mainly based in Catalonia"
 			},
 			{
-				"Text": "A peasants' organisation funded by the Catholic church."
+				"Text": "A peasants' organisation funded by the Catholic church"
 			},
 			{
-				"Text": "The main trade union attached to the Falange."
+				"Text": "The main trade union attached to the Falange"
 			},
 			{
-				"Text": "A communist union associated with the PCE. At their height they had over one million members."
+				"Text": "A communist union associated with the PCE. At their height they had over one million members"
 			}
 		]
 	},
@@ -1552,23 +1551,31 @@
 	{
 		"Difficulty": "Hard",
 		"Question": "What was the best tank of the Spanish Civil War?",
-		"Image": "T-26 tank in Spain.jpg",
 		"Answers":
 		[
 			{
+				"Image": "T-26 model33 Spain.jpg",
 				"Text": "Soviet T-26",
-				"Score": "1"
+				"Score": "1",
+				"Explanation": "The T-26 tank was a Soviet light infantry tank used during many conflicts of the 1930s as well as during World War II. It was a development of the British Vickers 6-Ton tank and is widely considered one of the most successful tank designs of the 1930s until its light armor became vulnerable to newer anti-tank guns."
 			},
 			{
-				"Text": "German Panzer I"
+				"Image": "Panzer I.png",
+				"Text": "German Panzer I",
+				"Explanation": "The Panzer I's performance in combat was limited by its thin armor and light armament of two machine guns. As a design intended for training, the Panzer I was not as capable as the Soviet T-26."
 			},
 			{
-				"Text": "Soviet BT-5"
+				"Image": "BT-5 early spanish rep 1937.png",
+				"Text": "Soviet BT-5",
+				"Explanation": "A battalion of BT-5s fought on the Republican side, and their 45 mm guns could easily knock out the opposing German and Italian light tanks."
 			},
 			{
-				"Text": "Italian tankettes"
+				"Image": "l3-35 20mm.jpg",
+				"Text": "Italian tankettes",
+				"Explanation": "In Spain, L3s of the Corps of Volunteer Troops (Corpo Truppe Volontarie, or CTV) were totally out-classed by the T-26 and BT-5 tanks provided to the Republican forces by the Soviet Union."
 			},
 			{
+				"Image": "Renault FT-17.png",
 				"Text": "French Renault FT-17"
 			}
 		]
@@ -1605,7 +1612,8 @@
 		[
 			{
 				"Text": "The son of a 20th century Spanish dictator",
-				"Score": "1"
+				"Score": "1",
+				"Explanation": "Miguel Primo de Rivera was a dictator, aristocrat, and military officer who served as Prime Minister of Spain from 1923 to 1930."
 			},
 			{
 				"Text": "The son of an arch-bishop of the Spanish Catholic Church"
@@ -1874,13 +1882,13 @@
 	},
 	{
 		"Difficulty": "Medium",
-		"Question": "Aside from communists, Francisco Franco had a (peculiar) aversion for:",
+		"Question": "Francisco Franco had a peculiar aversion for:",
 		"Answers":
 		[
 			{
 				"Text": "Freemasons",
 				"Score": "1",
-				"Explanation": "\"We have torn up Marxist materialism and we have disorientated Masonry. We have thwarted the Satanic machinations of the clandestine Masonic superstate. Despite its control of the world’s press and numerous international politicians. Spain’s struggle is a Crusade; as soldiers of God we carry with us the evangelism of the world!\" - Francisco Franco, speech to the women's section of the Falange in Madrid (11 September 1945)"
+				"Explanation": "Father Jean Tusquets and one of his close associates, Franco’s personal chaplain, assembled a huge index of 80,000 suspected masons, even though there were little more than 5,000 masons in Spain. By 16 December 1937, according to the annual masonic assembly held in Madrid, all masons that had not escaped from the areas under Nationalist control had been murdered.\r\n\"We have torn up Marxist materialism and we have disorientated Masonry. We have thwarted the Satanic machinations of the clandestine Masonic superstate. Despite its control of the world’s press and numerous international politicians.\" - Francisco Franco, 11 September 1945."
 			},
 			{
 				"Text": "Trade unionists"
@@ -1889,7 +1897,7 @@
 				"Text": "Anarchists"
 			},
 			{
-				"Text": "Marxists"
+				"Text": "Separatists"
 			}
 		]
 	},
@@ -1901,7 +1909,7 @@
 			{
 				"Text": "France",
 				"Score": "1",
-				"Explanation": "France was initially pro-Republican. It aided the Republic and traded war materiel. France soon ended this activity and co-organised (with the UK) the Non-Intervention Committee that effectively aided the fascists."
+				"Explanation": "France was initially pro-Republican. It aided the Republic and traded war materiel. France soon ended this activity and co-organised (with the UK) the Non-Intervention Committee that effectively aided the fascists. The French government did not stay fully committed to non-intervention and the border was opened a number of times to trade war materiel."
 			},
 			{
 				"Text": "United Kingdom",
@@ -2583,7 +2591,7 @@
 			{
 				"Text": "Buenaventura Durruti; Jose Antonio De Rivera",
 				"Score": "1",
-				"Explanation": "Durruti was a central figure of Spanish anarchism as an influential member of the CNT and FAI. He was killed during the Battle for Madrid, probably by a stray bullet.\r\nDe Rivera was the leader of the Spanish Falange. He was arrest in March 14, 1936 and held at the prison in Alicante. On October 3 1936 he was charged with conspiracy against the Republic and military insurrection, both capital offences. On November 18 at 2:30 AM he was found guilty and sentenced to death by firing squad. The sentence was carried out early in the morning of November 20, 1936."
+				"Explanation": "Durruti was a central figure of Spanish anarchism as an influential member of the CNT and FAI. He was killed during the Battle for Madrid, probably by a stray bullet.\r\nDe Rivera was the leader of the Spanish Falange. He was arrested in March 14, 1936 and held at the prison in Alicante. On October 3 1936 he was charged with conspiracy against the Republic and military insurrection, both capital offences. On November 18 at 2:30 AM he was found guilty and sentenced to death by firing squad. The sentence was carried out early in the morning of November 20, 1936."
 			},
 			{
 				"Text": "Buenaventura Durruti; Emilio Mola"
@@ -2670,6 +2678,9 @@
 			},
 			{
 				"Text": "Jarama Valley"
+			},
+			{
+				"Text": "No pasaran"
 			}
 		]
 	},
@@ -2681,7 +2692,7 @@
 			{
 				"Text": "PSOE",
 				"Score": "1",
-				"Explanation": "The PSOE was founded in 1879. It was one of the oldest political parties at the time of the Spanish Civil War. It was older than the Republican Left (founded in 1934), Republican Union (1934) and the Spanish Communist Party (the PCE, founded in 1921)."
+				"Explanation": "The PSOE was founded in 1879. It was one of the oldest political parties at the time of the Spanish Civil War. It was older than the Republican Left (founded in 1934), Republican Union (founded in 1934) and the Spanish Communist Party (the PCE, founded in 1921)."
 			},
 			{
 				"Text": "CNT-FAI",
@@ -2699,7 +2710,7 @@
 			},
 			{
 				"Text": "POUM",
-				"Explanation": "The POUM was formed in 1935 by former members of the CNT who had been partially inspired by the Russian Revolution and Trotsky, but mostly Karl Marx."
+				"Explanation": "The POUM was formed in 1935 by former members of the CNT who had been partially inspired by the Russian Revolution and Trotsky, but mostly by Karl Marx."
 			}
 		]
 	},
@@ -2715,17 +2726,185 @@
 			},
 			{
 				"Text": "Catalonia and Galicia"
-				
 			},
 			{
 				"Text": "Andalusia and the Basque Country"
 			},
 			{
 				"Text": "Aragon, Catalonia and Galicia"
-				
 			},
 			{
 				"Text": "Aragon and Valencia"
+			}
+		]
+	},
+	{
+		"Difficulty": "Easy",
+		"Question": "What did the German Nazis and Italian fascists bring to Madrid in November 1936?",
+		"Image": "Kultur.jpg",
+		"Answers":
+		[
+			{
+				"Text": "Aerial bombardment",
+				"Score": "1",
+				"Explanation": "German and Italian bombers pounded the city's residential areas from 19 to 23 November, with the exception of the upper class Salamanca district (which was assumed to contain many Nationalist supporters).\r\nFranco is quoted as saying, \"I will destroy Madrid rather than leave it to the Marxists\"."
+			},
+			{
+				"Text": "Artillery shelling"
+			},
+			{
+				"Text": "Rocket launchers"
+			},
+			{
+				"Text": "Tanks"
+			},
+			{
+				"Text": "Culture"
+			}
+		]
+	},
+	{
+		"Difficulty": "Medium",
+		"Question": "Which of the following posters is a Nationalist poster?",
+		"DynamicImage": "true",
+		"Answers":
+		[
+			{
+				"Text": "[No poster is Nationalist]",
+				"Image": "Blank poster.png",
+				"Score": "1",
+				"IsLast": "true"
+			},
+			{
+				"Image": "Homes.jpg",
+				"Explanation": "You chose a PSU poster saying \"Strong men, to the front!\""
+			},
+			{
+				"Image": "Conferencia de las muchachas.jpg",
+				"Explanation": "You chose a Republican government poster that says \"May 1937 - Conference of women of Madrid\""
+			},
+			{
+				"Image": "Todos los pueblos.jpg",
+				"Explanation": "You chose a Republican government poster that says \"All the people of the world are in the International Brigades on the side of the Spanish people\""
+			},
+			{
+				"Image": "UGT Avant.jpg",
+				"Explanation": "You chose a UGT poster. It says: \"Forward!\""
+			}
+		]
+	},
+	{
+		"Difficulty": "Easy",
+		"Question": "In the pictured Spanish Communist Party poster, what is the date of 14 April 1931 a reference to?",
+		"Image": "PCE popular front.jpg",
+		"Answers":
+		[
+			{
+				"Text": "The founding of the Second Spanish Republic",
+				"Score": "1"
+			},
+			{
+				"Text": "A defeated social revolution in Spain"
+			},
+			{
+				"Text": "The founding of the Spanish Communist Party"
+			},
+			{
+				"Text": "The defeat of the dictatorship of Miguel Primo de Rivera"
+			}
+		]
+	},
+	{
+		"Difficulty": "Easy",
+		"Question": "Which of the following posters is an anarchist poster?",
+		"DynamicImage": "true",
+		"Answers":
+		[
+			{
+				"Image": "FAI poster.jpg",
+				"Score": "1"
+			},
+			{
+				"Image": "Ambulances for the front.jpg",
+				"Explanation": "You chose an RSI poster saying \"Ambulances for the front\"."
+			},
+			{
+				"Image": "7 November, Madrid - They Shall Not Pass.jpg",
+				"Explanation": "You chose a Republican government poster that says \r\n\"They shall not pass!\r\nMadrid\r\n7th November\""
+			},
+			{
+				"Image": "Arriba España.jpg",
+				"Explanation": "You chose a Falange poster that says \r\n\"Spain Dawns\r\nArise Spain\""
+			},
+			{
+				"Image": "The Nationalists.jpg",
+				"Explanation": "You chose a Republican poster. It says: \"The Nationalists\""
+			}
+		]
+	},
+	{
+		"Difficulty": "Hard",
+		"Question": "Anarchists in Spain were initially influenced by which famous anarchist?",
+		"Image": "Bakunin.jpg",
+		"Answers":
+		[
+			{
+				"Text": "Bakunin",
+				"Score": "1"
+			},
+			{
+				"Text": "Kropotkin"
+			},
+			{
+				"Text": "Malatesta"
+			},
+			{
+				"Text": "Proudhon"
+			},
+			{
+				"Text": "Godwin"
+			}
+		]
+	},
+	{
+		"Difficulty": "Hard",
+		"Question": "In the pictured Spanish Communist Party poster, what is the date of 11 February 1873 a reference to?",
+		"Image": "PCE popular front.jpg",
+		"Answers":
+		[
+			{
+				"Text": "The founding of the First Spanish Republic",
+				"Score": "1"
+			},
+			{
+				"Text": "A defeated social revolution in Spain"
+			},
+			{
+				"Text": "The founding of the Spanish Communist Party"
+			},
+			{
+				"Text": "The abdication of King Amadeo I"
+			}
+		]
+	},
+	{
+		"Difficulty": "Hard",
+		"Question": "Which left-wing political parties of the Popular Front were members of the Third Communist International (Comintern)?",
+		"Explanation": "Of all the political parties of the Popular Front (there were 15 parties, though only 5 with more than 10 seats), only the PCE was allied to the Russian Communist controlled Comintern. They had only a minimal number of seats in the Spanish government, only 17 of the 285 (6%) Popular Front seats.",
+		"Answers":
+		[
+			{
+				"Text": "PCE",
+				"Score": "1"
+			},
+			{
+				"Text": "PSOE and the PCE"
+			},
+			{
+				"Text": "PSOE, IR and the PCE"
+			},
+			{
+				"Text": "ERC and the PCE"
 			}
 		]
 	}

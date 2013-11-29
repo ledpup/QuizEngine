@@ -185,7 +185,7 @@ namespace QuizEngine
                 };
 
                 button.Holding += ButtonOnHolding;
-                button.RightTapped+=ButtonOnRightTapped;
+                button.RightTapped += ButtonOnRightTapped;
 
                 if (!string.IsNullOrEmpty(answer.Image))
                 {
@@ -220,15 +220,6 @@ namespace QuizEngine
                     {
                         textBlock.Text = _quizQuestion.TextAnswer ? answer.Text : "";
                     }
-
-                    //if (!string.IsNullOrEmpty(textBlock.Text))
-                    //{
-                    //    button.VerticalContentAlignment = VerticalAlignment.Top;
-                    //}
-
-                    // Ensure that first letter is capitalised
-                    //if (!string.IsNullOrEmpty(textBlock.Text))
-                    //    textBlock.Text = char.ToUpper(textBlock.Text[0]) + textBlock.Text.Substring(1);
 
                     if (!string.IsNullOrEmpty(answer.Image))
                     {
