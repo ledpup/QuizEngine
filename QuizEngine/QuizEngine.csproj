@@ -172,6 +172,7 @@
     <Content Include="Assets\Quizzes\Spanish Civil War\Army of Africa.png" />
     <Content Include="Assets\Quizzes\Spanish Civil War\Arriba España.jpg" />
     <Content Include="Assets\Quizzes\Spanish Civil War\Asturias.jpg" />
+    <Content Include="Assets\Quizzes\Spanish Civil War\Ay Carmela.mp3" />
     <Content Include="Assets\Quizzes\Spanish Civil War\Bakunin.jpg" />
     <Content Include="Assets\Quizzes\Spanish Civil War\Blank emblem.png" />
     <Content Include="Assets\Quizzes\Spanish Civil War\Blank flag.png" />
@@ -214,6 +215,7 @@
     <Content Include="Assets\Quizzes\Spanish Civil War\Flag of Mexico.png" />
     <Content Include="Assets\Quizzes\Spanish Civil War\Flag of Spain %281931-1939%29.png" />
     <Content Include="Assets\Quizzes\Spanish Civil War\Flag of the Soviet Union.png" />
+    <Content Include="Assets\Quizzes\Spanish Civil War\Flag of the United States of America.png" />
     <Content Include="Assets\Quizzes\Spanish Civil War\Franco painting.png" />
     <Content Include="Assets\Quizzes\Spanish Civil War\Franco.jpg" />
     <Content Include="Assets\Quizzes\Spanish Civil War\Germany.PNG" />
