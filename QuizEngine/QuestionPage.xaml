@@ -26,7 +26,7 @@
         </Storyboard>
     </Page.Resources>
         <Grid>
-        <Image x:Name="FullscreenImage" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="4" Grid.RowSpan="7" Stretch="Uniform" Visibility="Collapsed" Canvas.ZIndex="2" Tapped="FullscreenImage_Tapped" ></Image>
+        <Image x:Name="FullscreenImage" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="4" Grid.RowSpan="7" Stretch="Uniform" Visibility="Collapsed" Canvas.ZIndex="2" Tapped="FullscreenImage_Tapped" RightTapped="FullscreenImage_OnRightTapped"></Image>
     
         <Grid x:Name="Mainscreen">
             <Grid.RowDefinitions>

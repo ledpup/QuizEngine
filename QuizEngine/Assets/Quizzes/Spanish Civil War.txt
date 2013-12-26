@@ -1387,7 +1387,7 @@
 		"Difficulty": "Easy",
 		"Question": "During the war, about half of the Catholic ecclesiastical community was killed by anarchists, communists and socialists (i.e., pro-Republican forces.)",
 		"Image": "Leftists shooting statue.jpg",
-		"Explanation": "\"[...] of a total ecclesiastical community of around 115,000, thirteen bishops, 4,184 priests, 2,365 members of other orders and 283 nuns were killed, the vast majority during the summer of 1936.\" - Beevor, A., The Battle for Spain",
+		"Explanation": "\"[...] of a total ecclesiastical community of around 115,000, thirteen bishops, 4,184 priests, 2,365 members of other orders and 283 nuns were killed, the vast majority during the summer of 1936.\" - Beevor, A., The Battle for Spain. Some of these were killed by Nationalists, especially in the Basque Country",
 		"Answers":
 		[
 			{

@@ -34,8 +34,8 @@ namespace QuizEngine
         public static MainPage Current;
 
         //public const string Quiz = "Human Body Systems";
-        //public const string Quiz = "Chemistry";
-        public const string Quiz = "Spanish Civil War";
+        public const string Quiz = "Chemistry";
+        //public const string Quiz = "Spanish Civil War";
 
         // Data source for the semantic zoom
         private List<IGesturePageInfo> _pages;
@@ -56,6 +56,8 @@ namespace QuizEngine
             Current = this;
 
             Window.Current.SizeChanged += VisualStateChanged;
+
+            SnappedQuizName.Text = MainPage.QuizTitle;
             // Links button
             //this._links = new Dictionary<string, Uri>();
             //this._links["Doc: Touch Interaction Design"] = new Uri("http://msdn.microsoft.com/en-us/library/windows/apps/hh465415.aspx");
@@ -320,5 +322,7 @@ namespace QuizEngine
                 VisualStateManager.GoToState(this, "FullScreenLandscape", false);
             }
         }
+
+        public static string QuizTitle { get { return Quiz +" Quiz"; } }
     }
 }

@@ -34,6 +34,10 @@ namespace QuizEngine
             NewMethod();
 
             Window.Current.SizeChanged += VisualStateChanged;
+
+            SnappedQuizName.Text = MainPage.QuizTitle;
+            Title.Text = MainPage.QuizTitle;
+            
         }
 
         private async void NewMethod()
@@ -54,7 +58,29 @@ namespace QuizEngine
             var random = new Random();
             MainPage.SelectBackgroundImage(BackgroundImageSnappedOrFilledScreen, random, "backgrounds - main");
             MainPage.SelectBackgroundImage(BackgroundImage, random, "backgrounds - main");
+
+            
+            var categories = _completeQuizQuestions.Select(x => new { x.Category }).Distinct();
+            foreach (var category in categories)
+            {
+                var checkBox = new CheckBox()
+                {
+                    Tag = category.Category,
+                    Content = category.Category + " (" + _completeQuizQuestions.Count(x => x.Category == category.Category) + ")",
+                    IsChecked = true,
+                    Padding = new Thickness(5)
+                };
+                checkBox.Click += checkBox_Click;
+                checkBox_Click(checkBox, null);
+                Categories.Children.Add(checkBox);
+            }
+
             //NumberOfQuestions.Maximum = _completeQuizQuestions.Count;
+        }
+
+        void checkBox_Click(object sender, RoutedEventArgs e)
+        {
+            SetCategory((CheckBox) sender, (string)((CheckBox) sender).Tag);
         }
 
         /// <summary>
@@ -77,9 +103,11 @@ namespace QuizEngine
             public QuizConfig()
             {
                 Difficulties = new List<string>();
+                Categories = new List<string>();
             }
 
             public List<string> Difficulties;
+            public List<string> Categories;
             public int NumberOfQuestions;
         }
 
@@ -120,6 +148,19 @@ namespace QuizEngine
             Frame.Navigate(typeof(MainPage), new QuizAttempt(_quizQuestions, (bool)Practice.IsChecked));
         }
 
+        private void SetCategory(CheckBox button, string category)
+        {
+            if (button.IsChecked == true)
+            {
+                _quizConfig.Categories.Add(category);
+            }
+            else
+            {
+                _quizConfig.Categories.Remove(category);
+            }
+            ConfigureQuestions(_quizConfig);
+        }
+
         private void SetDifficulty(CheckBox button, string difficulty)
         {
             if (button.IsChecked == true)
@@ -135,7 +176,7 @@ namespace QuizEngine
 
         private void ConfigureQuestions(QuizConfig quizConfig)
         {
-            _quizQuestions = _completeQuizQuestions.Where(x => quizConfig.Difficulties.Contains(x.Difficulty)).ToList();
+            _quizQuestions = _completeQuizQuestions.Where(x => quizConfig.Difficulties.Contains(x.Difficulty) && quizConfig.Categories.Contains(x.Category)).ToList();
 
             if (_quizQuestions.Count >= NumberOfQuestions.Minimum)
             {
@@ -194,6 +235,16 @@ namespace QuizEngine
             {
                 VisualStateManager.GoToState(this, "FullScreenLandscape", false);
             }
+        }
+
+        private void ButtonBase_OnClick(object sender, RoutedEventArgs e)
+        {
+            foreach (CheckBox categoryCheckBox in Categories.Children)
+            {
+                categoryCheckBox.IsChecked = !categoryCheckBox.IsChecked;
+                checkBox_Click(categoryCheckBox, null);
+            }
+            
         }
     }
 }

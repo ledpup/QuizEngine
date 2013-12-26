@@ -322,6 +322,11 @@ namespace QuizEngine
 
         private void FullscreenImage_Tapped(object sender, TappedRoutedEventArgs e)
         {
+            DismissFullScreenImage();
+        }
+
+        private void DismissFullScreenImage()
+        {
             FullscreenImage.Visibility = Visibility.Collapsed;
 
             if (!string.IsNullOrEmpty(_quizQuestion.Image))
@@ -347,6 +352,11 @@ namespace QuizEngine
             MediaContent.Pause();
             PauseMedia.Visibility = Visibility.Collapsed;
             PlayMedia.Visibility = Visibility.Visible;
+        }
+
+        private void FullscreenImage_OnRightTapped(object sender, RightTappedRoutedEventArgs e)
+        {
+            DismissFullScreenImage();
         }
     }
 }

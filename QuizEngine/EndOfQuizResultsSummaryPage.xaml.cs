@@ -31,6 +31,8 @@ namespace QuizEngine
             var random = new Random();
             MainPage.SelectBackgroundImage(BackgroundImageSnappedOrFilledScreen, random, "backgrounds - main");
 
+            SnappedQuizName.Text = MainPage.QuizTitle;
+
             Window.Current.SizeChanged += VisualStateChanged;
         }
 

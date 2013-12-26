@@ -1,5 +1,6 @@
 [
 	{
+		"Category": "Functional groups",
 		"Question": "What functional groups does aspirin have?",
 		"Image": "Aspirin.png",
 		"Answers":
@@ -20,6 +21,7 @@
 		]
 	},
 	{
+		"Category": "Functional groups",
 		"KeyQuestion": "Identify the *answer text* functional group.",
 		"ValueQuestion": "What is the image of the function group on the called?",
 		"DynamicAnswer": "true",
@@ -61,6 +63,7 @@
 		]
 	},
 	{
+		"Category": "Functional groups",
 		"KeyQuestion": "Identify the *answer text*.",
 		"ValueQuestion": "What is the image of the nitrogen based function group on the called?",
 		"DynamicAnswer": true,
@@ -85,6 +88,7 @@
 		]
 	},
 	{
+		"Category": "Introduction",
 		"Question": "One mole of carbon dioxide and one mole of salicylic acid __________.",
 		"Answers":
 		[
@@ -96,7 +100,7 @@
 				"Text": "have the same mass but a different density"
 			},
 			{
-				"Text": "have a mass of 6.022x10\u00B2\u00B3g each but a different number of molecules"
+				"Text": "have a mass of 6.022x10\u00B2\u00B3g each"
 			},
 			{
 				"Text": "have the same mass and the same density"
@@ -107,6 +111,7 @@
 		]
 	},
 	{
+		"Category": "Cells",
 		"Question": "The smooth endoplasmic reticulum is responsible for creating __________. The rough endoplasmic reticulum is responsible for creating __________.",
 		"Answers":
 		[
@@ -129,7 +134,7 @@
 		]
 	},
 	{
-		"Category": "Amino acids",
+		"Category": "Amino acids and proteins",
 		"Difficulty": "Medium",
 		"KeyQuestion": "From the diagrams of amino acids, select one which is *answer text*.",
 		"ValueQuestion": "What property does the pictured amino acid have?",
@@ -155,7 +160,7 @@
 		]
 	},
 	{
-		"Category": "Amino acids",
+		"Category": "Amino acids and proteins",
 		"Difficulty": "Hard",
 		"KeyQuestion": "What is the chemical structure of *answer text*?",
 		"ValueQuestion": "What is the name of the pictured amino acid?",
@@ -198,7 +203,7 @@
 		]
 	},
 	{
-		"Category": "Amino acids",
+		"Category": "Amino acids and proteins",
 		"Difficulty": "Easy",
 		"Question": "How many essential amino acids are there?",
 		"Answers":
@@ -222,7 +227,7 @@
 		]
 	},
 	{
-		"Category": "Amino acids",
+		"Category": "Amino acids and proteins",
 		"Difficulty": "Easy",
 		"Question": "How many standard amino acids are used by humans to create proteins?",
 		"Answers":
@@ -246,7 +251,7 @@
 		]
 	},
 	{
-		"Category": "Amino acids",
+		"Category": "Amino acids and proteins",
 		"Difficulty": "Easy",
 		"Question": "What is the general structure of α-amino acids?",
 		"Answers":
@@ -273,7 +278,7 @@
 		]
 	},
 	{
-		"Category": "Amino acids",
+		"Category": "Amino acids and proteins",
 		"Difficulty": "Medium",
 		"Question": "What type of amino acid isomers are generally found in life?",
 		"Answers":
@@ -297,7 +302,7 @@
 		]
 	},
 	{
-		"Category": "Amino acids",
+		"Category": "Amino acids and proteins",
 		"Difficulty": "Medium",
 		"Question": "Which amino acid is achiral (is not an enantiomer/optical isomer)?",
 		"Answers":
@@ -326,7 +331,7 @@
 		]
 	},
 	{
-		"Category": "Amino acids",
+		"Category": "Amino acids and proteins",
 		"Difficulty": "Easy",
 		"Question": "Peptides are formed by amino acids bonding with the carboxyl group of the N-terminal end.",
 		"Explanation": "Peptides are formed by amino acids bonding with the carboxyl group of the C-terminal end.",
@@ -342,7 +347,7 @@
 		]
 	},
 	{
-		"Category": "Amino acids",
+		"Category": "Amino acids and proteins",
 		"Difficulty": "Easy",
 		"Question": "A zwitterion is a neutral molecule with positive and negative electrical charge regions.",
 		"Answers":
@@ -357,7 +362,7 @@
 		]
 	},
 	{
-		"Category": "Amino acids",
+		"Category": "Amino acids and proteins",
 		"Difficulty": "Medium",
 		"Question": "The formation of a peptide bond between glycine (CH\u2082NH\u2082COOH) and alanine (CH\u2083CHNH\u2082COOH) creates what products?",
 		"Answers":
@@ -382,7 +387,7 @@
 		]
 	},
 	{
-		"Category": "Proteins",
+		"Category": "Amino acids and proteins",
 		"Difficulty": "Medium",
 		"KeyQuestion": "A protein's *answer text* can be described as __________.",
 		"ValueQuestion": "What is a protein structure that is *answer text* called?",
@@ -408,7 +413,7 @@
 		]
 	},
 	{
-		"Category": "Proteins",
+		"Category": "Amino acids and proteins",
 		"Difficulty": "Easy",
 		"Question": "Protein creation occurs by: double-stranded DNA → translation → single-stranded messenger RNA → transcription → protein.",
 		"Explanation": "Protein creation occurs by: double-stranded DNA → transcription → single-stranded messenger RNA → translation → protein.",
@@ -424,7 +429,7 @@
 		]
 	},
 	{
-		"Category": "Amino acids",
+		"Category": "Amino acids and proteins",
 		"Difficulty": "Easy",
 		"Question": "Peptide bonds are created by condensation or dehydration.",
 		"Answers":
@@ -439,7 +444,7 @@
 		]
 	},
 	{
-		"Category": "Proteins",
+		"Category": "Amino acids and proteins",
 		"Difficulty": "Easy",
 		"KeyQuestion": "A class of proteins called *answer text* can be described as __________.",
 		"ValueQuestion": "What is the protein class where proteins are *answer text*?",
@@ -469,7 +474,7 @@
 		]
 	},
 	{
-		"Category": "Proteins",
+		"Category": "Amino acids and proteins",
 		"Difficulty": "Hard",
 		"Question": "α-helices and β-sheets are properties of what type of protein structure?",
 		"Answers":
@@ -498,7 +503,7 @@
 		]
 	},
 	{
-		"Category": "Proteins",
+		"Category": "Amino acids and proteins",
 		"Difficulty": "Hard",
 		"Question": "What is the basic structural features of haemoglobin in humans?",
 		"Answers":
@@ -747,17 +752,17 @@
 		"Answers":
 		[
 			{
-				"Text": "4 peptide bonds and 5 amino acids",
+				"Text": "4 peptide bonds and 5 Amino acids and proteins",
 				"Score": "1"
 			},
 			{
-				"Text": "5 peptide bonds and 5 amino acids"
+				"Text": "5 peptide bonds and 5 Amino acids and proteins"
 			},
 			{
-				"Text": "3 peptide bonds and 5 amino acids"
+				"Text": "3 peptide bonds and 5 Amino acids and proteins"
 			},
 			{
-				"Text": "5 peptide bonds and 4 amino acids"
+				"Text": "5 peptide bonds and 4 Amino acids and proteins"
 			},
 			{
 				"Text": "3 amino acids and 5 peptide bonds"
