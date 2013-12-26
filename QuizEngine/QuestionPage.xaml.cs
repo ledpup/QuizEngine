@@ -75,6 +75,7 @@ namespace QuizEngine
             {
                 Media.Visibility = Visibility.Visible;
                 MediaContent.Source = new Uri("ms-appx:///Assets/Quizzes/" + MainPage.Quiz + "/" + _quizQuestion.Audio);
+                MediaContent.MediaEnded += MediaContent_MediaEnded;
             }
             
 
@@ -82,6 +83,12 @@ namespace QuizEngine
 
             DisplayAnswers();
             
+        }
+
+        void MediaContent_MediaEnded(object sender, RoutedEventArgs e)
+        {
+            MediaContent.Stop();
+            Pause_Click(MediaContent, new RoutedEventArgs());
         }
 
         private void AnimateHand()
