@@ -190,10 +190,10 @@ namespace QuizEngine
             }
 
             DifficultyWarning.Visibility = Visibility.Collapsed;
-            StartQuiz.IsEnabled = true;
+            StartQuiz.Visibility = Visibility.Visible;
             if (_quizQuestions.Count == 0)
             {
-                StartQuiz.IsEnabled = false;
+                StartQuiz.Visibility = Visibility.Collapsed;
                 DifficultyWarning.Visibility = Visibility.Visible;
             }
         }

@@ -47,12 +47,12 @@
 
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="*"/>
-                <ColumnDefinition Width="3.5*"/>
+                <ColumnDefinition Width="5*"/>
                 <ColumnDefinition Width="*"/>
             </Grid.ColumnDefinitions>
             <Grid.RowDefinitions>
                 <RowDefinition Height="*"/>
-                <RowDefinition Height="3.5*"/>
+                <RowDefinition Height="4.5*"/>
                 <RowDefinition Height="*"/>
             </Grid.RowDefinitions>
 
@@ -68,12 +68,11 @@
                 </Grid.ColumnDefinitions>
                 <Grid.RowDefinitions>
                     <RowDefinition Height="*"/>
+                    <RowDefinition Height="Auto"/>
                     <RowDefinition Height="*"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
                     <RowDefinition Height="*"/>
-                    <RowDefinition Height="*"/>
-                    <RowDefinition Height="*"/>
-                    <RowDefinition Height="*"/>
-                    <RowDefinition Height="26"/>
                 </Grid.RowDefinitions>
 
                 <TextBlock Grid.Column="0" Grid.Row="0" Style="{StaticResource AppDescriptionTextStyle}" VerticalAlignment="Center">Difficulty:</TextBlock>
@@ -107,7 +106,7 @@
                     <RadioButton GroupName="Group2" Padding="10"  Style="{StaticResource AppRadioButtonStyle}">Newest to oldest</RadioButton>
                 </StackPanel>
                 <Button x:Name="StartQuiz" Grid.Column="0" Grid.Row="5" Grid.ColumnSpan="3" HorizontalAlignment="Center" Click="StartQuiz_Click" Padding="10" Width="250">Start Quiz</Button>
-                <TextBlock x:Name="DifficultyWarning" Grid.Column="0" Grid.Row="6" Grid.ColumnSpan="3" FontWeight="Bold" Foreground="{StaticResource RedBrush}" Style="{StaticResource AppDescriptionTextStyle}" HorizontalAlignment="Center" Visibility="Collapsed">At least one difficulty level needs to be selected to start the quiz.</TextBlock>
+                <TextBlock x:Name="DifficultyWarning" Grid.Column="0" Grid.Row="5" Grid.ColumnSpan="3" FontWeight="Bold" Foreground="{StaticResource RedBrush}" Style="{StaticResource AppDescriptionTextStyle}" HorizontalAlignment="Center" VerticalAlignment="Center" Visibility="Collapsed">At least one difficulty level and category needs to be selected to start the quiz.</TextBlock>
             </Grid>
         </Grid>
 
