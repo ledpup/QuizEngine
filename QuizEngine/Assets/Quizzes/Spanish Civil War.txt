@@ -1907,24 +1907,29 @@
 		"Answers":
 		[
 			{
+				"Image": "Flag of France.png",
 				"Text": "France",
 				"Score": "1",
 				"Explanation": "France was initially pro-Republican. It aided the Republic and traded war materiel. France soon ended this activity and co-organised (with the UK) the Non-Intervention Committee that effectively aided the fascists. The French government did not stay fully committed to non-intervention and the border was opened a number of times to trade war materiel."
 			},
 			{
+				"Image": "United Kingdom.png",
 				"Text": "United Kingdom",
 				"Explanation": "The UK was decidedly pro-fascist throughout the war. It sent MI6 agents to transport Franco to Spanish Morocco. It's navy defended the Nationalist controlled city of Algeciras. It co-organised (with France) the Non-Intervention Committee that effectively aided the fascists."
 			},
 			{
+				"Image": "Flag of the United States of America.png",
 				"Text": "United States of America",
 				"Explanation": "In January 1937, the US government passed a resolution to ban the export of arms to Spain. However, US corporations supported the fascists - automakers supplied trucks to the Nationalists, Texaco supplied oil and DuPont supplied bombs (via Germany)."
 			},
 			{
+				"Image": "Portugal.png",
 				"Text": "Portugal",
 				"Explanation": "In the first weeks of the war the Portuguese army tried to form a Viriatos Legion to aid the right-wing insurgents in Spain. The Legion was disbanded before any recruitment drive could take place after pro-Republican incidents in Portugal. Portugal contributed money, munitions, manpower and support to Nationalist forces throughout the war."
 			},
 			{
-				"Text": "All of the above",
+				"Image": "Blank flag.png",
+				"Text": "[None were pro-Nationalist]",
 				"IsLast": "true"
 			}
 		]
@@ -2585,7 +2590,7 @@
 	},
 	{
 		"Difficulty": "Medium",
-		"Question": "Which two famous political opposites both died on the same day, 20 November 1936?",
+		"Question": "Which two political opposites both died on the same day, 20 November 1936?",
 		"Answers":
 		[
 			{
@@ -2890,11 +2895,11 @@
 	{
 		"Difficulty": "Hard",
 		"Question": "Which left-wing political parties of the Popular Front were members of the Third Communist International (Comintern)?",
-		"Explanation": "Of all the political parties of the Popular Front (there were 15 parties, though only 5 with more than 10 seats), only the PCE was allied to the Russian Communist controlled Comintern. They had only a minimal number of seats in the Spanish government, only 17 of the 285 (6%) Popular Front seats.",
+		"Explanation": "Of all the political parties of the Popular Front (there were 15 parties, though only 5 with more than 10 seats), only the PCE was allied to the Russian Communist controlled Comintern. The PCE had 17 of the 285 (6%) seats of the Popular Front government.",
 		"Answers":
 		[
 			{
-				"Text": "PCE",
+				"Text": "Only the PCE",
 				"Score": "1"
 			},
 			{
@@ -2905,6 +2910,31 @@
 			},
 			{
 				"Text": "ERC and the PCE"
+			}
+		]
+	},
+	{
+		"Difficulty": "Medium",
+		"Question": "Which song of the Spanish Civil War has the lyrics:\r\n\r\nIt's our only desire\r\nIt's our only desire\r\nEnd fascism\r\nHey Carmela, Hey Carmela\r\nEnd fascism",
+		"Audio": "Ay Carmela.mp3",
+		"Answers":
+		[
+			{
+				"Text": "Ay Carmela",
+				"Score": "1",
+				"Explanation": "Also known as El Paso del Ebro and Viva la XV Brigada. The melody is a folk tune dating back to the early 19th century."
+			},
+			{
+				"Text": "Facing the Sun (Cara al Sol)"
+			},
+			{
+				"Text": "The Interationale"
+			},
+			{
+				"Text": "Jarama Valley"
+			},
+			{
+				"Text": "To the Barricades! (A las Barricadas)"
 			}
 		]
 	}
