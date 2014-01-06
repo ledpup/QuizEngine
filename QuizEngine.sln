@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuizEngine", "QuizEngine\QuizEngine.csproj", "{F7509144-4356-496B-9EFA-DF641059491F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core", "Core\Core.csproj", "{3F1E23E5-921C-4E6F-963C-DAB4FC1B14E7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,16 @@ Global
 		{F7509144-4356-496B-9EFA-DF641059491F}.Release|x86.ActiveCfg = Release|x86
 		{F7509144-4356-496B-9EFA-DF641059491F}.Release|x86.Build.0 = Release|x86
 		{F7509144-4356-496B-9EFA-DF641059491F}.Release|x86.Deploy.0 = Release|x86
+		{3F1E23E5-921C-4E6F-963C-DAB4FC1B14E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F1E23E5-921C-4E6F-963C-DAB4FC1B14E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F1E23E5-921C-4E6F-963C-DAB4FC1B14E7}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{3F1E23E5-921C-4E6F-963C-DAB4FC1B14E7}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{3F1E23E5-921C-4E6F-963C-DAB4FC1B14E7}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{3F1E23E5-921C-4E6F-963C-DAB4FC1B14E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F1E23E5-921C-4E6F-963C-DAB4FC1B14E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F1E23E5-921C-4E6F-963C-DAB4FC1B14E7}.Release|ARM.ActiveCfg = Release|Any CPU
+		{3F1E23E5-921C-4E6F-963C-DAB4FC1B14E7}.Release|x64.ActiveCfg = Release|Any CPU
+		{3F1E23E5-921C-4E6F-963C-DAB4FC1B14E7}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

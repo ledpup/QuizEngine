@@ -67,10 +67,10 @@
                     <ColumnDefinition Width="3.5*"/>
                 </Grid.ColumnDefinitions>
                 <Grid.RowDefinitions>
-                    <RowDefinition Height="*"/>
                     <RowDefinition Height="Auto"/>
                     <RowDefinition Height="*"/>
                     <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="*"/>
                     <RowDefinition Height="Auto"/>
                     <RowDefinition Height="*"/>
                 </Grid.RowDefinitions>
@@ -83,7 +83,7 @@
                         <CheckBox x:Name="Hard" Padding="10" Click="Hard_Click" Width="150" Style="{StaticResource AppCheckBoxStyle}">Hard</CheckBox>
                     </StackPanel>
                 </StackPanel>
-                <StackPanel Grid.Column="0" Grid.Row="1">
+                <StackPanel Grid.Column="0" Grid.Row="1" VerticalAlignment="Center">
                     <TextBlock Style="{StaticResource AppDescriptionTextStyle}" VerticalAlignment="Center">Category:</TextBlock>
                     <Button Click="ButtonBase_OnClick">Invert selection</Button>
                 </StackPanel>

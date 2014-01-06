@@ -102,12 +102,13 @@
     <Prefer32Bit>true</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
-    <!-- A reference to the entire .Net Framework and Windows SDK are automatically included -->
-  </ItemGroup>
-  <ItemGroup>
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Common\BindableBase.cs" />
+    <Compile Include="Common\BooleanNegationConverter.cs" />
+    <Compile Include="Common\BooleanToVisibilityConverter.cs" />
+    <Compile Include="Common\RichTextColumns.cs" />
     <Compile Include="EndOfQuizResultsSummaryPage.xaml.cs">
       <DependentUpon>EndOfQuizResultsSummaryPage.xaml</DependentUpon>
     </Compile>
@@ -135,8 +136,12 @@
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="QuizAttempt.cs" />
-    <Compile Include="QuizQuestion.cs" />
+    <Compile Include="QuizAttempt.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="QuizQuestion.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="SemanticFlipView.cs" />
     <Compile Include="ZoomedOutInfo.cs" />
   </ItemGroup>
@@ -303,10 +308,12 @@
     <Content Include="Assets\Quizzes\Spanish Civil War\Italy.png" />
     <Content Include="Assets\Quizzes\Spanish Civil War\Izquierda Republicana.jpg" />
     <Content Include="Assets\Quizzes\Spanish Civil War\Jose Antonio De Rivera - Painting.jpg" />
+    <Content Include="Assets\Quizzes\Spanish Civil War\José Sanjurjo.jpg" />
     <Content Include="Assets\Quizzes\Spanish Civil War\Junkers Ju 52.png" />
     <Content Include="Assets\Quizzes\Spanish Civil War\Kultur.jpg" />
     <Content Include="Assets\Quizzes\Spanish Civil War\l3-35 20mm.jpg" />
     <Content Include="Assets\Quizzes\Spanish Civil War\La garra del invasor Italiano.png" />
+    <Content Include="Assets\Quizzes\Spanish Civil War\Largo Caballero Cabinet Ministers.jpg" />
     <Content Include="Assets\Quizzes\Spanish Civil War\Largo Caballero.jpg" />
     <Content Include="Assets\Quizzes\Spanish Civil War\Leftists shooting statue.jpg" />
     <Content Include="Assets\Quizzes\Spanish Civil War\Map_of_the_Spanish_Civil_War_in_February_1939.png" />

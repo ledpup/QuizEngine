@@ -3135,7 +3135,7 @@
 	{
 		"Category": "Carbohydrate metabolism",
 		"Difficulty": "Medium",
-		"Question": "What is the net gain in ATP and NADH at the end of the glycolytic pathway per glucose?",
+		"Question": "What is the net gain, per glucose, in ATP and NADH at the end of the glycolytic pathway?",
 		"Answers":
 		[
 			{

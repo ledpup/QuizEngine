@@ -50,9 +50,9 @@ namespace QuizEngine
 
             //_quizQuestion = quizQuestion;
             //Id = _quizQuestion.QuestionNumber.ToString();
-            txtTitle.DataContext = _quizQuestion.Title;
+            txtTitle.DataContext = _quizQuestion.Title;// string.Format("{0}. Category: {1}. Difficulty: {2}", _quizQuestion.Title, _quizQuestion.Category, _quizQuestion.Difficulty);
             Description = _quizQuestion.Question;
-            QuestionImage = _quizQuestion.ImageFullPath;
+            QuestionImage = "Assets/Quizzes/" + MainPage.Quiz + "/" +  _quizQuestion.Image;
 
             DescriptionBorder.DataContext = QuestionDescriptionColumnSpan;
             txtDescription.DataContext = QuestionDescriptionColumnSpan;

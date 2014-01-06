@@ -31,7 +31,7 @@ namespace QuizEngine
             txtExplanation.Text = quizQuestion.FullExplanation;
 
             if (!string.IsNullOrEmpty(quizQuestion.Image))
-                imgQuestionImage.Source = new BitmapImage(new Uri("ms-appx:///" + quizQuestion.ImageFullPath));
+                imgQuestionImage.Source = new BitmapImage(new Uri("ms-appx:///Assets/Quizzes/" + MainPage.Quiz + "/" + quizQuestion.Image));
 
             var answerCorrect = quizQuestion.SelectedAnswer == quizQuestion.CorrectAnswer;
 
