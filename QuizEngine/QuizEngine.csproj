@@ -230,6 +230,7 @@
     <Content Include="Assets\Quizzes\Spanish Civil War backgrounds - main\Hill pose.jpg" />
     <Content Include="Assets\Quizzes\Spanish Civil War backgrounds - main\Militiawoman.png" />
     <Content Include="Assets\Quizzes\Spanish Civil War backgrounds - main\Savoia-Marchetti SM.81 and Fiat CR.32.jpg" />
+    <Content Include="Assets\Quizzes\Spanish Civil War backgrounds - main\Victoria.jpg" />
     <Content Include="Assets\Quizzes\Spanish Civil War backgrounds\Al Front.jpg" />
     <Content Include="Assets\Quizzes\Spanish Civil War backgrounds\Arriba España.jpg" />
     <Content Include="Assets\Quizzes\Spanish Civil War backgrounds\Carlist poster.jpg" />
@@ -252,11 +253,10 @@
     <Content Include="Assets\Quizzes\Spanish Civil War\Blank emblem.png" />
     <Content Include="Assets\Quizzes\Spanish Civil War\Blank flag.png" />
     <Content Include="Assets\Quizzes\Spanish Civil War\Blank poster.png" />
-    <Content Include="Assets\Quizzes\Spanish Civil War\Breton.png" />
     <Content Include="Assets\Quizzes\Spanish Civil War\BT-5 early spanish rep 1937.png" />
     <Content Include="Assets\Quizzes\Spanish Civil War\Bundesarchiv_Bild_183-2006-1204-514,_Spanien,_Schlacht_um_Guadalajara.jpg" />
-    <Content Include="Assets\Quizzes\Spanish Civil War\Bunuel.png" />
     <Content Include="Assets\Quizzes\Spanish Civil War\Camarada.jpg" />
+    <Content Include="Assets\Quizzes\Spanish Civil War\Camaradas de la retaguardia.jpg" />
     <Content Include="Assets\Quizzes\Spanish Civil War\Carlist poster.jpg" />
     <Content Include="Assets\Quizzes\Spanish Civil War\Carlists.png" />
     <Content Include="Assets\Quizzes\Spanish Civil War\CEDA.png" />
@@ -271,7 +271,6 @@
     <Content Include="Assets\Quizzes\Spanish Civil War\Condor Legion 2.png" />
     <Content Include="Assets\Quizzes\Spanish Civil War\Conferencia de las muchachas.jpg" />
     <Content Include="Assets\Quizzes\Spanish Civil War\Cruzada.jpg" />
-    <Content Include="Assets\Quizzes\Spanish Civil War\Dali.jpg" />
     <Content Include="Assets\Quizzes\Spanish Civil War\Dragon Rapide.jpg" />
     <Content Include="Assets\Quizzes\Spanish Civil War\Durruti poster.jpg" />
     <Content Include="Assets\Quizzes\Spanish Civil War\Emblem of the Air Force of the Spanish Republic %281931-1934%29.png" />
@@ -311,7 +310,6 @@
     <Content Include="Assets\Quizzes\Spanish Civil War\José Sanjurjo.jpg" />
     <Content Include="Assets\Quizzes\Spanish Civil War\Junkers Ju 52.png" />
     <Content Include="Assets\Quizzes\Spanish Civil War\Kultur.jpg" />
-    <Content Include="Assets\Quizzes\Spanish Civil War\l3-35 20mm.jpg" />
     <Content Include="Assets\Quizzes\Spanish Civil War\La garra del invasor Italiano.png" />
     <Content Include="Assets\Quizzes\Spanish Civil War\Largo Caballero Cabinet Ministers.jpg" />
     <Content Include="Assets\Quizzes\Spanish Civil War\Largo Caballero.jpg" />
@@ -322,15 +320,14 @@
     <Content Include="Assets\Quizzes\Spanish Civil War\Map_of_the_Spanish_Civil_War_in_September_1936.png" />
     <Content Include="Assets\Quizzes\Spanish Civil War\Margarita Catalana.jpg" />
     <Content Include="Assets\Quizzes\Spanish Civil War\Messerschmitt Bf 109B.png" />
+    <Content Include="Assets\Quizzes\Spanish Civil War\Millán Astray.png" />
     <Content Include="Assets\Quizzes\Spanish Civil War\Moorish troops near Navalcanero 30 October 1936.png" />
     <Content Include="Assets\Quizzes\Spanish Civil War\Nationalist flag.png" />
     <Content Include="Assets\Quizzes\Spanish Civil War\Nationalist Tupolev SB 2M-100A.jpg" />
     <Content Include="Assets\Quizzes\Spanish Civil War\No Pasaran, pasaremos.jpg" />
     <Content Include="Assets\Quizzes\Spanish Civil War\No pasaran.png" />
-    <Content Include="Assets\Quizzes\Spanish Civil War\Panzer I.png" />
     <Content Include="Assets\Quizzes\Spanish Civil War\PCE popular front.jpg" />
     <Content Include="Assets\Quizzes\Spanish Civil War\PCE.png" />
-    <Content Include="Assets\Quizzes\Spanish Civil War\Picasso.png" />
     <Content Include="Assets\Quizzes\Spanish Civil War\Polikarpov I-15 Chato.jpg" />
     <Content Include="Assets\Quizzes\Spanish Civil War\Polikarpov I-16 Mosca.jpg" />
     <Content Include="Assets\Quizzes\Spanish Civil War\Popular Front.png" />
@@ -340,7 +337,6 @@
     <Content Include="Assets\Quizzes\Spanish Civil War\POUM.png" />
     <Content Include="Assets\Quizzes\Spanish Civil War\PSUC Poster.jpg" />
     <Content Include="Assets\Quizzes\Spanish Civil War\PSUC.png" />
-    <Content Include="Assets\Quizzes\Spanish Civil War\Renault FT-17.png" />
     <Content Include="Assets\Quizzes\Spanish Civil War\Republique-allegorie.jpg" />
     <Content Include="Assets\Quizzes\Spanish Civil War\Robert Capa - clenched fist.jpg" />
     <Content Include="Assets\Quizzes\Spanish Civil War\salvador-dali-soft-construction-with-boiled-beans-premonition-of-civil-war.jpg" />
@@ -349,7 +345,6 @@
     <Content Include="Assets\Quizzes\Spanish Civil War\Savoia-Marchetti SM.81 and Fiat CR.32.jpg" />
     <Content Include="Assets\Quizzes\Spanish Civil War\Socialism is Liberation.jpg" />
     <Content Include="Assets\Quizzes\Spanish Civil War\Spanish Regions.png" />
-    <Content Include="Assets\Quizzes\Spanish Civil War\T-26 model33 Spain.jpg" />
     <Content Include="Assets\Quizzes\Spanish Civil War\T-26 tank in Spain.jpg" />
     <Content Include="Assets\Quizzes\Spanish Civil War\The Falling Soldier.png" />
     <Content Include="Assets\Quizzes\Spanish Civil War\The Nationalists.jpg" />
@@ -361,7 +356,6 @@
     <Content Include="Assets\Quizzes\Spanish Civil War\Un Borracho.jpg" />
     <Content Include="Assets\Quizzes\Spanish Civil War\Union Discipline - POUM.png" />
     <Content Include="Assets\Quizzes\Spanish Civil War\United Kingdom.png" />
-    <Content Include="Assets\Quizzes\Spanish Civil War\Victoria.jpg" />
     <Content Include="Assets\Quizzes\Spanish Civil War\WomenMilitiaSpain.jpg" />
     <Content Include="Assets\Quizzes\Spanish Civil War\Yoke and Arrows.png" />
     <Content Include="Assets\SmallLogo.png" />

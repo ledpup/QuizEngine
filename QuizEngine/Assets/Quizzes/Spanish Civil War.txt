@@ -312,12 +312,12 @@
 		"Category": "Politics",
 		"Difficulty": "Easy",
 		"Question": "Which countries openly aided the Republicans during the war?",
-		"Explanation": "The French government was sympathetic to the Republic and offered assistance during 1936, but stopped after it signed the Non-Intervention Pact.",
 		"Answers":
 		[
 			{
 				"Text": "USSR and Mexico",
-				"Score": "1"
+				"Score": "1",
+				"Explanation": "The French government was sympathetic to the Republic and offered assistance during 1936, but stopped after it signed the Non-Intervention Pact. The border was opened for short periods after 1936 to allow refugees into France and Russian and some French war material into Spain."
 			},
 			{
 				"Text": "USSR and United Kingdom"
@@ -3051,7 +3051,7 @@
 				"Text": "Facing the Sun (Cara al Sol)"
 			},
 			{
-				"Text": "The Interationale"
+				"Text": "The Internationale"
 			},
 			{
 				"Text": "Jarama Valley"
@@ -3166,8 +3166,7 @@
 				"Text": "One"
 			},
 			{
-				"Text": "Zero",
-				"IsLast": "true"
+				"Text": "Zero"
 			}
 		]
 	},
@@ -3178,7 +3177,7 @@
 		"Answers":
 		[
 			{
-				"Text": "A successful coup and capitulation",
+				"Text": "A successful coup against the Negrín government and capitulation",
 				"Score": "1"
 			},
 			{
@@ -3188,28 +3187,46 @@
 				"Text": "A sustained defence of Madrid and Valencia"
 			},
 			{
-				"Text": "One"
+				"Text": "Guerilla warfare that lasted until defeat in November 1939"
 			}
 		]
 	},
 	{
 		"Category": "Politics",
 		"Difficulty": "Medium",
-		"Question": "What was the fate of the Republic after the defeat of Catalonia in February 1939?",
+		"Question": "\"We have no fear of them,\" Millán Astray shouted, \"let them come and see what we are capable of under this flag.\"\r\nA voice was heard crying \"¡Viva Millán Astray!\"\r\n\"What’s that?\" cried the general. \"No vivas for me! But let all shout with me [...]\"",
+		"Image": "Millán Astray.png",
 		"Answers":
 		[
 			{
-				"Text": ""¡Viva la muerte!" (Long live death!)",
+				"Text": "\"¡Viva la muerte!\" (Long live death!)",
 				"Score": "1"
 			},
 			{
-				"Text": "¡Viva España! (Long live Spain!)"
+				"Text": "\"¡Viva España!\" (Long live Spain!)"
 			},
 			{
-				"Text": "¡Viva Franco!"
+				"Text": "¡Viva Franco! (Long live Franco!)"
 			},
 			{
-				"Text": "One"
+				"Text": "¡Viva la República! (Long live the Republic!)"
+			}
+		]
+	},
+	{
+		"Category": "Politics",
+		"Difficulty": "Easy",
+		"Question": "The collaboration between the German and Italian governments during the Spanish Civil War led to the formation of the German-Italian Axis that came into prominence during the Second World War.",
+		"Image": "Camaradas de la retaguardia.jpg",
+		"Explanation": "\"[...] on 4 August [1936], Admiral Canaris arrived secretly in Rome, to try to coordinate German and Italian aid to Franco. He had a long talk with his opposite number in Italian military intelligence, Colonel Mario Roatta. That meeting marked the real beginning of the military collaboration which led to the future Axis.\" - Hugh Thomas, The Spanish Civil War",
+		"Answers":
+		[
+			{
+				"Text": "True",
+				"Score": "0.5"
+			},
+			{
+				"Text": "False"
 			}
 		]
 	}
