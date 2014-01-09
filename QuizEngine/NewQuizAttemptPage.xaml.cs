@@ -129,7 +129,7 @@ namespace QuizEngine
             {
                 _quizQuestions.Shuffle();
             }
-            else
+            else if ((bool) NewestToOldest.IsChecked)
             {
                 _quizQuestions.Reverse();
             }

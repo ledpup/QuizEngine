@@ -254,7 +254,7 @@
 				"Text": "Norman Bethune"
 			},
 			{
-				"Text": "Emilio Mola"
+				"Text": "Luis Bolín"
 			},
 			{
 				"Text": "Arthur Koestler"
@@ -1600,7 +1600,7 @@
 				"Text": "USSR",
 				"Image": "Flag of the Soviet Union.png",
 				"Score": "1",
-				"Explanation": "The Republic sent its gold reserve to the Soviet Union to pay for arms and supplies. That reserve was worth £63,000,000 ($315,000,000) in 1939 prices. In 1956, the Soviet Union announced that Spain still owed it $50,000,000."
+				"Explanation": "The Republic sent its gold reserve to the Soviet Union to pay for arms and supplies. That reserve was worth £63,000,000 ($315,000,000) in 1939 prices. In 1956, the Soviet Union announced that Spain still owed it $50,000,000. \"According to Orlov, Stalin celebrated the arrival of the gold with a banquet at which he announced, 'The Spaniards will never see their gold again, just as one cannot see one’s own ears'\" - Hugh Thomas, The Spanish Civil War"
 			},
 			{
 				"Text": "Nationalist Spain",
@@ -1626,7 +1626,7 @@
 			{
 				"Text": "Soviet T-26",
 				"Score": "1",
-				"Explanation": "The T-26 tank was a Soviet light infantry tank used during many conflicts of the 1930s as well as during World War II. It was a development of the British Vickers 6-Ton tank and is widely considered one of the most successful tank designs of the 1930s until its light armor became vulnerable to newer anti-tank guns."
+				"Explanation": "The T-26 tank was a Soviet light infantry tank used during many conflicts of the 1930s as well as during World War II. It was a development of the British Vickers 6-Ton tank and is widely considered one of the most successful tank designs of the 1930s until its light armour became vulnerable to newer anti-tank guns."
 			},
 			{
 				"Text": "German Panzer I",
@@ -3194,13 +3194,14 @@
 	{
 		"Category": "Politics",
 		"Difficulty": "Medium",
-		"Question": "\"We have no fear of them,\" Millán Astray shouted, \"let them come and see what we are capable of under this flag.\"\r\nA voice was heard crying \"¡Viva Millán Astray!\"\r\n\"What’s that?\" cried the general. \"No vivas for me! But let all shout with me [...]\"",
+		"Question": "\"We have no fear of them,\" Millán Astray shouted, \"let them come and see what we are capable of under this flag.\"\r\nA voice was heard crying \"¡Viva Millán Astray!\"\r\n\"What’s that?\" cried the general. \"No vivas for me! But let all shout with me\" [...]",
 		"Image": "Millán Astray.png",
 		"Answers":
 		[
 			{
 				"Text": "\"¡Viva la muerte!\" (Long live death!)",
-				"Score": "1"
+				"Score": "1",
+				"Explanation": "Miguel de Unamuno's response to this was: \"Just now I heard a necrophilistic and senseless cry: 'Long live death'. And I, who have spent my life shaping paradoxes which have aroused the uncomprehending anger of others, I must tell you, as an expert authority, that this outlandish paradox is repellent to me.\" - Hugh Thomas, The Spanish Civil War"
 			},
 			{
 				"Text": "\"¡Viva España!\" (Long live Spain!)"
@@ -3227,6 +3228,115 @@
 			},
 			{
 				"Text": "False"
+			}
+		]
+	},
+	{
+		"Category": "Politics",
+		"Difficulty": "Hard",
+		"Question": "The Regional Defence Council of Aragon (CRDA) was the anarchist controlled economic management council in Aragon that was formed during the social revolution. What was the fate of the CRDA?",
+		"Image": "Bandera del Consejo Regional de Defensa de Aragón.png",
+		"ImageText": "Flag of the Regional Defence Council of Aragon",
+		"Answers":
+		[
+			{
+				"Text": "It was broken up by the Republican government's military",
+				"Score": "1"
+			},
+			{
+				"Text": "The CRDA was destroyed by the Nationalist's Aragon Offensive of March-April 1938"
+			},
+			{
+				"Text": "It collapsed due to inefficiency and poor management"
+			},
+			{
+				"Text": "It voluntarily integrated into the Aragon government"
+			}
+		]
+	},
+	{
+		"Category": "Personalities",
+		"Difficulty": "Medium",
+		"Question": "Who wrote:\r\n\r\n\"You will win, because you have more than enough brute force. But you will not convince. For to convince, you need to persuade. And in order to persuade you would need what you lack: reason and right in the struggle.\"",
+		"Image": "Miguel de Unamuno.jpg",
+		"Answers":
+		[
+			{
+				"Text": "Miguel de Unamuno",
+				"Score": "1"
+			},
+			{
+				"Text": "Azaña"
+			},
+			{
+				"Text": "It collapsed due to inefficiency and poor management"
+			},
+			{
+				"Text": "It voluntarily integrated into the Aragon government"
+			}
+		]
+	},
+	{
+		"Category": "Politics",
+		"Difficulty": "Medium",
+		"Question": "President Roosevelt arranged that Senator Pittman and Representative McReynolds should introduce resolutions to ban shipments of arms to Spain into the two Houses of Congress when they reassembled on 6 January 1937. Both houses voted against these bills because, as Representative Bernard declared, the act was a sham neutrality, since its effect was 'to choke off democratic Spain from its legitimate international rights at a time when it was being assailed by the fascist hordes'.",
+		"Explanation": "\"On that day, in the Senate, only Senator Nye opposed the resolution. He argued that the embargo was unfair, since it harmed the republic more than it did the nationalists. Several members of the Lower House also criticized it. But the Senate passed the new law by 81 to 0 and the House of Representatives by 406 to 1. [...] Franco announced that, over the Embargo Act, President Roosevelt had behaved like a 'true gentleman'. Germany also praised the Act.\" - Hugh Thomas, The Spanish Civil War",
+		"Answers":
+		[
+			{
+				"Text": "False",
+				"Score": "0.5"
+			},
+			{
+				"Text": "True"
+			}
+		]
+	},
+	{
+		"Category": "Culture",
+		"Difficulty": "Medium",
+		"Question": "Which song of the Spanish Civil War has the lyrics:\r\n\r\nVictorious flags will return\r\nat the merry step of Peace\r\nand they'll bring five roses:\r\nthe arrows of my quiver.",
+		"Audio": "Cara al sol.mp3",
+		"Answers":
+		[
+			{
+				"Text": "Facing the Sun (Cara al Sol)",
+				"Score": "1",
+				"Explanation": "Cara al Sol (Facing the sun) is the anthem of the Falange party. The lyrics were written in December 1935 and are usually credited to the then leader of the Falange, José Antonio Primo de Rivera. The music was composed by Juan de Tellería and Juan R. Buendia."
+			},
+			{
+				"Text": "Viva la Quince Brigada"
+			},
+			{
+				"Text": "The Internationale"
+			},
+			{
+				"Text": "Jarama Valley"
+			},
+			{
+				"Text": "To the Barricades! (A las Barricadas)"
+			}
+		]
+	},
+	{
+		"Category": "Politics",
+		"Difficulty": "Hard",
+		"Question": "Who were Largo Caballero's only remaining political allies just before he was deposed and replaced by Juan Negrín as Prime Minister of the Second Spanish Republic?",
+		"Answers":
+		[
+			{
+				"Text": "The anarchists",
+				"Score": "1",
+				"Explanation": "\"[Caballero] was unwilling to merge his own party [the socialist PSOE] with the communists, and, thereafter, they abandoned him. Thus, in his last hours as Prime Minister, his only supporters, by a paradox, were the anarchists against whom he had fought all his life and whose influence he had systematically reduced during the previous eight months.\" - Hugh Thomas, The Spanish Civil War"
+			},
+			{
+				"Text": "The communists"
+			},
+			{
+				"Text": "The socialists"
+			},
+			{
+				"Text": "The liberals"
 			}
 		]
 	}

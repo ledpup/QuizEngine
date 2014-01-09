@@ -230,7 +230,6 @@
     <Content Include="Assets\Quizzes\Spanish Civil War backgrounds - main\Hill pose.jpg" />
     <Content Include="Assets\Quizzes\Spanish Civil War backgrounds - main\Militiawoman.png" />
     <Content Include="Assets\Quizzes\Spanish Civil War backgrounds - main\Savoia-Marchetti SM.81 and Fiat CR.32.jpg" />
-    <Content Include="Assets\Quizzes\Spanish Civil War backgrounds - main\Victoria.jpg" />
     <Content Include="Assets\Quizzes\Spanish Civil War backgrounds\Al Front.jpg" />
     <Content Include="Assets\Quizzes\Spanish Civil War backgrounds\Arriba España.jpg" />
     <Content Include="Assets\Quizzes\Spanish Civil War backgrounds\Carlist poster.jpg" />
@@ -250,6 +249,7 @@
     <Content Include="Assets\Quizzes\Spanish Civil War\Asturias.jpg" />
     <Content Include="Assets\Quizzes\Spanish Civil War\Ay Carmela.mp3" />
     <Content Include="Assets\Quizzes\Spanish Civil War\Bakunin.jpg" />
+    <Content Include="Assets\Quizzes\Spanish Civil War\Bandera del Consejo Regional de Defensa de Aragón.png" />
     <Content Include="Assets\Quizzes\Spanish Civil War\Blank emblem.png" />
     <Content Include="Assets\Quizzes\Spanish Civil War\Blank flag.png" />
     <Content Include="Assets\Quizzes\Spanish Civil War\Blank poster.png" />
@@ -257,6 +257,7 @@
     <Content Include="Assets\Quizzes\Spanish Civil War\Bundesarchiv_Bild_183-2006-1204-514,_Spanien,_Schlacht_um_Guadalajara.jpg" />
     <Content Include="Assets\Quizzes\Spanish Civil War\Camarada.jpg" />
     <Content Include="Assets\Quizzes\Spanish Civil War\Camaradas de la retaguardia.jpg" />
+    <Content Include="Assets\Quizzes\Spanish Civil War\Cara al sol.mp3" />
     <Content Include="Assets\Quizzes\Spanish Civil War\Carlist poster.jpg" />
     <Content Include="Assets\Quizzes\Spanish Civil War\Carlists.png" />
     <Content Include="Assets\Quizzes\Spanish Civil War\CEDA.png" />
@@ -320,6 +321,7 @@
     <Content Include="Assets\Quizzes\Spanish Civil War\Map_of_the_Spanish_Civil_War_in_September_1936.png" />
     <Content Include="Assets\Quizzes\Spanish Civil War\Margarita Catalana.jpg" />
     <Content Include="Assets\Quizzes\Spanish Civil War\Messerschmitt Bf 109B.png" />
+    <Content Include="Assets\Quizzes\Spanish Civil War\Miguel de Unamuno.jpg" />
     <Content Include="Assets\Quizzes\Spanish Civil War\Millán Astray.png" />
     <Content Include="Assets\Quizzes\Spanish Civil War\Moorish troops near Navalcanero 30 October 1936.png" />
     <Content Include="Assets\Quizzes\Spanish Civil War\Nationalist flag.png" />
