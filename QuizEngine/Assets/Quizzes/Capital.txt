@@ -1,25 +1,138 @@
 ﻿[
 	{
-		"Question": "Capitalism...",
+		"Difficulty": "Easy",
+		"Question": "Capitalism is defined by Marx as",
 		"Answers":
 		[
 			{
-				"Text": "is a social relationship between people",
+				"Text": "a social relationship between people",
 				"Score": "1"
 			},
 			{
-				"Text": "appears as a social relationship between things",
-				"Score": "1"
+				"Text": "a relationship between things and their prices"
 			},
 			{
-				"Text": "is a relationship between things and their prices"
+				"Text": "a social relationship between people and things",
+				"Explanation": "Although capitalism may appear as a social relationship between things, that is part of the fetishism of commodities."
 			},
 			{
-				"Text": "is a social relationship between people and things"
-			},
-			{
-				"Text": "is a natural (ahistorical) part of human society"
-			},
+				"Text": "a natural part of human society"
+			}
 		]
 	},
+	{
+		"Difficulty": "Easy",
+		"Question": "If labour-power is a determinant of exchange-value, why is a commodity made by an efficient worker, worth the same as someone who took twice the time?",
+		"Answers":
+		[
+			{
+				"Text": "Because value is determined by socially necessary labour-time",
+				"Score": "1"
+			},
+			{
+				"Text": ""
+			},
+			{
+				"Text": "a social relationship between people and things",
+				"Explanation": "Although capitalism may appear as a social relationship between things, that is part of the fetishism of commodities."
+			},
+			{
+				"Text": "a natural part of human society"
+			}
+		]
+	},
+	{
+		"Difficulty": "Medium",
+		"Question": "Which of the following is not a commodity?",
+		"Answers":
+		[
+			{
+				"Text": "Labour",
+				"Score": "1"
+			},
+			{
+				"Text": "Money"
+			},
+			{
+				"Text": "Unimproved land",
+				"Explanation": "\"Things which in and for themselves are not commodities, things such as conscience, honour, etc., can be offered for sale by their holders, and thus acquire the form of commodities through their price. Hence a thing can, formally speaking, have a price without having a value. The expression of price is in this case imaginary, like certain quantities in mathematics. On the other hand, the imaginary price-form may also conceal a real value-relation or one derived from it, as for instance the price of uncultivated land, which is without value because no human labour is objectified in it.\""
+			},
+			{
+				"Text": "Private property"
+			},
+			{
+				"Text": "Labour-power"
+			}
+		]
+	},
+	{
+		"Difficulty": "Medium",
+		"Question": "Which of the following does not contain value?",
+		"Answers":
+		[
+			{
+				"Text": "Unimproved land",
+				"Score": "1",
+				"Explanation": "\"Things which in and for themselves are not commodities, things such as conscience, honour, etc., can be offered for sale by their holders, and thus acquire the form of commodities through their price. Hence a thing can, formally speaking, have a price without having a value. The expression of price is in this case imaginary, like certain quantities in mathematics. On the other hand, the imaginary price-form may also conceal a real value-relation or one derived from it, as for instance the price of uncultivated land, which is without value because no human labour is objectified in it.\""
+			},
+			{
+				"Text": "Raw materials"
+			},
+			{
+				"Text": "Machines"
+			},
+			{
+				"Text": "Private property"
+			},
+			{
+				"Text": "Labour-power"
+			}
+		]
+	},
+	{
+		"Difficulty": "Easy",
+		"Question": "Capital, volume 1, was first published in which year?",
+		"Answers":
+		[
+			{
+				"Text": "1867",
+				"Score": "1"
+			},
+			{
+				"Text": "1848"
+			},
+			{
+				"Text": "1871"
+			},
+			{
+				"Text": "1844"
+			},
+			{
+				"Text": "1865"
+			}
+		]
+	},
+	{
+		"Difficulty": "Easy",
+		"Question": "Choose the statement about labour-power which is not correct.",
+		"Answers":
+		[
+			{
+				"Text": "Labour-power is the source of all material wealth",
+				"Score": "1"
+			},
+			{
+				"Text": "Labour-power is what a worker is forced to sell to survive"
+			},
+			{
+				"Text": "Labour-power is the source of all value"
+			},
+			{
+				"Text": "Labour-power has a value"
+			},
+			{
+				"Text": "Labour-power is a commodity"
+			}
+		]
+	}
 ]

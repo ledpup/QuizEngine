@@ -1,7 +1,7 @@
 [
 	{
 		"Category": "Politics",
-		"Difficulty": "Hard",
+		"Difficulty": "Medium",
 		"Question": "Which period of the war does the map depict?\r\n\r\nNationalist controlled area is pink.\r\nRepublican controlled area is blue.",
 		"Image": "Map_of_the_Spanish_Civil_War_in_October_1937.png",
 		"Answers":
@@ -51,7 +51,7 @@
 	},
 	{
 		"Category": "Politics",
-		"Difficulty": "Medium",
+		"Difficulty": "Easy",
 		"Question": "Which of the following flags represents the Popular Front?",
 		"Answers":
 		[
@@ -72,7 +72,7 @@
 	},
 	{
 		"Category": "Politics",
-		"Difficulty": "Medium",
+		"Difficulty": "Easy",
 		"Question": "With which Spanish military organisation did George Orwell fight?",
 		"Answers":
 		[
@@ -169,12 +169,12 @@
 		"Answers":
 		[
 			{
-				"Text": "Falange",
+				"Text": "Spanish Falange",
 				"Image": "Falange.png",
 				"Score": "1"
 			},
 			{
-				"Text": "Carlism",
+				"Text": "Carlist",
 				"Image": "Carlists.png"
 			},
 			{
@@ -189,7 +189,7 @@
 	},
 	{
 		"Category": "Politics",
-		"Difficulty": "Hard",
+		"Difficulty": "Medium",
 		"Question": "The POUM were outlawed in June 1937 because they were \"__________\".",
 		"Image": "POUM poster.jpg",
 		"ImageText": "\"Workers\r\nThe POUM gives you hope\"",
@@ -237,7 +237,7 @@
 	},
 	{
 		"Category": "Personalities",
-		"Difficulty": "Medium",
+		"Difficulty": "Hard",
 		"Question": "Who flew Francisco Franco from the Canary Islands to Morocco?",
 		"Image": "Dragon Rapide.jpg",
 		"Answers":
@@ -418,7 +418,7 @@
 			},
 			{
 				"Text": "Viriatos",
-				"Explanation": "Viriatos was the generic name given to Portuguese volunteers who fought with the Nationalists."
+				"Explanation": "The Viriatos was the generic name given to Portuguese volunteers who fought with the Nationalists."
 			},
 			{
 				"Text": "Spanischkorps"
@@ -451,7 +451,7 @@
 	},
 	{
 		"Category": "Politics",
-		"Difficulty": "Hard",
+		"Difficulty": "Medium",
 		"Question": "At the early stages of the Spanish Civil War, which Nationalist political faction supplied the largest number of volunteers?",
 		"Explanation": "By September 1936, the total Falangist volunteers numbered at 35,000, accounting for 55 percent of all civilian forces of the Nationals. - Stanley G. Payne. Fascism in Spain, 1923–1977. Madison, Wisconsin, USA: Wisconsin University Press, 1999. Pp. 242.",
 		"Answers":
@@ -562,7 +562,7 @@
 	{
 		"Category": "Military",
 		"Difficulty": "Medium",
-		"Question": "Who stopped the military's coup attempt of July 17th, 1936?",
+		"Question": "Who stopped the military's coup attempt of 17 July, 1936?",
 		"Answers":
 		[
 			{
@@ -610,9 +610,9 @@
 	},
 	{
 		"Category": "Politics",
-		"Difficulty": "Medium",
+		"Difficulty": "Easy",
 		"Question": "The Spanish Republic was solely anti-clerical during the Spanish Civil War.",
-		"Explanation": "The majority of the Republic was against religion and especially the Catholic Church. However, the conservative, strongly Catholic Basque Country was part of the Republic until it was defeated by the Nationalists during the Battle of Bilbao in June 1937.",
+		"Explanation": "The majority of the Republic was against religion and especially the Catholic Church. However, the conservative, strongly Catholic Basque Country (\"the most Christian people in Spain\" quoted by Hugh Thomas, The Spanish Civil War) was part of the Republic until it was defeated by the Nationalists during the Battle of Bilbao in June 1937.",
 		"Answers":
 		[
 			{
@@ -947,7 +947,8 @@
 				"Text": "Asturias declared independence from Spain in 1934"
 			},
 			{
-				"Text": "The coup attempt against the Republic by the military was defeated in Asturias in 1934"
+				"Text": "The coup attempt against the Republic by the military was defeated in Asturias in 1934",
+				"Explanation": "There was a coup attempt against the Republic in 1932 but not in 1934."
 			}
 		]
 	},
@@ -979,7 +980,7 @@
 	{
 		"Category": "Social",
 		"Difficulty": "Medium",
-		"Question": "What occurred in the Extremadura region of Spain in 1936 before the invasion by the Army of Africa?",
+		"Question": "What occurred in the Estremadura region of Spain in 1936 before the invasion by the Army of Africa?",
 		"Image": "Extremadura.png",
 		"Explanation": "\"[...] the Army strategically butchered and terrorised the pro-Republican population, especially the rural landless [...] It was a war of agrarian counter-reform [...] The large landowners who owned the vast estates which covered most of the southern half of Spain rode along [...] to reclaim by force of arms the land on which the Republic had settled the landless poor.\" - Helen Graham, The Spanish Civil War: A very short introduction",
 		"Answers":
@@ -1593,7 +1594,7 @@
 	{
 		"Category": "Social",
 		"Difficulty": "Medium",
-		"Question": "By the end of the war, where did the majority of the Spanish Republic's gold reserves reside?",
+		"Question": "By the end of the war, where did the majority of the Spanish Republic's gold reserves (the fourth largest in the world, mostly of Spanish and foreign coins) reside?",
 		"Answers":
 		[
 			{
@@ -3196,6 +3197,7 @@
 		"Difficulty": "Medium",
 		"Question": "\"We have no fear of them,\" Millán Astray shouted, \"let them come and see what we are capable of under this flag.\"\r\nA voice was heard crying \"¡Viva Millán Astray!\"\r\n\"What’s that?\" cried the general. \"No vivas for me! But let all shout with me\" [...]",
 		"Image": "Millán Astray.png",
+		"ImageText": "José Millán Astray",
 		"Answers":
 		[
 			{
@@ -3207,10 +3209,10 @@
 				"Text": "\"¡Viva España!\" (Long live Spain!)"
 			},
 			{
-				"Text": "¡Viva Franco! (Long live Franco!)"
+				"Text": "\"¡Viva Franco!\" (Long live Franco!)"
 			},
 			{
-				"Text": "¡Viva la República! (Long live the Republic!)"
+				"Text": "\"¡Viva la República!\" (Long live the Republic!)"
 			}
 		]
 	},
@@ -3266,13 +3268,13 @@
 				"Score": "1"
 			},
 			{
-				"Text": "Azaña"
+				"Text": "Manuel Azaña"
 			},
 			{
-				"Text": "It collapsed due to inefficiency and poor management"
+				"Text": "Indalecio Prieto"
 			},
 			{
-				"Text": "It voluntarily integrated into the Aragon government"
+				"Text": "??"
 			}
 		]
 	},
@@ -3337,6 +3339,173 @@
 			},
 			{
 				"Text": "The liberals"
+			}
+		]
+	},
+	{
+		"Category": "Military",
+		"Difficulty": "Medium",
+		"Question": "Where was the Ring of Iron?",
+		"Image": "Nido de ametralladoras del Cinturón de Hierro de Bilbao, en las peñas de Santa Marina (1937).jpg",
+		"Answers":
+		[
+			{
+				"Text": "Bilbao",
+				"Score": "1"
+			},
+			{
+				"Text": "Gijón"
+			},
+			{
+				"Text": "Oviedo"
+			},
+			{
+				"Text": "Saragossa"
+			},
+			{
+				"Text": "San Sebastián"
+			}
+		]
+	},
+	{
+		"Category": "Politics",
+		"Difficulty": "Medium",
+		"Question": "What was the deciding factor that elected the Popular Front to government in February 1936?",
+		"Answers":
+		[
+			{
+				"Text": "The anarchist vote",
+				"Score": "1"
+			},
+			{
+				"Text": "Suffrage for women"
+			},
+			{
+				"Text": "Collapse of the right-wing coalition"
+			},
+			{
+				"Text": "Communist control of the Popular Front"
+			}
+		]
+	},
+	{
+		"Category": "Military",
+		"Difficulty": "Hard",
+		"Question": "What date marked the the coup against the Second Spanish Republic and the beginning of the Spanish Civil War?",
+		"Image": "CNT 19 Julio 1936.jpg",
+		"Answers":
+		[
+			{
+				"Text": "17 July 1936",
+				"Score": "1"
+			},
+			{
+				"Text": "19 July 1936",
+				"Explanation": "The date referenced in the pictured CNT poster marks the beginning of the social revolution, not the date of the military's failed coup d'état."
+			},
+			{
+				"Text": "21 July 1936"
+			},
+			{
+				"Text": "13 July 1936"
+			}
+		]
+	},
+	{
+		"Category": "Military",
+		"Difficulty": "Hard",
+		"Question": "What was the fate of the International Brigades?",
+		"Image": "Los Internacionales.jpg",
+		"ImageText": "International Volunteers of Freedom\r\nThe International\r\nUnited for Spain, fighting against the invaders",
+		"Answers":
+		[
+			{
+				"Text": "The International Brigades were disbanded for political gain by the Republic",
+				"Score": "1",
+				"Explanation": "The International Brigades were withdrawn during the Battle of the Ebro in an attempt to pressure the Nationalists' Nazi and fascist backers to withdrawn their support. They weren't successful as the German and Italian forces remained until the end of the war."
+			},
+			{
+				"Text": "The International Brigades were defeated in the Nationalist victory against the Republic"
+			},
+			{
+				"Text": "Morale within the International Brigades collapsed and the units were disbanded"
+			},
+			{
+				"Text": "Desertion from the International Brigades made them unviable as independent units"
+			}
+		]
+	},
+	{
+		"Category": "Politics",
+		"Difficulty": "Easy",
+		"Question": "Winston Churchill made the following statements to the House of Commons on 11 November, 1936: \"there is no doubt the revolutionary situation in Spain was initiated by Russia\" and \"if not for Russia, Russian Communism whose propagation and intrigue had been tormenting Spain for more than six months before the revolt, there would be no Spanish horror.\" - Svetlana Pozharskaya, Comintern and The Spanish Civil War in Spain\r\nFor what reason were these assertions incorrect?",
+		"Image": "Sir Winston S Churchill.jpg",
+		"ImageText": "Winston S Churchill",
+		"Answers":
+		[
+			{
+				"Text": "All of the above",
+				"Score": "1",
+				"IsLast": "true"
+			},
+			{
+				"Text": "The revolutionary left in Spain was dominated by anarchists and socialists, not communists"
+			},
+			{
+				"Text": "There was little Russian influence until Spain was prevented from buying arms from all except Russia"
+			},
+			{
+				"Text": "There was almost no Russian interest in Spain until after the civil war began"
+			}
+		]
+	},
+	{
+		"Category": "Politics",
+		"Difficulty": "Easy",
+		"Question": "Which of the following is not a reason for the formation of the Non-Intervention Committee by France and Britain?",
+		"Answers":
+		[
+			{
+				"Text": "All of the above were reasons why the Non-Intervention Committee was formed",
+				"Score": "1",
+				"IsLast": "true"
+			},
+			{
+				"Text": "Appeasement of fascism"
+			},
+			{
+				"Text": "Fear of communism"
+			},
+			{
+				"Text": "Economic interests",
+				"Explanation": "British and French capitalists had the largest share of foreign investment of Spain (Hugh Thomas, The Spanish Civil War). Therefore, many British and French capitalists were more interested in a Nationalist victory than a Republican victory."
+			}
+		]
+	},
+	{
+		"Category": "Military",
+		"Difficulty": "Medium",
+		"Question": "Which of the following military units, that served on the Nationalist side during the Spanish Civil War, was not a foreign force?",
+		"Answers":
+		[
+			{
+				"Text": "The Spanish Foreign Legion",
+				"Score": "1",
+				"Explanation": "\"[The] Foreign Legion [was composed], despite its name, mainly of Spaniards, with some Portuguese, French, and Germans, which had been founded in 1920 by General Millán Astray as a shock force\" - Hugh Thomas, The Spanish Civil War"
+			},
+			{
+				"Text": "Moroccan Regulares",
+				"Explanation": "\"the Moorish Regulares, created by General Berenguer, Primo de Rivera’s eventual successor, [...] were native [Moroccan] troops raised from 1911 onwards as half-soldiers, half-policemen, under Spanish officers, to destroy banditry.\" - Hugh Thomas, The Spanish Civil War"
+			},
+			{
+				"Text": "Condor Legion"
+			},
+			{
+				"Text": "Corps of Volunteer Troops (CTV)"
+			},
+			{
+				"Text": "All of the above were foreign units",
+				"IsLast": "true"
 			}
 		]
 	}
