@@ -22,7 +22,7 @@
 	},
 	{
 		"Difficulty": "Easy",
-		"Question": "If labour-power is a determinant of exchange-value, why is a commodity made by an efficient worker, worth the same as someone who took twice the time?",
+		"Question": "If labour-power is a determinant of exchange-value, why is a commodity made by an efficient worker, worth the same as someone who took twice the time to produce an equivalent commodity?",
 		"Answers":
 		[
 			{

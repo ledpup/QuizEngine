@@ -587,7 +587,7 @@
 		"Category": "Politics",
 		"Difficulty": "Easy",
 		"Question": "The CNT (National Labour Confederation) was:",
-		"Image": "CNT poster.jpg",
+		"Image": "CNT AIT poster.jpg",
 		"Answers":
 		[
 			{
@@ -1384,7 +1384,8 @@
 		"Category": "Politics",
 		"Difficulty": "Medium",
 		"Question": "Who were the mujeres libres (free women)?",
-		"Image": "WomenMilitiaSpain.jpg",
+		"Image": "Mujeres Libres.jpg",
+		"ImageText" : "\"Free Women\" CNT\r\nWomen! Your family constitutes all the freedom fighters.",
 		"Answers":
 		[
 			{
@@ -2793,7 +2794,7 @@
 				"Text": "Facing the Sun (Cara al Sol)"
 			},
 			{
-				"Text": "The Interationale"
+				"Text": "The Internationale"
 			},
 			{
 				"Text": "Jarama Valley"
@@ -3274,7 +3275,7 @@
 				"Text": "Indalecio Prieto"
 			},
 			{
-				"Text": "??"
+				"Text": "Federico García Lorca"
 			}
 		]
 	},
@@ -3452,17 +3453,17 @@
 				"Text": "The revolutionary left in Spain was dominated by anarchists and socialists, not communists"
 			},
 			{
-				"Text": "There was little Russian influence until Spain was prevented from buying arms from all except Russia"
+				"Text": "There was little Russian influence until Spain was prevented from buying arms anywhere other than Russia"
 			},
 			{
-				"Text": "There was almost no Russian interest in Spain until after the civil war began"
+				"Text": "There was little Russian interest in Spain until after the civil war began"
 			}
 		]
 	},
 	{
 		"Category": "Politics",
 		"Difficulty": "Easy",
-		"Question": "Which of the following is not a reason for the formation of the Non-Intervention Committee by France and Britain?",
+		"Question": "Which of the following was not a reason for the formation of the Non-Intervention Committee by France and Britain?",
 		"Answers":
 		[
 			{
@@ -3471,21 +3472,21 @@
 				"IsLast": "true"
 			},
 			{
-				"Text": "Appeasement of fascism"
+				"Text": "Appeasement of fascist states"
 			},
 			{
 				"Text": "Fear of communism"
 			},
 			{
 				"Text": "Economic interests",
-				"Explanation": "British and French capitalists had the largest share of foreign investment of Spain (Hugh Thomas, The Spanish Civil War). Therefore, many British and French capitalists were more interested in a Nationalist victory than a Republican victory."
+				"Explanation": "British and French capitalists had the largest share of foreign investment of Spain. Many British and French capitalists were interested in a Nationalist victory rather than a Republican victory."
 			}
 		]
 	},
 	{
 		"Category": "Military",
 		"Difficulty": "Medium",
-		"Question": "Which of the following military units, that served on the Nationalist side during the Spanish Civil War, was not a foreign force?",
+		"Question": "Which of the following military units (that served on the Nationalist side during the Spanish Civil War) was not a foreign force?",
 		"Answers":
 		[
 			{
@@ -3504,7 +3505,34 @@
 				"Text": "Corps of Volunteer Troops (CTV)"
 			},
 			{
-				"Text": "All of the above were foreign units",
+				"Text": "None - all of the above were foreign units",
+				"IsLast": "true"
+			}
+		]
+	},
+	{
+		"Category": "Politics",
+		"Difficulty": "Medium",
+		"Question": "Of the four political parties in the pictured poster, which one no longer existed by the beginning of the Spanish Civil War?",
+		"Image": "Anarchist Poster.jpg",
+		"Answers":
+		[
+			{
+				"Text": "PRF",
+				"Score": "1",
+				"Explanation": "The PRF was a political party that existed at the time of the First Spanish Republic. One of it's leaders was Francisco Pi y Margall who was briefly president of the First Republic. It was disbanded in 1910."
+			},
+			{
+				"Text": "CNT"
+			},
+			{
+				"Text": "ERC"
+			},
+			{
+				"Text": "POUM"
+			},
+			{
+				"Text": "None - all of the parties still existed",
 				"IsLast": "true"
 			}
 		]

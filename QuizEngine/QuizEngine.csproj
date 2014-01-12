@@ -243,6 +243,7 @@
     <Content Include="Assets\Quizzes\Spanish Civil War\Alplastar al fascismo.jpg" />
     <Content Include="Assets\Quizzes\Spanish Civil War\Ambulances for the front.jpg" />
     <Content Include="Assets\Quizzes\Spanish Civil War\Anarchist collective.jpg" />
+    <Content Include="Assets\Quizzes\Spanish Civil War\Anarchist Poster.jpg" />
     <Content Include="Assets\Quizzes\Spanish Civil War\Anarchist Spain.png" />
     <Content Include="Assets\Quizzes\Spanish Civil War\Army of Africa.png" />
     <Content Include="Assets\Quizzes\Spanish Civil War\Arriba España.jpg" />
@@ -326,6 +327,7 @@
     <Content Include="Assets\Quizzes\Spanish Civil War\Miguel de Unamuno.jpg" />
     <Content Include="Assets\Quizzes\Spanish Civil War\Millán Astray.png" />
     <Content Include="Assets\Quizzes\Spanish Civil War\Moorish troops near Navalcanero 30 October 1936.png" />
+    <Content Include="Assets\Quizzes\Spanish Civil War\Mujeres Libres.jpg" />
     <Content Include="Assets\Quizzes\Spanish Civil War\Nationalist flag.png" />
     <Content Include="Assets\Quizzes\Spanish Civil War\Nationalist Tupolev SB 2M-100A.jpg" />
     <Content Include="Assets\Quizzes\Spanish Civil War\Nido de ametralladoras del Cinturón de Hierro de Bilbao, en las peñas de Santa Marina %281937%29.jpg" />
@@ -362,7 +364,6 @@
     <Content Include="Assets\Quizzes\Spanish Civil War\Un Borracho.jpg" />
     <Content Include="Assets\Quizzes\Spanish Civil War\Union Discipline - POUM.png" />
     <Content Include="Assets\Quizzes\Spanish Civil War\United Kingdom.png" />
-    <Content Include="Assets\Quizzes\Spanish Civil War\WomenMilitiaSpain.jpg" />
     <Content Include="Assets\Quizzes\Spanish Civil War\Yoke and Arrows.png" />
     <Content Include="Assets\SmallLogo.png" />
     <Content Include="Assets\SplashScreen.scale-100.png" />
