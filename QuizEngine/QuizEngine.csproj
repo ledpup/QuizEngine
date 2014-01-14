@@ -263,8 +263,8 @@
     <Content Include="Assets\Quizzes\Spanish Civil War\Carlists.png" />
     <Content Include="Assets\Quizzes\Spanish Civil War\CEDA.png" />
     <Content Include="Assets\Quizzes\Spanish Civil War\CNT 19 Julio 1936.jpg" />
+    <Content Include="Assets\Quizzes\Spanish Civil War\CNT AIT poster.jpg" />
     <Content Include="Assets\Quizzes\Spanish Civil War\CNT and UGT.png" />
-    <Content Include="Assets\Quizzes\Spanish Civil War\CNT poster.jpg" />
     <Content Include="Assets\Quizzes\Spanish Civil War\CNT-AIT.png" />
     <Content Include="Assets\Quizzes\Spanish Civil War\CNT-FAI.png" />
     <Content Include="Assets\Quizzes\Spanish Civil War\Collective farmers.jpg" />
@@ -288,6 +288,7 @@
     <Content Include="Assets\Quizzes\Spanish Civil War\Falange poster.jpg" />
     <Content Include="Assets\Quizzes\Spanish Civil War\Falange.png" />
     <Content Include="Assets\Quizzes\Spanish Civil War\Federica Montseny.jpg" />
+    <Content Include="Assets\Quizzes\Spanish Civil War\Federico García Lorca.jpg" />
     <Content Include="Assets\Quizzes\Spanish Civil War\Flag of France.png" />
     <Content Include="Assets\Quizzes\Spanish Civil War\Flag of Mexico.png" />
     <Content Include="Assets\Quizzes\Spanish Civil War\Flag of Spain %281931-1939%29.png" />
@@ -325,7 +326,9 @@
     <Content Include="Assets\Quizzes\Spanish Civil War\Margarita Catalana.jpg" />
     <Content Include="Assets\Quizzes\Spanish Civil War\Messerschmitt Bf 109B.png" />
     <Content Include="Assets\Quizzes\Spanish Civil War\Miguel de Unamuno.jpg" />
+    <Content Include="Assets\Quizzes\Spanish Civil War\Milicias Catalanas de Madrid.jpg" />
     <Content Include="Assets\Quizzes\Spanish Civil War\Millán Astray.png" />
+    <Content Include="Assets\Quizzes\Spanish Civil War\Miro - Aidez L%27Espagne.jpg" />
     <Content Include="Assets\Quizzes\Spanish Civil War\Moorish troops near Navalcanero 30 October 1936.png" />
     <Content Include="Assets\Quizzes\Spanish Civil War\Mujeres Libres.jpg" />
     <Content Include="Assets\Quizzes\Spanish Civil War\Nationalist flag.png" />
@@ -335,6 +338,7 @@
     <Content Include="Assets\Quizzes\Spanish Civil War\No pasaran.png" />
     <Content Include="Assets\Quizzes\Spanish Civil War\PCE popular front.jpg" />
     <Content Include="Assets\Quizzes\Spanish Civil War\PCE.png" />
+    <Content Include="Assets\Quizzes\Spanish Civil War\Pelayos.jpg" />
     <Content Include="Assets\Quizzes\Spanish Civil War\Polikarpov I-15 Chato.jpg" />
     <Content Include="Assets\Quizzes\Spanish Civil War\Polikarpov I-16 Mosca.jpg" />
     <Content Include="Assets\Quizzes\Spanish Civil War\Popular Front.png" />

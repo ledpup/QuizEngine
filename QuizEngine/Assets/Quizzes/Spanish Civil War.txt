@@ -3453,7 +3453,7 @@
 				"Text": "The revolutionary left in Spain was dominated by anarchists and socialists, not communists"
 			},
 			{
-				"Text": "There was little Russian influence until Spain was prevented from buying arms anywhere other than Russia"
+				"Text": "There was little Russian influence until Spain was prevented from buying arms from anywhere except Russia"
 			},
 			{
 				"Text": "There was little Russian interest in Spain until after the civil war began"
@@ -3467,7 +3467,7 @@
 		"Answers":
 		[
 			{
-				"Text": "All of the above were reasons why the Non-Intervention Committee was formed",
+				"Text": "All of the above were reasons for non-intervention",
 				"Score": "1",
 				"IsLast": "true"
 			},
@@ -3534,6 +3534,84 @@
 			{
 				"Text": "None - all of the parties still existed",
 				"IsLast": "true"
+			}
+		]
+	},
+	{
+		"Category": "Personalities",
+		"Difficulty": "Medium",
+		"Question": "Federico García Lorca was a famous Spanish poet. He was killed in Granada by Nationalists because he supported the Republic.",
+		"Image": "Federico García Lorca.jpg",
+		"Answers":
+		[
+			{
+				"Text": "True",
+				"Score": "1"
+			},
+			{
+				"Text": "False"
+			}
+		]
+	},
+	{
+		"Category": "Culture",
+		"Difficulty": "Medium",
+		"Question": "Which member of the Surrealist group painted the pictured postage stamp, in support of the Spanish Republic?",
+		"Image": "Miro - Aidez L'Espagne.jpg",
+		"Answers":
+		[
+			{
+				"Text": "Joan Miró",
+				"Score": "1"
+			},
+			{
+				"Text": "Salvador Dalí"
+			},
+			{
+				"Text": "Andrew Breton"
+			},
+			{
+				"Text": "Luis Buñuel"
+			}
+		]
+	},
+	{
+		"Category": "Social",
+		"Difficulty": "Easy",
+		"Question": "The pictured poster depicts the Nationalist's racist propaganda against the Moroccan troops. Jose Millán Astray compared the war to 'a new war of independence, a new Reconquista, a new expulsion of the Moors!' (Hugh Thomas, The Spanish Civil War)",
+		"Image": "Milicias Catalanas de Madrid.jpg",
+		"Explanation": "The racism of this poster was Republican. The Nationalist's racism was more complex than the Republicans. \"The final exclamation [of Millán Astray, quoted above] sounded odd in a city from which an expedition of Moroccan soldiers had some days previously set out for the north to conquer Madrid, and whose public buildings and leading generals were even at that moment guarded by Moroccans.\" - Hugh Thomas, The Spanish Civil War",
+		"Answers":
+		[
+			{
+				"Text": "False",
+				"Score": "1"
+			},
+			{
+				"Text": "True"
+			}
+		]
+	},
+	{
+		"Category": "Politics",
+		"Difficulty": "Medium",
+		"Question": "The Pelayos were the youth movement of which politic group?",
+		"Image": "Pelayos.jpg",
+		"ImageText": "The Pelayos of Spain\r\nThe hope of religion and the homeland.",
+		"Answers":
+		[
+			{
+				"Text": "Carlists",
+				"Score": "1"
+			},
+			{
+				"Text": "Alfonists"
+			},
+			{
+				"Text": "Falange"
+			},
+			{
+				"Text": "CEDA"
 			}
 		]
 	}
