@@ -1969,7 +1969,7 @@
 			{
 				"Text": "Freemasons",
 				"Score": "1",
-				"Explanation": "Father Jean Tusquets and one of his close associates, Franco’s personal chaplain, assembled a huge index of 80,000 suspected masons, even though there were little more than 5,000 masons in Spain. By 16 December 1937, according to the annual masonic assembly held in Madrid, all masons that had not escaped from the areas under Nationalist control had been murdered.\r\n\"We have torn up Marxist materialism and we have disorientated Masonry. We have thwarted the Satanic machinations of the clandestine Masonic superstate. Despite its control of the world’s press and numerous international politicians.\" - Francisco Franco, 11 September 1945."
+				"Explanation": "Father Jean Tusquets and one of his close associates, Franco's personal chaplain, assembled a huge index of 80,000 suspected masons, even though there were little more than 5,000 masons in Spain. By 16 December 1937, according to the annual masonic assembly held in Madrid, all masons that had not escaped from the areas under Nationalist control had been murdered.\r\n\"We have torn up Marxist materialism and we have disorientated Masonry. We have thwarted the Satanic machinations of the clandestine Masonic superstate. Despite its control of the world’s press and numerous international politicians.\" - Francisco Franco, 11 September 1945."
 			},
 			{
 				"Text": "Trade unionists"
@@ -3453,7 +3453,7 @@
 				"Text": "The revolutionary left in Spain was dominated by anarchists and socialists, not communists"
 			},
 			{
-				"Text": "There was little Russian influence until Spain was prevented from buying arms from anywhere except Russia"
+				"Text": "Russian influence began when Spain was prevented from buying arms from the West"
 			},
 			{
 				"Text": "There was little Russian interest in Spain until after the civil war began"
@@ -3487,6 +3487,7 @@
 		"Category": "Military",
 		"Difficulty": "Medium",
 		"Question": "Which of the following military units (that served on the Nationalist side during the Spanish Civil War) was not a foreign force?",
+		"Image": "Emblem of the Spanish Legion.png",
 		"Answers":
 		[
 			{
@@ -3578,7 +3579,7 @@
 	{
 		"Category": "Social",
 		"Difficulty": "Easy",
-		"Question": "The pictured poster depicts the Nationalist's racist propaganda against the Moroccan troops. Jose Millán Astray compared the war to 'a new war of independence, a new Reconquista, a new expulsion of the Moors!' (Hugh Thomas, The Spanish Civil War)",
+		"Question": "Jose Millán Astray compared the war to 'a new war of independence, a new Reconquista, a new expulsion of the Moors!' (Hugh Thomas, The Spanish Civil War)\r\nThe attitude of Millán Astray and many of the Nationalists is why the pictured poster depicts the Nationalist's racist propaganda against the Moroccan troops.",
 		"Image": "Milicias Catalanas de Madrid.jpg",
 		"Explanation": "The racism of this poster was Republican. The Nationalist's racism was more complex than the Republicans. \"The final exclamation [of Millán Astray, quoted above] sounded odd in a city from which an expedition of Moroccan soldiers had some days previously set out for the north to conquer Madrid, and whose public buildings and leading generals were even at that moment guarded by Moroccans.\" - Hugh Thomas, The Spanish Civil War",
 		"Answers":
@@ -3595,7 +3596,7 @@
 	{
 		"Category": "Politics",
 		"Difficulty": "Medium",
-		"Question": "The Pelayos were the youth movement of which politic group?",
+		"Question": "The Pelayos were the youth movement of which political group?",
 		"Image": "Pelayos.jpg",
 		"ImageText": "The Pelayos of Spain\r\nThe hope of religion and the homeland.",
 		"Answers":
@@ -3612,6 +3613,163 @@
 			},
 			{
 				"Text": "CEDA"
+			}
+		]
+	},
+	{
+		"Category": "Social",
+		"Difficulty": "Medium",
+		"Question": "How many refugees fled from Catalonia into France at the end of the Catalonia Offensive?",
+		"Answers":
+		[
+			{
+				"Text": "400,000",
+				"Score": "1"
+			},
+			{
+				"Text": "800,000"
+			},
+			{
+				"Text": "100,000"
+			},
+			{
+				"Text": "1,300,000"
+			}
+		]
+	},
+	{
+		"Category": "Politics",
+		"Difficulty": "Medium",
+		"Question": "The Iberian Federation of Libertarian Youth (FIJL) were the youth movement of which political group?",
+		"Image": "CNT-FAI Ingresad en la Columna Espana Libre.jpg",
+		"ImageText": "\"Enrol in the Free Spain Column\"",
+		"Answers":
+		[
+			{
+				"Text": "Anarchists",
+				"Score": "1"
+			},
+			{
+				"Text": "Carlists"
+			},
+			{
+				"Text": "Spanish Falange"
+			},
+			{
+				"Text": "Communists"
+			},
+			{
+				"Text": "Basque separatists"
+			}
+		]
+	},
+	{
+		"Category": "Social",
+		"Difficulty": "Easy",
+		"Question": "Which was not one of the groups that the right-wing of Spain feared and targeted?",
+		"Image": "Popular Action leftlet.jpg",
+		"Answers":
+		[
+			{
+				"Text": "All of the above were fears held by the right-wing",
+				"Score": "1",
+				"IsLast": "true"
+			},
+			{
+				"Text": "Communists"
+			},
+			{
+				"Text": "Jews"
+			},
+			{
+				"Text": "Freemasons",
+				"Explanation": "Father Jean Tusquets and one of his close associates, Franco's personal chaplain, assembled a huge index of 80,000 suspected masons, even though there were little more than 5,000 masons in Spain. By 16 December 1937, according to the annual masonic assembly held in Madrid, all masons that had not escaped from the areas under Nationalist control had been murdered.\r\n\"We have torn up Marxist materialism and we have disorientated Masonry. We have thwarted the Satanic machinations of the clandestine Masonic superstate. Despite its control of the world’s press and numerous international politicians.\" - Francisco Franco, 11 September 1945."
+			},
+			{
+				"Text": "Separatists"
+			}
+		]
+	},
+	{
+		"Category": "Politics",
+		"Difficulty": "Medium",
+		"Question": "The expression \"the war and the revolution are inseparable\" was an expression of which left-wing groups?",
+		"Image": "La revolucion y la guerra son inseparables.jpg",
+		"Answers":
+		[
+			{
+				"Text": "CNT-FAI and the POUM",
+				"Score": "1"
+			},
+			{
+				"Text": "CNT-FAI and the PSUC"
+			},
+			{
+				"Text": "Republicans"
+			},
+			{
+				"Text": "Anarchists and the separatists"
+			},
+			{
+				"Text": "Anarchists and communists"
+			}
+		]
+	},
+	{
+		"Category": "Culture",
+		"Difficulty": "Medium",
+		"Question": "Which poster is from the revolutionary left?",
+		"Answers":
+		[
+			{
+				"Image": "Mujeres Libres.jpg",
+				"Score": "1",
+				"Explanation": "The anarchist women's poster reads as: \r\n\"'Free Women' CNT\r\nWomen! Your family constitutes all the freedom fighters.\""
+			},
+			{
+				"Image": "Our arms are yours.jpg",
+				"Explanation": "You chose a non-revolutionary poster that reads as: \"Our arms are yours\""
+			},
+			{
+				"Image": "Women's international conference poster.jpg",
+				"Explanation": "You chose a non-revolutionary, communist poster that reads - in doublespeak - as: \"The fundamental character of the International Conference of Women was the fight against the imperialist war in favour of peace.\""
+			},
+			{
+				"Image": "Women's role in fascist Spain.jpg",
+				"Explanation": "You chose a fascist poster that reads as:\r\n\"Girls of today and women of tomorrow\r\nunited without class distinctions\""
+			},
+			{
+				"Image": "Women - Work for comrades.jpg",
+				"Explanation": "You chose a non-revolutionary poster that reads as: \"Women, work for your comrades that fight\""
+			}
+		]
+	},
+	{
+		"Category": "Culture",
+		"Difficulty": "Easy",
+		"Question": "Which poster is a Nationalist poster?",
+		"Answers":
+		[
+			{
+				"Image": "Women's role in fascist Spain.jpg",
+				"Score": "1",
+				"Explanation": "This fascist poster reads as:\r\n\"Girls of today and women of tomorrow\r\nunited without class distinctions\""
+			},
+			{
+				"Image": "Mujeres Libres.jpg",
+				"Explanation": "You chose an anarchist women's poster that reads as: \r\n\"'Free Women' CNT\r\nWomen! Your family constitutes all the freedom fighters.\""
+			},
+			{
+				"Image": "Our arms are yours.jpg",
+				"Explanation": "You chose a non-revolutionary poster that reads as: \"Our arms are yours\""
+			},
+			{
+				"Image": "Women's international conference poster.jpg",
+				"Explanation": "You chose a non-revolutionary, communist poster that reads - in doublespeak - as: \"The fundamental character of the International Conference of Women was the fight against the imperialist war in favour of peace.\""
+			},
+			{
+				"Image": "Women - Work for comrades.jpg",
+				"Explanation": "You chose a non-revolutionary poster that reads as: \"Women, work for your comrades that fight\""
 			}
 		]
 	}

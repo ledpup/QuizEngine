@@ -266,6 +266,7 @@
     <Content Include="Assets\Quizzes\Spanish Civil War\CNT AIT poster.jpg" />
     <Content Include="Assets\Quizzes\Spanish Civil War\CNT and UGT.png" />
     <Content Include="Assets\Quizzes\Spanish Civil War\CNT-AIT.png" />
+    <Content Include="Assets\Quizzes\Spanish Civil War\CNT-FAI Ingresad en la Columna Espana Libre.jpg" />
     <Content Include="Assets\Quizzes\Spanish Civil War\CNT-FAI.png" />
     <Content Include="Assets\Quizzes\Spanish Civil War\Collective farmers.jpg" />
     <Content Include="Assets\Quizzes\Spanish Civil War\Column de Hierro poster.jpg" />
@@ -279,6 +280,7 @@
     <Content Include="Assets\Quizzes\Spanish Civil War\Emblem of the Air Force of the Spanish Republic %281931-1934%29.png" />
     <Content Include="Assets\Quizzes\Spanish Civil War\Emblem of the Air Force of the Spanish Republic %281934-1936%29.png" />
     <Content Include="Assets\Quizzes\Spanish Civil War\Emblem of the Air Force of the Spanish Republic %281936-1939%29.png" />
+    <Content Include="Assets\Quizzes\Spanish Civil War\Emblem of the Spanish Legion.png" />
     <Content Include="Assets\Quizzes\Spanish Civil War\Emblem of Viriatos Volunteers.png" />
     <Content Include="Assets\Quizzes\Spanish Civil War\Emilio Mola.jpg" />
     <Content Include="Assets\Quizzes\Spanish Civil War\España.jpg" />
@@ -315,6 +317,7 @@
     <Content Include="Assets\Quizzes\Spanish Civil War\Junkers Ju 52.png" />
     <Content Include="Assets\Quizzes\Spanish Civil War\Kultur.jpg" />
     <Content Include="Assets\Quizzes\Spanish Civil War\La garra del invasor Italiano.png" />
+    <Content Include="Assets\Quizzes\Spanish Civil War\La revolucion y la guerra son inseparables.jpg" />
     <Content Include="Assets\Quizzes\Spanish Civil War\Largo Caballero Cabinet Ministers.jpg" />
     <Content Include="Assets\Quizzes\Spanish Civil War\Largo Caballero.jpg" />
     <Content Include="Assets\Quizzes\Spanish Civil War\Leftists shooting statue.jpg" />
@@ -336,11 +339,13 @@
     <Content Include="Assets\Quizzes\Spanish Civil War\Nido de ametralladoras del Cinturón de Hierro de Bilbao, en las peñas de Santa Marina %281937%29.jpg" />
     <Content Include="Assets\Quizzes\Spanish Civil War\No Pasaran, pasaremos.jpg" />
     <Content Include="Assets\Quizzes\Spanish Civil War\No pasaran.png" />
+    <Content Include="Assets\Quizzes\Spanish Civil War\Our arms are yours.jpg" />
     <Content Include="Assets\Quizzes\Spanish Civil War\PCE popular front.jpg" />
     <Content Include="Assets\Quizzes\Spanish Civil War\PCE.png" />
     <Content Include="Assets\Quizzes\Spanish Civil War\Pelayos.jpg" />
     <Content Include="Assets\Quizzes\Spanish Civil War\Polikarpov I-15 Chato.jpg" />
     <Content Include="Assets\Quizzes\Spanish Civil War\Polikarpov I-16 Mosca.jpg" />
+    <Content Include="Assets\Quizzes\Spanish Civil War\Popular Action leftlet.jpg" />
     <Content Include="Assets\Quizzes\Spanish Civil War\Popular Front.png" />
     <Content Include="Assets\Quizzes\Spanish Civil War\Portugal.png" />
     <Content Include="Assets\Quizzes\Spanish Civil War\POUM poster 2.jpg" />
@@ -368,6 +373,9 @@
     <Content Include="Assets\Quizzes\Spanish Civil War\Un Borracho.jpg" />
     <Content Include="Assets\Quizzes\Spanish Civil War\Union Discipline - POUM.png" />
     <Content Include="Assets\Quizzes\Spanish Civil War\United Kingdom.png" />
+    <Content Include="Assets\Quizzes\Spanish Civil War\Women - Work for comrades.jpg" />
+    <Content Include="Assets\Quizzes\Spanish Civil War\Women%27s international conference poster.jpg" />
+    <Content Include="Assets\Quizzes\Spanish Civil War\Women%27s role in fascist Spain.jpg" />
     <Content Include="Assets\Quizzes\Spanish Civil War\Yoke and Arrows.png" />
     <Content Include="Assets\SmallLogo.png" />
     <Content Include="Assets\SplashScreen.scale-100.png" />
