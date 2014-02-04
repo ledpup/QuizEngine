@@ -78,9 +78,9 @@
                 <TextBlock Grid.Column="0" Grid.Row="0" Style="{StaticResource AppDescriptionTextStyle}" VerticalAlignment="Center">Difficulty:</TextBlock>
                 <StackPanel Grid.Column="1" Grid.Row="0" Grid.ColumnSpan="2" VerticalAlignment="Center">
                     <StackPanel Orientation="Horizontal">
-                        <CheckBox x:Name="Easy" Click="Easy_Click" Padding="10" Width="150" Style="{StaticResource AppCheckBoxStyle}">Easy</CheckBox>
-                        <CheckBox x:Name="Medium" Padding="10" Click="Medium_Click" Width="150" Style="{StaticResource AppCheckBoxStyle}">Medium</CheckBox>
-                        <CheckBox x:Name="Hard" Padding="10" Click="Hard_Click" Width="150" Style="{StaticResource AppCheckBoxStyle}">Hard</CheckBox>
+                        <CheckBox x:Name="Easy" Click="Easy_Click" Padding="10" Width="175" Style="{StaticResource AppCheckBoxStyle}">Easy</CheckBox>
+                        <CheckBox x:Name="Medium" Padding="10" Click="Medium_Click" Width="175" Style="{StaticResource AppCheckBoxStyle}">Medium</CheckBox>
+                        <CheckBox x:Name="Hard" Padding="10" Click="Hard_Click" Width="175" Style="{StaticResource AppCheckBoxStyle}">Hard</CheckBox>
                     </StackPanel>
                 </StackPanel>
                 <StackPanel Grid.Column="0" Grid.Row="1" VerticalAlignment="Center">

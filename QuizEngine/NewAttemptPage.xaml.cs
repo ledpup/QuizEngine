@@ -59,7 +59,11 @@ namespace QuizEngine
             MainPage.SelectBackgroundImage(BackgroundImageSnappedOrFilledScreen, random, "backgrounds - main");
             MainPage.SelectBackgroundImage(BackgroundImage, random, "backgrounds - main");
 
-            
+
+            Easy.Content += string.Format(" ({0})", _completeQuizQuestions.Count(x => x.Difficulty == "Easy"));
+            Medium.Content += string.Format(" ({0})", _completeQuizQuestions.Count(x => x.Difficulty == "Medium"));
+            Hard.Content += string.Format(" ({0})", _completeQuizQuestions.Count(x => x.Difficulty == "Hard"));
+
             var categories = _completeQuizQuestions.Select(x => new { x.Category }).Distinct();
             foreach (var category in categories)
             {

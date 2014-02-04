@@ -109,8 +109,8 @@
     <Compile Include="Common\BooleanNegationConverter.cs" />
     <Compile Include="Common\BooleanToVisibilityConverter.cs" />
     <Compile Include="Common\RichTextColumns.cs" />
-    <Compile Include="EndOfQuizResultsSummaryPage.xaml.cs">
-      <DependentUpon>EndOfQuizResultsSummaryPage.xaml</DependentUpon>
+    <Compile Include="QuizResultsPage.xaml.cs">
+      <DependentUpon>QuizResultsPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="EnhancedSlider.xaml.cs">
       <DependentUpon>EnhancedSlider.xaml</DependentUpon>
@@ -122,8 +122,8 @@
     <Compile Include="AnswerControl.xaml.cs">
       <DependentUpon>AnswerControl.xaml</DependentUpon>
     </Compile>
-    <Compile Include="NewQuizAttemptPage.xaml.cs">
-      <DependentUpon>NewQuizAttemptPage.xaml</DependentUpon>
+    <Compile Include="NewAttemptPage.xaml.cs">
+      <DependentUpon>NewAttemptPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="QuestionPage.xaml.cs">
       <DependentUpon>QuestionPage.xaml</DependentUpon>
@@ -396,7 +396,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="EndOfQuizResultsSummaryPage.xaml">
+    <Page Include="QuizResultsPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -412,7 +412,7 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="NewQuizAttemptPage.xaml">
+    <Page Include="NewAttemptPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
