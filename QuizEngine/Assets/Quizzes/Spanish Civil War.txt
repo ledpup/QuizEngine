@@ -27,7 +27,7 @@
 	{
 		"Category": "Politics",
 		"Difficulty": "Medium",
-		"Question": "What was the nationality of the person who flew Francisco Franco from the Canary Islands to Morocco?",
+		"Question": "What was the nationality of the people who flew Francisco Franco from the Canary Islands to Morocco?",
 		"Answers":
 		[
 			{
@@ -73,7 +73,7 @@
 	{
 		"Category": "Politics",
 		"Difficulty": "Easy",
-		"Question": "With which Spanish military organisation did George Orwell fight?",
+		"Question": "Which Spanish military organisation did George Orwell join to fight against the Nationalists?",
 		"Answers":
 		[
 			{
@@ -337,7 +337,6 @@
 		"Category": "Politics",
 		"Difficulty": "Easy",
 		"Question": "Which countries openly aided the Nationalists during the war?",
-		"Explanation": "The UK, by sending an MI6 agent to help transport Franco to Morocco, by blocking Spanish naval attacks and by maintaining a moribund non-intervention pact, covertly aided the Nationalists.",
 		"Answers":
 		[
 			{
@@ -437,7 +436,7 @@
 		"Category": "Military",
 		"Difficulty": "Hard",
 		"Question": "The Irish Brigade fought on the Nationalist side of Francisco Franco during the Spanish Civil War.",
-		"Explanation": "The unit was formed wholly of Roman Catholics by the politician Eoin O'Duffy, who had previously organised the banned quasi-fascist Blueshirts and openly fascist Greenshirts in Ireland. Despite the declaration by the Irish government that participation in the war was unwelcome and ill-advised, 600 of O'Duffy's followers went to Spain. Their contribution was small. They were withdrawn after only one action in which they found themselves attacked by their own side. Beevor, A., The Battle for Spain",
+		"Explanation": "The unit was formed wholly of Roman Catholics by the politician Eoin O'Duffy, who had previously organised the banned quasi-fascist Blueshirts and openly fascist Greenshirts in Ireland. Despite the declaration by the Irish government that participation in the war was unwelcome and ill-advised, 600 of O'Duffy's followers went to Spain. Their contribution was small. They were withdrawn after only one action in which they found themselves attacked by their own side. (Beevor, A., The Battle for Spain)",
 		"Answers":
 		[
 			{
@@ -947,7 +946,7 @@
 				"Text": "Asturias declared independence from Spain in 1934"
 			},
 			{
-				"Text": "The coup attempt against the Republic by the military was defeated in Asturias in 1934",
+				"Text": "A coup attempt against the Republic by the military was defeated in Asturias in 1934",
 				"Explanation": "There was a coup attempt against the Republic in 1932 but not in 1934."
 			}
 		]
@@ -1266,7 +1265,7 @@
 	{
 		"Category": "Politics",
 		"Difficulty": "Medium",
-		"Question": "At the end of the failed coup but before the start of war, which was the only city listed below (i.e., the largest Spanish cities) that the rebellious Spanish officers controlled?",
+		"Question": "At the end of the failed coup but before the start of war, which of the following cities (the largest Spanish cities) was controlled by rebellious Spanish officers?",
 		"Answers":
 		[
 			{
@@ -1291,12 +1290,12 @@
 		"Category": "Personalities",
 		"Difficulty": "Medium",
 		"Question": "When asked by the US journalist John T. Whitaker about his reason for ordering the killing 4,000 people during the Badajoz massacre (10% of the city's population), who answered:\r\n\r\n\"Of course we killed them. What did you suppose? Will I take 4,000 red prisoners with my column, having to advance against the clock? Or will I leave them in my rearguard so that Badajoz will be red another time?\"",
-		"Explanation": "Yagüe, \"The Butcher of Badajoz\", was a colonel in the Nationalist army. He was one of the key Spanish officers that led the coup against the government. He was also a strong supporter of the Falange.",
 		"Answers":
 		[
 			{
 				"Text": "Juan Yagüe",
-				"Score": "1"
+				"Score": "1",
+				"Explanation": "Yagüe, \"The Butcher of Badajoz\", was a colonel in the Nationalist army. He was one of the key Spanish officers that led the coup against the government. He was also a strong supporter of the Falange."
 			},
 			{
 				"Text": "Francisco Franco"
@@ -1450,7 +1449,7 @@
 		"Difficulty": "Easy",
 		"Question": "During the war, about half of the Catholic ecclesiastical community was killed by anarchists, communists and socialists (i.e., pro-Republican forces.)",
 		"Image": "Leftists shooting statue.jpg",
-		"Explanation": "\"[...] of a total ecclesiastical community of around 115,000, thirteen bishops, 4,184 priests, 2,365 members of other orders and 283 nuns were killed, the vast majority during the summer of 1936.\" - Beevor, A., The Battle for Spain. Some of these were killed by Nationalists, especially in the Basque Country",
+		"Explanation": "\"[...] of a total ecclesiastical community of around 115,000, thirteen bishops, 4,184 priests, 2,365 members of other orders and 283 nuns were killed, the vast majority during the summer of 1936.\" - Beevor, A., The Battle for Spain.\n\rSome of those killed were killed by Nationalists, many of whom were in the Basque Country.",
 		"Answers":
 		[
 			{
@@ -1615,6 +1614,11 @@
 			{
 				"Text": "Republic in exile",
 				"Image": "Flag of Spain (1931-1939).png"
+			},
+			{
+				"Text": "France",
+				"Image": "Flag of France.png",
+				"Explanation": "ABout one quarter of Spain's gold ended up in France."
 			}
 		]
 	},
@@ -1717,7 +1721,7 @@
 	{
 		"Category": "Culture",
 		"Difficulty": "Easy",
-		"Question": "What was the common salute made by those that supported the Nationalist?",
+		"Question": "What was the common salute made by those that supported the Nationalists?",
 		"Image": "Santander fascists.jpg",
 		"Answers":
 		[
@@ -2244,6 +2248,10 @@
 			},
 			{
 				"Text": "Battle of Teruel"
+			},
+			{
+				"Text": "None - all of the above were military defeats for the Republic",
+				"IsLast": "true"
 			}
 		]
 	},
@@ -2268,7 +2276,7 @@
 		"Difficulty": "Medium",
 		"Question": "The pictured poster mentions July 1936, in reference to the Battle for Madrid. Which military offensive does the date of July 1937 refer?",
 		"Image": "No Pasaran, pasaremos.jpg",
-		"ImageText": "\"They shall not pass! - July 1936\r\nJuly 1937 - We will pass!\"",
+		"ImageText": "They shall not pass! - July 1936\r\nJuly 1937 - We will pass!",
 		"Answers":
 		[
 			{
@@ -2462,23 +2470,23 @@
 			{
 				"Image": "Izquierda Republicana.jpg",
 				"Score": "1",
-				"Explanation": "\"Republican Left\r\nDefend smallholdings on pain of death to the thief\"\r\n\r\nThe Republican Left (Izquierda Republicana) formed in 1934. It received the 3rd highest number of votes in the 1936 election where it was part of the Popular Front. Like the Republican Union (Unión Republicana) it was neither socialist nor revolutionary."
+				"Explanation": "\"Republican Left\r\n\"Defend smallholdings on pain of death to the thief\"\r\n\r\nThe Republican Left (Izquierda Republicana) formed in 1934. It received the 3rd highest number of votes in the 1936 election where it was part of the Popular Front. Like the Republican Union (Unión Republicana) it was neither socialist nor revolutionary."
 			},
 			{
 				"Image": "Alplastar al fascismo.jpg",
-				"Explanation": "\"19 July 1936\r\nand always our common objective\r\nCrush fascism!\r\nPropaganda office CNT FAI JJIL\""
+				"Explanation": "You chose an anarchist poster that reads: \"19 July 1936\r\n\"and always our common objective\r\n\"Crush fascism!\r\n\"Propaganda office CNT FAI JJIL\""
 			},
 			{
 				"Image": "CNT and UGT.png",
-				"Explanation": "\"Fields and factories for the syndicates!\""
+				"Explanation": "You chose an anarchist poster that reads: \"Fields and factories for the syndicates!\""
 			},
 			{
 				"Image": "Columna de Hierro poster 2.jpg",
-				"Explanation": "\"Iron Column\r\nFor a free humanity!\r\nFor anarchy!\""
+				"Explanation": "You chose an anarchist poster that reads:\r\n\"Iron Column\r\n\"For a free humanity!\r\n\"For anarchy!\""
 			},
 			{
 				"Image": "Union Discipline - POUM.png",
-				"Explanation": "Union! Discipline for socialism! - POUM"
+				"Explanation": "You chose an anarchist poster that reads:\r\n\r\n\"Union! Discipline for socialism! - POUM\""
 			}
 		]
 	},
@@ -2653,7 +2661,7 @@
 		"Answers":
 		[
 			{
-				"Text": "Spanish Military Union; Emilio Mola",
+				"Text": "Spanish Military Union; José Sanjurjo",
 				"Score": "1",
 				"Explanation": "Unión Militar Española (Spanish Military Union) was a pro-fascist secret society of officers of the Spanish Republican Armed Forces involved in a conspiracy to bring about the restoration of the monarchy during the 1930s. Members of this organization became part of the Nationalist forces during the Spanish Civil War."
 			},
@@ -2666,7 +2674,7 @@
 				"Explanation": "Franco did not become the leader of the Falange until April 1937, almost a year after the failed coup."
 			},
 			{
-				"Text": "Spanish Falange; Gonzalo Queipo de Llano"
+				"Text": "Spanish Falange; Emilio Mola"
 			},
 			{
 				"Text": "Spanish Falange; Jose Antonio De Rivera",
@@ -2708,7 +2716,7 @@
 			{
 				"Text": "Buenaventura Durruti; Jose Antonio De Rivera",
 				"Score": "1",
-				"Explanation": "Durruti was a central figure of Spanish anarchism as an influential member of the CNT and FAI. He was killed during the Battle for Madrid, probably by a stray bullet.\r\nDe Rivera was the leader of the Spanish Falange. He was arrested in March 14, 1936 and held at the prison in Alicante. On October 3 1936 he was charged with conspiracy against the Republic and military insurrection, both capital offences. On November 18 at 2:30 AM he was found guilty and sentenced to death by firing squad. The sentence was carried out early in the morning of November 20, 1936."
+				"Explanation": "Durruti was a central figure of Spanish anarchism. He was an influential member of the CNT and FAI. He was killed during the Battle for Madrid, probably by a stray bullet.\r\nDe Rivera was the leader of the Spanish Falange. He was arrested in March 14, 1936 and held at the prison in Alicante. On October 3 1936 he was charged with conspiracy against the Republic and military insurrection, both capital offences. On November 18 at 2:30 AM he was found guilty and sentenced to death by firing squad. The sentence was carried out early in the morning of November 20, 1936."
 			},
 			{
 				"Text": "Buenaventura Durruti; Emilio Mola"
@@ -2977,7 +2985,8 @@
 		[
 			{
 				"Text": "Bakunin",
-				"Score": "1"
+				"Score": "1",
+				"Explanation": "\"In 1868 [...] there arrived in Madrid Giuseppe Fanelli [...] a passionate admirer of Bakunin, the leading figure in the International.\" - Hugh Thomas, The Spanish Civil War"
 			},
 			{
 				"Text": "Kropotkin"
@@ -3012,6 +3021,10 @@
 			},
 			{
 				"Text": "The abdication of King Amadeo I"
+			},
+			{
+				"Text": "None of the above",
+				"IsLast": "true"
 			}
 		]
 	},
@@ -3190,6 +3203,10 @@
 			},
 			{
 				"Text": "Guerilla warfare that lasted until defeat in November 1939"
+			},
+			{
+				"Text": "All of the above",
+				"IsLast": "true"
 			}
 		]
 	},
@@ -3254,19 +3271,24 @@
 			},
 			{
 				"Text": "It voluntarily integrated into the Aragon government"
+			},
+			{
+				"Text": "None of the above",
+				"IsLast": "true"
 			}
 		]
 	},
 	{
 		"Category": "Personalities",
 		"Difficulty": "Medium",
-		"Question": "Who wrote:\r\n\r\n\"You will win, because you have more than enough brute force. But you will not convince. For to convince, you need to persuade. And in order to persuade you would need what you lack: reason and right in the struggle.\"",
+		"Question": "Who said the following of the Nationalists:\r\n\r\n\"You will win, because you have more than enough brute force. But you will not convince. For to convince, you need to persuade. And in order to persuade you would need what you lack: reason and right in the struggle.\"",
 		"Image": "Miguel de Unamuno.jpg",
 		"Answers":
 		[
 			{
 				"Text": "Miguel de Unamuno",
-				"Score": "1"
+				"Score": "1",
+				"Explanation": "Unamuno said the above during a speech to a crowd of Nationalists. He was not lynched but never spoke publicly again."
 			},
 			{
 				"Text": "Manuel Azaña"
@@ -3340,6 +3362,10 @@
 			},
 			{
 				"Text": "The liberals"
+			},
+			{
+				"Text": "None of the above",
+				"IsLast": "true"
 			}
 		]
 	},
@@ -3386,6 +3412,10 @@
 			},
 			{
 				"Text": "Communist control of the Popular Front"
+			},
+			{
+				"Text": "All of the above",
+				"IsLast": "true"
 			}
 		]
 	},
@@ -3433,6 +3463,10 @@
 			},
 			{
 				"Text": "Desertion from the International Brigades made them unviable as independent units"
+			},
+			{
+				"Text": "None of the above",
+				"IsLast": "true"
 			}
 		]
 	},
@@ -3770,6 +3804,54 @@
 			{
 				"Image": "Women - Work for comrades.jpg",
 				"Explanation": "You chose a non-revolutionary poster that reads as: \"Women, work for your comrades that fight\""
+			}
+		]
+	},
+	{
+		"Category": "Military",
+		"Difficulty": "Medium",
+		"Question": "Which of the following was not a characteristic of the militias that formed to fight against the military coup?",
+		"Image": "Militia.jpg",
+		"Answers":
+		[
+			{
+				"Text": "Sufficient arms",
+				"Score": "1"
+			},
+			{
+				"Text": "Women combatants"
+			},
+			{
+				"Text": "Well paid",
+				"Explanation": "\"Militiamen soon began to be paid 10 pesetas a day (raised in some cases from the factories in which they had been employed, in others paid by the government or the unions), a sum continued to be paid to their dependants in the event of their deaths. Three times what soldiers received before the war, this payment made them the richest privates in Europe.\" - Hugh Thomas, The Spanish Civil War"
+			},
+			{
+				"Text": "Non-hierarchic and democratic"
+			},
+			{
+				"Text": "None - the militias featured all of the above",
+				"IsLast": "true"
+			}
+		]
+	},
+	{
+		"Category": "Social",
+		"Difficulty": "Medium",
+		"Question": "Which event initiated the end of the social revolution in the Republican territory?",
+		"Answers":
+		[
+			{
+				"Text": "The Barcelona uprising in May 1937",
+				"Score": "1"
+			},
+			{
+				"Text": "The replacement of Largo Caballero's government by Juan Negrín's"
+			},
+			{
+				"Text": "The Nationalist victory against the Republic in March 1939"
+			},
+			{
+				"Text": "The arrival of the International Brigades"
 			}
 		]
 	}
