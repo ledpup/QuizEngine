@@ -1,5 +1,5 @@
 ﻿<common:LayoutAwarePage
-    x:Class="QuizEngine.NewQuizAttemptPage"
+    x:Class="QuizEngine.NewAttemptPage"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:local="using:QuizEngine"
@@ -47,20 +47,21 @@
 
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="*"/>
-                <ColumnDefinition Width="5*"/>
+                <ColumnDefinition Width="6*"/>
                 <ColumnDefinition Width="*"/>
             </Grid.ColumnDefinitions>
             <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
                 <RowDefinition Height="*"/>
-                <RowDefinition Height="4.5*"/>
+                <RowDefinition Height="9*"/>
                 <RowDefinition Height="*"/>
             </Grid.RowDefinitions>
 
             <TextBlock x:Name="Title" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="3" Margin="20" Style="{StaticResource AppTitleTextStyle}" FontSize="48" Foreground="White">Spanish Civil War Quiz</TextBlock>
 
-            <Rectangle x:Name="Rectangle" HorizontalAlignment="Center" Margin="0" VerticalAlignment="Center" Grid.Column="1" Stretch="UniformToFill" Grid.Row="1" Fill="{StaticResource BlackBrush}" Opacity="0.5" />
+            <Rectangle x:Name="Rectangle" HorizontalAlignment="Center" Margin="0" VerticalAlignment="Center" Grid.Column="1" Stretch="UniformToFill" Grid.Row="2" Fill="{StaticResource BlackBrush}" Opacity="0.5" />
 
-            <Grid x:Name="Controls" Grid.Column="1" Grid.Row="1" Margin="10">
+            <Grid x:Name="Controls" Grid.Column="1" Grid.Row="2" Margin="10">
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="*"/>
                     <ColumnDefinition Width="Auto"/>
@@ -72,23 +73,23 @@
                     <RowDefinition Height="Auto"/>
                     <RowDefinition Height="*"/>
                     <RowDefinition Height="Auto"/>
-                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="80"/>
                 </Grid.RowDefinitions>
 
                 <TextBlock Grid.Column="0" Grid.Row="0" Style="{StaticResource AppDescriptionTextStyle}" VerticalAlignment="Center">Difficulty:</TextBlock>
                 <StackPanel Grid.Column="1" Grid.Row="0" Grid.ColumnSpan="2" VerticalAlignment="Center">
                     <StackPanel Orientation="Horizontal">
-                        <CheckBox x:Name="Easy" Click="Easy_Click" Padding="10" Width="200" Style="{StaticResource AppCheckBoxStyle}">Easy</CheckBox>
-                        <CheckBox x:Name="Medium" Padding="10" Click="Medium_Click" Width="200" Style="{StaticResource AppCheckBoxStyle}">Medium</CheckBox>
-                        <CheckBox x:Name="Hard" Padding="10" Click="Hard_Click" Width="200" Style="{StaticResource AppCheckBoxStyle}">Hard</CheckBox>
+                        <CheckBox x:Name="Easy" Click="Easy_Click" Padding="5" Width="250" Style="{StaticResource AppCheckBoxStyle}">Easy</CheckBox>
+                        <CheckBox x:Name="Medium" Padding="5" Click="Medium_Click" Width="250" Style="{StaticResource AppCheckBoxStyle}">Medium</CheckBox>
+                        <CheckBox x:Name="Hard" Padding="5" Click="Hard_Click" Width="250" Style="{StaticResource AppCheckBoxStyle}">Hard</CheckBox>
                     </StackPanel>
                 </StackPanel>
                 <StackPanel Grid.Column="0" Grid.Row="1" VerticalAlignment="Center">
                     <TextBlock Style="{StaticResource AppDescriptionTextStyle}" VerticalAlignment="Center">Category:</TextBlock>
-                    <Button Click="ButtonBase_OnClick">Invert selection</Button>
+                    <!--<Button Click="ButtonBase_OnClick">Invert selection</Button>-->
                 </StackPanel>
                 
-                <VariableSizedWrapGrid  x:Name="Categories" Grid.Column="1" Grid.Row="1" Grid.ColumnSpan="2" VerticalAlignment="Center" Orientation="Horizontal" ItemWidth="250">
+                <VariableSizedWrapGrid x:Name="Categories" Grid.Column="1" Grid.Row="1" Grid.ColumnSpan="2" VerticalAlignment="Center" Orientation="Horizontal" ItemWidth="250">
                 </VariableSizedWrapGrid>
                 <TextBlock Grid.Column="0" Grid.Row="2" Style="{StaticResource AppDescriptionTextStyle}" VerticalAlignment="Center">Number of<LineBreak />Questions:</TextBlock>
                 <uc:EnhancedSlider x:Name="NumberOfQuestions" Grid.Column="1" Grid.Row="2" Grid.ColumnSpan="2" HorizontalAlignment="Stretch" Margin="0" VerticalAlignment="Center" Minimum="5" Maximum="50" Value="20" FontSize="20" />

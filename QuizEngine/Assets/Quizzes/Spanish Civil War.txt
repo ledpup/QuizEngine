@@ -436,7 +436,7 @@
 		"Category": "Military",
 		"Difficulty": "Hard",
 		"Question": "The Irish Brigade fought on the Nationalist side of Francisco Franco during the Spanish Civil War.",
-		"Explanation": "The unit was formed wholly of Roman Catholics by the politician Eoin O'Duffy, who had previously organised the banned quasi-fascist Blueshirts and openly fascist Greenshirts in Ireland. Despite the declaration by the Irish government that participation in the war was unwelcome and ill-advised, 600 of O'Duffy's followers went to Spain. Their contribution was small. They were withdrawn after only one action in which they found themselves attacked by their own side. (Beevor, A., The Battle for Spain)",
+		"Explanation": "The unit was formed wholly of Roman Catholics by the politician Eoin O'Duffy, who had previously organised the banned quasi-fascist Blueshirts and openly fascist Greenshirts in Ireland. Despite the declaration by the Irish government that participation in the war was unwelcome and ill-advised, 600 of O'Duffy's followers went to Spain. Their contribution was small. They were withdrawn after only one action in which they found themselves attacked by their own side. (Beevor, A., <i>The Battle for Spain</i>)",
 		"Answers":
 		[
 			{
@@ -516,7 +516,7 @@
 		[
 			{
 				"Text": "Transport planes from Germany and Italy",
-				"Explanation": "\"Although the airlift began almost immediately with a few Spanish air force Breguets, Nieuports and Italian Savoias, it was chiefly effected by Junkers 52s sent by Hitler, who remarked later that Franco should erect a monument to the plane because it was so vital to his victory.\" - Beevor, A., The Battle for Spain",
+				"Explanation": "\"Although the airlift began almost immediately with a few Spanish air force Breguets, Nieuports and Italian Savoias, it was chiefly effected by Junkers 52s sent by Hitler, who remarked later that Franco should erect a monument to the plane because it was so vital to his victory.\" - Beevor, A., <i>The Battle for Spain</i>",
 				"Score": "1"
 			},
 			{
@@ -611,7 +611,7 @@
 		"Category": "Politics",
 		"Difficulty": "Easy",
 		"Question": "The Spanish Republic was solely anti-clerical during the Spanish Civil War.",
-		"Explanation": "The majority of the Republic was against religion and especially the Catholic Church. However, the conservative, strongly Catholic Basque Country (\"the most Christian people in Spain\" quoted by Hugh Thomas, The Spanish Civil War) was part of the Republic until it was defeated by the Nationalists during the Battle of Bilbao in June 1937.",
+		"Explanation": "The majority of the Republic was against religion and especially the Catholic Church. However, the conservative, strongly Catholic Basque Country (\"the most Christian people in Spain\" quoted by Hugh Thomas, <i>The Spanish Civil War</i>) was part of the Republic until it was defeated by the Nationalists during the Battle of Bilbao in June 1937.",
 		"Answers":
 		[
 			{
@@ -979,9 +979,9 @@
 	{
 		"Category": "Social",
 		"Difficulty": "Medium",
-		"Question": "What occurred in the Estremadura region of Spain in 1936 before the invasion by the Army of Africa?",
+		"Question": "What occurred in the Extremadura region of Spain in 1936 before the invasion by the Army of Africa?",
 		"Image": "Extremadura.png",
-		"Explanation": "\"[...] the Army strategically butchered and terrorised the pro-Republican population, especially the rural landless [...] It was a war of agrarian counter-reform [...] The large landowners who owned the vast estates which covered most of the southern half of Spain rode along [...] to reclaim by force of arms the land on which the Republic had settled the landless poor.\" - Helen Graham, The Spanish Civil War: A very short introduction",
+		"Explanation": "\"[...] the Army strategically butchered and terrorised the pro-Republican population, especially the rural landless [...] It was a war of agrarian counter-reform [...] The large landowners who owned the vast estates which covered most of the southern half of Spain rode along [...] to reclaim by force of arms the land on which the Republic had settled the landless poor.\" - Helen Graham, <i>The Spanish Civil War: A very short introduction</i>",
 		"Answers":
 		[
 			{
@@ -1004,7 +1004,7 @@
 		"Difficulty": "Hard",
 		"Question": "Which regions had the largest number of collectives, established at the beginning of the revolution in 1936?",
 		"Image": "Anarchist collective.jpg",
-		"Explanation": "\"The regions most affected [by collectivisation] were Catalonia and Aragón, where about 70 per cent of the workforce was involved. The total for the whole of republican territory was nearly 800,000 on the land and a little over a million in industry.\" - Anthony Beevor, The Battle for Spain",
+		"Explanation": "\"The regions most affected [by collectivisation] were Catalonia and Aragón, where about 70 per cent of the workforce was involved. The total for the whole of republican territory was nearly 800,000 on the land and a little over a million in industry.\" - Anthony Beevor, <i>The Battle for Spain</i>",
 		"Answers":
 		[
 			{
@@ -1105,7 +1105,7 @@
 			{
 				"Text": "He was concerned that France would intervene in the war and support Catalonia",
 				"Score": "1",
-				"Explanation": "\"More importantly, however, to have launched an offensive against Catalonia at that point would have left a substantial Republican force in the centre-south zone. Turning away from Catalonia in spring 1938 and towards the centre-south army, thus lengthening the conflict, was about maximizing the destruction and demoralization visited on the Republic’s human resources. It was, then, entirely consistent with Franco’s underlying war aims.\" - Helen Graham, The Spanish Civil War: A very short introduction"
+				"Explanation": "\"More importantly, however, to have launched an offensive against Catalonia at that point would have left a substantial Republican force in the centre-south zone. Turning away from Catalonia in spring 1938 and towards the centre-south army, thus lengthening the conflict, was about maximizing the destruction and demoralization visited on the Republic’s human resources. It was, then, entirely consistent with Franco’s underlying war aims.\" - Helen Graham, <i>The Spanish Civil War: A very short introduction</i>"
 			},
 			{
 				"Text": "The Republic army was too heavily defended around Barcelona"
@@ -1122,7 +1122,7 @@
 		"Category": "Politics",
 		"Difficulty": "Medium",
 		"Question": "The USA, not wanting to be seen siding with fascists nor wanting to appear pro-communist, followed the lead of the Non-Intervention Committee and did not get involved in the Spanish Civil War.",
-		"Explanation": "Because of pressure from the Catholic lobby, the USA did not trade with the Republic. However, \"Ford, Studebaker and General Motors supplied 12,000 trucks to the nationalists, nearly three times as many as the Axis powers, and the chemical giant, Dupont of Nemours, provided 40,000 bombs, sending them via Germany so as to circumvent the Neutrality Act. In 1945 the under-secretary at the Spanish foreign ministry, José Maria Doussinague, admitted that 'without American petroleum and American trucks and American credit, we could never have won the Civil War'.\" - Anthony Beevor, The Battle for Spain",
+		"Explanation": "Because of pressure from the Catholic lobby, the USA did not trade with the Republic. However, \"Ford, Studebaker and General Motors supplied 12,000 trucks to the nationalists, nearly three times as many as the Axis powers, and the chemical giant, Dupont of Nemours, provided 40,000 bombs, sending them via Germany so as to circumvent the Neutrality Act. In 1945 the under-secretary at the Spanish foreign ministry, José Maria Doussinague, admitted that 'without American petroleum and American trucks and American credit, we could never have won the Civil War'.\" - Anthony Beevor, <i>The Battle for Spain</i>",
 		"Answers":
 		[
 			{
@@ -1138,7 +1138,7 @@
 		"Category": "Politics",
 		"Difficulty": "Medium",
 		"Question": "The actions of the British Royal Navy were astonishing for a non-interventionist power. Not only were communications facilities provided in Gibraltar to speak directly to Rome, Berlin and Lisbon, but the battleship HMS Queen Elizabeth was moved in front of Algeciras bay to prevent republican warships shelling the port.",
-		"Explanation": "The claim above is from Anthony Beevor's The Battle for Spain. Also from the same book: \"Britain would apply an arms embargo without waiting for other powers to respond. This in effect meant denying arms to the recognized government and often ignoring those going to the rebels, for the British government refused to acknowledge the proof of German and Italian intervention.\"",
+		"Explanation": "The claim above is from Anthony Beevor's <i>The Battle for Spain</i>. Also from the same book: \"Britain would apply an arms embargo without waiting for other powers to respond. This in effect meant denying arms to the recognized government and often ignoring those going to the rebels, for the British government refused to acknowledge the proof of German and Italian intervention.\"",
 		"Answers":
 		[
 			{
@@ -1449,7 +1449,7 @@
 		"Difficulty": "Easy",
 		"Question": "During the war, about half of the Catholic ecclesiastical community was killed by anarchists, communists and socialists (i.e., pro-Republican forces.)",
 		"Image": "Leftists shooting statue.jpg",
-		"Explanation": "\"[...] of a total ecclesiastical community of around 115,000, thirteen bishops, 4,184 priests, 2,365 members of other orders and 283 nuns were killed, the vast majority during the summer of 1936.\" - Beevor, A., The Battle for Spain.\n\rSome of those killed were killed by Nationalists, many of whom were in the Basque Country.",
+		"Explanation": "\"[...] of a total ecclesiastical community of around 115,000, thirteen bishops, 4,184 priests, 2,365 members of other orders and 283 nuns were killed, the vast majority during the summer of 1936.\" - Beevor, A., <i>The Battle for Spain</i>.\n\rSome of those killed were killed by Nationalists, many of whom were in the Basque Country.",
 		"Answers":
 		[
 			{
@@ -1492,7 +1492,7 @@
 		"Difficulty": "Medium",
 		"Question": "Although the workers' collectives, formed during the social revolution of 1936, were the exemplar of left-wing communism and anarchism, they were less productive than traditional organisations of production.",
 		"Image": "Collective farmers.jpg",
-		"Explanation": "\"The communists attacked the self-managed collectives as inefficient, but in Aragón production increased by a fifth. Not only was non-collectivized production lower, but the individualists were to show the worst possible traits of the introverted and suspicious smallholder.\" - Beevor, A., The Battle for Spain",
+		"Explanation": "\"The communists attacked the self-managed collectives as inefficient, but in Aragón production increased by a fifth. Not only was non-collectivized production lower, but the individualists were to show the worst possible traits of the introverted and suspicious smallholder.\" - Beevor, A., <i>The Battle for Spain</i>",
 		"Answers":
 		[
 			{
@@ -1601,7 +1601,7 @@
 				"Text": "USSR",
 				"Image": "Flag of the Soviet Union.png",
 				"Score": "1",
-				"Explanation": "The Republic sent its gold reserve to the Soviet Union to pay for arms and supplies. That reserve was worth £63,000,000 ($315,000,000) in 1939 prices. In 1956, the Soviet Union announced that Spain still owed it $50,000,000. \"According to Orlov, Stalin celebrated the arrival of the gold with a banquet at which he announced, 'The Spaniards will never see their gold again, just as one cannot see one’s own ears'\" - Hugh Thomas, The Spanish Civil War"
+				"Explanation": "The Republic sent its gold reserve to the Soviet Union to pay for arms and supplies. That reserve was worth £63,000,000 ($315,000,000) in 1939 prices. In 1956, the Soviet Union announced that Spain still owed it $50,000,000. \"According to Orlov, Stalin celebrated the arrival of the gold with a banquet at which he announced, 'The Spaniards will never see their gold again, just as one cannot see one’s own ears'\" - Hugh Thomas, <i>The Spanish Civil War</i>"
 			},
 			{
 				"Text": "Nationalist Spain",
@@ -2138,7 +2138,7 @@
 		"Question": "The fascist Italian state, under control by Benito Mussolini, contributed how many Italian troops to the Nationalist's cause during the Civil War?",
 		"Image": "La garra del invasor Italiano.png",
 		"ImageText": "\"The claw of the Italian invader intends to enslave us\"",
-		"Explanation": "\"Such was the scale of Mussolini's aid in weaponry and manpower (75,000 troops), we can say that from March 1937 Fascist Italy was at war with the Spanish Republic.\" - Helen Graham, The Spanish Civil War: A very short introduction",
+		"Explanation": "\"Such was the scale of Mussolini's aid in weaponry and manpower (75,000 troops), we can say that from March 1937 Fascist Italy was at war with the Spanish Republic.\" - Helen Graham, <i>The Spanish Civil War: A very short introduction</i>",
 		"Answers":
 		[
 			{
@@ -2499,14 +2499,14 @@
 			{
 				"Text": "50,000",
 				"Score": "1",
-				"Explanation": "\"The most reliable recent figure, produced by the foremost expert on the subject, José Luis Ledesma, is 49,272. However, uncertainty over the scale of the killings in Republican Madrid could see that figure rise. Even for areas where reliable studies exist, new information and excavations of common graves see the numbers being revised constantly, albeit within relatively small parameters.\" - Paul Preston, The Spanish Holocaust, 2007"
+				"Explanation": "\"The most reliable recent figure, produced by the foremost expert on the subject, José Luis Ledesma, is 49,272. However, uncertainty over the scale of the killings in Republican Madrid could see that figure rise. Even for areas where reliable studies exist, new information and excavations of common graves see the numbers being revised constantly, albeit within relatively small parameters.\" - Paul Preston, <i>The Spanish Holocaust</i>, 2007"
 			},
 			{
 				"Text": "530,000"
 			},
 			{
 				"Text": "85,000",
-				"Explanation": "\"To prove the scale of Republican iniquity to the world, on 26 April 1940 [Franco] set up a massive state investigation, the Causa General, 'to gather trustworthy information' [...] the Causa General concluded that the number of deaths was 85,940. Although inflated and including many duplications, this figure was still so far below Franco's claims that, for over a quarter of a century, it was omitted from editions of the published résumé of the Causa General's findings.\" - Paul Preston, The Spanish Holocaust, 2007"
+				"Explanation": "\"To prove the scale of Republican iniquity to the world, on 26 April 1940 [Franco] set up a massive state investigation, the Causa General, 'to gather trustworthy information' [...] the Causa General concluded that the number of deaths was 85,940. Although inflated and including many duplications, this figure was still so far below Franco's claims that, for over a quarter of a century, it was omitted from editions of the published résumé of the Causa General's findings.\" - Paul Preston, <i>The Spanish Holocaust</i>, 2007"
 			},
 			{
 				"Text": "250,000"
@@ -2519,13 +2519,13 @@
 	{
 		"Category": "Social",
 		"Difficulty": "Hard",
-		"Question": "\"[In] Badajoz, there were 1,437 victims of the left as against 8,914 victims of the rebels; in Seville, 447 victims of the left, 12,507 victims of the rebels; in Cádiz, 97 victims of the left, 3,071 victims of the rebels; and in Huelva, 101 victims of the left, 6,019 victims of the rebels. In places where there was no Republican violence, the figures for rebel killings are almost incredible, for example Navarre, 3,280, La Rioja, 1,977.\" - Paul Preston, The Spanish Holocaust, 2007\r\n\r\nThere were significantly more killings by the the left than by the rebels in only one city. Which city was it?",
+		"Question": "\"[In] Badajoz, there were 1,437 victims of the left as against 8,914 victims of the rebels; in Seville, 447 victims of the left, 12,507 victims of the rebels; in Cádiz, 97 victims of the left, 3,071 victims of the rebels; and in Huelva, 101 victims of the left, 6,019 victims of the rebels. In places where there was no Republican violence, the figures for rebel killings are almost incredible, for example Navarre, 3,280, La Rioja, 1,977.\" - Paul Preston, <i>The Spanish Holocaust</i>, 2007\r\n\r\nThere were significantly more killings by the the left than by the rebels in only one city. Which city was it?",
 		"Answers":
 		[
 			{
 				"Text": "Madrid",
 				"Score": "1",
-				"Explanation": "\"The killings throughout the war when the capital was under Republican control seem to have been nearer three times those carried out after the rebel occupation.\" - Paul Preston, The Spanish Holocaust, 2007\r\n\r\nMost of the killings occurred during the Paracuellos massacres, an attempt by the Republic to eliminate the fifth column during the Battle for Madrid."
+				"Explanation": "\"The killings throughout the war when the capital was under Republican control seem to have been nearer three times those carried out after the rebel occupation.\" - Paul Preston, <i>The Spanish Holocaust</i>, 2007\r\n\r\nMost of the killings occurred during the Paracuellos massacres, an attempt by the Republic to eliminate the fifth column during the Battle for Madrid."
 			},
 			{
 				"Text": "Zaragoza",
@@ -2638,7 +2638,7 @@
 			{
 				"Text": "150,000",
 				"Score": "1",
-				"Explanation": "\"The currently most reliable, yet still tentative, figure for deaths at the hands of the military rebels and their supporters is 130,199. However, it is unlikely that such deaths were fewer than 150,000 and they could well be more. Some areas have been studied only partially; others hardly at all.\" - Paul Preston, The Spanish Holocaust, 2007"
+				"Explanation": "\"The currently most reliable, yet still tentative, figure for deaths at the hands of the military rebels and their supporters is 130,199. However, it is unlikely that such deaths were fewer than 150,000 and they could well be more. Some areas have been studied only partially; others hardly at all.\" - Paul Preston, <i>The Spanish Holocaust</i>, 2007"
 			},
 			{
 				"Text": "530,000"
@@ -2986,7 +2986,7 @@
 			{
 				"Text": "Bakunin",
 				"Score": "1",
-				"Explanation": "\"In 1868 [...] there arrived in Madrid Giuseppe Fanelli [...] a passionate admirer of Bakunin, the leading figure in the International.\" - Hugh Thomas, The Spanish Civil War"
+				"Explanation": "\"In 1868 [...] there arrived in Madrid Giuseppe Fanelli [...] a passionate admirer of Bakunin, the leading figure in the International.\" - Hugh Thomas, <i>The Spanish Civil War</i>"
 			},
 			{
 				"Text": "Kropotkin"
@@ -3085,23 +3085,23 @@
 			{
 				"Text": "Public education",
 				"Score": "1",
-				"Explanation": "\"over 10,000 schools were built during the Republic; the budgetary allocation for education increased substantially between 1931 and 1934, and a great many studies have highlighted the Republic’s success in this field.\" - Casanova, The Spanish Republic and Civil War (p. 42)."
+				"Explanation": "\"over 10,000 schools were built during the Republic; the budgetary allocation for education increased substantially between 1931 and 1934, and a great many studies have highlighted the Republic’s success in this field.\" - Casanova, <i>The Spanish Republic and Civil War</i> (p. 42)."
 			},
 			{
 				"Text": "Separation of church and state",
-				"Explanation": "\"[...] nowhere was the struggle between the Catholic Church and the various socialist projects, between clericalism and anticlericalism, so intense as in Spanish society in the 1930s. [...] The result was the birth of the first mass right-wing party in the history of Spain, a party that played a major role in the hounding and overthrow of the Republic.\" - Casanova, The Spanish Republic and Civil War (p. 64)."
+				"Explanation": "\"[...] nowhere was the struggle between the Catholic Church and the various socialist projects, between clericalism and anticlericalism, so intense as in Spanish society in the 1930s. [...] The result was the birth of the first mass right-wing party in the history of Spain, a party that played a major role in the hounding and overthrow of the Republic.\" - Casanova, <i>The Spanish Republic and Civil War</i> (p. 64)."
 			},
 			{
 				"Text": "Agrarian reform",
-				"Explanation": "The actual scope of the reform was extremely limited. Malefakis summed it up well when he wrote: 'Two and a half years after the proclamation of the Republic, only 45,000 hectares of land had changed hands, benefiting some 6,000 or 7,000 peasants'.\" - Casanova, The Spanish Republic and Civil War (p. 47)." 
+				"Explanation": "The actual scope of the reform was extremely limited. Malefakis summed it up well when he wrote: 'Two and a half years after the proclamation of the Republic, only 45,000 hectares of land had changed hands, benefiting some 6,000 or 7,000 peasants'.\" - Casanova, <i>The Spanish Republic and Civil War</i> (p. 47)." 
 			},
 			{
 				"Text": "Autonomy for separatists regions",
-				"Explanation": "\"By the end of the republican period, only Catalonia had a Statute of Autonomy. It took five years for Basque autonomy to be passed, and autonomy plans for other regions, such as Galicia, had yet to reach the Cortes when a sector of the army decided to put an end to the Republic by force of arms.\" - Casanova, The Spanish Republic and Civil War (p. 43)."
+				"Explanation": "\"By the end of the republican period, only Catalonia had a Statute of Autonomy. It took five years for Basque autonomy to be passed, and autonomy plans for other regions, such as Galicia, had yet to reach the Cortes when a sector of the army decided to put an end to the Republic by force of arms.\" - Casanova, <i>The Spanish Republic and Civil War</i> (p. 43)."
 			},
 			{
 				"Text": "Reorganisation of the military",
-				"Explanation": "\"Azaña obtained a drastic reduction in the hierarchy, which brought about the reorganisation of the various units and improved promotion prospects, but historians agree that, politically, it was a doubtful measure that did not help to make the army more republican [...]\" - Casanova, The Spanish Republic and Civil War (p. 38)."
+				"Explanation": "\"Azaña obtained a drastic reduction in the hierarchy, which brought about the reorganisation of the various units and improved promotion prospects, but historians agree that, politically, it was a doubtful measure that did not help to make the army more republican [...]\" - Casanova, <i>The Spanish Republic and Civil War</i> (p. 38)."
 			}
 		]
 	},
@@ -3221,7 +3221,7 @@
 			{
 				"Text": "\"¡Viva la muerte!\" (Long live death!)",
 				"Score": "1",
-				"Explanation": "Miguel de Unamuno's response to this was: \"Just now I heard a necrophilistic and senseless cry: 'Long live death'. And I, who have spent my life shaping paradoxes which have aroused the uncomprehending anger of others, I must tell you, as an expert authority, that this outlandish paradox is repellent to me.\" - Hugh Thomas, The Spanish Civil War"
+				"Explanation": "Miguel de Unamuno's response to this was: \"Just now I heard a necrophilistic and senseless cry: 'Long live death'. And I, who have spent my life shaping paradoxes which have aroused the uncomprehending anger of others, I must tell you, as an expert authority, that this outlandish paradox is repellent to me.\" - Hugh Thomas, <i>The Spanish Civil War</i>"
 			},
 			{
 				"Text": "\"¡Viva España!\" (Long live Spain!)"
@@ -3239,7 +3239,7 @@
 		"Difficulty": "Easy",
 		"Question": "The collaboration between the German and Italian governments during the Spanish Civil War led to the formation of the German-Italian Axis that came into prominence during the Second World War.",
 		"Image": "Camaradas de la retaguardia.jpg",
-		"Explanation": "\"[...] on 4 August [1936], Admiral Canaris arrived secretly in Rome, to try to coordinate German and Italian aid to Franco. He had a long talk with his opposite number in Italian military intelligence, Colonel Mario Roatta. That meeting marked the real beginning of the military collaboration which led to the future Axis.\" - Hugh Thomas, The Spanish Civil War",
+		"Explanation": "\"[...] on 4 August [1936], Admiral Canaris arrived secretly in Rome, to try to coordinate German and Italian aid to Franco. He had a long talk with his opposite number in Italian military intelligence, Colonel Mario Roatta. That meeting marked the real beginning of the military collaboration which led to the future Axis.\" - Hugh Thomas, <i>The Spanish Civil War</i>",
 		"Answers":
 		[
 			{
@@ -3305,7 +3305,7 @@
 		"Category": "Politics",
 		"Difficulty": "Medium",
 		"Question": "President Roosevelt arranged that Senator Pittman and Representative McReynolds should introduce resolutions to ban shipments of arms to Spain into the two Houses of Congress when they reassembled on 6 January 1937. Both houses voted against these bills because, as Representative Bernard declared, the act was a sham neutrality, since its effect was 'to choke off democratic Spain from its legitimate international rights at a time when it was being assailed by the fascist hordes'.",
-		"Explanation": "\"On that day, in the Senate, only Senator Nye opposed the resolution. He argued that the embargo was unfair, since it harmed the republic more than it did the nationalists. Several members of the Lower House also criticized it. But the Senate passed the new law by 81 to 0 and the House of Representatives by 406 to 1. [...] Franco announced that, over the Embargo Act, President Roosevelt had behaved like a 'true gentleman'. Germany also praised the Act.\" - Hugh Thomas, The Spanish Civil War",
+		"Explanation": "\"On that day, in the Senate, only Senator Nye opposed the resolution. He argued that the embargo was unfair, since it harmed the republic more than it did the nationalists. Several members of the Lower House also criticized it. But the Senate passed the new law by 81 to 0 and the House of Representatives by 406 to 1. [...] Franco announced that, over the Embargo Act, President Roosevelt had behaved like a 'true gentleman'. Germany also praised the Act.\" - Hugh Thomas, <i>The Spanish Civil War</i>",
 		"Answers":
 		[
 			{
@@ -3352,7 +3352,7 @@
 			{
 				"Text": "The anarchists",
 				"Score": "1",
-				"Explanation": "\"[Caballero] was unwilling to merge his own party [the socialist PSOE] with the communists, and, thereafter, they abandoned him. Thus, in his last hours as Prime Minister, his only supporters, by a paradox, were the anarchists against whom he had fought all his life and whose influence he had systematically reduced during the previous eight months.\" - Hugh Thomas, The Spanish Civil War"
+				"Explanation": "\"[Caballero] was unwilling to merge his own party [the socialist PSOE] with the communists, and, thereafter, they abandoned him. Thus, in his last hours as Prime Minister, his only supporters, by a paradox, were the anarchists against whom he had fought all his life and whose influence he had systematically reduced during the previous eight months.\" - Hugh Thomas, <i>The Spanish Civil War</i>"
 			},
 			{
 				"Text": "The communists"
@@ -3473,7 +3473,7 @@
 	{
 		"Category": "Politics",
 		"Difficulty": "Easy",
-		"Question": "Winston Churchill made the following statements to the House of Commons on 11 November, 1936: \"there is no doubt the revolutionary situation in Spain was initiated by Russia\" and \"if not for Russia, Russian Communism whose propagation and intrigue had been tormenting Spain for more than six months before the revolt, there would be no Spanish horror.\" - Svetlana Pozharskaya, Comintern and The Spanish Civil War in Spain\r\nFor what reason were these assertions incorrect?",
+		"Question": "Winston Churchill made the following statements to the House of Commons on 11 November, 1936: \"there is no doubt the revolutionary situation in Spain was initiated by Russia\" and \"if not for Russia, Russian Communism whose propagation and intrigue had been tormenting Spain for more than six months before the revolt, there would be no Spanish horror.\" - Svetlana Pozharskaya, <i>Comintern and The Spanish Civil War in Spain</i>\r\nFor what reason were these assertions incorrect?",
 		"Image": "Sir Winston S Churchill.jpg",
 		"ImageText": "Winston S Churchill",
 		"Answers":
@@ -3527,11 +3527,11 @@
 			{
 				"Text": "The Spanish Foreign Legion",
 				"Score": "1",
-				"Explanation": "\"[The] Foreign Legion [was composed], despite its name, mainly of Spaniards, with some Portuguese, French, and Germans, which had been founded in 1920 by General Millán Astray as a shock force\" - Hugh Thomas, The Spanish Civil War"
+				"Explanation": "\"[The] Foreign Legion [was composed], despite its name, mainly of Spaniards, with some Portuguese, French, and Germans, which had been founded in 1920 by General Millán Astray as a shock force\" - Hugh Thomas, <i>The Spanish Civil War</i>"
 			},
 			{
 				"Text": "Moroccan Regulares",
-				"Explanation": "\"the Moorish Regulares, created by General Berenguer, Primo de Rivera’s eventual successor, [...] were native [Moroccan] troops raised from 1911 onwards as half-soldiers, half-policemen, under Spanish officers, to destroy banditry.\" - Hugh Thomas, The Spanish Civil War"
+				"Explanation": "\"the Moorish Regulares, created by General Berenguer, Primo de Rivera’s eventual successor, [...] were native [Moroccan] troops raised from 1911 onwards as half-soldiers, half-policemen, under Spanish officers, to destroy banditry.\" - Hugh Thomas, <i>The Spanish Civil War</i>"
 			},
 			{
 				"Text": "Condor Legion"
@@ -3613,9 +3613,9 @@
 	{
 		"Category": "Social",
 		"Difficulty": "Easy",
-		"Question": "Jose Millán Astray compared the war to 'a new war of independence, a new Reconquista, a new expulsion of the Moors!' (Hugh Thomas, The Spanish Civil War)\r\nThe attitude of Millán Astray and many of the Nationalists is why the pictured poster depicts the Nationalist's racist propaganda against the Moroccan troops.",
+		"Question": "Jose Millán Astray compared the war to 'a new war of independence, a new Reconquista, a new expulsion of the Moors!' (Hugh Thomas, <i>The Spanish Civil War</i>)</p><p>The attitude of Millán Astray and many of the Nationalists is why the pictured poster depicts the Nationalist's racist propaganda against the Moroccan troops.",
 		"Image": "Milicias Catalanas de Madrid.jpg",
-		"Explanation": "The racism of this poster was Republican. The Nationalist's racism was more complex than the Republicans. \"The final exclamation [of Millán Astray, quoted above] sounded odd in a city from which an expedition of Moroccan soldiers had some days previously set out for the north to conquer Madrid, and whose public buildings and leading generals were even at that moment guarded by Moroccans.\" - Hugh Thomas, The Spanish Civil War",
+		"Explanation": "The racism of this poster was Republican. The Nationalist's racism was more complex than the Republicans. \"The final exclamation [of Millán Astray, quoted above] sounded odd in a city from which an expedition of Moroccan soldiers had some days previously set out for the north to conquer Madrid, and whose public buildings and leading generals were even at that moment guarded by Moroccans.\" - Hugh Thomas, <i>The Spanish Civil War</i>",
 		"Answers":
 		[
 			{
@@ -3727,7 +3727,7 @@
 	{
 		"Category": "Politics",
 		"Difficulty": "Medium",
-		"Question": "The expression \"the war and the revolution are inseparable\" was an expression of which left-wing groups?",
+		"Question": "The expression \"the revolution and the war are inseparable\" was an expression of which left-wing groups?",
 		"Image": "La revolucion y la guerra son inseparables.jpg",
 		"Answers":
 		[
@@ -3739,10 +3739,10 @@
 				"Text": "CNT-FAI and the PSUC"
 			},
 			{
-				"Text": "Republicans"
+				"Text": "Anarchists and Republicans"
 			},
 			{
-				"Text": "Anarchists and the separatists"
+				"Text": "Anarchists and separatists"
 			},
 			{
 				"Text": "Anarchists and communists"
@@ -3823,7 +3823,7 @@
 			},
 			{
 				"Text": "Well paid",
-				"Explanation": "\"Militiamen soon began to be paid 10 pesetas a day (raised in some cases from the factories in which they had been employed, in others paid by the government or the unions), a sum continued to be paid to their dependants in the event of their deaths. Three times what soldiers received before the war, this payment made them the richest privates in Europe.\" - Hugh Thomas, The Spanish Civil War"
+				"Explanation": "\"Militiamen soon began to be paid 10 pesetas a day (raised in some cases from the factories in which they had been employed, in others paid by the government or the unions), a sum continued to be paid to their dependants in the event of their deaths. Three times what soldiers received before the war, this payment made them the richest privates in Europe.\" - Hugh Thomas, <i>The Spanish Civil War</i>"
 			},
 			{
 				"Text": "Non-hierarchic and democratic"
@@ -3852,6 +3852,170 @@
 			},
 			{
 				"Text": "The arrival of the International Brigades"
+			}
+		]
+	},
+	{
+		"Category": "Social",
+		"Difficulty": "Medium",
+		"Question": "What is the name of the communist militia that defended Madrid during the Battle for Madrid?",
+		"Audio": "El Quinto Regimiento.mp3",
+		"Image": "Miguel - V Regimiento.jpg",
+		"Answers":
+		[
+			{
+				"Text": "The Fifth Regiment",
+				"Score": "1",
+				"Explanation": "\"[The Fifth Regiment] was based upon the communist militia, the MAOC; but others joined as a result of a recruiting drive led by La Pasionaria, the first headquarters being the Salesian convent of Francos Rodríguez in Madrid. By the end of July [1936], 1,000 members of 'the Fifth Regiment' had gone to the front. It had its own reserves, system of supplies, and artillery.\" - Hugh Thomas, <i>The Spanish Civil War</i>"
+			},
+			{
+				"Text": "The Iron Column"
+			},
+			{
+				"Text": "The Durruti Column"
+			},
+			{
+				"Text": "The XI International Brigade"
+			},
+			{
+				"Text": "The XII International Brigade"
+			}
+		]
+	},
+	{
+		"Category": "Military",
+		"Difficulty": "Hard",
+		"KeyQuestion": "When did the *answer text* conclude?",
+		"ValueQuestion": "Which military campaign concluded *answer text*?",
+		"KeyValue": "true",
+		"MaxNumberOfAnswers": "5",
+		"Answers":
+		[
+			{
+				"Key": "Aragon Offensive",
+				"Text": "April 1938"
+			},
+			{
+				"Key": "Catalonia Offensive",
+				"Text": "February 1939"
+			},
+			{
+				"Key": "Levante Offensive",
+				"Text": "July 1938"
+			},
+			{
+				"Key": "War in the North",
+				"Text": "October 1937"
+			},
+			{
+				"Key": "Extremadura campaign",
+				"Text": "August 1936"
+			},
+			{
+				"Key": "Siege of Madrid",
+				"Text": "March 1939"
+			},
+			{
+				"Key": "Aceituna Campaign",
+				"Text": "December 1936"
+			},
+			{
+				"Key": "Campaign of Gipuzkoa",
+				"Text": "September 1936"
+			},
+			{
+				"Key": "Biscay Campaign",
+				"Text": "July 1937"
+			}
+		] 
+	},
+	{
+		"Category": "Military",
+		"Difficulty": "Medium",
+		"Question": "Which of the following Nationalist offensives did not result in a Nationalist victory?",
+		"Image": "Mapa de Guerra Civil Española.png",
+		"Answers":
+		[
+			{
+				"Text": "Levante Offensive",
+				"Score": "1",
+				"Explanation": "The Levante Offensive, launched near the end of March 1938, was an attempt by Nationalist forces under Francisco Franco to capture the Republican held city of Valencia during the Spanish Civil War. The Nationalists occupied the province of Castellón, but the offensive failed due to bad weather and the dogged resistance of the Republican troops at the XYZ defensive line."
+			},
+			{
+				"Text": "Extremadura campaign"
+			},
+			{
+				"Text": "War in the North"
+			},
+			{
+				"Text": "Catalonia Offensive"
+			},
+			{
+				"Text": "Aragon Offensive"
+			},
+			{
+				"Text": "None - all of the above were Nationalist victories",
+				"IsLast": "true"
+			}
+		]
+	},
+	{
+		"Category": "Military",
+		"Difficulty": "Hard",
+		"KeyQuestion": "When did the *answer text* conclude?",
+		"ValueQuestion": "Which battle of the Spanish Civil War concluded *answer text*?",
+		"KeyValue": "true",
+		"MaxNumberOfAnswers": "5",
+		"Answers":
+		[
+			{
+				"Key": "Battle of Brunete",
+				"Text": "July 1937"
+			},
+			{
+				"Key": "Battle of Belchite",
+				"Text": "September 1937"
+			},
+			{
+				"Key": "Battle of Teruel",
+				"Text": "February 1938"
+			},
+			{
+				"Key": "Battle of the Ebro",
+				"Text": "November 1938"
+			},
+			{
+				"Key": "Battle of Madrid",
+				"Text": "December 1936"
+			},
+			{
+				"Key": "Battle of Guadalajara",
+				"Text": "March 1937"
+			}
+		] 
+	},
+	{
+		"Category": "Military",
+		"Difficulty": "Medium",
+		"Question": "Which of the following battles did not result in a military defeat for the Republic?",
+		"Answers":
+		[
+			{
+				"Text": "None - all of these battles were Republican military defeats",
+				"IsLast": "true",
+				"Score": "1"
+			},
+			{
+				"Text": "Battle of Belchite"
+			},
+			{
+				"Text": "Battle of the Ebro"
+			},
+			{
+				"Text": "Battle of Teruel"
+			},
+			{
+				"Text": "Battle of Brunete"
 			}
 		]
 	}

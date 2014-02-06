@@ -25,9 +25,9 @@ namespace QuizEngine
     /// <summary>
     /// An empty page that can be used on its own or navigated to within a Frame.
     /// </summary>
-    public sealed partial class NewQuizAttemptPage : LayoutAwarePage
+    public sealed partial class NewAttemptPage : LayoutAwarePage
     {
-        public NewQuizAttemptPage()
+        public NewAttemptPage()
         {
             this.InitializeComponent();
 
@@ -72,7 +72,8 @@ namespace QuizEngine
                     Tag = category.Category,
                     Content = category.Category + " (" + _completeQuizQuestions.Count(x => x.Category == category.Category) + ")",
                     IsChecked = true,
-                    Padding = new Thickness(5)
+                    Padding = new Thickness(5),
+                    Style = (Style)Application.Current.Resources["AppCheckBoxStyle"],
                 };
                 checkBox.Click += checkBox_Click;
                 checkBox_Click(checkBox, null);
@@ -219,12 +220,12 @@ namespace QuizEngine
 
         private void Test_Checked(object sender, RoutedEventArgs e)
         {
-            QuizTypeDescription.Text = "Timed quiz\r\nAnswers revealed at the end of quiz\r\nOne minute per question";
+            QuizTypeDescription.Text = "Timed quiz\r\nAnswers are revealed at the end of quiz\r\nOne minute per question";
         }
 
         private void Practice_Checked(object sender, RoutedEventArgs e)
         {
-            QuizTypeDescription.Text = "No time-limit\r\nAnswers are displayed as you go\r\nGreen highlight is a correct answer (red is incorrect)";
+            QuizTypeDescription.Text = "No time-limit\r\nAnswers are displayed as you go\r\nA green highlight is a correct answer (a red hightlight is incorrect)";
         }
 
         private void VisualStateChanged(object sender, WindowSizeChangedEventArgs e)

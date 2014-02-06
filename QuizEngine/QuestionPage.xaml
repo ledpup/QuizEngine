@@ -12,23 +12,36 @@
     <Page.Resources>
         <Storyboard x:Name="Storyboard1">
             <DoubleAnimationUsingKeyFrames x:Name="TranslateX" Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateX)" Storyboard.TargetName="imageToAnimate">
-                <EasingDoubleKeyFrame KeyTime="0" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0" Value="0"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:2" Value="0"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:2.5" Value="-400"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:4.5" Value="-800"/>
             </DoubleAnimationUsingKeyFrames>
             <DoubleAnimationUsingKeyFrames x:Name="Opacity" Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="imageToAnimate">
-                <EasingDoubleKeyFrame KeyTime="0" Value="0"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:1.5" Value="0"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:2" Value="1"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:2.6" Value="1"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:2.9" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:3" Value="1"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:4.5" Value="1"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:5" Value="0"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames x:Name="TextOpacity" Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="SwipeText">
+                <EasingDoubleKeyFrame KeyTime="0:0:0" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:10" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:12" Value="1"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:17" Value="1"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:20" Value="0"/>
             </DoubleAnimationUsingKeyFrames>
         </Storyboard>
     </Page.Resources>
-        <Grid>
-        <Image x:Name="FullscreenImage" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="4" Grid.RowSpan="7" Stretch="Uniform" Visibility="Collapsed" Canvas.ZIndex="2" Tapped="FullscreenImage_Tapped" RightTapped="FullscreenImage_OnRightTapped"></Image>
-    
-        <Grid x:Name="Mainscreen">
+
+    <Grid>
+        <Image x:Name="FullscreenImage" Stretch="Uniform" Visibility="Collapsed" Tapped="FullscreenImage_Tapped" RightTapped="FullscreenImage_OnRightTapped" Canvas.ZIndex="2"></Image>
+        <TextBlock x:Name="SwipeText" FontSize="56" TextAlignment="Center" Visibility="Collapsed" Text="Swipe left for the next question" Foreground="{StaticResource AppBlueBrush}" Canvas.ZIndex="1" IsHitTestVisible="False">
+            <TextBlock.RenderTransform>
+                <CompositeTransform TranslateY="200" />
+            </TextBlock.RenderTransform>
+        </TextBlock>
+        
+        <Grid x:Name="Mainscreen" >
             <Grid.RowDefinitions>
                 <RowDefinition Height="*"/>
                 <RowDefinition Height="Auto"/>
@@ -45,7 +58,7 @@
                 <ColumnDefinition Width="11*"/>
                 <ColumnDefinition Width="*"/>
             </Grid.ColumnDefinitions>
-
+            
             <TextBlock
             x:Name="txtTitle"
             Text="{Binding}"
@@ -55,17 +68,16 @@
             IsHitTestVisible="False"/>
 
             <Border
-            x:Name="brdMediaBorderVisibility"
-            Grid.Row="1"
-            Grid.Column="2"
-            Grid.RowSpan="5"
-            Grid.ColumnSpan="2"
-            Background="#CC000000"
-            Padding="30"
-            VerticalAlignment="Top"
-            HorizontalAlignment="Right"
-            Canvas.ZIndex="1"
-            Margin="10,0,10,0">
+                x:Name="brdMediaBorderVisibility"
+                Grid.Row="1"
+                Grid.Column="2"
+                Grid.RowSpan="5"
+                Grid.ColumnSpan="2"
+                Background="#CC000000"
+                Padding="30"
+                VerticalAlignment="Top"
+                HorizontalAlignment="Right"
+                Margin="10,0,10,0">
 
                 <Grid>
                     <Grid.RowDefinitions>
@@ -74,15 +86,14 @@
                         <RowDefinition Height="Auto" ></RowDefinition>
                     </Grid.RowDefinitions>
                     <Image
-                    x:Name="imgQuestionImage" Grid.Row="0"
-                    Source="{Binding}"
-                    Stretch="Uniform" Tapped="imgQuestionImage_Tapped" />
+                        x:Name="imgQuestionImage" Grid.Row="0"
+                        Source="{Binding}"
+                        Stretch="Uniform" Tapped="imgQuestionImage_Tapped" />
 
                     <TextBlock x:Name="ImageText" Grid.Row="1" Style="{StaticResource AppDescriptionTextStyle}" HorizontalAlignment="Center" TextAlignment="Center" Visibility="Collapsed"></TextBlock>
 
                     <StackPanel x:Name="Media" Grid.Row="2" HorizontalAlignment="Center" Visibility="Collapsed">
                         <MediaElement x:Name="MediaContent" AutoPlay="False" />
-
                         <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
 
                             <Button x:Name="PlayMedia" Style="{StaticResource PlayAppBarButtonStyle}" Click="Play_Click"/>
@@ -94,60 +105,61 @@
             </Border>
 
             <Border
-            x:Name="DescriptionBorder"
-            Grid.Column="1"
-            Grid.ColumnSpan="{Binding}"
-            Grid.Row="3"
-            Background="Black"
-            Opacity="0.5"
-            />
+                x:Name="DescriptionBorder"
+                Grid.Column="1"
+                Grid.ColumnSpan="{Binding}"
+                Grid.Row="3"
+                Background="Black"
+                Opacity="0.5"
+                />
 
-            <TextBlock
-            x:Name="txtDescription"
-            Grid.Column="1"
-            Grid.ColumnSpan="{Binding}"
-            Grid.Row="3"
-            Margin="5,0"
-            Padding="4"
-            Style="{StaticResource AppDescriptionTextStyle}"
-            IsHitTestVisible="False"
-            HorizontalAlignment="Left"
-            TextAlignment="Justify"
-            />
+            <RichTextBlock
+                x:Name="txtDescription"
+                Grid.Column="1"
+                Grid.ColumnSpan="{Binding QuestionDescriptionColumnSpan}"
+                Grid.Row="3"
+                Margin="5,0"
+                Padding="4"
+                Style="{StaticResource AppDescriptionRichTextStyle}"
+                IsHitTestVisible="False"
+                HorizontalAlignment="Left"
+                TextAlignment="Justify"
+                common:Properties.Html="{Binding}"
+                />
 
             <VariableSizedWrapGrid x:Name="Answers" Grid.Column="1" Grid.ColumnSpan="{Binding}" Grid.Row="5" Margin="0,20" VerticalAlignment="Top" />
 
             <Border
-            x:Name="brdExplanation"
-            Grid.Column="1"
-            Grid.ColumnSpan="2"
-            Grid.Row="6"
-            Background="Black"
-            Opacity="0.5"
-            Visibility="Collapsed"
-            />
-            <TextBlock
-            x:Name="Explanation"
-            Grid.Column="1" 
-            Grid.ColumnSpan="2" 
-            Grid.Row="6"
-            Padding="4"
-            Style="{StaticResource AppDescriptionTextStyle}"
-            IsHitTestVisible="False"
-            HorizontalAlignment="Left"
-            Margin="10,0,0,0"
-            TextAlignment="Justify"
-            />
+                x:Name="brdExplanation"
+                Grid.Column="1"
+                Grid.ColumnSpan="2"
+                Grid.Row="6"
+                Background="Black"
+                Opacity="0.5"
+                Visibility="Collapsed"
+                />
+            <RichTextBlock
+                x:Name="ExplanationView"
+                Grid.Column="1" 
+                Grid.ColumnSpan="2" 
+                Grid.Row="6"
+                TextAlignment="Justify"
+                HorizontalAlignment="Left"
+                Margin="10,0,0,0"
+                Style="{StaticResource AppDescriptionRichTextStyle}" 
+                common:Properties.Html="{Binding}"
+                >
+            </RichTextBlock>
 
-        <Image Grid.Column="1" Grid.Row="3" x:Name="imageToAnimate" Source="/Assets/Hand.png" Width="75" Stretch="Uniform" RenderTransformOrigin="0.5,0.5" HorizontalAlignment="Right" Canvas.ZIndex="1" Margin="0,50,0,0" Visibility="Collapsed">
-            <Image.RenderTransform>
-                <CompositeTransform/>
-            </Image.RenderTransform>
-        </Image>
+                    <Image Grid.Column="2" Grid.Row="3" x:Name="imageToAnimate" Source="/Assets/Swipe Left.png" Width="75" Stretch="Uniform" RenderTransformOrigin="0.5,0.5" HorizontalAlignment="Right" Margin="0,30,0,0" Visibility="Collapsed">
+                <Image.RenderTransform>
+                    <CompositeTransform/>
+                </Image.RenderTransform>
+            </Image>
+        </Grid>
+
+
+
     </Grid>
-    </Grid>
-
-
-
-
+    
 </controls:GesturePageBase>

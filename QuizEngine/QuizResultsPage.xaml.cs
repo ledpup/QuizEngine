@@ -22,9 +22,9 @@ namespace QuizEngine
     /// <summary>
     /// An empty page that can be used on its own or navigated to within a Frame.
     /// </summary>
-    public sealed partial class EndOfQuizResultsSummary : LayoutAwarePage
+    public sealed partial class QuizResults : LayoutAwarePage
     {
-        public EndOfQuizResultsSummary()
+        public QuizResults()
         {
             this.InitializeComponent();
 
@@ -68,7 +68,7 @@ namespace QuizEngine
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            Frame.Navigate(typeof (NewQuizAttemptPage));
+            Frame.Navigate(typeof (NewAttemptPage));
         }
 
         private void VisualStateChanged(object sender, WindowSizeChangedEventArgs e)

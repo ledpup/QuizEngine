@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>RichTextBlock.Html2Xaml</id>
+    <version>1.1.0.0</version>
+    <title>RichTextBlock.Html2Xaml</title>
+    <authors>Vincent Hoogendoorn [Macaw]</authors>
+    <owners>Vincent Hoogendoorn [Macaw]</owners>
+    <licenseUrl>http://github.com/MacawNL/WinRT-RichTextBlock.Html2Xaml</licenseUrl>
+    <projectUrl>http://github.com/MacawNL/WinRT-RichTextBlock.Html2Xaml</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>RichTextBlock.Html2Xaml adds a Html property to RichTextBlock controls,
+      that translates Html formatted text on the fly to the subset of XAML
+      that the RichTextBlock control supports, with just two source 
+      files that are simple to modify: one C#, one XSLT.</description>
+    <summary>Display HTML formatted text as XAML in a WinRT RichTextBlock control</summary>
+    <releaseNotes />
+    <copyright />
+    <language />
+    <tags>WinRT Win8 HTML XAML RichTextBlock</tags>
+  </metadata>
+</package>

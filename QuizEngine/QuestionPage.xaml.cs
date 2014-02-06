@@ -12,6 +12,7 @@ using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Controls.Primitives;
 using Windows.UI.Xaml.Data;
+using Windows.UI.Xaml.Documents;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Media.Animation;
@@ -55,12 +56,12 @@ namespace QuizEngine
             QuestionImage = "Assets/Quizzes/" + MainPage.Quiz + "/" +  _quizQuestion.Image;
 
             DescriptionBorder.DataContext = QuestionDescriptionColumnSpan;
-            txtDescription.DataContext = QuestionDescriptionColumnSpan;
+            //txtDescription.DataContext = QuestionDescriptionColumnSpan;
             brdExplanation.DataContext = QuestionDescriptionColumnSpan;
             Answers.DataContext = AnswersColumnSpan;
-            Explanation.DataContext = QuestionDescriptionColumnSpan;
+            ExplanationView.DataContext = QuestionDescriptionColumnSpan;
 
-            txtDescription.Text = Description;
+            txtDescription.DataContext = string.Format("<p>{0}</p>", Description);
 
             brdMediaBorderVisibility.Visibility = ImageBorderVisibility;
 
@@ -96,6 +97,7 @@ namespace QuizEngine
             if (_quizQuestion.QuestionNumber == 1)
             {
                 imageToAnimate.Visibility = Visibility.Visible;
+                SwipeText.Visibility = Visibility.Visible;
                 var f = Resources["Storyboard1"] as Storyboard;
                 if (f != null) f.Begin();
             }
@@ -276,10 +278,12 @@ namespace QuizEngine
 
             brdExplanation.Visibility = Visibility.Collapsed;
 
+            string Explanation = "";
+
             if (_quizQuestion.SelectedAnswer == newAnswer)
             {
                 _quizQuestion.SelectedAnswer = null;
-                Explanation.Text = "";
+                Explanation = "";
                 return;
             }
 
@@ -289,8 +293,8 @@ namespace QuizEngine
 
             if (_practiceMode)
             {
-                Explanation.Text = _quizQuestion.FullExplanation;
-                brdExplanation.Visibility = string.IsNullOrEmpty(Explanation.Text) ? Visibility.Collapsed : Visibility.Visible;
+                Explanation = _quizQuestion.FullExplanation;
+                brdExplanation.Visibility = string.IsNullOrEmpty(Explanation) ? Visibility.Collapsed : Visibility.Visible;
 
                 if (_quizQuestion.SelectedAnswer.Score > 0)
                 {
@@ -306,9 +310,9 @@ namespace QuizEngine
                 button.Background = (SolidColorBrush)Application.Current.Resources["AppBlueBrush"];
             }
 
-            
+            ExplanationView.DataContext = string.Format("<p>{0}</p>", Explanation);
         }
-
+ 
         private void imgQuestionImage_Tapped(object sender, TappedRoutedEventArgs e)
         {
             FullSizeImage(imgQuestionImage.Source);

@@ -105,9 +105,11 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
+    <Compile Include="BindingHelper.cs" />
     <Compile Include="Common\BindableBase.cs" />
     <Compile Include="Common\BooleanNegationConverter.cs" />
     <Compile Include="Common\BooleanToVisibilityConverter.cs" />
+    <Compile Include="Common\RichTextBlockProperties.cs" />
     <Compile Include="Common\RichTextColumns.cs" />
     <Compile Include="QuizResultsPage.xaml.cs">
       <DependentUpon>QuizResultsPage.xaml</DependentUpon>
@@ -149,84 +151,15 @@
     <AppxManifest Include="Package.appxmanifest">
       <SubType>Designer</SubType>
     </AppxManifest>
-    <None Include="Assets\Quizzes\Chemistry\Thumbs.db" />
+    <None Include="packages.config" />
     <None Include="QuizEngine_StoreKey.pfx" />
     <None Include="QuizEngine_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Assets\Answered.png" />
     <Content Include="Assets\Fin.png" />
-    <Content Include="Assets\Hand.png" />
     <Content Include="Assets\Logo.png" />
-    <Content Include="Assets\Quizzes\Chemistry backgrounds - main\beakers.jpg" />
-    <Content Include="Assets\Quizzes\Chemistry backgrounds - main\Molecule.jpg" />
-    <Content Include="Assets\Quizzes\Chemistry backgrounds\Beakers.jpg" />
-    <Content Include="Assets\Quizzes\Chemistry backgrounds\Chemistry.png" />
     <Content Include="Assets\Quizzes\Chemistry.txt" />
-    <Content Include="Assets\Quizzes\Chemistry\2D gel electrophoresis.jpg" />
-    <Content Include="Assets\Quizzes\Chemistry\Adenine.png" />
-    <Content Include="Assets\Quizzes\Chemistry\ALA.png" />
-    <Content Include="Assets\Quizzes\Chemistry\Alanine.png" />
-    <Content Include="Assets\Quizzes\Chemistry\Alcohol.png" />
-    <Content Include="Assets\Quizzes\Chemistry\Aldehyde.png" />
-    <Content Include="Assets\Quizzes\Chemistry\Alpha-D-Glucofuranose.png" />
-    <Content Include="Assets\Quizzes\Chemistry\Alpha-D-Glucopyranose.png" />
-    <Content Include="Assets\Quizzes\Chemistry\Amide.png" />
-    <Content Include="Assets\Quizzes\Chemistry\Aspartic acid.png" />
-    <Content Include="Assets\Quizzes\Chemistry\Aspirin.png" />
-    <Content Include="Assets\Quizzes\Chemistry\Beta-D-Glucofuranose.png" />
-    <Content Include="Assets\Quizzes\Chemistry\Beta-D-Glucopyranose.png" />
-    <Content Include="Assets\Quizzes\Chemistry\Carbonyl.png" />
-    <Content Include="Assets\Quizzes\Chemistry\Carboxylic acid.png" />
-    <Content Include="Assets\Quizzes\Chemistry\Competitive.png" />
-    <Content Include="Assets\Quizzes\Chemistry\Cysteine.png" />
-    <Content Include="Assets\Quizzes\Chemistry\Cytosine.png" />
-    <Content Include="Assets\Quizzes\Chemistry\D-Fructose.png" />
-    <Content Include="Assets\Quizzes\Chemistry\D-Galactose.png" />
-    <Content Include="Assets\Quizzes\Chemistry\D-Glucose.png" />
-    <Content Include="Assets\Quizzes\Chemistry\D-glyceraldehyde-2D-Fischer.png" />
-    <Content Include="Assets\Quizzes\Chemistry\DNA replication.png" />
-    <Content Include="Assets\Quizzes\Chemistry\Ester.png" />
-    <Content Include="Assets\Quizzes\Chemistry\Ether.png" />
-    <Content Include="Assets\Quizzes\Chemistry\Fat_triglyceride_shorthand_formula.png" />
-    <Content Include="Assets\Quizzes\Chemistry\Gel filtration.png" />
-    <Content Include="Assets\Quizzes\Chemistry\Glycine.png" />
-    <Content Include="Assets\Quizzes\Chemistry\Glycolipid.jpg" />
-    <Content Include="Assets\Quizzes\Chemistry\Glycolysis.png" />
-    <Content Include="Assets\Quizzes\Chemistry\Guanine.png" />
-    <Content Include="Assets\Quizzes\Chemistry\Hanes-Woolf plot.png" />
-    <Content Include="Assets\Quizzes\Chemistry\Ketone.png" />
-    <Content Include="Assets\Quizzes\Chemistry\L-Fructose.png" />
-    <Content Include="Assets\Quizzes\Chemistry\L-Galactose.png" />
-    <Content Include="Assets\Quizzes\Chemistry\L-Glucose.png" />
-    <Content Include="Assets\Quizzes\Chemistry\L-glyceraldehyde-2D-Fischer.png" />
-    <Content Include="Assets\Quizzes\Chemistry\Lineweaver-Burke plot - no labels on axes.png" />
-    <Content Include="Assets\Quizzes\Chemistry\Lineweaver-Burke plot.png" />
-    <Content Include="Assets\Quizzes\Chemistry\Lyristes_plebejus.jpg" />
-    <Content Include="Assets\Quizzes\Chemistry\Lysine.png" />
-    <Content Include="Assets\Quizzes\Chemistry\Methionine.png" />
-    <Content Include="Assets\Quizzes\Chemistry\Michaelis-Menten saturation curve of an enzyme reaction - no labels on axes.png" />
-    <Content Include="Assets\Quizzes\Chemistry\Michaelis-Menten saturation curve of an enzyme reaction.png" />
-    <Content Include="Assets\Quizzes\Chemistry\Mixed.png" />
-    <Content Include="Assets\Quizzes\Chemistry\Non-competitive.png" />
-    <Content Include="Assets\Quizzes\Chemistry\Oleic acid.png" />
-    <Content Include="Assets\Quizzes\Chemistry\Oxygen-haemoglobin dissociation curve.png" />
-    <Content Include="Assets\Quizzes\Chemistry\Phenylalanine.png" />
-    <Content Include="Assets\Quizzes\Chemistry\Primary Amine.png" />
-    <Content Include="Assets\Quizzes\Chemistry\Proline.png" />
-    <Content Include="Assets\Quizzes\Chemistry\Pyruvate.png" />
-    <Content Include="Assets\Quizzes\Chemistry\Quaternary Ammonium Cation.png" />
-    <Content Include="Assets\Quizzes\Chemistry\Saccharose.png" />
-    <Content Include="Assets\Quizzes\Chemistry\Secondary Amine.png" />
-    <Content Include="Assets\Quizzes\Chemistry\Serine.png" />
-    <Content Include="Assets\Quizzes\Chemistry\Tertiary Amine.png" />
-    <Content Include="Assets\Quizzes\Chemistry\Thymine.png" />
-    <Content Include="Assets\Quizzes\Chemistry\Troph_flowchart.png" />
-    <Content Include="Assets\Quizzes\Chemistry\Ultrasonic homogeniser.png" />
-    <Content Include="Assets\Quizzes\Chemistry\Uncompetitive.png" />
-    <Content Include="Assets\Quizzes\Chemistry\Uracil.png" />
-    <Content Include="Assets\Quizzes\Chemistry\β-D-glucopyranose.png" />
-    <Content Include="Assets\Quizzes\Chemistry\β-D-mannopyranose.png" />
     <Content Include="Assets\Quizzes\Spanish Civil War backgrounds - main\Hill pose.jpg" />
     <Content Include="Assets\Quizzes\Spanish Civil War backgrounds - main\Militiawoman.png" />
     <Content Include="Assets\Quizzes\Spanish Civil War backgrounds - main\Savoia-Marchetti SM.81 and Fiat CR.32.jpg" />
@@ -277,6 +210,7 @@
     <Content Include="Assets\Quizzes\Spanish Civil War\Cruzada.jpg" />
     <Content Include="Assets\Quizzes\Spanish Civil War\Dragon Rapide.jpg" />
     <Content Include="Assets\Quizzes\Spanish Civil War\Durruti poster.jpg" />
+    <Content Include="Assets\Quizzes\Spanish Civil War\El Quinto Regimiento.mp3" />
     <Content Include="Assets\Quizzes\Spanish Civil War\Emblem of the Air Force of the Spanish Republic %281931-1934%29.png" />
     <Content Include="Assets\Quizzes\Spanish Civil War\Emblem of the Air Force of the Spanish Republic %281934-1936%29.png" />
     <Content Include="Assets\Quizzes\Spanish Civil War\Emblem of the Air Force of the Spanish Republic %281936-1939%29.png" />
@@ -322,12 +256,14 @@
     <Content Include="Assets\Quizzes\Spanish Civil War\Largo Caballero.jpg" />
     <Content Include="Assets\Quizzes\Spanish Civil War\Leftists shooting statue.jpg" />
     <Content Include="Assets\Quizzes\Spanish Civil War\Los Internacionales.jpg" />
+    <Content Include="Assets\Quizzes\Spanish Civil War\Mapa de Guerra Civil Española.png" />
     <Content Include="Assets\Quizzes\Spanish Civil War\Map_of_the_Spanish_Civil_War_in_February_1939.png" />
     <Content Include="Assets\Quizzes\Spanish Civil War\Map_of_the_Spanish_Civil_War_in_July_1938.png" />
     <Content Include="Assets\Quizzes\Spanish Civil War\Map_of_the_Spanish_Civil_War_in_October_1937.png" />
     <Content Include="Assets\Quizzes\Spanish Civil War\Map_of_the_Spanish_Civil_War_in_September_1936.png" />
     <Content Include="Assets\Quizzes\Spanish Civil War\Margarita Catalana.jpg" />
     <Content Include="Assets\Quizzes\Spanish Civil War\Messerschmitt Bf 109B.png" />
+    <Content Include="Assets\Quizzes\Spanish Civil War\Miguel - V Regimiento.jpg" />
     <Content Include="Assets\Quizzes\Spanish Civil War\Miguel de Unamuno.jpg" />
     <Content Include="Assets\Quizzes\Spanish Civil War\Milicias Catalanas de Madrid.jpg" />
     <Content Include="Assets\Quizzes\Spanish Civil War\Militia.jpg" />
@@ -383,9 +319,11 @@
     <Content Include="Assets\SplashScreen.scale-140.png" />
     <Content Include="Assets\SplashScreen.scale-180.png" />
     <Content Include="Assets\StoreLogo.png" />
+    <Content Include="Assets\Swipe Left.png" />
     <Content Include="Assets\Unanswered.png" />
     <Content Include="Assets\WideLogo.scale-100.png" />
     <Content Include="Common\ReadMe.txt" />
+    <EmbeddedResource Include="Common\RichTextBlockHtml2Xaml.xslt" />
     <None Include="Package.StoreAssociation.xml" />
   </ItemGroup>
   <ItemGroup>

@@ -49,7 +49,7 @@ namespace QuizEngine
         private void Finish_Click(object sender, RoutedEventArgs e)
         {
             _quizAttempt.EndQuiz();
-            _rootPage.Frame.Navigate(typeof(EndOfQuizResultsSummary), _quizAttempt);
+            _rootPage.Frame.Navigate(typeof(QuizResults), _quizAttempt);
         }
 
         
