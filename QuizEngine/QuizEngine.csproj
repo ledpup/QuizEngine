@@ -111,8 +111,8 @@
     <Compile Include="Common\BooleanToVisibilityConverter.cs" />
     <Compile Include="Common\RichTextBlockProperties.cs" />
     <Compile Include="Common\RichTextColumns.cs" />
-    <Compile Include="QuizResultsPage.xaml.cs">
-      <DependentUpon>QuizResultsPage.xaml</DependentUpon>
+    <Compile Include="ResultsPage.xaml.cs">
+      <DependentUpon>ResultsPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="EnhancedSlider.xaml.cs">
       <DependentUpon>EnhancedSlider.xaml</DependentUpon>
@@ -335,7 +335,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="QuizResultsPage.xaml">
+    <Page Include="ResultsPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

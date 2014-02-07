@@ -22,9 +22,9 @@ namespace QuizEngine
     /// <summary>
     /// An empty page that can be used on its own or navigated to within a Frame.
     /// </summary>
-    public sealed partial class QuizResults : LayoutAwarePage
+    public sealed partial class ResultsPage : LayoutAwarePage
     {
-        public QuizResults()
+        public ResultsPage()
         {
             this.InitializeComponent();
 

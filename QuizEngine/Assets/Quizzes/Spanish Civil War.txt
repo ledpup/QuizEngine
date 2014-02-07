@@ -2,7 +2,7 @@
 	{
 		"Category": "Politics",
 		"Difficulty": "Medium",
-		"Question": "Which period of the war does the map depict?\r\n\r\nNationalist controlled area is pink.\r\nRepublican controlled area is blue.",
+		"Question": "<p>Which period of the war does the map depict?</p><p></p><p>Nationalist controlled area is pink.</p><p>Republican controlled area is blue.</p>",
 		"Image": "Map_of_the_Spanish_Civil_War_in_October_1937.png",
 		"Answers":
 		[
@@ -27,13 +27,14 @@
 	{
 		"Category": "Politics",
 		"Difficulty": "Medium",
-		"Question": "What was the nationality of the people who flew Francisco Franco from the Canary Islands to Morocco?",
+		"Question": "<p>What was the nationality of the people who flew <a href=\"http://en.wikipedia.org/wiki/Francisco_Franco\">Francisco Franco</a> from the Canary Islands to Morocco?</p>",
 		"Answers":
 		[
 			{
 				"Text": "British",
 				"Image": "United Kingdom.png",
-				"Score": "1"
+				"Score": "1",
+				"Explanation": "On July 11, 1936 <a href=\"http://en.wikipedia.org/wiki/Cecil_Bebb\">Bebb</a> and <a href=\"http://en.wikipedia.org/wiki/Hugh_Pollard_(intelligence_officer)\">Major Pollard</a> left London, flying a <a href=\"http://en.wikipedia.org/wiki/Dragon_Rapide\">Dragon Rapide</a>. Pollard was an agent of the British secret services, MI6. They picked up Franco in the Canary Islands and flew him to Tetuán in Spanish Morocco."
 			},
 			{
 				"Text": "German",
@@ -52,7 +53,7 @@
 	{
 		"Category": "Politics",
 		"Difficulty": "Easy",
-		"Question": "Which of the following flags represents the Popular Front?",
+		"Question": "<p>Which of the following flags represents the <a href=\"http://en.wikipedia.org/wiki/Popular_Front_(Spain)\">Popular Front</a>?</p>",
 		"Answers":
 		[
 			{
@@ -60,20 +61,23 @@
 				"Score": "1"
 			},
 			{
-				"Image": "Carlists.png"
+				"Image": "Carlists.png",
+				"Explanation": "You selected the <a href=\"http://en.wikipedia.org/wiki/Carlist\">Carlist</a> flag."
 			},
 			{
-				"Image": "International Brigades.png"
+				"Image": "International Brigades.png",
+				"Explanation": "You selected the flag of the <a href=\"http://en.wikipedia.org/wiki/International_Brigades\">International Brigades</a>."
 			},
 			{
-				"Image": "Falange.png"
+				"Image": "Falange.png",
+				"Explanation": "You selected the flag of the <a href=\"http://en.wikipedia.org/wiki/Falange\">Falange</a>."
 			}
 		]
 	},
 	{
 		"Category": "Politics",
 		"Difficulty": "Easy",
-		"Question": "Which Spanish military organisation did George Orwell join to fight against the Nationalists?",
+		"Question": "<p>Which Spanish military organisation did <a href=\"http://en.wikipedia.org/wiki/George_Orwell\">George Orwell</a> join to fight against the Nationalists?</p>",
 		"Answers":
 		[
 			{
@@ -81,21 +85,23 @@
 				"Score": "1"
 			},
 			{
-				"Image": "International Brigades.png"
+				"Image": "International Brigades.png",
+				"Explanation": "You selected the flag of the <a href=\"http://en.wikipedia.org/wiki/International_Brigades\">International Brigades</a>."
 			},
 			{
 				"Image": "CNT-FAI.png"
 			},
 			{
-				"Image": "Popular Front.png"
+				"Image": "Popular Front.png",
+				"Explanation": "You selected the flag of the <a href=\"http://en.wikipedia.org/wiki/Popular_Front_(Spain)\">Popular Front</a>."
 			}
 		]
 	},
 	{
 		"Category": "Culture",
 		"Difficulty": "Medium",
-		"Question": "Where was the \"fifth column\"?",
-		"Explanation": "Emilio Mola: \"My First Column is approaching the City from the North, my Second Column from the East, my Third Column from the South and my Fourth Column from the West. But, it is my Fifth Column that shall take the City.\" The journalist asked the obvious question. \"General Mola, where is your Fifth Column?\" Mola replied: \"In the City.\" - http://www.philatelic-evangelist.com/2013/03/journey-to-west-and-salisbury-fifth.html",
+		"Question": "<p>Where was the \"fifth column\"?</p>",
+		"Explanation": "<a href=\"http://en.wikipedia.org/wiki/Emilio_Mola\">Emilio Mola</a>: \"My First Column is approaching the City from the North, my Second Column from the East, my Third Column from the South and my Fourth Column from the West. But, it is my Fifth Column that shall take the City.\" The journalist asked the obvious question. \"General Mola, where is your Fifth Column?\" Mola replied: \"In the City.\" (<a href=\"http://www.philatelic-evangelist.com/2013/03/journey-to-west-and-salisbury-fifth.html\">Journey to the West and the Salisbury Fifth Column</a>)",
 		"Answers":
 		[
 			{
@@ -119,12 +125,13 @@
 	{
 		"Category": "Politics",
 		"Difficulty": "Medium",
-		"Question": "The PSUC was located in __________.",
+		"Question": "<p>The <a href=\"http://en.wikipedia.org/wiki/PSUC\">PSUC</a> was located in __________.</p>",
 		"Answers":
 		[
 			{
 				"Text": "Catalonia",
-				"Score": "1"
+				"Score": "1",
+				"Explanation": "<a href=\"http://en.wikipedia.org/wiki/PSUC\">PSUC - Wikipedia</a>"
 			},
 			{
 				"Text": "Basque Country"
@@ -143,7 +150,7 @@
 	{
 		"Category": "Military",
 		"Difficulty": "Hard",
-		"Question": "The International Brigades was composed of more people from __________ than any of the other combinations below.",
+		"Question": "<p>The <a href=\"http://en.wikipedia.org/wiki/International_Brigades\">International Brigades</a> were composed of more people from __________ than any of the other combinations below.</p>",
 		"Explanation": "The International Brigades included 9,000 Frenchmen, 5,000 Germans and Austrians and 3,350 Italians.",
 		"Answers":
 		[
@@ -165,7 +172,7 @@
 	{
 		"Category": "Politics",
 		"Difficulty": "Medium",
-		"Question": "José Antonio Primo de Rivera founded which Spanish political faction?",
+		"Question": "<p><a href=\"http://en.wikipedia.org/wiki/Jos%C3%A9_Antonio_Primo_de_Rivera\">José Antonio Primo de Rivera</a> founded which Spanish political faction?</p>",
 		"Answers":
 		[
 			{
@@ -190,10 +197,10 @@
 	{
 		"Category": "Politics",
 		"Difficulty": "Medium",
-		"Question": "The POUM were outlawed in June 1937 because they were \"__________\".",
+		"Question": "<p>The <a href=\"http://en.wikipedia.org/wiki/POUM\">POUM</a> were outlawed in June 1937 because they were \"__________\".</p>",
 		"Image": "POUM poster.jpg",
 		"ImageText": "\"Workers\r\nThe POUM gives you hope\"",
-		"Explanation": "\"'Trotskyism', according to Frente Rojo (the Valencia Communist paper) 'is not a political doctrine. Trotskyism is an official capitalist organization, a Fascist terrorist band occupied in crime and sabotage against the people.' The P.O.U.M. was a 'Trotskyist' organization in league with the Fascists and part of 'Franco's Fifth Column'.\" - George Orwell, Homage to Catalonia",
+		"Explanation": "\"'Trotskyism', according to Frente Rojo (the Valencia Communist paper) 'is not a political doctrine. Trotskyism is an official capitalist organization, a Fascist terrorist band occupied in crime and sabotage against the people.' The P.O.U.M. was a 'Trotskyist' organization in league with the Fascists and part of 'Franco's Fifth Column'.\" (George Orwell, <i>Homage to Catalonia</i>)",
 		"Answers":
 		[
 			{
@@ -214,7 +221,7 @@
 	{
 		"Category": "Personalities",
 		"Difficulty": "Hard",
-		"Question": "Who said: \"We have always lived in slums and holes in the wall. We will know how to accommodate ourselves for a while. For you must not forget that we can also build. It is we who built these palaces and cities, here in Spain and America and everywhere. We, the workers. We can build others to take their place. And better ones. We are not in the least afraid of ruins. We are going to inherit the earth; there is not the slightest doubt about that. The bourgeoisie might blast and ruin its own world before it leaves the stage of history. We carry a new world here, in our hearts. That world is growing in this minute.\"",
+		"Question": "<p>Who said: \"We have always lived in slums and holes in the wall. We will know how to accommodate ourselves for a while. For you must not forget that we can also build. It is we who built these palaces and cities, here in Spain and America and everywhere. We, the workers. We can build others to take their place. And better ones. We are not in the least afraid of ruins. We are going to inherit the earth; there is not the slightest doubt about that. The bourgeoisie might blast and ruin its own world before it leaves the stage of history. We carry a new world here, in our hearts. That world is growing in this minute.\"</p>",
 		"Answers":
 		[
 			{
@@ -238,14 +245,14 @@
 	{
 		"Category": "Personalities",
 		"Difficulty": "Hard",
-		"Question": "Who flew Francisco Franco from the Canary Islands to Morocco?",
+		"Question": "<p>Who flew <a href=\"http://en.wikipedia.org/wiki/Francisco_Franco\">Francisco Franco</a> from the Canary Islands to Morocco?</p>",
 		"Image": "Dragon Rapide.jpg",
 		"Answers":
 		[
 			{
 				"Text": "Cecil Bebb",
 				"Score": "1",
-				"Explanation": "On July 11, 1936 Bebb and Major Pollard left London, flying a Dragon Rapide. Pollard was an agent of the British secret services, MI6. They picked up Franco in the Canary Islands and flew him to Tetuán in Spanish Morocco."
+				"Explanation": "On July 11, 1936 <a href=\"http://en.wikipedia.org/wiki/Cecil_Bebb\">Bebb</a> and <a href=\"http://en.wikipedia.org/wiki/Hugh_Pollard_(intelligence_officer)\">Major Pollard</a> left London, flying a <a href=\"http://en.wikipedia.org/wiki/Dragon_Rapide\">Dragon Rapide</a>. Pollard was an agent of the British secret services, MI6. They picked up Franco in the Canary Islands and flew him to Tetuán in Spanish Morocco."
 			},
 			{
 				"Text": "George Orwell"
@@ -264,7 +271,7 @@
 	{
 		"Category": "Politics",
 		"Difficulty": "Easy",
-		"Question": "Between which years was the Spanish Civil War fought?",
+		"Question": "<p>Between which years was the <a href=\"http://en.wikipedia.org/wiki/Spanish_Civil_War\">Spanish Civil War</a> fought?</p>",
 		"Answers":
 		[
 			{
@@ -285,7 +292,7 @@
 	{
 		"Category": "Culture",
 		"Difficulty": "Easy",
-		"Question": "German bombers of the Condor Legion bombed the village of Guernica into oblivion. Which artist immortalized this catastrophe in a mural?",
+		"Question": "<p>German bombers of the <a href=\"http://en.wikipedia.org/wiki/Condor_Legion\">Condor Legion</a> bombed the village of <a href=\"http://en.wikipedia.org/wiki/Guernica_(town)\">Guernica</a> into oblivion. Which artist immortalized this catastrophe in a mural?</p>",
 		"Image": "Guernica.jpg",
 		"Answers":
 		[
@@ -297,7 +304,7 @@
 				"Text": "Salvador Dalí"
 			},
 			{
-				"Text": "Andre Breton"
+				"Text": "Joan Miró"
 			},
 			{
 				"Text": "Luis Buñuel"
@@ -311,7 +318,7 @@
 	{
 		"Category": "Politics",
 		"Difficulty": "Easy",
-		"Question": "Which countries openly aided the Republicans during the war?",
+		"Question": "<p>Which countries openly aided the Republicans during the war?</p>",
 		"Answers":
 		[
 			{
@@ -336,7 +343,7 @@
 	{
 		"Category": "Politics",
 		"Difficulty": "Easy",
-		"Question": "Which countries openly aided the Nationalists during the war?",
+		"Question": "<p>Which countries openly aided the Nationalists during the war?</p>",
 		"Answers":
 		[
 			{
@@ -360,8 +367,8 @@
 	{
 		"Category": "Politics",
 		"Difficulty": "Medium",
-		"Question": "The May Riots in Barcelona 1937 were:",
-		"Explanation": "Anarchists and the POUM were defeated by Communists with the help of the Catalan and Spanish government. The POUM were outlawed the following month.",
+		"Question": "<p>The May Riots in Barcelona 1937 were:</p>",
+		"Explanation": "Anarchists and the <a href=\"http://en.wikipedia.org/wiki/POUM\">POUM</a> were defeated by Communists with the help of the Catalan and Spanish government. The POUM were outlawed the following month.",
 		"Answers":
 		[
 			{
@@ -383,7 +390,7 @@
 	{
 		"Category": "Military",
 		"Difficulty": "Medium",
-		"Question": "The Battle of Guadalajara was a significant battle of the Spanish Civil War because __________.",
+		"Question": "<p>The <a href=\"http://en.wikipedia.org/wiki/Battle_of_Guadalajara\">Battle of Guadalajara</a> was a significant battle of the <a href=\"http://en.wikipedia.org/wiki/Spanish_Civil_War\">Spanish Civil War</a> because __________.</p>",
 		"Explanation": "The Battle of Guadalajara (8–23 March, 1937) was a defeat for Italian and Nationalist forces attempting to encircle Madrid.",
 		"Image": "Bundesarchiv_Bild_183-2006-1204-514,_Spanien,_Schlacht_um_Guadalajara.jpg",
 		"Answers":
@@ -396,7 +403,8 @@
 				"Text": "the Italian Corps of Volunteer Troops were decisive in the Nationalist's victory"
 			},
 			{
-				"Text": "it was the first of many Republican victories"
+				"Text": "it was the first of many Republican victories",
+				"Explanation": "The Republic had very few military victories against the Nationalist forces."
 			},
 			{
 				"Text": "despite overwhelming numbers, Nationalist forces succeeded in taking Guadalajara",
@@ -407,7 +415,7 @@
 	{
 		"Category": "Military",
 		"Difficulty": "Medium",
-		"Question": "What was the name of the German foreign forces that fought for the Nationalists during the Spanish Civil War?",
+		"Question": "<p>What was the name of the German foreign forces that fought for the Nationalists during the <a href=\"http://en.wikipedia.org/wiki/Spanish_Civil_War\">Spanish Civil War</a>?</p>",
 		"Image": "Condor Legion 2.png",
 		"Answers":
 		[
@@ -435,8 +443,8 @@
 	{
 		"Category": "Military",
 		"Difficulty": "Hard",
-		"Question": "The Irish Brigade fought on the Nationalist side of Francisco Franco during the Spanish Civil War.",
-		"Explanation": "The unit was formed wholly of Roman Catholics by the politician Eoin O'Duffy, who had previously organised the banned quasi-fascist Blueshirts and openly fascist Greenshirts in Ireland. Despite the declaration by the Irish government that participation in the war was unwelcome and ill-advised, 600 of O'Duffy's followers went to Spain. Their contribution was small. They were withdrawn after only one action in which they found themselves attacked by their own side. (Beevor, A., <i>The Battle for Spain</i>)",
+		"Question": "<p>The <a href=\"http://en.wikipedia.org/wiki/Irish_Brigade_(Spanish_Civil_War)\">Irish Brigade</a> fought on the Nationalist side of <a href=\"http://en.wikipedia.org/wiki/Francisco_Franco\">Francisco Franco</a> during the <a href=\"http://en.wikipedia.org/wiki/Spanish_Civil_War\">Spanish Civil War</a>.</p>",
+		"Explanation": "The unit was formed wholly of Roman Catholics by the politician <a href=\"http://en.wikipedia.org/wiki/Eoin_O%27Duffy\">Eoin O'Duffy</a>, who had previously organised the banned quasi-fascist Blueshirts and openly fascist Greenshirts in Ireland. Despite the declaration by the Irish government that participation in the war was unwelcome and ill-advised, 600 of O'Duffy's followers went to Spain. Their contribution was small. They were withdrawn after only one action in which they found themselves attacked by their own side. (Anthony Beever, <i>The Battle for Spain</i>)",
 		"Answers":
 		[
 			{
@@ -451,8 +459,8 @@
 	{
 		"Category": "Politics",
 		"Difficulty": "Medium",
-		"Question": "At the early stages of the Spanish Civil War, which Nationalist political faction supplied the largest number of volunteers?",
-		"Explanation": "By September 1936, the total Falangist volunteers numbered at 35,000, accounting for 55 percent of all civilian forces of the Nationals. - Stanley G. Payne. Fascism in Spain, 1923–1977. Madison, Wisconsin, USA: Wisconsin University Press, 1999. Pp. 242.",
+		"Question": "<p>At the early stages of the <a href=\"http://en.wikipedia.org/wiki/Spanish_Civil_War\">Spanish Civil War</a>, which Nationalist political faction supplied the largest number of volunteers?</p>",
+		"Explanation": "By September 1936, the total Falangist volunteers numbered at 35,000, accounting for 55 percent of all civilian forces of the Nationals. (Stanley G. Payne. <i>Fascism in Spain, 1923–1977</i>. Madison, Wisconsin, USA: Wisconsin University Press, 1999. Pp. 242.)",
 		"Answers":
 		[
 			{
@@ -481,42 +489,42 @@
 	{
 		"Category": "Politics",
 		"Difficulty": "Hard",
-		"Question": "What was the name of the Falange paramilitary militia?",
+		"Question": "<p>What was the name of the <a href=\"http://en.wikipedia.org/wiki/Falange\">Falange</a> paramilitary militia?</p>",
 		"Image": "Yoke and Arrows.png",
 		"Answers":
 		[
 			{
 				"Text": "Blueshirts",
 				"Score": "1",
-				"Explanation": "Their name (Camisas Azules in Spanish) refers to the blue uniform worn by the militia. The colour was chosen because it was the colour of workers' overalls, as the Falange sought to gain support among the Spanish working class."
+				"Explanation": "Their name (<a href=\"http://en.wikipedia.org/wiki/Blueshirts_(Falange)\">Camisas Azules</a> in Spanish) refers to the blue uniform worn by the militia. The colour was chosen because it was the colour of workers' overalls, as the Falange sought to gain support among the Spanish working class."
 			},
 			{
 				"Text": "Brownshirts",
-				"Explanation": "The Sturmabteilung (SA) (or Brownshirts) functioned as the original paramilitary wing of the Nazi Party."
+				"Explanation": "The <a href=\"http://en.wikipedia.org/wiki/Sturmabteilung\">Sturmabteilung</a> (SA) (or Brownshirts) functioned as the original paramilitary wing of the Nazi Party."
 			},
 			{
 				"Text": "Blackshirts",
-				"Explanation": "The Blackshirts were fascist paramilitary armed squads in Italy during the period immediately following World War I and until the end of World War II."
+				"Explanation": "The <a href=\"http://en.wikipedia.org/wiki/Blackshirts\">Blackshirts</a> were fascist paramilitary armed squads in Italy during the period immediately following World War I and until the end of World War II."
 			},
 			{
 				"Text": "Greenshirts",
-				"Explanation": "The Iron Guard (occasionally referred to as greenshirts) was a far-right movement in Romania. They contributed a legion of Romanian fascists to the Nationalist cause, led by Ion Moța."
+				"Explanation": "The <a href=\"http://en.wikipedia.org/wiki/Iron_Guard\">Iron Guard</a> (occasionally referred to as greenshirts) was a far-right movement in Romania. They contributed a legion of Romanian fascists to the Nationalist cause, led by Ion Moța."
 			},
 			{
 				"Text": "Silver Shirts",
-				"Explanation": "The Silver Legion of America, commonly known as the Silver Shirts, was an underground US fascist organization founded by William Dudley Pelley."
+				"Explanation": "The <a href=\"http://en.wikipedia.org/wiki/Silver_Legion_of_America\">Silver Legion of America</a>, commonly known as the Silver Shirts, was an underground US fascist organization founded by <a href=\"http://en.wikipedia.org/wiki/William_Dudley_Pelley\">William Dudley Pelley</a>."
 			}
 		]
 	},
 	{
 		"Category": "Military",
 		"Difficulty": "Medium",
-		"Question": "What transported the bulk of the Army of Africa from Morocco to Spain at the beginning of the war?",
+		"Question": "<p>What transported the bulk of the <a href=\"http://en.wikipedia.org/wiki/Army_of_Africa_(Spain)\">Army of Africa</a> from Morocco to Spain at the beginning of the war?</p>",
 		"Answers":
 		[
 			{
 				"Text": "Transport planes from Germany and Italy",
-				"Explanation": "\"Although the airlift began almost immediately with a few Spanish air force Breguets, Nieuports and Italian Savoias, it was chiefly effected by Junkers 52s sent by Hitler, who remarked later that Franco should erect a monument to the plane because it was so vital to his victory.\" - Beevor, A., <i>The Battle for Spain</i>",
+				"Explanation": "\"Although the airlift began almost immediately with a few Spanish air force Breguets, Nieuports and Italian Savoias, it was chiefly effected by Junkers 52s sent by Hitler, who remarked later that Franco should erect a monument to the plane because it was so vital to his victory.\" - Anthony Beever, <i>The Battle for Spain</i>",
 				"Score": "1"
 			},
 			{
@@ -536,7 +544,7 @@
 	{
 		"Category": "Military",
 		"Difficulty": "Hard",
-		"Question": "Which city was the Durruti Column attempting to capture before it was diverted to the defence of Madrid?",
+		"Question": "<p>Which city was the <a href=\"http://en.wikipedia.org/wiki/Durruti_Column\">Durruti Column</a> attempting to capture before it was diverted to the defence of Madrid?</p>",
 		"Image": "Durruti poster.jpg",
 		"Answers":
 		[
@@ -561,7 +569,7 @@
 	{
 		"Category": "Military",
 		"Difficulty": "Medium",
-		"Question": "Who stopped the military's coup attempt of 17 July, 1936?",
+		"Question": "<p>Who stopped the military's <a href=\"http://en.wikipedia.org/wiki/Spanish_coup_of_July_1936\">coup</a> attempt of 17 July, 1936?</p>",
 		"Answers":
 		[
 			{
@@ -585,7 +593,7 @@
 	{
 		"Category": "Politics",
 		"Difficulty": "Easy",
-		"Question": "The CNT (National Labour Confederation) was:",
+		"Question": "<p>The <a href=\"http://en.wikipedia.org/wiki/Confederaci%C3%B3n_Nacional_del_Trabajo\">National Confederation of Labour</a> (CNT) was:</p>",
 		"Image": "CNT AIT poster.jpg",
 		"Answers":
 		[
@@ -610,7 +618,7 @@
 	{
 		"Category": "Politics",
 		"Difficulty": "Easy",
-		"Question": "The Spanish Republic was solely anti-clerical during the Spanish Civil War.",
+		"Question": "<p>The <a href=\"http://en.wikipedia.org/wiki/Second_Spanish_Republic\">Second Spanish Republic</a> was solely anti-clerical during the <a href=\"http://en.wikipedia.org/wiki/Spanish_Civil_War\">Spanish Civil War</a>.</p>",
 		"Explanation": "The majority of the Republic was against religion and especially the Catholic Church. However, the conservative, strongly Catholic Basque Country (\"the most Christian people in Spain\" quoted by Hugh Thomas, <i>The Spanish Civil War</i>) was part of the Republic until it was defeated by the Nationalists during the Battle of Bilbao in June 1937.",
 		"Answers":
 		[
@@ -626,13 +634,13 @@
 	{
 		"Category": "Personalities",
 		"Difficulty": "Medium",
-		"Question": "Who wrote: \"It was the first time I had ever been in a town where the working class was in the saddle. Practically every building of any size had been seized by the workers and was draped with red flags or with the red and black flag of the Anarchists; every wall was scrawled with the hammer and sickle and with the initials of the revolutionary parties; almost every church had been gutted and its images burnt. Churches here and there were being systematically demolished by gangs of workmen. Every shop and café had an inscription saying that it had been collectivised; even the bootblacks had been collectivised and their boxes painted red and black. Waiters and shop-walkers looked you in the face and treated you as an equal.\"",
+		"Question": "<p>Who wrote: \"It was the first time I had ever been in a town where the working class was in the saddle. Practically every building of any size had been seized by the workers and was draped with red flags or with the red and black flag of the Anarchists; every wall was scrawled with the hammer and sickle and with the initials of the revolutionary parties; almost every church had been gutted and its images burnt. Churches here and there were being systematically demolished by gangs of workmen. Every shop and café had an inscription saying that it had been collectivised; even the bootblacks had been collectivised and their boxes painted red and black. Waiters and shop-walkers looked you in the face and treated you as an equal.\"</p>",
 		"Answers":
 		[
 			{
 				"Text": "George Orwell",
 				"Score": "1",
-				"Explanation": "This quote was taken from Homage to Catalonia, Orwell's personal account of his experiences and observations in the Spanish Civil War. The first edition was published in 1938."
+				"Explanation": "This quote was taken from <i>Homage to Catalonia</i>, Orwell's personal account of his experiences and observations in the <a href=\"http://en.wikipedia.org/wiki/Spanish_Civil_War\">Spanish Civil War</a>. The first edition was published in 1938."
 			},
 			{
 				"Text": "Ernest Hemingway"
@@ -651,7 +659,7 @@
 	{
 		"Category": "Personalities",
 		"Difficulty": "Medium",
-		"Question": "Federica Montseny is famous because she was:",
+		"Question": "<p><a href=\"http://en.wikipedia.org/wiki/Federica_Montseny\">Federica Montseny</a> is famous because she was:</p>",
 		"Image": "Federica Montseny.jpg",
 		"Answers":
 		[
@@ -677,7 +685,7 @@
 	{
 		"Category": "Politics",
 		"Difficulty": "Easy",
-		"Question": "Which map of Spain represents the final stages of the war?\r\n\r\nNationalist controlled area is pink.\r\nRepublican controlled area is blue.",
+		"Question": "<p>Which map of Spain represents the final stages of the war?</p><p></p><p>Nationalist controlled area is pink.</p><p>Republican controlled area is blue.</p>",
 		"DynamicImage": "true",
 		"Answers":
 		[
@@ -699,8 +707,8 @@
 	{
 		"Category": "Politics",
 		"Difficulty": "Easy",
-		"Question": "What was the Popular Front (Frente Popular)?",
-		"Explanation": "The Popular Front was a coalition of left-wing parties that contested the national elections in February 1936. The Popular Front defeated the National Front (a collection of right-wing parties) and won the 1936 election, forming the new Spanish Government. In July 1936, Francisco Franco and other conservative/monarchist generals instigated a coup d'état which started the Spanish Civil War.",
+		"Question": "<p>What was the <a href=\"http://en.wikipedia.org/wiki/Popular_Front_(Spain)\">Popular Front</a> (Frente Popular)?</p>",
+		"Explanation": "The Popular Front was a coalition of left-wing parties that contested the national elections in February 1936. The Popular Front defeated the National Front (a collection of right-wing parties) and won the 1936 election, forming the new Spanish Government. In July 1936, <a href=\"http://en.wikipedia.org/wiki/Francisco_Franco\">Francisco Franco</a> and other conservative/monarchist generals instigated a coup d'état which started the <a href=\"http://en.wikipedia.org/wiki/Spanish_Civil_War\">Spanish Civil War</a>.",
 		"Answers":
 		[
 			{
@@ -722,8 +730,8 @@
 	{
 		"Category": "Politics",
 		"Difficulty": "Medium",
-		"KeyQuestion": "The *answer text* was the __________.",
-		"ValueQuestion": "What is the name of the political organisation that was the *answer text*?",
+		"KeyQuestion": "<p>The *answer text* was the __________.</p>",
+		"ValueQuestion": "<p>What is the name of the political organisation that was the *answer text*?</p>",
 		"KeyValue": "true",
 		"MaxNumberOfAnswers": "5",
 		"Answers":
@@ -773,8 +781,8 @@
 	{
 		"Category": "Politics",
 		"Difficulty": "Hard",
-		"Question": "The formation of which political party does the poster on the right refer?",
-		"Explanation": "The PSUC formed from four left-wing groups; the Catalan Federation of Spanish Socialist Workers' Party (PSO), Communist Party of Catalonia (PCC), Socialist Union of Catalonia (USC) and Proletarian Catalan Party (PCP). They aligned with Russian controlled communists (PCE).",
+		"Question": "<p>The formation of which political party does the poster on the right refer?</p>",
+		"Explanation": "The <a href=\"http://en.wikipedia.org/wiki/PSUC\">PSUC</a> formed from four left-wing groups; the Catalan Federation of Spanish Socialist Workers' Party (PSO), Communist Party of Catalonia (PCC), Socialist Union of Catalonia (USC) and Proletarian Catalan Party (PCP). They aligned with Russian controlled communists (<a href=\"http://en.wikipedia.org/wiki/Communist_Party_of_Spain_(main)\">PCE</a>).",
 		"Image": "PSUC Poster.jpg",
 		"Answers":
 		[
@@ -799,7 +807,7 @@
 	{
 		"Category": "Politics",
 		"Difficulty": "Hard",
-		"Question": "Which political faction was not part of the National Block (National Front) during the 1936 election?",
+		"Question": "<p>Which political faction was not part of the National Block (National Front) during the 1936 election?</p>",
 		"Answers":
 		[
 			{
@@ -829,7 +837,7 @@
 	{
 		"Category": "Politics",
 		"Difficulty": "Easy",
-		"Question": "Which map of Spain represents the initial stages of the war?\r\n\r\nNationalist controlled area is pink.\r\nRepublican controlled area is blue.",
+		"Question": "<p>Which map of Spain represents the initial stages of the war?</p><p></p><p>Nationalist controlled area is pink.</p><p>Republican controlled area is blue.</p>",
 		"DynamicImage": "true",
 		"Answers":
 		[
@@ -851,7 +859,7 @@
 	{
 		"Category": "Military",
 		"Difficulty": "Medium",
-		"Question": "The Assault Guards were aligned with the Republic whereas the Civil Guards aligned with the Nationalists.",
+		"Question": "<p>The <a href=\"http://en.wikipedia.org/wiki/Guardia_de_Asalto\">Assault Guards</a> were aligned with the Republic whereas the <a href=\"http://en.wikipedia.org/wiki/Civil_Guard_(Spain)\">Civil Guards</a> aligned with the Nationalists.</p>",
 		"Explanation": "Less Civil Guards (around 40%) stayed with the Republic than those of the Assault Guards (around 60% remained loyal). However, thousands of personnel from both forces could be found on either side of the conflict.",
 		"Answers":
 		[
@@ -867,14 +875,14 @@
 	{
 		"Category": "Culture",
 		"Difficulty": "Medium",
-		"Question": "Which of the following posters is not a Republican poster?",
+		"Question": "<p>Which of the following posters is not a Republican poster?</p>",
 		"DynamicImage": "true",
 		"Answers":
 		[
 			{
 				"Image": "Ha llegado.jpg",
 				"Score": "1",
-				"Explanation": "A fascist (Falange) poster saying \"Spain has arrived\"."
+				"Explanation": "A fascist (<a href=\"http://en.wikipedia.org/wiki/Falange\">Falange</a>) poster saying \"Spain has arrived\"."
 			},
 			{
 				"Image": "Euzkadi.jpg",
@@ -882,11 +890,11 @@
 			},
 			{
 				"Image": "POUM poster.jpg",
-				"Explanation": "You chose POUM poster saying \"Workers, the POUM gives you hope.\""
+				"Explanation": "You chose <a href=\"http://en.wikipedia.org/wiki/POUM\">POUM</a> poster saying \"Workers, the POUM gives you hope.\""
 			},
 			{
 				"Image": "UGT anti-fascist poster.jpg",
-				"Explanation": "You chose a UGT anti-religious poster, suggesting that fascism is \"how the church has planted its religion in Spain\"."
+				"Explanation": "You chose a <a href=\"http://en.wikipedia.org/wiki/Uni%C3%B3n_General_de_Trabajadores\">UGT</a> anti-religious poster, suggesting that fascism is \"how the church has planted its religion in Spain\"."
 			},
 			{
 				"Text": "[All are Republican posters]",
@@ -898,7 +906,7 @@
 	{
 		"Category": "Culture",
 		"Difficulty": "Hard",
-		"Question": "Which of the following posters is not a Nationalist poster?",
+		"Question": "<p>Which of the following posters is not a Nationalist poster?</p>",
 		"DynamicImage": "true",
 		"Answers":
 		[
@@ -910,27 +918,27 @@
 			},
 			{
 				"Image": "Ha llegado.jpg",
-				"Explanation": "You chose a fascist (Falange) poster saying \"Spain has arrived\"."
+				"Explanation": "You chose a fascist (<a href=\"http://en.wikipedia.org/wiki/Falange\">Falange</a>) poster saying \"Spain has arrived\"."
 			},
 			{
 				"Image": "Cruzada.jpg",
-				"Explanation": "You chose a Natioanlist poster that says \"Spain, the guide of world spirit\""
+				"Explanation": "You chose a Nationalist poster that says \"Spain, the guide of world spirit\""
 			},
 			{
 				"Image": "Carlist poster.jpg",
-				"Explanation": "You chose a Requetés poster. These soldiers are Carlists as indicated by their prominent red berets, symbols of the Carlists in Spain. They take their name from Carlos V, son of Ferdinand VII, who was a pretender to the throne of Spain with his declaration to be rightful heir on October 1, 1833."
+				"Explanation": "You chose a <a href=\"http://en.wikipedia.org/wiki/Requet%C3%A9s\">Requetés</a> poster. These soldiers are <a href=\"http://en.wikipedia.org/wiki/Carlist\">Carlists</a> as indicated by their prominent red berets, symbols of the Carlists in Spain. They take their name from Carlos V, son of Ferdinand VII, who was a pretender to the throne of Spain with his declaration to be rightful heir on October 1, 1833."
 			},
 			{
 				"Image": "Falange poster.jpg",
-				"Explanation": "You chose a Spanish Falange poster that says \"Subsidy for the combatant. I compiled! Comply and do what others require to complete this work. Social work of national syndicalism.\""
+				"Explanation": "You chose a <a href=\"http://en.wikipedia.org/wiki/Falange\">Spanish Falange</a> poster that says \"Subsidy for the combatant. I compiled! Comply and do what others require to complete this work. Social work of national syndicalism.\""
 			}
 		]
 	},
 	{
 		"Category": "Politics",
 		"Difficulty": "Medium",
-		"Question": "Why does this poster, created in the Asturias region, refer to the year 1934?",
-		"Explanation": "The Asturian miners' strike of 1934 was a major strike action, against CEDA entering the government. It took took place in Asturias in northern Spain and developed into a revolutionary uprising. It was crushed by the Spanish Navy and the Spanish Republican Army, the latter using mainly Moorish troops from Spanish Morocco.",
+		"Question": "<p>Why does this poster, created in the <a href=\"http://en.wikipedia.org/wiki/Asturias\">Asturias</a> region, refer to the year 1934?</p>",
+		"Explanation": "The Asturian miners' strike of 1934 was a major strike action, against <a href=\"http://en.wikipedia.org/wiki/CEDA\">CEDA</a> entering the government. It took took place in Asturias in northern Spain and developed into a revolutionary uprising. It was crushed by the Spanish Navy and the Spanish Republican Army, the latter using mainly Moorish troops from Spanish Morocco.",
 		"Image": "Asturias.jpg",
 		"ImageText": "\"Aid the families of the combatants of the North!\"",
 		"Answers":
@@ -954,7 +962,7 @@
 	{
 		"Category": "Politics",
 		"Difficulty": "Medium",
-		"Question": "Which was the last Republican controlled city to fall to the Nationalists?",
+		"Question": "<p>Which was the last Republican controlled city to fall to the Nationalists?</p>",
 		"Explanation": "On 28 March 1939, Madrid fell to the Nationalists. The next day, Valencia, which had held out under the guns of the Nationalists for close to two years, also surrendered.",
 		"Answers":
 		[
@@ -979,9 +987,9 @@
 	{
 		"Category": "Social",
 		"Difficulty": "Medium",
-		"Question": "What occurred in the Extremadura region of Spain in 1936 before the invasion by the Army of Africa?",
+		"Question": "<p>What occurred in the <a href=\"http://en.wikipedia.org/wiki/Extremadura\">Extremadura</a> region of Spain in 1936 before the invasion by the <a href=\"http://en.wikipedia.org/wiki/Army_of_Africa_(Spain)\">Army of Africa</a>?</p>",
 		"Image": "Extremadura.png",
-		"Explanation": "\"[...] the Army strategically butchered and terrorised the pro-Republican population, especially the rural landless [...] It was a war of agrarian counter-reform [...] The large landowners who owned the vast estates which covered most of the southern half of Spain rode along [...] to reclaim by force of arms the land on which the Republic had settled the landless poor.\" - Helen Graham, <i>The Spanish Civil War: A very short introduction</i>",
+		"Explanation": "\"[...] the Army strategically butchered and terrorised the pro-Republican population, especially the rural landless [...] It was a war of agrarian counter-reform [...] The large landowners who owned the vast estates which covered most of the southern half of Spain rode along [...] to reclaim by force of arms the land on which the Republic had settled the landless poor.\" (Helen Graham, <i>The Spanish Civil War: A very short introduction</i>)",
 		"Answers":
 		[
 			{
@@ -1002,9 +1010,9 @@
 	{
 		"Category": "Social",
 		"Difficulty": "Hard",
-		"Question": "Which regions had the largest number of collectives, established at the beginning of the revolution in 1936?",
+		"Question": "<p>Which regions had the largest number of collectives, established at the beginning of the <a href=\"http://en.wikipedia.org/wiki/Spanish_Revolution\">Revolution</a> in 1936?</p>",
 		"Image": "Anarchist collective.jpg",
-		"Explanation": "\"The regions most affected [by collectivisation] were Catalonia and Aragón, where about 70 per cent of the workforce was involved. The total for the whole of republican territory was nearly 800,000 on the land and a little over a million in industry.\" - Anthony Beevor, <i>The Battle for Spain</i>",
+		"Explanation": "\"The regions most affected [by collectivisation] were Catalonia and Aragón, where about 70 per cent of the workforce was involved. The total for the whole of republican territory was nearly 800,000 on the land and a little over a million in industry.\" (Anthony Beevor, <i>The Battle for Spain</i>)",
 		"Answers":
 		[
 			{
@@ -1028,7 +1036,7 @@
 	{
 		"Category": "Politics",
 		"Difficulty": "Hard",
-		"Question": "Andrés Nin was one of the leaders of the POUM - a Marxist inspire communist party that was not affiliated with the USSR. He was tortured and killed by:",
+		"Question": "<p><a href=\"http://en.wikipedia.org/wiki/Andr%C3%A9s_Nin\">Andrés Nin</a> was one of the leaders of the <a href=\"http://en.wikipedia.org/wiki/POUM\">POUM</a> - a Marxist inspire communist party that was not affiliated with the USSR. He was tortured and killed by:</p>",
 		"Image": "POUM poster 2.jpg",
 		"ImageText": "\"Peasants\r\nThe land is yours\"",
 		"Answers":
@@ -1051,7 +1059,7 @@
 	{
 		"Category": "Military",
 		"Difficulty": "Hard",
-		"Question": "What was the name of the first International Brigade that was formed?",
+		"Question": "<p>What was the name of the first <a href=\"http://en.wikipedia.org/wiki/International_Brigades\">International Brigade</a> that was formed?</p>",
 		"Image": "International Brigades poster.jpg",
 		"ImageText": "\"From the Popular Front of Madrid to the Popular Front of the world\r\nHomage to the International Brigades\"",
 		"Answers":
@@ -1074,7 +1082,7 @@
 	{
 		"Category": "Politics",
 		"Difficulty": "Medium",
-		"Question": "The marked areas on the map represent control by which faction at the start of the Spanish Civil War?",
+		"Question": "<p>The marked areas on the map represent control by which faction at the start of the <a href=\"http://en.wikipedia.org/wiki/Spanish_Civil_War\">Spanish Civil War</a>?</p>",
 		"Image": "Anarchist Spain.png",
 		"Answers":
 		[
@@ -1099,13 +1107,13 @@
 	{
 		"Category": "Military",
 		"Difficulty": "Medium",
-		"Question": "Why did Franco decide not to attack Barcelona towards the end of the Aragón campaign, instead heading towards the coast around Vinaròs?",
+		"Question": "<p>Why did Franco decide not to attack Barcelona towards the end of the <a href=\"http://en.wikipedia.org/wiki/Aragon_Offensive\">Aragon Offensive</a>, instead heading towards the coast around <a href=\"http://en.wikipedia.org/wiki/Vinar%C3%B2s\">Vinaròs</a>?</p>",
 		"Answers":
 		[
 			{
 				"Text": "He was concerned that France would intervene in the war and support Catalonia",
 				"Score": "1",
-				"Explanation": "\"More importantly, however, to have launched an offensive against Catalonia at that point would have left a substantial Republican force in the centre-south zone. Turning away from Catalonia in spring 1938 and towards the centre-south army, thus lengthening the conflict, was about maximizing the destruction and demoralization visited on the Republic’s human resources. It was, then, entirely consistent with Franco’s underlying war aims.\" - Helen Graham, <i>The Spanish Civil War: A very short introduction</i>"
+				"Explanation": "\"More importantly, however, to have launched an offensive against Catalonia at that point would have left a substantial Republican force in the centre-south zone. Turning away from Catalonia in spring 1938 and towards the centre-south army, thus lengthening the conflict, was about maximizing the destruction and demoralization visited on the Republic’s human resources. It was, then, entirely consistent with Franco’s underlying war aims.\" (Helen Graham, <i>The Spanish Civil War: A very short introduction</i>)"
 			},
 			{
 				"Text": "The Republic army was too heavily defended around Barcelona"
@@ -1121,8 +1129,8 @@
 	{
 		"Category": "Politics",
 		"Difficulty": "Medium",
-		"Question": "The USA, not wanting to be seen siding with fascists nor wanting to appear pro-communist, followed the lead of the Non-Intervention Committee and did not get involved in the Spanish Civil War.",
-		"Explanation": "Because of pressure from the Catholic lobby, the USA did not trade with the Republic. However, \"Ford, Studebaker and General Motors supplied 12,000 trucks to the nationalists, nearly three times as many as the Axis powers, and the chemical giant, Dupont of Nemours, provided 40,000 bombs, sending them via Germany so as to circumvent the Neutrality Act. In 1945 the under-secretary at the Spanish foreign ministry, José Maria Doussinague, admitted that 'without American petroleum and American trucks and American credit, we could never have won the Civil War'.\" - Anthony Beevor, <i>The Battle for Spain</i>",
+		"Question": "<p>The USA, not wanting to be seen siding with fascists nor wanting to appear pro-communist, followed the lead of the <a href=\"http://en.wikipedia.org/wiki/Non-intervention_in_the_Spanish_Civil_War\">Non-Intervention Committee</a> and did not get involved in the <a href=\"http://en.wikipedia.org/wiki/Spanish_Civil_War\">Spanish Civil War</a>.</p>",
+		"Explanation": "Because of pressure from the Catholic lobby, the USA did not trade with the Republic. However, \"Ford, Studebaker and General Motors supplied 12,000 trucks to the nationalists, nearly three times as many as the Axis powers, and the chemical giant, Dupont of Nemours, provided 40,000 bombs, sending them via Germany so as to circumvent the Neutrality Act. In 1945 the under-secretary at the Spanish foreign ministry, José Maria Doussinague, admitted that 'without American petroleum and American trucks and American credit, we could never have won the Civil War'.\" (Anthony Beevor, <i>The Battle for Spain</i>)",
 		"Answers":
 		[
 			{
@@ -1137,7 +1145,7 @@
 	{
 		"Category": "Politics",
 		"Difficulty": "Medium",
-		"Question": "The actions of the British Royal Navy were astonishing for a non-interventionist power. Not only were communications facilities provided in Gibraltar to speak directly to Rome, Berlin and Lisbon, but the battleship HMS Queen Elizabeth was moved in front of Algeciras bay to prevent republican warships shelling the port.",
+		"Question": "<p>The actions of the British Royal Navy were astonishing for a non-interventionist power. Not only were communications facilities provided in Gibraltar to speak directly to Rome, Berlin and Lisbon, but the battleship HMS Queen Elizabeth was moved in front of Algeciras bay to prevent republican warships shelling the port.</p>",
 		"Explanation": "The claim above is from Anthony Beevor's <i>The Battle for Spain</i>. Also from the same book: \"Britain would apply an arms embargo without waiting for other powers to respond. This in effect meant denying arms to the recognized government and often ignoring those going to the rebels, for the British government refused to acknowledge the proof of German and Italian intervention.\"",
 		"Answers":
 		[
@@ -1153,7 +1161,7 @@
 	{
 		"Category": "Military",
 		"Difficulty": "Hard",
-		"Question": "Select the list of military offensives that is in correct chronological order, from earliest to latest.",
+		"Question": "<p>Select the list of military offensives that is in correct chronological order, from earliest to latest.</p>",
 		"Answers":
 		[
 			{
@@ -1174,7 +1182,7 @@
 	{
 		"Category": "Military",
 		"Difficulty": "Easy",
-		"Question": "Before the outbreak of the Spanish Civil War, Francisco Franco was:",
+		"Question": "<p>Before the outbreak of the <a href=\"http://en.wikipedia.org/wiki/Spanish_Civil_War\">Spanish Civil War</a>, <a href=\"http://en.wikipedia.org/wiki/Francisco_Franco\">Francisco Franco</a> was:</p>",
 		"Image": "Franco.jpg",
 		"Answers":
 		[
@@ -1186,7 +1194,7 @@
 				"Text": "The leader of the Falange (the Spanish fascists)"
 			},
 			{
-				"Text": "The leader of the CEDA (Spanish Confederation of Autonomous Right-wing Groups)"
+				"Text": "The leader of the Spanish Confederation of Autonomous Right-wing Groups (CEDA)"
 			},
 			{
 				"Text": "The leader of the Army of Africa (Spain's African military units)"
@@ -1196,20 +1204,20 @@
 	{
 		"Category": "Politics",
 		"Difficulty": "Medium",
-		"Question": "Who did Colonal Rada describe as men 'with faith in victory, with faith in God; one hand holding a grenade, the other a rosary'?",
+		"Question": "<p>Who did Colonal Rada describe as men 'with faith in victory, with faith in God; one hand holding a grenade, the other a rosary'?</p>",
 		"Image": "Carlist poster.jpg",
 		"Answers":
 		[
 			{
 				"Text": "Requetés",
-				"Explanation": "The requetés were the Carlist militia. A group of traditionalists that fought in corps in defence of the religious and monarchical traditions.",
+				"Explanation": "The <a href=\"http://en.wikipedia.org/wiki/Requet%C3%A9s\">Requetés</a> were the <a href=\"http://en.wikipedia.org/wiki/Carlist\">Carlist</a> militia. A group of traditionalists that fought in corps in defence of the religious and monarchical traditions.",
 				"Score": "1"
 			},
 			{
 				"Text": "Falange (the Spanish fascists)"
 			},
 			{
-				"Text": "CEDA (Spanish Confederation of Autonomous Right-wing Groups)"
+				"Text": "Spanish Confederation of Autonomous Right-wing Groups (CEDA)"
 			},
 			{
 				"Text": "Anarcho-syndicalists"
@@ -1222,7 +1230,7 @@
 	{
 		"Category": "Military",
 		"Difficulty": "Medium",
-		"Question": "As part of the failed coup-attempt against the government, the Nationalists initially controlled (or quickly captured) the regions of Galicia, Leon, Old Castile and Navarre (as well as parts of Andalusia). Over the next few years, the remaining regions of Spain fell to the Nationalists in which order? (Ordered by first to last.)",
+		"Question": "<p>As part of the failed <a href=\"http://en.wikipedia.org/wiki/Spanish_coup_of_July_1936\">coup</a> against the government, the Nationalists initially controlled (or quickly captured) the regions of Galicia, Leon, Old Castile and Navarre (as well as parts of Andalusia). Over the next few years, the remaining regions of Spain fell to the Nationalists in which order? (Ordered by first to last.)</p>",
 		"Image": "Spanish Regions.png",
 		"Answers":
 		[
@@ -1247,7 +1255,7 @@
 	{
 		"Category": "Personalities",
 		"Difficulty": "Medium",
-		"Question": "Salvador Dalí, as a prominent member of the Surrealist movement, was sympathetic to the Republic's cause.",
+		"Question": "<p><a href=\"http://en.wikipedia.org/wiki/Salvador_Dal%C3%AD\">Salvador Dalí</a>, as a prominent member of the Surrealist movement, was sympathetic to the Republic's cause.</p>",
 		"Image": "salvador-dali-soft-construction-with-boiled-beans-premonition-of-civil-war.jpg",
 		"ImageText": "Soft Construction with Boiled Beans (Premonition of Civil War)",
 		"Answers":
@@ -1265,7 +1273,7 @@
 	{
 		"Category": "Politics",
 		"Difficulty": "Medium",
-		"Question": "At the end of the failed coup but before the start of war, which of the following cities (the largest Spanish cities) was controlled by rebellious Spanish officers?",
+		"Question": "<p>At the end of the failed <a href=\"http://en.wikipedia.org/wiki/Spanish_coup_of_July_1936\">coup</a> but before the start of war, which of the following cities (the largest Spanish cities) was controlled by rebellious Spanish officers?</p>",
 		"Answers":
 		[
 			{
@@ -1289,13 +1297,13 @@
 	{
 		"Category": "Personalities",
 		"Difficulty": "Medium",
-		"Question": "When asked by the US journalist John T. Whitaker about his reason for ordering the killing 4,000 people during the Badajoz massacre (10% of the city's population), who answered:\r\n\r\n\"Of course we killed them. What did you suppose? Will I take 4,000 red prisoners with my column, having to advance against the clock? Or will I leave them in my rearguard so that Badajoz will be red another time?\"",
+		"Question": "<p>When asked by the US journalist <a href=\"http://en.wikipedia.org/wiki/John_T._Whitaker\">John T. Whitaker</a> about his reason for ordering the killing 4,000 people during the <a href=\"http://en.wikipedia.org/wiki/Massacre_of_Badajoz\">Badajoz massacre</a> (10% of the city's population), who answered:</p><p></p><p>\"Of course we killed them. What did you suppose? Will I take 4,000 red prisoners with my column, having to advance against the clock? Or will I leave them in my rearguard so that Badajoz will be red another time?\"</p>",
 		"Answers":
 		[
 			{
 				"Text": "Juan Yagüe",
 				"Score": "1",
-				"Explanation": "Yagüe, \"The Butcher of Badajoz\", was a colonel in the Nationalist army. He was one of the key Spanish officers that led the coup against the government. He was also a strong supporter of the Falange."
+				"Explanation": "<a href=\"http://en.wikipedia.org/wiki/Juan_Yag%C3%BCe\">Yagüe</a>, \"The Butcher of Badajoz\", was a colonel in the Nationalist army. He was one of the key Spanish officers that led the <a href=\"http://en.wikipedia.org/wiki/Spanish_coup_of_July_1936\">coup</a> against the government. He was also a strong supporter of the <a href=\"http://en.wikipedia.org/wiki/Falange\">Falange</a>."
 			},
 			{
 				"Text": "Francisco Franco"
@@ -1311,7 +1319,7 @@
 	{
 		"Category": "Politics",
 		"Difficulty": "Easy",
-		"Question": "During the Spanish Civil War, who were the Rebels?",
+		"Question": "<p>During the <a href=\"http://en.wikipedia.org/wiki/Spanish_Civil_War\">Spanish Civil War</a>, who were the Rebels?</p>",
 		"Answers":
 		[
 			{
@@ -1332,7 +1340,7 @@
 	{
 		"Category": "Politics",
 		"Difficulty": "Easy",
-		"Question": "Who were the Loyalists?",
+		"Question": "<p>Who were the Loyalists?</p>",
 		"Answers":
 		[
 			{
@@ -1353,7 +1361,7 @@
 	{
 		"Category": "Social",
 		"Difficulty": "Easy",
-		"Question": "At the end of the Civil War, to where did the majority of left-wing Spaniards retreat?",
+		"Question": "<p>At the end of the <a href=\"http://en.wikipedia.org/wiki/Spanish_Civil_War\">Civil War</a>, to where did the majority of left-wing Spaniards retreat?</p>",
 		"Answers":
 		[
 			{
@@ -1382,7 +1390,7 @@
 	{
 		"Category": "Politics",
 		"Difficulty": "Medium",
-		"Question": "Who were the mujeres libres (free women)?",
+		"Question": "<p>Who were the <a href=\"http://en.wikipedia.org/wiki/Mujeres_Libres\">Mujeres Libres</a> (Free Women)?</p>",
 		"Image": "Mujeres Libres.jpg",
 		"ImageText" : "\"Free Women\" CNT\r\nWomen! Your family constitutes all the freedom fighters.",
 		"Answers":
@@ -1405,7 +1413,7 @@
 	{
 		"Category": "Military",
 		"Difficulty": "Medium",
-		"Question": "What was the result of the Battle of the Ebro?",
+		"Question": "<p>What was the result of the <a href=\"http://en.wikipedia.org/wiki/Battle_of_the_Ebro\">Battle of the Ebro</a>?</p>",
 		"Answers":
 		[
 			{
@@ -1426,7 +1434,7 @@
 	{
 		"Category": "Military",
 		"Difficulty": "Easy",
-		"Question": "What was the final stage in the events that led to the Spanish Civil War?",
+		"Question": "<p>What was the final stage in the events that led to the <a href=\"http://en.wikipedia.org/wiki/Spanish_Civil_War\">Spanish Civil War</a>?</p>",
 		"Answers":
 		[
 			{
@@ -1447,9 +1455,9 @@
 	{
 		"Category": "Politics",
 		"Difficulty": "Easy",
-		"Question": "During the war, about half of the Catholic ecclesiastical community was killed by anarchists, communists and socialists (i.e., pro-Republican forces.)",
+		"Question": "<p>During the war, about half of the Catholic ecclesiastical community was killed by anarchists, communists and socialists (i.e., pro-Republican forces.)</p>",
 		"Image": "Leftists shooting statue.jpg",
-		"Explanation": "\"[...] of a total ecclesiastical community of around 115,000, thirteen bishops, 4,184 priests, 2,365 members of other orders and 283 nuns were killed, the vast majority during the summer of 1936.\" - Beevor, A., <i>The Battle for Spain</i>.\n\rSome of those killed were killed by Nationalists, many of whom were in the Basque Country.",
+		"Explanation": "\"[...] of a total ecclesiastical community of around 115,000, thirteen bishops, 4,184 priests, 2,365 members of other orders and 283 nuns were killed, the vast majority during the summer of 1936.\" - Anthony Beever, <i>The Battle for Spain</i>.\n\rSome of those killed were killed by Nationalists, many of whom were in the Basque Country.",
 		"Answers":
 		[
 			{
@@ -1464,7 +1472,7 @@
 	{
 		"Category": "Politics",
 		"Difficulty": "Easy",
-		"Question": "The Second Spanish Republic existed between which years?",
+		"Question": "<p>The <a href=\"http://en.wikipedia.org/wiki/Second_Spanish_Republic\">Second Spanish Republic</a> existed between which years?</p>",
 		"Image": "Republique-allegorie.jpg",
 		"Answers":
 		[
@@ -1490,9 +1498,9 @@
 	{
 		"Category": "Social",
 		"Difficulty": "Medium",
-		"Question": "Although the workers' collectives, formed during the social revolution of 1936, were the exemplar of left-wing communism and anarchism, they were less productive than traditional organisations of production.",
+		"Question": "<p>Although the workers' collectives, formed during the <a href=\"http://en.wikipedia.org/wiki/Spanish_Revolution\">Social Revolution</a> of 1936, were the exemplar of left-wing communism and anarchism, they were less productive than traditional organisations of production.</p>",
 		"Image": "Collective farmers.jpg",
-		"Explanation": "\"The communists attacked the self-managed collectives as inefficient, but in Aragón production increased by a fifth. Not only was non-collectivized production lower, but the individualists were to show the worst possible traits of the introverted and suspicious smallholder.\" - Beevor, A., <i>The Battle for Spain</i>",
+		"Explanation": "\"The communists attacked the self-managed collectives as inefficient, but in Aragón production increased by a fifth. Not only was non-collectivized production lower, but the individualists were to show the worst possible traits of the introverted and suspicious smallholder.\" - Anthony Beever, <i>The Battle for Spain</i>",
 		"Answers":
 		[
 			{
@@ -1507,7 +1515,7 @@
 	{
 		"Category": "Culture",
 		"Difficulty": "Easy",
-		"Question": "What was the common salute made by those that supported the Republicans?",
+		"Question": "<p>What was the common salute made by those that supported the Republicans?</p>",
 		"Image": "Robert Capa - clenched fist.jpg",
 		"Answers":
 		[
@@ -1529,7 +1537,7 @@
 	{
 		"Category": "Personalities",
 		"Difficulty": "Medium",
-		"Question": "To whom was Diego Abad de Santillán referring to as \"us\" when he wrote: \"Whether Negrín won with his communist cohorts, or Franco won with his Italians and Germans, the results would be the same for us.\"",
+		"Question": "<p>To whom was <a href=\"http://en.wikipedia.org/wiki/Diego_Abad_de_Santill%C3%A1n\">Diego Abad de Santillán</a> referring to as \"us\" when he wrote: \"Whether <a href=\"http://en.wikipedia.org/wiki/Juan_Negr%C3%ADn\">Negrín</a> won with his communist cohorts, or Franco won with his Italians and Germans, the results would be the same for us.\"</p>",
 		"Answers":
 		[
 			{
@@ -1550,7 +1558,7 @@
 	{
 		"Category": "Military",
 		"Difficulty": "Easy",
-		"Question": "What were the International Brigades?",
+		"Question": "<p>What were the <a href=\"http://en.wikipedia.org/wiki/International_Brigades\">International Brigades</a>?</p>",
 		"Answers":
 		[
 			{
@@ -1571,7 +1579,7 @@
 	{
 		"Category": "Politics",
 		"Difficulty": "Easy",
-		"Question": "What was the purpose of the fascist powers' (Germany and Italy) military aid to the Nationalists?",
+		"Question": "<p>What was the purpose of the fascist powers' (Germany and Italy) military aid to the Nationalists?</p>",
 		"Image": "Guernica bombing.jpg",
 		"Answers":
 		[
@@ -1594,14 +1602,14 @@
 	{
 		"Category": "Social",
 		"Difficulty": "Medium",
-		"Question": "By the end of the war, where did the majority of the Spanish Republic's gold reserves (the fourth largest in the world, mostly of Spanish and foreign coins) reside?",
+		"Question": "<p>By the end of the war, where did the majority of the <a href=\"http://en.wikipedia.org/wiki/Second_Spanish_Republic\">Second Spanish Republic's</a> gold reserves (the fourth largest in the world, mostly of Spanish and foreign coins) reside?</p>",
 		"Answers":
 		[
 			{
 				"Text": "USSR",
 				"Image": "Flag of the Soviet Union.png",
 				"Score": "1",
-				"Explanation": "The Republic sent its gold reserve to the Soviet Union to pay for arms and supplies. That reserve was worth £63,000,000 ($315,000,000) in 1939 prices. In 1956, the Soviet Union announced that Spain still owed it $50,000,000. \"According to Orlov, Stalin celebrated the arrival of the gold with a banquet at which he announced, 'The Spaniards will never see their gold again, just as one cannot see one’s own ears'\" - Hugh Thomas, <i>The Spanish Civil War</i>"
+				"Explanation": "The Republic sent its gold reserve to the Soviet Union to pay for arms and supplies. That reserve was worth £63,000,000 ($315,000,000) in 1939 prices. In 1956, the Soviet Union announced that Spain still owed it $50,000,000. \"According to Orlov, Stalin celebrated the arrival of the gold with a banquet at which he announced, 'The Spaniards will never see their gold again, just as one cannot see one’s own ears'\" (Hugh Thomas, <i>The Spanish Civil War</i>)"
 			},
 			{
 				"Text": "Nationalist Spain",
@@ -1618,33 +1626,33 @@
 			{
 				"Text": "France",
 				"Image": "Flag of France.png",
-				"Explanation": "ABout one quarter of Spain's gold ended up in France."
+				"Explanation": "About one quarter of Spain's gold ended up in France."
 			}
 		]
 	},
 	{
 		"Category": "Military",
 		"Difficulty": "Hard",
-		"Question": "What was the best tank of the Spanish Civil War?",
+		"Question": "<p>What was the best tank of the <a href=\"http://en.wikipedia.org/wiki/Spanish_Civil_War\">Spanish Civil War</a>?</p>",
 		"Image": "T-26 tank in Spain.jpg",
 		"Answers":
 		[
 			{
 				"Text": "Soviet T-26",
 				"Score": "1",
-				"Explanation": "The T-26 tank was a Soviet light infantry tank used during many conflicts of the 1930s as well as during World War II. It was a development of the British Vickers 6-Ton tank and is widely considered one of the most successful tank designs of the 1930s until its light armour became vulnerable to newer anti-tank guns."
+				"Explanation": "The <a href=\"http://en.wikipedia.org/wiki/T-26\">T-26</a> tank was a Soviet light infantry tank used during many conflicts of the 1930s as well as during World War II. It was a development of the British Vickers 6-Ton tank and is widely considered one of the most successful tank designs of the 1930s until its light armour became vulnerable to newer anti-tank guns."
 			},
 			{
 				"Text": "German Panzer I",
-				"Explanation": "The Panzer I's performance in combat was limited by its thin armor and light armament of two machine guns. As a design intended for training, the Panzer I was not as capable as the Soviet T-26."
+				"Explanation": "The <a href=\"http://en.wikipedia.org/wiki/Panzer_I\">Panzer I's</a> performance in combat was limited by its thin armor and light armament of two machine guns. As a design intended for training, the Panzer I was not as capable as the Soviet <a href=\"http://en.wikipedia.org/wiki/T-26\">T-26</a>."
 			},
 			{
 				"Text": "Soviet BT-5",
-				"Explanation": "A battalion of BT-5s fought on the Republican side, and their 45 mm guns could easily knock out the opposing German and Italian light tanks."
+				"Explanation": "A battalion of <a href=\"http://en.wikipedia.org/wiki/BT-5\">BT-5s</a> fought on the Republican side, and their 45 mm guns could easily knock out the opposing German and Italian light tanks."
 			},
 			{
 				"Text": "Italian tankettes",
-				"Explanation": "In Spain, L3s of the Corps of Volunteer Troops (Corpo Truppe Volontarie, or CTV) were totally out-classed by the T-26 and BT-5 tanks provided to the Republican forces by the Soviet Union."
+				"Explanation": "In Spain, <a href=\"http://en.wikipedia.org/wiki/L3/33\">L3s</a> of the Corps of Volunteer Troops (Corpo Truppe Volontarie, or CTV) were totally out-classed by the <a href=\"http://en.wikipedia.org/wiki/T-26\">T-26</a> and <a href=\"http://en.wikipedia.org/wiki/BT-5\">BT-5s</a> tanks provided to the Republican forces by the Soviet Union."
 			},
 			{
 				"Text": "French Renault FT-17"
@@ -1654,7 +1662,7 @@
 	{
 		"Category": "Politics",
 		"Difficulty": "Easy",
-		"Question": "The Spanish Civil War was:",
+		"Question": "<p>The <a href=\"http://en.wikipedia.org/wiki/Spanish_Civil_War\">Spanish Civil War</a> was:</p>",
 		"Answers":
 		[
 			{
@@ -1679,14 +1687,14 @@
 	{
 		"Category": "Personalities",
 		"Difficulty": "Easy",
-		"Question": "José Antonio Primo de Rivera, the leader of the Spanish Falange (Spanish fascists), was:",
+		"Question": "<p><a href=\"http://en.wikipedia.org/wiki/Jos%C3%A9_Antonio_Primo_de_Rivera\">José Antonio Primo de Rivera</a>, the leader of the <a href=\"http://en.wikipedia.org/wiki/Falange\">Spanish Falange</a> (Spanish fascists), was:</p>",
 		"Image": "Jose Antonio De Rivera - Painting.jpg",
 		"Answers":
 		[
 			{
 				"Text": "The son of a 20th century Spanish dictator",
 				"Score": "1",
-				"Explanation": "Miguel Primo de Rivera was a dictator, aristocrat, and military officer who served as Prime Minister of Spain from 1923 to 1930."
+				"Explanation": "<a href=\"http://en.wikipedia.org/wiki/Miguel_Primo_de_Rivera\">Miguel Primo de Rivera</a> was a dictator, aristocrat, and military officer who served as Prime Minister of Spain from 1923 to 1930."
 			},
 			{
 				"Text": "The son of an arch-bishop of the Spanish Catholic Church"
@@ -1706,7 +1714,7 @@
 	{
 		"Category": "Politics",
 		"Difficulty": "Easy",
-		"Question": "Identify the flag of the Spanish anarcho-syndicalists.",
+		"Question": "<p>Identify the flag of the Spanish anarcho-syndicalists.</p>",
 		"Answers":
 		[
 			{
@@ -1721,7 +1729,7 @@
 	{
 		"Category": "Culture",
 		"Difficulty": "Easy",
-		"Question": "What was the common salute made by those that supported the Nationalists?",
+		"Question": "<p>What was the common salute made by those that supported the Nationalists?</p>",
 		"Image": "Santander fascists.jpg",
 		"Answers":
 		[
@@ -1744,7 +1752,7 @@
 	{
 		"Category": "Politics",
 		"Difficulty": "Medium",
-		"Question": "Identify the flag of the UGT (General Union of Workers).",
+		"Question": "<p>Identify the flag of the <a href=\"http://en.wikipedia.org/wiki/Uni%C3%B3n_General_de_Trabajadores\">General Union of Workers</a> (UGT).</p>",
 		"Answers":
 		[
 			{
@@ -1757,22 +1765,22 @@
 			},
 			{
 				"Image": "PCE.png",
-				"Explanation": "You selected the flag of the Spanish Communist Party (PCE)."
+				"Explanation": "You selected the flag of the <a href=\"http://en.wikipedia.org/wiki/Communist_Party_of_Spain_(main)\">Spanish Communist Party</a> (PCE)."
 			},
 			{
 				"Image": "Popular Front.png",
-				"Explanation": "You selected the flag of the Popular Front."
+				"Explanation": "You selected the flag of the <a href=\"http://en.wikipedia.org/wiki/Popular_Front_(Spain)\">Popular Front</a>."
 			},
 			{
 				"Image": "Army of Africa.png",
-				"Explanation": "You selected the flag of the Army of Africa."
+				"Explanation": "You selected the flag of the <a href=\"http://en.wikipedia.org/wiki/Army_of_Africa_(Spain)\">Army of Africa</a>."
 			}
 		]
 	},
 	{
 		"Category": "Politics",
 		"Difficulty": "Medium",
-		"Question": "Which Spanish political party was affiliated with the USSR?",
+		"Question": "<p>Which Spanish political party was affiliated with the USSR?</p>",
 		"Answers":
 		[
 			{
@@ -1796,7 +1804,7 @@
 	{
 		"Category": "Politics",
 		"Difficulty": "Medium",
-		"Question": "Which of the follow political organisations did not have a youth movement associated with them?",
+		"Question": "<p>Which of the following political organisations did not have a youth movement associated with them?</p>",
 		"Answers":
 		[
 			{
@@ -1806,26 +1814,26 @@
 			},
 			{
 				"Text": "Spanish Falange",
-				"Explanation": "The Spanish Falange's youth movement was the OJE (Organización Juvenil Española - Spanish Youth Organisation)."
+				"Explanation": "The <a href=\"http://en.wikipedia.org/wiki/Falange\">Spanish Falange's</a> youth movement was the OJE (Organización Juvenil Española - Spanish Youth Organisation)."
 			},
 			{
 				"Text": "POUM",
-				"Explanation": "The POUM's youth movement was the JCI (Juventud Comunista Ibérica - Iberian Communist Youth)."
+				"Explanation": "The <a href=\"http://en.wikipedia.org/wiki/POUM\">POUM's</a> youth movement was the JCI (Juventud Comunista Ibérica - Iberian Communist Youth)."
 			},
 			{
 				"Text": "CNT-FAI",
-				"Explanation": "The anarchist youth movement was the FIJL (Federación Ibérica de Juventudes Libertarias - Iberian Federation of Libertarian Youth)."
+				"Explanation": "The anarchist youth movement was the <a href=\"http://en.wikipedia.org/wiki/Libertarian_Youth\">FIJL</a> (Federación Ibérica de Juventudes Libertarias, Iberian Federation of Libertarian Youth)."
 			},
 			{
 				"Text": "PSOE",
-				"Explanation": "The PSOE's youth movement was the Federacion de Juventudes Socialistas (Federation of Socialist Youth)."
+				"Explanation": "The <a href=\"http://en.wikipedia.org/wiki/PSOE\">PSOE's</a> youth movement was the Federacion de Juventudes Socialistas (Federation of Socialist Youth)."
 			}
 		]
 	},
 	{
 		"Category": "Military",
 		"Difficulty": "Hard",
-		"Question": "Which of the following was the emblem of the Air Force of the Spanish Republic during the Spanish Civil War?",
+		"Question": "<p>Which of the following was the emblem of the Air Force of the <a href=\"http://en.wikipedia.org/wiki/Second_Spanish_Republic\">Second Spanish Republic</a> during the <a href=\"http://en.wikipedia.org/wiki/Spanish_Civil_War\">Spanish Civil War</a>?</p>",
 		"Answers":
 		[
 			{
@@ -1848,14 +1856,14 @@
 	{
 		"Category": "Politics",
 		"Difficulty": "Hard",
-		"Question": "The emblem pictured on the right is the emblem of which foreign organisation that was involved in the Spanish Civil War?",
+		"Question": "<p>The emblem pictured on the right is the emblem of which foreign organisation that was involved in the <a href=\"http://en.wikipedia.org/wiki/Spanish_Civil_War\">Spanish Civil War</a>?</p>",
 		"Image": "Emblem of Viriatos Volunteers.png",
 		"Answers":
 		[
 			{
 				"Text": "Portuguese Viriatos",
 				"Score": "1",
-				"Explanation": "In the first weeks of the war the Portuguese army tried to form a Viriatos Legion to aid the right-wing insurgents in Spain. The Legion was disbanded before any recruitment drive could take place after pro-Republican incidents in Portugal convinced the government that direct intervention on the side of the Nationalists could cause further unrest. Portuguese volunteers who subsequently enlisted directly in the Spanish Foreign Legion and Carlist militias were known as Viriatos. http://en.wikipedia.org/wiki/Viriatos"
+				"Explanation": "In the first weeks of the war the Portuguese army tried to form a <a href=\"http://en.wikipedia.org/wiki/Viriatos\">Viriatos Legion</a> to aid the right-wing insurgents in Spain. The Legion was disbanded before any recruitment drive could take place after pro-Republican incidents in Portugal convinced the government that direct intervention on the side of the Nationalists could cause further unrest. Portuguese volunteers who subsequently enlisted directly in the <a href=\"http://en.wikipedia.org/wiki/Spanish_Foreign_Legion\">Spanish Foreign Legion</a> and <a href=\"http://en.wikipedia.org/wiki/Carlist\">Carlist</a> militias were known as Viriatos."
 			},
 			{
 				"Text": "German Condor Legion"
@@ -1875,7 +1883,7 @@
 	{
 		"Category": "Military",
 		"Difficulty": "Medium",
-		"Question": "What were the names of the German and Italian corps that operated in Spain during the Civil War?",
+		"Question": "<p>What were the names of the German and Italian corps that operated in Spain during the <a href=\"http://en.wikipedia.org/wiki/Spanish_Civil_War\">Civil War</a>?</p>",
 		"Image": "Condor Legion 1.png",
 		"Answers":
 		[
@@ -1897,7 +1905,7 @@
 	{
 		"Category": "Politics",
 		"Difficulty": "Easy",
-		"Question": "Identify the flag of Nationalist Spain.",
+		"Question": "<p>Identify the flag of Nationalist Spain.</p>",
 		"Answers":
 		[
 			{
@@ -1906,26 +1914,26 @@
 			},
 			{
 				"Image": "Alfonists.png",
-				"Explanation": "You chose the Alfonist flag"
+				"Explanation": "You chose the Alfonist flag."
 			},
 			{
 				"Image": "Flag of Spain (1931-1939).png",
-				"Explanation": "You chose the flag of the Second Spanish Republic"
+				"Explanation": "You chose the flag of the <a href=\"http://en.wikipedia.org/wiki/Second_Spanish_Republic\">Second Spanish Republic</a>."
 			},
 			{
 				"Image": "Falange.png",
-				"Explanation": "You chose the Spanish Falange flag"
+				"Explanation": "You chose the <a href=\"http://en.wikipedia.org/wiki/Falange\">Spanish Falange</a> flag."
 			},
 			{
 				"Image": "Portugal.png",
-				"Explanation": "You chose the Portuguese flag"
+				"Explanation": "You chose the Portuguese flag."
 			}
 		]
 	},
 	{
 		"Category": "Personalities",
 		"Difficulty": "Medium",
-		"Question": "Who used the phrase \"¡No pasarán!\" (\"They shall not pass!\") in their speech for the defence of Madrid in July 1936?",
+		"Question": "<p>Who used the phrase \"¡No pasarán!\" (\"They shall not pass!\") in their speech for the defence of Madrid in July 1936?</p>",
 		"Image": "No pasaran.png",
 		"ImageText": "\"They shall not pass!\r\nFascism wants to conquer Madrid\r\nMadrid will be the tomb of fascism\"",
 		"Answers":
@@ -1933,7 +1941,7 @@
 			{
 				"Text": "Isidora Dolores Ibárruri Gómez (La Pasionaria)",
 				"Score": "1",
-				"Explanation": "La Pasionaria (\"the Passionflower\") was a Spanish Republican leader of the Spanish Civil War, a member of the Spanish Communist Party (PCE), of Basque origin."
+				"Explanation": "<a href=\"http://en.wikipedia.org/wiki/Dolores_Ib%C3%A1rruri\">La Pasionaria</a> (the Passionflower) was a Spanish Republican leader of the <a href=\"http://en.wikipedia.org/wiki/Spanish_Civil_War\">Spanish Civil War</a> and a member of the <a href=\"http://en.wikipedia.org/wiki/Communist_Party_of_Spain_(main)\">Spanish Communist Party</a> (PCE). She was of Basque origin."
 			},
 			{
 				"Text": "Federica Montseny"
@@ -1952,7 +1960,7 @@
 	{
 		"Category": "Politics",
 		"Difficulty": "Easy",
-		"Question": "In Homage to Catalonia, George Orwell wrote: \"[Under] the surface-aspect of the town, under the luxury and growing poverty, under the seeming gaiety of the streets with their propaganda-posters, and thronging crowds, there was an unmistakable and horrible feeling of political rivalry and hatred. People of all shades of opinion were saying forebodingly: \"There's going to be trouble before long.\" The danger was quite simple and intelligible. It was the antagonism between those who wished the revolution to go forward and those who wished to check or prevent it - ultimately, between Anarchists and Communists.\"\r\n\r\nWho wanted to suspend the revolution?",
+		"Question": "<p>In <i>Homage to Catalonia</i>, George Orwell wrote: \"[Under] the surface-aspect of the town, under the luxury and growing poverty, under the seeming gaiety of the streets with their propaganda-posters, and thronging crowds, there was an unmistakable and horrible feeling of political rivalry and hatred. People of all shades of opinion were saying forebodingly: \"There's going to be trouble before long.\" The danger was quite simple and intelligible. It was the antagonism between those who wished the revolution to go forward and those who wished to check or prevent it - ultimately, between Anarchists and Communists.\"</p><p></p><p>Who wanted to suspend the revolution?</p>",
 		"Answers":
 		[
 			{
@@ -1967,13 +1975,13 @@
 	{
 		"Category": "Personalities",
 		"Difficulty": "Medium",
-		"Question": "Francisco Franco had a peculiar aversion for:",
+		"Question": "<p><a href=\"http://en.wikipedia.org/wiki/Francisco_Franco\">Francisco Franco</a> had a peculiar aversion for:</p>",
 		"Answers":
 		[
 			{
 				"Text": "Freemasons",
 				"Score": "1",
-				"Explanation": "Father Jean Tusquets and one of his close associates, Franco's personal chaplain, assembled a huge index of 80,000 suspected masons, even though there were little more than 5,000 masons in Spain. By 16 December 1937, according to the annual masonic assembly held in Madrid, all masons that had not escaped from the areas under Nationalist control had been murdered.\r\n\"We have torn up Marxist materialism and we have disorientated Masonry. We have thwarted the Satanic machinations of the clandestine Masonic superstate. Despite its control of the world’s press and numerous international politicians.\" - Francisco Franco, 11 September 1945."
+				"Explanation": "After the war, material from the Republican zone \"was converted into a massive index of 80,000 suspected Freemasons, despite the fact that there had been nearer five than ten thousand Freemasons in Spain in 1936 and that fewer than one thousand remained after 1939. These files would facilitate the purges carried out in the 1940s under the infamous Special Tribunal created to implement the Law for the Repression of Freemasonry and Communism of February 1940.\" (Paul Preston, <i>The Spanish Holocaust</i>, 2007)"
 			},
 			{
 				"Text": "Trade unionists"
@@ -1989,19 +1997,19 @@
 	{
 		"Category": "Politics",
 		"Difficulty": "Easy",
-		"Question": "Throughout the period of the Spanish Civil War, which of the following powers was not pro-Nationalist?",
+		"Question": "<p>Throughout the period of the <a href=\"http://en.wikipedia.org/wiki/Spanish_Civil_War\">Spanish Civil War</a>, which of the following powers was not pro-Nationalist?</p>",
 		"Answers":
 		[
 			{
 				"Image": "Flag of France.png",
 				"Text": "France",
 				"Score": "1",
-				"Explanation": "France was initially pro-Republican. It aided the Republic and traded war materiel. France soon ended this activity and co-organised (with the UK) the Non-Intervention Committee that effectively aided the fascists. The French government did not stay fully committed to non-intervention and the border was opened a number of times to trade war materiel."
+				"Explanation": "France was initially pro-Republican. It aided the Republic and traded war materiel. France soon ended this activity and co-organised (with the UK) the <a href=\"http://en.wikipedia.org/wiki/Non-intervention_in_the_Spanish_Civil_War\">Non-Intervention Committee</a> that effectively aided the fascists. The French government did not stay fully committed to non-intervention and the border was opened a number of times to trade war materiel."
 			},
 			{
 				"Image": "United Kingdom.png",
 				"Text": "United Kingdom",
-				"Explanation": "The UK was decidedly pro-fascist throughout the war. It sent MI6 agents to transport Franco to Spanish Morocco. It's navy defended the Nationalist controlled city of Algeciras. It co-organised (with France) the Non-Intervention Committee that effectively aided the fascists."
+				"Explanation": "The UK was decidedly pro-fascist throughout the war. It sent MI6 agents to transport Franco to Spanish Morocco. It's navy defended the Nationalist controlled city of Algeciras. It co-organised (with France) the <a href=\"http://en.wikipedia.org/wiki/Non-intervention_in_the_Spanish_Civil_War\">Non-Intervention Committee</a> that effectively aided the fascists."
 			},
 			{
 				"Image": "Flag of the United States of America.png",
@@ -2011,7 +2019,7 @@
 			{
 				"Image": "Portugal.png",
 				"Text": "Portugal",
-				"Explanation": "In the first weeks of the war the Portuguese army tried to form a Viriatos Legion to aid the right-wing insurgents in Spain. The Legion was disbanded before any recruitment drive could take place after pro-Republican incidents in Portugal. Portugal contributed money, munitions, manpower and support to Nationalist forces throughout the war."
+				"Explanation": "In the first weeks of the war the Portuguese army tried to form a <a href=\"http://en.wikipedia.org/wiki/Viriatos\">Viriatos Legion</a> to aid the right-wing insurgents in Spain. The Legion was disbanded before any recruitment drive could take place after pro-Republican incidents in Portugal. Portugal contributed money, munitions, manpower and support to Nationalist forces throughout the war."
 			},
 			{
 				"Image": "Blank flag.png",
@@ -2023,7 +2031,7 @@
 	{
 		"Category": "Politics",
 		"Difficulty": "Easy",
-		"Question": "The two main belligerents of the Spanish Civil War were:",
+		"Question": "<p>The two main belligerents of the <a href=\"http://en.wikipedia.org/wiki/Spanish_Civil_War\">Spanish Civil War</a> were:</p>",
 		"Answers":
 		[
 			{
@@ -2044,10 +2052,10 @@
 	{
 		"Category": "Politics",
 		"Difficulty": "Medium",
-		"Question": "The anarchist movement in Spain, like much of Europe at the time, was only influential with peasants in the rural regions of Spain. Anarchism did not have much appeal to the Spanish working class.",
+		"Question": "<p>The anarchist movement in Spain, like much of Europe at the time, was only influential with peasants in the rural regions of Spain. Anarchism did not have much appeal to the Spanish working class.</p>",
 		"Image": "Industry and Agriculture.jpg",
 		"ImageText": "\"Industry\r\nAgriculture\r\nEverything for the front\"",
-		"Explanation": "Large rural areas of Spain (Andalusia, Aragón, the Levant) had a large anarchist base. However, anarchism was popular in some of the most industrialised cities of Spain, such as Barcelona, Madrid, Zaragoza and Valencia. Anarcho-syndicalism, a predominantly industrial tendency of anarchism, was one of the largest movements in Spain.",
+		"Explanation": "Large rural areas of Spain (Andalusia, Aragón, the Levant) had a large anarchist base. However, anarchism was popular in some of the most industrialised cities of Spain, such as Barcelona, Madrid, Zaragoza and Valencia. <a href=\"http://en.wikipedia.org/wiki/Anarcho-syndicalism\">Anarcho-syndicalism</a>, a predominantly industrial tendency of anarchism, was one of the largest movements in Spain.",
 		"Answers":
 		[
 			{
@@ -2062,7 +2070,7 @@
 	{
 		"Category": "Politics",
 		"Difficulty": "Easy",
-		"Question": "What was the most prevalent anarchist tendency in Spain up to and during the Civil War?",
+		"Question": "<p>What was the most prevalent anarchist tendency in Spain up to and during the <a href=\"http://en.wikipedia.org/wiki/Spanish_Civil_War\">Civil War</a>?</p>",
 		"Image": "Columna de Hierro poster 2.jpg",
 		"ImageText": "\"Iron Column\r\nFor a free humanity!\r\nFor anarchy!\"",
 		"Answers":
@@ -2088,7 +2096,7 @@
 	{
 		"Category": "Politics",
 		"Difficulty": "Hard",
-		"Question": "What was the smallest organisational unit of the FAI (Federation of Iberian Anarchists)?",
+		"Question": "<p>What was the smallest organisational unit of the <a href=\"http://en.wikipedia.org/wiki/Federaci%C3%B3n_Anarquista_Ib%C3%A9rica\">Federation of Iberian Anarchists</a> (FAI)?</p>",
 		"Answers":
 		[
 			{
@@ -2112,7 +2120,7 @@
 	{
 		"Category": "Politics",
 		"Difficulty": "Hard",
-		"Question": "What was the relationship between the FAI and AIT?",
+		"Question": "<p>What was the relationship between the <a href=\"http://en.wikipedia.org/wiki/Federaci%C3%B3n_Anarquista_Ib%C3%A9rica\">FAI</a> and <a href=\"http://en.wikipedia.org/wiki/International_Workers'_Association\">AIT</a>?</p>",
 		"Image": "Camarada.jpg",
 		"ImageText": "\"Comrade!\r\nWork and struggle for the revolution\"",
 		"Answers":
@@ -2135,10 +2143,10 @@
 	{
 		"Category": "Military",
 		"Difficulty": "Medium",
-		"Question": "The fascist Italian state, under control by Benito Mussolini, contributed how many Italian troops to the Nationalist's cause during the Civil War?",
+		"Question": "<p>The fascist Italian state, under control by <a href=\"http://en.wikipedia.org/wiki/Benito_Mussolini\">Benito Mussolini</a>, contributed how many Italian troops to the Nationalist's cause during the <a href=\"http://en.wikipedia.org/wiki/Spanish_Civil_War\">Civil War</a>?</p>",
 		"Image": "La garra del invasor Italiano.png",
 		"ImageText": "\"The claw of the Italian invader intends to enslave us\"",
-		"Explanation": "\"Such was the scale of Mussolini's aid in weaponry and manpower (75,000 troops), we can say that from March 1937 Fascist Italy was at war with the Spanish Republic.\" - Helen Graham, <i>The Spanish Civil War: A very short introduction</i>",
+		"Explanation": "\"Such was the scale of Mussolini's aid in weaponry and manpower (75,000 troops), we can say that from March 1937 Fascist Italy was at war with the <a href=\"http://en.wikipedia.org/wiki/Second_Spanish_Republic\">Second Spanish Republic</a>.\" (Helen Graham, <i>The Spanish Civil War: A very short introduction</i>)",
 		"Answers":
 		[
 			{
@@ -2159,7 +2167,7 @@
 	{
 		"Category": "Personalities",
 		"Difficulty": "Medium",
-		"Question": "In an interview with Jay Allen, Francisco Franco stated: \"I will save Spain from Marxism whatever the cost.\"\r\nAllen then asked: \"And if that means shooting half of Spain?\"\r\nWhat was Franco's famous response?",
+		"Question": "<p>In an interview with Jay Allen, <a href=\"http://en.wikipedia.org/wiki/Francisco_Franco\">Francisco Franco</a> stated: \"I will save Spain from Marxism whatever the cost.\"</p><p>Allen then asked: \"And if that means shooting half of Spain?\"</p><p>What was Franco's famous response?</p>",
 		"Image": "Franco painting.png",
 		"Answers":
 		[
@@ -2182,14 +2190,14 @@
 	{
 		"Category": "Personalities",
 		"Difficulty": "Medium",
-		"Question": "Who was regarded as \"the blue-eyed Lenin of the Spanish Revolution\"?",
+		"Question": "<p>Who was regarded as \"the blue-eyed Lenin of the <a href=\"http://en.wikipedia.org/wiki/Spanish_Revolution\">Spanish Revolution</a>\"?</p>",
 		"Image": "Largo Caballero.jpg",
 		"Answers":
 		[
 			{
 				"Text": "Largo Caballero",
 				"Score": "1",
-				"Explanation": "Largo Caballero was one of the historic leaders of the Spanish Socialist Workers' Party (PSOE) and of the Workers' General Union (UGT). In 1936 and 1937 Caballero served as the Prime Minister of the Second Spanish Republic during the Spanish Civil War."
+				"Explanation": "<a href=\"http://en.wikipedia.org/wiki/Largo_Caballero\">Largo Caballero</a> was one of the historic leaders of the <a href=\"http://en.wikipedia.org/wiki/PSOE\">Spanish Socialist Workers' Party</a> (PSOE) and of the <a href=\"http://en.wikipedia.org/wiki/Uni%C3%B3n_General_de_Trabajadores\">General Union of Workers</a> (UGT). In 1936 and 1937 Caballero served as the Prime Minister of the <a href=\"http://en.wikipedia.org/wiki/Second_Spanish_Republic\">Second Spanish Republic</a> during the <a href=\"http://en.wikipedia.org/wiki/Spanish_Civil_War\">Spanish Civil War</a>."
 			},
 			{
 				"Text": "Juan Negrín"
@@ -2208,7 +2216,7 @@
 	{
 		"Category": "Military",
 		"Difficulty": "Medium",
-		"Question": "The Army of Africa was composed of which military forces?",
+		"Question": "<p>The <a href=\"http://en.wikipedia.org/wiki/Army_of_Africa_(Spain)\">Army of Africa</a> was composed of which military forces?</p>",
 		"Image": "Moorish troops near Navalcanero 30 October 1936.png",
 		"Answers":
 		[
@@ -2230,7 +2238,7 @@
 	{
 		"Category": "Military",
 		"Difficulty": "Medium",
-		"Question": "Which of the following military offensives of the Spanish Civil War was not a defeat for the Republicans?",
+		"Question": "<p>Which of the following military offensives of the <a href=\"http://en.wikipedia.org/wiki/Spanish_Civil_War\">Spanish Civil War</a> was not a defeat for the Republicans?</p>",
 		"Image": "Savoia-Marchetti SM.81 and Fiat CR.32.jpg",
 		"ImageText": "Italian Savoia Marchetti SM.81 bombers with Fiat CR.32 fighters",
 		"Answers":
@@ -2238,7 +2246,7 @@
 			{
 				"Text": "Battle for Madrid",
 				"Score": "1",
-				"Explanation": "The Battle for Madrid ended in stalemate in November 1936 with Republican and Nationalist forces exhausted. The Siege of Madrid continued until 28 March 1939 when Nationalist forces entered the city after the collapse of the Republican front."
+				"Explanation": "The <a href=\"http://en.wikipedia.org/wiki/Siege_of_Madrid\">Battle for Madrid</a> ended in stalemate in November 1936 with Republican and Nationalist forces exhausted. The Siege of Madrid continued until 28 March 1939 when Nationalist forces entered the city after the collapse of the Republican front."
 			},
 			{
 				"Text": "Battle of the Ebro"
@@ -2258,7 +2266,7 @@
 	{
 		"Category": "Military",
 		"Difficulty": "Medium",
-		"Question": "The purpose of the battles of Corunna Road, Jarama and Guadalajara was to encircle Madrid, cut-off supply from Valencia and defeat the city of Madrid.",
+		"Question": "<p>The purpose of the battles of <a href=\"http://en.wikipedia.org/wiki/Second_Battle_of_the_Corunna_Road\">Corunna Road</a>, <a href=\"http://en.wikipedia.org/wiki/Battle_of_Jarama\">Jarama</a> and <a href=\"http://en.wikipedia.org/wiki/Battle_of_Guadalajara\">Guadalajara</a> was to encircle Madrid, cut-off supply from Valencia and defeat the city of Madrid.</p>",
 		"Answers":
 		[
 			{
@@ -2274,7 +2282,7 @@
 	{
 		"Category": "Military",
 		"Difficulty": "Medium",
-		"Question": "The pictured poster mentions July 1936, in reference to the Battle for Madrid. Which military offensive does the date of July 1937 refer?",
+		"Question": "<p>The pictured poster mentions July 1936, in reference to the <a href=\"http://en.wikipedia.org/wiki/Siege_of_Madrid\">Battle for Madrid</a>. Which military offensive does the date of July 1937 refer?</p>",
 		"Image": "No Pasaran, pasaremos.jpg",
 		"ImageText": "They shall not pass! - July 1936\r\nJuly 1937 - We will pass!",
 		"Answers":
@@ -2282,7 +2290,7 @@
 			{
 				"Text": "Battle of Brunete",
 				"Score": "1",
-				"Explanation": "The Battle of Brunete (6 July – 25 July 1937), fought 15 miles west of Madrid, was a Republican attempt to alleviate the pressure exerted by the Nationalists on the capital and on the north during the Spanish Civil War. Although initially successful, the Republicans were forced to retreat from Brunete and suffered devastating casualties from the battle."
+				"Explanation": "The <a href=\"http://en.wikipedia.org/wiki/Battle_of_Brunete\">Battle of Brunete</a> (6 July – 25 July 1937), fought 15 miles west of Madrid, was a Republican attempt to alleviate the pressure exerted by the Nationalists on the capital and on the north during the <a href=\"http://en.wikipedia.org/wiki/Spanish_Civil_War\">Spanish Civil War</a>. Although initially successful, the Republicans were forced to retreat from Brunete and suffered devastating casualties from the battle."
 			},
 			{
 				"Text": "Zaragoza Offensive"
@@ -2298,13 +2306,13 @@
 	{
 		"Category": "Politics",
 		"Difficulty": "Easy",
-		"Question": "In 1939 the Prime Minister of the Second Spanish Republic, Juan Negrín said:\r\n\r\n\"To fight on because there was no other choice, even if winning was not possible, then to salvage what we could – and at the very end our self respect... Why go on resisting? Quite simply because we knew what capitulation would mean.\"\r\n\r\nWhat did capitulation mean?",
+		"Question": "<p>In 1939 the Prime Minister of the <a href=\"http://en.wikipedia.org/wiki/Second_Spanish_Republic\">Second Spanish Republic</a>, <a href=\"http://en.wikipedia.org/wiki/Juan_Negr%C3%ADn\">Juan Negrín</a> said:</p><p></p><p>\"To fight on because there was no other choice, even if winning was not possible, then to salvage what we could – and at the very end our self respect... Why go on resisting? Quite simply because we knew what capitulation would mean.\"</p><p></p><p>What did capitulation mean?</p>",
 		"Answers":
 		[
 			{
 				"Text": "The White Terror",
 				"Score": "1",
-				"Explanation": "The White Terror in Spain began at the start of the rebellion, intensified at the Nationalist victory and continued for years after of the war. There were tens of thousands of executions, hundreds of thousands of people imprisoned in concentration camps and tens of thousands forced into slave labour."
+				"Explanation": "The <a href=\"http://en.wikipedia.org/wiki/White_Terror_(Spain)\">White Terror</a> began at the start of the rebellion, intensified at the Nationalist victory and continued for years after of the war. There were tens of thousands of executions, hundreds of thousands of people imprisoned in concentration camps and tens of thousands forced into slave labour."
 			},
 			{
 				"Text": "The start of the Second World War"
@@ -2324,13 +2332,13 @@
 	{
 		"Category": "Politics",
 		"Difficulty": "Medium",
-		"Question": "Zaragoza, the capital of Aragón, was one of the key anarchist centres of Spain. Nevertheless, unlike other anarchist centres (e.g., Barcelona) and many other major Spanish cities, it was captured by the rebels at the beginning of the military coup.",
+		"Question": "<p>Zaragoza, the capital of Aragón, was one of the key anarchist centres of Spain. Nevertheless, unlike other anarchist centres (e.g., Barcelona) and many other major Spanish cities, it was captured by the rebels at the beginning of the military <a href=\"http://en.wikipedia.org/wiki/Spanish_coup_of_July_1936\">coup</a>.</p>",
 		"Answers":
 		[
 			{
 				"Text": "True",
 				"Score": "0.5",
-				"Explanation": "The Durruti Column, along with many other militias, unsuccessfully attempted to capture Zaragoza early in the Civil War. One of the objectives of the Battle of Belchite, fought between 24 August and 7 September 1937, was to take Zaragoza which was only a few kilometres behind Nationalist lines. This offensive failed to capture Zaragoza and it remained Nationalist controlled throughout the war."
+				"Explanation": "The <a href=\"http://en.wikipedia.org/wiki/Durruti_Column\">Durruti Column</a>, along with many other militias, unsuccessfully attempted to capture Zaragoza early in the <a href=\"http://en.wikipedia.org/wiki/Spanish_Civil_War\">Civil War</a>. One of the objectives of the <a href=\"http://en.wikipedia.org/wiki/Battle_of_Belchite_(1937)\">Battle of Belchite</a>, fought between 24 August and 7 September 1937, was to take Zaragoza which was only a few kilometres behind Nationalist lines. This offensive failed to capture Zaragoza and it remained Nationalist controlled throughout the war."
 			},
 			{
 				"Text": "False"
@@ -2341,13 +2349,13 @@
 	{
 		"Category": "Politics",
 		"Difficulty": "Easy",
-		"Question": "Franco forced the unification of the Spanish Falange, Carlists, Alfonists and CEDA into a single Nationalist movement under his control. Similarly, the Republic forced the CNT-FAI, UGT, POUM and other republican factions into a single movement.",
+		"Question": "<p><a href=\"http://en.wikipedia.org/wiki/Francisco_Franco\">Francisco Franco</a> forced the unification of the <a href=\"http://en.wikipedia.org/wiki/Falange\">Spanish Falange</a>, <a href=\"http://en.wikipedia.org/wiki/Carlist\">Carlists</a>, Alfonists and <a href=\"http://en.wikipedia.org/wiki/CEDA\">CEDA</a> into a single Nationalist movement under his control. Similarly, the Republic forced the <a href=\"http://en.wikipedia.org/wiki/Confederaci%C3%B3n_Nacional_del_Trabajo\">CNT-FAI</a>, <a href=\"http://en.wikipedia.org/wiki/Uni%C3%B3n_General_de_Trabajadores\">UGT</a>, <a href=\"http://en.wikipedia.org/wiki/POUM\">POUM</a> and other republican factions into a single movement.</p>",
 		"Answers":
 		[
 			{
 				"Text": "True",
 				"Score": "0.5",
-				"Explanation": "The Republic outlawed the POUM and arrested and tried the POUM leaders. CNT-FAI dominated committees (such as the Regional Defense Council of Aragón) were dissolved. The industrial and agricultural collectives in Aragón, Catalonia and elsewhere were broken-up and pre-1936 property ownership was re-established. Pre-revolution social relationships were restored, effectively ending the social revolution. The militia, organised by the POUM, CNT-FAI and other political parties were absorbed into the Republican army."
+				"Explanation": "The Republic outlawed the POUM and arrested and tried the POUM leaders. CNT-FAI dominated committees (such as the <a href=\"http://en.wikipedia.org/wiki/Regional_Defence_Council_of_Aragon\">Regional Defence Council of Aragon</a>) were dissolved. The industrial and agricultural collectives in Aragón, Catalonia and elsewhere were broken-up and pre-1936 property ownership was re-established. Pre-revolution social relationships were restored, effectively ending the <a href=\"http://en.wikipedia.org/wiki/Spanish_Revolution\">Social Revolution</a>. The militia, organised by the POUM, CNT-FAI and other political parties were absorbed into the Republican army."
 			},
 			{
 				"Text": "False"
@@ -2357,7 +2365,7 @@
 	{
 		"Category": "Culture",
 		"Difficulty": "Medium",
-		"Question": "What was the name of the film made by Ernest Hemingway, John Dos Passos and Joris Ivens in 1937?",
+		"Question": "<p>What was the name of the film made by <a href=\"http://en.wikipedia.org/wiki/Ernest_Hemingway\">Ernest Hemingway</a>, <a href=\"http://en.wikipedia.org/wiki/John_Dos_Passos\">John Dos Passos</a> and <a href=\"http://en.wikipedia.org/wiki/Joris_Ivens\">Joris Ivens</a> in 1937?</p>",
 		"Image": "Hemingway-Capa.jpg",
 		"Answers":
 		[
@@ -2379,7 +2387,7 @@
 	{
 		"Category": "Politics",
 		"Difficulty": "Medium",
-		"Question": "The Iron Column was part of which Spanish political faction?",
+		"Question": "<p>The <a href=\"http://en.wikipedia.org/wiki/Iron_Column\">Iron Column</a> was part of which Spanish political faction?</p>",
 		"Image": "Column de Hierro poster.jpg",
 		"ImageText": "\"Iron Column\r\nPeasant, the revolution will give you land.\"",
 		"Answers":
@@ -2402,14 +2410,14 @@
 	{
 		"Category": "Personalities",
 		"Difficulty": "Hard",
-		"Question": "Who said: \"Our brave Legionaries and Regulares have shown the red cowards what it means to be a man. And, incidentally the wives of reds too. These Communist and Anarchist women, after all, have made themselves fair game by their doctrine of free love. And now they have at least the acquaintance of real men, and not milksops of militiamen. Kicking their legs about and struggling won't save them.\"",
+		"Question": "<p>Who said: \"Our brave Legionaries and Regulares have shown the red cowards what it means to be a man. And, incidentally the wives of reds too. These Communist and Anarchist women, after all, have made themselves fair game by their doctrine of free love. And now they have at least the acquaintance of real men, and not milksops of militiamen. Kicking their legs about and struggling won't save them.\"</p>",
 		"Image": "Gonzalo Queipo de Llano.jpg",
 		"Answers":
 		[
 			{
 				"Text": "Gonzalo Queipo de Llano",
 				"Score": "1",
-				"Explanation": "During the Spanish Civil War, de Llano secured the capture of Seville with a force of at least 4,000 troops. Subsequently, he was appointed the commander of the Nationalist Army of the South. His influence began to decline in February 1938, when Francisco Franco named himself Sole Head of the New State and appointed his brother-in-law Ramón Serrano Súñer Minister of the Interior and Propaganda."
+				"Explanation": "During the <a href=\"http://en.wikipedia.org/wiki/Spanish_Civil_War\">Spanish Civil War</a>, <a href=\"http://en.wikipedia.org/wiki/Gonzalo_Queipo_de_Llano\">de Llano</a> secured the capture of Seville with a force of at least 4,000 troops. Subsequently, he was appointed the commander of the Nationalist Army of the South. His influence began to decline in February 1938, when <a href=\"http://en.wikipedia.org/wiki/Francisco_Franco\">Francisco Franco</a> named himself Sole Head of the New State and appointed his brother-in-law Ramón Serrano Súñer Minister of the Interior and Propaganda."
 			},
 			{
 				"Text": "Francisco Franco"
@@ -2425,7 +2433,7 @@
 	{
 		"Category": "Military",
 		"Difficulty": "Hard",
-		"Question": "Which of the following was an anarchist division of Spanish militia?",
+		"Question": "<p>Which of the following was an anarchist division of Spanish militia?</p>",
 		"Answers":
 		[
 			{
@@ -2437,7 +2445,7 @@
 			},
 			{
 				"Text": "29th Division",
-				"Explanation": "The 29th Division was a POUM division on the Aragón front."
+				"Explanation": "The 29th Division was a <a href=\"http://en.wikipedia.org/wiki/POUM\">POUM</a> division on the Aragón front."
 			},
 			{
 				"Text": "All of the above",
@@ -2448,8 +2456,8 @@
 	{
 		"Category": "Military",
 		"Difficulty": "Easy",
-		"Question": "About 32,000 foreign volunteers, organised by the Comintern, fought for the Spanish Republic. The USSR also supplied war materiel and personnel (around 3,000 people). The Nationalists received fair less international volunteers and were forced to fight against international communism alone.",
-		"Explanation": "About 75,000 soldiers of the Italian army fought in Spain for the Nationalists. About 16,000 German military personnel fought mostly as pilots, ground crew, artillery men, in tanks, and as military advisers and instructors. About 75,000 Moroccan mercenaries (the Regulares) fought in the Nationalist ranks. Around 8,000 troops came from Portugal. - http://en.wikipedia.org/wiki/Foreign_involvement_in_the_Spanish_Civil_War",
+		"Question": "<p>About 32,000 foreign volunteers, organised by the <a href=\"http://en.wikipedia.org/wiki/Comintern\">Comintern</a>, fought for the <a href=\"http://en.wikipedia.org/wiki/Second_Spanish_Republic\">Second Spanish Republic</a>. The USSR also supplied war materiel and personnel (around 3,000 people). The Nationalists received fair less international volunteers and were forced to fight against international communism alone.</p>",
+		"Explanation": "About 75,000 soldiers of the Italian army fought in Spain for the Nationalists. About 16,000 German military personnel fought mostly as pilots, ground crew, artillery men, in tanks, and as military advisers and instructors. About 75,000 Moroccan mercenaries (the Regulares) fought in the Nationalist ranks. Around 8,000 troops came from Portugal. (<a href=\"http://en.wikipedia.org/wiki/Foreign_involvement_in_the_Spanish_Civil_War\">Foreign involvement in the Spanish Civil War</a>)",
 		"Answers":
 		[
 			{
@@ -2464,17 +2472,17 @@
 	{
 		"Category": "Culture",
 		"Difficulty": "Hard",
-		"Question": "Which of the following Spanish Civil War posters is not a poster of the revolutionary left?",
+		"Question": "<p>Which of the following <a href=\"http://en.wikipedia.org/wiki/Spanish_Civil_War\">Spanish Civil War</a> posters is not a poster of the revolutionary left?</p>",
 		"Answers":
 		[
 			{
 				"Image": "Izquierda Republicana.jpg",
 				"Score": "1",
-				"Explanation": "\"Republican Left\r\n\"Defend smallholdings on pain of death to the thief\"\r\n\r\nThe Republican Left (Izquierda Republicana) formed in 1934. It received the 3rd highest number of votes in the 1936 election where it was part of the Popular Front. Like the Republican Union (Unión Republicana) it was neither socialist nor revolutionary."
+				"Explanation": "\"<a href=\"http://en.wikipedia.org/wiki/Republican_Left_(Spain)\">Republican Left</a></p><p>\"Defend smallholdings on pain of death to the thief\"</p><p></p><p>The Republican Left (Izquierda Republicana) formed in 1934. It received the 3rd highest number of votes in the 1936 election where it was part of the <a href=\"http://en.wikipedia.org/wiki/Popular_Front_(Spain)\">Popular Front</a>. Like the Republican Union (Unión Republicana) it was neither socialist nor revolutionary."
 			},
 			{
 				"Image": "Alplastar al fascismo.jpg",
-				"Explanation": "You chose an anarchist poster that reads: \"19 July 1936\r\n\"and always our common objective\r\n\"Crush fascism!\r\n\"Propaganda office CNT FAI JJIL\""
+				"Explanation": "You chose an anarchist poster that reads: \"19 July 1936</p><p>\"and always our common objective</p><p>\"Crush fascism!</p><p>\"Propaganda office <a href=\"http://en.wikipedia.org/wiki/Confederaci%C3%B3n_Nacional_del_Trabajo\">CNT</a> <a href=\"http://en.wikipedia.org/wiki/Federaci%C3%B3n_Anarquista_Ib%C3%A9rica\">FAI</a> JJIL\""
 			},
 			{
 				"Image": "CNT and UGT.png",
@@ -2482,31 +2490,31 @@
 			},
 			{
 				"Image": "Columna de Hierro poster 2.jpg",
-				"Explanation": "You chose an anarchist poster that reads:\r\n\"Iron Column\r\n\"For a free humanity!\r\n\"For anarchy!\""
+				"Explanation": "You chose an anarchist poster that reads:</p><p>\"<a href=\"http://en.wikipedia.org/wiki/Iron_Column\">Iron Column</a></p><p>\"For a free humanity!</p><p>\"For anarchy!\""
 			},
 			{
 				"Image": "Union Discipline - POUM.png",
-				"Explanation": "You chose an anarchist poster that reads:\r\n\r\n\"Union! Discipline for socialism! - POUM\""
+				"Explanation": "You chose an anarchist poster that reads:</p><p></p><p>\"Union! Discipline for socialism! - <a href=\"http://en.wikipedia.org/wiki/POUM\">POUM</a>\""
 			}
 		]
 	},
 	{
 		"Category": "Social",
 		"Difficulty": "Medium",
-		"Question": "In July 1938, eight months before the end of the war, Franco announced that there had already been a total of 470,000 murders in the Republican zone. Since the end of the war, that number has been revised. What is the estimated number of killings that occurred during the Spanish Civil War due to the Red Terror (i.e., killings within the Republican zone)?",
+		"Question": "<p>In July 1938, eight months before the end of the war, Franco announced that there had already been a total of 470,000 murders in the Republican zone. Since the end of the war, that number has been revised. What is the estimated number of killings that occurred during the <a href=\"http://en.wikipedia.org/wiki/Spanish_Civil_War\">Spanish Civil War</a> due to the Red Terror (i.e., killings within the Republican zone)?</p>",
 		"Answers":
 		[
 			{
 				"Text": "50,000",
 				"Score": "1",
-				"Explanation": "\"The most reliable recent figure, produced by the foremost expert on the subject, José Luis Ledesma, is 49,272. However, uncertainty over the scale of the killings in Republican Madrid could see that figure rise. Even for areas where reliable studies exist, new information and excavations of common graves see the numbers being revised constantly, albeit within relatively small parameters.\" - Paul Preston, <i>The Spanish Holocaust</i>, 2007"
+				"Explanation": "\"The most reliable recent figure, produced by the foremost expert on the subject, José Luis Ledesma, is 49,272. However, uncertainty over the scale of the killings in Republican Madrid could see that figure rise. Even for areas where reliable studies exist, new information and excavations of common graves see the numbers being revised constantly, albeit within relatively small parameters.\" (Paul Preston, <i>The Spanish Holocaust</i>, 2007)"
 			},
 			{
 				"Text": "530,000"
 			},
 			{
 				"Text": "85,000",
-				"Explanation": "\"To prove the scale of Republican iniquity to the world, on 26 April 1940 [Franco] set up a massive state investigation, the Causa General, 'to gather trustworthy information' [...] the Causa General concluded that the number of deaths was 85,940. Although inflated and including many duplications, this figure was still so far below Franco's claims that, for over a quarter of a century, it was omitted from editions of the published résumé of the Causa General's findings.\" - Paul Preston, <i>The Spanish Holocaust</i>, 2007"
+				"Explanation": "\"To prove the scale of Republican iniquity to the world, on 26 April 1940 [Franco] set up a massive state investigation, the Causa General, 'to gather trustworthy information' [...] the Causa General concluded that the number of deaths was 85,940. Although inflated and including many duplications, this figure was still so far below Franco's claims that, for over a quarter of a century, it was omitted from editions of the published résumé of the Causa General's findings.\" (Paul Preston, <i>The Spanish Holocaust</i>, 2007)"
 			},
 			{
 				"Text": "250,000"
@@ -2519,13 +2527,13 @@
 	{
 		"Category": "Social",
 		"Difficulty": "Hard",
-		"Question": "\"[In] Badajoz, there were 1,437 victims of the left as against 8,914 victims of the rebels; in Seville, 447 victims of the left, 12,507 victims of the rebels; in Cádiz, 97 victims of the left, 3,071 victims of the rebels; and in Huelva, 101 victims of the left, 6,019 victims of the rebels. In places where there was no Republican violence, the figures for rebel killings are almost incredible, for example Navarre, 3,280, La Rioja, 1,977.\" - Paul Preston, <i>The Spanish Holocaust</i>, 2007\r\n\r\nThere were significantly more killings by the the left than by the rebels in only one city. Which city was it?",
+		"Question": "<p>\"[In] Badajoz, there were 1,437 victims of the left as against 8,914 victims of the rebels; in Seville, 447 victims of the left, 12,507 victims of the rebels; in Cádiz, 97 victims of the left, 3,071 victims of the rebels; and in Huelva, 101 victims of the left, 6,019 victims of the rebels. In places where there was no Republican violence, the figures for rebel killings are almost incredible, for example Navarre, 3,280, La Rioja, 1,977.\" (Paul Preston, <i>The Spanish Holocaust</i>, 2007)</p><p></p><p>There were significantly more killings by the the left than by the rebels in only one city. Which city was it?</p>",
 		"Answers":
 		[
 			{
 				"Text": "Madrid",
 				"Score": "1",
-				"Explanation": "\"The killings throughout the war when the capital was under Republican control seem to have been nearer three times those carried out after the rebel occupation.\" - Paul Preston, <i>The Spanish Holocaust</i>, 2007\r\n\r\nMost of the killings occurred during the Paracuellos massacres, an attempt by the Republic to eliminate the fifth column during the Battle for Madrid."
+				"Explanation": "\"The killings throughout the war when the capital was under Republican control seem to have been nearer three times those carried out after the rebel occupation.\" (Paul Preston, <i>The Spanish Holocaust</i>, 2007)</p><p></p><p>Most of the killings occurred during the <a href=\"http://en.wikipedia.org/wiki/Paracuellos_massacres\">Paracuellos massacres</a>, an attempt by the Republic to eliminate the fifth column during the <a href=\"http://en.wikipedia.org/wiki/Siege_of_Madrid\">Battle for Madrid</a>."
 			},
 			{
 				"Text": "Zaragoza",
@@ -2545,19 +2553,19 @@
 	{
 		"Category": "Military",
 		"Difficulty": "Hard",
-		"Question": "Which of the following was the most effective fighter aircraft of the Republic?",
+		"Question": "<p>Which of the following was the most effective fighter aircraft of the Republic?</p>",
 		"Answers":
 		[
 			{
 				"Image": "Polikarpov I-16 Mosca.jpg",
 				"Text": "Polikarpov I-16 Mosca",
 				"Score": "1",
-				"Explanation": "The successor to the Chato, over 280 Mosca Soviet fighters flew for the Spanish Republic during the war. The Mosca (\"housefly\") was also called the \"Rata\" (rat) by the Nationalists."
+				"Explanation": "The successor to the Chato, over 280 <a href=\"http://en.wikipedia.org/wiki/Polikarpov_I-16\">Mosca</a> Soviet fighters flew for the <a href=\"http://en.wikipedia.org/wiki/Second_Spanish_Republic\">Second Spanish Republic</a> during the war. The Mosca (\"housefly\") was also called the \"Rata\" (rat) by the Nationalists."
 			},
 			{
 				"Image": "Polikarpov I-15 Chato.jpg",
 				"Text": "Polikarpov I-15 Chato",
-				"Explanation": "The Chato (\"snubnose\") was the main Republican fighter of the war. 155 were delivered from the USSR and the Republic built 240."
+				"Explanation": "The <a href=\"http://en.wikipedia.org/wiki/Polikarpov_I-15\">Chato</a> (\"snubnose\") was the main Republican fighter of the war. 155 were delivered from the USSR and the Republic built 240."
 			},
 			{
 				"Image": "Grumman G-23 Delfin.jpg",
@@ -2566,26 +2574,26 @@
 			{
 				"Image": "Messerschmitt Bf 109B.png",
 				"Text": "Messerschmitt Bf 109",
-				"Explanation": "Although the Republic bought aircraft from Focke-Wulf, they did not have any Messerschmitt Bf109s."
+				"Explanation": "Although the Republic bought aircraft from Focke-Wulf, they did not have any <a href=\"http://en.wikipedia.org/wiki/Bf_109\">Messerschmitt Bf109s</a>."
 			}
 		]
 	},
 	{
 		"Category": "Military",
 		"Difficulty": "Hard",
-		"Question": "Which of the following aircraft was the main plane used by the Nationalists to transport soldiers of the Army of Africa from Morocco to Spain during the first few months of the war (July to October 1936)?",
+		"Question": "<p>Which of the following aircraft was the main plane used by the Nationalists to transport soldiers of the <a href=\"http://en.wikipedia.org/wiki/Army_of_Africa_(Spain)\">Army of Africa</a> from Morocco to Spain during the first few months of the war (July to October 1936)?</p>",
 		"Answers":
 		[
 			{
 				"Image": "Junkers Ju 52.png",
 				"Text": "Junkers Ju 52",
 				"Score": "1",
-				"Explanation": "The German Junkers Ju 52 was a transport plane that would also see service as a bomber, though it was an easy target for the Soviet Chatos and Moscas."
+				"Explanation": "The German <a href=\"http://en.wikipedia.org/wiki/Junkers_Ju_52\">Junkers Ju 52</a> was a transport plane that would also see service as a bomber, though it was an easy target for the Soviet <a href=\"http://en.wikipedia.org/wiki/Polikarpov_I-15\">Chatos</a> and <a href=\"http://en.wikipedia.org/wiki/Polikarpov_I-16\">Moscas</a>."
 			},
 			{
 				"Image": "Nationalist Tupolev SB 2M-100A.jpg",
 				"Text": "Tupolev SB",
-				"Explanation": "The Tupolev SB was a Soviet manufactured bomber. What Nationalist operated Tupolev SBs there were would have been captured from the Republicans."
+				"Explanation": "The <a href=\"http://en.wikipedia.org/wiki/Tupolev_SB\">Tupolev SB</a> was a Soviet manufactured bomber. What Nationalist operated Tupolev SBs there were would have been captured from the Republicans."
 			},
 			{
 				"Image": "Heinkel He 111.png",
@@ -2594,14 +2602,14 @@
 			{
 				"Image": "Savoia-Marchetti SM.81.png",
 				"Text": "Savoia-Marchetti SM.81",
-				"Explanation": "The Italian Savoia-Marchetti SM.81 was used to transport Moroccan troops, though there were far fewer of them than the Junkers Ju 52."
+				"Explanation": "The Italian <a href=\"http://en.wikipedia.org/wiki/Savoia-Marchetti_SM.81\">Savoia-Marchetti SM.81</a> was used to transport Moroccan troops, though there were far fewer of them than the Junkers Ju 52."
 			}
 		]
 	},
 	{
 		"Category": "Culture",
 		"Difficulty": "Medium",
-		"Question": "Which of the following posters is not a pro-Republican poster?",
+		"Question": "<p>Which of the following posters is not a pro-Republican poster?</p>",
 		"DynamicImage": "true",
 		"Answers":
 		[
@@ -2613,7 +2621,7 @@
 			},
 			{
 				"Image": "Socialism is Liberation.jpg",
-				"Explanation": "You chose a POUM poster saying \"Socialism is Liberation\"."
+				"Explanation": "You chose a <a href=\"http://en.wikipedia.org/wiki/POUM\">POUM</a> poster saying \"Socialism is Liberation\"."
 			},
 			{
 				"Image": "Un Borracho.jpg",
@@ -2625,20 +2633,20 @@
 			},
 			{
 				"Image": "The Ultraleftist.jpg",
-				"Explanation": "You chose a pro-Republican but anti-revolutionary poster of the SRI (a Comintern ally). It says:\r\n\"The Ultraleftist:\r\nThe ambusher wears many disguises to assassinate from under cover!\r\nWe annihilate him wherever we find him!\"\r\nThis poster was probably directed against CNT-FAI or POUM militants."
+				"Explanation": "You chose a pro-Republican but anti-revolutionary poster of the SRI (a <a href=\"http://en.wikipedia.org/wiki/Comintern\">Comintern</a> ally). It says:</p><p>\"The Ultraleftist:</p><p>The ambusher wears many disguises to assassinate from under cover!</p><p>We annihilate him wherever we find him!\"</p><p>This poster was probably directed against <a href=\"http://en.wikipedia.org/wiki/Confederaci%C3%B3n_Nacional_del_Trabajo\">CNT-FAI</a> or <a href=\"http://en.wikipedia.org/wiki/POUM\">POUM</a> militants."
 			}
 		]
 	},
 	{
 		"Category": "Social",
 		"Difficulty": "Medium",
-		"Question": "What is the estimated number of deaths from the White Terror (extra-judicial killings in the Nationalist zone)?",
+		"Question": "<p>What is the estimated number of deaths from the <a href=\"http://en.wikipedia.org/wiki/White_Terror_(Spain)\">White Terror</a> (extra-judicial killings in the Nationalist zone)?</p>",
 		"Answers":
 		[
 			{
 				"Text": "150,000",
 				"Score": "1",
-				"Explanation": "\"The currently most reliable, yet still tentative, figure for deaths at the hands of the military rebels and their supporters is 130,199. However, it is unlikely that such deaths were fewer than 150,000 and they could well be more. Some areas have been studied only partially; others hardly at all.\" - Paul Preston, <i>The Spanish Holocaust</i>, 2007"
+				"Explanation": "\"The currently most reliable, yet still tentative, figure for deaths at the hands of the military rebels and their supporters is 130,199. However, it is unlikely that such deaths were fewer than 150,000 and they could well be more. Some areas have been studied only partially; others hardly at all.\" (Paul Preston, <i>The Spanish Holocaust</i>, 2007)"
 			},
 			{
 				"Text": "530,000"
@@ -2657,35 +2665,35 @@
 	{
 		"Category": "Politics",
 		"Difficulty": "Medium",
-		"Question": "What was the name of the secret society that enabled the rebelling military officers to plot their July 1936 coup throughout Spain? Who was the leader in 1936, before the coup d'état?",
+		"Question": "<p>What was the name of the secret society that enabled the rebelling military officers to plot their July 1936 <a href=\"http://en.wikipedia.org/wiki/Spanish_coup_of_July_1936\">coup</a> throughout Spain? Who was the leader in 1936, before the coup d'état?</p>",
 		"Answers":
 		[
 			{
 				"Text": "Spanish Military Union; José Sanjurjo",
 				"Score": "1",
-				"Explanation": "Unión Militar Española (Spanish Military Union) was a pro-fascist secret society of officers of the Spanish Republican Armed Forces involved in a conspiracy to bring about the restoration of the monarchy during the 1930s. Members of this organization became part of the Nationalist forces during the Spanish Civil War."
+				"Explanation": "<a href=\"http://en.wikipedia.org/wiki/Uni%C3%B3n_Militar_Espa%C3%B1ola\">Unión Militar Española</a> (Spanish Military Union) was a pro-fascist secret society of officers of the Spanish Republican Armed Forces involved in a conspiracy to bring about the restoration of the monarchy during the 1930s. Members of this organization became part of the Nationalist forces during the <a href=\"http://en.wikipedia.org/wiki/Spanish_Civil_War\">Spanish Civil War</a>."
 			},
 			{
 				"Text": "Spanish Military Union; Francisco Franco",
-				"Explanation": "Franco would not have taken full control of the Spanish Military Union until the deaths José Sanjurjo, then Emilio Mola in June 1937."
+				"Explanation": "Franco would not have taken full control of the <a href=\"http://en.wikipedia.org/wiki/Uni%C3%B3n_Militar_Espa%C3%B1ola\">Unión Militar Española</a> (Spanish Military Union) until the deaths <a href=\"http://en.wikipedia.org/wiki/Jos%C3%A9_Sanjurjo\">José Sanjurjo</a>, then Emilio Mola in June 1937."
 			},
 			{
 				"Text": "Spanish Falange; Francisco Franco",
-				"Explanation": "Franco did not become the leader of the Falange until April 1937, almost a year after the failed coup."
+				"Explanation": "Franco did not become the leader of the <a href=\"http://en.wikipedia.org/wiki/Falange\">Falange</a> until April 1937, almost a year after the failed coup."
 			},
 			{
 				"Text": "Spanish Falange; Emilio Mola"
 			},
 			{
 				"Text": "Spanish Falange; Jose Antonio De Rivera",
-				"Explanation": "Although de Rivera was the leader of the Falange, the Falange were neither a secret organisation nor the instigators of the coup against the Spanish Republic."
+				"Explanation": "Although de Rivera was the leader of the <a href=\"http://en.wikipedia.org/wiki/Falange\">Falange</a>, the Falange were neither a secret organisation nor the instigators of the coup against the <a href=\"http://en.wikipedia.org/wiki/Second_Spanish_Republic\">Second Spanish Republic</a>."
 			}
 		]
 	},
 	{
 		"Category": "Personalities",
 		"Difficulty": "Medium",
-		"Question": "Who said:\r\n\r\n\"We must extend the terror; we must impose the impression of dominion while eliminating without scruples everyone who does not think as we do.\"",
+		"Question": "<p>Who said:</p><p></p><p>\"We must extend the terror; we must impose the impression of dominion while eliminating without scruples everyone who does not think as we do.\"</p>",
 		"Image": "Emilio Mola.jpg",
 		"Answers":
 		[
@@ -2710,13 +2718,13 @@
 	{
 		"Category": "Personalities",
 		"Difficulty": "Medium",
-		"Question": "Which two political opposites both died on the same day, 20 November 1936?",
+		"Question": "<p>Which two political opposites both died on the same day, 20 November 1936?</p>",
 		"Answers":
 		[
 			{
 				"Text": "Buenaventura Durruti; Jose Antonio De Rivera",
 				"Score": "1",
-				"Explanation": "Durruti was a central figure of Spanish anarchism. He was an influential member of the CNT and FAI. He was killed during the Battle for Madrid, probably by a stray bullet.\r\nDe Rivera was the leader of the Spanish Falange. He was arrested in March 14, 1936 and held at the prison in Alicante. On October 3 1936 he was charged with conspiracy against the Republic and military insurrection, both capital offences. On November 18 at 2:30 AM he was found guilty and sentenced to death by firing squad. The sentence was carried out early in the morning of November 20, 1936."
+				"Explanation": "<a href=\"http://en.wikipedia.org/wiki/Buenaventura_Durruti\">Durruti</a> was a central figure of Spanish anarchism. He was an influential member of the <a href=\"http://en.wikipedia.org/wiki/Confederaci%C3%B3n_Nacional_del_Trabajo\">CNT</a> and <a href=\"http://en.wikipedia.org/wiki/Federaci%C3%B3n_Anarquista_Ib%C3%A9rica\">FAI</a>. He was killed during the <a href=\"http://en.wikipedia.org/wiki/Siege_of_Madrid\">Battle for Madrid</a>, probably by a stray bullet.</p><p><a href=\"http://en.wikipedia.org/wiki/Jos%C3%A9_Antonio_Primo_de_Rivera\">De Rivera</a> was the leader of the <a href=\"http://en.wikipedia.org/wiki/Falange\">Spanish Falange</a>. He was arrested in 14 March, 1936 and held at the prison in Alicante. On 18 November he was sentenced to death by firing squad. The sentence was carried out early in the morning of 20 November, 1936."
 			},
 			{
 				"Text": "Buenaventura Durruti; Emilio Mola"
@@ -2735,7 +2743,7 @@
 	{
 		"Category": "Politics",
 		"Difficulty": "Medium",
-		"Question": "The woman pictured is likely to have been a member of which of the following organisations?",
+		"Question": "<p>The woman pictured is likely to have been a member of which of the following organisations?</p>",
 		"Image": "Margarita Catalana.jpg",
 		"Answers":
 		[
@@ -2758,7 +2766,7 @@
 	{
 		"Category": "Culture",
 		"Difficulty": "Hard",
-		"Question": "Robert Capa's most famous photo of the Spanish Civil War is The Falling Soldier. It is a photo of Federico Borrell Garcia, a POUM soldier, falling to his death after being shot. The Falling Soldier was published in the July 12, 1937 issue of Life magazine. The caption stated \"Robert Capa's camera catches a Spanish soldier the instant he is dropped by a bullet through the head in front of Córdoba.\" What aspect of the veracity of the photo and its description has been questioned?",
+		"Question": "<p><a href=\"http://en.wikipedia.org/wiki/Robert_CapaRobert\">Robert Capa's</a> famous photo of the <a href=\"http://en.wikipedia.org/wiki/Spanish_Civil_War\">Spanish Civil War</a> is <i>The Falling Soldier</i>. It is a photo of Federico Borrell Garcia, a <a href=\"http://en.wikipedia.org/wiki/POUM\">POUM</a> soldier, falling to his death after being shot. It was published in the 12 July, 1937 issue of Life magazine. The caption stated \"Robert Capa's camera catches a Spanish soldier the instant he is dropped by a bullet through the head in front of Córdoba.\" What aspect of the veracity of the photo and its description has been questioned?</p>",
 		"Image": "The Falling Soldier.png",
 		"ImageText": "The Falling Soldier",
 		"Answers":
@@ -2789,14 +2797,14 @@
 	{
 		"Category": "Culture",
 		"Difficulty": "Hard",
-		"Question": "Which song of the Spanish Civil War has the lyrics:\r\n\r\nThe most precious good\t\tRaise the revolutionary flag\r\nis freedom\t\t\tWhich carries the people to emancipation\r\nAnd we have to defend it\t\tRaise the revolutionary flag\r\nWith faith and courage\t\tWhich carries the people to emancipation",
+		"Question": "<p>Which song of the <a href=\"http://en.wikipedia.org/wiki/Spanish_Civil_War\">Spanish Civil War</a> has the lyrics:</p><p></p><p>The most precious good</p><p>is freedom</p><p>And we have to defend it</p><p>With faith and courage</p>",
 		"Audio": "A las Barricadas.mp3",
 		"Answers":
 		[
 			{
 				"Text": "To the Barricades! (A las Barricadas)",
 				"Score": "1",
-				"Explanation": "A las Barricadas (To The Barricades) was one of the most popular songs of the Spanish anarchists during the Spanish Civil War. A las Barricadas is sung to the tune of Warszawianka 1905. The lyrics were written by Valeriano Orobón Fernández in 1936."
+				"Explanation": "<a href=\"http://en.wikipedia.org/wiki/A_las_Barricadas\">A las Barricadas</a> (To The Barricades) was one of the most popular songs of the Spanish anarchists during the Spanish Civil War. A las Barricadas is sung to the tune of Warszawianka 1905. The lyrics were written by Valeriano Orobón Fernández in 1936."
 			},
 			{
 				"Text": "Facing the Sun (Cara al Sol)"
@@ -2815,38 +2823,38 @@
 	{
 		"Category": "Politics",
 		"Difficulty": "Hard",
-		"Question": "Which of the following is the oldest Spanish political organisation?",
+		"Question": "<p>Which of the following is the oldest Spanish political organisation?</p>",
 		"Answers":
 		[
 			{
 				"Text": "PSOE",
 				"Score": "1",
-				"Explanation": "The PSOE was founded in 1879. It was one of the oldest political parties at the time of the Spanish Civil War. It was older than the Republican Left (founded in 1934), Republican Union (founded in 1934) and the Spanish Communist Party (the PCE, founded in 1921)."
+				"Explanation": "The <a href=\"http://en.wikipedia.org/wiki/PSOE\">PSOE</a> was founded in 1879. It was one of the oldest political parties at the time of the <a href=\"http://en.wikipedia.org/wiki/Spanish_Civil_War\">Spanish Civil War</a>. It was older than the <a href=\"http://en.wikipedia.org/wiki/Republican_Left_(Spain)\">Republican Left</a> (founded in 1934), Republican Union (founded in 1934) and the <a href=\"http://en.wikipedia.org/wiki/Communist_Party_of_Spain_(main)\">Spanish Communist Party</a> (the PCE, founded in 1921)."
 			},
 			{
 				"Text": "CNT-FAI",
-				"Explanation": "The anarchist trade union, the CNT, was formed in 1910. The federation of anarchist groups (FAI) was founded in 1927."
+				"Explanation": "The anarchist trade union, the <a href=\"http://en.wikipedia.org/wiki/Confederaci%C3%B3n_Nacional_del_Trabajo\">CNT</a>, was formed in 1910. The <a href=\"http://en.wikipedia.org/wiki/Federaci%C3%B3n_Anarquista_Ib%C3%A9rica\">Federation of Iberian Anarchists</a> (FAI) was founded in 1927."
 				
 			},
 			{
 				"Text": "CEDA",
-				"Explanation": "CEDA was formed in 1933 from Popular Action and National Action."
+				"Explanation": "<a href=\"http://en.wikipedia.org/wiki/CEDA\">CEDA</a> was formed in 1933 from Popular Action and National Action."
 			},
 			{
 				"Text": "Spanish Falange",
-				"Explanation": "The Falange was formed in 1933."
+				"Explanation": "The <a href=\"http://en.wikipedia.org/wiki/Falange\">Falange</a> was formed in 1933."
 				
 			},
 			{
 				"Text": "POUM",
-				"Explanation": "The POUM was formed in 1935 by former members of the CNT who had been partially inspired by the Russian Revolution and Trotsky, but mostly by Karl Marx."
+				"Explanation": "The <a href=\"http://en.wikipedia.org/wiki/POUM\">POUM</a> was formed in 1935 by former members of the <a href=\"http://en.wikipedia.org/wiki/Confederaci%C3%B3n_Nacional_del_Trabajo\">CNT</a> who had been partially inspired by the Russian Revolution and Trotsky, but mostly by Karl Marx."
 			}
 		]
 	},
 	{
 		"Category": "Politics",
 		"Difficulty": "Easy",
-		"Question": "Which regions of Spain were the separatist regions during the time of the Second Spanish Republic?",
+		"Question": "<p>Which regions of Spain were the separatist regions during the time of the <a href=\"http://en.wikipedia.org/wiki/Second_Spanish_Republic\">Second Spanish Republic</a>?</p>",
 		"Image": "Spanish Regions.png",
 		"Answers":
 		[
@@ -2871,14 +2879,14 @@
 	{
 		"Category": "Military",
 		"Difficulty": "Easy",
-		"Question": "What did the German Nazis and Italian fascists bring to Madrid in November 1936?",
+		"Question": "<p>What did the German Nazis and Italian fascists bring to Madrid in November 1936?</p>",
 		"Image": "Kultur.jpg",
 		"Answers":
 		[
 			{
 				"Text": "Aerial bombardment",
 				"Score": "1",
-				"Explanation": "German and Italian bombers pounded the city's residential areas from 19 to 23 November, with the exception of the upper class Salamanca district (which was assumed to contain many Nationalist supporters).\r\nFranco is quoted as saying, \"I will destroy Madrid rather than leave it to the Marxists\"."
+				"Explanation": "German and Italian bombers pounded the city's residential areas from 19 to 23 November, with the exception of the upper class Salamanca district (which was assumed to contain many Nationalist supporters).</p><p>Franco is quoted as saying, \"I will destroy Madrid rather than leave it to the Marxists\"."
 			},
 			{
 				"Text": "Artillery shelling"
@@ -2897,7 +2905,7 @@
 	{
 		"Category": "Culture",
 		"Difficulty": "Medium",
-		"Question": "Which of the following posters is a Nationalist poster?",
+		"Question": "<p>Which of the following posters is a Nationalist poster?</p>",
 		"DynamicImage": "true",
 		"Answers":
 		[
@@ -2909,7 +2917,7 @@
 			},
 			{
 				"Image": "Homes.jpg",
-				"Explanation": "You chose a PSU poster saying \"Strong men, to the front!\""
+				"Explanation": "You chose a <a href=\"http://en.wikipedia.org/wiki/PSUC\">PSU</a> poster saying \"Strong men, to the front!\""
 			},
 			{
 				"Image": "Conferencia de las muchachas.jpg",
@@ -2917,18 +2925,18 @@
 			},
 			{
 				"Image": "Todos los pueblos.jpg",
-				"Explanation": "You chose a Republican government poster that says \"All the people of the world are in the International Brigades on the side of the Spanish people\""
+				"Explanation": "You chose a Republican government poster that says \"All the people of the world are in the <a href=\"http://en.wikipedia.org/wiki/International_Brigades\">International Brigades</a> on the side of the Spanish people\""
 			},
 			{
 				"Image": "UGT Avant.jpg",
-				"Explanation": "You chose a UGT poster. It says: \"Forward!\""
+				"Explanation": "You chose a <a href=\"http://en.wikipedia.org/wiki/Uni%C3%B3n_General_de_Trabajadores\">UGT</a> poster. It says: \"Forward!\""
 			}
 		]
 	},
 	{
 		"Category": "Politics",
 		"Difficulty": "Easy",
-		"Question": "In the pictured Spanish Communist Party poster, what is the date of 14 April 1931 a reference to?",
+		"Question": "<p>In the pictured <a href=\"http://en.wikipedia.org/wiki/Communist_Party_of_Spain_(main)\">Spanish Communist Party</a> poster, what is the date of 14 April 1931 a reference to?</p>",
 		"Image": "PCE popular front.jpg",
 		"Answers":
 		[
@@ -2950,7 +2958,7 @@
 	{
 		"Category": "Culture",
 		"Difficulty": "Easy",
-		"Question": "Which of the following posters is an anarchist poster?",
+		"Question": "<p>Which of the following posters is an anarchist poster?</p>",
 		"DynamicImage": "true",
 		"Answers":
 		[
@@ -2964,11 +2972,11 @@
 			},
 			{
 				"Image": "7 November, Madrid - They Shall Not Pass.jpg",
-				"Explanation": "You chose a Republican government poster that says \r\n\"They shall not pass!\r\nMadrid\r\n7th November\""
+				"Explanation": "You chose a Republican government poster that says</p><p>\"They shall not pass!</p><p>Madrid</p><p>7th November\""
 			},
 			{
 				"Image": "Arriba España.jpg",
-				"Explanation": "You chose a Falange poster that says \r\n\"Spain Dawns\r\nArise Spain\""
+				"Explanation": "You chose a <a href=\"http://en.wikipedia.org/wiki/Falange\">Falange</a> poster that says </p><p>\"Spain Dawns</p><p>Arise Spain\""
 			},
 			{
 				"Image": "The Nationalists.jpg",
@@ -2979,14 +2987,14 @@
 	{
 		"Category": "Personalities",
 		"Difficulty": "Hard",
-		"Question": "Anarchists in Spain were initially influenced by which famous anarchist?",
+		"Question": "<p>Anarchists in Spain were initially influenced by which famous anarchist?</p>",
 		"Image": "Bakunin.jpg",
 		"Answers":
 		[
 			{
 				"Text": "Bakunin",
 				"Score": "1",
-				"Explanation": "\"In 1868 [...] there arrived in Madrid Giuseppe Fanelli [...] a passionate admirer of Bakunin, the leading figure in the International.\" - Hugh Thomas, <i>The Spanish Civil War</i>"
+				"Explanation": "\"In 1868 [...] there arrived in Madrid <a href=\"http://en.wikipedia.org/wiki/Giuseppe_Fanelli\">Giuseppe Fanelli</a> [...] a passionate admirer of <a href=\"http://en.wikipedia.org/wiki/Bakunin\">Bakunin</a>, the leading figure in the International.\" (Hugh Thomas, <i>The Spanish Civil War</i>)"
 			},
 			{
 				"Text": "Kropotkin"
@@ -3005,7 +3013,7 @@
 	{
 		"Category": "Politics",
 		"Difficulty": "Hard",
-		"Question": "In the pictured Spanish Communist Party poster, what is the date of 11 February 1873 a reference to?",
+		"Question": "<p>In the pictured <a href=\"http://en.wikipedia.org/wiki/Communist_Party_of_Spain_(main)\">Spanish Communist Party</a> poster, what is the date of 11 February 1873 a reference to?</p>",
 		"Image": "PCE popular front.jpg",
 		"Answers":
 		[
@@ -3031,8 +3039,8 @@
 	{
 		"Category": "Politics",
 		"Difficulty": "Hard",
-		"Question": "Which left-wing political parties of the Popular Front were members of the Third Communist International (Comintern)?",
-		"Explanation": "Of all the political parties of the Popular Front (there were 15 parties, though only 5 with more than 10 seats), only the PCE was allied to the Russian Communist controlled Comintern. The PCE had 17 of the 285 (6%) seats of the Popular Front government.",
+		"Question": "<p>Which left-wing political parties of the <a href=\"http://en.wikipedia.org/wiki/Popular_Front_(Spain)\">Popular Front</a> were members of the <a href=\"http://en.wikipedia.org/wiki/Comintern\">Third Communist International</a> (Comintern)?</p>",
+		"Explanation": "Of all the political parties of the Popular Front (there were 15 parties, though only 5 with more than 10 seats), only the <a href=\"http://en.wikipedia.org/wiki/Communist_Party_of_Spain_(main)\">Spanish Communist Party</a> (PCE) was allied to the Russian Communist controlled Comintern. The PCE had 17 of the 285 (6%) seats of the Popular Front government.",
 		"Answers":
 		[
 			{
@@ -3053,7 +3061,7 @@
 	{
 		"Category": "Culture",
 		"Difficulty": "Medium",
-		"Question": "Which song of the Spanish Civil War has the lyrics:\r\n\r\nIt's our only desire\r\nIt's our only desire\r\nEnd fascism\r\nHey Carmela, Hey Carmela\r\nEnd fascism",
+		"Question": "<p>Which song of the <a href=\"http://en.wikipedia.org/wiki/Spanish_Civil_War\">Spanish Civil War</a> has the lyrics:</p><p></p><p>It's our only desire</p><p>It's our only desire</p><p>End fascism</p><p>Hey Carmela, Hey Carmela</p><p>End fascism</p>",
 		"Audio": "Ay Carmela.mp3",
 		"Answers":
 		[
@@ -3079,36 +3087,36 @@
 	{
 		"Category": "Politics",
 		"Difficulty": "Hard",
-		"Question": "What was the most successful pre-war reform of the Second Spanish Republic?",
+		"Question": "<p>What was the most successful pre-war reform of the <a href=\"http://en.wikipedia.org/wiki/Second_Spanish_Republic\">Second Spanish Republic</a>?</p>",
 		"Answers":
 		[
 			{
 				"Text": "Public education",
 				"Score": "1",
-				"Explanation": "\"over 10,000 schools were built during the Republic; the budgetary allocation for education increased substantially between 1931 and 1934, and a great many studies have highlighted the Republic’s success in this field.\" - Casanova, <i>The Spanish Republic and Civil War</i> (p. 42)."
+				"Explanation": "\"over 10,000 schools were built during the Republic; the budgetary allocation for education increased substantially between 1931 and 1934, and a great many studies have highlighted the Republic’s success in this field.\" (Casanova, <i>The Spanish Republic and Civil War</i> (p. 42).)"
 			},
 			{
 				"Text": "Separation of church and state",
-				"Explanation": "\"[...] nowhere was the struggle between the Catholic Church and the various socialist projects, between clericalism and anticlericalism, so intense as in Spanish society in the 1930s. [...] The result was the birth of the first mass right-wing party in the history of Spain, a party that played a major role in the hounding and overthrow of the Republic.\" - Casanova, <i>The Spanish Republic and Civil War</i> (p. 64)."
+				"Explanation": "\"[...] nowhere was the struggle between the Catholic Church and the various socialist projects, between clericalism and anticlericalism, so intense as in Spanish society in the 1930s. [...] The result was the birth of the first mass right-wing party in the history of Spain, a party that played a major role in the hounding and overthrow of the Republic.\" (Casanova, <i>The Spanish Republic and Civil War</i> (p. 64).)"
 			},
 			{
 				"Text": "Agrarian reform",
-				"Explanation": "The actual scope of the reform was extremely limited. Malefakis summed it up well when he wrote: 'Two and a half years after the proclamation of the Republic, only 45,000 hectares of land had changed hands, benefiting some 6,000 or 7,000 peasants'.\" - Casanova, <i>The Spanish Republic and Civil War</i> (p. 47)." 
+				"Explanation": "The actual scope of the reform was extremely limited. Malefakis summed it up well when he wrote: 'Two and a half years after the proclamation of the Republic, only 45,000 hectares of land had changed hands, benefiting some 6,000 or 7,000 peasants'.\" (Casanova, <i>The Spanish Republic and Civil War</i> (p. 47).)" 
 			},
 			{
 				"Text": "Autonomy for separatists regions",
-				"Explanation": "\"By the end of the republican period, only Catalonia had a Statute of Autonomy. It took five years for Basque autonomy to be passed, and autonomy plans for other regions, such as Galicia, had yet to reach the Cortes when a sector of the army decided to put an end to the Republic by force of arms.\" - Casanova, <i>The Spanish Republic and Civil War</i> (p. 43)."
+				"Explanation": "\"By the end of the republican period, only Catalonia had a Statute of Autonomy. It took five years for Basque autonomy to be passed, and autonomy plans for other regions, such as Galicia, had yet to reach the Cortes when a sector of the army decided to put an end to the Republic by force of arms.\" (Casanova, <i>The Spanish Republic and Civil War</i> (p. 43).)"
 			},
 			{
 				"Text": "Reorganisation of the military",
-				"Explanation": "\"Azaña obtained a drastic reduction in the hierarchy, which brought about the reorganisation of the various units and improved promotion prospects, but historians agree that, politically, it was a doubtful measure that did not help to make the army more republican [...]\" - Casanova, <i>The Spanish Republic and Civil War</i> (p. 38)."
+				"Explanation": "\"Azaña obtained a drastic reduction in the hierarchy, which brought about the reorganisation of the various units and improved promotion prospects, but historians agree that, politically, it was a doubtful measure that did not help to make the army more republican [...]\" (Casanova, <i>The Spanish Republic and Civil War</i> (p. 38).)"
 			}
 		]
 	},
 	{
 		"Category": "Military",
 		"Difficulty": "Hard",
-		"Question": "Which member of the Non-Intervention Committee was not part of the naval non-intervention patrol?",
+		"Question": "<p>Which member of the <a href=\"http://en.wikipedia.org/wiki/Non-intervention_in_the_Spanish_Civil_War\">Non-Intervention Committee</a> was not part of the naval non-intervention patrol?</p>",
 		"Answers":
 		[
 			{
@@ -3137,7 +3145,7 @@
 	{
 		"Category": "Personalities",
 		"Difficulty": "Hard",
-		"Question": "Who organised the failed military coup attempt in 10 August 1932?",
+		"Question": "<p>Who organised the failed military coup attempt in 10 August 1932?</p>",
 		"Image": "José Sanjurjo.jpg",
 		"Answers":
 		[
@@ -3162,14 +3170,14 @@
 	{
 		"Category": "Politics",
 		"Difficulty": "Hard",
-		"Question": "How many anarchists serviced as ministers in the federal government of the Second Spanish Republic?",
+		"Question": "<p>How many anarchists serviced as ministers in the federal government of the <a href=\"http://en.wikipedia.org/wiki/Second_Spanish_Republic\">Second Spanish Republic</a>?</p>",
 		"Image": "Largo Caballero Cabinet Ministers.jpg",
 		"Answers":
 		[
 			{
 				"Text": "Five",
 				"Score": "1",
-				"Explanation": "Federica Montseny, Juan Garcia Oliver, Juan López and Joan Peiró were ministers during the Largo Caballero government. Segundo Blanco served during Juan Negrín's government."
+				"Explanation": "<a href=\"http://en.wikipedia.org/wiki/Federica_Montseny\">Federica Montseny</a>, <a href=\"http://en.wikipedia.org/wiki/Juan_Garc%C3%ADa_Oliver\">Juan Garcia Oliver</a>, Juan López and <a href=\"http://en.wikipedia.org/wiki/Joan_Peir%C3%B3\">Joan Peiró</a> were ministers during the <a href=\"http://en.wikipedia.org/wiki/Largo_Caballero\">Largo Caballero</a> government. <a href=\"http://en.wikipedia.org/wiki/Segundo_Blanco\">Segundo Blanco</a> served during <a href=\"http://en.wikipedia.org/wiki/Juan_Negr%C3%ADn\">Juan Negrín's</a> government."
 			},
 			{
 				"Text": "Four"
@@ -3188,7 +3196,7 @@
 	{
 		"Category": "Politics",
 		"Difficulty": "Medium",
-		"Question": "What was the fate of the Republic after the defeat of Catalonia in February 1939?",
+		"Question": "<p>What was the fate of the Republic after the defeat of Catalonia in February 1939?</p>",
 		"Answers":
 		[
 			{
@@ -3213,7 +3221,7 @@
 	{
 		"Category": "Politics",
 		"Difficulty": "Medium",
-		"Question": "\"We have no fear of them,\" Millán Astray shouted, \"let them come and see what we are capable of under this flag.\"\r\nA voice was heard crying \"¡Viva Millán Astray!\"\r\n\"What’s that?\" cried the general. \"No vivas for me! But let all shout with me\" [...]",
+		"Question": "<p>\"We have no fear of them,\" <a href=\"http://en.wikipedia.org/wiki/Jos%C3%A9_Mill%C3%A1n_Astray\">Millán Astray</a> shouted, \"let them come and see what we are capable of under this flag.\"</p><p>A voice was heard crying \"¡Viva Millán Astray!\"</p><p>\"What’s that?\" cried the general. \"No vivas for me! But let all shout with me\" [...]</p>",
 		"Image": "Millán Astray.png",
 		"ImageText": "José Millán Astray",
 		"Answers":
@@ -3221,7 +3229,7 @@
 			{
 				"Text": "\"¡Viva la muerte!\" (Long live death!)",
 				"Score": "1",
-				"Explanation": "Miguel de Unamuno's response to this was: \"Just now I heard a necrophilistic and senseless cry: 'Long live death'. And I, who have spent my life shaping paradoxes which have aroused the uncomprehending anger of others, I must tell you, as an expert authority, that this outlandish paradox is repellent to me.\" - Hugh Thomas, <i>The Spanish Civil War</i>"
+				"Explanation": "<a href=\"http://en.wikipedia.org/wiki/Miguel_de_Unamuno\">Miguel de Unamuno's</a> response to this was: \"Just now I heard a necrophilistic and senseless cry: 'Long live death'. And I, who have spent my life shaping paradoxes which have aroused the uncomprehending anger of others, I must tell you, as an expert authority, that this outlandish paradox is repellent to me.\" (Hugh Thomas, <i>The Spanish Civil War</i>)"
 			},
 			{
 				"Text": "\"¡Viva España!\" (Long live Spain!)"
@@ -3237,9 +3245,9 @@
 	{
 		"Category": "Politics",
 		"Difficulty": "Easy",
-		"Question": "The collaboration between the German and Italian governments during the Spanish Civil War led to the formation of the German-Italian Axis that came into prominence during the Second World War.",
+		"Question": "<p>The collaboration between the German and Italian governments during the <a href=\"http://en.wikipedia.org/wiki/Spanish_Civil_War\">Spanish Civil War</a> led to the formation of the German-Italian Axis that came into prominence during the Second World War.</p>",
 		"Image": "Camaradas de la retaguardia.jpg",
-		"Explanation": "\"[...] on 4 August [1936], Admiral Canaris arrived secretly in Rome, to try to coordinate German and Italian aid to Franco. He had a long talk with his opposite number in Italian military intelligence, Colonel Mario Roatta. That meeting marked the real beginning of the military collaboration which led to the future Axis.\" - Hugh Thomas, <i>The Spanish Civil War</i>",
+		"Explanation": "\"[...] on 4 August [1936], Admiral Canaris arrived secretly in Rome, to try to coordinate German and Italian aid to Franco. He had a long talk with his opposite number in Italian military intelligence, Colonel Mario Roatta. That meeting marked the real beginning of the military collaboration which led to the future Axis.\" (Hugh Thomas, <i>The Spanish Civil War</i>)",
 		"Answers":
 		[
 			{
@@ -3254,7 +3262,7 @@
 	{
 		"Category": "Politics",
 		"Difficulty": "Hard",
-		"Question": "The Regional Defence Council of Aragon (CRDA) was the anarchist controlled economic management council in Aragon that was formed during the social revolution. What was the fate of the CRDA?",
+		"Question": "<p>The <a href=\"http://en.wikipedia.org/wiki/Regional_Defence_Council_of_Aragon\">Regional Defence Council of Aragon</a> (CRDA) was the anarchist controlled economic management council in Aragon that was formed during the <a href=\"http://en.wikipedia.org/wiki/Spanish_Revolution\">Social Revolution</a>. What was the fate of the CRDA?</p>",
 		"Image": "Bandera del Consejo Regional de Defensa de Aragón.png",
 		"ImageText": "Flag of the Regional Defence Council of Aragon",
 		"Answers":
@@ -3281,14 +3289,14 @@
 	{
 		"Category": "Personalities",
 		"Difficulty": "Medium",
-		"Question": "Who said the following of the Nationalists:\r\n\r\n\"You will win, because you have more than enough brute force. But you will not convince. For to convince, you need to persuade. And in order to persuade you would need what you lack: reason and right in the struggle.\"",
+		"Question": "<p>Who said the following of the Nationalists:</p><p></p><p>\"You will win, because you have more than enough brute force. But you will not convince. For to convince, you need to persuade. And in order to persuade you would need what you lack: reason and right in the struggle.\"</p>",
 		"Image": "Miguel de Unamuno.jpg",
 		"Answers":
 		[
 			{
 				"Text": "Miguel de Unamuno",
 				"Score": "1",
-				"Explanation": "Unamuno said the above during a speech to a crowd of Nationalists. He was not lynched but never spoke publicly again."
+				"Explanation": "<a href=\"http://en.wikipedia.org/wiki/Miguel_de_Unamuno\">Unamuno</a> said the above during a speech to a crowd of Nationalists. He was not lynched but never spoke publicly again."
 			},
 			{
 				"Text": "Manuel Azaña"
@@ -3304,8 +3312,8 @@
 	{
 		"Category": "Politics",
 		"Difficulty": "Medium",
-		"Question": "President Roosevelt arranged that Senator Pittman and Representative McReynolds should introduce resolutions to ban shipments of arms to Spain into the two Houses of Congress when they reassembled on 6 January 1937. Both houses voted against these bills because, as Representative Bernard declared, the act was a sham neutrality, since its effect was 'to choke off democratic Spain from its legitimate international rights at a time when it was being assailed by the fascist hordes'.",
-		"Explanation": "\"On that day, in the Senate, only Senator Nye opposed the resolution. He argued that the embargo was unfair, since it harmed the republic more than it did the nationalists. Several members of the Lower House also criticized it. But the Senate passed the new law by 81 to 0 and the House of Representatives by 406 to 1. [...] Franco announced that, over the Embargo Act, President Roosevelt had behaved like a 'true gentleman'. Germany also praised the Act.\" - Hugh Thomas, <i>The Spanish Civil War</i>",
+		"Question": "<p>President Roosevelt arranged that Senator Pittman and Representative McReynolds should introduce resolutions to ban shipments of arms to Spain into the two Houses of Congress when they reassembled on 6 January 1937. Both houses voted against these bills because, as Representative Bernard declared, the act was a sham neutrality, since its effect was 'to choke off democratic Spain from its legitimate international rights at a time when it was being assailed by the fascist hordes'.</p>",
+		"Explanation": "\"On that day, in the Senate, only Senator Nye opposed the resolution. He argued that the embargo was unfair, since it harmed the republic more than it did the nationalists. Several members of the Lower House also criticized it. But the Senate passed the new law by 81 to 0 and the House of Representatives by 406 to 1. [...] Franco announced that, over the Embargo Act, President Roosevelt had behaved like a 'true gentleman'. Germany also praised the Act.\" (Hugh Thomas, <i>The Spanish Civil War</i>)",
 		"Answers":
 		[
 			{
@@ -3320,14 +3328,14 @@
 	{
 		"Category": "Culture",
 		"Difficulty": "Medium",
-		"Question": "Which song of the Spanish Civil War has the lyrics:\r\n\r\nVictorious flags will return\r\nat the merry step of Peace\r\nand they'll bring five roses:\r\nthe arrows of my quiver.",
+		"Question": "<p>Which song of the <a href=\"http://en.wikipedia.org/wiki/Spanish_Civil_War\">Spanish Civil War</a> has the lyrics:</p><p></p><p>Victorious flags will return</p><p>at the merry step of Peace</p><p>and they'll bring five roses:</p><p>the arrows of my quiver.</p>",
 		"Audio": "Cara al sol.mp3",
 		"Answers":
 		[
 			{
 				"Text": "Facing the Sun (Cara al Sol)",
 				"Score": "1",
-				"Explanation": "Cara al Sol (Facing the sun) is the anthem of the Falange party. The lyrics were written in December 1935 and are usually credited to the then leader of the Falange, José Antonio Primo de Rivera. The music was composed by Juan de Tellería and Juan R. Buendia."
+				"Explanation": "Cara al Sol (Facing the sun) is the anthem of the <a href=\"http://en.wikipedia.org/wiki/Falange\">Falange</a> party. The lyrics were written in December 1935 and are usually credited to the then leader of the Falange, <a href=\"http://en.wikipedia.org/wiki/Jos%C3%A9_Antonio_Primo_de_Rivera\">José Antonio Primo de Rivera</a>. The music was composed by Juan de Tellería and Juan R. Buendia."
 			},
 			{
 				"Text": "Viva la Quince Brigada"
@@ -3346,22 +3354,22 @@
 	{
 		"Category": "Politics",
 		"Difficulty": "Hard",
-		"Question": "Who were Largo Caballero's only remaining political allies just before he was deposed and replaced by Juan Negrín as Prime Minister of the Second Spanish Republic?",
+		"Question": "<p>Who were <a href=\"http://en.wikipedia.org/wiki/Largo_Caballero\">Largo Caballero's</a> only remaining political allies just before he was deposed and replaced by <a href=\"http://en.wikipedia.org/wiki/Juan_Negr%C3%ADn\">Juan Negrín</a> as Prime Minister of the <a href=\"http://en.wikipedia.org/wiki/Second_Spanish_Republic\">Second Spanish Republic</a>?</p>",
 		"Answers":
 		[
 			{
-				"Text": "The anarchists",
+				"Text": "Anarchists",
 				"Score": "1",
-				"Explanation": "\"[Caballero] was unwilling to merge his own party [the socialist PSOE] with the communists, and, thereafter, they abandoned him. Thus, in his last hours as Prime Minister, his only supporters, by a paradox, were the anarchists against whom he had fought all his life and whose influence he had systematically reduced during the previous eight months.\" - Hugh Thomas, <i>The Spanish Civil War</i>"
+				"Explanation": "\"[Caballero] was unwilling to merge his own party [the socialist <a href=\"http://en.wikipedia.org/wiki/PSOE\">PSOE</a>] with the communists, and, thereafter, they abandoned him. Thus, in his last hours as Prime Minister, his only supporters, by a paradox, were the anarchists against whom he had fought all his life and whose influence he had systematically reduced during the previous eight months.\" (Hugh Thomas, <i>The Spanish Civil War</i>)"
 			},
 			{
-				"Text": "The communists"
+				"Text": "Communists"
 			},
 			{
-				"Text": "The socialists"
+				"Text": "Socialists"
 			},
 			{
-				"Text": "The liberals"
+				"Text": "Liberals"
 			},
 			{
 				"Text": "None of the above",
@@ -3372,7 +3380,7 @@
 	{
 		"Category": "Military",
 		"Difficulty": "Medium",
-		"Question": "Where was the Ring of Iron?",
+		"Question": "<p>Where was the <a href=\"http://en.wikipedia.org/wiki/Bilbao's_Iron_Ring\">Ring of Iron</a>?</p>",
 		"Image": "Nido de ametralladoras del Cinturón de Hierro de Bilbao, en las peñas de Santa Marina (1937).jpg",
 		"Answers":
 		[
@@ -3397,7 +3405,7 @@
 	{
 		"Category": "Politics",
 		"Difficulty": "Medium",
-		"Question": "What was the deciding factor that elected the Popular Front to government in February 1936?",
+		"Question": "<p>What was the deciding factor that elected the <a href=\"http://en.wikipedia.org/wiki/Popular_Front_(Spain)\">Popular Front</a> to government in February 1936?</p>",
 		"Answers":
 		[
 			{
@@ -3422,7 +3430,7 @@
 	{
 		"Category": "Military",
 		"Difficulty": "Hard",
-		"Question": "What date marked the the coup against the Second Spanish Republic and the beginning of the Spanish Civil War?",
+		"Question": "<p>What date marked the <a href=\"http://en.wikipedia.org/wiki/Spanish_coup_of_July_1936\">coup</a> against the <a href=\"http://en.wikipedia.org/wiki/Second_Spanish_Republic\">Second Spanish Republic</a> and the beginning of the <a href=\"http://en.wikipedia.org/wiki/Spanish_Civil_War\">Spanish Civil War</a>?</p>",
 		"Image": "CNT 19 Julio 1936.jpg",
 		"Answers":
 		[
@@ -3432,7 +3440,7 @@
 			},
 			{
 				"Text": "19 July 1936",
-				"Explanation": "The date referenced in the pictured CNT poster marks the beginning of the social revolution, not the date of the military's failed coup d'état."
+				"Explanation": "The date referenced in the pictured <a href=\"http://en.wikipedia.org/wiki/Confederaci%C3%B3n_Nacional_del_Trabajo\">CNT</a> poster marks the beginning of the social revolution, not the date of the military's failed coup d'état."
 			},
 			{
 				"Text": "21 July 1936"
@@ -3445,7 +3453,7 @@
 	{
 		"Category": "Military",
 		"Difficulty": "Hard",
-		"Question": "What was the fate of the International Brigades?",
+		"Question": "<p>What was the fate of the <a href=\"http://en.wikipedia.org/wiki/International_Brigades\">International Brigades</a>?</p>",
 		"Image": "Los Internacionales.jpg",
 		"ImageText": "International Volunteers of Freedom\r\nThe International\r\nUnited for Spain, fighting against the invaders",
 		"Answers":
@@ -3453,7 +3461,7 @@
 			{
 				"Text": "The International Brigades were disbanded for political gain by the Republic",
 				"Score": "1",
-				"Explanation": "The International Brigades were withdrawn during the Battle of the Ebro in an attempt to pressure the Nationalists' Nazi and fascist backers to withdrawn their support. They weren't successful as the German and Italian forces remained until the end of the war."
+				"Explanation": "The International Brigades were withdrawn during the <a href=\"http://en.wikipedia.org/wiki/Battle_of_the_Ebro\">Battle of the Ebro</a> in an attempt to pressure the Nationalists' Nazi and fascist backers to withdrawn their support. They weren't successful as the German and Italian forces remained until the end of the war."
 			},
 			{
 				"Text": "The International Brigades were defeated in the Nationalist victory against the Republic"
@@ -3473,7 +3481,7 @@
 	{
 		"Category": "Politics",
 		"Difficulty": "Easy",
-		"Question": "Winston Churchill made the following statements to the House of Commons on 11 November, 1936: \"there is no doubt the revolutionary situation in Spain was initiated by Russia\" and \"if not for Russia, Russian Communism whose propagation and intrigue had been tormenting Spain for more than six months before the revolt, there would be no Spanish horror.\" - Svetlana Pozharskaya, <i>Comintern and The Spanish Civil War in Spain</i>\r\nFor what reason were these assertions incorrect?",
+		"Question": "<p>Winston Churchill made the following statements to the House of Commons on 11 November, 1936: \"there is no doubt the revolutionary situation in Spain was initiated by Russia\" and \"if not for Russia, Russian Communism whose propagation and intrigue had been tormenting Spain for more than six months before the revolt, there would be no Spanish horror.\" - Svetlana Pozharskaya, <i>Comintern and The Spanish Civil War in Spain</i></p><p>For what reason were these assertions incorrect?</p>",
 		"Image": "Sir Winston S Churchill.jpg",
 		"ImageText": "Winston S Churchill",
 		"Answers":
@@ -3497,11 +3505,11 @@
 	{
 		"Category": "Politics",
 		"Difficulty": "Easy",
-		"Question": "Which of the following was not a reason for the formation of the Non-Intervention Committee by France and Britain?",
+		"Question": "<p>Which of the following was not a reason for the formation of the <a href=\"http://en.wikipedia.org/wiki/Non-intervention_in_the_Spanish_Civil_War\">Non-Intervention Committee</a> by France and Britain?</p>",
 		"Answers":
 		[
 			{
-				"Text": "All of the above were reasons for non-intervention",
+				"Text": "None - all of the above were reasons for non-intervention",
 				"Score": "1",
 				"IsLast": "true"
 			},
@@ -3520,18 +3528,18 @@
 	{
 		"Category": "Military",
 		"Difficulty": "Medium",
-		"Question": "Which of the following military units (that served on the Nationalist side during the Spanish Civil War) was not a foreign force?",
+		"Question": "<p>Which of the following military units (that served on the Nationalist side during the <a href=\"http://en.wikipedia.org/wiki/Spanish_Civil_War\">Spanish Civil War</a>) was not a foreign force?</p>",
 		"Image": "Emblem of the Spanish Legion.png",
 		"Answers":
 		[
 			{
 				"Text": "The Spanish Foreign Legion",
 				"Score": "1",
-				"Explanation": "\"[The] Foreign Legion [was composed], despite its name, mainly of Spaniards, with some Portuguese, French, and Germans, which had been founded in 1920 by General Millán Astray as a shock force\" - Hugh Thomas, <i>The Spanish Civil War</i>"
+				"Explanation": "\"[The] <a href=\"http://en.wikipedia.org/wiki/Spanish_Foreign_Legion\">Foreign Legion</a> [was composed], despite its name, mainly of Spaniards, with some Portuguese, French, and Germans, which had been founded in 1920 by General <a href=\"http://en.wikipedia.org/wiki/Jos%C3%A9_Mill%C3%A1n_Astray\">Millán Astray</a> as a shock force\" (Hugh Thomas, <i>The Spanish Civil War</i>)"
 			},
 			{
 				"Text": "Moroccan Regulares",
-				"Explanation": "\"the Moorish Regulares, created by General Berenguer, Primo de Rivera’s eventual successor, [...] were native [Moroccan] troops raised from 1911 onwards as half-soldiers, half-policemen, under Spanish officers, to destroy banditry.\" - Hugh Thomas, <i>The Spanish Civil War</i>"
+				"Explanation": "\"the Moorish Regulares, created by General Berenguer, Primo de Rivera’s eventual successor, [...] were native [Moroccan] troops raised from 1911 onwards as half-soldiers, half-policemen, under Spanish officers, to destroy banditry.\" (Hugh Thomas, <i>The Spanish Civil War</i>)"
 			},
 			{
 				"Text": "Condor Legion"
@@ -3548,14 +3556,14 @@
 	{
 		"Category": "Politics",
 		"Difficulty": "Medium",
-		"Question": "Of the four political parties in the pictured poster, which one no longer existed by the beginning of the Spanish Civil War?",
+		"Question": "<p>Of the four political parties in the pictured poster, which one no longer existed by the beginning of the <a href=\"http://en.wikipedia.org/wiki/Spanish_Civil_War\">Spanish Civil War</a>?</p>",
 		"Image": "Anarchist Poster.jpg",
 		"Answers":
 		[
 			{
 				"Text": "PRF",
 				"Score": "1",
-				"Explanation": "The PRF was a political party that existed at the time of the First Spanish Republic. One of it's leaders was Francisco Pi y Margall who was briefly president of the First Republic. It was disbanded in 1910."
+				"Explanation": "The PRF was a political party that existed at the time of the <a href=\"http://en.wikipedia.org/wiki/First_Spanish_Republic\">First Spanish Republic</a>. One of it's leaders was <a href=\"http://en.wikipedia.org/wiki/Francisco_Pi_y_Margall\">Francisco Pi y Margall</a> who was briefly president of the First Republic. It was disbanded in 1910."
 			},
 			{
 				"Text": "CNT"
@@ -3575,7 +3583,7 @@
 	{
 		"Category": "Personalities",
 		"Difficulty": "Medium",
-		"Question": "Federico García Lorca was a famous Spanish poet. He was killed in Granada by Nationalists because he supported the Republic.",
+		"Question": "<p><a href=\"http://en.wikipedia.org/wiki/Federico_Garc%C3%ADa_Lorca\">Federico García Lorca</a> was a famous Spanish poet. He was killed in Granada by Nationalists because he supported the Republic.</p>",
 		"Image": "Federico García Lorca.jpg",
 		"Answers":
 		[
@@ -3591,7 +3599,7 @@
 	{
 		"Category": "Culture",
 		"Difficulty": "Medium",
-		"Question": "Which member of the Surrealist group painted the pictured postage stamp, in support of the Spanish Republic?",
+		"Question": "<p>Which member of the Surrealist group painted the pictured postage stamp, in support of the <a href=\"http://en.wikipedia.org/wiki/Second_Spanish_Republic\">Second Spanish Republic</a>?</p>",
 		"Image": "Miro - Aidez L'Espagne.jpg",
 		"Answers":
 		[
@@ -3613,9 +3621,9 @@
 	{
 		"Category": "Social",
 		"Difficulty": "Easy",
-		"Question": "Jose Millán Astray compared the war to 'a new war of independence, a new Reconquista, a new expulsion of the Moors!' (Hugh Thomas, <i>The Spanish Civil War</i>)</p><p>The attitude of Millán Astray and many of the Nationalists is why the pictured poster depicts the Nationalist's racist propaganda against the Moroccan troops.",
+		"Question": "<p><a href=\"http://en.wikipedia.org/wiki/Jos%C3%A9_Mill%C3%A1n_Astray\">Jose Millán Astray</a> compared the war to 'a new war of independence, a new Reconquista, a new expulsion of the Moors!' (Hugh Thomas, <i>The Spanish Civil War</i>)</p><p>The attitude of Millán Astray and many of the Nationalists is why the pictured poster depicts the Nationalist's racist propaganda against the Moroccan troops.</p>",
 		"Image": "Milicias Catalanas de Madrid.jpg",
-		"Explanation": "The racism of this poster was Republican. The Nationalist's racism was more complex than the Republicans. \"The final exclamation [of Millán Astray, quoted above] sounded odd in a city from which an expedition of Moroccan soldiers had some days previously set out for the north to conquer Madrid, and whose public buildings and leading generals were even at that moment guarded by Moroccans.\" - Hugh Thomas, <i>The Spanish Civil War</i>",
+		"Explanation": "The racism of this poster was Republican. The Nationalist's racism was more complex than the Republicans. \"The final exclamation [of Millán Astray, quoted above] sounded odd in a city from which an expedition of Moroccan soldiers had some days previously set out for the north to conquer Madrid, and whose public buildings and leading generals were even at that moment guarded by Moroccans.\" (Hugh Thomas, <i>The Spanish Civil War</i>)",
 		"Answers":
 		[
 			{
@@ -3630,7 +3638,7 @@
 	{
 		"Category": "Politics",
 		"Difficulty": "Medium",
-		"Question": "The Pelayos were the youth movement of which political group?",
+		"Question": "<p>The Pelayos were the youth movement of which political group?</p>",
 		"Image": "Pelayos.jpg",
 		"ImageText": "The Pelayos of Spain\r\nThe hope of religion and the homeland.",
 		"Answers":
@@ -3653,7 +3661,7 @@
 	{
 		"Category": "Social",
 		"Difficulty": "Medium",
-		"Question": "How many refugees fled from Catalonia into France at the end of the Catalonia Offensive?",
+		"Question": "<p>How many refugees fled from Catalonia into France at the end of the <a href=\"http://en.wikipedia.org/wiki/Catalonia_Offensive\">Catalonia Offensive</a>?</p>",
 		"Answers":
 		[
 			{
@@ -3674,7 +3682,7 @@
 	{
 		"Category": "Politics",
 		"Difficulty": "Medium",
-		"Question": "The Iberian Federation of Libertarian Youth (FIJL) were the youth movement of which political group?",
+		"Question": "<p>The <a href=\"http://en.wikipedia.org/wiki/Libertarian_Youth\">Iberian Federation of Libertarian Youth</a> (FIJL) were the youth movement of which political group?</p>",
 		"Image": "CNT-FAI Ingresad en la Columna Espana Libre.jpg",
 		"ImageText": "\"Enrol in the Free Spain Column\"",
 		"Answers":
@@ -3700,14 +3708,15 @@
 	{
 		"Category": "Social",
 		"Difficulty": "Easy",
-		"Question": "Which was not one of the groups that the right-wing of Spain feared and targeted?",
+		"Question": "<p>Which was not one of the groups that the right-wing of Spain feared and targeted?</p>",
 		"Image": "Popular Action leftlet.jpg",
 		"Answers":
 		[
 			{
 				"Text": "All of the above were fears held by the right-wing",
 				"Score": "1",
-				"IsLast": "true"
+				"IsLast": "true",
+				"Explanation": "\"<a href=\"http://en.wikipedia.org/wiki/CEDA\">CEDA</a> election posters declared that Spain must be saved from 'Marxists, Freemasons, Separatists and Jews'.\" (Paul Preston, <i>The Spanish Holocaust</i>, 2007)"
 			},
 			{
 				"Text": "Communists"
@@ -3716,8 +3725,7 @@
 				"Text": "Jews"
 			},
 			{
-				"Text": "Freemasons",
-				"Explanation": "Father Jean Tusquets and one of his close associates, Franco's personal chaplain, assembled a huge index of 80,000 suspected masons, even though there were little more than 5,000 masons in Spain. By 16 December 1937, according to the annual masonic assembly held in Madrid, all masons that had not escaped from the areas under Nationalist control had been murdered.\r\n\"We have torn up Marxist materialism and we have disorientated Masonry. We have thwarted the Satanic machinations of the clandestine Masonic superstate. Despite its control of the world’s press and numerous international politicians.\" - Francisco Franco, 11 September 1945."
+				"Text": "Freemasons"
 			},
 			{
 				"Text": "Separatists"
@@ -3727,7 +3735,7 @@
 	{
 		"Category": "Politics",
 		"Difficulty": "Medium",
-		"Question": "The expression \"the revolution and the war are inseparable\" was an expression of which left-wing groups?",
+		"Question": "<p>The expression \"the revolution and the war are inseparable\" was an expression of which left-wing groups?</p>",
 		"Image": "La revolucion y la guerra son inseparables.jpg",
 		"Answers":
 		[
@@ -3752,13 +3760,13 @@
 	{
 		"Category": "Culture",
 		"Difficulty": "Medium",
-		"Question": "Which poster is from the revolutionary left?",
+		"Question": "<p>Which poster is from the revolutionary left?</p>",
 		"Answers":
 		[
 			{
 				"Image": "Mujeres Libres.jpg",
 				"Score": "1",
-				"Explanation": "The anarchist women's poster reads as: \r\n\"'Free Women' CNT\r\nWomen! Your family constitutes all the freedom fighters.\""
+				"Explanation": "The anarchist women's poster reads as: </p><p>\"'Free Women' <a href=\"http://en.wikipedia.org/wiki/Confederaci%C3%B3n_Nacional_del_Trabajo\">CNT</a></p><p>Women! Your family constitutes all the freedom fighters.\""
 			},
 			{
 				"Image": "Our arms are yours.jpg",
@@ -3770,7 +3778,7 @@
 			},
 			{
 				"Image": "Women's role in fascist Spain.jpg",
-				"Explanation": "You chose a fascist poster that reads as:\r\n\"Girls of today and women of tomorrow\r\nunited without class distinctions\""
+				"Explanation": "You chose a fascist poster that reads as:</p><p>\"Girls of today and women of tomorrow</p><p>united without class distinctions\""
 			},
 			{
 				"Image": "Women - Work for comrades.jpg",
@@ -3781,17 +3789,17 @@
 	{
 		"Category": "Culture",
 		"Difficulty": "Easy",
-		"Question": "Which poster is a Nationalist poster?",
+		"Question": "<p>Which poster is a Nationalist poster?</p>",
 		"Answers":
 		[
 			{
 				"Image": "Women's role in fascist Spain.jpg",
 				"Score": "1",
-				"Explanation": "This fascist poster reads as:\r\n\"Girls of today and women of tomorrow\r\nunited without class distinctions\""
+				"Explanation": "This fascist poster reads as:</p><p>\"Girls of today and women of tomorrow</p><p>united without class distinctions\""
 			},
 			{
 				"Image": "Mujeres Libres.jpg",
-				"Explanation": "You chose an anarchist women's poster that reads as: \r\n\"'Free Women' CNT\r\nWomen! Your family constitutes all the freedom fighters.\""
+				"Explanation": "You chose an anarchist women's poster that reads as: </p><p>\"'Free Women' <a href=\"http://en.wikipedia.org/wiki/Confederaci%C3%B3n_Nacional_del_Trabajo\">CNT</a></p><p>Women! Your family constitutes all the freedom fighters.\""
 			},
 			{
 				"Image": "Our arms are yours.jpg",
@@ -3810,7 +3818,7 @@
 	{
 		"Category": "Military",
 		"Difficulty": "Medium",
-		"Question": "Which of the following was not a characteristic of the militias that formed to fight against the military coup?",
+		"Question": "<p>Which of the following was not a characteristic of the militias that formed to fight against the military <a href=\"http://en.wikipedia.org/wiki/Spanish_coup_of_July_1936\">coup</a>?</p>",
 		"Image": "Militia.jpg",
 		"Answers":
 		[
@@ -3823,7 +3831,7 @@
 			},
 			{
 				"Text": "Well paid",
-				"Explanation": "\"Militiamen soon began to be paid 10 pesetas a day (raised in some cases from the factories in which they had been employed, in others paid by the government or the unions), a sum continued to be paid to their dependants in the event of their deaths. Three times what soldiers received before the war, this payment made them the richest privates in Europe.\" - Hugh Thomas, <i>The Spanish Civil War</i>"
+				"Explanation": "\"Militiamen soon began to be paid 10 pesetas a day (raised in some cases from the factories in which they had been employed, in others paid by the government or the unions), a sum continued to be paid to their dependants in the event of their deaths. Three times what soldiers received before the war, this payment made them the richest privates in Europe.\" (Hugh Thomas, <i>The Spanish Civil War</i>)"
 			},
 			{
 				"Text": "Non-hierarchic and democratic"
@@ -3837,7 +3845,7 @@
 	{
 		"Category": "Social",
 		"Difficulty": "Medium",
-		"Question": "Which event initiated the end of the social revolution in the Republican territory?",
+		"Question": "<p>Which event initiated the end of the social revolution in the Republican territory?</p>",
 		"Answers":
 		[
 			{
@@ -3858,7 +3866,7 @@
 	{
 		"Category": "Social",
 		"Difficulty": "Medium",
-		"Question": "What is the name of the communist militia that defended Madrid during the Battle for Madrid?",
+		"Question": "<p>What is the name of the communist militia that defended Madrid during the <a href=\"http://en.wikipedia.org/wiki/Siege_of_Madrid\">Battle for Madrid</a>?</p>",
 		"Audio": "El Quinto Regimiento.mp3",
 		"Image": "Miguel - V Regimiento.jpg",
 		"Answers":
@@ -3866,7 +3874,7 @@
 			{
 				"Text": "The Fifth Regiment",
 				"Score": "1",
-				"Explanation": "\"[The Fifth Regiment] was based upon the communist militia, the MAOC; but others joined as a result of a recruiting drive led by La Pasionaria, the first headquarters being the Salesian convent of Francos Rodríguez in Madrid. By the end of July [1936], 1,000 members of 'the Fifth Regiment' had gone to the front. It had its own reserves, system of supplies, and artillery.\" - Hugh Thomas, <i>The Spanish Civil War</i>"
+				"Explanation": "\"[The Fifth Regiment] was based upon the communist militia, the MAOC; but others joined as a result of a recruiting drive led by La Pasionaria, the first headquarters being the Salesian convent of Francos Rodríguez in Madrid. By the end of July [1936], 1,000 members of 'the Fifth Regiment' had gone to the front. It had its own reserves, system of supplies, and artillery.\" (Hugh Thomas, <i>The Spanish Civil War</i>)"
 			},
 			{
 				"Text": "The Iron Column"
@@ -3885,8 +3893,8 @@
 	{
 		"Category": "Military",
 		"Difficulty": "Hard",
-		"KeyQuestion": "When did the *answer text* conclude?",
-		"ValueQuestion": "Which military campaign concluded *answer text*?",
+		"KeyQuestion": "<p>When did the *answer text* conclude?</p>",
+		"ValueQuestion": "<p>Which military campaign concluded *answer text*?</p>",
 		"KeyValue": "true",
 		"MaxNumberOfAnswers": "5",
 		"Answers":
@@ -3932,17 +3940,17 @@
 	{
 		"Category": "Military",
 		"Difficulty": "Medium",
-		"Question": "Which of the following Nationalist offensives did not result in a Nationalist victory?",
+		"Question": "<p>Which of the following Nationalist military campaigns did not result in a Nationalist victory?</p>",
 		"Image": "Mapa de Guerra Civil Española.png",
 		"Answers":
 		[
 			{
 				"Text": "Levante Offensive",
 				"Score": "1",
-				"Explanation": "The Levante Offensive, launched near the end of March 1938, was an attempt by Nationalist forces under Francisco Franco to capture the Republican held city of Valencia during the Spanish Civil War. The Nationalists occupied the province of Castellón, but the offensive failed due to bad weather and the dogged resistance of the Republican troops at the XYZ defensive line."
+				"Explanation": "The <a href=\"http://en.wikipedia.org/wiki/Levante_Offensive\">Levante Offensive</a>, launched near the end of March 1938, was an attempt by Nationalist forces under <a href=\"http://en.wikipedia.org/wiki/Francisco_Franco\">Francisco Franco</a> to capture the Republican held city of Valencia during the <a href=\"http://en.wikipedia.org/wiki/Spanish_Civil_War\">Spanish Civil War</a>. The Nationalists occupied the province of Castellón, but the offensive failed due to bad weather and the dogged resistance of the Republican troops at the <a href=\"http://en.wikipedia.org/wiki/XYZ_Line\">XYZ defensive line</a>."
 			},
 			{
-				"Text": "Extremadura campaign"
+				"Text": "Extremadura Campaign"
 			},
 			{
 				"Text": "War in the North"
@@ -3962,8 +3970,8 @@
 	{
 		"Category": "Military",
 		"Difficulty": "Hard",
-		"KeyQuestion": "When did the *answer text* conclude?",
-		"ValueQuestion": "Which battle of the Spanish Civil War concluded *answer text*?",
+		"KeyQuestion": "<p>When did the *answer text* conclude?</p>",
+		"ValueQuestion": "<p>Which battle of the <a href=\"http://en.wikipedia.org/wiki/Spanish_Civil_War\">Spanish Civil War</a> concluded *answer text*?</p>",
 		"KeyValue": "true",
 		"MaxNumberOfAnswers": "5",
 		"Answers":
@@ -3997,7 +4005,7 @@
 	{
 		"Category": "Military",
 		"Difficulty": "Medium",
-		"Question": "Which of the following battles did not result in a military defeat for the Republic?",
+		"Question": "<p>Which of the following battles did not result in a military defeat for the Republic?</p>",
 		"Answers":
 		[
 			{
@@ -4006,7 +4014,8 @@
 				"Score": "1"
 			},
 			{
-				"Text": "Battle of Belchite"
+				"Text": "Battle of Belchite",
+				"Explanation": "<a href=\"http://en.wikipedia.org/wiki/Battle_of_Belchite_(1937)\">Battle of Belchite</a>"
 			},
 			{
 				"Text": "Battle of the Ebro"

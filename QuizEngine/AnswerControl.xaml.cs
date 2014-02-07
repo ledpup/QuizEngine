@@ -27,8 +27,8 @@ namespace QuizEngine
                 throw new NullReferenceException("No quiz question has been assigned.");
 
             txtTitle.Text = string.Format("{0}.", quizQuestion.QuestionNumber);
-            txtDescription.Text = quizQuestion.Question;
-            txtExplanation.Text = quizQuestion.FullExplanation;
+            txtDescription.DataContext = quizQuestion.Question;
+            txtExplanation.DataContext = string.Format("<p>{0}</p>", quizQuestion.FullExplanation);
 
             if (!string.IsNullOrEmpty(quizQuestion.Image))
                 imgQuestionImage.Source = new BitmapImage(new Uri("ms-appx:///Assets/Quizzes/" + MainPage.Quiz + "/" + quizQuestion.Image));

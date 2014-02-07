@@ -71,7 +71,7 @@
     </xsl:template>
 
     <xsl:template match="A | a">
-      <Span><InlineUIContainer><HyperlinkButton Style="{{StaticResource Link}}"><xsl:attribute name="NavigateUri"><xsl:value-of select="@href"/></xsl:attribute><xsl:apply-templates /></HyperlinkButton></InlineUIContainer></Span>
+      <Span><InlineUIContainer><HyperlinkButton Style="{{StaticResource HyperlinkButtonStyle}}"><xsl:attribute name="NavigateUri"><xsl:value-of select="@href"/></xsl:attribute><xsl:apply-templates /></HyperlinkButton></InlineUIContainer></Span>
     </xsl:template>
 
     <xsl:template match="IMG | img">

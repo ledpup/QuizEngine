@@ -116,12 +116,10 @@
             <RichTextBlock
                 x:Name="txtDescription"
                 Grid.Column="1"
-                Grid.ColumnSpan="{Binding QuestionDescriptionColumnSpan}"
                 Grid.Row="3"
                 Margin="5,0"
                 Padding="4"
                 Style="{StaticResource AppDescriptionRichTextStyle}"
-                IsHitTestVisible="False"
                 HorizontalAlignment="Left"
                 TextAlignment="Justify"
                 common:Properties.Html="{Binding}"
@@ -145,13 +143,12 @@
                 Grid.Row="6"
                 TextAlignment="Justify"
                 HorizontalAlignment="Left"
-                Margin="10,0,0,0"
+                Margin="10,0"
                 Style="{StaticResource AppDescriptionRichTextStyle}" 
                 common:Properties.Html="{Binding}"
-                >
-            </RichTextBlock>
+                />
 
-                    <Image Grid.Column="2" Grid.Row="3" x:Name="imageToAnimate" Source="/Assets/Swipe Left.png" Width="75" Stretch="Uniform" RenderTransformOrigin="0.5,0.5" HorizontalAlignment="Right" Margin="0,30,0,0" Visibility="Collapsed">
+            <Image Grid.Column="2" Grid.Row="3" x:Name="imageToAnimate" Source="/Assets/Swipe Left.png" Width="75" Stretch="Uniform" RenderTransformOrigin="0.5,0.5" HorizontalAlignment="Right" Margin="0,30,0,0" Visibility="Collapsed">
                 <Image.RenderTransform>
                     <CompositeTransform/>
                 </Image.RenderTransform>

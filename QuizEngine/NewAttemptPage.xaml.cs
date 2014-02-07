@@ -220,7 +220,7 @@ namespace QuizEngine
 
         private void Test_Checked(object sender, RoutedEventArgs e)
         {
-            QuizTypeDescription.Text = "Timed quiz\r\nAnswers are revealed at the end of quiz\r\nOne minute per question";
+            QuizTypeDescription.Text = "Timed quiz\r\nAnswers are revealed at the end of quiz\r\nOne minute per question\r\nHyperlinks disabled";
         }
 
         private void Practice_Checked(object sender, RoutedEventArgs e)

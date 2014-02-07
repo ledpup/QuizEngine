@@ -132,7 +132,7 @@ namespace QuizEngine
             {
                 _quizAttempt.EndQuiz();
                 
-                Frame.Navigate(typeof(QuizResults), _quizAttempt);
+                Frame.Navigate(typeof(ResultsPage), _quizAttempt);
             }
         }
 

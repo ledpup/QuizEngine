@@ -104,8 +104,8 @@
                 <TextBlock Grid.Column="0" Grid.Row="4" Style="{StaticResource AppDescriptionTextStyle}" VerticalAlignment="Center">Question order:</TextBlock>
                 <StackPanel Grid.Column="1" Grid.Row="4" Grid.ColumnSpan="2" Orientation="Horizontal" VerticalAlignment="Center">
                     <RadioButton x:Name="RandomOrder" GroupName="Group2" Padding="10" Style="{StaticResource AppRadioButtonStyle}" IsChecked="True">Random</RadioButton>
-                    <RadioButton x:Name="NewestToOldest" GroupName="Group2" Padding="10"  Style="{StaticResource AppRadioButtonStyle}">Newest to oldest</RadioButton>
-                    <RadioButton GroupName="Group2" Padding="10"  Style="{StaticResource AppRadioButtonStyle}">Oldest to newest</RadioButton>
+                    <RadioButton x:Name="NewestToOldest" GroupName="Group2" Padding="10"  Style="{StaticResource AppRadioButtonStyle}">First to last</RadioButton>
+                    <RadioButton GroupName="Group2" Padding="10"  Style="{StaticResource AppRadioButtonStyle}">Last to first</RadioButton>
                 </StackPanel>
                 <Button x:Name="StartQuiz" Grid.Column="0" Grid.Row="5" Grid.ColumnSpan="3" HorizontalAlignment="Center" Click="StartQuiz_Click" Padding="10" Width="250">Start Quiz</Button>
                 <TextBlock x:Name="DifficultyWarning" Grid.Column="0" Grid.Row="5" Grid.ColumnSpan="3" FontWeight="Bold" Foreground="{StaticResource RedBrush}" Style="{StaticResource AppDescriptionTextStyle}" HorizontalAlignment="Center" VerticalAlignment="Center" Visibility="Collapsed">At least one difficulty level and category needs to be selected to start the quiz.</TextBlock>
