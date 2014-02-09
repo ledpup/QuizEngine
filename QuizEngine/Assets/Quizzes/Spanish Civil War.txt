@@ -101,7 +101,7 @@
 		"Category": "Culture",
 		"Difficulty": "Medium",
 		"Question": "<p>Where was the \"fifth column\"?</p>",
-		"Explanation": "<a href=\"http://en.wikipedia.org/wiki/Emilio_Mola\">Emilio Mola</a>: \"My First Column is approaching the City from the North, my Second Column from the East, my Third Column from the South and my Fourth Column from the West. But, it is my Fifth Column that shall take the City.\" The journalist asked the obvious question. \"General Mola, where is your Fifth Column?\" Mola replied: \"In the City.\" (<a href=\"http://www.philatelic-evangelist.com/2013/03/journey-to-west-and-salisbury-fifth.html\">Journey to the West and the Salisbury Fifth Column</a>)",
+		"Explanation": "When interviewed, <a href=\"http://en.wikipedia.org/wiki/Emilio_Mola\">Emilio Mola</a> said: \"My First Column is approaching the City from the North, my Second Column from the East, my Third Column from the South and my Fourth Column from the West. But, it is my Fifth Column that shall take the City.\"</p><p>The journalist asked the obvious question: \"General Mola, where is your Fifth Column?\"</p><p>Mola replied: \"In the City.\" (<a href=\"http://www.philatelic-evangelist.com/2013/03/journey-to-west-and-salisbury-fifth.html\">Journey to the West and the Salisbury Fifth Column</a>)",
 		"Answers":
 		[
 			{
@@ -131,7 +131,7 @@
 			{
 				"Text": "Catalonia",
 				"Score": "1",
-				"Explanation": "The <a href=\"http://en.wikipedia.org/wiki/PSUC\">Unified Socialist Party of Catalonia</a> (PSUC), was formed on 23 July 1936 through the unification of four left-wing groups. The PSUC played a major role during the days of the Second Spanish Republic and the Spanish Civil War, and was the only regional party affiliated to Comintern. The PCE did not organize in Catalonia, but saw PSUC as its Catalan referent."
+				"Explanation": "The <a href=\"http://en.wikipedia.org/wiki/PSUC\">Unified Socialist Party of Catalonia</a> (PSUC), was formed on 23 July 1936 through the unification of four left-wing groups. The PSUC played a major role during the days of the <a href=\"http://en.wikipedia.org/wiki/Second_Spanish_Republic\">Second Spanish Republic</a> and the <a href=\"http://en.wikipedia.org/wiki/Spanish_Civil_War\">Spanish Civil War</a>, and was the only regional party affiliated to <a href=\"http://en.wikipedia.org/wiki/Comintern\">Comintern</a>. The <a href=\"http://en.wikipedia.org/wiki/Communist_Party_of_Spain_(main)\">PCE</a> did not organize in Catalonia, but saw PSUC as its Catalan referent."
 			},
 			{
 				"Text": "Basque Country"
@@ -445,7 +445,7 @@
 		"Category": "Military",
 		"Difficulty": "Hard",
 		"Question": "<p>The <a href=\"http://en.wikipedia.org/wiki/Irish_Brigade_(Spanish_Civil_War)\">Irish Brigade</a> fought on the Nationalist side of <a href=\"http://en.wikipedia.org/wiki/Francisco_Franco\">Francisco Franco</a> during the <a href=\"http://en.wikipedia.org/wiki/Spanish_Civil_War\">Spanish Civil War</a>.</p>",
-		"Explanation": "The unit was formed wholly of Roman Catholics by the politician <a href=\"http://en.wikipedia.org/wiki/Eoin_O%27Duffy\">Eoin O'Duffy</a>, who had previously organised the banned quasi-fascist Blueshirts and openly fascist Greenshirts in Ireland. Despite the declaration by the Irish government that participation in the war was unwelcome and ill-advised, 600 of O'Duffy's followers went to Spain. Their contribution was small. They were withdrawn after only one action in which they found themselves attacked by their own side. (Anthony Beever, <a href=\"http://www.amazon.com/The-Battle-Spain-Spanish-1936-1939/dp/014303765X\">The Battle for Spain</a>)",
+		"Explanation": "The unit was formed wholly of Roman Catholics by the politician <a href=\"http://en.wikipedia.org/wiki/Eoin_O%27Duffy\">Eoin O'Duffy</a>, who had previously organised the banned quasi-fascist Blueshirts and openly fascist Greenshirts in Ireland. Despite the declaration by the Irish government that participation in the war was unwelcome and ill-advised, 600 of O'Duffy's followers went to Spain. Their contribution was small. They were withdrawn after only one action in which they found themselves attacked by their own side. (Antony Beever, <a href=\"http://www.amazon.com/The-Battle-Spain-Spanish-1936-1939/dp/014303765X\">The Battle for Spain</a>)",
 		"Answers":
 		[
 			{
@@ -461,7 +461,7 @@
 		"Category": "Politics",
 		"Difficulty": "Medium",
 		"Question": "<p>At the early stages of the <a href=\"http://en.wikipedia.org/wiki/Spanish_Civil_War\">Spanish Civil War</a>, which Nationalist political faction supplied the largest number of volunteers?</p>",
-		"Explanation": "By September 1936, the total Falangist volunteers numbered at 35,000, accounting for 55 percent of all civilian forces of the Nationals. (Stanley G. Payne. <i>Fascism in Spain, 1923–1977</i>. Madison, Wisconsin, USA: Wisconsin University Press, 1999. Pp. 242.)",
+		"Explanation": "By September 1936, the total Falangist volunteers numbered at 35,000, accounting for 55 percent of all civilian forces of the Nationals. (Stanley G. Payne. <a href=\"http://www.amazon.com/Fascism-Spain-1923%C2%961977-Stanley-Payne/dp/0299165647\">Fascism in Spain, 1923–1977</a>. Madison, Wisconsin, USA: Wisconsin University Press, 1999. Pp. 242.)",
 		"Answers":
 		[
 			{
@@ -525,7 +525,7 @@
 		[
 			{
 				"Text": "Transport planes from Germany and Italy",
-				"Explanation": "\"Although the airlift began almost immediately with a few Spanish air force Breguets, Nieuports and Italian Savoias, it was chiefly effected by Junkers 52s sent by Hitler, who remarked later that Franco should erect a monument to the plane because it was so vital to his victory.\" - Anthony Beever, <a href=\"http://www.amazon.com/The-Battle-Spain-Spanish-1936-1939/dp/014303765X\">The Battle for Spain</a>",
+				"Explanation": "\"Although the airlift began almost immediately with a few Spanish air force Breguets, Nieuports and Italian Savoias, it was chiefly effected by Junkers 52s sent by Hitler, who remarked later that Franco should erect a monument to the plane because it was so vital to his victory.\" (Antony Beever, <a href=\"http://www.amazon.com/The-Battle-Spain-Spanish-1936-1939/dp/014303765X\">The Battle for Spain</a>)",
 				"Score": "1"
 			},
 			{
@@ -620,7 +620,7 @@
 		"Category": "Politics",
 		"Difficulty": "Easy",
 		"Question": "<p>The <a href=\"http://en.wikipedia.org/wiki/Second_Spanish_Republic\">Second Spanish Republic</a> was solely anti-clerical during the <a href=\"http://en.wikipedia.org/wiki/Spanish_Civil_War\">Spanish Civil War</a>.</p>",
-		"Explanation": "The majority of the Republic was against religion and especially the Catholic Church. However, the conservative, strongly Catholic Basque Country (\"the most Christian people in Spain\" quoted by Hugh Thomas, <a href=\"http://www.amazon.com/The-Spanish-Civil-War-Paperbacks/dp/0375755152/ref=pd_sim_b_2\">The Spanish Civil War</a>) was part of the Republic until it was defeated by the Nationalists during the Battle of Bilbao in June 1937.",
+		"Explanation": "The majority of the Republic was against religion and especially the Catholic Church. However, the conservative, strongly Catholic Basque Country (\"the most Christian people in Spain\" quoted by Hugh Thomas, <a href=\"http://www.amazon.com/The-Spanish-Civil-War-Paperbacks/dp/0375755152/ref=pd_sim_b_2\">The Spanish Civil War</a>) was part of the Republic until it was defeated by the Nationalists during the <a href=\"http://en.wikipedia.org/wiki/Battle_of_Bilbao\">Battle of Bilbao</a> in June 1937.",
 		"Answers":
 		[
 			{
@@ -1420,7 +1420,7 @@
 			{
 				"Text": "The effective end of the Republican army",
 				"Score": "1",
-				"Explanation": "The <a href=\"http://en.wikipedia.org/wiki/Battle_of_the_Ebro\">Battle of the Ebro</a> was the longest and bloodiest battle of the <a href=\"http://en.wikipedia.org/wiki/Spanish_Civil_War\">Spanish Civil War</a>. It took place between July and November 1938. The results of the battle were disastrous for the Second Spanish Republic with tens of thousands of dead and wounded and little effect on the advance of the Nationalists."
+				"Explanation": "The <a href=\"http://en.wikipedia.org/wiki/Battle_of_the_Ebro\">Battle of the Ebro</a> was the longest and bloodiest battle of the <a href=\"http://en.wikipedia.org/wiki/Spanish_Civil_War\">Spanish Civil War</a>. It took place between July and November 1938. The results of the battle were disastrous for the <a href=\"http://en.wikipedia.org/wiki/Second_Spanish_Republic\">Second Spanish Republic</a> with tens of thousands of dead and wounded and little effect on the advance of the Nationalists."
 			},
 			{
 				"Text": "The only truly successful Republican offensive of the war"
@@ -1459,7 +1459,7 @@
 		"Difficulty": "Easy",
 		"Question": "<p>During the war, about half of the Catholic ecclesiastical community was killed by anarchists, communists and socialists (i.e., pro-Republican forces.)</p>",
 		"Image": "Leftists shooting statue.jpg",
-		"Explanation": "\"[...] of a total ecclesiastical community of around 115,000, thirteen bishops, 4,184 priests, 2,365 members of other orders and 283 nuns were killed, the vast majority during the summer of 1936.\" (Anthony Beever, <a href=\"http://www.amazon.com/The-Battle-Spain-Spanish-1936-1939/dp/014303765X\">The Battle for Spain</a>)\n\rSome of those killed were killed by Nationalists, many of whom were in the Basque Country.",
+		"Explanation": "\"[...] of a total ecclesiastical community of around 115,000, thirteen bishops, 4,184 priests, 2,365 members of other orders and 283 nuns were killed, the vast majority during the summer of 1936.\" (Antony Beever, <a href=\"http://www.amazon.com/The-Battle-Spain-Spanish-1936-1939/dp/014303765X\">The Battle for Spain</a>)\n\rSome of those killed were killed by Nationalists, many of whom were in the Basque Country.",
 		"Answers":
 		[
 			{
@@ -1502,7 +1502,7 @@
 		"Difficulty": "Medium",
 		"Question": "<p>Although the workers' collectives, formed during the <a href=\"http://en.wikipedia.org/wiki/Spanish_Revolution\">Social Revolution</a> of 1936, were the exemplar of left-wing communism and anarchism, they were less productive than traditional organisations of production.</p>",
 		"Image": "Collective farmers.jpg",
-		"Explanation": "\"The communists attacked the self-managed collectives as inefficient, but in Aragón production increased by a fifth. Not only was non-collectivized production lower, but the individualists were to show the worst possible traits of the introverted and suspicious smallholder.\" (Anthony Beever, <a href=\"http://www.amazon.com/The-Battle-Spain-Spanish-1936-1939/dp/014303765X\">The Battle for Spain</a>)",
+		"Explanation": "\"The communists attacked the self-managed collectives as inefficient, but in Aragón production increased by a fifth. Not only was non-collectivized production lower, but the individualists were to show the worst possible traits of the introverted and suspicious smallholder.\" (Antony Beever, <a href=\"http://www.amazon.com/The-Battle-Spain-Spanish-1936-1939/dp/014303765X\">The Battle for Spain</a>)",
 		"Answers":
 		[
 			{
@@ -1611,7 +1611,7 @@
 				"Text": "USSR",
 				"Image": "Flag of the Soviet Union.png",
 				"Score": "1",
-				"Explanation": "The Republic sent its gold reserve to the Soviet Union to pay for arms and supplies. That reserve was worth £63,000,000 ($315,000,000) in 1939 prices. In 1956, the Soviet Union announced that Spain still owed it $50,000,000. \"According to Orlov, Stalin celebrated the arrival of the gold with a banquet at which he announced, 'The Spaniards will never see their gold again, just as one cannot see one’s own ears'\" (Hugh Thomas, <a href=\"http://www.amazon.com/The-Spanish-Civil-War-Paperbacks/dp/0375755152/ref=pd_sim_b_2\">The Spanish Civil War</a>)"
+				"Explanation": "The Republic sent its gold reserve to the Soviet Union to pay for arms and supplies. That reserve was worth £63,000,000 ($315,000,000) in 1939 prices. In 1956, the Soviet Union announced that Spain still owed it $50,000,000. \"According to <a href=\"http://en.wikipedia.org/wiki/Aleksandr_Mikhailovich_Orlov\">Orlov</a>, Stalin celebrated the arrival of the gold with a banquet at which he announced, 'The Spaniards will never see their gold again, just as one cannot see one’s own ears'\" (Hugh Thomas, <a href=\"http://www.amazon.com/The-Spanish-Civil-War-Paperbacks/dp/0375755152/ref=pd_sim_b_2\">The Spanish Civil War</a>)"
 			},
 			{
 				"Text": "Nationalist Spain",
@@ -2172,6 +2172,7 @@
 		"Difficulty": "Medium",
 		"Question": "<p>In an interview with Jay Allen, <a href=\"http://en.wikipedia.org/wiki/Francisco_Franco\">Francisco Franco</a> stated: \"I will save Spain from Marxism whatever the cost.\"</p><p>Allen then asked: \"And if that means shooting half of Spain?\"</p><p>What was Franco's famous response?</p>",
 		"Image": "Franco painting.png",
+		"ImageText": "Francisco Franco",
 		"Answers":
 		[
 			{
@@ -2449,7 +2450,8 @@
 				"Score": "1"
 			},
 			{
-				"Text": "Iron Guard"
+				"Text": "Iron Guard",
+				"Explanation": "The <a href=\"http://en.wikipedia.org/wiki/Iron_Guard\">Iron Guard</a> is the name given to a far-right movement in Romania. They contributed a legion of Romanian fascists, led by Ion Moța."
 			},
 			{
 				"Text": "29th Division",
@@ -2541,7 +2543,7 @@
 			{
 				"Text": "Madrid",
 				"Score": "1",
-				"Explanation": "\"The killings throughout the war when the capital was under Republican control seem to have been nearer three times those carried out after the rebel occupation.\" (Paul Preston, <a href=\"http://www.amazon.com/The-Spanish-Holocaust-Extermination-Twentieth-Century/dp/039306476X\">The Spanish Holocaust</a>, 2007)</p><p></p><p>Most of the killings occurred during the <a href=\"http://en.wikipedia.org/wiki/Paracuellos_massacres\">Paracuellos massacres</a>, an attempt by the Republic to eliminate the fifth column during the <a href=\"http://en.wikipedia.org/wiki/Siege_of_Madrid\">Battle for Madrid</a>."
+				"Explanation": "\"The killings throughout the war when the capital was under Republican control seem to have been nearer three times those carried out after the rebel occupation.\" (Paul Preston, <a href=\"http://www.amazon.com/The-Spanish-Holocaust-Extermination-Twentieth-Century/dp/039306476X\">The Spanish Holocaust</a>, 2007)</p><p></p><p>Most of the killings occurred during the <a href=\"http://en.wikipedia.org/wiki/Paracuellos_massacres\">Paracuellos massacres</a>, an attempt by the Republic to eliminate the fifth column during the <a href=\"http://en.wikipedia.org/wiki/Battle_of_Madrid\">Battle for Madrid</a>."
 			},
 			{
 				"Text": "Zaragoza",
@@ -2732,7 +2734,7 @@
 			{
 				"Text": "Buenaventura Durruti; Jose Antonio De Rivera",
 				"Score": "1",
-				"Explanation": "<a href=\"http://en.wikipedia.org/wiki/Buenaventura_Durruti\">Durruti</a> was a central figure of Spanish anarchism. He was an influential member of the <a href=\"http://en.wikipedia.org/wiki/Confederaci%C3%B3n_Nacional_del_Trabajo\">CNT</a> and <a href=\"http://en.wikipedia.org/wiki/Federaci%C3%B3n_Anarquista_Ib%C3%A9rica\">FAI</a>. He was killed during the <a href=\"http://en.wikipedia.org/wiki/Siege_of_Madrid\">Battle for Madrid</a>, probably by a stray bullet.</p><p><a href=\"http://en.wikipedia.org/wiki/Jos%C3%A9_Antonio_Primo_de_Rivera\">De Rivera</a> was the leader of the <a href=\"http://en.wikipedia.org/wiki/Falange\">Spanish Falange</a>. He was arrested in 14 March, 1936 and held at the prison in Alicante. On 18 November he was sentenced to death by firing squad. The sentence was carried out early in the morning of 20 November, 1936."
+				"Explanation": "<a href=\"http://en.wikipedia.org/wiki/Buenaventura_Durruti\">Durruti</a> was a central figure of Spanish anarchism. He was an influential member of the <a href=\"http://en.wikipedia.org/wiki/Confederaci%C3%B3n_Nacional_del_Trabajo\">CNT</a> and <a href=\"http://en.wikipedia.org/wiki/Federaci%C3%B3n_Anarquista_Ib%C3%A9rica\">FAI</a>. He was killed during the <a href=\"http://en.wikipedia.org/wiki/Battle_of_Madrid\">Battle for Madrid</a>, probably by a stray bullet.</p><p><a href=\"http://en.wikipedia.org/wiki/Jos%C3%A9_Antonio_Primo_de_Rivera\">De Rivera</a> was the leader of the <a href=\"http://en.wikipedia.org/wiki/Falange\">Spanish Falange</a>. He was arrested in 14 March, 1936 and held at the prison in Alicante. On 18 November he was sentenced to death by firing squad. The sentence was carried out early in the morning of 20 November, 1936."
 			},
 			{
 				"Text": "Buenaventura Durruti; Emilio Mola"
@@ -3066,7 +3068,7 @@
 			},
 			{
 				"Text": "PSUC and the PCE",
-				"Explanation": "The PSUC and the PCE were members of the Comintern. However, the PSUC did not exist at the time of the February elections and was therefore not a member of the Popular Front. The PSUC formed on 23 July 1936 through the unification of four left-wing groups."
+				"Explanation": "The <a href=\"http://en.wikipedia.org/wiki/PSUC\">PSUC</a> and the <a href=\"http://en.wikipedia.org/wiki/Communist_Party_of_Spain_(main)\">PCE</a> were members of the Comintern. However, the PSUC did not exist at the time of the February elections and was therefore not a member of the Popular Front. The PSUC formed on 23 July 1936 through the unification of four left-wing groups."
 			}
 		]
 	},
@@ -3105,7 +3107,7 @@
 			{
 				"Text": "Public education",
 				"Score": "1",
-				"Explanation": "\"over 10,000 schools were built during the Republic; the budgetary allocation for education increased substantially between 1931 and 1934, and a great many studies have highlighted the Republic’s success in this field.\" (Casanova, <a href=\"http://www.amazon.com/The-Spanish-Republic-Civil-War/dp/052173780X\">The Spanish Republic and Civil War</a> (p. 42).)"
+				"Explanation": "\"[...] over 10,000 schools were built during the Republic; the budgetary allocation for education increased substantially between 1931 and 1934, and a great many studies have highlighted the Republic’s success in this field.\" (Casanova, <a href=\"http://www.amazon.com/The-Spanish-Republic-Civil-War/dp/052173780X\">The Spanish Republic and Civil War</a> (p. 42).)"
 			},
 			{
 				"Text": "Separation of church and state",
@@ -3113,7 +3115,7 @@
 			},
 			{
 				"Text": "Agrarian reform",
-				"Explanation": "The actual scope of the reform was extremely limited. Malefakis summed it up well when he wrote: 'Two and a half years after the proclamation of the Republic, only 45,000 hectares of land had changed hands, benefiting some 6,000 or 7,000 peasants'.\" (Casanova, <a href=\"http://www.amazon.com/The-Spanish-Republic-Civil-War/dp/052173780X\">The Spanish Republic and Civil War</a> (p. 47).)" 
+				"Explanation": "\"The actual scope of the reform was extremely limited. Malefakis summed it up well when he wrote: 'Two and a half years after the proclamation of the Republic, only 45,000 hectares of land had changed hands, benefiting some 6,000 or 7,000 peasants'.\" (Casanova, <a href=\"http://www.amazon.com/The-Spanish-Republic-Civil-War/dp/052173780X\">The Spanish Republic and Civil War</a> (p. 47).)" 
 			},
 			{
 				"Text": "Autonomy for separatists regions",
@@ -3212,20 +3214,20 @@
 		"Answers":
 		[
 			{
-				"Text": "A successful coup against the Negrín government and capitulation",
+				"Text": "The Republic experienced a coup against the Negrín government, then capitulated",
 				"Score": "1"
 			},
 			{
-				"Text": "Military defeat by the Nationalists"
+				"Text": "The Republic experienced military defeat by the Nationalists"
 			},
 			{
-				"Text": "A sustained defence of Madrid and Valencia"
+				"Text": "The Republic made a sustained defence of Madrid and Valencia"
 			},
 			{
-				"Text": "Guerilla warfare that lasted until defeat in November 1939"
+				"Text": "Guerilla warfare defended the Republic until defeat in November 1939"
 			},
 			{
-				"Text": "All of the above",
+				"Text": "None of the above",
 				"IsLast": "true"
 			}
 		]
@@ -3494,7 +3496,7 @@
 	{
 		"Category": "Politics",
 		"Difficulty": "Easy",
-		"Question": "<p>Winston Churchill made the following statements to the House of Commons on 11 November, 1936: \"there is no doubt the revolutionary situation in Spain was initiated by Russia\" and \"if not for Russia, Russian Communism whose propagation and intrigue had been tormenting Spain for more than six months before the revolt, there would be no Spanish horror.\" - Svetlana Pozharskaya, <i>Comintern and The Spanish Civil War in Spain</i></p><p>For what reason were these assertions incorrect?</p>",
+		"Question": "<p>Winston Churchill made the following statements to the House of Commons on 11 November, 1936: \"there is no doubt the revolutionary situation in Spain was initiated by Russia\" and \"if not for Russia, Russian Communism whose propagation and intrigue had been tormenting Spain for more than six months before the revolt, there would be no Spanish horror.\" (Svetlana Pozharskaya, <i>Comintern and The Spanish Civil War in Spain</i>)</p><p>For what reason were these assertions incorrect?</p>",
 		"Image": "Sir Winston S Churchill.jpg",
 		"ImageText": "Winston S Churchill",
 		"Answers":
@@ -3864,7 +3866,7 @@
 			{
 				"Text": "The Barcelona uprising in May 1937",
 				"Score": "1",
-				"Explanation": "The <a href=\"http://en.wikipedia.org/wiki/Barcelona_May_Days\">Barcelona May Days</a> were a period of civil violence in Catalonia, between 3 May and 8 May, 1937, when factions on the Republican side of the Spanish Civil War engaged each other in street battles in the city of Barcelona. Anarchists and the <a href=\"http://en.wikipedia.org/wiki/POUM\">POUM</a> were defeated by Communists with the help of the Catalan and Spanish government. The POUM were outlawed the following month."
+				"Explanation": "The <a href=\"http://en.wikipedia.org/wiki/Barcelona_May_Days\">Barcelona May Days</a> were a period of civil violence in Catalonia, between 3 May and 8 May, 1937, when factions on the Republican side of the <a href=\"http://en.wikipedia.org/wiki/Spanish_Civil_War\">Spanish Civil War</a> engaged each other in street battles in the city of Barcelona. Anarchists and the <a href=\"http://en.wikipedia.org/wiki/POUM\">POUM</a> were defeated by Communists with the help of the Catalan and Spanish government. The POUM were outlawed the following month."
 			},
 			{
 				"Text": "The replacement of Largo Caballero's government by Juan Negrín's"
@@ -3880,7 +3882,7 @@
 	{
 		"Category": "Social",
 		"Difficulty": "Medium",
-		"Question": "<p>What is the name of the communist militia that defended Madrid during the <a href=\"http://en.wikipedia.org/wiki/Siege_of_Madrid\">Battle for Madrid</a>?</p>",
+		"Question": "<p>What is the name of the communist militia that defended Madrid during the <a href=\"http://en.wikipedia.org/wiki/Battle_of_Madrid\">Battle for Madrid</a>?</p>",
 		"Audio": "El Quinto Regimiento.mp3",
 		"Image": "Miguel - V Regimiento.jpg",
 		"Answers":
@@ -3941,7 +3943,7 @@
 			{
 				"Key": "Siege of Madrid",
 				"Text": "March 1939",
-				"Explanation": "The <a href=\"http://en.wikipedia.org/wiki/Siege_of_Madrid\">Siege of Madrid</a> was a three-year siege where the Second Spanish Republic was besieged by Spanish Nationalist and allied troops under General <a href=\"http://en.wikipedia.org/wiki/Francisco_Franco\">Francisco Franco</a>. The <a href=\"http://en.wikipedia.org/wiki/Battle_of_Madrid\">Battle of Madrid</a> in November 1936 was the most concentrated fighting in the city, when the Nationalists made their most determined attempt to take Madrid. The city, besieged from October 1936, eventually fell to the Nationalists on 28 March 1939."
+				"Explanation": "The <a href=\"http://en.wikipedia.org/wiki/Siege_of_Madrid\">Siege of Madrid</a> was a three-year siege where the <a href=\"http://en.wikipedia.org/wiki/Second_Spanish_Republic\">Second Spanish Republic</a> was besieged by Spanish Nationalist and allied troops under General <a href=\"http://en.wikipedia.org/wiki/Francisco_Franco\">Francisco Franco</a>. The <a href=\"http://en.wikipedia.org/wiki/Battle_of_Madrid\">Battle of Madrid</a> in November 1936 was the most concentrated fighting in the city, when the Nationalists made their most determined attempt to take Madrid. The city, besieged from October 1936, eventually fell to the Nationalists on 28 March 1939."
 			},
 			{
 				"Key": "Aceituna Campaign",
@@ -4018,7 +4020,7 @@
 			{
 				"Key": "Battle of the Ebro",
 				"Text": "November 1938",
-				"Explanation": "The <a href=\"http://en.wikipedia.org/wiki/Battle_of_the_Ebro\">Battle of the Ebro</a> was the longest and bloodiest battle of the <a href=\"http://en.wikipedia.org/wiki/Spanish_Civil_War\">Spanish Civil War</a>. It took place between July and November 1938. The results of the battle were disastrous for the Second Spanish Republic with tens of thousands of dead and wounded and little effect on the advance of the Nationalists."
+				"Explanation": "The <a href=\"http://en.wikipedia.org/wiki/Battle_of_the_Ebro\">Battle of the Ebro</a> was the longest and bloodiest battle of the <a href=\"http://en.wikipedia.org/wiki/Spanish_Civil_War\">Spanish Civil War</a>. It took place between July and November 1938. The results of the battle were disastrous for the <a href=\"http://en.wikipedia.org/wiki/Second_Spanish_Republic\">Second Spanish Republic</a> with tens of thousands of dead and wounded and little effect on the advance of the Nationalists."
 			},
 			{
 				"Key": "Battle of Madrid",
@@ -4050,7 +4052,7 @@
 			},
 			{
 				"Text": "Battle of the Ebro",
-				"Explanation": "The <a href=\"http://en.wikipedia.org/wiki/Battle_of_the_Ebro\">Battle of the Ebro</a> was the longest and bloodiest battle of the <a href=\"http://en.wikipedia.org/wiki/Spanish_Civil_War\">Spanish Civil War</a>. It took place between July and November 1938. The results of the battle were disastrous for the Second Spanish Republic with tens of thousands of dead and wounded and little effect on the advance of the Nationalists."
+				"Explanation": "The <a href=\"http://en.wikipedia.org/wiki/Battle_of_the_Ebro\">Battle of the Ebro</a> was the longest and bloodiest battle of the <a href=\"http://en.wikipedia.org/wiki/Spanish_Civil_War\">Spanish Civil War</a>. It took place between July and November 1938. The results of the battle were disastrous for the <a href=\"http://en.wikipedia.org/wiki/Second_Spanish_Republic\">Second Spanish Republic</a> with tens of thousands of dead and wounded and little effect on the advance of the Nationalists."
 			},
 			{
 				"Text": "Battle of Teruel",

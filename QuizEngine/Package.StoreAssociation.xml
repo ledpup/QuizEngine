@@ -354,11 +354,14 @@
       <ReservedName>Spanish Civil War Quiz</ReservedName>
     </ReservedNames>
   </ProductReservedInfo>
-  <AccountPackageIdentityNames />
+  <AccountPackageIdentityNames>
+    <MainPackageIdentityName>1587LedEnterprises.ChemistryQuiz</MainPackageIdentityName>
+    <MainPackageIdentityName>1587LedEnterprises.HumanAnatomyandPhysiologyQuiz</MainPackageIdentityName>
+  </AccountPackageIdentityNames>
   <PackageInfoList LandingUrl="https://appdev.microsoft.com:443/StorePortals/Developer/Catalog/ReleaseAnchor/ddf7b094-c021-4933-9ff9-43edf6d2e625">
     <PackageInfo>
       <PackageArchitecture>neutral</PackageArchitecture>
-      <PackageMaxArchitectureVersion>1.0.0.1</PackageMaxArchitectureVersion>
+      <PackageMaxArchitectureVersion>1.0.1.0</PackageMaxArchitectureVersion>
     </PackageInfo>
   </PackageInfoList>
 </StoreAssociation>
