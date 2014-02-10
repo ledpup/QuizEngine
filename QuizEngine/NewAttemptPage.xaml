@@ -57,7 +57,7 @@
                 <RowDefinition Height="*"/>
             </Grid.RowDefinitions>
 
-            <TextBlock x:Name="Title" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="3" Margin="20" Style="{StaticResource AppTitleTextStyle}" FontSize="48" Foreground="White">Spanish Civil War Quiz</TextBlock>
+            <TextBlock x:Name="Title" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="3" Margin="20" Style="{StaticResource AppTitleTextStyle}" FontSize="48" >Spanish Civil War Quiz</TextBlock>
 
             <Rectangle x:Name="Rectangle" HorizontalAlignment="Center" Margin="0" VerticalAlignment="Center" Grid.Column="1" Stretch="UniformToFill" Grid.Row="2" Fill="{StaticResource BlackBrush}" Opacity="0.5" />
 
@@ -65,11 +65,11 @@
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="*"/>
                     <ColumnDefinition Width="Auto"/>
-                    <ColumnDefinition Width="3.5*"/>
+                    <ColumnDefinition Width="4.5*"/>
                 </Grid.ColumnDefinitions>
                 <Grid.RowDefinitions>
-                    <RowDefinition Height="*"/>
-                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="2*"/>
                     <RowDefinition Height="*"/>
                     <RowDefinition Height="*"/>
                     <RowDefinition Height="80"/>
@@ -78,9 +78,9 @@
                 <TextBlock Grid.Column="0" Grid.Row="0" Style="{StaticResource AppDescriptionTextStyle}" VerticalAlignment="Center">Difficulty:</TextBlock>
                 <StackPanel Grid.Column="1" Grid.Row="0" Grid.ColumnSpan="2" VerticalAlignment="Center">
                     <StackPanel Orientation="Horizontal">
-                        <CheckBox x:Name="Easy" Click="Easy_Click" Padding="5" Width="250" Style="{StaticResource AppCheckBoxStyle}">Easy</CheckBox>
-                        <CheckBox x:Name="Medium" Padding="5" Click="Medium_Click" Width="250" Style="{StaticResource AppCheckBoxStyle}">Medium</CheckBox>
-                        <CheckBox x:Name="Hard" Padding="5" Click="Hard_Click" Width="250" Style="{StaticResource AppCheckBoxStyle}">Hard</CheckBox>
+                        <CheckBox x:Name="Easy" Click="Easy_Click" Padding="5" Width="275" Style="{StaticResource AppCheckBoxStyle}">Easy</CheckBox>
+                        <CheckBox x:Name="Medium" Padding="5" Click="Medium_Click" Width="275" Style="{StaticResource AppCheckBoxStyle}">Medium</CheckBox>
+                        <CheckBox x:Name="Hard" Padding="5" Click="Hard_Click" Width="275" Style="{StaticResource AppCheckBoxStyle}">Hard</CheckBox>
                     </StackPanel>
                 </StackPanel>
                 <StackPanel Grid.Column="0" Grid.Row="1" VerticalAlignment="Center">
@@ -88,7 +88,7 @@
                     <!--<Button Click="ButtonBase_OnClick">Invert selection</Button>-->
                 </StackPanel>
                 
-                <VariableSizedWrapGrid x:Name="Categories" Grid.Column="1" Grid.Row="1" Grid.ColumnSpan="2" VerticalAlignment="Center" Orientation="Horizontal" ItemWidth="250">
+                <VariableSizedWrapGrid x:Name="Categories" Grid.Column="1" Grid.Row="1" Grid.ColumnSpan="2" VerticalAlignment="Center" Orientation="Horizontal" ItemWidth="275">
                 </VariableSizedWrapGrid>
                 <TextBlock Grid.Column="0" Grid.Row="2" Style="{StaticResource AppDescriptionTextStyle}" VerticalAlignment="Center">Number of<LineBreak />Questions:</TextBlock>
                 <uc:EnhancedSlider x:Name="NumberOfQuestions" Grid.Column="1" Grid.Row="2" Grid.ColumnSpan="2" HorizontalAlignment="Stretch" Margin="0" VerticalAlignment="Center" Minimum="5" Maximum="50" Value="20" FontSize="20" />

@@ -743,7 +743,7 @@
 			},
 			{
 				"Key": "PCE",
-				"Text": "communist party aligned with the USSR"
+				"Text": "national communist party aligned with the USSR"
 			},
 			{
 				"Key": "CNT",
@@ -3936,7 +3936,7 @@
 				"Explanation": "The <a href=\"http://en.wikipedia.org/wiki/War_in_the_North\">War in the North</a> was the campaign in which the Nationalist forces defeated and occupied the parts of northern Spain that remained loyal to the Republican government. The campaign included several separate battles. The campaign ended on 21 October, 1937 with a decisive and total Nationalist victory."
 			},
 			{
-				"Key": "Extremadura campaign",
+				"Key": "Extremadura Campaign",
 				"Text": "August 1936",
 				"Explanation": "The <a href=\"http://en.wikipedia.org/wiki/Extremadura_campaign\">Extremadura Campaign</a> culminated in the <a href=\"http://en.wikipedia.org/wiki/Battle_of_Badajoz_(1936)\">Battle of Badajoz</a> in August 1936, from which the troops of the <a href=\"http://en.wikipedia.org/wiki/Army_of_Africa_(Spain)\">Army of Africa</a>, under the command of <a href=\"http://en.wikipedia.org/wiki/Francisco_Franco\">Francisco Franco</a>, moved quickly to begin the march to Madrid."
 			},

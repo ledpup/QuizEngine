@@ -1,5 +1,7 @@
 ﻿[
 	{
+		"Category": "Cells and Tissues",
+		"Difficulty": "Medium",
 		"KeyQuestion": "Of the phases of human cell cycle bellow, identify *answer text*.",
 		"ValueQuestion": "What is the phase of human cell cycle on the right called?",
 		"DynamicAnswer": "true",
@@ -28,6 +30,8 @@
 		]
 	},
 	{
+		"Category": "Nervous System",
+		"Difficulty": "Hard",
 		"KeyQuestion": "What is the nerve with label \"*answer text*\" on the image?",
 		"ValueQuestion": "Identify the *answer text* nerve on the image.",
 		"KeyValue": "true",
@@ -86,6 +90,8 @@
 		]
 	},
 	{
+		"Category": "Integumentary System",
+		"Difficulty": "Medium",
 		"KeyQuestion": "Label \"*answer text*\" on the picture is which layer of the epidermis?",
 		"ValueQuestion": "The *answer text* is which label on the picture of the epidermis?",
 		"KeyValue": true,
@@ -115,6 +121,8 @@
 		]
 	},
 	{
+		"Category": "Skeletal System",
+		"Difficulty": "Medium",
 		"KeyQuestion": "What is label \"*answer text*\" on the picture of the long bone?",
 		"ValueQuestion": "The *answer text* has which label on the picture of the long bone?",
 		"KeyValue": true,
@@ -177,6 +185,8 @@
 		]
 	},
 	{
+		"Category": "Cells and Tissues",
+		"Difficulty": "Medium",
 		"KeyQuestion": "Which image is *answer text* epithelium?",
 		"ValueQuestion": "What is the type of epithelium in the image?",
 		"Question": "Which image is *answer text* epithelium?",
@@ -215,6 +225,8 @@
 		]
 	},
 	{
+		"Category": "Biochemistry",
+		"Difficulty": "Medium",
 		"Question": "How does the ATPase Na\u207A/K\u207A pump work?",
 		"Answers":
 		[
@@ -234,6 +246,8 @@
 		]
 	},
 	{
+		"Category": "Nervous System",
+		"Difficulty": "Medium",
 		"Question": "The threshold of a neuron's action potential is reached at which value?",
 		"Answers":
 		[
@@ -256,6 +270,8 @@
 		]
 	},
 	{
+		"Category": "Cells and Tissues",
+		"Difficulty": "Medium",
 		"KeyQuestion": "In which of these images are the erythrocytes in *answer text* solution?",
 		"ValueQuestion": "Is the solution that the pictured erythrocytes are in isotonic, hypotonic or hypertonic?",
 		"DynamicAnswer": true,
@@ -276,6 +292,8 @@
 		]
 	},
 	{
+		"Category": "Biochemistry",
+		"Difficulty": "Medium",
 		"Question": "Which type of lipid is used by the body to create hormones?",
 		"Answers":
 		[
@@ -299,7 +317,9 @@
 		]
 	},
 	{
-		"Question": "In which transport process is the energy from the hydrolysis of ATP used to drive substances across the membrane against their concentration gradients?",
+		"Category": "Biochemistry",
+		"Difficulty": "Medium",
+		"Question": "In which transport process is the energy from the hydrolysis of <a href=\"http://en.wikipedia.org/wiki/Adenosine_triphosphate\">ATP</a> used to drive substances across the membrane against their concentration gradients?",
 		"Answers":
 		[
 			{
@@ -321,6 +341,8 @@
 		]
 	},
 	{
+		"Category": "Biochemistry",
+		"Difficulty": "Medium",
 		"Question": "In which transport process is the energy stored in the Na\u207A or H\u207A concentration gradient used to drive substances across the membrane against their concentration gradients?",
 		"Answers":
 		[
@@ -330,7 +352,7 @@
 			},
 			{
 				"Text": "Primary active transport",
-				"Explanation": "Primary active transport uses energy from the hydrolysis of ATP."
+				"Explanation": "Primary active transport uses energy from the hydrolysis of <a href=\"http://en.wikipedia.org/wiki/Adenosine_triphosphate\">ATP</a>."
 			},
 			{
 				"Text": "Facilitated diffusion"
@@ -344,6 +366,8 @@
 		]
 	},
 	{
+		"Category": "Biochemistry",
+		"Difficulty": "Medium",
 		"Question": "What is the major energy storage polysaccharide in humans?",
 		"Answers":
 		[
@@ -357,7 +381,7 @@
 			},
 			{
 				"Text": "Ribose",
-				"Explanation": "Ribose is a carbohydrate found in RNA and ATP."
+				"Explanation": "Ribose is a carbohydrate found in RNA and <a href=\"http://en.wikipedia.org/wiki/Adenosine_triphosphate\">ATP</a>."
 			},
 			{
 				"Text": "Lipids",
@@ -370,7 +394,9 @@
 		]
 	},
 	{
-		"Question": "What does ATP bind to during a muscle action potential?",
+		"Category": "Biochemistry",
+		"Difficulty": "Hard",
+		"Question": "What does <a href=\"http://en.wikipedia.org/wiki/Adenosine_triphosphate\">ATP</a> bind to during a muscle action potential?",
 		"Answers":
 		[
 			{
@@ -392,6 +418,8 @@
 		]
 	},
 	{
+		"Category": "Biochemistry",
+		"Difficulty": "Medium",
 		"Question": "Which of the following is a carbohydrate monomer?",
 		"Answers":
 		[
@@ -419,6 +447,8 @@
 		]
 	},
 	{
+		"Category": "Nervous System",
+		"Difficulty": "Easy",
 		"KeyQuestion": "Identify the *answer text* neuron from the images below.",
 		"ValueQuestion": "What is the image of the neuron on the right called?",
 		"Copyright": "Jonathan Haas",
@@ -444,6 +474,8 @@
 		]
 	},
 	{
+		"Category": "Cells and Tissues",
+		"Difficulty": "Easy",
 		"Question": "Which of the following is an example of connective tissue?",
 		"Answers":
 		[
@@ -470,6 +502,8 @@
 		]
 	},
 	{
+		"Category": "Biochemistry",
+		"Difficulty": "Medium",
 		"Question": "What is the osmolarity of 5 mM NaCl compared to 5 mM of glucose?",
 		"Explanation": "Sodium chloride (NaCl) dissociates into Na\u207A and Cl\u207B ions. Thus, for every 1 mole of NaCl in solution, there are 2 osmoles of solute particles (i.e., a 1 mol/L NaCl solution is a 2 osmol/L NaCl solution).",
 		"Answers":
@@ -493,6 +527,8 @@
 		]
 	},
 	{
+		"Category": "Skeletal System",
+		"Difficulty": "Easy",
 		"Question": "How many of the different types of ribs are there in the human skeleton?",
 		"Answers":
 		[
@@ -515,6 +551,8 @@
 		]
 	},
 	{
+		"Category": "Biochemistry",
+		"Difficulty": "Medium",
 		"Question": "Which option is not a valid type of RNA?",
 		"Answers":
 		[
@@ -538,6 +576,8 @@
 		]
 	},
 	{
+		"Category": "Cells and Tissues",
+		"Difficulty": "Medium",
 		"Question": "Which part of a serous membrane is the deep lining of the abdominal cavity?",
 		"Answers":
 		[
@@ -560,6 +600,8 @@
 		]
 	},
 	{
+		"Category": "Skeletal System",
+		"Difficulty": "Medium",
 		"KeyQuestion": "A \"*answer text*\" can be defined as a joint that __________.",
 		"ValueQuestion": "A joint that *answer text* is a __________.",
 		"KeyValue": "true",
@@ -593,6 +635,8 @@
 		]
 	},
 	{
+		"Category": "Skeletal System",
+		"Difficulty": "Medium",
 		"KeyQuestion": "Which bone is labelled \"*answer text*\" on the picture of the human skull?",
 		"ValueQuestion": "The *answer text* bone has which label on the picture of the human skull?",
 		"KeyValue": "true",
@@ -647,6 +691,8 @@
 		]
 	},
 	{
+		"Category": "Skeletal System",
+		"Difficulty": "Medium",
 		"KeyQuestion": "Which landmark is labelled \"*answer text*\" on the picture of the human skull?",
 		"ValueQuestion": "The *answer text* has which label on the picture of the human skull?",
 		"KeyValue": "true",
@@ -709,6 +755,8 @@
 		]
 	},
 	{
+		"Category": "Integumentary System",
+		"Difficulty": "Medium",
 		"Question": "All of the following are secretory products of exocrine glands except __________.",
 		"Answers":
 		[
@@ -731,6 +779,8 @@
 		]
 	},
 	{
+		"Category": "Integumentary System",
+		"Difficulty": "Medium",
 		"Question": "Which of the following is a mixture of triglycerides, cholesterol, proteins and inorganic salts?",
 		"Answers":
 		[
@@ -753,6 +803,8 @@
 		]
 	},
 	{
+		"Category": "Skeletal System",
+		"Difficulty": "Easy",
 		"Question": "Which bone of the axial skeleton does not articulate with any other bone?",
 		"Answers":
 		[
@@ -775,7 +827,11 @@
 		]
 	},
 	{
+		"Category": "Skeletal System",
+		"Difficulty": "Easy",
 		"Question": "Which type of bone is the scapula?",
+		"Image": "Pectoral girdle front diagram.png",
+		"ImageUrl": "http://en.wikipedia.org/wiki/File:Pectoral_girdle_front_diagram.svg",
 		"Answers":
 		[
 			{
@@ -797,6 +853,8 @@
 		]
 	},
 	{
+		"Category": "Cells and Tissues",
+		"Difficulty": "Medium",
 		"KeyQuestion": "What is a valid definition of *answer text*?",
 		"ValueQuestion": "A cell component that is *answer text* is called a __________.",
 		"KeyValue": "true",
@@ -830,6 +888,8 @@
 		]
 	},	
 	{
+		"Category": "Nervous System",
+		"Difficulty": "Hard",
 		"Question": "The trochlear nerve innovates which eye muscle?",
 		"Answers":
 		[
@@ -853,6 +913,8 @@
 		]
 	},
 	{
+		"Category": "Nervous System",
+		"Difficulty": "Hard",
 		"Question": "The abducens nerve innovates which eye muscle?",
 		"Answers":
 		[
@@ -875,6 +937,8 @@
 		]
 	},
 	{
+		"Category": "Nervous System",
+		"Difficulty": "Easy",
 		"KeyQuestion": "\"*answer text*\" can be defined as __________.",
 		"ValueQuestion": "Sensory receptors that *answer text* are __________.",
 		"KeyValue": "true",
@@ -928,6 +992,8 @@
 		]
 	},
 	{
+		"Category": "Nervous System",
+		"Difficulty": "Hard",
 		"KeyQuestion": "What is cranial nerve number \"*answer text*\" called?",
 		"ValueQuestion": "What number is the *answer text* cranial nerve?",
 		"KeyValue": "true",
@@ -985,6 +1051,8 @@
 		]
 	},
 	{
+		"Category": "Skeletal System",
+		"Difficulty": "Medium",
 		"KeyQuestion": "*answer text* is the movement of a synovial joint that can be defined as __________.",
 		"ValueQuestion": "What is a movement of a synovial joint, described as *answer text* called?",
 		"KeyValue": "true",
@@ -1026,6 +1094,8 @@
 		]
 	},
 	{
+		"Category": "Skeletal System",
+		"Difficulty": "Medium",
 		"KeyQuestion": "*answer text* is a special movement defined as __________.",
 		"ValueQuestion": "What is a special movement, described as *answer text* called?",
 		"KeyValue": "true",
@@ -1079,6 +1149,8 @@
 		]
 	},
 	{
+		"Category": "Skeletal System",
+		"Difficulty": "Easy",
 		"KeyQuestion": "What is an example of a *answer text*?",
 		"ValueQuestion": "The *answer text* is what type of joint?",
 		"KeyValue": "true",
@@ -1112,6 +1184,8 @@
 		]
 	},
 	{
+		"Category": "Special Sensors",
+		"Difficulty": "Medium",
 		"KeyQuestion": "What is label \"*answer text*\" on the picture of the human ear?",
 		"ValueQuestion": "The *answer text* is which label on the picture of the human ear?",
 		"KeyValue": true,
@@ -1174,6 +1248,8 @@
 		]
 	},
 	{
+		"Category": "Special Sensors",
+		"Difficulty": "Medium",
 		"KeyQuestion": "What is label \"*answer text*\" on the picture of the human eye?",
 		"ValueQuestion": "The *answer text* is which label on the picture of the human eye?",
 		"KeyValue": true,
@@ -1304,6 +1380,8 @@
 		]
 	},
 	{
+		"Category": "Skeletal System",
+		"Difficulty": "Medium",
 		"Question": "The main components of the skeletal system are:",
 		"Answers":
 		[
@@ -1326,7 +1404,10 @@
 		]
 	},
 	{
+		"Category": "Biochemistry",
+		"Difficulty": "Medium",
 		"Question": "Lipids contain carbon, nitrogen and oxygen.",
+		"Explanation": "Lipids contain carbon, <i>hydrogen</i> and oxygen.",
 		"Answers":
 		[
 			{
@@ -1339,6 +1420,8 @@
 		]
 	},
 	{
+		"Category": "Cells and Tissues",
+		"Difficulty": "Easy",
 		"Question": "Urea can pass through an eukaryotic cell's selectively permeable membrane.",
 		"Answers":
 		[
@@ -1352,6 +1435,8 @@
 		]
 	},
 	{
+		"Category": "Cells and Tissues",
+		"Difficulty": "Easy",
 		"Question": "Humans are eukaryotic organisms.",
 		"Answers":
 		[
@@ -1365,8 +1450,10 @@
 		]
 	},
 	{
+		"Category": "Cells and Tissues",
+		"Difficulty": "Easy",
 		"Question": "Which dietary component does the body most commonly use for energy?",
-		"Explanation": "The main source of energy for the body is the monosaccharide, glucose. The production of the energy molecule adenosine triphosphate (ATP) requires the breakdown of glucose.",
+		"Explanation": "The main source of energy for the body is the monosaccharide, glucose. The production of the energy molecule <a href=\"http://en.wikipedia.org/wiki/Adenosine_triphosphate\">adenosine triphosphate</a> (ATP) requires the breakdown of glucose.",
 		"Answers":
 		[
 			{
@@ -1388,7 +1475,10 @@
 		]
 	},
 	{
+		"Category": "Integumentary System",
+		"Difficulty": "Easy",
 		"Question": "Melanocytes are found in the dermis.",
+		"Explanation": "Melanocytes are found in the stratum basale layer of the epidermis.",
 		"Answers":
 		[
 			{
@@ -1397,10 +1487,12 @@
 			},
 			{
 				"Text": "True"
-			},
+			}
 		]
 	},
 	{
+		"Category": "Integumentary System",
+		"Difficulty": "Easy",
 		"Question": "The process of epidermal cell development is called keratinization.",
 		"Explanation": "During keratinization, cells formed in the stratum basale undergo a developmental and maturation process as they are pushed towards the surface.",
 		"Answers":
@@ -1415,6 +1507,8 @@
 		]
 	},
 	{
+		"Category": "Integumentary System",
+		"Difficulty": "Hard",
 		"Question": "Which cell of the epidermis is an important component of the immune system?",
 		"Answers":
 		[
@@ -1438,6 +1532,8 @@
 		]
 	},
 	{
+		"Category": "Integumentary System",
+		"Difficulty": "Easy",
 		"Question": "Thermoregulation by the skin involves cooperation between numerous positive feedback mechanisms.",
 		"Explanation": "Negative feedback mechanisms ensure that core and surface body temperature remain relatively constant.",
 		"Answers":
@@ -1452,6 +1548,8 @@
 		]
 	},
 	{
+		"Category": "Skeletal System",
+		"Difficulty": "Easy",
 		"Question": "The cytoskeleton is a lattice structure made of calcium that gives shape to cells.",
 		"Explanation": "The cytoskeleton is a complex lattice structure of protein microtubules that maintains cell shape.",
 		"Answers":
@@ -1466,6 +1564,8 @@
 		]
 	},
 	{
+		"Category": "Muscular System",
+		"Difficulty": "Easy",
 		"Question": "Muscle is a type of connective tissue.",
 		"Explanation": "Muscle is a type of tissue distinct from epithelial, connective and neural tissues. There are three kinds of muscle tissue; skeletal, cardiac and smooth.",
 		"Answers":
@@ -1480,6 +1580,8 @@
 		]
 	},
 	{
+		"Category": "Integumentary System",
+		"Difficulty": "Medium",
 		"Question": "Which component of the skin is sensitive to pressure?",
 		"Answers":
 		[
@@ -1503,6 +1605,8 @@
 		]
 	},
 	{
+		"Category": "Integumentary System",
+		"Difficulty": "Easy",
 		"Question": "What do sebaceous glands in the skin produce?",
 		"Answers":
 		[
@@ -1526,6 +1630,8 @@
 		]
 	},
 	{
+		"Category": "Integumentary System",
+		"Difficulty": "Medium",
 		"Question": "From which tissue region do nails originate from?",
 		"Answers":
 		[
@@ -1549,6 +1655,8 @@
 		]
 	},
 	{
+		"Category": "Integumentary System",
+		"Difficulty": "Medium",
 		"Question": "Which of the following substances is not present in sweat?",
 		"Answers":
 		[
@@ -1572,6 +1680,8 @@
 		]
 	},
 	{
+		"Category": "Cells and Tissues",
+		"Difficulty": "Medium",
 		"Question": "What is the cellular organelle responsible for digesting exhausted organelles?",
 		"Answers":
 		[
@@ -1598,6 +1708,8 @@
 		]
 	},
 	{
+		"Category": "Cells and Tissues",
+		"Difficulty": "Easy",
 		"Question": "The study of cells is called __________; the study of tissues is called __________.",
 		"Answers":
 		[
@@ -1620,6 +1732,8 @@
 		]
 	},
 	{
+		"Category": "Skeletal System",
+		"Difficulty": "Medium",
 		"KeyQuestion": "An *answer text* can be described as a cell that is __________.",
 		"ValueQuestion": "A cell that is *answer text* is what type of bone cell?",
 		"KeyValue": "true",
@@ -1644,6 +1758,8 @@
 		]
 	},
 	{
+		"Category": "Respiratory System",
+		"Difficulty": "Medium",
 		"Question": "Cellular respiration is defined as:",
 		"Answers":
 		[
@@ -1663,6 +1779,8 @@
 		]
 	},
 	{
+		"Category": "Muscular System",
+		"Difficulty": "Medium",
 		"Question": "Which muscle is under voluntary and involuntary control?",
 		"Answers":
 		[
@@ -1685,6 +1803,8 @@
 		]
 	},
 	{
+		"Category": "Muscular System",
+		"Difficulty": "Medium",
 		"KeyQuestion": "What is the muscle with label \"*answer text*\" on the anterior picture of the human muscles?",
 		"ValueQuestion": "Identify the *answer text* muscle on the anterior picture of the human muscles.",
 		"KeyValue": "true",
@@ -1755,6 +1875,8 @@
 		]
 	},
 	{
+		"Category": "Muscular System",
+		"Difficulty": "Medium",
 		"KeyQuestion": "What is the muscle with label \"*answer text*\" on the posterior picture of the human muscles?",
 		"ValueQuestion": "Identify the *answer text* muscle on the posterior picture of the human muscles.",
 		"KeyValue": "true",
@@ -1833,6 +1955,8 @@
 		]
 	},
 	{
+		"Category": "Skeletal System",
+		"Difficulty": "Easy",
 		"Question": "There are five types of bone.",
 		"Explanation": "There are long, short, flat, irregular and seasmoid bones.",
 		"Answers":
@@ -1847,6 +1971,8 @@
 		]
 	},
 	{
+		"Category": "Skeletal System",
+		"Difficulty": "Medium",
 		"Question": "What are the five types of bone called?",
 		"Answers":
 		[
@@ -1869,6 +1995,8 @@
 		]
 	},
 	{
+		"Category": "Nervous System",
+		"Difficulty": "Medium",
 		"Question": "What are the different types of neurons?",
 		"Answers":
 		[
@@ -1895,6 +2023,8 @@
 		]
 	},
 	{
+		"Category": "Skeletal System",
+		"Difficulty": "Medium",
 		"Question": "Haversian canals are a key feature of compact bone.",
 		"Explanation": "Haversian canals (osteons) are a series of tubes around narrow channels formed by lamellae in compact bone. Osteons are arranged parallel to the long axis of the bone. This arrangement allows the deposit of mineral salts and storage which give bone tissue its strength.",
 		"Answers":
@@ -1909,6 +2039,8 @@
 		]
 	},
 	{
+		"Category": "Nervous System",
+		"Difficulty": "Easy",
 		"Question": "The central nervous system (CNS) consists of the brain, spinal cord and spinal nerves.",
 		"Explanation": "The central nervous system (CNS) consists of the brain and spinal cord, not the spinal nerves.",
 		"Answers":
@@ -1923,6 +2055,8 @@
 		]
 	},
 	{
+		"Category": "Nervous System",
+		"Difficulty": "Medium",
 		"Question": "Neuroglia are the supporting cells in the CNS.",
 		"Explanation": "Approximately 40% of the brain consists of neuroglia that support neurons by supplying nutrients, producing myelin and CSF and removing toxic waste.",
 		"Answers":
@@ -1937,6 +2071,8 @@
 		]
 	},
 	{
+		"Category": "Nervous System",
+		"Difficulty": "Medium",
 		"KeyQuestion": "What is the feature with label \"*answer text*\" on the picture of the spinal reflex arc?",
 		"ValueQuestion": "Identify the *answer text* feature on the spinal reflex arc.",
 		"KeyValue": "true",
@@ -1987,6 +2123,8 @@
 		]
 	},
 	{
+		"Category": "Nervous System",
+		"Difficulty": "Easy",
 		"Question": "The peripheral nervous system is subdivided into the autonomic and the somatic nervous systems.",
 		"Explanation": "",
 		"Answers":
@@ -2001,6 +2139,8 @@
 		]
 	},
 	{
+		"Category": "Nervous System",
+		"Difficulty": "Medium",
 		"Question": "Saltatory conduction is much faster than nerve impulses that move along unmyelinated membranes.",
 		"Explanation": "",
 		"Answers":
@@ -2015,6 +2155,8 @@
 		]
 	},
 	{
+		"Category": "Nervous System",
+		"Difficulty": "Easy",
 		"Question": "What is a typical neural pathway?",
 		"Answers":
 		[
@@ -2034,6 +2176,8 @@
 		]
 	},
 	{
+		"Category": "Nervous System",
+		"Difficulty": "Medium",
 		"Question": "What is the correct order of the meninges of the brain, from deep to superficial?",
 		"Answers":
 		[
@@ -2057,6 +2201,8 @@
 		]
 	},
 	{
+		"Category": "Nervous System",
+		"Difficulty": "Easy",
 		"Question": "How many pairs of cranial nerves originate in the brain?",
 		"Answers":
 		[
@@ -2079,6 +2225,8 @@
 		]
 	},
 	{
+		"Category": "Nervous System",
+		"Difficulty": "Easy",
 		"Question": "In most reflex arcs, sensory neurones synapse in:",
 		"Answers":
 		[
@@ -2101,6 +2249,8 @@
 		]
 	},
 	{
+		"Category": "Nervous System",
+		"Difficulty": "Medium",
 		"KeyQuestion": "What is the feature with label \"*answer text*\" on the picture of the meninges of the brain?",
 		"ValueQuestion": "Identify the *answer text* on the picture of meninges of the brain.",
 		"KeyValue": "true",
@@ -2167,6 +2317,8 @@
 		]
 	},
 	{
+		"Category": "Nervous System",
+		"Difficulty": "Medium",
 		"Question": "What are the names of the cells that create the myelin sheath of myelinated neurons?",
 		"Answers":
 		[
@@ -2189,6 +2341,8 @@
 		]
 	},
 	{
+		"Category": "Nervous System",
+		"Difficulty": "Medium",
 		"KeyQuestion": "What is the feature with label \"*answer text*\" on the picture of a neuron?",
 		"ValueQuestion": "Identify the *answer text* on the picture of a neuron.",
 		"KeyValue": "true",
@@ -2251,6 +2405,8 @@
 		]
 	},
 	{
+		"Category": "Integumentary System",
+		"Difficulty": "Medium",
 		"KeyQuestion": "What is the feature with label \"*answer text*\" on the picture of thin and thick skin?",
 		"ValueQuestion": "Identify the *answer text* on the picture of thin and thick skin.",
 		"KeyValue": "true",
@@ -2337,6 +2493,7 @@
 		]
 	},
 	{
+		"Category": "Nervous System",
 		"Difficulty": "Hard",
 		"KeyQuestion": "As a type of neuroglia, *answer text* can be described as cells that __________.",
 		"ValueQuestion": "Cells that *answer text* are what type of neuroglia?",
@@ -2496,8 +2653,7 @@
 				"Text": "Reticulocyte (in marrow) → proerythroblast → erythrocyte (released in blood)"
 			},
 			{
-				"Text": "Proerythroblast (in marrow) → reticulocyte → erythrocyte (released into blood)",
-				"Score": "1"
+				"Text": "Proerythroblast (in marrow) → reticulocyte → erythrocyte (released into blood)"
 			},
 		]
 	},
@@ -2641,7 +2797,7 @@
 		"Category": "Cardiovascular System",
 		"Difficulty": "Easy",
 		"Question": "Leukocytes do not have nuclei and do not contain haemoglobin.",
-		"Explanation": "Leukocytes have nuclei and do not contain haemoglobin.",
+		"Explanation": "Leukocytes <i>have</i> nuclei but do not contain haemoglobin.",
 		"Answers":
 		[
 			{
@@ -3308,7 +3464,7 @@
 		"Category": "Cardiovascular System",
 		"Difficulty": "Easy",
 		"Question": "The right ventricular wall is the thickest due to higher systemic pressures it must pump against and greater distance over which it must pump blood.",
-		"Explanation": "The left ventricular wall is the thickest.",
+		"Explanation": "The left ventricular wall is the thickest because it pumps systemic blood.",
 		"Answers":
 		[
 			{
@@ -3693,7 +3849,7 @@
 	{
 		"Category": "Lymphatic System",
 		"Difficulty": "Medium",
-		"Question": "From where does the left subclavian vein receives lymph?",
+		"Question": "Where does the left subclavian vein receive lymph?",
 		"Answers":
 		[
 			{
@@ -4062,7 +4218,7 @@
 		"Category": "Lymphatic System",
 		"Difficulty": "Easy",
 		"Question": "Another name for antigen is immunoglobulin.",
-		"Explanation": "Another name for antibody is immunoglobulin.",
+		"Explanation": "Another name for <i>antibody</i> is immunoglobulin.",
 		"Answers":
 		[
 			{
@@ -4100,7 +4256,7 @@
 		"Category": "Lymphatic System",
 		"Difficulty": "Easy",
 		"Question": "T cells are best suited for cell-to-cell interactions.",
-		"Explanation": "B cells transform into plasma cells, which synthesize and secrete specific proteins called antibodies.",
+		"Explanation": "B cells, on the other hand, transform into plasma cells, which synthesize and secrete specific proteins called antibodies.",
 		"Answers":
 		[
 			{
@@ -4207,6 +4363,7 @@
 		"Category": "Respiratory System",
 		"Difficulty": "Easy",
 		"Question": "Exhalation begins when",
+		"Image": "Inspiration and expiration.jpg",
 		"Answers":
 		[
 			{
@@ -5722,7 +5879,7 @@
 		[
 			{
 				"Key": "Triiodothyronine (T3) and Thyroxine (T4)",
-				"Text": "increases basal metabolic rate (BMR) and increases use of glucose and FA's for ATP production"
+				"Text": "increases basal metabolic rate (BMR) and increases use of glucose and FA's for <a href=\"http://en.wikipedia.org/wiki/Adenosine_triphosphate\">ATP</a> production"
 			},
 			{
 				"Key": "Calcitonin",
@@ -6034,8 +6191,8 @@
 	{
 		"Category": "Digestive System",
 		"Difficulty": "Medium",
-		"Question": "The pyloric sphincter prevents the stomach contents from flowing back into the oesophagus.",
-		"Explanation": "The cardiac sphincter is located at the entrance of the stomach at the base of the oesophagus. It prevents the back-flow of stomach contents into the oesophagus. The pyloric sphincter (or pylorus) is a ring of smooth muscle located at the opening between the stomach and the duodenum.",
+		"Question": "The <a href=\"http://en.wikipedia.org/wiki/Pyloric_sphincter\">pyloric sphincter</a> prevents the stomach contents from flowing back into the <a href=\"http://en.wikipedia.org/wiki/Oesophagus\">oesophagus</a>.",
+		"Explanation": "The <a href=\"http://en.wikipedia.org/wiki/Lower_oesophageal_sphincter\">lower oesophageal sphincter</a> (cardiac sphincter) is located at the entrance of the stomach at the base of the oesophagus. It prevents the back-flow of stomach contents into the oesophagus. The pyloric sphincter (or pylorus) is a ring of smooth muscle located at the opening between the stomach and the duodenum.",
 		"Answers":
 		[
 			{
@@ -6629,4 +6786,49 @@
 			},
 		]
 	},
+	{
+		"Category": "Integumentary System",
+		"Difficulty": "Medium",
+		"KeyQuestion": "What is label \"*answer text*\" on the picture of the human nail?",
+		"ValueQuestion": "Identify the *answer text* on the picture of the human nail.",
+		"KeyValue": "true",
+		"MaxNumberOfAnswers": "6",
+		"Image": "Human nail anatomy.jpg",
+		"ImageUrl": "http://en.wikipedia.org/wiki/File:Human_nail_anatomy.jpg",
+		"Answers":
+		[
+			{
+				"Key": "A",
+				"Text": "Nail plate"
+			},
+			{
+				"Key": "B",
+				"Text": "Lunula"
+			},
+			{
+				"Key": "C",
+				"Text": "Root"
+			},
+			{
+				"Key": "D",
+				"Text": "Sinus"
+			},
+			{
+				"Key": "E",
+				"Text": "Matrix"
+			},
+			{
+				"Key": "F",
+				"Text": "Nail bed"
+			},
+			{
+				"Key": "G",
+				"Text": "Hyponychium"
+			},
+			{
+				"Key": "H",
+				"Text": "Free margin"
+			}
+		]
+	}
 ]
