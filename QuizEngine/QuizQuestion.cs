@@ -40,6 +40,8 @@ namespace QuizEngine
         [DataMemberAttribute]
         public string ImageText;
         [DataMemberAttribute]
+        public string ImageUrl;
+        [DataMemberAttribute]
         public string Audio;
         [DataMemberAttribute]
         public string Copyright;

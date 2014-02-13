@@ -33,9 +33,9 @@ namespace QuizEngine
     {
         public static MainPage Current;
 
-        public const string Quiz = "Human Body Systems";
+        //public const string Quiz = "Human Body Systems";
         //public const string Quiz = "Chemistry";
-        //public const string Quiz = "Spanish Civil War";
+        public const string Quiz = "Spanish Civil War";
 
         // Data source for the semantic zoom
         private List<IGesturePageInfo> _pages;

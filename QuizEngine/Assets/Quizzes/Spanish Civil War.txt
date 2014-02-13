@@ -1464,7 +1464,7 @@
 		[
 			{
 				"Text": "False",
-				"Score": "1"
+				"Score": "0.5"
 			},
 			{
 				"Text": "True"
@@ -1507,7 +1507,7 @@
 		[
 			{
 				"Text": "False",
-				"Score": "1"
+				"Score": "0.5"
 			},
 			{
 				"Text": "True"
@@ -2265,7 +2265,7 @@
 				"Explanation": "The <a href=\"http://en.wikipedia.org/wiki/Battle_of_Teruel\">Battle of Teruel</a> was fought in and around the city of Teruel during the <a href=\"http://en.wikipedia.org/wiki/Spanish_Civil_War\">Spanish Civil War</a>, between December 1937 and February 1938, during the worst Spanish winter in twenty years. The battle was one of the bloodier actions of the war with the city changing hands several times, first falling to the Republicans and eventually being re-taken by the Nationalists. Teruel was subjected to heavy artillery and aerial bombardment. The two sides suffered over 140,000 casualties between them in the two-month battle. It was a decisive battle of the war, as Francisco Franco's use of his superiority in men and material in regaining Teruel made it the military turning point of the war."
 			},
 			{
-				"Text": "None - all of the above were military defeats for the Republic",
+				"Text": "All of the above were military defeats for the Republic",
 				"IsLast": "true"
 			}
 		]
@@ -2770,37 +2770,6 @@
 			{
 				"Text": "None of the above",
 				"IsLast": "true"
-			}
-		]
-	},
-	{
-		"Category": "Culture",
-		"Difficulty": "Hard",
-		"Question": "<p><a href=\"http://en.wikipedia.org/wiki/Robert_CapaRobert\">Robert Capa's</a> famous photo of the <a href=\"http://en.wikipedia.org/wiki/Spanish_Civil_War\">Spanish Civil War</a> is <i>The Falling Soldier</i>. It is a photo of Federico Borrell Garcia, a <a href=\"http://en.wikipedia.org/wiki/POUM\">POUM</a> soldier, falling to his death after being shot. It was published in the 12 July, 1937 issue of Life magazine. The caption stated \"Robert Capa's camera catches a Spanish soldier the instant he is dropped by a bullet through the head in front of Córdoba.\" What aspect of the veracity of the photo and its description has been questioned?</p>",
-		"Image": "The Falling Soldier.png",
-		"ImageText": "The Falling Soldier",
-		"Answers":
-		[
-			{
-					"Text": "All of the above",
-					"Score": "1",
-					"IsLast": "true"
-			},
-			{
-					"Text": "The soldier wasn't shot",
-					"Explanation": "José Manuel Susperregui claimed that the photograph was staged, as were all the others in the same series supposedly taken on the front."
-			},
-			{
-					"Text": "The photo wasn't taken at Cerro Mariano",
-					"Explanation": "José Manuel Susperregui of the University of País Vasco concluded that the photograph had not been taken at Cerro Muriano but at another location about 35 mi (56 km) away."
-			},
-			{
-					"Text": "The subject wasn't Federico Borrell Garcia",
-					"Explanation": "A Spanish historian later identified the dead soldier as Federico Borrell García, from Alcoi (Alicante), but this identification has been disputed."
-			},
-			{
-					"Text": "The photo wasn't taken by Robert Capa",
-					"Explanation": "Kotaro Sawaki has presented a case for Gerda Taro to be acknowledged as the real photographer."
 			}
 		]
 	},
@@ -3451,11 +3420,11 @@
 			{
 				"Text": "17 July 1936",
 				"Score": "1",
-				"Explanation": "The date of 19 July 1936, in the featured <a href=\"http://en.wikipedia.org/wiki/Confederaci%C3%B3n_Nacional_del_Trabajo\">CNT</a> poster, marks the beginning of the social revolution."
+				"Explanation": "The date of 19 July 1936, in the featured <a href=\"http://en.wikipedia.org/wiki/Confederaci%C3%B3n_Nacional_del_Trabajo\">CNT</a> poster, marks the beginning of the <a href=\"http://en.wikipedia.org/wiki/Spanish_Revolution\">Social Revolution</a>."
 			},
 			{
 				"Text": "19 July 1936",
-				"Explanation": "The date in the featured <a href=\"http://en.wikipedia.org/wiki/Confederaci%C3%B3n_Nacional_del_Trabajo\">CNT</a> poster marks the beginning of the social revolution, not the date of the military's failed coup d'état."
+				"Explanation": "The date in the featured <a href=\"http://en.wikipedia.org/wiki/Confederaci%C3%B3n_Nacional_del_Trabajo\">CNT</a> poster marks the beginning of the <a href=\"http://en.wikipedia.org/wiki/Spanish_Revolution\">Social Revolution</a>, not the date of the military's failed coup d'état."
 			},
 			{
 				"Text": "21 July 1936"
@@ -3524,7 +3493,7 @@
 		"Answers":
 		[
 			{
-				"Text": "None - all of the above were reasons for non-intervention",
+				"Text": "All of the above were reasons for non-intervention",
 				"Score": "1",
 				"IsLast": "true"
 			},
@@ -3563,7 +3532,7 @@
 				"Text": "Corps of Volunteer Troops (CTV)"
 			},
 			{
-				"Text": "None - all of the above were foreign units",
+				"Text": "All of the above were foreign units",
 				"IsLast": "true"
 			}
 		]
@@ -3590,7 +3559,7 @@
 				"Text": "POUM"
 			},
 			{
-				"Text": "None - all of the parties still existed",
+				"Text": "All of the parties still existed",
 				"IsLast": "true"
 			}
 		]
@@ -3604,7 +3573,7 @@
 		[
 			{
 				"Text": "True",
-				"Score": "1"
+				"Score": "0.5"
 			},
 			{
 				"Text": "False"
@@ -3643,7 +3612,7 @@
 		[
 			{
 				"Text": "False",
-				"Score": "1"
+				"Score": "0.5"
 			},
 			{
 				"Text": "True"
@@ -3852,7 +3821,7 @@
 				"Text": "Non-hierarchic and democratic"
 			},
 			{
-				"Text": "None - the militias featured all of the above",
+				"Text": "The militias featured all of the above",
 				"IsLast": "true"
 			}
 		]
@@ -3860,7 +3829,7 @@
 	{
 		"Category": "Social",
 		"Difficulty": "Medium",
-		"Question": "<p>Which event initiated the end of the social revolution in the Republican territory?</p>",
+		"Question": "<p>Which event initiated the end of the <a href=\"http://en.wikipedia.org/wiki/Spanish_Revolution\">Social Revolution</a> in the Republican territory?</p>",
 		"Answers":
 		[
 			{
@@ -3988,7 +3957,7 @@
 				"Explanation": "The <a href=\"http://en.wikipedia.org/wiki/Aragon_Offensive\">Aragon Offensive</a> was a Nationalist which began after the <a href=\"http://en.wikipedia.org/wiki/Battle_of_Teruel\">Battle of Teruel</a>. The offensive, which ran from 7 March, 1938 to 19 April, 1938, smashed the Republican forces, overran Aragon, and conquered parts of Catalonia and the Levante."
 			},
 			{
-				"Text": "None - all of the above were Nationalist victories",
+				"Text": "All of the above were Nationalist victories",
 				"IsLast": "true"
 			}
 		]
@@ -4042,7 +4011,7 @@
 		"Answers":
 		[
 			{
-				"Text": "None - all of these battles were Republican military defeats",
+				"Text": "All of these battles were Republican military defeats",
 				"IsLast": "true",
 				"Score": "1"
 			},
@@ -4061,6 +4030,23 @@
 			{
 				"Text": "Battle of Brunete",
 				"Explanation": "The <a href=\"http://en.wikipedia.org/wiki/Battle_of_Brunete\">Battle of Brunete</a> (6 July – 25 July 1937), fought 15 miles west of Madrid, was a Republican attempt to alleviate the pressure exerted by the Nationalists on the capital and on the north during the <a href=\"http://en.wikipedia.org/wiki/Spanish_Civil_War\">Spanish Civil War</a>. Although initially successful, the Republicans were forced to retreat from Brunete and suffered devastating casualties from the battle."
+			}
+		]
+	},
+	{
+		"Category": "Social",
+		"Difficulty": "Hard",
+		"Question": "<p>The majority of collectives that formed during the <a href=\"http://en.wikipedia.org/wiki/Spanish_Revolution\">Social Revolution</a> in Spain abolished money - the key mechanism of private accumulation of power in capitalist society. This new social relationship continued until the revolution was crushed by the Republic after May 1937.</p>",
+		"Image": "Anarchist Money.jpg",
+		"Explanation": "\"When talking about the Spanish Revolution, the confusion stems from the failure to stipulate that 'abolishing money' refers to the official national money of Spain as distinct from the local money issued by the collectives.\" (Sam Dolgoff, <a href=\"https://libcom.org/library/anarchist-collectives-workers-self-management-spanish-revolution-1936-1939-sam-dolgoff\">The Anarchist Collectives</a>)</p><p>Hans Erich Kaminski said: \"[...] it has become necessary again to have recourse to money to put a value on labour performed. Everyone [...] receives coupons to the value of 5 pesetas for each working day. One part of the coupon bears the inscription 'bread', of which each coupon will purchase a kilo; another part represents a sum of money.\" (Hugh Thomas, <a href=\"http://www.amazon.com/The-Spanish-Civil-War-Paperbacks/dp/0375755152/ref=pd_sim_b_2\">The Spanish Civil War</a>)",
+		"Answers":
+		[
+			{
+				"Text": "False",
+				"Score": "0.5"
+			},
+			{
+				"Text": "True"
 			}
 		]
 	}

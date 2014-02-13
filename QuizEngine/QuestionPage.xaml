@@ -90,6 +90,7 @@
                         Source="{Binding}"
                         Stretch="Uniform" Tapped="imgQuestionImage_Tapped" />
 
+                    <HyperlinkButton x:Name="ImageUrl" Grid.Row="1"  HorizontalAlignment="Right" Visibility="Collapsed"></HyperlinkButton>
                     <TextBlock x:Name="ImageText" Grid.Row="1" Style="{StaticResource AppDescriptionTextStyle}" HorizontalAlignment="Center" TextAlignment="Center" Visibility="Collapsed"></TextBlock>
 
                     <StackPanel x:Name="Media" Grid.Row="2" HorizontalAlignment="Center" Visibility="Collapsed">

@@ -64,7 +64,7 @@ namespace QuizEngine
             Medium.Content += string.Format(" ({0})", _completeQuizQuestions.Count(x => x.Difficulty == "Medium"));
             Hard.Content += string.Format(" ({0})", _completeQuizQuestions.Count(x => x.Difficulty == "Hard"));
 
-            var categories = _completeQuizQuestions.Select(x => new { x.Category }).Distinct();
+            var categories = _completeQuizQuestions.Select(x => new { x.Category }).Distinct().OrderBy(x => x.Category);
             foreach (var category in categories)
             {
                 var checkBox = new CheckBox()
@@ -130,8 +130,8 @@ namespace QuizEngine
         private void StartQuiz_Click(object sender, RoutedEventArgs e)
         {
             _quizConfig.NumberOfQuestions = (int)NumberOfQuestions.Value;
-            _quizQuestions.Shuffle();
-            //_quizQuestions.Reverse();
+            //_quizQuestions.Shuffle();
+            _quizQuestions.Reverse();
             //if ((bool) RandomOrder.IsChecked)
             //{
             //    _quizQuestions.Shuffle();
@@ -222,12 +222,12 @@ namespace QuizEngine
 
         private void Test_Checked(object sender, RoutedEventArgs e)
         {
-            QuizTypeDescription.Text = "Timed quiz\r\nAnswers are revealed at the end of quiz\r\nOne minute per question\r\nHyperlinks disabled";
+            QuizTypeDescription.Text = "Timed quiz\r\nAnswers are revealed at the end of quiz\r\nOne minute per question\r\nHyperlinks are disabled";
         }
 
         private void Practice_Checked(object sender, RoutedEventArgs e)
         {
-            QuizTypeDescription.Text = "No time-limit\r\nAnswers are displayed as you go\r\nA green highlight is a correct answer (a red hightlight is incorrect)";
+            QuizTypeDescription.Text = "No time-limit\r\nAnswers are displayed as you go\r\nGreen highlights a correct answer; red hightlights an incorrect answer";
         }
 
         private void VisualStateChanged(object sender, WindowSizeChangedEventArgs e)

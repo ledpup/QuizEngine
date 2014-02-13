@@ -71,11 +71,19 @@ namespace QuizEngine
             brdMediaBorderVisibility.Visibility = ImageBorderVisibility;
 
             imgQuestionImage.DataContext = QuestionImage;
+            
+            if (_quizQuestion.ImageUrl != null)
+            {
+                ImageUrl.NavigateUri = new Uri(_quizQuestion.ImageUrl);
+                ImageUrl.Content = "Source";
+                ImageUrl.Visibility = Visibility.Visible;
+            }
             if (_quizQuestion.ImageText != null)
             {
                 ImageText.Text = _quizQuestion.ImageText;
                 ImageText.Visibility = Visibility.Visible;
             }
+            
 
             if (!string.IsNullOrEmpty(_quizQuestion.Audio))
             {
