@@ -239,7 +239,18 @@ namespace QuizEngine
 
                     if (_quizQuestion.DynamicAnswer)
                     {
-                        textBlock.Text = _quizQuestion.TextAnswer ? answer.Text : "";
+                        if (_quizQuestion.TextAnswer)
+                        {
+                            textBlock.Text = answer.Text;
+                        }
+                        else if (!string.IsNullOrEmpty(answer.Key))
+                        {
+                            textBlock.Text = answer.Key;
+                        }
+                        else
+                        {
+                            textBlock.Text = "";
+                        }
                     }
 
                     if (!string.IsNullOrEmpty(answer.Image))

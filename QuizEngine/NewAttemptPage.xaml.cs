@@ -130,8 +130,8 @@ namespace QuizEngine
         private void StartQuiz_Click(object sender, RoutedEventArgs e)
         {
             _quizConfig.NumberOfQuestions = (int)NumberOfQuestions.Value;
-            //_quizQuestions.Shuffle();
-            _quizQuestions.Reverse();
+            _quizQuestions.Shuffle();
+            //_quizQuestions.Reverse();
             //if ((bool) RandomOrder.IsChecked)
             //{
             //    _quizQuestions.Shuffle();

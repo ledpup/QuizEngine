@@ -2,7 +2,7 @@
 <StoreAssociation xmlns="http://schemas.microsoft.com/appx/2010/storeassociation">
   <Publisher>CN=4C21CD0D-E8FD-4545-9469-B8B74DA697F5</Publisher>
   <NamespacePrefix>1587LedEnterprises</NamespacePrefix>
-  <PublisherDisplayName>Led Enterprises</PublisherDisplayName>
+  <PublisherDisplayName>Led Industries</PublisherDisplayName>
   <GeneratePackageHash>http://www.w3.org/2001/04/xmlenc#sha256</GeneratePackageHash>
   <SupportedLocales>
     <Language Code="af" InMinimumRequirementSet="false" />
@@ -361,7 +361,7 @@
   <PackageInfoList LandingUrl="https://appdev.microsoft.com:443/StorePortals/Developer/Catalog/ReleaseAnchor/ddf7b094-c021-4933-9ff9-43edf6d2e625">
     <PackageInfo>
       <PackageArchitecture>neutral</PackageArchitecture>
-      <PackageMaxArchitectureVersion>1.0.2.0</PackageMaxArchitectureVersion>
+      <PackageMaxArchitectureVersion>1.0.2.1</PackageMaxArchitectureVersion>
     </PackageInfo>
   </PackageInfoList>
 </StoreAssociation>

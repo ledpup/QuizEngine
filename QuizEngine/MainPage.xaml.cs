@@ -220,6 +220,10 @@ namespace QuizEngine
                         else
                         {
                             question.Image = question.Answers[selectedAnswer].Image;
+                            if (!string.IsNullOrEmpty(question.Answers[selectedAnswer].Key))
+                            {
+                                question.ImageText = question.Answers[selectedAnswer].Key;
+                            }
                             question.Question = question.ValueQuestion;
                             foreach (var answer in question.Answers)
                             {

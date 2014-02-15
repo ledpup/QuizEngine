@@ -687,7 +687,6 @@
 		"Category": "Politics",
 		"Difficulty": "Easy",
 		"Question": "<p>Which map of Spain represents the final stages of the war?</p><p></p><p>Nationalist controlled area is pink.</p><p>Republican controlled area is blue.</p>",
-		"DynamicImage": "true",
 		"Answers":
 		[
 			{
@@ -839,7 +838,6 @@
 		"Category": "Politics",
 		"Difficulty": "Easy",
 		"Question": "<p>Which map of Spain represents the initial stages of the war?</p><p></p><p>Nationalist controlled area is pink.</p><p>Republican controlled area is blue.</p>",
-		"DynamicImage": "true",
 		"Answers":
 		[
 			{
@@ -877,7 +875,6 @@
 		"Category": "Culture",
 		"Difficulty": "Medium",
 		"Question": "<p>Which of the following posters is not a Republican poster?</p>",
-		"DynamicImage": "true",
 		"Answers":
 		[
 			{
@@ -908,7 +905,6 @@
 		"Category": "Culture",
 		"Difficulty": "Hard",
 		"Question": "<p>Which of the following posters is not a Nationalist poster?</p>",
-		"DynamicImage": "true",
 		"Answers":
 		[
 			{
@@ -986,7 +982,7 @@
 		]
 	},
 	{
-		"Category": "Social",
+		"Category": "Society",
 		"Difficulty": "Medium",
 		"Question": "<p>What occurred in the <a href=\"http://en.wikipedia.org/wiki/Extremadura\">Extremadura</a> region of Spain in 1936 before the invasion by the <a href=\"http://en.wikipedia.org/wiki/Army_of_Africa_(Spain)\">Army of Africa</a>?</p>",
 		"Image": "Extremadura.png",
@@ -1009,7 +1005,7 @@
 		]
 	},
 	{
-		"Category": "Social",
+		"Category": "Society",
 		"Difficulty": "Hard",
 		"Question": "<p>Which regions of Spain had the largest number of collectives, established at the beginning of the <a href=\"http://en.wikipedia.org/wiki/Spanish_Revolution\">Revolution</a> in 1936?</p>",
 		"Image": "Anarchist collective.jpg",
@@ -1360,7 +1356,7 @@
 		]
 	},
 	{
-		"Category": "Social",
+		"Category": "Society",
 		"Difficulty": "Easy",
 		"Question": "<p>At the end of the <a href=\"http://en.wikipedia.org/wiki/Spanish_Civil_War\">Civil War</a>, to where did the majority of left-wing Spaniards retreat?</p>",
 		"Answers":
@@ -1498,7 +1494,7 @@
 		]
 	},
 	{
-		"Category": "Social",
+		"Category": "Society",
 		"Difficulty": "Medium",
 		"Question": "<p>Although the workers' collectives, formed during the <a href=\"http://en.wikipedia.org/wiki/Spanish_Revolution\">Social Revolution</a> of 1936, were the exemplar of left-wing communism and anarchism, they were less productive than traditional organisations of production.</p>",
 		"Image": "Collective farmers.jpg",
@@ -1602,7 +1598,7 @@
 		]
 	},
 	{
-		"Category": "Social",
+		"Category": "Society",
 		"Difficulty": "Medium",
 		"Question": "<p>By the end of the war, where did the majority of the <a href=\"http://en.wikipedia.org/wiki/Second_Spanish_Republic\">Second Spanish Republic's</a> gold reserves (the fourth largest in the world, mostly of Spanish and foreign coins) reside?</p>",
 		"Answers":
@@ -2359,6 +2355,7 @@
 		"Category": "Politics",
 		"Difficulty": "Easy",
 		"Question": "<p><a href=\"http://en.wikipedia.org/wiki/Francisco_Franco\">Francisco Franco</a> forced the unification of the <a href=\"http://en.wikipedia.org/wiki/Falange\">Spanish Falange</a>, <a href=\"http://en.wikipedia.org/wiki/Carlist\">Carlists</a>, Alfonists and <a href=\"http://en.wikipedia.org/wiki/CEDA\">CEDA</a> into a single Nationalist movement under his control. Similarly, the Republic forced the <a href=\"http://en.wikipedia.org/wiki/Confederaci%C3%B3n_Nacional_del_Trabajo\">CNT-FAI</a>, <a href=\"http://en.wikipedia.org/wiki/Uni%C3%B3n_General_de_Trabajadores\">UGT</a>, <a href=\"http://en.wikipedia.org/wiki/POUM\">POUM</a> and other republican factions into a single movement.</p>",
+		"Image": "Unification.jpg",
 		"Answers":
 		[
 			{
@@ -2509,7 +2506,7 @@
 		]
 	},
 	{
-		"Category": "Social",
+		"Category": "Society",
 		"Difficulty": "Medium",
 		"Question": "<p>In July 1938, eight months before the end of the war, <a href=\"http://en.wikipedia.org/wiki/Francisco_Franco\">Franco</a> announced that there had already been a total of 470,000 murders in the Republican zone. Since the end of the war, that number has been revised. What is the estimated number of killings that occurred during the <a href=\"http://en.wikipedia.org/wiki/Spanish_Civil_War\">Spanish Civil War</a> due to the Red Terror (i.e., killings within the Republican zone)?</p>",
 		"Answers":
@@ -2535,7 +2532,7 @@
 		]
 	},
 	{
-		"Category": "Social",
+		"Category": "Society",
 		"Difficulty": "Hard",
 		"Question": "<p>\"[In] Badajoz, there were 1,437 victims of the left as against 8,914 victims of the rebels; in Seville, 447 victims of the left, 12,507 victims of the rebels; in Cádiz, 97 victims of the left, 3,071 victims of the rebels; and in Huelva, 101 victims of the left, 6,019 victims of the rebels. In places where there was no Republican violence, the figures for rebel killings are almost incredible, for example Navarre, 3,280, La Rioja, 1,977.\" (Paul Preston, <a href=\"http://www.amazon.com/The-Spanish-Holocaust-Extermination-Twentieth-Century/dp/039306476X\">The Spanish Holocaust</a>, 2007)</p><p></p><p>There were significantly more killings by the the left than by the rebels in only one city. Which city was it?</p>",
 		"Answers":
@@ -2620,7 +2617,6 @@
 		"Category": "Culture",
 		"Difficulty": "Medium",
 		"Question": "<p>Which of the following posters is not a pro-Republican poster?</p>",
-		"DynamicImage": "true",
 		"Answers":
 		[
 			{
@@ -2648,7 +2644,7 @@
 		]
 	},
 	{
-		"Category": "Social",
+		"Category": "Society",
 		"Difficulty": "Medium",
 		"Question": "<p>What is the estimated number of deaths from the <a href=\"http://en.wikipedia.org/wiki/White_Terror_(Spain)\">White Terror</a> (extra-judicial killings in the Nationalist zone)?</p>",
 		"Answers":
@@ -2885,7 +2881,6 @@
 		"Category": "Culture",
 		"Difficulty": "Medium",
 		"Question": "<p>Which of the following posters is a Nationalist poster?</p>",
-		"DynamicImage": "true",
 		"Answers":
 		[
 			{
@@ -2938,7 +2933,6 @@
 		"Category": "Culture",
 		"Difficulty": "Easy",
 		"Question": "<p>Which of the following posters is an anarchist poster?</p>",
-		"DynamicImage": "true",
 		"Answers":
 		[
 			{
@@ -3603,7 +3597,7 @@
 		]
 	},
 	{
-		"Category": "Social",
+		"Category": "Society",
 		"Difficulty": "Easy",
 		"Question": "<p><a href=\"http://en.wikipedia.org/wiki/Jos%C3%A9_Mill%C3%A1n_Astray\">Jose Millán Astray</a> compared the war to 'a new war of independence, a new Reconquista, a new expulsion of the Moors!' (Hugh Thomas, <a href=\"http://www.amazon.com/The-Spanish-Civil-War-Paperbacks/dp/0375755152/ref=pd_sim_b_2\">The Spanish Civil War</a>)</p><p>The attitude of Millán Astray and many of the Nationalists is why the featured poster depicts the Nationalist's racist propaganda against the Moroccan troops.</p>",
 		"Image": "Milicias Catalanas de Madrid.jpg",
@@ -3643,7 +3637,7 @@
 		]
 	},
 	{
-		"Category": "Social",
+		"Category": "Society",
 		"Difficulty": "Medium",
 		"Question": "<p>How many refugees fled from Catalonia into France at the end of the <a href=\"http://en.wikipedia.org/wiki/Catalonia_Offensive\">Catalonia Offensive</a>?</p>",
 		"Answers":
@@ -3690,7 +3684,7 @@
 		]
 	},
 	{
-		"Category": "Social",
+		"Category": "Society",
 		"Difficulty": "Easy",
 		"Question": "<p>Which was not one of the groups that the right-wing of Spain feared and targeted?</p>",
 		"Image": "Popular Action leftlet.jpg",
@@ -3827,7 +3821,7 @@
 		]
 	},
 	{
-		"Category": "Social",
+		"Category": "Society",
 		"Difficulty": "Medium",
 		"Question": "<p>Which event initiated the end of the <a href=\"http://en.wikipedia.org/wiki/Spanish_Revolution\">Social Revolution</a> in the Republican territory?</p>",
 		"Answers":
@@ -3849,7 +3843,7 @@
 		]
 	},
 	{
-		"Category": "Social",
+		"Category": "Society",
 		"Difficulty": "Medium",
 		"Question": "<p>What is the name of the communist militia that defended Madrid during the <a href=\"http://en.wikipedia.org/wiki/Battle_of_Madrid\">Battle for Madrid</a>?</p>",
 		"Audio": "El Quinto Regimiento.mp3",
@@ -4034,9 +4028,9 @@
 		]
 	},
 	{
-		"Category": "Social",
+		"Category": "Society",
 		"Difficulty": "Hard",
-		"Question": "<p>The majority of collectives that formed during the <a href=\"http://en.wikipedia.org/wiki/Spanish_Revolution\">Social Revolution</a> in Spain abolished money - the key mechanism of private accumulation of power in capitalist society. This new social relationship continued until the revolution was crushed by the Republic after May 1937.</p>",
+		"Question": "<p>The majority of collectives that formed during the <a href=\"http://en.wikipedia.org/wiki/Spanish_Revolution\">Social Revolution</a> in Spain abolished money - the key mechanism of the private accumulation of power in capitalist society. This new social relationship continued until the revolution was crushed by the Republic after May 1937.</p>",
 		"Image": "Anarchist Money.jpg",
 		"Explanation": "\"When talking about the Spanish Revolution, the confusion stems from the failure to stipulate that 'abolishing money' refers to the official national money of Spain as distinct from the local money issued by the collectives.\" (Sam Dolgoff, <a href=\"https://libcom.org/library/anarchist-collectives-workers-self-management-spanish-revolution-1936-1939-sam-dolgoff\">The Anarchist Collectives</a>)</p><p>Hans Erich Kaminski said: \"[...] it has become necessary again to have recourse to money to put a value on labour performed. Everyone [...] receives coupons to the value of 5 pesetas for each working day. One part of the coupon bears the inscription 'bread', of which each coupon will purchase a kilo; another part represents a sum of money.\" (Hugh Thomas, <a href=\"http://www.amazon.com/The-Spanish-Civil-War-Paperbacks/dp/0375755152/ref=pd_sim_b_2\">The Spanish Civil War</a>)",
 		"Answers":
@@ -4049,5 +4043,152 @@
 				"Text": "True"
 			}
 		]
+	},
+	{
+		"Category": "Military",
+		"Difficulty": "Hard",
+		"Question": "<p>Which roundel would you not have seen on aircraft during the Spanish Civil War?</p>",
+		"Answers":
+		[
+			{
+				"Image": "Roundel of the Spanish Air Force.png",
+				"Score": "1",
+				"Explanation": "You chose the roundel of the modern Spanish air force."
+			},
+			{
+				"Image": "Spanish Civil War nationalist roundel.png",
+				"Explanation": "You chose a Nationalist roundel."
+			},
+			{
+				"Image": "Roundel of the Spanish Republican Air Force.png",
+				"Explanation": "You chose a roundel of the <a href=\"http://en.wikipedia.org/wiki/Spanish_Republican_Air_Force\">Spanish Republican Air Force</a>."
+			},
+			{
+				"Image": "Nationalist air force black roundel with arrows.png",
+				"Explanation": "You chose a Nationalist roundel."
+			},
+			{
+				"Image": "Blank roundel.png",
+				"Text": "[All were roundels of the war]",
+				"IsLast": "true"
+			}
+		]
+	},
+	{
+		"Category": "Military",
+		"Difficulty": "Hard",
+		"Question": "<p>The <a href=\"http://en.wikipedia.org/wiki/Battle_of_Guadalajara\">Battle of Guadalajara</a> was a military victory for the Republican army. Which of the following was the only other major victory of the Spanish Republic?</p>",
+		"Answers":
+		[
+			{
+				"Text": "The XYZ Line",
+				"Score": "1",
+				"Explanation": "The <a href=\"http://en.wikipedia.org/wiki/XYZ_Line\">XYZ line</a> was a system of fortifications built during the <a href=\"http://en.wikipedia.org/wiki/Spanish_Civil_War\">War</a> in order to defend Valencia. Unlike the Maginot Line, or the <a href=\"http://en.wikipedia.org/wiki/Bilbao's_Iron_Ring\">Iron Ring</a>, the XYZ Line was a simpler system of defences consisting of trenches and bunkers that took advantage of some of the most difficult terrain in Spain to the north and northeast of Valencia. The Nationalists tried to break through the XYZ Line in July 1938 with waves of infantry and intense bombing raids, but the Republican defenders were able to inflict heavy casualties on the Nationalists (about 20,000 casualties), suffering relatively few themselves (only 5,000 casualties)."
+				
+			},
+			{
+				"Text": "Battle of the Ebro",
+				"Explanation": "The <a href=\"http://en.wikipedia.org/wiki/Battle_of_the_Ebro\">Battle of the Ebro</a> was the longest and bloodiest battle of the <a href=\"http://en.wikipedia.org/wiki/Spanish_Civil_War\">Spanish Civil War</a>. It took place between July and November 1938. The results of the battle were disastrous for the <a href=\"http://en.wikipedia.org/wiki/Second_Spanish_Republic\">Second Spanish Republic</a> with tens of thousands of dead and wounded and little effect on the advance of the Nationalists."
+			},
+			{
+				"Text": "Battle of Belchite",
+				"Explanation": "The <a href=\"http://en.wikipedia.org/wiki/Battle_of_Belchite_(1937)\">Battle of Belchite</a> was a series of military operations that took place between 24 August and 7 September 1937, in and around the small town of Belchite, in Aragon during the <a href=\"http://en.wikipedia.org/wiki/Spanish_Civil_War\">Spanish Civil War</a>. Although the Republicans gained some initial success and managed to push the front line ten kilometres deeper into Nationalist territory, both of the main objectives of the offensive failed. The Nationalists did not postpone their big offensive in the north, as they had done before the <a href=\"http://en.wikipedia.org/wiki/Battle_of_Brunete\">Battle of Brunete</a>, and the attempt to capture Saragossa failed."
+			},
+			{
+				"Text": "The Battle of Badajoz",
+				"Explanation": "The <a href=\"http://en.wikipedia.org/wiki/Battle_of_Badajoz_(1936)\">Battle of Badajoz</a> was one of the first major Nationalist victories in the <a href=\"http://en.wikipedia.org/wiki/Spanish_Civil_War\">Spanish Civil War</a>. A series of costly assaults won the Nationalists the fortified border city of Badajoz on August 14, 1936, cutting off the <a href=\"http://en.wikipedia.org/wiki/Second_Spanish_Republic\">Spanish Republic</a> from neighbouring Portugal and linking the northern and southern zones of Nationalist control (although actual contact with General Emilio Mola's northern troops was not established until September 8)."
+			},
+			{
+				"Text": "All of these battles were Republican military defeats",
+				"IsLast": "true"
+			}
+		]
+	},
+	{
+		"Category": "Military",
+		"Difficulty": "Hard",
+		"Question": "<p>Which battle of the <a href=\"http://en.wikipedia.org/wiki/Spanish_Civil_War\">Spanish Civil War</a> made extensive use of pontoon bridges?</p>",
+		"Image": "Forces of the Spanish Government Crossing the Ebro.png",
+		"Answers":
+		[
+			{
+				"Text": "Battle of the Ebro",
+				"Score": "1",
+				"Explanation": "The <a href=\"http://en.wikipedia.org/wiki/Battle_of_the_Ebro\">Battle of the Ebro</a> was the longest and bloodiest battle of the Spanish Civil War. It took place between July and November 1938. The results of the battle were disastrous for the <a href=\"http://en.wikipedia.org/wiki/Second_Spanish_Republic\">Second Spanish Republic</a> with tens of thousands of dead and wounded and little effect on the advance of the Nationalists."
+			},
+			{
+				"Text": "Battle of Teruel",
+				"Explanation": "The <a href=\"http://en.wikipedia.org/wiki/Battle_of_Teruel\">Battle of Teruel</a> was fought in and around the city of Teruel during the Spanish Civil War</a>, between December 1937 and February 1938, during the worst Spanish winter in twenty years. The battle was one of the bloodier actions of the war with the city changing hands several times, first falling to the Republicans and eventually being re-taken by the Nationalists. Teruel was subjected to heavy artillery and aerial bombardment. The two sides suffered over 140,000 casualties between them in the two-month battle. It was a decisive battle of the war, as <a href=\"http://en.wikipedia.org/wiki/Francisco_Franco\">Francisco Franco's</a> use of his superiority in men and material in regaining Teruel made it the military turning point of the war."
+			},
+			{
+				"Text": "Battle of Belchite",
+				"Explanation": "The <a href=\"http://en.wikipedia.org/wiki/Battle_of_Belchite_(1937)\">Battle of Belchite</a> was a series of military operations that took place between 24 August and 7 September 1937, in and around the small town of Belchite, in Aragon during the Spanish Civil War. Although the Republicans gained some initial success and managed to push the front line ten kilometres deeper into Nationalist territory, both of the main objectives of the offensive failed. The Nationalists did not postpone their big offensive in the north, as they had done before the <a href=\"http://en.wikipedia.org/wiki/Battle_of_Brunete\">Battle of Brunete</a>, and the attempt to capture Saragossa failed."
+			},
+			{
+				"Text": "The Battle of Badajoz",
+				"Explanation": "The <a href=\"http://en.wikipedia.org/wiki/Battle_of_Badajoz_(1936)\">Battle of Badajoz</a> was one of the first major Nationalist victories in the Spanish Civil War. A series of costly assaults won the Nationalists the fortified border city of Badajoz on August 14, 1936, cutting off the <a href=\"http://en.wikipedia.org/wiki/Second_Spanish_Republic\">Spanish Republic</a> from neighbouring Portugal and linking the northern and southern zones of Nationalist control (although actual contact with General Emilio Mola's northern troops was not established until September 8)."
+			},
+			{
+				"Text": "Battle of Brunete",
+				"Explanation": "The <a href=\"http://en.wikipedia.org/wiki/Battle_of_Brunete\">Battle of Brunete</a> (6 July – 25 July 1937), fought 15 miles west of Madrid, was a Republican attempt to alleviate the pressure exerted by the Nationalists on the capital and on the north during the Spanish Civil War. Although initially successful, the Republicans were forced to retreat from Brunete and suffered devastating casualties from the battle."
+			}
+		]
+	},
+	{
+		"Category": "Personalities",
+		"Difficulty": "Hard",
+		"KeyQuestion": "<p>Which of the following personalities of the <a href=\"http://en.wikipedia.org/wiki/Spanish_Civil_War\">Spanish Civil War</a> was the *answer text*?</p>",
+		"ValueQuestion": "<p>For what reason is the person in the featured photo famous?</p>",
+		"DynamicAnswer": "true",
+		"MaxNumberOfAnswers": "5",
+		"Answers":
+		[
+			{
+				"Key": "José Miaja",
+				"Image": "José Miaja.png",
+				"Text": "commander of the Defence Council for Madrid and Republican Army of the Central Zone"
+			},
+			{
+				"Key": "Segismundo Casado",
+				"Image": "Segismundo Casado.png",
+				"Text": "lead the only successful coup d'etat against the Second Spanish Republic"
+			},
+			{
+				"Key": "Andreu Nin",
+				"Image": "Andreu Nin.png",
+				"Text": "leader of the POUM. Mostly likely killed by the Soviet secret police"
+			},
+			{
+				"Key": "Manuel Azaña",
+				"Image": "Manuel Azaña.png",
+				"Text": "president of the Second Spanish Republic"
+			},
+			{
+				"Key": "Lluís Companys",
+				"Image": "Lluís Companys.png",
+				"Text": "leader of the the Republican Left of Catalonia (ERC) and president of Catalonia"
+			},
+			{
+				"Key": "Dolores Ibárruri",
+				"Image": "Dolores Ibárruri.jpg",
+				"Text": "influential politician of the Spanish Communist Party (PCE)"
+			},
+			{
+				"Key": "Juan Negrín",
+				"Image": "Juan Negrín.png",
+				"Text": "leader of the Spanish Socialist Workers' Party (PSOE) and Prime Minister of Spain",
+				"Explanation": "<a href=\"http://en.wikipedia.org/wiki/Juan_Negrin\">Juan Negrín</a> became leader of the <a href=\"http://en.wikipedia.org/wiki/PSOE\">PSOE</a> and Prime Minister by replacing <a href=\"http://en.wikipedia.org/wiki/Largo_Caballero\">Largo Caballero</a> after Caballero lost support within his party and the government."
+			},
+			{
+				"Key": "Gil Robles",
+				"Image": "Gil Robles.png",
+				"Text": "leader of Popular Action, and later, CEDA"
+			},
+			{
+				"Key": "Garcia Oliver",
+				"Image": "Garcia Oliver.jpg",
+				"Text": "anarchist Minister of Justice during the Largo Caballero government"
+			}
+		] 
 	}
 ]
