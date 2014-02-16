@@ -1,20 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
 using QuizEngine.Common;
-using Windows.Foundation;
-using Windows.Foundation.Collections;
-using Windows.UI;
 using Windows.UI.Core;
 using Windows.UI.ViewManagement;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
-using Windows.UI.Xaml.Controls.Primitives;
-using Windows.UI.Xaml.Data;
-using Windows.UI.Xaml.Input;
-using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Media.Animation;
 using Windows.UI.Xaml.Navigation;
 
@@ -244,14 +236,15 @@ namespace QuizEngine
             }
         }
 
-        private void ButtonBase_OnClick(object sender, RoutedEventArgs e)
+        private void InvertSelection_OnClick(object sender, RoutedEventArgs e)
         {
+            var tempNumberOfQuestions = NumberOfQuestions.Value;
             foreach (CheckBox categoryCheckBox in Categories.Children)
             {
                 categoryCheckBox.IsChecked = !categoryCheckBox.IsChecked;
                 checkBox_Click(categoryCheckBox, null);
             }
-            
+            NumberOfQuestions.Value = tempNumberOfQuestions > NumberOfQuestions.Maximum ? NumberOfQuestions.Maximum : tempNumberOfQuestions;
         }
     }
 }

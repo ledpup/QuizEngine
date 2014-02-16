@@ -15,10 +15,8 @@ using System.Runtime.CompilerServices;
 using QuizEngine.Common;
 using Windows.Foundation.Collections;
 using Windows.UI.Xaml;
-using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Media.Imaging;
-using QuizEngine;
 
 namespace QuizEngine.Controls
 {

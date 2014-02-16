@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace QuizEngine.Controls
+﻿namespace QuizEngine.Controls
 {
     public interface IGesturePageInfo
     {

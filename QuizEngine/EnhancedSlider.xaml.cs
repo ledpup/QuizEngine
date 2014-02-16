@@ -2,7 +2,6 @@
 {
     using Windows.UI.Xaml;
     using Windows.UI.Xaml.Controls;
-    using Windows.UI.Xaml.Input;
 
     /// <summary>
     /// A Slider Control enhanced with labels and direct manual input.

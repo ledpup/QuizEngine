@@ -85,7 +85,7 @@
                 </StackPanel>
                 <StackPanel Grid.Column="0" Grid.Row="1" VerticalAlignment="Center">
                     <TextBlock Style="{StaticResource AppDescriptionTextStyle}" VerticalAlignment="Center">Category:</TextBlock>
-                    <Button Click="ButtonBase_OnClick">Invert selection</Button>
+                    <Button Click="InvertSelection_OnClick">Invert selection</Button>
                 </StackPanel>
                 
                 <VariableSizedWrapGrid x:Name="Categories" Grid.Column="1" Grid.Row="1" Grid.ColumnSpan="2" VerticalAlignment="Center" Orientation="Horizontal" ItemWidth="275">

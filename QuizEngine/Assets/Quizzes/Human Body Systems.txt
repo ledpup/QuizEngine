@@ -643,6 +643,7 @@
 		"KeyValue": "true",
 		"MaxNumberOfAnswers": "6",
 		"Image": "Human skull - side - bones.png",
+		"ImageUrl": "http://en.wikipedia.org/wiki/File:Human_skull_side_bones.svg",
 		"Answers":
 		[
 			{
@@ -699,6 +700,7 @@
 		"KeyValue": "true",
 		"MaxNumberOfAnswers": "6",
 		"Image": "Human skull - side - landmarks.png",
+		"ImageUrl": "http://en.wikipedia.org/wiki/File:Human_skull_side_bones.svg",
 		"Answers":
 		[
 			{
@@ -1145,7 +1147,7 @@
 			},
 			{
 				"Key": "Opposition",
-				"Text": "the movement in which the thumb moves across the palm to touch the tips of the fingers on the same hand"
+				"Text": "the movement of the thumb across the palm to touch the tips of the fingers on the same hand"
 			},
 		]
 	},
@@ -1738,26 +1740,26 @@
 	{
 		"Category": "Skeletal System",
 		"Difficulty": "Medium",
-		"KeyQuestion": "<p>An *answer text* can be described as a cell that is __________.</p>",
-		"ValueQuestion": "<p>A cell that is *answer text* is what type of bone cell?</p>",
+		"KeyQuestion": "<p>An *answer text* can be described as a cell that __________.</p>",
+		"ValueQuestion": "<p>A cell that *answer text* is what type of bone cell?</p>",
 		"KeyValue": "true",
 		"Answers":
 		[
 			{
 				"Key": "Osteocyte",
-				"Text": "the main cell in bone tissue, maintaining its daily metabolism"
+				"Text": "is the main cell in bone tissue, maintaining its daily metabolism"
 			},
 			{
 				"Key": "Osteogenic cell",
-				"Text": "the unspecialized bone stem cell derived from mesenchyme"
+				"Text": "is the unspecialized bone stem cell derived from mesenchyme"
 			},
 			{
 				"Key": "Osteoblast",
-				"Text": "a bone-building cell"
+				"Text": "is a bone-building cell"
 			},
 			{
 				"Key": "Osteoclast",
-				"Text": "the cell that releases powerful lysosomal enzymes and acids that digest the protein and mineral components of the underlying extracellular bone matrix"
+				"Text": "releases powerful lysosomal enzymes and acids that digest the underlying extracellular bone matrix"
 			},
 		]
 	},
@@ -1963,6 +1965,7 @@
 		"Difficulty": "Easy",
 		"Question": "<p>There are five types of bone.</p>",
 		"Image": "Bone types.jpg",
+		"ImageUrl": "http://cnx.org/content/m44789/latest/Figure_38_02_01.jpg",
 		"Explanation": "There are long, short, flat, irregular and seasmoid bones.",
 		"Answers":
 		[
@@ -2031,6 +2034,8 @@
 		"Category": "Skeletal System",
 		"Difficulty": "Medium",
 		"Question": "<p>Haversian canals are a key feature of compact bone.</p>",
+		"Image": "Figure_38_02_04.png",
+		"ImageUrl": "http://cnx.org/content/m44789/latest/Figure_38_02_04.png",
 		"Explanation": "Haversian canals (osteons) are a series of tubes around narrow channels formed by lamellae in compact bone. Osteons are arranged parallel to the long axis of the bone. This arrangement allows the deposit of mineral salts and storage which give bone tissue its strength.",
 		"Answers":
 		[
@@ -2046,7 +2051,7 @@
 	{
 		"Category": "Nervous System",
 		"Difficulty": "Easy",
-		"Question": "<p>The central nervous system (CNS) consists of the brain, spinal cord and spinal nerves.</p>",
+		"Question": "<p>The <a href=\"http://en.wikipedia.org/wiki/Central_nervous_system\">central nervous system</a> (CNS) consists of the brain, spinal cord and spinal nerves.</p>",
 		"Explanation": "The central nervous system (CNS) consists of the brain and spinal cord, not the spinal nerves.",
 		"Answers":
 		[
@@ -2062,7 +2067,7 @@
 	{
 		"Category": "Nervous System",
 		"Difficulty": "Medium",
-		"Question": "<p>Neuroglia are the supporting cells in the CNS.</p>",
+		"Question": "<p>Neuroglia are the supporting cells in the <a href=\"http://en.wikipedia.org/wiki/Central_nervous_system\">central nervous system</a>.</p>",
 		"Explanation": "Approximately 40% of the brain consists of neuroglia that support neurons by supplying nutrients, producing myelin and CSF and removing toxic waste.",
 		"Answers":
 		[
@@ -4389,7 +4394,9 @@
 	{
 		"Category": "Respiratory System",
 		"Difficulty": "Easy",
-		"Question": "<p>Which of the tissues below forms the exchange surfaces of the alveolus?</p>",
+		"Question": "<p>Which of the tissues below forms the exchange surfaces of the <a href=\"http://en.wikipedia.org/wiki/Alveolus\">alveolus</a>?</p>",
+		"Image": "http://en.wikipedia.org/wiki/File:403_Epithelial_Tissue.jpg",
+		"ImageUrl": "http://en.wikipedia.org/wiki/File:403_Epithelial_Tissue.jpg",
 		"Answers":
 		[
 			{
@@ -4536,7 +4543,7 @@
 	{
 		"Category": "Respiratory System",
 		"Difficulty": "Easy",
-		"Question": "<p>The the left and right sides of the nasal cavity join at the nasal septum.</p>",
+		"Question": "<p>The the left and right sides of the nasal cavity join at the <a href=\"http://en.wikipedia.org/wiki/Nasal_septum\">nasal septum</a>.</p>",
 		"Explanation": "The nasal cavity is divided into left and right sides by the nasal septum.",
 		"Answers":
 		[
@@ -4600,7 +4607,9 @@
 	{
 		"Category": "Respiratory System",
 		"Difficulty": "Easy",
-		"Question": "<p>Which is not a the function of the paranasal sinuses?</p>",
+		"Question": "<p>Which is not a the function of the <a href=\"http://en.wikipedia.org/wiki/Paranasal_sinuses\">paranasal sinuses</a>?</p>",
+		"Image": "Paranasal Sinuses.jpg",
+		"ImageUrl": "http://en.wikipedia.org/wiki/File:Paranasal_Sinuses_ant.jpg",
 		"Answers":
 		[
 			{
@@ -4690,8 +4699,8 @@
 	{
 		"Category": "Respiratory System",
 		"Difficulty": "Hard",
-		"KeyQuestion": "<p>The *answer text* is lined with __________ <a href=\"http://en.wikipedia.org/wiki/Epithelium\">epithelium</a>.</p>",
-		"ValueQuestion": "<p>The __________ contains *answer text* <a href=\"http://en.wikipedia.org/wiki/Epithelium\">epithelium</a>.</p>",
+		"KeyQuestion": "<p>The *answer text* are lined with __________ <a href=\"http://en.wikipedia.org/wiki/Epithelium\">epithelium</a>.</p>",
+		"ValueQuestion": "<p>The __________ contain *answer text* <a href=\"http://en.wikipedia.org/wiki/Epithelium\">epithelium</a>.</p>",
 		"KeyValue": "true",
 		"MaxNumberOfAnswers": "5",
 		"Answers":
@@ -4765,7 +4774,7 @@
 	{
 		"Category": "Respiratory System",
 		"Difficulty": "Hard",
-		"Question": "<p>The carina is the specialised first tracheal cartilage band that is the site where tracheotomies are performed.</p>",
+		"Question": "<p>The <a href=\"http://en.wikipedia.org/wiki/Carina_of_trachea\">carina</a> is the specialised first tracheal cartilage band that is the site where tracheotomies are performed.</p>",
 		"Explanation": "The carina is the specialised last tracheal cartilage band that forms the bifurcation into left and right primary bronchi.",
 		"Answers":
 		[
@@ -4945,6 +4954,7 @@
 		"ValueQuestion": "<p>On the graph of lung volumes, *answer text* is labelled __________.</p>",
 		"KeyValue": "true",
 		"Image": "Lung volumes.png",
+		"ImageUrl": "http://en.wikipedia.org/wiki/File:Lungvolumes.svg",
 		"MaxNumberOfAnswers": "5",
 		"Answers":
 		[
@@ -5044,7 +5054,7 @@
 	{
 		"Category": "Respiratory System",
 		"Difficulty": "Medium",
-		"Question": "<p>What are the labels for the x and y axes of the image of the oxygen-haemoglobin dissociation curve?</p>",
+		"Question": "<p>What are the labels for the x and y axes of the image of the <a href=\"http://en.wikipedia.org/wiki/Oxygen%E2%80%93haemoglobin_dissociation_curve\">oxygen-haemoglobin dissociation curve</a>?</p>",
 		"Image": "Oxygen-haemoglobin dissociation curve - no labels on axes.png",
 		"Answers":
 		[
