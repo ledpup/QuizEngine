@@ -1551,7 +1551,10 @@
 	{
 		"Category": "Skeletal System",
 		"Difficulty": "Easy",
-		"Question": "<p>The cytoskeleton is a lattice structure made of calcium that gives shape to cells.</p>",
+		"Question": "<p>The <a href=\"http://en.wikipedia.org/wiki/Cytoskeleton\">cytoskeleton</a> is a lattice structure made of calcium that gives shape to cells.</p>",
+		"Image": "FluorescentCells.jpg",
+		"ImageText": "The eukaryotic cytoskeleton. Actin filaments are shown in red, microtubules in green, and the nuclei are in blue.",
+		"ImageUrl": "http://en.wikipedia.org/wiki/File:FluorescentCells.jpg",
 		"Explanation": "The cytoskeleton is a complex lattice structure of protein microtubules that maintains cell shape.",
 		"Answers":
 		[
@@ -1959,6 +1962,7 @@
 		"Category": "Skeletal System",
 		"Difficulty": "Easy",
 		"Question": "<p>There are five types of bone.</p>",
+		"Image": "Bone types.jpg",
 		"Explanation": "There are long, short, flat, irregular and seasmoid bones.",
 		"Answers":
 		[

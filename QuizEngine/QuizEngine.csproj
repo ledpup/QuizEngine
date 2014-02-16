@@ -13,7 +13,7 @@
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{BC8A1FFA-BEE3-4634-8014-F334798102B3};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <PackageCertificateKeyFile>QuizEngine_StoreKey.pfx</PackageCertificateKeyFile>
-    <AppxAutoIncrementPackageRevision>False</AppxAutoIncrementPackageRevision>
+    <AppxAutoIncrementPackageRevision>True</AppxAutoIncrementPackageRevision>
     <PackageCertificateThumbprint>8244B418999E1DCC87C275CE3102083C7041836E</PackageCertificateThumbprint>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
@@ -159,6 +159,88 @@
     <Content Include="Assets\Answered.png" />
     <Content Include="Assets\Fin.png" />
     <Content Include="Assets\Logo.png" />
+    <Content Include="Assets\Quizzes\Human Body Systems backgrounds - main\Brain.png" />
+    <Content Include="Assets\Quizzes\Human Body Systems backgrounds - main\Hands.png" />
+    <Content Include="Assets\Quizzes\Human Body Systems backgrounds - main\Heart.png" />
+    <Content Include="Assets\Quizzes\Human Body Systems backgrounds\Human Body Systems.png" />
+    <Content Include="Assets\Quizzes\Human Body Systems.txt" />
+    <Content Include="Assets\Quizzes\Human Body Systems\5Pepsinogen to pepsin.jpg" />
+    <Content Include="Assets\Quizzes\Human Body Systems\Alveolus diagram.png" />
+    <Content Include="Assets\Quizzes\Human Body Systems\Anaphase.png" />
+    <Content Include="Assets\Quizzes\Human Body Systems\Anatomy_of_liver_and_gall_bladder.png" />
+    <Content Include="Assets\Quizzes\Human Body Systems\Anterior Muscles.png" />
+    <Content Include="Assets\Quizzes\Human Body Systems\Bipolar neuron.png" />
+    <Content Include="Assets\Quizzes\Human Body Systems\Blood typing.png" />
+    <Content Include="Assets\Quizzes\Human Body Systems\Bone types.jpg" />
+    <Content Include="Assets\Quizzes\Human Body Systems\Brain.png" />
+    <Content Include="Assets\Quizzes\Human Body Systems\Cardiovascular System.png" />
+    <Content Include="Assets\Quizzes\Human Body Systems\Control-of-stomach-acid-sec.png" />
+    <Content Include="Assets\Quizzes\Human Body Systems\Cranial Nerves.png" />
+    <Content Include="Assets\Quizzes\Human Body Systems\Cyclic-adenosine-monophosphate-2D-skeletal.png" />
+    <Content Include="Assets\Quizzes\Human Body Systems\Digestive System.png" />
+    <Content Include="Assets\Quizzes\Human Body Systems\Dimer.png" />
+    <Content Include="Assets\Quizzes\Human Body Systems\Electrical conduction system of the heart.png" />
+    <Content Include="Assets\Quizzes\Human Body Systems\Endocrine System.png" />
+    <Content Include="Assets\Quizzes\Human Body Systems\Endocrine_central_nervous.png" />
+    <Content Include="Assets\Quizzes\Human Body Systems\Female Reproductive System.png" />
+    <Content Include="Assets\Quizzes\Human Body Systems\FluorescentCells.jpg" />
+    <Content Include="Assets\Quizzes\Human Body Systems\GIT layers.png" />
+    <Content Include="Assets\Quizzes\Human Body Systems\Gray1180.png" />
+    <Content Include="Assets\Quizzes\Human Body Systems\Heart Diagram - blood vessels.png" />
+    <Content Include="Assets\Quizzes\Human Body Systems\Heart Diagram.png" />
+    <Content Include="Assets\Quizzes\Human Body Systems\Heart Layers.png" />
+    <Content Include="Assets\Quizzes\Human Body Systems\Hematopoiesis.png" />
+    <Content Include="Assets\Quizzes\Human Body Systems\Human Ear.png" />
+    <Content Include="Assets\Quizzes\Human Body Systems\Human Eye.png" />
+    <Content Include="Assets\Quizzes\Human Body Systems\Human nail anatomy.png" />
+    <Content Include="Assets\Quizzes\Human Body Systems\Human skull - side - bones.png" />
+    <Content Include="Assets\Quizzes\Human Body Systems\Human skull - side - landmarks.png" />
+    <Content Include="Assets\Quizzes\Human Body Systems\Hypertonic.png" />
+    <Content Include="Assets\Quizzes\Human Body Systems\Hypotonic.png" />
+    <Content Include="Assets\Quizzes\Human Body Systems\Inspiration and expiration.jpg" />
+    <Content Include="Assets\Quizzes\Human Body Systems\Integumentary System.png" />
+    <Content Include="Assets\Quizzes\Human Body Systems\Isotonic.png" />
+    <Content Include="Assets\Quizzes\Human Body Systems\Large Intestine.png" />
+    <Content Include="Assets\Quizzes\Human Body Systems\Layers of the epidermis.png" />
+    <Content Include="Assets\Quizzes\Human Body Systems\Layers_of_the_Gastrointestinal_Tract.png" />
+    <Content Include="Assets\Quizzes\Human Body Systems\Long bone.png" />
+    <Content Include="Assets\Quizzes\Human Body Systems\Lung volumes.png" />
+    <Content Include="Assets\Quizzes\Human Body Systems\Lymphatic ducts - correct.png" />
+    <Content Include="Assets\Quizzes\Human Body Systems\Lymphatic ducts - incorrect.png" />
+    <Content Include="Assets\Quizzes\Human Body Systems\Lymphatic System.png" />
+    <Content Include="Assets\Quizzes\Human Body Systems\Male Reproductive System.png" />
+    <Content Include="Assets\Quizzes\Human Body Systems\Meninges.png" />
+    <Content Include="Assets\Quizzes\Human Body Systems\Metaphase.png" />
+    <Content Include="Assets\Quizzes\Human Body Systems\Monomer.png" />
+    <Content Include="Assets\Quizzes\Human Body Systems\Multipolar neuron.png" />
+    <Content Include="Assets\Quizzes\Human Body Systems\Muscular System.png" />
+    <Content Include="Assets\Quizzes\Human Body Systems\Nervous System.png" />
+    <Content Include="Assets\Quizzes\Human Body Systems\Neuron cell.png" />
+    <Content Include="Assets\Quizzes\Human Body Systems\Normal ECG Tracing.png" />
+    <Content Include="Assets\Quizzes\Human Body Systems\Oxygen-haemoglobin dissociation curve - no labels on axes.png" />
+    <Content Include="Assets\Quizzes\Human Body Systems\Oxygen-haemoglobin dissociation curve.png" />
+    <Content Include="Assets\Quizzes\Human Body Systems\Parathyroid glands.jpg" />
+    <Content Include="Assets\Quizzes\Human Body Systems\Pectoral girdle front diagram.png" />
+    <Content Include="Assets\Quizzes\Human Body Systems\Pentamer.png" />
+    <Content Include="Assets\Quizzes\Human Body Systems\Posterior Muscles.png" />
+    <Content Include="Assets\Quizzes\Human Body Systems\Prometaphase.png" />
+    <Content Include="Assets\Quizzes\Human Body Systems\Prophase.png" />
+    <Content Include="Assets\Quizzes\Human Body Systems\Pseudostratified Columnar.png" />
+    <Content Include="Assets\Quizzes\Human Body Systems\Pseudounipolar neuron.png" />
+    <Content Include="Assets\Quizzes\Human Body Systems\Respiratory System.png" />
+    <Content Include="Assets\Quizzes\Human Body Systems\Simple Columnar.png" />
+    <Content Include="Assets\Quizzes\Human Body Systems\Simple Cuboidal.png" />
+    <Content Include="Assets\Quizzes\Human Body Systems\Simple Squamous.png" />
+    <Content Include="Assets\Quizzes\Human Body Systems\Skeletal System.png" />
+    <Content Include="Assets\Quizzes\Human Body Systems\Skin layers.png" />
+    <Content Include="Assets\Quizzes\Human Body Systems\Spinal reflex arc.png" />
+    <Content Include="Assets\Quizzes\Human Body Systems\Stratified Columnar.png" />
+    <Content Include="Assets\Quizzes\Human Body Systems\Stratified Cuboidal.png" />
+    <Content Include="Assets\Quizzes\Human Body Systems\Stratified Squamous.png" />
+    <Content Include="Assets\Quizzes\Human Body Systems\Telophase.png" />
+    <Content Include="Assets\Quizzes\Human Body Systems\Thyroid.png" />
+    <Content Include="Assets\Quizzes\Human Body Systems\Unipolar neuron.png" />
+    <Content Include="Assets\Quizzes\Human Body Systems\Urinary System.png" />
     <Content Include="Assets\Quizzes\Spanish Civil War backgrounds - main\Hill pose.jpg" />
     <Content Include="Assets\Quizzes\Spanish Civil War backgrounds - main\JSU meeting.jpg" />
     <Content Include="Assets\Quizzes\Spanish Civil War backgrounds - main\Militiawoman.png" />

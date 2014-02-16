@@ -1177,7 +1177,7 @@
 		]
 	},
 	{
-		"Category": "Military",
+		"Category": "Personalities",
 		"Difficulty": "Easy",
 		"Question": "<p>Before the outbreak of the <a href=\"http://en.wikipedia.org/wiki/Spanish_Civil_War\">Spanish Civil War</a>, <a href=\"http://en.wikipedia.org/wiki/Francisco_Franco\">Francisco Franco</a> was:</p>",
 		"Image": "Franco.jpg",
@@ -1430,7 +1430,7 @@
 		]
 	},
 	{
-		"Category": "Military",
+		"Category": "Society",
 		"Difficulty": "Easy",
 		"Question": "<p>What was the final stage in the events that led to the <a href=\"http://en.wikipedia.org/wiki/Spanish_Civil_War\">Spanish Civil War</a>?</p>",
 		"Answers":
@@ -3843,7 +3843,7 @@
 		]
 	},
 	{
-		"Category": "Society",
+		"Category": "Military",
 		"Difficulty": "Medium",
 		"Question": "<p>What is the name of the communist militia that defended Madrid during the <a href=\"http://en.wikipedia.org/wiki/Battle_of_Madrid\">Battle for Madrid</a>?</p>",
 		"Audio": "El Quinto Regimiento.mp3",

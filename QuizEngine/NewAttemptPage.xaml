@@ -57,7 +57,7 @@
                 <RowDefinition Height="*"/>
             </Grid.RowDefinitions>
 
-            <TextBlock x:Name="Title" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="3" Margin="20" Style="{StaticResource AppTitleTextStyle}" FontSize="48" Foreground="White">Spanish Civil War Quiz</TextBlock>
+            <TextBlock x:Name="Title" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="3" Margin="20" Style="{StaticResource AppTitleTextStyle}" FontSize="48">Spanish Civil War Quiz</TextBlock>
 
             <Rectangle x:Name="Rectangle" HorizontalAlignment="Center" Margin="0" VerticalAlignment="Center" Grid.Column="1" Stretch="UniformToFill" Grid.Row="2" Fill="{StaticResource BlackBrush}" Opacity="0.5" />
 
@@ -69,7 +69,7 @@
                 </Grid.ColumnDefinitions>
                 <Grid.RowDefinitions>
                     <RowDefinition Height="Auto"/>
-                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="2*"/>
                     <RowDefinition Height="*"/>
                     <RowDefinition Height="*"/>
                     <RowDefinition Height="80"/>
@@ -85,7 +85,7 @@
                 </StackPanel>
                 <StackPanel Grid.Column="0" Grid.Row="1" VerticalAlignment="Center">
                     <TextBlock Style="{StaticResource AppDescriptionTextStyle}" VerticalAlignment="Center">Category:</TextBlock>
-                    <!--<Button Click="ButtonBase_OnClick">Invert selection</Button>-->
+                    <Button Click="ButtonBase_OnClick">Invert selection</Button>
                 </StackPanel>
                 
                 <VariableSizedWrapGrid x:Name="Categories" Grid.Column="1" Grid.Row="1" Grid.ColumnSpan="2" VerticalAlignment="Center" Orientation="Horizontal" ItemWidth="275">
