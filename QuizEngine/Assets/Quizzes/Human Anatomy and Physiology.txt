@@ -1,0 +1,7005 @@
+﻿[
+	{
+		"Category": "Cells and Structures",
+		"Difficulty": "Medium",
+		"KeyQuestion": "<p>Which of the following phases of <a href=\"http://en.wikipedia.org/wiki/Cell_cycle\">human cell cycle</a> is *answer text*?</p>",
+		"ValueQuestion": "<p>What is the phase of <a href=\"http://en.wikipedia.org/wiki/Cell_cycle\">human cell cycle</a> on the featured picture called?</p>",
+		"DynamicAnswer": "true",
+		"Answers":
+		[
+			{
+				"Image": "Anaphase.png",
+				"Text": "Anaphase"
+			},
+			{
+				"Image": "Telophase.png",
+				"Text": "Telophase"
+			},
+			{
+				"Image": "Metaphase.png",
+				"Text": "Metaphase"
+			},
+			{
+				"Image": "Prophase.png",
+				"Text": "Prophase"
+			},
+			{
+				"Image": "Prometaphase.png",
+				"Text": "Prometaphase"
+			},
+		]
+	},
+	{
+		"Category": "Nervous System",
+		"Difficulty": "Hard",
+		"KeyQuestion": "<p>What is the <a href=\"http://en.wikipedia.org/wiki/Cranial_nerve\">cranial nerve</a> with the label \"*answer text*\" on the image?</p>",
+		"ValueQuestion": "<p>Identify the *answer text* nerve on the image.</p>",
+		"KeyValue": "true",
+		"MaxNumberOfAnswers": "6",
+		"Image": "Cranial Nerves.png",
+		"ImageUrl": "http://en.wikipedia.org/wiki/File:Brain_human_normal_inferior_view_with_labels_en-2.svg",
+		"Answers":
+		[
+			{
+				"Key": "A",
+				"Text": "Olfactory"
+			},
+			{
+				"Key": "B",
+				"Text": "Oculomotor"
+			},
+			{
+				"Key": "C",
+				"Text": "Trochlear"
+			},
+			{
+				"Key": "D",
+				"Text": "Abducens"
+			},
+			{
+				"Key": "E",
+				"Text": "Vestibulocochlear"
+			},
+			{
+				"Key": "F",
+				"Text": "Hypoglossal"
+			},
+			{
+				"Key": "G",
+				"Text": "Accessory"
+			},
+			{
+				"Key": "H",
+				"Text": "Vagus"
+			},
+			{
+				"Key": "I",
+				"Text": "Glossopharyngeal"
+			},
+			{
+				"Key": "J",
+				"Text": "Facial"
+			},
+			{
+				"Key": "K",
+				"Text": "Trigeminal"
+			},
+			{
+				"Key": "L",
+				"Text": "Optic"
+			},
+		]
+	},
+	{
+		"Category": "Integumentary System",
+		"Difficulty": "Medium",
+		"KeyQuestion": "<p>Label \"*answer text*\" on the picture is which layer of the <a href=\"http://en.wikipedia.org/wiki/Epidermis_(skin)\">epidermis</a>?</p>",
+		"ValueQuestion": "<p>The *answer text* is which label on the picture of the <a href=\"http://en.wikipedia.org/wiki/Epidermis_(skin)\">epidermis</a>?</p>",
+		"KeyValue": true,
+		"Image": "Layers of the epidermis.png",
+		"ImageUrl": "http://commons.wikimedia.org/wiki/File:502_Layers_of_epidermis.jpg",
+		"Answers":
+		[
+			{
+				"Key": "A",
+				"Text": "Stratum corneum"
+			},
+			{
+				"Key": "B",
+				"Text": "Stratum lucidum"				
+			},
+			{
+				"Key": "C",
+				"Text": "Stratum granulosum"				
+			},
+			{
+				"Key": "D",
+				"Text": "Stratum spinosum"				
+			},
+			{
+				"Key": "E",
+				"Text": "Stratum basale"
+			},
+		]
+	},
+	{
+		"Category": "Skeletal System",
+		"Difficulty": "Medium",
+		"KeyQuestion": "<p>What is label \"*answer text*\" on the picture of the long bone?</p>",
+		"ValueQuestion": "<p>The *answer text* has which label on the picture of the long bone?</p>",
+		"KeyValue": true,
+		"MaxNumberOfAnswers": "6",
+		"Image": "Long bone.png",
+		"Answers":
+		[
+			{
+				"Key": "A",
+				"Text": "Articular cartilage"
+			},
+			{
+				"Key": "B",
+				"Text": "Epiphyseal line"				
+			},
+			{
+				"Key": "C",
+				"Text": "Spongy bone"				
+			},
+			{
+				"Key": "D",
+				"Text": "Compact bone"				
+			},
+			{
+				"Key": "E",
+				"Text": "Endosteum"				
+			},
+			{
+				"Key": "F",
+				"Text": "Periosteum"
+			},
+			{
+				"Key": "G",
+				"Text": "Medullary cavity"
+			},
+			{
+				"Key": "H",
+				"Text": "Artery and nutrient foramen"
+			},
+			{
+				"Key": "J",
+				"Text": "Proximal epiphysis"
+			},
+			{
+				"Key": "K",
+				"Text": "Proximal metaphysis"
+			},
+			{
+				"Key": "L",
+				"Text": "Diaphysis"
+			},
+			{
+				"Key": "M",
+				"Text": "Distal metaphysis"
+			},
+			{
+				"Key": "N",
+				"Text": "Distal epiphysis"
+			},
+		]
+	},
+	{
+		"Category": "Cells and Structures",
+		"Difficulty": "Medium",
+		"KeyQuestion": "<p>Which image is *answer text* <a href=\"http://en.wikipedia.org/wiki/Epithelium\">epithelium</a>?</p>",
+		"ValueQuestion": "<p>What is the type of <a href=\"http://en.wikipedia.org/wiki/Epithelium\">epithelium</a> in the image?</p>",
+		"DynamicAnswer": "true",
+		"MaxNumberOfAnswers": "5",
+		"Answers":
+		[
+			{
+				"Image": "Simple Squamous.png",
+				"Text": "Simple squamous"
+			},
+			{
+				"Image": "Simple Columnar.png",
+				"Text": "Simple columnar"
+			},
+			{
+				"Image": "Simple Cuboidal.png",
+				"Text": "Simple cuboidal"
+			},
+			{
+				"Image": "Stratified Squamous.png",
+				"Text": "Stratified squamous"
+			},
+			{
+				"Image": "Stratified Columnar.png",
+				"Text": "Stratified columnar"
+			},
+			{
+				"Image": "Stratified Cuboidal.png",
+				"Text": "Stratified cuboidal"
+			},
+			{
+				"Image": "Pseudostratified Columnar.png",
+				"Text": "Pseudostratified columnar"
+			},
+		]
+	},
+	{
+		"Category": "Biochemistry",
+		"Difficulty": "Medium",
+		"Question": "<p>How does the <a href=\"http://en.wikipedia.org/wiki/ATPase\">ATPase</a> Na\u207A/K\u207A pump work?</p>",
+		"Answers":
+		[
+			{
+				"Text": "It pumps 3 Na\u207A ions out of the cell and 2 K\u207A ions into the cell.",
+				"Score": "1"
+			},
+			{
+				"Text": "It pumps 2 Na\u207A ions out of the cell and 3 K\u207A ions into the cell."
+			},
+			{
+				"Text": "It pumps 3 Na\u207A ions into the cell and 2 K\u207A ions out of the cell."
+			},
+			{
+				"Text": "It pumps 2 Na\u207A ions into the cell and 3 K\u207A ions out of the cell."
+			}
+		]
+	},
+	{
+		"Category": "Nervous System",
+		"Difficulty": "Medium",
+		"Question": "<p>The threshold of a neuron's action potential is reached at which value?</p>",
+		"Answers":
+		[
+			{
+				"Text": "-55 mV",
+				"Score": "1"
+			},
+			{
+				"Text": "-70 mV"
+			},
+			{
+				"Text": "-55 V"
+			},
+			{
+				"Text": "70 mV"
+			},
+			{
+				"Text": "35 mV"
+			}
+		]
+	},
+	{
+		"Category": "Cells and Structures",
+		"Difficulty": "Medium",
+		"KeyQuestion": "<p>In which of these images are the erythrocytes in *answer text* solution?</p>",
+		"ValueQuestion": "<p>Is the solution that the pictured erythrocytes are in isotonic, hypotonic or hypertonic?</p>",
+		"DynamicAnswer": true,
+		"Answers":
+		[
+			{
+				"Image": "Isotonic.png",
+				"Text": "Isotonic"
+			},
+			{
+				"Image": "Hypotonic.png",
+				"Text": "Hypotonic"
+			},
+			{
+				"Image": "Hypertonic.png",
+				"Text": "Hypertonic"
+			},
+		]
+	},
+	{
+		"Category": "Biochemistry",
+		"Difficulty": "Medium",
+		"Question": "<p>Which type of lipid is used by the body to create hormones?</p>",
+		"Answers":
+		[
+			{
+				"Text": "Cholesterol",
+				"Score": "1"
+			},
+			{
+				"Text": "Cellulose",
+				"Explanation": "Cellulose is a polysaccharide common to plants. It is an important structural component of the primary cell wall."
+			},
+			{
+				"Text": "Phospholipid"
+			},
+			{
+				"Text": "Triglyceride"
+			},
+			{
+				"Text": "Lipoprotein"
+			},
+		]
+	},
+	{
+		"Category": "Biochemistry",
+		"Difficulty": "Medium",
+		"Question": "<p>In which transport process is the energy from the hydrolysis of <a href=\"http://en.wikipedia.org/wiki/Adenosine_triphosphate\">ATP</a> used to drive substances across the membrane against their concentration gradients?</p>",
+		"Answers":
+		[
+			{
+				"Text": "Primary active transport",
+				"Score": "1"
+			},
+			{
+				"Text": "Secondary active transport"
+			},
+			{
+				"Text": "Facilitated diffusion"
+			},
+			{
+				"Text": "Passive diffusion"
+			},
+			{
+				"Text": "Osmosis"
+			},
+		]
+	},
+	{
+		"Category": "Biochemistry",
+		"Difficulty": "Medium",
+		"Question": "<p>In which transport process is the energy stored in the Na\u207A or H\u207A concentration gradient used to drive substances across the membrane against their concentration gradients?</p>",
+		"Answers":
+		[
+			{
+				"Text": "Secondary active transport",
+				"Score": "1"
+			},
+			{
+				"Text": "Primary active transport",
+				"Explanation": "Primary active transport uses energy from the hydrolysis of <a href=\"http://en.wikipedia.org/wiki/Adenosine_triphosphate\">ATP</a>."
+			},
+			{
+				"Text": "Facilitated diffusion"
+			},
+			{
+				"Text": "Passive diffusion"
+			},
+			{
+				"Text": "Osmosis"
+			},
+		]
+	},
+	{
+		"Category": "Biochemistry",
+		"Difficulty": "Medium",
+		"Question": "<p>What is the major energy storage polysaccharide in humans?</p>",
+		"Image": "Glycogen structure.png",
+		"ImageUrl": "http://en.wikipedia.org/wiki/File:Glycogen_structure.svg",
+		"Answers":
+		[
+			{
+				"Text": "Glycogen",
+				"Score": "1"
+			},
+			{
+				"Text": "Cellulose",
+				"Explanation": "Cellulose is a polysaccharide common to plants. It is an important structural component of the primary cell wall."
+			},
+			{
+				"Text": "Ribose",
+				"Explanation": "Ribose is a carbohydrate found in RNA and <a href=\"http://en.wikipedia.org/wiki/Adenosine_triphosphate\">ATP</a>."
+			},
+			{
+				"Text": "Lipids",
+				"Explanation": "Lipids are not a type of carbohydrate. The are a group of molecules that include fatty acids, triglycerides and phospholipids."
+			},
+			{
+				"Text": "Triglycerides",
+				"Explanation": "Triglycerides are a type of lipid found in adipose tissue."
+			},
+		]
+	},
+	{
+		"Category": "Muscular System",
+		"Difficulty": "Hard",
+		"Question": "<p>What does <a href=\"http://en.wikipedia.org/wiki/Adenosine_triphosphate\">ATP</a> bind to during a muscle action potential?</p>",
+		"Answers":
+		[
+			{
+				"Text": "Myosin",
+				"Score": "1"
+			},
+			{
+				"Text": "Troponin"
+			},
+			{
+				"Text": "Tropomyosin"
+			},
+			{
+				"Text": "Actin"
+			},
+			{
+				"Text": "Titin"
+			},
+		]
+	},
+	{
+		"Category": "Biochemistry",
+		"Difficulty": "Medium",
+		"Question": "<p>Which of the following is a carbohydrate monomer?</p>",
+		"Answers":
+		[
+			{
+				"Text": "None of the above",
+				"Score": "1",
+				"IsLast": "true"
+			},
+			{
+				"Text": "Sucrose",
+				"Explanation": "Sucrose is a disaccharide."
+			},
+			{
+				"Text": "Glycogen",
+				"Explanation": "Glycogen is a polysaccharide."
+			},
+			{
+				"Text": "Lactose",
+				"Explanation": "Lactose is a disaccharide."
+			},
+			{
+				"Text": "Glycerine",
+				"Explanation": "Glycerine is a simple polyol (sugar alcohol)."
+			},
+		]
+	},
+	{
+		"Category": "Nervous System",
+		"Difficulty": "Easy",
+		"KeyQuestion": "<p>Identify the *answer text* neuron from the images below.</p>",
+		"ValueQuestion": "<p>What is the image of the neuron on the right called?</p>",
+		"Copyright": "Jonathan Haas",
+		"DynamicAnswer": "true",
+		"Answers":
+		[
+			{
+				"Image": "Pseudounipolar neuron.png",
+				"Text": "Pseudounipolar"
+			},
+			{
+				"Image": "Unipolar neuron.png",
+				"Text": "Unipolar"
+			},
+			{
+				"Image": "Multipolar neuron.png",
+				"Text": "Multipolar"
+			},
+			{
+				"Image": "Bipolar neuron.png",
+				"Text": "Bipolar"
+			},
+		]
+	},
+	{
+		"Category": "Cells and Structures",
+		"Difficulty": "Easy",
+		"Question": "<p>Which of the following is an example of connective tissue?</p>",
+		"Answers":
+		[
+			{
+				"Text": "All of the above",
+				"Score": "1",
+				"IsLast": "true"
+			},
+			{
+				"Text": "Reticular connective tissue"
+			},
+			{
+				"Text": "Adipose tissue",
+				"Explanation": "Adipose tissue is a connective tissue"
+			},
+			{
+				"Text": "Cartilage",
+				"Explanation": "Cartilage is a connective tissue"
+			},
+			{
+				"Text": "Bone",
+				"Explanation": "Bone is a connective tissue"
+			},
+		]
+	},
+	{
+		"Category": "Biochemistry",
+		"Difficulty": "Medium",
+		"Question": "<p>What is the osmolarity of 5 mM NaCl compared to 5 mM of glucose?</p>",
+		"Explanation": "Sodium chloride (NaCl) dissociates into Na\u207A and Cl\u207B ions. Thus, for every 1 mole of NaCl in solution, there are 2 osmoles of solute particles (i.e., a 1 mol/L NaCl solution is a 2 osmol/L NaCl solution).",
+		"Answers":
+		[
+			{
+				"Text": "There is 10 mOsm of NaCl and 5 mOsm of glucose",
+				"Score": "1"
+			},
+			{
+				"Text": "The NaCl and glucose have 5 mOsm each"
+			},
+			{
+				"Text": "The NaCl and glucose have 10 mOsm each"
+			},
+			{
+				"Text": "There is 5 mOsm of NaCl and 10 mOsm of glucose"
+			},
+			{
+				"Text": "There is 5 mOsm of NaCl and 2.5 mOsm of glucose"
+			},
+		]
+	},
+	{
+		"Category": "Skeletal System",
+		"Difficulty": "Easy",
+		"Question": "<p>How many of the different types of ribs are there in the human skeleton?</p>",
+		"Answers":
+		[
+			{
+				"Text": "7 true ribs; 5 false ribs; 2 false ribs are floating ribs",
+				"Score": "1"
+			},
+			{
+				"Text": "5 true ribs; 7 false ribs; 3 false ribs are floating ribs"
+			},
+			{
+				"Text": "7 true ribs; 5 false ribs; 3 false ribs are floating ribs"
+			},
+			{
+				"Text": "7 true ribs; 5 pseudo-false ribs; 3 pseudo-false ribs are floating ribs"
+			},
+			{
+				"Text": "5 true ribs; 5 pseudo-false ribs; 2 pseudo-false ribs are floating ribs"
+			},
+		]
+	},
+	{
+		"Category": "Biochemistry",
+		"Difficulty": "Medium",
+		"Question": "<p>Which option is not a valid type of RNA?</p>",
+		"Answers":
+		[
+			{
+				"Text": "Translate RNA",
+				"Score": "1"
+			},
+			{
+				"Text": "Transfer RNA"
+			},
+			{
+				"Text": "Messenger RNA"
+			},
+			{
+				"Text": "Ribosomal RNA"
+			},
+			{
+				"Text": "They are all valid types of RNA.",
+				"IsLast": "true"
+			},
+		]
+	},
+	{
+		"Category": "Cells and Structures",
+		"Difficulty": "Medium",
+		"Question": "<p>Which part of a serous membrane is the deep lining of the abdominal cavity?</p>",
+		"Answers":
+		[
+			{
+				"Text": "Visceral peritoneum",
+				"Score": "1"
+			},
+			{
+				"Text": "Parietal peritoneum"
+			},
+			{
+				"Text": "Visceral pericardium"
+			},
+			{
+				"Text": "Parietal pericardium"
+			},
+			{
+				"Text": "Parietal pleura"
+			},
+		]
+	},
+	{
+		"Category": "Skeletal System",
+		"Difficulty": "Medium",
+		"KeyQuestion": "<p>A \"*answer text*\" can be defined as a joint that __________.</p>",
+		"ValueQuestion": "<p>A joint that *answer text* is a __________.</p>",
+		"KeyValue": "true",
+		"MaxNumberOfAnswers": 5,
+		"Answers":
+		[
+			{
+				"Key": "fibrous joint",
+				"Text": "is joined by dense regular connective tissue that is rich in collagen fibers"
+			},
+			{
+				"Key": "cartilaginous joint",
+				"Text": "is joined by cartilage"				
+			},
+			{
+				"Key": "synovial joint",
+				"Text": "is joined via a cavity united by dense irregular connective tissue"				
+			},
+			{
+				"Key": "synarthrosis joint",
+				"Text": "permits little or no mobility"				
+			},
+			{
+				"Key": "amphiarthrosis joint",
+				"Text": "permits slight mobility"
+			},
+			{
+				"Key": "diarthrosis joint",
+				"Text": "is freely movable"
+			},
+		]
+	},
+	{
+		"Category": "Skeletal System",
+		"Difficulty": "Medium",
+		"KeyQuestion": "<p>Which bone is labelled \"*answer text*\" on the picture of the human skull?</p>",
+		"ValueQuestion": "<p>The *answer text* bone has which label on the picture of the human skull?</p>",
+		"KeyValue": "true",
+		"MaxNumberOfAnswers": "6",
+		"Image": "Human skull - side - bones.png",
+		"ImageUrl": "http://en.wikipedia.org/wiki/File:Human_skull_side_bones.svg",
+		"Answers":
+		[
+			{
+				"Key": "A",
+				"Text": "Zygomatic"
+			},
+			{
+				"Key": "B",
+				"Text": "Temporal"
+			},
+			{
+				"Key": "C",
+				"Text": "Occipital"				
+			},
+			{
+				"Key": "D",
+				"Text": "Parietal"				
+			},
+			{
+				"Key": "E",
+				"Text": "Frontal"				
+			},
+			{
+				"Key": "F",
+				"Text": "Sphenoid"
+			},
+			{
+				"Key": "G",
+				"Text": "Ethmoid"
+			},
+			{
+				"Key": "H",
+				"Text": "Nasal"
+			},
+			{
+				"Key": "I",
+				"Text": "Lacrimal"
+			},
+			{
+				"Key": "J",
+				"Text": "Maxilla"
+			},
+			{
+				"Key": "K",
+				"Text": "Mandible"
+			},
+		]
+	},
+	{
+		"Category": "Skeletal System",
+		"Difficulty": "Medium",
+		"KeyQuestion": "<p>Which landmark is labelled \"*answer text*\" on the picture of the human skull?</p>",
+		"ValueQuestion": "<p>The *answer text* has which label on the picture of the human skull?</p>",
+		"KeyValue": "true",
+		"MaxNumberOfAnswers": "6",
+		"Image": "Human skull - side - landmarks.png",
+		"ImageUrl": "http://en.wikipedia.org/wiki/File:Human_skull_side_bones.svg",
+		"Answers":
+		[
+			{
+				"Key": "A",
+				"Text": "Zygomatic arch"
+			},
+			{
+				"Key": "B",
+				"Text": "Mandibular condyle"
+			},
+			{
+				"Key": "C",
+				"Text": "Styloid process"				
+			},
+			{
+				"Key": "D",
+				"Text": "Mastoid process"				
+			},
+			{
+				"Key": "E",
+				"Text": "External auditory meatus"				
+			},
+			{
+				"Key": "F",
+				"Text": "Lambdoid suture"
+			},
+			{
+				"Key": "G",
+				"Text": "Squamous suture"
+			},
+			{
+				"Key": "H",
+				"Text": "Coronal suture"
+			},
+			{
+				"Key": "I",
+				"Text": "Fossa for lacrimal sac"
+			},
+			{
+				"Key": "J",
+				"Text": "Coronoid process of mandible"
+			},
+			{
+				"Key": "K",
+				"Text": "Anterior nasal spine"
+			},
+			{
+				"Key": "L",
+				"Text": "Aveolar process"
+			},
+			{
+				"Key": "M",
+				"Text": "Mental foramen"
+			},
+		]
+	},
+	{
+		"Category": "Integumentary System",
+		"Difficulty": "Medium",
+		"Question": "<p>All of the following are secretory products of exocrine glands except __________.</p>",
+		"Answers":
+		[
+			{
+				"Text": "Hormones",
+				"Score": "1"
+			},
+			{
+				"Text": "Mucus"
+			},
+			{
+				"Text": "Oil"
+			},
+			{
+				"Text": "Digestive enzymes"
+			},
+			{
+				"Text": "Saliva"
+			},
+		]
+	},
+	{
+		"Category": "Integumentary System",
+		"Difficulty": "Medium",
+		"Question": "<p>Which of the following is a mixture of triglycerides, cholesterol, proteins and inorganic salts?</p>",
+		"Answers":
+		[
+			{
+				"Text": "Sebum",
+				"Score": "1"
+			},
+			{
+				"Text": "Sweat"
+			},
+			{
+				"Text": "Lanugo"
+			},
+			{
+				"Text": "Apocrino"
+			},
+			{
+				"Text": "Mucous"
+			},
+		]
+	},
+	{
+		"Category": "Skeletal System",
+		"Difficulty": "Easy",
+		"Question": "<p>Which bone of the axial skeleton does not articulate with any other bone?</p>",
+		"Answers":
+		[
+			{
+				"Text": "Hyoid",
+				"Score": "1"
+			},
+			{
+				"Text": "Vertebrae"
+			},
+			{
+				"Text": "Ethmoid"
+			},
+			{
+				"Text": "Sphenoid"
+			},
+			{
+				"Text": "Ilium"
+			},
+		]
+	},
+	{
+		"Category": "Skeletal System",
+		"Difficulty": "Easy",
+		"Question": "<p>Which type of bone is the scapula?</p>",
+		"Image": "Pectoral girdle front diagram.png",
+		"ImageUrl": "http://en.wikipedia.org/wiki/File:Pectoral_girdle_front_diagram.svg",
+		"Answers":
+		[
+			{
+				"Text": "Flat bone",
+				"Score": "1"
+			},
+			{
+				"Text": "Short bone"
+			},
+			{
+				"Text": "Long bone"
+			},
+			{
+				"Text": "Irregular"
+			},
+			{
+				"Text": "Sesamoid"
+			},
+		]
+	},
+	{
+		"Category": "Cells and Structures",
+		"Difficulty": "Medium",
+		"KeyQuestion": "<p>What is a valid definition of *answer text*?</p>",
+		"ValueQuestion": "<p>A cell component that is *answer text* is called a __________.</p>",
+		"KeyValue": "true",
+		"MaxNumberOfAnswers": 5,
+		"Answers":
+		[
+			{
+				"Key": "Centrosome",
+				"Text": "an organelle; the main microtuble organising centre and regulator of the cell-cycle progression"
+			},
+			{
+				"Key": "Centriole",
+				"Text": "involved in the organisation of mitotic spindle and completion of cytokinesis"				
+			},
+			{
+				"Key": "Centromere",
+				"Text": "part of the chromosome that links the chromotids"				
+			},
+			{
+				"Key": "Chromosome",
+				"Text": "an organised structure of DNA"				
+			},
+			{
+				"Key": "Chromotin",
+				"Text": "DNA, in the nucleous, without a visible structure"
+			},
+			{
+				"Key": "Chromotid",
+				"Text": "one half of a copied chromosome"
+			},
+		]
+	},	
+	{
+		"Category": "Nervous System",
+		"Difficulty": "Hard",
+		"Question": "<p>The trochlear nerve innovates which eye muscle?</p>",
+		"Answers":
+		[
+			{
+				"Text": "Superior oblique",
+				"Score": "1"
+			},
+			{
+				"Text": "Inferior oblique"
+			},
+			{
+				"Text": "Lateral rectus"
+			},
+			{
+				"Text": "Superior rectus"
+			},
+			{
+				"Text": "None of the above",
+				"IsLast": "true"
+			},
+		]
+	},
+	{
+		"Category": "Nervous System",
+		"Difficulty": "Hard",
+		"Question": "<p>The abducens nerve innovates which eye muscle?</p>",
+		"Answers":
+		[
+			{
+				"Text": "Lateral rectus",
+				"Score": "1"
+			},
+			{
+				"Text": "Inferior oblique"
+			},
+			{
+				"Text": "Superior oblique"
+			},
+			{
+				"Text": "Superior rectus"
+			},
+			{
+				"Text": "Medial rectus"
+			},
+		]
+	},
+	{
+		"Category": "Nervous System",
+		"Difficulty": "Easy",
+		"KeyQuestion": "<p>\"*answer text*\" can be defined as __________.</p>",
+		"ValueQuestion": "<p>Sensory receptors that *answer text* are __________.</p>",
+		"KeyValue": "true",
+		"MaxNumberOfAnswers": 5,
+		"Answers":
+		[
+			{
+				"Key": "Hydroreceptors",
+				"Text": "respond to changes in humidity"
+			},
+			{
+				"Key": "Baroreceptors",
+				"Text": "respond to pressure in blood vessels"				
+			},
+			{
+				"Key": "Chemoreceptors",
+				"Text": "detect chemicals in the mouth (taste), nose (smell), and body fluids"				
+			},
+			{
+				"Key": "Mechanoreceptors",
+				"Text": "are sensitive to mechanical stimuli such as the deformation, stretching, or bending of cells"
+			},
+			{
+				"Key": "Nociceptors",
+				"Text": "respond to painful stimuli resulting from physical or chemical damage to tissue"
+			},
+			{
+				"Key": "Osmoreceptors",
+				"Text": "detect the osmotic pressure of body fluids"
+			},
+			{
+				"Key": "Photoreceptors",
+				"Text": "detect light that strikes the retina of the eye"
+			},
+			{
+				"Key": "Thermoreceptors",
+				"Text": "detect changes in temperature"
+			},
+			{
+				"Key": "Proprioceptors",
+				"Text": "provide information about body position, muscles, and the position and movement of your joints"
+			},
+			{
+				"Key": "Interoceptors",
+				"Text": "monitor conditions in the internal environment"
+			},
+			{
+				"Key": "Exteroceptors",
+				"Text": "the sense of hearing, vision, smell, taste, touch, pressure, vibration, temperature, and pain"
+			},
+		]
+	},
+	{
+		"Category": "Nervous System",
+		"Difficulty": "Hard",
+		"KeyQuestion": "<p>What is <a href=\"http://en.wikipedia.org/wiki/Cranial_nerve\">cranial nerve</a> number \"*answer text*\" called?</p>",
+		"ValueQuestion": "<p>What number is the *answer text* <a href=\"http://en.wikipedia.org/wiki/Cranial_nerve\">cranial nerve</a>?</p>",
+		"KeyValue": "true",
+		"MaxNumberOfAnswers": "6",
+		"Answers":
+		[
+			{
+				"Key": "I",
+				"Text": "Olfactory"
+			},
+			{
+				"Key": "II",
+				"Text": "Optic"				
+			},
+			{
+				"Key": "III",
+				"Text": "Oculomotor"				
+			},
+			{
+				"Key": "IV",
+				"Text": "Trochlear"
+			},
+			{
+				"Key": "V",
+				"Text": "Trigeminal"
+			},
+			{
+				"Key": "VI",
+				"Text": "Abducens"
+			},
+			{
+				"Key": "VII",
+				"Text": "Facial"
+			},
+			{
+				"Key": "VIII",
+				"Text": "Vestibulococlear"
+			},
+			{
+				"Key": "IX",
+				"Text": "Glossopharyngeal"
+			},
+			{
+				"Key": "X",
+				"Text": "Vagus"
+			},
+			{
+				"Key": "XI",
+				"Text": "Accessory"
+			},
+			{
+				"Key": "XII",
+				"Text": "Hypoglossal"
+			},
+		]
+	},
+	{
+		"Category": "Skeletal System",
+		"Difficulty": "Medium",
+		"KeyQuestion": "<p>*answer text* is the movement of a synovial joint that can be defined as __________.</p>",
+		"ValueQuestion": "<p>What is a movement of a synovial joint, described as *answer text* called?</p>",
+		"KeyValue": "true",
+		"MaxNumberOfAnswers": 5,
+		"Answers":
+		[
+			{
+				"Key": "Gliding",
+				"Text": "the movement of relatively flat bone surfaces back and forth and side to side over one another"
+			},
+			{
+				"Key": "Flexion",
+				"Text": "a decrease in the angle between articulating bones"
+			},
+			{
+				"Key": "Extension",
+				"Text": "an increase in the angle between articulating bones"				
+			},
+			{
+				"Key": "Hyperextension",
+				"Text": "a continuation of extension beyond the anatomical position"				
+			},
+			{
+				"Key": "Abduction",
+				"Text": "the movement of a bone away from the midline"
+			},
+			{
+				"Key": "Adduction",
+				"Text": "the movement of a bone toward the midline"
+			},
+			{
+				"Key": "Circumduction",
+				"Text": "the movement of the distal end of a body part in a circle"
+			},
+			{
+				"Key": "Rotation",
+				"Text": "a bone that revolves around its own longitudinal axis"
+			},
+		]
+	},
+	{
+		"Category": "Skeletal System",
+		"Difficulty": "Medium",
+		"KeyQuestion": "<p>*answer text* is a special movement defined as __________.</p>",
+		"ValueQuestion": "<p>What is a special movement, described as *answer text* called?</p>",
+		"KeyValue": "true",
+		"MaxNumberOfAnswers": 5,
+		"Answers":
+		[
+			{
+				"Key": "Elevation",
+				"Text": "a superior movement of a part of the body"
+			},
+			{
+				"Key": "Depression",
+				"Text": "an inferior movement of a part of the body"
+			},
+			{
+				"Key": "Protraction",
+				"Text": "a movement of a part of the body anteriorly in the transverse plane"
+			},
+			{
+				"Key": "Retraction",
+				"Text": "a movement of a protracted part of the body back to the anatomical position"
+			},
+			{
+				"Key": "Inversion",
+				"Text": "movement of the sole medially at the intertarsal joints"
+			},
+			{
+				"Key": "Eversion",
+				"Text": "a movement of the sole laterally at the intertarsal joints"
+			},
+			{
+				"Key": "Dorsiflexion",
+				"Text": "bending of the foot at the ankle or talocrural joint in the direction of the dorsum"
+			},
+			{
+				"Key": "Plantar flexion",
+				"Text": "involves bending of the foot at the ankle joint in the direction of the inferior surface"
+			},
+			{
+				"Key": "Supination",
+				"Text": "a movement of the forearm in which the palm is turned anteriorly"
+			},
+			{
+				"Key": "Pronation",
+				"Text": "a movement of the forearm where the palm is turned posteriorly"
+			},
+			{
+				"Key": "Opposition",
+				"Text": "the movement of the thumb across the palm to touch the tips of the fingers on the same hand"
+			},
+		]
+	},
+	{
+		"Category": "Skeletal System",
+		"Difficulty": "Easy",
+		"KeyQuestion": "<p>What is an example of a *answer text*?</p>",
+		"ValueQuestion": "<p>The *answer text* is what type of joint?</p>",
+		"KeyValue": "true",
+		"MaxNumberOfAnswers": 5,
+		"Answers":
+		[
+			{
+				"Key": "Ball-and-socket joint",
+				"Text": "shoulder joint"
+			},
+			{
+				"Key": "Saddle joint",
+				"Text": "carpometacarpal joint between trapezium and metacarpal of thumb"
+			},
+			{
+				"Key": "Condyloid joint",
+				"Text": "radiocarpal and metacarpophalangeal joints"
+			},
+			{
+				"Key": "Pivot joint",
+				"Text": "radioulnar joint"
+			},
+			{
+				"Key": "Hinge joint",
+				"Text": "ankle joint"
+			},
+			{
+				"Key": "Plane joint",
+				"Text": "intercarpal and intertarsal joint"
+			},
+		]
+	},
+	{
+		"Category": "Nervous System",
+		"Difficulty": "Medium",
+		"KeyQuestion": "<p>What is label \"*answer text*\" on the picture of the human ear?</p>",
+		"ValueQuestion": "<p>The *answer text* is which label on the picture of the human ear?</p>",
+		"KeyValue": true,
+		"MaxNumberOfAnswers": "6",
+		"Image": "Human Ear.png",
+		"Answers":
+		[
+			{
+				"Key": "A",
+				"Text": "External auditory canal"
+			},
+			{
+				"Key": "B",
+				"Text": "Cerumen"				
+			},
+			{
+				"Key": "C",
+				"Text": "Tympanic membrane"				
+			},
+			{
+				"Key": "D",
+				"Text": "Tympanic Cavity"				
+			},
+			{
+				"Key": "E",
+				"Text": "Round window"				
+			},
+			{
+				"Key": "F",
+				"Text": "Auditory tube"
+			},
+			{
+				"Key": "G",
+				"Text": "Cochlea"
+			},
+			{
+				"Key": "H",
+				"Text": "Cochlear ramus"
+			},
+			{
+				"Key": "I",
+				"Text": "Vestibular branch"
+			},
+			{
+				"Key": "J",
+				"Text": "Semicircular canals"
+			},
+			{
+				"Key": "K",
+				"Text": "Stapes"
+			},
+			{
+				"Key": "L",
+				"Text": "Incus"
+			},
+			{
+				"Key": "M",
+				"Text": "Malleus"
+			},
+		]
+	},
+	{
+		"Category": "Nervous System",
+		"Difficulty": "Medium",
+		"KeyQuestion": "<p>What is label \"*answer text*\" on the picture of the human eye?</p>",
+		"ValueQuestion": "<p>The *answer text* is which label on the picture of the human eye?</p>",
+		"KeyValue": true,
+		"MaxNumberOfAnswers": "6",
+		"Image": "Human Eye.png",
+		"ImageUrl": "http://en.wikipedia.org/wiki/File:Eye-diagram_no_circles_border.svg",
+		"Answers":
+		[
+			{
+				"Key": "1",
+				"Text": "Posterior compartment"
+			},
+			{
+				"Key": "2",
+				"Text": "Pra serrata"				
+			},
+			{
+				"Key": "3",
+				"Text": "Ciliary muscle"				
+			},
+			{
+				"Key": "4",
+				"Text": "Ciliary zonules"				
+			},
+			{
+				"Key": "5",
+				"Text": "Canal of Schlemm"				
+			},
+			{
+				"Key": "6",
+				"Text": "Pupil"
+			},
+			{
+				"Key": "7",
+				"Text": "Anterior chamber"
+			},
+			{
+				"Key": "8",
+				"Text": "Cornea"
+			},
+			{
+				"Key": "9",
+				"Text": "Iris"
+			},
+			{
+				"Key": "10",
+				"Text": "Lens cortex"
+			},
+			{
+				"Key": "11",
+				"Text": "Lens nucleus"
+			},
+			{
+				"Key": "12",
+				"Text": "Ciliary process"
+			},
+			{
+				"Key": "13",
+				"Text": "Conjunctiva"
+			},
+			{
+				"Key": "14",
+				"Text": "Inferior oblique muscle"
+			},
+			{
+				"Key": "15",
+				"Text": "Inferior rectus muscle"				
+			},
+			{
+				"Key": "16",
+				"Text": "Medial rectus muscle"				
+			},
+			{
+				"Key": "17",
+				"Text": "Retinal arteries and veins"				
+			},
+			{
+				"Key": "18",
+				"Text": "Optic disc"				
+			},
+			{
+				"Key": "19",
+				"Text": "Dura mater"
+			},
+			{
+				"Key": "20",
+				"Text": "Central retinal artery"
+			},
+			{
+				"Key": "21",
+				"Text": "Central retinal vein"
+			},
+			{
+				"Key": "22",
+				"Text": "Optic nerve"
+			},
+			{
+				"Key": "23",
+				"Text": "Vorticose vein"
+			},
+			{
+				"Key": "24",
+				"Text": "Bulbar sheath"
+			},
+			{
+				"Key": "25",
+				"Text": "Macula"
+			},
+			{
+				"Key": "26",
+				"Text": "Fovea centralis"
+			},
+			{
+				"Key": "27",
+				"Text": "Sclera"
+			},
+			{
+				"Key": "28",
+				"Text": "Choroid"				
+			},
+			{
+				"Key": "29",
+				"Text": "Superior rectus muscle"				
+			},
+			{
+				"Key": "30",
+				"Text": "Retina"				
+			},
+		]
+	},
+	{
+		"Category": "Skeletal System",
+		"Difficulty": "Medium",
+		"Question": "<p>The main components of the skeletal system are:</p>",
+		"Answers":
+		[
+			{
+				"Text": "Bones, cartilage, joints and ligaments",
+				"Score": "1"
+			},
+			{
+				"Text": "Blood, bones, cartilage and tendons"
+			},
+			{
+				"Text": "Bones, cartilage, joints and tendons"
+			},
+			{
+				"Text": "Cartilage, joints, ligaments and tendons"
+			},
+			{
+				"Text": "Bones, cartilage, joints, tendons and ligaments"
+			},
+		]
+	},
+	{
+		"Category": "Biochemistry",
+		"Difficulty": "Medium",
+		"Question": "<p>Lipids contain carbon, nitrogen and oxygen.</p>",
+		"Explanation": "Lipids contain carbon, <i>hydrogen</i> and oxygen.",
+		"Answers":
+		[
+			{
+				"Text": "False",
+				"Score": ".5"
+			},
+			{
+				"Text": "True"
+			},
+		]
+	},
+	{
+		"Category": "Cells and Structures",
+		"Difficulty": "Easy",
+		"Question": "<p>Urea can pass through an eukaryotic cell's selectively permeable membrane.</p>",
+		"Answers":
+		[
+			{
+				"Text": "True",
+				"Score": ".5"
+			},
+			{
+				"Text": "False"
+			},
+		]
+	},
+	{
+		"Category": "Cells and Structures",
+		"Difficulty": "Easy",
+		"Question": "<p>Humans are eukaryotic organisms.</p>",
+		"Answers":
+		[
+			{
+				"Text": "True",
+				"Score": ".5"
+			},
+			{
+				"Text": "False"
+			},
+		]
+	},
+	{
+		"Category": "Cells and Structures",
+		"Difficulty": "Easy",
+		"Question": "<p>Which dietary component does the body most commonly use for energy?</p>",
+		"Explanation": "The main source of energy for the body is the monosaccharide, glucose. The production of the energy molecule <a href=\"http://en.wikipedia.org/wiki/Adenosine_triphosphate\">adenosine triphosphate</a> (ATP) requires the breakdown of glucose.",
+		"Answers":
+		[
+			{
+				"Text": "Carbohydrates",
+				"Score": "1"
+			},
+			{
+				"Text": "Proteins"
+			},
+			{
+				"Text": "Vitamins"
+			},
+			{
+				"Text": "Lipids"
+			},
+			{
+				"Text": "Minerals"
+			},
+		]
+	},
+	{
+		"Category": "Integumentary System",
+		"Difficulty": "Easy",
+		"Question": "<p>Melanocytes are found in the dermis.</p>",
+		"Explanation": "Melanocytes are found in the stratum basale layer of the <a href=\"http://en.wikipedia.org/wiki/Epidermis_(skin)\">epidermis</a>.",
+		"Answers":
+		[
+			{
+				"Text": "False",
+				"Score": ".5"
+			},
+			{
+				"Text": "True"
+			}
+		]
+	},
+	{
+		"Category": "Integumentary System",
+		"Difficulty": "Easy",
+		"Question": "<p>The process of epidermal cell development is called keratinization.</p>",
+		"Explanation": "During keratinization, cells formed in the stratum basale undergo a developmental and maturation process as they are pushed towards the surface.",
+		"Answers":
+		[
+			{
+				"Text": "True",
+				"Score": "1"
+			},
+			{
+				"Text": "False"
+			},
+		]
+	},
+	{
+		"Category": "Integumentary System",
+		"Difficulty": "Hard",
+		"Question": "<p>Which cell of the <a href=\"http://en.wikipedia.org/wiki/Epidermis_(skin)\">epidermis</a> is an important component of the immune system?</p>",
+		"Answers":
+		[
+			{
+				"Text": "Langerhans cells",
+				"Score": "1"
+			},
+			{
+				"Text": "Melanocytes"
+			},
+			{
+				"Text": "Keratinocytes"
+			},
+			{
+				"Text": "Merkel cells"
+			},
+			{
+				"Text": "None of the above",
+				"IsLast": "true"
+			},
+		]
+	},
+	{
+		"Category": "Integumentary System",
+		"Difficulty": "Easy",
+		"Question": "<p>Thermoregulation by the skin involves cooperation between numerous positive feedback mechanisms.</p>",
+		"Explanation": "Negative feedback mechanisms ensure that core and surface body temperature remain relatively constant.",
+		"Answers":
+		[
+			{
+				"Text": "False",
+				"Score": ".5"
+			},
+			{
+				"Text": "True"
+			},
+		]
+	},
+	{
+		"Category": "Skeletal System",
+		"Difficulty": "Easy",
+		"Question": "<p>The <a href=\"http://en.wikipedia.org/wiki/Cytoskeleton\">cytoskeleton</a> is a lattice structure made of calcium that gives shape to cells.</p>",
+		"Image": "FluorescentCells.jpg",
+		"ImageText": "The eukaryotic cytoskeleton. Actin filaments are shown in red, microtubules in green, and the nuclei are in blue.",
+		"ImageUrl": "http://en.wikipedia.org/wiki/File:FluorescentCells.jpg",
+		"Explanation": "The cytoskeleton is a complex lattice structure of protein microtubules that maintains cell shape.",
+		"Answers":
+		[
+			{
+				"Text": "False",
+				"Score": ".5"
+			},
+			{
+				"Text": "True"
+			},
+		]
+	},
+	{
+		"Category": "Muscular System",
+		"Difficulty": "Easy",
+		"Question": "<p>Muscle is a type of connective tissue.</p>",
+		"Explanation": "Muscle is a type of tissue distinct from epithelial, connective and neural tissues. There are three kinds of muscle tissue; skeletal, cardiac and smooth.",
+		"Answers":
+		[
+			{
+				"Text": "False",
+				"Score": ".5"
+			},
+			{
+				"Text": "True"
+			},
+		]
+	},
+	{
+		"Category": "Integumentary System",
+		"Difficulty": "Medium",
+		"Question": "<p>Which component of the skin is sensitive to pressure?</p>",
+		"Answers":
+		[
+			{
+				"Text": "All of the above",
+				"Score": "1",
+				"IsLast": "true"
+			},
+			{
+				"Text": "Tactile corpuscles (Meissner's corpuscles)"
+			},
+			{
+				"Text": "Lamellar corpuscles (Pacinian corpuscles)"
+			},
+			{
+				"Text": "Merkel cells"
+			},
+			{
+				"Text": "Bulbous corpuscle (Ruffini ending)"
+			},
+		]
+	},
+	{
+		"Category": "Integumentary System",
+		"Difficulty": "Easy",
+		"Question": "<p>What do sebaceous glands in the skin produce?</p>",
+		"Answers":
+		[
+			{
+				"Text": "Sebum",
+				"Score": "1"
+			},
+			{
+				"Text": "Milk"
+			},
+			{
+				"Text": "Cerumen"
+			},
+			{
+				"Text": "Sweat"
+			},
+			{
+				"Text": "None of the above",
+				"IsLast": "true"
+			},
+		]
+	},
+	{
+		"Category": "Integumentary System",
+		"Difficulty": "Medium",
+		"Question": "<p>From which tissue region do nails originate from?</p>",
+		"Answers":
+		[
+			{
+				"Text": "Nail matrix",
+				"Score": "1"
+			},
+			{
+				"Text": "Lunula"
+			},
+			{
+				"Text": "Eponychium"
+			},
+			{
+				"Text": "Cuticle"
+			},
+			{
+				"Text": "None of the above",
+				"IsLast": "true"
+			},
+		]
+	},
+	{
+		"Category": "Integumentary System",
+		"Difficulty": "Medium",
+		"Question": "<p>Which of the following substances is not present in sweat?</p>",
+		"Answers":
+		[
+			{
+				"Text": "Calcium",
+				"Score": "1"
+			},
+			{
+				"Text": "Urea"
+			},
+			{
+				"Text": "Lactic acid"
+			},
+			{
+				"Text": "Water"
+			},
+			{
+				"Text": "All of the above are present in water",
+				"IsLast": "true"
+			},
+		]
+	},
+	{
+		"Category": "Cells and Structures",
+		"Difficulty": "Medium",
+		"Question": "<p>What is the cellular organelle responsible for digesting exhausted organelles?</p>",
+		"Answers":
+		[
+			{
+				"Text": "Lysosome",
+				"Score": "1"
+			},
+			{
+				"Text": "Ribosome",
+				"Explanation": "Ribosomes serve as the primary site of biological protein synthesis."
+			},
+			{
+				"Text": "Centrosome",
+				"Explanation": "Centrosomes serve as the main microtubule organizing centre (MTOC) of the animal cell as well as a regulator of cell-cycle progression."
+			},
+			{
+				"Text": "Peroxisome",
+				"Explanation": "Peroxisomes are involved in the catabolism of very long chain fatty acids, branched chain fatty acids, D-amino acids, polyamines, and biosynthesis of plasmalogens."
+			},
+			{
+				"Text": "Endosome",
+				"Explanation": "Endosomes provide an environment for material to be sorted before it reaches the degradative lysosome."
+			},
+		]
+	},
+	{
+		"Category": "Cells and Structures",
+		"Difficulty": "Easy",
+		"Question": "<p>The study of cells is called __________; the study of tissues is called __________.</p>",
+		"Answers":
+		[
+			{
+				"Text": "cytology; histology",
+				"Score": "1"
+			},
+			{
+				"Text": "celltology; histology"
+			},
+			{
+				"Text": "histology; cytology"
+			},
+			{
+				"Text": "histology; celltology"
+			},
+			{
+				"Text": "celltology; tissuology"
+			},
+		]
+	},
+	{
+		"Category": "Skeletal System",
+		"Difficulty": "Medium",
+		"KeyQuestion": "<p>An *answer text* can be described as a cell that __________.</p>",
+		"ValueQuestion": "<p>A cell that *answer text* is what type of bone cell?</p>",
+		"KeyValue": "true",
+		"Answers":
+		[
+			{
+				"Key": "Osteocyte",
+				"Text": "is the main cell in bone tissue, maintaining its daily metabolism"
+			},
+			{
+				"Key": "Osteogenic cell",
+				"Text": "is the unspecialized bone stem cell derived from mesenchyme"
+			},
+			{
+				"Key": "Osteoblast",
+				"Text": "is a bone-building cell"
+			},
+			{
+				"Key": "Osteoclast",
+				"Text": "releases powerful lysosomal enzymes and acids that digest the underlying extracellular bone matrix"
+			},
+		]
+	},
+	{
+		"Category": "Respiratory System",
+		"Difficulty": "Medium",
+		"Question": "<p>Cellular respiration is defined as:</p>",
+		"Answers":
+		[
+			{
+				"Text": "an intracellular, energy-producing process",
+				"Score": "1"
+			},
+			{
+				"Text": "an extracellular, energy-producing process"
+			},
+			{
+				"Text": "an intracellular, energy-requiring process"
+			},
+			{
+				"Text": "an extracellular, energy-requiring process"
+			},
+		]
+	},
+	{
+		"Category": "Muscular System",
+		"Difficulty": "Medium",
+		"Question": "<p>Which muscle is under voluntary and involuntary control?</p>",
+		"Answers":
+		[
+			{
+				"Text": "Diaphragm",
+				"Score": "1"
+			},
+			{
+				"Text": "Heart"
+			},
+			{
+				"Text": "Ciliary muscles"
+			},
+			{
+				"Text": "Bladder muscles"
+			},
+			{
+				"Text": "Arrector pili"
+			},
+		]
+	},
+	{
+		"Category": "Muscular System",
+		"Difficulty": "Medium",
+		"KeyQuestion": "<p>What is the muscle with label \"*answer text*\" on the anterior picture of the human muscles?</p>",
+		"ValueQuestion": "<p>Identify the *answer text* muscle on the anterior picture of the human muscles.</p>",
+		"KeyValue": "true",
+		"MaxNumberOfAnswers": "6",
+		"Image": "Anterior Muscles.png",
+		"Answers":
+		[
+			{
+				"Key": "A",
+				"Text": "Deltoid"
+			},
+			{
+				"Key": "B",
+				"Text": "Rotator cuff"
+			},
+			{
+				"Key": "C",
+				"Text": "Biceps brachii"
+			},
+			{
+				"Key": "D",
+				"Text": "Brachialis"
+			},
+			{
+				"Key": "E",
+				"Text": "Pronator teres"
+			},
+			{
+				"Key": "F",
+				"Text": "Brachioradialis"
+			},
+			{
+				"Key": "G",
+				"Text": "Adductor muscles"
+			},
+			{
+				"Key": "H",
+				"Text": "Tibialis anterior"
+			},
+			{
+				"Key": "I",
+				"Text": "Peroneus brevis"
+			},
+			{
+				"Key": "J",
+				"Text": "Peroneus longus"
+			},
+			{
+				"Key": "K",
+				"Text": "Quadriceps femoris"
+			},
+			{
+				"Key": "L",
+				"Text": "Iliopsoas"
+			},
+			{
+				"Key": "M",
+				"Text": "Abdominal external oblique"
+			},
+			{
+				"Key": "N",
+				"Text": "Rectus abdominis"
+			},
+			{
+				"Key": "O",
+				"Text": "Pectorialis major"
+			},
+		]
+	},
+	{
+		"Category": "Muscular System",
+		"Difficulty": "Medium",
+		"KeyQuestion": "<p>What is the muscle with label \"*answer text*\" on the posterior picture of the human muscles?</p>",
+		"ValueQuestion": "<p>Identify the *answer text* muscle on the posterior picture of the human muscles.</p>",
+		"KeyValue": "true",
+		"MaxNumberOfAnswers": "6",
+		"Image": "Posterior Muscles.png",
+		"Answers":
+		[
+			{
+				"Key": "A",
+				"Text": "Trapezius"
+			},
+			{
+				"Key": "B",
+				"Text": "Levator scapulae"
+			},
+			{
+				"Key": "C",
+				"Text": "Rhomboids"
+			},
+			{
+				"Key": "D",
+				"Text": "Rotator cuff"
+			},
+			{
+				"Key": "E",
+				"Text": "Triceps brachii"
+			},
+			{
+				"Key": "F",
+				"Text": "Gluteus maximus"
+			},
+			{
+				"Key": "G",
+				"Text": "Tibialis posterior"
+			},
+			{
+				"Key": "H",
+				"Text": "Peroneus longus"
+			},
+			{
+				"Key": "I",
+				"Text": "Peroneus brevis"
+			},
+			{
+				"Key": "J",
+				"Text": "Soleus"
+			},
+			{
+				"Key": "K",
+				"Text": "Gastrocnemius"
+			},
+			{
+				"Key": "L",
+				"Text": "Semimembranosus"
+			},
+			{
+				"Key": "M",
+				"Text": "Semitendinosus"
+			},
+			{
+				"Key": "N",
+				"Text": "Biceps femoris"
+			},
+			{
+				"Key": "O",
+				"Text": "Latissimus dorsi"
+			},
+			{
+				"Key": "P",
+				"Text": "Brachioradialis"
+			},
+			{
+				"Key": "Q",
+				"Text": "Deltoid"
+			},
+		]
+	},
+	{
+		"Category": "Skeletal System",
+		"Difficulty": "Easy",
+		"Question": "<p>There are five types of bone.</p>",
+		"Image": "Bone types.jpg",
+		"ImageUrl": "http://cnx.org/content/m44789/latest/Figure_38_02_01.jpg",
+		"Explanation": "There are long, short, flat, irregular and seasmoid bones.",
+		"Answers":
+		[
+			{
+				"Text": "True",
+				"Score": ".5"
+			},
+			{
+				"Text": "False"
+			},
+		]
+	},
+	{
+		"Category": "Skeletal System",
+		"Difficulty": "Medium",
+		"Question": "<p>What are the five types of bone called?</p>",
+		"Answers":
+		[
+			{
+				"Text": "Long, short, flat, irregular and seasmoid bones",
+				"Score": "1"
+			},
+			{
+				"Text": "Long, short, flat, fat and regular bones"
+			},
+			{
+				"Text": "Tall, wide, irregular, regular and flat bones"
+			},
+			{
+				"Text": "Hollow, edge, supporting, regular and seasmoid bones"
+			},
+			{
+				"Text": "Tall, wide, regular, irregular and seasmoid bones"
+			},
+		]
+	},
+	{
+		"Category": "Nervous System",
+		"Difficulty": "Medium",
+		"Question": "<p>What are the different types of neurons?</p>",
+		"Answers":
+		[
+			{
+				"Text": "Sensory, motor and relay neurons",
+				"Score": "1"
+			},
+			{
+				"Text": "Sensory, afferent and interneuron",
+				"Explanation": "A sensory neuron can also be called an afferent neuron. They are not different types of neurons."
+			},
+			{
+				"Text": "Afferent, efferent and sensory neurons",
+				"Explanation": "A sensory neuron can also be called an afferent neuron. They are not different types of neurons."
+			},
+			{
+				"Text": "Afferent, efferent, relay and interneuron",
+				"Explanation": "A relay neuron can also be called an interneuron. They are not different types of neurons."
+			},
+			{
+				"Text": "Sensory, motor, relay and interneuron",
+				"Explanation": "A relay neuron can also be called an interneuron. They are not different types of neurons."
+			},
+		]
+	},
+	{
+		"Category": "Skeletal System",
+		"Difficulty": "Medium",
+		"Question": "<p><a href=\"http://en.wikipedia.org/wiki/Haversian_canal\">Haversian canals</a> are a key feature of compact bone.</p>",
+		"Image": "Figure_38_02_04.png",
+		"ImageUrl": "http://cnx.org/content/m44789/latest/Figure_38_02_04.png",
+		"Explanation": "Haversian canals are a series of tubes around narrow channels formed by lamellae in compact bone. Osteons are arranged parallel to the long axis of the bone. This arrangement allows the deposit of mineral salts and storage which give bone tissue its strength.",
+		"Answers":
+		[
+			{
+				"Text": "True",
+				"Score": ".5"
+			},
+			{
+				"Text": "False"
+			},
+		]
+	},
+	{
+		"Category": "Nervous System",
+		"Difficulty": "Easy",
+		"Question": "<p>The <a href=\"http://en.wikipedia.org/wiki/Central_nervous_system\">central nervous system</a> (CNS) consists of the brain, spinal cord and spinal nerves.</p>",
+		"Explanation": "The central nervous system (CNS) consists of the brain and spinal cord, not the spinal nerves.",
+		"Answers":
+		[
+			{
+				"Text": "False",
+				"Score": ".5"
+			},
+			{
+				"Text": "True"
+			},
+		]
+	},
+	{
+		"Category": "Nervous System",
+		"Difficulty": "Medium",
+		"Question": "<p>Neuroglia are the supporting cells in the <a href=\"http://en.wikipedia.org/wiki/Central_nervous_system\">central nervous system</a>.</p>",
+		"Explanation": "Approximately 40% of the brain consists of neuroglia that support neurons by supplying nutrients, producing myelin and CSF and removing toxic waste.",
+		"Answers":
+		[
+			{
+				"Text": "True",
+				"Score": ".5"
+			},
+			{
+				"Text": "False"
+			},
+		]
+	},
+	{
+		"Category": "Nervous System",
+		"Difficulty": "Medium",
+		"KeyQuestion": "<p>What is the feature with label \"*answer text*\" on the picture of the spinal reflex arc?</p>",
+		"ValueQuestion": "<p>Identify the *answer text* feature on the spinal reflex arc.</p>",
+		"KeyValue": "true",
+		"MaxNumberOfAnswers": "6",
+		"Image": "Spinal reflex arc.png",
+		"Answers":
+		[
+			{
+				"Key": "A",
+				"Text": "Receptor organ"
+			},
+			{
+				"Key": "B",
+				"Text": "Sensory neuron"
+			},
+			{
+				"Key": "C",
+				"Text": "Synapse"
+			},
+			{
+				"Key": "D",
+				"Text": "Motor neuron"
+			},
+			{
+				"Key": "E",
+				"Text": "Effector organ"
+			},
+			{
+				"Key": "F",
+				"Text": "Grey matter"
+			},
+			{
+				"Key": "G",
+				"Text": "Central canal"
+			},
+			{
+				"Key": "H",
+				"Text": "Relay neuron (interneuron)"
+			},
+			{
+				"Key": "I",
+				"Text": "White matter"
+			},
+			{
+				"Key": "J",
+				"Text": "Spinal ganglion"
+			},
+		]
+	},
+	{
+		"Category": "Nervous System",
+		"Difficulty": "Easy",
+		"Question": "<p>The peripheral nervous system is subdivided into the autonomic and the somatic nervous systems.</p>",
+		"Explanation": "",
+		"Answers":
+		[
+			{
+				"Text": "True",
+				"Score": ".5"
+			},
+			{
+				"Text": "False"
+			},
+		]
+	},
+	{
+		"Category": "Nervous System",
+		"Difficulty": "Medium",
+		"Question": "<p>Saltatory conduction is much faster than nerve impulses that move along unmyelinated membranes.</p>",
+		"Explanation": "",
+		"Answers":
+		[
+			{
+				"Text": "True",
+				"Score": ".5"
+			},
+			{
+				"Text": "False"
+			},
+		]
+	},
+	{
+		"Category": "Nervous System",
+		"Difficulty": "Easy",
+		"Question": "<p>What is a typical neural pathway?</p>",
+		"Answers":
+		[
+			{
+				"Text": "Receptor → sensory nerve → CNS → motor nerve → effector",
+				"Score": "1"
+			},
+			{
+				"Text": "Effector → sensory nerve → PNS → motor nerve → receptor"
+			},
+			{
+				"Text": "Effector → motor nerve → PNS → sensory nerve → receptor"
+			},
+			{
+				"Text": "Receptor → motor nerve → CNS → sensory nerve → effector"
+			},
+		]
+	},
+	{
+		"Category": "Nervous System",
+		"Difficulty": "Medium",
+		"Question": "<p>What is the correct order of the meninges of the brain, from deep to superficial?</p>",
+		"Answers":
+		[
+			{
+				"Text": "Pia mater, arachnoid mater and dura mater",
+				"Score": "1"
+			},
+			{
+				"Text": "Dura mater, arachnoid mater and pia mater",
+				"Explanation": "This answer has the order from superficial to deep."
+			},
+			{
+				"Text": "Arachnoid mater, dura mater and pia mater"
+			},
+			{
+				"Text": "Periosteum, dura mater, arachnoid mater and pia mater"
+			},
+			{
+				"Text": "Dura mater, pia mater and arachnoid mater"
+			},
+		]
+	},
+	{
+		"Category": "Nervous System",
+		"Difficulty": "Easy",
+		"Question": "<p>How many pairs of <a href=\"http://en.wikipedia.org/wiki/Cranial_nerve\">cranial nerves</a> originate in the brain?</p>",
+		"Answers":
+		[
+			{
+				"Text": "Twelve",
+				"Score": "1"
+			},
+			{
+				"Text": "Six"
+			},
+			{
+				"Text": "Eight"
+			},
+			{
+				"Text": "Ten"
+			},
+			{
+				"Text": "Fourteen"
+			},
+		]
+	},
+	{
+		"Category": "Nervous System",
+		"Difficulty": "Easy",
+		"Question": "<p>In most reflex arcs, sensory neurones synapse in:</p>",
+		"Answers":
+		[
+			{
+				"Text": "the spinal cord",
+				"Score": "1"
+			},
+			{
+				"Text": "the cerebrospinal fluid"
+			},
+			{
+				"Text": "the dura mater"
+			},
+			{
+				"Text": "the brain stem"
+			},
+			{
+				"Text": "the dorsal root ganglion"
+			},
+		]
+	},
+	{
+		"Category": "Nervous System",
+		"Difficulty": "Medium",
+		"KeyQuestion": "<p>What is the feature with label \"*answer text*\" on the picture of the meninges of the brain?</p>",
+		"ValueQuestion": "<p>Identify the *answer text* on the picture of meninges of the brain.</p>",
+		"KeyValue": "true",
+		"MaxNumberOfAnswers": "6",
+		"Image": "Meninges.png",
+		"Answers":
+		[
+			{
+				"Key": "A",
+				"Text": "Meningeal vein"
+			},
+			{
+				"Key": "B",
+				"Text": "Diploic vein"
+			},
+			{
+				"Key": "C",
+				"Text": "Venous lacuna"
+			},
+			{
+				"Key": "D",
+				"Text": "Emissary vein"
+			},
+			{
+				"Key": "E",
+				"Text": "Cerebral vein"
+			},
+			{
+				"Key": "F",
+				"Text": "Superior sagittal sinus"
+			},
+			{
+				"Key": "G",
+				"Text": "Arachnoid granulation"
+			},
+			{
+				"Key": "H",
+				"Text": "Dura mater"
+			},
+			{
+				"Key": "I",
+				"Text": "Arachnoid mater"
+			},
+			{
+				"Key": "J",
+				"Text": "Cerebral cortex"
+			},
+			{
+				"Key": "K",
+				"Text": "Pia mater"
+			},
+			{
+				"Key": "L",
+				"Text": "Falx cerebri"
+			},
+			{
+				"Key": "M",
+				"Text": "Subarachnoid cavity"
+			},
+			{
+				"Key": "N",
+				"Text": "Subdural cavity"
+			},
+		]
+	},
+	{
+		"Category": "Nervous System",
+		"Difficulty": "Medium",
+		"Question": "<p>What are the names of the cells that create the myelin sheath of myelinated neurons?</p>",
+		"Answers":
+		[
+			{
+				"Text": "Schwann cells and oligodrendrocytes",
+				"Score": "1"
+			},
+			{
+				"Text": "Ependymal cells and oligodrendrocytes"
+			},
+			{
+				"Text": "Schwann cells and nodes of Ranvier"
+			},
+			{
+				"Text": "Schwann cells and astrocytes"
+			},
+			{
+				"Text": "Ependymal cells and astrocytes"
+			},
+		]
+	},
+	{
+		"Category": "Nervous System",
+		"Difficulty": "Medium",
+		"KeyQuestion": "<p>What is the feature with label \"*answer text*\" on the picture of a neuron?</p>",
+		"ValueQuestion": "<p>Identify the *answer text* on the picture of a neuron.</p>",
+		"KeyValue": "true",
+		"MaxNumberOfAnswers": "6",
+		"Image": "Neuron cell.png",
+		"Answers":
+		[
+			{
+				"Key": "A",
+				"Text": "Dendrites"
+			},
+			{
+				"Key": "B",
+				"Text": "Axosomatic synapse"
+			},
+			{
+				"Key": "C",
+				"Text": "Axon bulb"
+			},
+			{
+				"Key": "D",
+				"Text": "Axoaxonic synapse"
+			},
+			{
+				"Key": "E",
+				"Text": "Axonal terminal"
+			},
+			{
+				"Key": "F",
+				"Text": "Nodes of Ranvier"
+			},
+			{
+				"Key": "G",
+				"Text": "Schwann cell"
+			},
+			{
+				"Key": "H",
+				"Text": "Schwann cell nucleus"
+			},
+			{
+				"Key": "I",
+				"Text": "Myelin sheath"
+			},
+			{
+				"Key": "J",
+				"Text": "Neurolemma"
+			},
+			{
+				"Key": "L",
+				"Text": "Axon hillock"
+			},
+			{
+				"Key": "M",
+				"Text": "Axodendritic synapse"
+			},
+		]
+	},
+	{
+		"Category": "Integumentary System",
+		"Difficulty": "Medium",
+		"KeyQuestion": "<p>What is the feature with label \"*answer text*\" on the picture of thin and thick skin?</p>",
+		"ValueQuestion": "<p>Identify the *answer text* on the picture of thin and thick skin.</p>",
+		"KeyValue": "true",
+		"MaxNumberOfAnswers": "6",
+		"Image": "Skin layers.png",
+		"Answers":
+		[
+			{
+				"Key": "A",
+				"Text": "Hair shaft"
+			},
+			{
+				"Key": "B",
+				"Text": "Epidermal ridges"
+			},
+			{
+				"Key": "C",
+				"Text": "Dermal papillae"
+			},
+			{
+				"Key": "D",
+				"Text": "Arrector pili muscle"
+			},
+			{
+				"Key": "E",
+				"Text": "Sebaceous gland"
+			},
+			{
+				"Key": "F",
+				"Text": "Hair follicle"
+			},
+			{
+				"Key": "G",
+				"Text": "Hair root"
+			},
+			{
+				"Key": "H",
+				"Text": "Eccrine sweat duct"
+			},
+			{
+				"Key": "I",
+				"Text": "Eccrine sweat gland"
+			},
+			{
+				"Key": "J",
+				"Text": "Lamellated corpuscle (Pacinian corpuscle)"
+			},
+			{
+				"Key": "K",
+				"Text": "Sensory nerve"
+			},
+			{
+				"Key": "L",
+				"Text": "Adipose tissue"
+			},
+			{
+				"Key": "M",
+				"Text": "Subcutaneous layer"
+			},
+			{
+				"Key": "N",
+				"Text": "Cutaneous ateriovenous plexus"
+			},
+			{
+				"Key": "O",
+				"Text": "Dermis"
+			},
+			{
+				"Key": "P",
+				"Text": "Tactile corpuscle (Meissner corpuscle)"
+			},
+			{
+				"Key": "Q",
+				"Text": "Superficial ateriovenous plexus"
+			},
+			{
+				"Key": "R",
+				"Text": "Epidermis"
+			},
+			{
+				"Key": "S",
+				"Text": "Sweat pore"
+			},
+		]
+	},
+	{
+		"Category": "Nervous System",
+		"Difficulty": "Hard",
+		"KeyQuestion": "<p>As a type of neuroglia, *answer text* can be described as cells that __________.</p>",
+		"ValueQuestion": "<p>Cells that *answer text* are what type of neuroglia?</p>",
+		"KeyValue": "true",
+		"MaxNumberOfAnswers": "5",
+		"Answers":
+		[
+			{
+				"Key": "Microglia",
+				"Text": "function as phagocytes"
+			},
+			{
+				"Key": "Astrocytes",
+				"Text": "regulate the external chemical environment of neurons"
+			},
+			{
+				"Key": "Oligodendrocytes",
+				"Text": "are cells that form a specialized membrane differentiation called myelin, producing the myelin sheath"
+			},
+			{
+				"Key": "Ependymal cells",
+				"Text": "create and secrete CSF and beat their cilia to help circulate the CSF"
+			},
+			{
+				"Key": "Radial glia",
+				"Text": "function as neuronal progenitors and as a scaffold upon which newborn neurons migrate"
+			},
+			{
+				"Key": "Schwann cells",
+				"Text": "provide myelination to axons in the peripheral nervous system"
+			},
+			{
+				"Key": "Satellite cells",
+				"Text": "help regulate the external chemical environment in the peripheral nervous system"
+			},
+		]
+	},
+	{
+		"Category": "Cardiovascular System",
+		"Difficulty": "Medium",
+		"Question": "<p>Red blood cells have a life cycle of about __________.</p>",
+		"Answers":
+		[
+			{
+				"Text": "120 days",
+				"Score": "1"
+			},
+			{
+				"Text": "6 months"
+			},
+			{
+				"Text": "30 days"
+			},
+			{
+				"Text": "1 day"
+			},
+			{
+				"Text": "6 hours"
+			},
+		]
+	},
+	{
+		"Category": "Cardiovascular System",
+		"Difficulty": "Easy",
+		"KeyQuestion": "<p>As an aspect of the cardiovascular system, *answer text* can be described as the __________.</p>",
+		"ValueQuestion": "<p>What is the name given to the *answer text*?</p>",
+		"KeyValue": "true",
+		"Answers":
+		[
+			{
+				"Key": "Haemopoiesis",
+				"Text": "production of blood cellular components"
+			},
+			{
+				"Key": "Erythropoiesis",
+				"Text": "process of red blood cell formation"
+			},
+			{
+				"Key": "Haemostasis",
+				"Text": "sequence of events that stops bleeding from a damaged blood vessel"
+			},
+			{
+				"Key": "Haematocrit",
+				"Text": "volume percentage of red blood cells in the blood"
+			},
+			{
+				"Key": "Haemoglobin",
+				"Text": "amount of haemoglobin in the blood (g/L)"
+			},
+		]
+	},
+	{
+		"Category": "Cardiovascular System",
+		"Difficulty": "Medium",
+		"Question": "<p>White blood cells make up __________ of the blood in the human body.</p>",
+		"Answers":
+		[
+			{
+				"Text": "less than 1%",
+				"Score": "1"
+			},
+			{
+				"Text": "about 45%"
+			},
+			{
+				"Text": "5% of the formed elements"
+			},
+			{
+				"Text": "3.5%"
+			},
+			{
+				"Text": "about 5%"
+			},
+		]
+	},
+	{
+		"Category": "Cardiovascular System",
+		"Difficulty": "Medium",
+		"Question": "<p>In an adult, erythrocytes leave red bone marrow at what rate?</p>",
+		"Answers":
+		[
+			{
+				"Text": "At least 2 million a second",
+				"Score": "1"
+			},
+			{
+				"Text": "About 100,000 a day"
+			},
+			{
+				"Text": "As many as 2 million a week"
+			},
+			{
+				"Text": "About 1 million a day"
+			},
+			{
+				"Text": "At least 5 million a second"
+			},
+		]
+	},
+	{
+		"Category": "Cardiovascular System",
+		"Difficulty": "Medium",
+		"Question": "<p>What is the correct order of the development of an erythrocyte?</p>",
+		"Answers":
+		[
+			{
+				"Text": "Proerythroblast (in marrow) → reticulocyte (released into blood) → erythrocyte",
+				"Score": "1"
+			},
+			{
+				"Text": "Proerythroblast (released into blood) → reticulocyte → erythrocyte"
+			},
+			{
+				"Text": "Reticulocyte (in marrow) → proerythroblast (released into blood) → erythrocyte"
+			},
+			{
+				"Text": "Reticulocyte (in marrow) → proerythroblast → erythrocyte (released in blood)"
+			},
+			{
+				"Text": "Proerythroblast (in marrow) → reticulocyte → erythrocyte (released into blood)"
+			},
+		]
+	},
+	{
+		"Category": "Cardiovascular System",
+		"Difficulty": "Easy",
+		"KeyQuestion": "<p>What is the blood type with label \"*answer text*\" on the picture of blood samples?</p>",
+		"ValueQuestion": "<p>Identify blood type *answer text* on the picture of blood samples.</p>",
+		"KeyValue": "true",
+		"Image": "Blood typing.png",
+		"Answers":
+		[
+			{
+				"Key": "1",
+				"Text": "A"
+			},
+			{
+				"Key": "2",
+				"Text": "B"
+			},
+			{
+				"Key": "3",
+				"Text": "AB"
+			},
+			{
+				"Key": "4",
+				"Text": "O"
+			},
+		]
+	},
+	{
+		"Category": "Cardiovascular System",
+		"Difficulty": "Medium",
+		"KeyQuestion": "<p>If a blood *answer text*, the blood __________.</p>",
+		"KeyValue": "true",
+		"Answers":
+		[
+			{
+				"Key": "recipient is O-",
+				"Text": "donor can be O-"
+			},
+			{
+				"Key": "recipient is O+",
+				"Text": "donor can be O- or O+"
+			},
+			{
+				"Key": "recipient is AB-",
+				"Text": "donor can be O-, A-, B- or AB-"
+			},
+			{
+				"Key": "recipient is AB+",
+				"Text": "donor can be O-, O+, A-, A+, B-, B+, AB- or AB+"
+			},
+		]
+	},
+	{
+		"Category": "Cardiovascular System",
+		"Difficulty": "Medium",
+		"KeyQuestion": "<p>If a blood *answer text*, the blood __________.</p>",
+		"KeyValue": "true",
+		"MaxNumberOfAnswers": "5",
+		"Answers":
+		[
+			{
+				"Key": "recipient is A-",
+				"Text": "donor can be O- or A-"
+			},
+			{
+				"Key": "recipient is A+",
+				"Text": "donor can be O-, O+, A- or A+"
+			},
+			{
+				"Key": "recipient is B-",
+				"Text": "donor can be O- or B-"
+			},
+			{
+				"Key": "recipient is B+",
+				"Text": "donor can be O-, O+, B- or B+"
+			},
+			{
+				"Key": "recipient is AB-",
+				"Text": "donor can be O-, A-, B- or AB-"
+			},
+			{
+				"Key": "recipient is AB+",
+				"Text": "donor can be O-, O+, A-, A+, B-, B+, AB- or AB+"
+			},
+		]
+	},
+	{
+		"Category": "Cardiovascular System",
+		"Difficulty": "Medium",
+		"KeyQuestion": "<p>If a blood *answer text*, the blood __________.</p>",
+		"KeyValue": "true",
+		"Answers":
+		[
+			{
+				"Key": "donor is O-",
+				"Text": "recipient can be O-, O+, A-, A+, B-, B+, AB- or AB+"
+			},
+			{
+				"Key": "donor is O+",
+				"Text": "recipient can be O+, A+, B+ or AB+"
+			},
+			{
+				"Key": "donor is AB-",
+				"Text": "recipient can be AB- or AB+"
+			},
+			{
+				"Key": "donor is AB+",
+				"Text": "recipient can be AB+"
+			},
+		]
+	},
+	{
+		"Category": "Cardiovascular System",
+		"Difficulty": "Medium",
+		"KeyQuestion": "<p>If a blood *answer text*, the blood __________.</p>",
+		"KeyValue": "true",
+		"Answers":
+		[
+			{
+				"Key": "donor is A-",
+				"Text": "recipient can be A-, A+, AB- or AB+"
+			},
+			{
+				"Key": "donor is A+",
+				"Text": "recipient can be A+ or AB+"
+			},
+			{
+				"Key": "donor is B-",
+				"Text": "recipient can be B-, B+, AB- or AB+"
+			},
+			{
+				"Key": "donor is B+",
+				"Text": "recipient can be B+ or AB+"
+			},
+		]
+	},
+	{
+		"Category": "Cardiovascular System",
+		"Difficulty": "Easy",
+		"Question": "<p>Leukocytes do not have nuclei and do not contain <a href=\"http://en.wikipedia.org/wiki/Hemoglobin\">haemoglobin</a>.</p>",
+		"Explanation": "Leukocytes <i>have</i> nuclei but do not contain haemoglobin.",
+		"Answers":
+		[
+			{
+				"Text": "False",
+				"Score": ".5"
+			},
+			{
+				"Text": "True"
+			},
+		]
+	},
+	{
+		"Category": "Cardiovascular System",
+		"Difficulty": "Hard",
+		"KeyQuestion": "<p>White blood cells known as *answer text* can be described as cells that __________.</p>",
+		"ValueQuestion": "<p>The white blood cells that *answer text* are called __________.</p>",
+		"Image": "Hematopoiesis.png",
+		"ImageUrl": "http://en.wikipedia.org/wiki/File:Hematopoiesis_simple.svg",
+		"KeyValue": "true",
+		"MaxNumberOfAnswers": "5",
+		"Answers":
+		[
+			{
+				"Key": "Neutrophils",
+				"Text": "respond most quickly to tissue destruction by bacteria"
+			},
+			{
+				"Key": "Eosinophils",
+				"Text": "release histaminase to combat effects of inflammatory and allergic responses"
+			},
+			{
+				"Key": "Basophils",
+				"Text": "release heparin, histamine, and serotonin to intensify inflammatory response"
+			},
+			{
+				"Key": "B cell lymphocytes",
+				"Text": "differentiate into cells that produce antibodies"
+			},
+			{
+				"Key": "T cell lymphocytes",
+				"Text": "attack viruses, fungi, transplanted cells, cancers, some bacteria and allergic reactions"
+			},
+			{
+				"Key": "Natural killer cell lymphocytes",
+				"Text": "attack a wide variety of infectious microbes and certain spontaneously arising tumour cells"
+			},
+			{
+				"Key": "Monocytes",
+				"Text": "develop into macrophages and phagocytize microbes"
+			},
+		]
+	},
+	{
+		"Category": "Cardiovascular System",
+		"Difficulty": "Hard",
+		"KeyQuestion": "<p>The blood component *answer text* can be described as __________.</p>",
+		"ValueQuestion": "<p>The blood component that is *answer text* is called __________.</p>",
+		"KeyValue": "true",
+		"MaxNumberOfAnswers": "5",
+		"Answers":
+		[
+			{
+				"Key": "Albumin",
+				"Text": "a plasma protein that helps maintain blood osmotic pressure"
+			},
+			{
+				"Key": "Globulin",
+				"Text": "a plasma protein used to create blood antibodies"
+			},
+			{
+				"Key": "Fibrinogen",
+				"Text": "a protein used in coagulation"
+			},
+			{
+				"Key": "Erythropoietin",
+				"Text": "a hormone produced by the kidneys for the production of red blood cells"
+			},
+			{
+				"Key": "Thrombopoietin",
+				"Text": "a hormone produced by the liver for the production of platelets "
+			},
+			{
+				"Key": "Cytokine",
+				"Text": "a hormone used in the production of white blood cells"
+			},
+		]
+	},
+	{
+		"Category": "Cardiovascular System",
+		"Difficulty": "Hard",
+		"Question": "<p>From highest to lowest, what is order of the types of white blood cell quantities?</p>",
+		"Explanation": "The distribution of white blood cells are: neutrophils: 60–70%, lymphocytes: 20–25%, monocytes: 3–8%, eosinophils: 2–4%, basophils: 0.5–1%.",
+		"Answers":
+		[
+			{
+				"Text": "Neutrophils, lymphocytes, monocytes, eosinophils, basophils",
+				"Score": "1"
+			},
+			{
+				"Text": "Lymphocytes, neutrophils, monocytes, eosinophils, basophils"
+			},
+			{
+				"Text": "Neutrophils, monocytes, lymphocytes, eosinophils, basophils"
+			},
+			{
+				"Text": "Lymphocytes, monocytes, neutrophils, eosinophils, basophils"
+			},
+			{
+				"Text": "Neutrophils, lymphocytes, eosinophils, monocytes, basophils"
+			},
+		]
+	},
+	{
+		"Category": "Cardiovascular System",
+		"Difficulty": "Easy",
+		"Question": "<p>Which type of blood cells stop bleeding?</p>",
+		"Answers":
+		[
+			{
+				"Text": "Thrombocytes",
+				"Score": "1"
+			},
+			{
+				"Text": "Lymphocytes"
+			},
+			{
+				"Text": "Erythrocytes"
+			},
+			{
+				"Text": "Monocytes"
+			},
+			{
+				"Text": "Basophils"
+			},
+		]
+	},
+	{
+		"Category": "Cardiovascular System",
+		"Difficulty": "Medium",
+		"Question": "<p>Every hemoglobin molecule contains how many heme rings?</p>",
+		"Answers":
+		[
+			{
+				"Text": "Four",
+				"Score": "1"
+			},
+			{
+				"Text": "One"
+			},
+			{
+				"Text": "Five"
+			},
+			{
+				"Text": "Forty Eight"
+			},
+			{
+				"Text": "Three"
+			},
+		]
+	},
+	{
+		"Category": "Cardiovascular System",
+		"Difficulty": "Medium",
+		"Question": "<p>Type O blood has which antibodies in blood plasma?</p>",
+		"Explanation": "Type O blood has both anti-A and anti-B antibodies in blood plasma. It has neither A nor B antigens on the erythrocytes. This is the opposite of blood type AB which has no antibodies but both A and B antigens.",
+		"Answers":
+		[
+			{
+				"Text": "Both anti-A and anti-B antibodies",
+				"Score": "1"
+			},
+			{
+				"Text": "Neither anti-A and anti-B antibodies"
+			},
+			{
+				"Text": "Anti-A antibodies"
+			},
+			{
+				"Text": "Rh- antibodies"
+			},
+			{
+				"Text": "None of the above",
+				"IsLast": "true"
+			},
+		]
+	},
+	{
+		"Category": "Cardiovascular System",
+		"Difficulty": "Medium",
+		"KeyQuestion": "<p>What is the feature with label \"*answer text*\" on the picture of the heart?</p>",
+		"ValueQuestion": "<p>Identify the *answer text* on the picture of the heart.</p>",
+		"KeyValue": "true",
+		"MaxNumberOfAnswers": "6",
+		"Image": "Heart Diagram - blood vessels.png",
+		"Answers":
+		[
+			{
+				"Key": "A",
+				"Text": "Left common carotid artery"
+			},
+			{
+				"Key": "B",
+				"Text": "Left subclavian artery"
+			},
+			{
+				"Key": "C",
+				"Text": "Aorta"
+			},
+			{
+				"Key": "D",
+				"Text": "Left pulmonary arteries"
+			},
+			{
+				"Key": "E",
+				"Text": "Left pulmonary veins"
+			},
+			{
+				"Key": "F",
+				"Text": "Inferior vena cava"
+			},
+			{
+				"Key": "G",
+				"Text": "Right pulmonary veins"
+			},
+			{
+				"Key": "H",
+				"Text": "Right pulmonary arteries"
+			},
+			{
+				"Key": "I",
+				"Text": "Superior vena cava"
+			},
+			{
+				"Key": "J",
+				"Text": "Brachiocephalic artery"
+			},
+		]
+	},
+	{
+		"Category": "Cardiovascular System",
+		"Difficulty": "Medium",
+		"KeyQuestion": "<p>What is the feature with label \"*answer text*\" on the picture of the heart?</p>",
+		"ValueQuestion": "<p>Identify the *answer text* on the picture of the heart.</p>",
+		"KeyValue": "true",
+		"MaxNumberOfAnswers": "6",
+		"Image": "Heart Diagram.png",
+		"Answers":
+		[
+			{
+				"Key": "A",
+				"Text": "Left atrium"
+			},
+			{
+				"Key": "B",
+				"Text": "Semilunar valves"
+			},
+			{
+				"Key": "C",
+				"Text": "Atrioventricular (mitral) valve"
+			},
+			{
+				"Key": "D",
+				"Text": "Left ventricle"
+			},
+			{
+				"Key": "E",
+				"Text": "Septum"
+			},
+			{
+				"Key": "F",
+				"Text": "Apex"
+			},
+			{
+				"Key": "G",
+				"Text": "Right ventricle"
+			},
+			{
+				"Key": "H",
+				"Text": "Chordae tendineae"
+			},
+			{
+				"Key": "I",
+				"Text": "Atrioventricular (tricuspid) valve"
+			},
+			{
+				"Key": "J",
+				"Text": "Right atrium"
+			},
+		]
+	},
+	{
+		"Category": "Cardiovascular System",
+		"Difficulty": "Medium",
+		"KeyQuestion": "<p>What is the feature with label \"*answer text*\" on the picture of the layers of the heart?</p>",
+		"ValueQuestion": "<p>Identify the *answer text* on the picture of the layers of the heart.</p>",
+		"KeyValue": "true",
+		"MaxNumberOfAnswers": "5",
+		"Image": "Heart Layers.png",
+		"Answers":
+		[
+			{
+				"Key": "A",
+				"Text": "Pericardial cavity"
+			},
+			{
+				"Key": "B",
+				"Text": "Myocardium"
+			},
+			{
+				"Key": "C",
+				"Text": "Endocardium"
+			},
+			{
+				"Key": "D",
+				"Text": "Visceral pericardium"
+			},
+			{
+				"Key": "E",
+				"Text": "Parietal pericadium"
+			},
+			{
+				"Key": "F",
+				"Text": "Fibrous layer"
+			},
+		]
+	},
+	{
+		"Category": "Cardiovascular System",
+		"Difficulty": "Medium",
+		"KeyQuestion": "<p>What is the feature with label \"*answer text*\" on the picture of the electrical conduction system of the heart?</p>",
+		"ValueQuestion": "<p>Identify the *answer text* on the picture of the electrical conduction system of the heart.</p>",
+		"KeyValue": "true",
+		"MaxNumberOfAnswers": "6",
+		"Image": "Electrical conduction system of the heart.png",
+		"Answers":
+		[
+			{
+				"Key": "1",
+				"Text": "Sinoatrial node"
+			},
+			{
+				"Key": "2",
+				"Text": "Atrioventricular node"
+			},
+			{
+				"Key": "3",
+				"Text": "Bundle of His"
+			},
+			{
+				"Key": "4",
+				"Text": "Left bundle branch"
+			},
+			{
+				"Key": "5",
+				"Text": "Left posterior fascicle"
+			},
+			{
+				"Key": "6",
+				"Text": "Left-anterior fascicle"
+			},
+			{
+				"Key": "7",
+				"Text": "Left ventricle"
+			},
+			{
+				"Key": "8",
+				"Text": "Ventricular septum"
+			},
+			{
+				"Key": "9",
+				"Text": "Right ventricle"
+			},
+			{
+				"Key": "10",
+				"Text": "Right bundle branch"
+			},
+		]
+	},
+	{
+		"Category": "Cardiovascular System",
+		"Difficulty": "Easy",
+		"Question": "<p>Which of the following is not a valve of the heart?</p>",
+		"Explanation": "There are four heart valves (two are atrioventricular (AV) valves, two are semilunar (SL) valves). The heart valves are: bicuspid (mitral) valve, tricuspid valve, aortic value and the pulmonary valve.",
+		"Answers":
+		[
+			{
+				"Text": "They are all heart valves",
+				"Score": "1",
+				"IsLast": "true"
+			},
+			{
+				"Text": "Mitral valve"
+			},
+			{
+				"Text": "Pulmonary semilunar valve"
+			},
+			{
+				"Text": "Tricuspid valve"
+			},
+			{
+				"Text": "Bicuspid valve"
+			},
+		]
+	},
+	{
+		"Category": "Cardiovascular System",
+		"Difficulty": "Easy",
+		"Question": "<p>Systole is the period of time when the heart refills with blood.</p>",
+		"Explanation": "Systole usually means the contraction of the left ventricle, a force that drives blood out of the heart. Diastole is the period of time when the heart refills with blood after systole.",
+		"Answers":
+		[
+			{
+				"Text": "False",
+				"Score": ".5"
+			},
+			{
+				"Text": "True"
+			},
+		]
+	},
+	{
+		"Category": "Cardiovascular System",
+		"Difficulty": "Medium",
+		"KeyQuestion": "<p>The \"*answer text*\" on the ECG graph represents __________.</p>",
+		"ValueQuestion": "<p>On the ECG graph, the feature that represents *answer text* is called the __________.</p>",
+		"KeyValue": "true",
+		"Image": "Normal ECG Tracing.png",
+		"Answers":
+		[
+			{
+				"Key": "P wave",
+				"Text": "a normal atrial depolarization"
+			},
+			{
+				"Key": "QRS complex",
+				"Text": "the rapid depolarization of the right and left ventricles"
+			},
+			{
+				"Key": "ST segment",
+				"Text": "the period when the ventricles are depolarized"
+			},
+			{
+				"Key": "T wave",
+				"Text": "the repolarization (or recovery) of the ventricles"
+			},
+			{
+				"Key": "PR segment",
+				"Text": "the impulse from the AV node → bundle of His → bundle branches → Purkinje fibers"
+			},
+		]
+	},
+	{
+		"Category": "Cardiovascular System",
+		"Difficulty": "Easy",
+		"Question": "<p>Which of the following is not a component of blood?</p>",
+		"Answers":
+		[
+			{
+				"Text": "Carbon dioxide",
+				"Score": "1"
+			},
+			{
+				"Text": "Blood plasma"
+			},
+			{
+				"Text": "Formed elements"
+			},
+			{
+				"Text": "Platelets"
+			},
+			{
+				"Text": "White blood cells"
+			},
+		]
+	},
+	{
+		"Category": "Cardiovascular System",
+		"Difficulty": "Easy",
+		"Question": "<p>Which of the following heart structure carries deoxygenated blood?</p>",
+		"Answers":
+		[
+			{
+				"Text": "Right atrium and ventricle",
+				"Score": "1"
+			},
+			{
+				"Text": "Left atrium and ventricle"
+			},
+			{
+				"Text": "Left atrium only"
+			},
+			{
+				"Text": "Right ventricle only"
+			},
+			{
+				"Text": "Left atrium and right ventricle"
+			},
+		]
+	},
+	{
+		"Category": "Cardiovascular System",
+		"Difficulty": "Medium",
+		"Question": "<p>Which of the following valves prevents blood from flowing back from the lungs?</p>",
+		"Answers":
+		[
+			{
+				"Text": "Pulmonary valve",
+				"Score": "1"
+			},
+			{
+				"Text": "Tricuspid valve"
+			},
+			{
+				"Text": "Bicuspid valve"
+			},
+			{
+				"Text": "Aortic valve"
+			},
+			{
+				"Text": "None of the above",
+				"IsLast": "true"
+			},
+		]
+	},
+	{
+		"Category": "Cardiovascular System",
+		"Difficulty": "Easy",
+		"Question": "<p>The blood vessel flow around the body follows the following pattern: heart → arteries → arterioles → capillaries → venules → veins → heart</p>",
+		"Answers":
+		[
+			{
+				"Text": "True",
+				"Score": ".5"
+			},
+			{
+				"Text": "False"
+			},
+		]
+	},
+	{
+		"Category": "Cardiovascular System",
+		"Difficulty": "Medium",
+		"Question": "<p>What is not a difference between veins and arteries?</p>",
+		"Explanation": "Veins are a lower pressure system than arteries.",
+		"Answers":
+		[
+			{
+				"Text": "Veins are a higher pressure system than arteries.",
+				"Score": "1"
+			},
+			{
+				"Text": "Veins return blood to the heart. Blood flow in arteries is always away from the heart."
+			},
+			{
+				"Text": "Veins are thinner than arteries."
+			},
+			{
+				"Text": "Many veins have valves to prevent back flow. Arteries do not have valves."
+			},
+			{
+				"Text": "None of the above",
+				"IsLast": "true"
+			},
+		]
+	},
+	{
+		"Category": "Cardiovascular System",
+		"Difficulty": "Medium",
+		"KeyQuestion": "<p>The *answer text* consists of __________.</p>",
+		"ValueQuestion": "<p>The tissue layer that has *answer text* is called __________.</p>",
+		"KeyValue": "true",
+		"Answers":
+		[
+			{
+				"Key": "Tunic interna",
+				"Text": "endothelium, basement membrane, internal elastic lamina"
+			},
+			{
+				"Key": "Tunica media",
+				"Text": "elastic fibers and smooth muscle fibers"
+			},
+			{
+				"Key": "Tunic externa",
+				"Text": "elastic and collagen fibers"
+			},
+		]
+	},
+	{
+		"Category": "Cardiovascular System",
+		"Difficulty": "Medium",
+		"KeyQuestion": "<p>The *answer text* consists of __________.</p>",
+		"ValueQuestion": "<p>The tissue layer that consists of *answer text* is called __________.</p>",
+		"KeyValue": "true",
+		"Answers":
+		[
+			{
+				"Key": "Epicardium",
+				"Text": "mesothelium and connective tissue"
+			},
+			{
+				"Key": "Myocardium",
+				"Text": "cardiac muscle tissue"
+			},
+			{
+				"Key": "Fibrous pericardium",
+				"Text": "dense irregular connective tissue"
+			},
+			{
+				"Key": "Endocardium",
+				"Text": "cells that are similar to the endothelial cells that line blood vessels"
+			},
+		]
+	},
+	{
+		"Category": "Cardiovascular System",
+		"Difficulty": "Hard",
+		"Question": "<p>Another name for the epicardium is __________.</p>",
+		"Answers":
+		[
+			{
+				"Text": "Visceral layer of serous pericardium",
+				"Score": "1"
+			},
+			{
+				"Text": "Parietal layer of serous pericardium"
+			},
+			{
+				"Text": "Visceral layer of fibrous pericardium"
+			},
+			{
+				"Text": "Endocardium"
+			},
+			{
+				"Text": "None of the above",
+				"IsLast": "true"
+			},
+		]
+	},
+	{
+		"Category": "Cardiovascular System",
+		"Difficulty": "Easy",
+		"Question": "<p>When using a stethoscope, the second heart sound represents which of the below events?</p>",
+		"Explanation": "The first sound, the \"lub\" (First Heart Tone, or S1), is the sound of the closing of the mitral and tricuspid valves (known together as the atrioventricular valves). The second part of the \"lub-dubb\" (the Second Heart Tone, or S2), is caused by the closure of the aortic and pulmonary valves.",
+		"Answers":
+		[
+			{
+				"Text": "Semilunar valves closing",
+				"Score": "1"
+			},
+			{
+				"Text": "Valvular stenosis"
+			},
+			{
+				"Text": "Semilunar valves opening"
+			},
+			{
+				"Text": "Atrioventricular valves opening"
+			},
+			{
+				"Text": "Atrioventricular valves closing"
+			},
+		]
+	},
+	{
+		"Category": "Cardiovascular System",
+		"Difficulty": "Easy",
+		"Question": "<p>The right ventricular wall is the thickest due to higher systemic pressures it must pump against and greater distance over which it must pump blood.</p>",
+		"Explanation": "The left ventricular wall is the thickest because it pumps systemic blood.",
+		"Answers":
+		[
+			{
+				"Text": "False",
+				"Score": ".5"
+			},
+			{
+				"Text": "True"
+			},
+		]
+	},
+	{
+		"Category": "Cardiovascular System",
+		"Difficulty": "Medium",
+		"Question": "<p>As the ventricles contract, what prevents the atrioventricular valves from swinging upward into the atria?</p>",
+		"Answers":
+		[
+			{
+				"Text": "Chordae tendinae tension due to contraction of papillary muscles",
+				"Score": "1"
+			},
+			{
+				"Text": "Trabeculae carneae tension due to contraction of papillary muscles"
+			},
+			{
+				"Text": "Atrial pressure prevents the valves from swinging into the atria"
+			},
+			{
+				"Text": "Ventricular pressure prevents the valves from swinging into the atria"
+			},
+		]
+	},
+	{
+		"Category": "Cardiovascular System",
+		"Difficulty": "Medium",
+		"Question": "<p>Which blood vessels direct blood to the right atrium?</p>",
+		"Answers":
+		[
+			{
+				"Text": "Inferior vena cava, superior vena cava, coronary sinus",
+				"Score": "1"
+			},
+			{
+				"Text": "Inferior vena cava, superior vena cava"
+			},
+			{
+				"Text": "Left and right pulmonary veins"
+			},
+			{
+				"Text": "Vena cava and right pulmonary vein"
+			},
+			{
+				"Text": "Left and right vena cava"
+			},
+		]
+	},
+	{
+		"Category": "Cardiovascular System",
+		"Difficulty": "Medium",
+		"Question": "<p>Which blood vessels that enter and exit the heart carry oxygenated blood?</p>",
+		"Answers":
+		[
+			{
+				"Text": "Pulmonary veins, ascending aorta, coronary arteries",
+				"Score": "1"
+			},
+			{
+				"Text": "Pulmonary veins, inferior vena cava, superior vena cava"
+			},
+			{
+				"Text": "Left and right pulmonary veins, ascending aorta"
+			},
+			{
+				"Text": "Pulmonary arteries, ascending aorta, coronary arteries"
+			},
+			{
+				"Text": "Pulmonary arteries, ascending aorta"
+			},
+		]
+	},
+	{
+		"Category": "Cardiovascular System",
+		"Difficulty": "Medium",
+		"Question": "<p>Which blood vessels that enter and exit the heart carry deoxygenated blood?</p>",
+		"Answers":
+		[
+			{
+				"Text": "Inferior vena cava, superior vena cava, coronary veins, pulmonary trunk",
+				"Score": "1"
+			},
+			{
+				"Text": "Inferior vena cava, superior vena cava"
+			},
+			{
+				"Text": "Left and right pulmonary veins"
+			},
+			{
+				"Text": "Inferior vena cava, superior vena cava, coronary sinus"
+			},
+			{
+				"Text": "Pulmonary veins, ascending aorta, coronary arteries"
+			},
+		]
+	},
+	{
+		"Category": "Cardiovascular System",
+		"Difficulty": "Medium",
+		"Question": "<p>The cardiac conduction commences at the apex of heart to squeeze blood out of ventricles.</p>",
+		"Answers":
+		[
+			{
+				"Text": "True",
+				"Score": ".5"
+			},
+			{
+				"Text": "False"
+			},
+		]
+	},
+	{
+		"Category": "Cardiovascular System",
+		"Difficulty": "Medium",
+		"Question": "<p>Cardiac Output = Stroke Volume (SV) / Heart Rate (HR)</p>",
+		"Explanation": "Cardiac Output = Stroke Volume (SV) x Heart Rate (HR). Cardiac output is the volume of blood ejected by a ventricle per minute, usually about 5L.",
+		"Answers":
+		[
+			{
+				"Text": "False",
+				"Score": ".5"
+			},
+			{
+				"Text": "True"
+			},
+		]
+	},
+	{
+		"Category": "Cardiovascular System",
+		"Difficulty": "Hard",
+		"Question": "<p>Where in the central nervous system is heart rate regulated?</p>",
+		"Answers":
+		[
+			{
+				"Text": "Medulla oblongata",
+				"Score": "1"
+			},
+			{
+				"Text": "Pons"
+			},
+			{
+				"Text": "Brain stem"
+			},
+			{
+				"Text": "Thalamus"
+			},
+			{
+				"Text": "All of the above",
+				"IsLast": "true"
+			},
+		]
+	},
+	{
+		"Category": "Cardiovascular System",
+		"Difficulty": "Hard",
+		"Question": "<p>What is the correct statement regarding the effects of noradrenaline/norepinephrine and acetylcholine on heart rate?</p>",
+		"Explanation": "Noradrenaline increases heart rate and strength of contraction via sympathetic nervous system activity. Acetylcholine decreases heart rate via parasympathetic nervous system.",
+		"Answers":
+		[
+			{
+				"Text": "Noradrenaline increases heart rate via sympathetic nervous system.",
+				"Score": "1"
+			},
+			{
+				"Text": "Acetylcholine increases heart rate via sympathetic nervous system."
+			},
+			{
+				"Text": "Acetylcholine decreases heart rate via sympathetic nervous system."
+			},
+			{
+				"Text": "Noradrenaline increases heart rate via para-sympathetic nervous system."
+			},
+			{
+				"Text": "None of the above",
+				"IsLast": "true"
+			},
+		]
+	},
+	{
+		"Category": "Cardiovascular System",
+		"Difficulty": "Hard",
+		"Question": "<p>Which sensory receptor does not provide feedback to the cardiovascular centre?</p>",
+		"Explanation": "Proprioceptors provide input about joint movement to increase heart rate at start of physical activity. Chemoreceptors monitor chemical changes such at CO\u2082 levels, pH in blood. Baroreceptors monitor blood pressure changes by measuring stretch in arteries and veins.",
+		"Answers":
+		[
+			{
+				"Text": "Osmoreceptors",
+				"Score": "1"
+			},
+			{
+				"Text": "Proprioceptors"
+			},
+			{
+				"Text": "Chemoreceptors"
+			},
+			{
+				"Text": "Baroreceptors"
+			},
+			{
+				"Text": "All of these sensory receptors provide feedback",
+				"IsLast": "true"
+			},
+		]
+	},
+	{
+		"Category": "Lymphatic System",
+		"Difficulty": "Easy",
+		"Question": "<p>Which of the following induces production of a specific antibody (immune response)?</p>",
+		"Answers":
+		[
+			{
+				"Text": "Antigen",
+				"Score": "1"
+			},
+			{
+				"Text": "Phagocytosis"
+			},
+			{
+				"Text": "Antibody"
+			},
+			{
+				"Text": "Defensin"
+			},
+			{
+				"Text": "Imunnoglobulin"
+			},
+		]
+	},
+	{
+		"Category": "Lymphatic System",
+		"Difficulty": "Easy",
+		"Question": "<p>Which of the following anti-microbial substances promote cytolysis, phagocytosis and inflammation?</p>",
+		"Answers":
+		[
+			{
+				"Text": "Complement proteins",
+				"Score": "1"
+			},
+			{
+				"Text": "Transferrins"
+			},
+			{
+				"Text": "Perforins"
+			},
+			{
+				"Text": "Defensins"
+			},
+			{
+				"Text": "Interferons"
+			},
+		]
+	},
+	{
+		"Category": "Lymphatic System",
+		"Difficulty": "Easy",
+		"Question": "<p>Which of the below produces the hormone that promotes maturation of T cells?</p>",
+		"Answers":
+		[
+			{
+				"Text": "Thymus",
+				"Score": "1"
+			},
+			{
+				"Text": "Spleen"
+			},
+			{
+				"Text": "Lymph node"
+			},
+			{
+				"Text": "Red bone marrow"
+			},
+			{
+				"Text": "Pancreas"
+			},
+		]
+	},
+	{
+		"Category": "Lymphatic System",
+		"Difficulty": "Easy",
+		"Question": "<p>What is the major difference between lymph and interstitial fluid?</p>",
+		"Answers":
+		[
+			{
+				"Text": "Location",
+				"Score": "1"
+			},
+			{
+				"Text": "Composition of electrolytes"
+			},
+			{
+				"Text": "White blood cells are present in lymph"
+			},
+			{
+				"Text": "Types of proteins present"
+			},
+			{
+				"Text": "Red blood cells are present in interstitial fluid"
+			},
+		]
+	},
+	{
+		"Category": "Lymphatic System",
+		"Difficulty": "Medium",
+		"Question": "<p>The lymph from the right foot empties into the __________.</p>",
+		"Answers":
+		[
+			{
+				"Text": "Thoracic duct",
+				"Score": "1"
+			},
+			{
+				"Text": "Left axillary vein"
+			},
+			{
+				"Text": "Lumbar trunk"
+			},
+			{
+				"Text": "Jugular trunk"
+			},
+			{
+				"Text": "Right lymphatic duct"
+			},
+		]
+	},
+	{
+		"Category": "Lymphatic System",
+		"Difficulty": "Medium",
+		"Question": "<p>Which of the following is a function of the spleen?</p>",
+		"Answers":
+		[
+			{
+				"Text": "Removes worn out blood cells",
+				"Score": "1"
+			},
+			{
+				"Text": "Circulates lymph"
+			},
+			{
+				"Text": "Cleanses interstitial fluid"
+			},
+			{
+				"Text": "Cleanses lymph"
+			},
+			{
+				"Text": "Traps microbes with mucus"
+			},
+		]
+	},
+	{
+		"Category": "Lymphatic System",
+		"Difficulty": "Medium",
+		"Question": "<p>A natural exposure to an infectious agent leads to:</p>",
+		"Answers":
+		[
+			{
+				"Text": "Active immunity",
+				"Score": "1"
+			},
+			{
+				"Text": "Passive immunity"
+			},
+			{
+				"Text": "Passive and active immunity"
+			},
+			{
+				"Text": "Immune suppression"
+			},
+			{
+				"Text": "None of the above",
+				"IsLast": "true"
+			},
+		]
+	},
+	{
+		"Category": "Lymphatic System",
+		"Difficulty": "Medium",
+		"Question": "<p>Where does the left subclavian vein receive lymph?</p>",
+		"Answers":
+		[
+			{
+				"Text": "Thoracic duct",
+				"Score": "1"
+			},
+			{
+				"Text": "Left axillary vein"
+			},
+			{
+				"Text": "Lumbar trunk"
+			},
+			{
+				"Text": "Jugular trunk"
+			},
+			{
+				"Text": "Right lymphatic duct"
+			},
+		]
+	},
+	{
+		"Category": "Lymphatic System",
+		"Difficulty": "Medium",
+		"Question": "<p>T Cells secrete this toxin that is used to fragment DNA.</p>",
+		"Answers":
+		[
+			{
+				"Text": "Lymphotoxin",
+				"Score": "1"
+			},
+			{
+				"Text": "Perforin"
+			},
+			{
+				"Text": "Tumor antigen"
+			},
+			{
+				"Text": "Interferons"
+			},
+			{
+				"Text": "Toxin T"
+			},
+		]
+	},
+	{
+		"Category": "Lymphatic System",
+		"Difficulty": "Easy",
+		"Question": "<p>Which of the following is not a sign of inflammation?</p>",
+		"Answers":
+		[
+			{
+				"Text": "Mucus production",
+				"Score": "1"
+			},
+			{
+				"Text": "Redness"
+			},
+			{
+				"Text": "Pain"
+			},
+			{
+				"Text": "Heat"
+			},
+			{
+				"Text": "Swelling"
+			},
+		]
+	},
+	{
+		"Category": "Lymphatic System",
+		"Difficulty": "Easy",
+		"Question": "<p>Which of the following is not a function of the lymphatic system?</p>",
+		"Answers":
+		[
+			{
+				"Text": "Transports red blood cells to the circulatory system",
+				"Score": "1"
+			},
+			{
+				"Text": "Carries out immune responses"
+			},
+			{
+				"Text": "Transports dietary lipids"
+			},
+			{
+				"Text": "Drains excess interstitial fluid"
+			},
+			{
+				"Text": "Transports white blood cells to and from the lymph nodes into the bones"
+			},
+		]
+	},
+	{
+		"Category": "Lymphatic System",
+		"Difficulty": "Medium",
+		"KeyQuestion": "<p>A feature of the lymphatic system, *answer text*, __________.</p>",
+		"ValueQuestion": "<p>The feature of the lymphatic system that *answer text* is called __________.</p>",
+		"KeyValue": "true",
+		"Answers":
+		[
+			{
+				"Key": "oedema",
+				"Text": "is swelling caused by excess fluid in interstitial space"
+			},
+			{
+				"Key": "the lymphatic trunk",
+				"Text": "is a larger lymph vessel formed when lymph vessels unite"
+			},
+			{
+				"Key": "the cisterna chyli",
+				"Text": "is a dilated area that receives lymph from the right and left lumbar and the intestinal trunk"
+			},
+			{
+				"Key": "the thoracic duct",
+				"Text": "drains lymph from the entire body inferior to the ribs"
+			},
+			{
+				"Key": "the right lymphatic duct",
+				"Text": "drains lymph from the upper right side of body"
+			},
+		]
+	},
+	{
+		"Category": "Lymphatic System",
+		"Difficulty": "Medium",
+		"Question": "<p>The sequence of flow of the lymphatic system is: Lymphatic capillaries → Lymphatic vessels → Lymphatic ducts → Lymph trunks → Venous blood.</p>",
+		"Explanation": "The sequence of flow of the lymphatic system is: Lymphatic capillaries → Lymphatic vessels → Lymph trunks → Lymphatic ducts → Venous blood.",
+		"Answers":
+		[
+			{
+				"Text": "False",
+				"Score": ".5"
+			},
+			{
+				"Text": "True"
+			},
+		]
+	},
+	{
+		"Category": "Lymphatic System",
+		"Difficulty": "Medium",
+		"Question": "<p>Primary lymphatic organs and tissues are sites where stem cells divide and develop into mature B cells and T cells capable of mounting an immune response.</p>",
+		"Answers":
+		[
+			{
+				"Text": "True",
+				"Score": ".5"
+			},
+			{
+				"Text": "False"
+			},
+		]
+	},
+	{
+		"Category": "Lymphatic System",
+		"Difficulty": "Medium",
+		"Question": "<p>What are secondary lymphatic organs and tissues?</p>",
+		"Answers":
+		[
+			{
+				"Text": "Lymph nodes, spleen, lymphatic nodules",
+				"Score": "1"
+			},
+			{
+				"Text": "Red bone marrow, thymus",
+				"Explanation": "The thymus and red bone marrow are primary lymphatic organs and tissues."
+			},
+			{
+				"Text": "Lymph nodes, thymus, lymphatic nodules",
+				"Explanation": "The thymus is a primary lymphatic organ."
+			},
+			{
+				"Text": "Lymph nodes, thymus, red bone marrow",
+				"Explanation": "The thymus and red bone marrow are primary lymphatic organs and tissues." 
+			},
+			{
+				"Text": "Spleen, lymphatic nodules, red bone marrow",
+				"Explanation": "Red bone marrow is a primary lymphatic tissue."
+			},
+		]
+	},
+	{
+		"Category": "Lymphatic System",
+		"Difficulty": "Easy",
+		"Question": "<p>T cells develop in the thymus and B cells develop in the spleen.</p>",
+		"Explanation": "B cells develop in red bone marrow.",
+		"Answers":
+		[
+			{
+				"Text": "False",
+				"Score": ".5"
+			},
+			{
+				"Text": "True"
+			},
+		]
+	},
+	{
+		"Category": "Lymphatic System",
+		"Difficulty": "Hard",
+		"Question": "<p>Clonal selection is the process by which a lymphocyte divides and differentiates in response to contact with a specific antigen. What are 2 types of cells formed by clonal selection?</p>",
+		"Answers":
+		[
+			{
+				"Text": "Effector cells and memory cells",
+				"Score": "1"
+			},
+			{
+				"Text": "Affecter cells and memory cells"
+			},
+			{
+				"Text": "Affecter cells and interferons"
+			},
+			{
+				"Text": "T cells and B cells"
+			},
+			{
+				"Text": "Effector cells and antibody cells"
+			},
+		]
+	},
+	{
+		"Category": "Lymphatic System",
+		"Difficulty": "Easy",
+		"Question": "<p>The term antigen is derived from the function of an antigen as an antibody generator.</p>",
+		"Answers":
+		[
+			{
+				"Text": "True",
+				"Score": ".5"
+			},
+			{
+				"Text": "False"
+			},
+		]
+	},
+	{
+		"Category": "Lymphatic System",
+		"Difficulty": "Hard",
+		"KeyQuestion": "<p>A feature of the lymphatic system, *answer text*, __________.</p>",
+		"ValueQuestion": "<p>The feature of the lymphatic system that *answer text* is called __________.</p>",
+		"KeyValue": "true",
+		"MaxNumberOfAnswers": "5",
+		"Answers":
+		[
+			{
+				"Key": "Helper T cells",
+				"Text": "secrete cytokines"
+			},
+			{
+				"Key": "Cytotoxic T cells",
+				"Text": "destroy intruders"
+			},
+			{
+				"Key": "Granzymes",
+				"Text": "trigger apoptosis"
+			},
+			{
+				"Key": "Perforin",
+				"Text": "insert channels in membrane. Extracellular fluid flows into the target cell"
+			},
+			{
+				"Key": "Granulysin",
+				"Text": "enter through channels and destroys microbes"
+			},
+			{
+				"Key": "Lymphotoxins",
+				"Text": "cause the target cell’s DNA to fragment"
+			},
+		]
+	},
+	{
+		"Category": "Lymphatic System",
+		"Difficulty": "Medium",
+		"Question": "<p>Which complement protein begins the process of complement activation?</p>",
+		"Answers":
+		[
+			{
+				"Text": "C3",
+				"Score": "1"
+			},
+			{
+				"Text": "C4"
+			},
+			{
+				"Text": "C9"
+			},
+			{
+				"Text": "C8"
+			},
+			{
+				"Text": "C1"
+			},
+		]
+	},
+	{
+		"Category": "Lymphatic System",
+		"Difficulty": "Medium",
+		"Question": "<p>Which type of antibody responds most strongly during the secondary response?</p>",
+		"Answers":
+		[
+			{
+				"Text": "IgG",
+				"Score": "1"
+			},
+			{
+				"Text": "IgA"
+			},
+			{
+				"Text": "IgM"
+			},
+			{
+				"Text": "IgD"
+			},
+			{
+				"Text": "IgE"
+			},
+		]
+	},
+	{
+		"Category": "Lymphatic System",
+		"Difficulty": "Easy",
+		"Question": "<p>Which is the correct orientation of the drainage of the lymphatic ducts?</p>",
+		"Answers":
+		[
+			{
+				"Image": "Lymphatic ducts - correct.png",
+				"Score": ".5"
+			},
+			{
+				"Image": "Lymphatic ducts - incorrect.png"
+			},
+		]
+	},
+	{
+		"Category": "Lymphatic System",
+		"Difficulty": "Hard",
+		"KeyQuestion": "<p>The antibody isotype *answer text* __________.</p>",
+		"ValueQuestion": "<p>The antibody isotype that *answer text* is called __________.</p>",
+		"KeyValue": "true",
+		"Answers":
+		[
+			{
+				"Key": "IgA",
+				"Text": "is found in mucosal areas and prevents colonization by pathogens"
+			},
+			{
+				"Key": "IgD",
+				"Text": "functions mainly as an antigen receptor on B cells that have not been exposed to antigens"
+			},
+			{
+				"Key": "IgE",
+				"Text": "binds to allergens and triggers histamine release from mast cells and basophils"
+			},
+			{
+				"Key": "IgG",
+				"Text": "provides the majority of antibody-based immunity against invading pathogens"
+			},
+			{
+				"Key": "IgM",
+				"Text": "eliminates pathogens in the early stages of B cell mediated (humoral) immunity"
+			},
+		]
+	},
+	{
+		"Category": "Lymphatic System",
+		"Difficulty": "Easy",
+		"Question": "<p>Another name for antigen is immunoglobulin.</p>",
+		"Explanation": "Another name for <i>antibody</i> is immunoglobulin.",
+		"Answers":
+		[
+			{
+				"Text": "False",
+				"Score": ".5"
+			},
+			{
+				"Text": "True"
+			},
+		]
+	},
+	{
+		"Category": "Lymphatic System",
+		"Difficulty": "Hard",
+		"KeyQuestion": "<p>Of the diagrams of antibody complexes below, which one represents the *answer text* isotype?</p>",
+		"DynamicAnswer": "true",
+		"Score": ".75",
+		"Answers":
+		[
+			{
+				"Image": "Pentamer.png",
+				"Text": "IgM"
+			},
+			{
+				"Image": "Monomer.png",
+				"Text": "IgG"
+			},
+			{
+				"Image": "Dimer.png",
+				"Text": "IgA"
+			},
+		]
+	},
+	{
+		"Category": "Lymphatic System",
+		"Difficulty": "Easy",
+		"Question": "<p>T cells are best suited for cell-to-cell interactions.</p>",
+		"Explanation": "B cells, on the other hand, transform into plasma cells, which synthesize and secrete specific proteins called antibodies.",
+		"Answers":
+		[
+			{
+				"Text": "True",
+				"Score": ".5"
+			},
+			{
+				"Text": "False"
+			},
+		]
+	},
+	{
+		"Category": "Lymphatic System",
+		"Difficulty": "Easy",
+		"Question": "<p>Immunological memory results in an intense secondary response to an antigen.</p>",
+		"Answers":
+		[
+			{
+				"Text": "True",
+				"Score": ".5"
+			},
+			{
+				"Text": "False"
+			},
+		]
+	},
+	{
+		"Category": "Lymphatic System",
+		"Difficulty": "Hard",
+		"Question": "<p>Cell-mediated immunity does not work well against:</p>",
+		"Explanation": "Antibody-mediated immunity is more effective against extracellular pathogens, which include viruses, bacteria, or fungi that are in body fluids outside cells.",
+		"Answers":
+		[
+			{
+				"Text": "Extracellular pathogens",
+				"Score": "1"
+			},
+			{
+				"Text": "Intracellular pathogens (viruses, bacteria or fungi inside cells)"
+			},
+			{
+				"Text": "Some cancer cells"
+			},
+			{
+				"Text": "Foreign tissue transplants"
+			},
+			{
+				"Text": "All of the above",
+				"IsLast": "true"
+			},
+		]
+	},
+	{
+		"Category": "Lymphatic System",
+		"Difficulty": "Medium",
+		"Question": "<p>Where are complement proteins produced?</p>",
+		"Answers":
+		[
+			{
+				"Text": "Liver",
+				"Score": "1"
+			},
+			{
+				"Text": "Thymus"
+			},
+			{
+				"Text": "Spleen"
+			},
+			{
+				"Text": "Pancreas"
+			},
+			{
+				"Text": "None of the above",
+				"IsLast": "true"
+			},
+		]
+	},
+	{
+		"Category": "Lymphatic System",
+		"Difficulty": "Medium",
+		"Question": "<p>Which is not an antibody isotype?</p>",
+		"Answers":
+		[
+			{
+				"Text": "All of these are antibody isotypes",
+				"Score": "1",
+				"IsLast": "true"
+			},
+			{
+				"Text": "IgM"
+			},
+			{
+				"Text": "IgA"
+			},
+			{
+				"Text": "IgD"
+			},
+			{
+				"Text": "IgE"
+			},
+		]
+	},
+	{
+		"Category": "Respiratory System",
+		"Difficulty": "Easy",
+		"Question": "<p>Exhalation begins when</p>",
+		"Image": "Inspiration and expiration.jpg",
+		"Answers":
+		[
+			{
+				"Text": "Inspiratory muscles relax",
+				"Score": "1"
+			},
+			{
+				"Text": "None of the above",
+				"IsLast": "true"
+			},
+			{
+				"Text": "Blood circulation is the lowest"
+			},
+			{
+				"Text": "Diaphragm contracts"
+			},
+			{
+				"Text": "Inspiratory muscles relax and the diaphragm contracts"
+			},
+		]
+	},
+	{
+		"Category": "Respiratory System",
+		"Difficulty": "Easy",
+		"Question": "<p>Which of the tissues below forms the exchange surfaces of the <a href=\"http://en.wikipedia.org/wiki/Alveolus\">alveolus</a>?</p>",
+		"Image": "Epithelial Tissue.jpg",
+		"ImageUrl": "http://en.wikipedia.org/wiki/File:403_Epithelial_Tissue.jpg",
+		"Answers":
+		[
+			{
+				"Text": "Simple squamous epithelium",
+				"Score": "1"
+			},
+			{
+				"Text": "Hyaline cartilage"
+			},
+			{
+				"Text": "Columnar connective tissue with goblet cells"
+			},
+			{
+				"Text": "Ciliated pseudostratified columnar epithelium with goblet cells"
+			},
+			{
+				"Text": "Stratified squamous epithelium"
+			},
+		]
+	},
+	{
+		"Category": "Respiratory System",
+		"Difficulty": "Medium",
+		"Question": "<p>Which of the following means the lungs and the chest wall expand easily?</p>",
+		"Answers":
+		[
+			{
+				"Text": "High compliance",
+				"Score": "1"
+			},
+			{
+				"Text": "High surface tension"
+			},
+			{
+				"Text": "Low surface tension"
+			},
+			{
+				"Text": "Low compliance"
+			},
+			{
+				"Text": "None of the above",
+				"IsLast": "true"
+			},
+		]
+	},
+	{
+		"Category": "Respiratory System",
+		"Difficulty": "Medium",
+		"Question": "<p>Which of the following is not a factor that the rate of pulmonary and systemic gas exchange depends on?</p>",
+		"Answers":
+		[
+			{
+				"Text": "Force of contraction of diaphragm",
+				"Score": "1"
+			},
+			{
+				"Text": "Molecular weight and solubility of the gases"
+			},
+			{
+				"Text": "Diffusion distance"
+			},
+			{
+				"Text": "Surface area for gas exchange"
+			},
+			{
+				"Text": "Partial pressure difference of the gases"
+			},
+		]
+	},
+	{
+		"Category": "Respiratory System",
+		"Difficulty": "Medium",
+		"Question": "<p>The conducting airways with the air that does not undergo gas exchange are known as the __________.</p>",
+		"Answers":
+		[
+			{
+				"Text": "anatomic dead space",
+				"Score": "1"
+			},
+			{
+				"Text": "inspiratory volume"
+			},
+			{
+				"Text": "expiratory reserve volume"
+			},
+			{
+				"Text": "minimal volume"
+			},
+			{
+				"Text": "residual volume"
+			},
+		]
+	},
+	{
+		"Category": "Respiratory System",
+		"Difficulty": "Hard",
+		"Question": "<p>Which of the following are cells of the <a href=\"http://en.wikipedia.org/wiki/Pulmonary_alveolus\">alveoli</a> that produce surfactant?</p>",
+		"Answers":
+		[
+			{
+				"Text": "Type II alveolar cells",
+				"Score": "1"
+			},
+			{
+				"Text": "Type I alveolar cells"
+			},
+			{
+				"Text": "Type III alveolar cells"
+			},
+			{
+				"Text": "Surface cells"
+			},
+			{
+				"Text": "Macrophages"
+			},
+		]
+	},
+	{
+		"Category": "Respiratory System",
+		"Difficulty": "Easy",
+		"KeyQuestion": "<p>The *answer text* is the __________.</p>",
+		"ValueQuestion": "<p>The *answer text* is part of the __________.</p>",
+		"KeyValue": "true",
+		"Answers":
+		[
+			{
+				"Key": "Upper respiratory tract",
+				"Text": "nose, pharynx and associated structures"
+			},
+			{
+				"Key": "Lower respiratory tract",
+				"Text": "larynx, trachea, bronchi and lungs"
+			},
+			{
+				"Key": "Conducting zone",
+				"Text": "interconnecting cavities and airways that moisten air and conduct it into the lungs"
+			},
+			{
+				"Key": "Respiratory zone",
+				"Text": "area of the lung where gas exchange takes place (must have alveoli)"
+			},
+		]
+	},
+	{
+		"Category": "Respiratory System",
+		"Difficulty": "Easy",
+		"Question": "<p>The the left and right sides of the nasal cavity join at the <a href=\"http://en.wikipedia.org/wiki/Nasal_septum\">nasal septum</a>.</p>",
+		"Explanation": "The nasal cavity is divided into left and right sides by the nasal septum.",
+		"Answers":
+		[
+			{
+				"Text": "False",
+				"Score": ".5"
+			},
+			{
+				"Text": "True"
+			},
+		]
+	},
+	{
+		"Category": "Respiratory System",
+		"Difficulty": "Easy",
+		"Question": "<p>What is not a function of the nose?</p>",
+		"Answers":
+		[
+			{
+				"Text": "Filter high concentrations of CO\u2082",
+				"Score": "1"
+			},
+			{
+				"Text": "Filter air"
+			},
+			{
+				"Text": "Detect olfactory stimuli"
+			},
+			{
+				"Text": "Resonance of speech vibrations"
+			},
+			{
+				"Text": "Warm and moisten air"
+			},
+		]
+	},
+	{
+		"Category": "Respiratory System",
+		"Difficulty": "Easy",
+		"Question": "<p>Which of the following are anatomical regions of the pharynx?</p>",
+		"Answers":
+		[
+			{
+				"Text": "Nasopharynx, oropharynx and laryngopharynx",
+				"Score": "1"
+			},
+			{
+				"Text": "Oropharynx and laryngopharynx"
+			},
+			{
+				"Text": "Nasopharynx and laryngopharynx"
+			},
+			{
+				"Text": "Nasopharynx, para-oropharynx, oropharynx and laryngopharynx"
+			},
+			{
+				"Text": "Nasopharynx, oropharynx and para-laryngopharynx"
+			},
+		]
+	},
+	{
+		"Category": "Respiratory System",
+		"Difficulty": "Easy",
+		"Question": "<p>Which is not a the function of the <a href=\"http://en.wikipedia.org/wiki/Paranasal_sinuses\">paranasal sinuses</a>?</p>",
+		"Image": "Paranasal Sinuses.jpg",
+		"ImageUrl": "http://en.wikipedia.org/wiki/File:Paranasal_Sinuses_ant.jpg",
+		"Answers":
+		[
+			{
+				"Text": "Warm and moisten air",
+				"Score": "1"
+			},
+			{
+				"Text": "Production of mucus"
+			},
+			{
+				"Text": "Resonating chambers for voice production"
+			},
+			{
+				"Text": "Lightens bones of skull"
+			},
+			{
+				"Text": "All of the above are functions of the paranasal sinuses",
+				"IsLast": "true"
+			},
+		]
+	},
+	{
+		"Category": "Respiratory System",
+		"Difficulty": "Medium",
+		"Question": "<p>Which laryngeal cartilages move (due to laryngeal muscle contraction) to open and close the glottis in speech production?</p>",
+		"Answers":
+		[
+			{
+				"Text": "Arytenoid",
+				"Score": "1"
+			},
+			{
+				"Text": "Epiglottis"
+			},
+			{
+				"Text": "Larynx"
+			},
+			{
+				"Text": "Cricoid"
+			},
+			{
+				"Text": "None of the above",
+				"IsLast": "true"
+			},
+		]
+	},
+	{
+		"Category": "Respiratory System",
+		"Difficulty": "Easy",
+		"Question": "<p>The role of the epiglottis is to close off the glottis during swallowing to prevent food entering the larynx and trachea.</p>",
+		"Answers":
+		[
+			{
+				"Text": "True",
+				"Score": ".5"
+			},
+			{
+				"Text": "False"
+			},
+		]
+	},
+	{
+		"Category": "Respiratory System",
+		"Difficulty": "Easy",
+		"Question": "<p>Which gastrointestinal structure lies directly behind the C shaped cartilage rings of the trachea?</p>",
+		"Answers":
+		[
+			{
+				"Text": "Esophagus",
+				"Score": "1"
+			},
+			{
+				"Text": "Epiglottis"
+			},
+			{
+				"Text": "Larynx"
+			},
+			{
+				"Text": "Cricoid"
+			},
+			{
+				"Text": "All of the above",
+				"IsLast": "true"
+			},
+		]
+	},
+	{
+		"Category": "Respiratory System",
+		"Difficulty": "Hard",
+		"KeyQuestion": "<p>The *answer text* are lined with __________ <a href=\"http://en.wikipedia.org/wiki/Epithelium\">epithelium</a>.</p>",
+		"ValueQuestion": "<p>The __________ contain *answer text* <a href=\"http://en.wikipedia.org/wiki/Epithelium\">epithelium</a>.</p>",
+		"KeyValue": "true",
+		"MaxNumberOfAnswers": "5",
+		"Answers":
+		[
+			{
+				"Key": "Nasal cavity and nasopharynx",
+				"Text": "pseudostratified ciliated columnar"
+			},
+			{
+				"Key": "Oropharynx and laryngopharynx",
+				"Text": "stratified squamous"
+			},
+			{
+				"Key": "Larynx (below vocal folds), trachea and bronchi",
+				"Text": "pseudostratified ciliated columnar"
+			},
+			{
+				"Key": "Larger bronchioles",
+				"Text": "ciliated simple columnar"
+			},
+			{
+				"Key": "Terminal bronchioles",
+				"Text": "simple cuboidal"
+			},
+			{
+				"Key": "Alveoli",
+				"Text": "simple squamous"
+			},
+		]
+	},
+	{
+		"Category": "Respiratory System",
+		"Difficulty": "Easy",
+		"Question": "<p>There are two lobes in the left lung and three lobes in the right lung.</p>",
+		"Answers":
+		[
+			{
+				"Text": "True",
+				"Score": ".5"
+			},
+			{
+				"Text": "False"
+			},
+		]
+	},
+	{
+		"Category": "Respiratory System",
+		"Difficulty": "Medium",
+		"Question": "<p>What does a terminal bronchiole terminate?</p>",
+		"Answers":
+		[
+			{
+				"Text": "The conducting zone",
+				"Score": "1"
+			},
+			{
+				"Text": "The respiratory zone"
+			},
+			{
+				"Text": "The circumventing zone"
+			},
+			{
+				"Text": "The circulatory zone"
+			},
+			{
+				"Text": "None of the above",
+				"IsLast": "true"
+			},
+		]
+	},
+	{
+		"Category": "Respiratory System",
+		"Difficulty": "Hard",
+		"Question": "<p>The <a href=\"http://en.wikipedia.org/wiki/Carina_of_trachea\">carina</a> is the specialised first tracheal cartilage band that is the site where tracheotomies are performed.</p>",
+		"Explanation": "The carina is the specialised last tracheal cartilage band that forms the bifurcation into left and right primary bronchi.",
+		"Answers":
+		[
+			{
+				"Text": "False",
+				"Score": ".5"
+			},
+			{
+				"Text": "True"
+			},
+		]
+	},
+	{
+		"Category": "Respiratory System",
+		"Difficulty": "Hard",
+		"Question": "<p>Trauma to one lung does not necessarily affect the other lung because each lung is enclosed in a separate double layered pleural membrane and they are separated by the mediastinum.</p>",
+		"Answers":
+		[
+			{
+				"Text": "True",
+				"Score": ".5"
+			},
+			{
+				"Text": "False"
+			},
+		]
+	},
+	{
+		"Category": "Respiratory System",
+		"Difficulty": "Easy",
+		"Question": "<p>Is the relationship between volume and pressure in a closed system proportional or inverse?</p>",
+		"Answers":
+		[
+			{
+				"Text": "Inverse. As volume in a closed system increases, pressure decreases and vice versa.",
+				"Score": ".5"
+			},
+			{
+				"Text": "Proportional. As volume in a closed system increases, pressure increases and vice versa."
+			},
+		]
+	},
+	{
+		"Category": "Respiratory System",
+		"Difficulty": "Medium",
+		"Question": "<p>Which accessory muscles assist the diaphragm during maximal inspiration?</p>",
+		"Answers":
+		[
+			{
+				"Text": "External intercostal muscles, sternocleidomastoid and scalenes",
+				"Score": "1"
+			},
+			{
+				"Text": "Internal intercostals and abdominal muscles"
+			},
+			{
+				"Text": "Internal intercostal muscles, sternocleidomastoid and scalenes"
+			},
+			{
+				"Text": "External intercostal muscles, abdominals and scalenes"
+			},
+			{
+				"Text": "None of the above",
+				"IsLast": "true"
+			},
+		]
+	},
+	{
+		"Category": "Respiratory System",
+		"Difficulty": "Medium",
+		"Question": "<p>Which muscles are active in forced exhalation?</p>",
+		"Answers":
+		[
+			{
+				"Text": "Internal intercostals and abdominal muscles",
+				"Score": "1"
+			},
+			{
+				"Text": "External intercostal and abdominal muscles"
+			},
+			{
+				"Text": "Internal intercostal muscles, abdominals and scalenes"
+			},
+			{
+				"Text": "Intercostal muscles, abdominals and scalenes"
+			},
+			{
+				"Text": "Abdominal muscles and scalenes"
+			},
+		]
+	},
+	{
+		"Category": "Respiratory System",
+		"Difficulty": "Hard",
+		"Question": "<p>Air pressure differential between <a href=\"http://en.wikipedia.org/wiki/Pulmonary_alveolus\">alveoli</a> and the atmosphere causes air to stop flowing into the lung at the end of inspiration.</p>",
+		"Image": "Alveolus diagram.png",
+		"ImageUrl": "http://en.wikipedia.org/wiki/File:Alveolus_diagram.svg",
+		"Explanation": "Equalisation of pressure between alveoli and atmosphere causes air to stop flowing into the lung at the end of inspiration.",
+		"Answers":
+		[
+			{
+				"Text": "False",
+				"Score": ".5"
+			},
+			{
+				"Text": "True"
+			},
+		]
+	},
+	{
+		"Category": "Respiratory System",
+		"Difficulty": "Medium",
+		"KeyQuestion": "<p>The *answer text* is the __________.</p>",
+		"ValueQuestion": "<p>The __________ is the *answer text*.</p>",
+		"KeyValue": "true",
+		"MaxNumberOfAnswers": "5",
+		"Answers":
+		[
+			{
+				"Key": "Minute ventilation",
+				"Text": "volume of air ventilating the lung in 1 minute"
+			},
+			{
+				"Key": "Anatomic dead space",
+				"Text": "volume of conducting airways that do not participate in gas exchange. Approx 150ml"
+			},
+			{
+				"Key": "Tidal volume",
+				"Text": "volume inhaled during normal resting breathing. Approx 500ml"
+			},
+			{
+				"Key": "Inspiratory reserve volume",
+				"Text": "extra volume that can be maximally inhaled following normal tidal inhalation"
+			},
+			{
+				"Key": "Expiratory reserve volume",
+				"Text": "extra volume that can be maximally exhaled following normal tidal exhalation"
+			},
+			{
+				"Key": "Residual volume",
+				"Text": "volume remaining in the lung after maximal exhalation"
+			},
+			{
+				"Key": "Inspiratory capacity",
+				"Text": "sum of tidal volume + inspiratory reserve volume"
+			},
+			{
+				"Key": "Functional residual capacity",
+				"Text": "Sum of residual volume + expiratory reserve volume"
+			},
+			{
+				"Key": "Vital capacity",
+				"Text": "maximum amount of air that can be exhaled after maximal inhalation"
+			},
+			{
+				"Key": "Total lung capacity",
+				"Text": "total volume of air that can be held in the lung at maximal inhalation"
+			},
+			{
+				"Key": "Pulmonary ventilation",
+				"Text": "movement of air into and out of the lung"
+			},
+			{
+				"Key": "External respiration",
+				"Text": "diffusion of O\u2082 into blood and CO\u2082 out across the alveolar capillary membrane"
+			},
+			{
+				"Key": "Internal respiration",
+				"Text": "diffusion of CO\u2082 out of tissues and O\u2082 into tissues at systemic capillaries"
+			},
+		]
+	},
+	{
+		"Category": "Respiratory System",
+		"Difficulty": "Medium",
+		"KeyQuestion": "<p>The label \"*answer text*\" on the graph of lung volumes represents __________.</p>",
+		"ValueQuestion": "<p>On the graph of lung volumes, *answer text* is labelled __________.</p>",
+		"KeyValue": "true",
+		"Image": "Lung volumes.png",
+		"ImageUrl": "http://en.wikipedia.org/wiki/File:Lungvolumes.svg",
+		"MaxNumberOfAnswers": "5",
+		"Answers":
+		[
+			{
+				"Key": "A",
+				"Text": "Inspiratory reserve volume (IRV)"
+			},
+			{
+				"Key": "B",
+				"Text": "Tidal volume (TV)"
+			},
+			{
+				"Key": "C",
+				"Text": "Expiratory reserve volume (ERV)"
+			},
+			{
+				"Key": "D",
+				"Text": "Residual volume (RV)"
+			},
+			{
+				"Key": "E",
+				"Text": "Functional residual capacity (FRC)"
+			},
+			{
+				"Key": "F",
+				"Text": "Vital capacity (VC)"
+			},
+			{
+				"Key": "G",
+				"Text": "Total lung capacity (TLC)"
+			},
+		]
+	},
+	{
+		"Category": "Respiratory System",
+		"Difficulty": "Hard",
+		"Question": "<p><a href=\"http://en.wikipedia.org/wiki/Type_I_pneumocyte\">Type 1 alveolar cells</a> are simple squamous epithelial cells that forms the alveolar wall. <a href=\"http://en.wikipedia.org/wiki/Type_II_pneumocyte\">Type 2 alveolar cells</a> are rounded epithelial cells that secrete alveolar fluid with surfactant.</p>",
+		"Answers":
+		[
+			{
+				"Text": "True",
+				"Score": ".5"
+			},
+			{
+				"Text": "False"
+			},
+		]
+	},
+	{
+		"Category": "Respiratory System",
+		"Difficulty": "Medium",
+		"Question": "<p>What is the most important factor in determining how much oxygen binds to <a href=\"http://en.wikipedia.org/wiki/Hemoglobin\">haemoglobin</a>?</p>",
+		"Answers":
+		[
+			{
+				"Text": "Partial pressure of oxygen",
+				"Score": "1"
+			},
+			{
+				"Text": "Solubility of the oxygen"
+			},
+			{
+				"Text": "Surface area"
+			},
+			{
+				"Text": "Diffusion distance"
+			},
+			{
+				"Text": "Molecular weight"
+			},
+		]
+	},
+	{
+		"Category": "Respiratory System",
+		"Difficulty": "Medium",
+		"Question": "<p>List the mechanisms responsible for O\u2082 transport and relative percentage contribution of each.</p>",
+		"Answers":
+		[
+			{
+				"Text": "98.5% combined with haemoglobin (Hb); 1.5% dissolved in plasma",
+				"Score": "1"
+			},
+			{
+				"Text": "97% combined with haemoglobin (Hb); 3% dissolved in water"
+			},
+			{
+				"Text": "50% combined with haemoglobin (Hb); 50% dissolved in plasma"
+			},
+			{
+				"Text": "98% combined with haemoglobin (Hb); 2% dissolved in leukocytes"
+			},
+			{
+				"Text": "90% combined with haemoglobin (Hb); 10% dissolved in leukocytes"
+			},
+		]
+	},
+	{
+		"Category": "Respiratory System",
+		"Difficulty": "Medium",
+		"Question": "<p>What are the labels for the x and y axes of the image of the <a href=\"http://en.wikipedia.org/wiki/Oxygen%E2%80%93haemoglobin_dissociation_curve\">oxygen-haemoglobin dissociation curve</a>?</p>",
+		"Image": "Oxygen-haemoglobin dissociation curve - no labels on axes.png",
+		"Answers":
+		[
+			{
+				"Text": "Percentage saturation of haemoglobin; PO\u2082 (mmHg)",
+				"Score": "1"
+			},
+			{
+				"Text": "Percentage saturation of oxygen; PO\u2082 (mmHg)"
+			},
+			{
+				"Text": "Percentage saturation of CO\u2082; PO\u2082 (mmHg)"
+			},
+			{
+				"Text": "Absolute saturation of haemoglobin; PCO\u2082 (mmHg)"
+			},
+			{
+				"Text": "Relative saturation of haemoglobin; PCO\u2082 (mmHg)"
+			},
+		]
+	},
+	{
+		"Category": "Respiratory System",
+		"Difficulty": "Medium",
+		"Question": "<p>Which is the correct statament about factors that influence the affinity of <a href=\"http://en.wikipedia.org/wiki/Hemoglobin\">haemoglobin</a> (Hb) for oxygen?</p>",
+		"Answers":
+		[
+			{
+				"Text": "As PCO\u2082 ↑ and pH ↓, affinity of Hb for O\u2082 ↓. As temperature ↑, affinity of Hb for O\u2082 ↓.",
+				"Score": "1",
+				"Explanation": "These changes, increased temperature, more CO\u2082 production and hence a decrease in pH, all occur during exercise. When you are exercising, it is advantageous for the affinity of Hb for O\u2082 to decrease so that more oxygen can be delivered to the exercising tissue.  This is a useful way to remember the direction of change to Hb affinity."
+			},
+			{
+				"Text": "As PCO\u2082 ↑ and pH ↓, affinity of Hb for O\u2082 ↓. As temperature ↓, affinity of Hb for O\u2082 ↓."
+			},
+			{
+				"Text": "As PCO\u2082 ↑ and pH ↓, affinity of Hb for O\u2082 ↓. As temperature ↑, affinity of Hb for O\u2082 ↑."
+			},
+			{
+				"Text": "As PCO\u2082 ↑ and pH ↑, affinity of Hb for O\u2082 ↓. As temperature ↑, affinity of Hb for O\u2082 ↓."
+			},
+			{
+				"Text": "As PCO\u2082 ↓ and pH ↑, affinity of Hb for O\u2082 ↓. As temperature ↑, affinity of Hb for O\u2082 ↓."
+			},
+		]
+	},
+	{
+		"Category": "Respiratory System",
+		"Difficulty": "Medium",
+		"Question": "<p>HCO\u2083\u207B should be higher in a systemic vein as CO\u2082 is rapidly converted to HCO\u2083\u207B which is the transport form until the reaction is reversed in the lungs where CO\u2082 is exhaled.</p>",
+		"Answers":
+		[
+			{
+				"Text": "True",
+				"Score": ".5"
+			},
+			{
+				"Text": "False"
+			},
+		]
+	},
+	{
+		"Category": "Respiratory System",
+		"Difficulty": "Hard",
+		"Question": "<p>Which nerves convey impulses from the respiratory centre to the diaphragm?</p>",
+		"Answers":
+		[
+			{
+				"Text": "Phrenic nerves",
+				"Score": "1"
+			},
+			{
+				"Text": "Apneustic nerves"
+			},
+			{
+				"Text": "Pneumotaxic nerves"
+			},
+			{
+				"Text": "Accessory nerves"
+			},
+			{
+				"Text": "Respirato nerves"
+			},
+		]
+	},
+	{
+		"Category": "Respiratory System",
+		"Difficulty": "Easy",
+		"Question": "<p>What is a normal range for pH in systemic arterial blood?</p>",
+		"Answers":
+		[
+			{
+				"Text": "7.35 - 7.45",
+				"Score": "1"
+			},
+			{
+				"Text": "7.45 - 7.55"
+			},
+			{
+				"Text": "6.25 - 6.35"
+			},
+			{
+				"Text": "7.25 - 7.35"
+			},
+			{
+				"Text": "None of the above",
+				"IsLast": "true"
+			},
+		]
+	},
+	{
+		"Category": "Respiratory System",
+		"Difficulty": "Easy",
+		"Question": "<p>Which is not a mechanism that allows removal of H\u207A from the blood?</p>",
+		"Answers":
+		[
+			{
+				"Text": "Inhalation of O\u2082",
+				"Score": "1"
+			},
+			{
+				"Text": "Exhalation of CO\u2082"
+			},
+			{
+				"Text": "Excretion of H\u207A in urine"
+			},
+			{
+				"Text": "Buffer systems"
+			},
+			{
+				"Text": "All of these mechanisms remove H\u207A from the blood",
+				"IsLast": "true"
+			},
+		]
+	},
+	{
+		"Category": "Respiratory System",
+		"Difficulty": "Easy",
+		"KeyQuestion": "<p>The condition *answer text* has the effect of __________.</p>",
+		"ValueQuestion": "<p>A condition where there is *answer text* is called __________.</p>",
+		"KeyValue": "true",
+		"Score": ".75",
+		"Answers":
+		[
+			{
+				"Key": "Hypercapnia",
+				"Text": "increased level of PCO\u2082 above normal (40mmHg)."
+			},
+			{
+				"Key": "Acidosis",
+				"Text": "CNS depression via decreased synaptic transmission, disorientation, coma and death"
+			},
+			{
+				"Key": "Alkalosis",
+				"Text": "CNS and PNS overexcitability caused by increased synaptic transmission, muscle spasms, convulsions and death"
+			},
+		]
+	},
+	{
+		"Category": "Respiratory System",
+		"Difficulty": "Hard",
+		"Question": "<p>The mechanisms responsible for CO\u2082 transport and relative percentage contribution of each are: 55% as HCO\u2083\u207B, 38% bound to amino acids in the globin part of Hb, 7% dissolved in plasma</p>",
+		"Answers":
+		[
+			{
+				"Text": "True",
+				"Score": ".5"
+			},
+			{
+				"Text": "False"
+			},
+		]
+	},
+	{
+		"Category": "Endocrine System",
+		"Difficulty": "Easy",
+		"Question": "<p>When one hormone's action is opposing the action of another hormone it is called:</p>",
+		"Answers":
+		[
+			{
+				"Text": "Antagonistic",
+				"Score": "1"
+			},
+			{
+				"Text": "Synergistic"
+			},
+			{
+				"Text": "Permissive"
+			},
+			{
+				"Text": "Circulating"
+			},
+			{
+				"Text": "Local"
+			},
+		]
+	},
+	{
+		"Category": "Endocrine System",
+		"Difficulty": "Easy",
+		"Question": "<p>Which hormone is stimulated by increasing levels of blood glucose?</p>",
+		"Image": "Glucagon-_1GCN.jpg",
+		"ImageUrl": "http://en.wikipedia.org/wiki/File:Glucagon-_1GCN.jpg",
+		"Answers":
+		[
+			{
+				"Text": "Insulin",
+				"Score": "1"
+			},
+			{
+				"Text": "Glucagon",
+				"Explanation": "<a href=\"http://en.wikipedia.org/wiki/Glucagon\">Glucagon</a> is stimulated by decreasing levels of blood glucose."
+			},
+			{
+				"Text": "Leutinizing hormone"
+			},
+			{
+				"Text": "Parathyroid hormone"
+			},
+			{
+				"Text": "Calcitonin"
+			},
+		]
+	},
+	{
+		"Category": "Endocrine System",
+		"Difficulty": "Easy",
+		"Question": "<p>Which hormone is stimulated by decreasing levels of blood glucose?</p>",
+		"Image": "InsulinHexamer.jpg",
+		"ImageUrl": "http://en.wikipedia.org/wiki/File:InsulinHexamer.jpg",
+		"Answers":
+		[
+			{
+				"Text": "Glucagon",
+				"Score": "1"
+			},
+			{
+				"Text": "Insulin",
+				"Explanation": "<a href=\"http://en.wikipedia.org/wiki/Insulin\">Insulin</a> is stimulated by increasing levels of blood glucose."
+			},
+			{
+				"Text": "Leutinizing hormone"
+			},
+			{
+				"Text": "Parathyroid hormone"
+			},
+			{
+				"Text": "Calcitonin"
+			},
+		]
+	},
+	{
+		"Category": "Endocrine System",
+		"Difficulty": "Easy",
+		"Question": "<p>Which of the following hormones opposes the action of <a href=\"http://en.wikipedia.org/wiki/Parathyroid_hormone\">parathyroid hormone</a>?</p>",
+		"Image": "Parathyroid glands.jpg",
+		"Answers":
+		[
+			{
+				"Text": "Calcitonin",
+				"Score": "1"
+			},
+			{
+				"Text": "Thyroid stimulating hormone"
+			},
+			{
+				"Text": "Testosterone"
+			},
+			{
+				"Text": "Insulin"
+			},
+			{
+				"Text": "Calcitriol"
+			},
+		]
+	},
+	{
+		"Category": "Endocrine System",
+		"Difficulty": "Easy",
+		"Question": "<p>Which of the following anterior <a href=\"http://en.wikipedia.org/wiki/Pituitary_gland\">pituitary gland</a> hormones stimulates growth?</p>",
+		"Image": "Gray1180.png",
+		"Answers":
+		[
+			{
+				"Text": "Human growth hormone",
+				"Score": "1"
+			},
+			{
+				"Text": "Thyroid stimulating hormone"
+			},
+			{
+				"Text": "Prolactin"
+			},
+			{
+				"Text": "Thyrotropin"
+			},
+			{
+				"Text": "Follicle stimulating hormone"
+			},
+		]
+	},
+	{
+		"Category": "Endocrine System",
+		"Difficulty": "Medium",
+		"Question": "<p><a href=\"http://en.wikipedia.org/wiki/Parathyroid_hormone\">Parathyroid hormone</a> (PTH) is the major regulator of which ions in the blood?</p>",
+		"Image": "Parathyroid glands.jpg",
+		"Answers":
+		[
+			{
+				"Text": "Calcium",
+				"Score": "1"
+			},
+			{
+				"Text": "Sodium"
+			},
+			{
+				"Text": "Potassium"
+			},
+			{
+				"Text": "Chloride"
+			},
+			{
+				"Text": "Manganese"
+			},
+		]
+	},
+	{
+		"Category": "Endocrine System",
+		"Difficulty": "Easy",
+		"Question": "<p>Which of the following anterior <a href=\"http://en.wikipedia.org/wiki/Pituitary_gland\">pituitary gland</a> hormones stimulates milk production?</p>",
+		"Image": "Gray1180.png",
+		"Answers":
+		[
+			{
+				"Text": "Prolactin",
+				"Score": "1"
+			},
+			{
+				"Text": "Leutinizing hormone"
+			},
+			{
+				"Text": "Thyrotropin"
+			},
+			{
+				"Text": "Melanocyte stimulating hormone"
+			},
+			{
+				"Text": "Adrenocorticotropic hormone"
+			},
+		]
+	},
+	{
+		"Category": "Endocrine System",
+		"Difficulty": "Medium",
+		"Question": "<p>When a hormone is present in excessive levels, the number of target-cell receptors may decrease. This is called:</p>",
+		"Answers":
+		[
+			{
+				"Text": "Down regulation",
+				"Score": "1"
+			},
+			{
+				"Text": "Up regulation"
+			},
+			{
+				"Text": "Paracrine"
+			},
+			{
+				"Text": "Circulating hormone"
+			},
+			{
+				"Text": "Receptor recognition"
+			},
+		]
+	},
+	{
+		"Category": "Endocrine System",
+		"Difficulty": "Medium",
+		"Question": "<p>Which gland secretes the hormone <a href=\"http://en.wikipedia.org/wiki/Melatonin\">melatonin</a>?</p>",
+		"Answers":
+		[
+			{
+				"Text": "Pineal",
+				"Score": "1"
+			},
+			{
+				"Text": "Pituitary"
+			},
+			{
+				"Text": "Hypothalamus"
+			},
+			{
+				"Text": "Thyroid"
+			},
+			{
+				"Text": "Adrenal"
+			},
+		]
+	},
+	{
+		"Category": "Endocrine System",
+		"Difficulty": "Easy",
+		"Question": "<p>What controls the anterior <a href=\"http://en.wikipedia.org/wiki/Pituitary_gland\">pituitary gland</a>?</p>",
+		"Image": "Gray1180.png",
+		"Answers":
+		[
+			{
+				"Text": "Action of hypothalamic hormones",
+				"Score": "1"
+			},
+			{
+				"Text": "The peripheral nervous system"
+			},
+			{
+				"Text": "Chemical signals from the blood"
+			},
+			{
+				"Text": "Action potentials from the thalamus"
+			},
+			{
+				"Text": "Chemical changes in CSF"
+			},
+		]
+	},
+	{
+		"Category": "Endocrine System",
+		"Difficulty": "Easy",
+		"KeyQuestion": "<p>The *answer text* __________.</p>",
+		"ValueQuestion": "<p>Which system *answer text*?</p>",
+		"KeyValue": "true",
+		"Score": ".5",
+		"Answers":
+		[
+			{
+				"Key": "Nervous system",
+				"Text": "has a fast response and short duration"
+			},
+			{
+				"Key": "Endocrine system",
+				"Text": "has a slower response and longer duration"
+			}
+		]
+	},
+	{
+		"Category": "Endocrine System",
+		"Difficulty": "Easy",
+		"KeyQuestion": "<p>The *answer text* __________.</p>",
+		"ValueQuestion": "<p>Which gland *answer text*?</p>",
+		"KeyValue": "true",
+		"Score": ".5",
+		"Answers":
+		[
+			{
+				"Key": "Endocrine gland",
+				"Text": "secretes hormones into interstitial fluid and blood"
+			},
+			{
+				"Key": "Exocrine gland",
+				"Text": "secretes products into ducts that connect to body cavity, lumen of organ or body surface"
+			}
+		]
+	},
+	{
+		"Category": "Endocrine System",
+		"Difficulty": "Medium",
+		"Question": "<p>When there is high level of circulating hormone the receptor number decreases (up regulation) making target cell less sensitive to the hormone. When there is a low level of circulating hormone the receptor number increases (down regulation), making the target cell more sensitive to the hormone.</p>",
+		"Answers":
+		[
+			{
+				"Text": "False",
+				"Score": ".5"
+			},
+			{
+				"Text": "True",
+				"Explanation": "Down regulation occurs when high levels decrease. Up regulation occurs when low levels increase."
+			},
+		]
+	},
+	{
+		"Category": "Endocrine System",
+		"Difficulty": "Medium",
+		"Question": "<p>Which statement about the action of a hormone does not apply to a lipid soluble hormone?</p>",
+		"Answers":
+		[
+			{
+				"Text": "Hormone binds to receptor on target cell plasma membrane",
+				"Score": "1",
+				"Explanation": "A water soluble hormone binds to a receptor on a target cell plasma membrane."
+			},
+			{
+				"Text": "Hormone alters gene expression"
+			},
+			{
+				"Text": "Hormone binds to receptors located in target cell"
+			},
+			{
+				"Text": "Hormone crosses plasma membrane"
+			},
+			{
+				"Text": "Hormone detaches from transport protein in blood"
+			},
+		]
+	},
+	{
+		"Category": "Endocrine System",
+		"Difficulty": "Hard",
+		"Question": "<p>How is <a href=\"http://en.wikipedia.org/wiki/Cyclic_adenosine_monophosphate\">cyclic AMP</a> formed?</p>",
+		"Image": "Cyclic-adenosine-monophosphate-2D-skeletal.png",
+		"ImageText": "Cyclic adenosine monophosphate (cAMP)",
+		"Answers":
+		[
+			{
+				"Text": "cAMP is formed from ATP by adenylate cyclase",
+				"Score": "1"
+			},
+			{
+				"Text": "cAMP is formed from ADP by adenylate cyclase"
+			},
+			{
+				"Text": "cAMP forms during ATP synthesis by enzyme adenylate kinase, combining two ADP molecules"
+			},
+			{
+				"Text": "cAMP is formed from ATP by adenylate kinase"
+			},
+			{
+				"Text": "cAMP is formed by hydrolysis of ATP into cAMP and pyrophosphate"
+			},
+		]
+	},
+	{
+		"Category": "Endocrine System",
+		"Difficulty": "Hard",
+		"Question": "<p><a href=\"http://en.wikipedia.org/wiki/Cyclic_adenosine_monophosphate\">Cyclic AMP</a> is termed the __________ messenger.</p>",
+		"Image": "Cyclic-adenosine-monophosphate-2D-skeletal.png",
+		"ImageText": "Cyclic adenosine monophosphate (cAMP)",
+		"Answers":
+		[
+			{
+				"Text": "secondary",
+				"Score": "1"
+			},
+			{
+				"Text": "tertiary"
+			},
+			{
+				"Text": "primary"
+			},
+			{
+				"Text": "repeating"
+			},
+			{
+				"Text": "None of the above",
+				"IsLast": "true"
+			},
+		]
+	},
+	{
+		"Category": "Endocrine System",
+		"Difficulty": "Easy",
+		"Question": "<p>Which hormone effect occurs when more than one hormone produces the same effect and their combined effects are greater than the sum of the two hormones acting alone?</p>",
+		"Answers":
+		[
+			{
+				"Text": "Synergistic",
+				"Score": "1"
+			},
+			{
+				"Text": "Permissive"
+			},
+			{
+				"Text": "Antagonistic"
+			},
+			{
+				"Text": "Contractile"
+			},
+			{
+				"Text": "None of the above",
+				"IsLast": "true"
+			},
+		]
+	},
+	{
+		"Category": "Endocrine System",
+		"Difficulty": "Medium",
+		"Question": "<p>The <a href=\"http://en.wikipedia.org/wiki/Hypothalamus\">hypothalamus</a> contains neuro-secretory cells that produce releasing and inhibiting hormones that affect release of posterior <a href=\"http://en.wikipedia.org/wiki/Pituitary_gland\">pituitary gland</a> hormones.</p>",
+		"Image": "Endocrine_central_nervous.png",
+		"ImageUrl": "http://en.wikipedia.org/wiki/File:Endocrine_central_nervous_en.svg",
+		"Answers":
+		[
+			{
+				"Text": "False",
+				"Score": ".5"
+			},
+			{
+				"Text": "True",
+				"Explanation": "The hypothalamus affects anterior pituitary hormones."
+			},
+		]
+	},
+	{
+		"Category": "Endocrine System",
+		"Difficulty": "Hard",
+		"Question": "<p>Which hormone is not produced by the <a href=\"http://en.wikipedia.org/wiki/Hypothalamus\">hypothalamus</a>?</p>",
+		"Answers":
+		[
+			{
+				"Text": "Leutinizing hormone (LH)",
+				"Score": "1",
+				"Explanation": "Leutinizing hormone is produced by gonadotroph cells in the anterior <a href=\"http://en.wikipedia.org/wiki/Pituitary_gland\">pituitary gland</a>."
+			},
+			{
+				"Text": "Growth hormone releasing/inhibiting hormones (GHRH/GHIH)"
+			},
+			{
+				"Text": "Thyrotropin releasing hormone (TRH)"
+			},
+			{
+				"Text": "Gonadotropin releasing hormone (GnRH)"
+			},
+			{
+				"Text": "Prolactin releasing/inhibiting hormones (PRH/PIH)"
+			},
+		]
+	},
+	{
+		"Category": "Endocrine System",
+		"Difficulty": "Medium",
+		"Question": "<p>Hormones produced by the <a href=\"http://en.wikipedia.org/wiki/Hypothalamus\">hypothalamus</a> and <a href=\"http://en.wikipedia.org/wiki/Pituitary_gland\">pituitary gland</a> regulate which body function?</p>",
+		"Answers":
+		[
+			{
+				"Text": "All of the above",
+				"Score": "1",
+				"IsLast": "true"
+			},
+			{
+				"Text": "Growth"
+			},
+			{
+				"Text": "Development"
+			},
+			{
+				"Text": "Metabolism"
+			},
+			{
+				"Text": "Homeostasis"
+			},
+		]
+	},
+	{
+		"Category": "Endocrine System",
+		"Difficulty": "Medium",
+		"Question": "<p>An anterior <a href=\"http://en.wikipedia.org/wiki/Pituitary_gland\">pituitary gland</a> hormone that influences another endocrine gland is called a trophic hormone or tropin.</p>",
+		"Answers":
+		[
+			{
+				"Text": "True",
+				"Score": ".5"
+			},
+			{
+				"Text": "False"
+			},
+		]
+	},
+	{
+		"Category": "Endocrine System",
+		"Difficulty": "Hard",
+		"Question": "<p>Which anterior <a href=\"http://en.wikipedia.org/wiki/Pituitary_gland\">pituitary gland</a> hormone does not stimulate a second endocrine gland to release a hormone?</p>",
+		"Answers":
+		[
+			{
+				"Text": "Prolactin (PRL)",
+				"Score": "1",
+				"Explanation": "Prolactin is a peptide hormone best known for its role in lactation."
+			},
+			{
+				"Text": "Thyroid-stimulating hormone (TSH)",
+				"Explanation": "TSH is a hormone that stimulates the <a href=\"http://en.wikipedia.org/wiki/Thyroid\">thyroid gland</a> to produce thyroxine (T4), and then triiodothyronine (T3) which stimulates the metabolism of almost every tissue in the body."
+			},
+			{
+				"Text": "Adrenocorticotropic hormone (ACTH)",
+				"Explanation": "ACTH, also known as corticotropin, is a polypeptide tropic hormone produced and secreted by the anterior pituitary gland. Its principal effects are increased production and release of corticosteroids."
+			},
+			{
+				"Text": "Follicle-stimulating hormone (FSH)",
+				"Explanation": "FSH regulates female reproductive cycle and stimulates production of oocytes, sperm and estrogen."
+			},
+			{
+				"Text": "Leutinizing hormone (LH)",
+				"Explanation": "In females, LH supports theca cells in the ovaries that provide androgens and hormonal precursors for estradiol production. In the male, LH acts upon the Leydig cells of the testis and is responsible for the production of testosterone."
+			},
+		]
+	},
+	{
+		"Category": "Endocrine System",
+		"Difficulty": "Hard",
+		"Question": "<p>Which anterior <a href=\"http://en.wikipedia.org/wiki/Pituitary_gland\">pituitary gland</a> hormone acts synergistically with leutinizing hormone (LH)?</p>",
+		"Answers":
+		[
+			{
+				"Text": "Follicle-stimulating hormone (FSH)",
+				"Score": "1",
+				"Explanation": "FSH regulates female reproductive cycle and stimulates production of oocytes, sperm and estrogen."
+			},
+			{
+				"Text": "Thyroid-stimulating hormone (TSH)",
+				"Explanation": "TSH is a hormone that stimulates the <a href=\"http://en.wikipedia.org/wiki/Thyroid\">thyroid gland</a> to produce thyroxine (T4), and then triiodothyronine (T3) which stimulates the metabolism of almost every tissue in the body."
+			},
+			{
+				"Text": "Adrenocorticotropic hormone (ACTH)",
+				"Explanation": "ACTH, also known as corticotropin, is a polypeptide tropic hormone produced and secreted by the anterior pituitary gland. Its principal effects are increased production and release of corticosteroids."
+			},
+			{
+				"Text": "Prolactin (PRL)",
+				"Explanation": "Prolactin is a peptide hormone best known for its role in lactation."
+			},
+			{
+				"Text": "Oxytocin (Oxt)",
+				"Explanation": "<a href=\"http://en.wikipedia.org/wiki/Oxytocin\">Oxytocin</a> is produced in the posterior pituitary gland and the <a href=\"http://en.wikipedia.org/wiki/Hypothalamus\">hypothalamus</a>. It is not an anterior pituitary hormone."
+			},
+		]
+	},
+	{
+		"Category": "Endocrine System",
+		"Difficulty": "Hard",
+		"KeyQuestion": "<p>The <a href=\"http://en.wikipedia.org/wiki/Pituitary_gland\">pituitary gland</a> hormone known as *answer text* __________.</p>",
+		"ValueQuestion": "<p>What is the name for the <a href=\"http://en.wikipedia.org/wiki/Pituitary_gland\">pituitary gland</a> hormone that *answer text*?</p>",
+		"KeyValue": "true",
+		"MaxNumberOfAnswers": "5",
+		"Answers":
+		[
+			{
+				"Key": "Thyroid-stimulating hormone (TSH)",
+				"Text": "stimulates the thyroid gland to produce thyroxine (T4) and then triiodothyronine (T3)"
+			},
+			{
+				"Key": "Adrenocorticotropic hormone (ACTH)",
+				"Text": "stimulates secretion of glucocorticoids by adrenal cortex"
+			},
+			{
+				"Key": "Prolactin (PRL)",
+				"Text": "is a peptide hormone best known for its role in lactation"
+			},
+			{
+				"Key": "Oxytocin (Oxt)",
+				"Text": "aids uterine smooth muscle contraction and milk ejection from mammary glands"
+			},
+			{
+				"Key": "Antidiuretic hormone (ADH)",
+				"Text": "functions to retain water in the body and to constrict blood vessels"
+			},
+			{
+				"Key": "Melatonin",
+				"Text": "encourages the entrainment of the circadian rhythms of several biological functions"
+			},
+			{
+				"Key": "Growth hormone",
+				"Text": "stimulates growth, cell reproduction and regeneration"
+			},
+			{
+				"Key": "Follicle-stimulating hormone (FSH)",
+				"Text": "stimulates production of oocytes, sperm and estrogen"
+			},
+			{
+				"Key": "Luteinizing Hormone (LH)",
+				"Text": "causes ovulation, stimulates secretion of estrogen, progesterone and testosterone"
+			},
+		]
+	},
+	{
+		"Category": "Endocrine System",
+		"Difficulty": "Medium",
+		"Question": "<p>Which two hormones are stored and released from the posterior <a href=\"http://en.wikipedia.org/wiki/Pituitary_gland\">pituitary gland</a>? Where are they synthesised?</p>",
+		"Answers":
+		[
+			{
+				"Text": "Oxytocin and antidiuretic hormone (ADH); hypothalamus",
+				"Score": "1"
+			},
+			{
+				"Text": "Oxytocin and prolactin; hypothalamus"
+			},
+			{
+				"Text": "Oxytocin and prolactin; anterior pituitary hormone"
+			},
+			{
+				"Text": "Luteinizing Hormone (LH) and Follicle-stimulating hormone (FSH); hypothalamus"
+			},
+			{
+				"Text": "Luteinizing Hormone (LH) and antidiuretic hormone (ADH); hypothalamus"
+			},
+		]
+	},
+	{
+		"Category": "Endocrine System",
+		"Difficulty": "Medium",
+		"Question": "<p>What effect would drinking a large volume of water have on the osmotic pressure of your blood? What effect does it have on the level of antidiuretic hormone (ADH)?</p>",
+		"Answers":
+		[
+			{
+				"Text": "Decrease osmotic pressure and decrease ADH to allow excretion of water",
+				"Score": "1"
+			},
+			{
+				"Text": "Increase osmotic pressure and decrease ADH to allow excretion of water"
+			},
+			{
+				"Text": "Increase osmotic pressure and increase ADH to allow excretion of water"
+			},
+			{
+				"Text": "Decrease osmotic pressure and increase ADH to allow excretion of water"
+			},
+			{
+				"Text": "None of the above",
+				"IsLast": "true"
+			},
+		]
+	},
+	{
+		"Category": "Endocrine System",
+		"Difficulty": "Medium",
+		"Question": "<p>Which hormones does the <a href=\"http://en.wikipedia.org/wiki/Thyroid\">thyroid gland</a> produce and which cells secrete each type?</p>",
+		"Image": "Thyroid.png",
+		"Answers":
+		[
+			{
+				"Text": "Triiodothyronine (T3), Thyroxine (T4) from follicular cells; Calcitonin from parafollicular cells",
+				"Score": "1"
+			},
+			{
+				"Text": "Triiodothyronine (T3), Thyroxine (T4) from parafollicular cells; Melatonin from follicular cells"
+			},
+			{
+				"Text": "Thyroxine (T4) from parafollicular cells; Triiodothyronine (T3), Calcitonin from follicular cells"
+			},
+			{
+				"Text": "Triiodothyronine (T3) from follicular cells; Thyroxine (T4) from parafollicular cells"
+			},
+			{
+				"Text": "Thyroxine (T4) from parafollicular cells; Melatonin from parafollicular cells"
+			},
+		]
+	},
+	{
+		"Category": "Endocrine System",
+		"Difficulty": "Hard",
+		"KeyQuestion": "<p>The hormone known as *answer text* __________.</p>",
+		"ValueQuestion": "<p>What is the name for the hormone that *answer text*?</p>",
+		"KeyValue": "true",
+		"MaxNumberOfAnswers": "5",
+		"Answers":
+		[
+			{
+				"Key": "Triiodothyronine (T3) and Thyroxine (T4)",
+				"Text": "increases basal metabolic rate (BMR) and increases use of glucose and FA's for ATP production"
+			},
+			{
+				"Key": "Calcitonin",
+				"Text": "lowers blood Ca\u00B2\u207A and phosphates by inhibiting bone resorption by osteoclasts"
+			},
+			{
+				"Key": "Parathyroid Hormone (PTH)",
+				"Text": "increases blood Ca\u00B2\u207A and Mg\u00B2\u207A by increasing bone resorption"
+			},
+			{
+				"Key": "Mineralocorticoids",
+				"Text": "increases blood Na\u207A and water, decreases K\u207A"
+			},
+			{
+				"Key": "Glucocorticoids",
+				"Text": "increases protein breakdown, stimulates gluconeogenesis and lipolysis"
+			},
+			{
+				"Key": "Epinephrine/norepinephrine",
+				"Text": "enhances sympathetic response during stress"
+			},
+			{
+				"Key": "Glucagon",
+				"Text": "raises blood glucose levels by causing liver cells to breakdown glycogen into glucose"
+			},
+			{
+				"Key": "Insulin",
+				"Text": "lowers blood glucose; glucose → glycogen in liver, glucose → fat in adipose cells"
+			},
+			{
+				"Key": "Relaxin",
+				"Text": "increases flexibility of pubic symphysis in pregnancy, dilates cervix during labour"
+			},
+			{
+				"Key": "Inhibin",
+				"Text": "inhibits secretion of follicle-stimulating hormone (FSH) from anterior pituitary"
+			},
+			{
+				"Key": "Testosterone",
+				"Text": "causes descent of testes before birth and regulates spermatogenesis"
+			},
+			{
+				"Key": "Estrogen and progesterone",
+				"Text": "regulates female reproductive cycle, maintains pregnancy, and prepares mammary glands for lactation"
+			},
+		]
+	},
+	{
+		"Category": "Endocrine System",
+		"Difficulty": "Medium",
+		"Question": "<p>The pancreas has both endocrine and exocrine functions.</p>",
+		"Explanation": "The pancreas produces <a href=\"http://en.wikipedia.org/wiki/Glucagon\">glucagon</a> and <a href=\"http://en.wikipedia.org/wiki/Insulin\">insulin</a> (to regulate blood glucose levels), somatostatin (inhibits secretion of glucagon and insulin and slows nutrient absorption) and pancreatic polypeptide (inhibits somatostatin secretion, contraction of the gall bladder and the secretion of pancreatic digestive enzymes). The pancreas' main exocrine functions are the production of pancreatic fluid which buffers acidic stomach secretions, inhibiting <a href=\"http://en.wikipedia.org/wiki/Pepsin\">pepsin</a> and providing a pH more favourable to the digestive enzymes of the <a href=\"http://en.wikipedia.org/wiki/Small_intestine\">small intestine</a>.",
+		"Answers":
+		[
+			{
+				"Text": "True",
+				"Score": ".5"
+			},
+			{
+				"Text": "False"
+			},
+		]
+	},
+	{
+		"Category": "Endocrine System",
+		"Difficulty": "Medium",
+		"Question": "<p>Homeostasis of hormonal secretions is maintained only by negative feedback mechanisms.</p>",
+		"Explanation": "Normally negative feedback mechanisms maintain hormonal secretions. During childbirth, <a href=\"http://en.wikipedia.org/wiki/Oxytocin\">oxytocin</a> stimulates contractions of the uterus. These contractions stimulate additional oxytocin release and intensify the response to the initial contraction stimulus, a positive feedback cycle.",
+		"Answers":
+		[
+			{
+				"Text": "False",
+				"Score": ".5"
+			},
+			{
+				"Text": "True"
+			},
+		]
+	},
+	{
+		"Category": "Endocrine System",
+		"Difficulty": "Easy",
+		"Question": "<p>The <a href=\"http://en.wikipedia.org/wiki/Hypothalamus\">hypothalamus</a> has a posterior and anterior lobe.</p>",
+		"Image": "Brain.png",
+		"Answers":
+		[
+			{
+				"Text": "False",
+				"Score": ".5"
+			},
+			{
+				"Text": "True",
+				"Explanation": "The hypothalamus does not have two lobes. Perhaps you were thinking of the <a href=\"http://en.wikipedia.org/wiki/Pituitary_gland\">pituitary gland</a>, a gland that has posterior and anterior regions. <a href=\"http://en.wikipedia.org/wiki/Tropic_hormone\">Tropic hormones</a> from the hypothalamus target the pituitary gland."
+			},
+		]
+	},
+	{
+		"Category": "Endocrine System",
+		"Difficulty": "Easy",
+		"Question": "<p><a href=\"http://en.wikipedia.org/wiki/Oxytocin\">Oxytocin</a> is produced by the pineal gland.</p>",
+		"Explanation": "Oxytocin is synthesized in the <a href=\"http://en.wikipedia.org/wiki/Hypothalamus\">hypothalamus</a> and is stored in the posterior pituitary.",
+		"Answers":
+		[
+			{
+				"Text": "False",
+				"Score": ".5"
+			},
+			{
+				"Text": "True"
+			},
+		]
+	},
+	{
+		"Category": "Endocrine System",
+		"Difficulty": "Easy",
+		"Question": "<p>Body hair is produced in response to a <a href=\"http://en.wikipedia.org/wiki/Follicle-stimulating_hormone\">follicle-stimulating hormone</a> (FSH).</p>",
+		"Explanation": "In females, FSH initiates the development of oocytes and induces the secretion of oestrogens. In males, FSH stimulates the production of sperm.",
+		"Answers":
+		[
+			{
+				"Text": "False",
+				"Score": ".5"
+			},
+			{
+				"Text": "True"
+			},
+		]
+	},
+	{
+		"Category": "Endocrine System",
+		"Difficulty": "Medium",
+		"Question": "<p>Oestrogens are present in males.</p>",
+		"Explanation": "Oestrogens are <a href=\"http://en.wikipedia.org/wiki/Steroid_hormone\">steroid hormones</a> present in both males and females but in significantly higher quantities in females where they are the primary female sex hormone. They are produced primarily by developing follicles in the ovaries, the corpus luteum and the placenta.",
+		"Answers":
+		[
+			{
+				"Text": "True",
+				"Score": ".5"
+			},
+			{
+				"Text": "False"
+			},
+		]
+	},
+	{
+		"Category": "Endocrine System",
+		"Difficulty": "Medium",
+		"Question": "<p>The principal actions of <a href=\"http://en.wikipedia.org/wiki/Thyroid_hormone\">thyroid hormones</a> increase the basal metabolic rate.</p>",
+		"Explanation": "The <a href=\"http://en.wikipedia.org/wiki/Thyroid\">thyroid gland</a> secretes two major thyroid hormones: thyroxine (T4) and triiodothyronine (T3). The two hormones regulate oxygen use, basal metabolic rate, cellular metabolism and direct growth and development.",
+		"Answers":
+		[
+			{
+				"Text": "True",
+				"Score": ".5"
+			},
+			{
+				"Text": "False"
+			},
+		]
+	},
+	{
+		"Category": "Endocrine System",
+		"Difficulty": "Hard",
+		"Question": "<p><a href=\"http://en.wikipedia.org/wiki/Calcitonin\">Calcitonin</a> is produced by the <a href=\"http://en.wikipedia.org/wiki/Thyroid\">thyroid gland</a>.</p>",
+		"Explanation": "The thyroid gland produces calcitonin in addition to the thyroid hormones, T3 and T4.",
+		"Answers":
+		[
+			{
+				"Text": "True",
+				"Score": ".5",
+				"Explanation": "Calcitonin decreases the concentration of calcium in blood by inhibiting bone breakdown (resorption). With reduced bone resorption, less calcium enters the blood from the bone causing a decrease of available plasma calcium." 
+			},
+			{
+				"Text": "False"
+			},
+		]
+	},
+	{
+		"Category": "Endocrine System",
+		"Difficulty": "Medium",
+		"Question": "<p>Bone resorption is facilitated by the action of the <a href=\"http://en.wikipedia.org/wiki/Parathyroid_hormone\">parathyroid hormone</a> (PTH).</p>",
+		"Explanation": "The parathyroid hormone (PTH) regulates blood calcium levels in combination with <a href=\"http://en.wikipedia.org/wiki/Calcitonin\">calcitonin</a>. It acts as an antagonist of calcitonin since it increases the concentration of calcium in the blood.",
+		"Answers":
+		[
+			{
+				"Text": "True",
+				"Score": ".5"
+			},
+			{
+				"Text": "False"
+			},
+		]
+	},
+	{
+		"Category": "Endocrine System",
+		"Difficulty": "Medium",
+		"Question": "<p>The adrenal glands can be structurally and functionally differentiated into three distinct regions.</p>",
+		"Explanation": "The adrenal glands can be differentiated into an outer cortex and an inner medulla. Adrenal cortex hormones (corticoids) differ significantly in function from those of the <a href=\"http://en.wikipedia.org/wiki/Adrenal_medulla\">adrenal medulla</a> (catecholamines).",
+		"Answers":
+		[
+			{
+				"Text": "False",
+				"Score": ".5"
+			},
+			{
+				"Text": "True"
+			},
+		]
+	},
+	{
+		"Category": "Endocrine System",
+		"Difficulty": "Easy",
+		"Question": "<p>The hormones produced by the <a href=\"http://en.wikipedia.org/wiki/Adrenal_medulla\">adrenal medulla</a> have major effects on heart rate and blood pressure.</p>",
+		"Explanation": "The adrenal medulla produces the catecholamines adrenaline and noradrenaline in response to sympathetic nervous impulses which affect both heart rate and blood pressure when an individual is exposed to stress.",
+		"Answers":
+		[
+			{
+				"Text": "True",
+				"Score": ".5"
+			},
+			{
+				"Text": "False"
+			},
+		]
+	},
+	{
+		"Category": "Endocrine System",
+		"Difficulty": "Medium",
+		"Question": "<p>All endocrine glands store the hormones they produce.</p>",
+		"Explanation": "Most endocrine glands do not store their hormones but secrete them into the blood as required. The thyroid is different because it stores considerable amounts of both <a href=\"http://en.wikipedia.org/wiki/Thyroid_hormone\">thyroid hormones</a> which are released when required.",
+		"Answers":
+		[
+			{
+				"Text": "False",
+				"Score": ".5"
+			},
+			{
+				"Text": "True"
+			},
+		]
+	},
+	{
+		"Category": "Digestive System",
+		"Difficulty": "Easy",
+		"Question": "<p>During digestion, which of following processes is the primary function of the mouth?</p>",
+		"Answers":
+		[
+			{
+				"Text": "Ingestion",
+				"Score": "1"
+			},
+			{
+				"Text": "Secretion"
+			},
+			{
+				"Text": "Mixing and propulsion"
+			},
+			{
+				"Text": "Absorption"
+			},
+			{
+				"Text": "None of the above",
+				"IsLast": "true"
+			},
+		]
+	},
+	{
+		"Category": "Digestive System",
+		"Difficulty": "Medium",
+		"Question": "<p>Which of the following is not a function of the liver?</p>",
+		"Image": "Anatomy_of_liver_and_gall_bladder.png",
+		"ImageUrl": "http://en.wikipedia.org/wiki/File:Anatomy_of_liver_and_gall_bladder.png",
+		"Answers":
+		[
+			{
+				"Text": "Storage of bilirubin",
+				"Score": "1"
+			},
+			{
+				"Text": "Metabolism of carbohydrates"
+			},
+			{
+				"Text": "Protein metabolism"
+			},
+			{
+				"Text": "Synthesis of bile salts"
+			},
+			{
+				"Text": "Storage of vitamins"
+			},
+		]
+	},
+	{
+		"Category": "Digestive System",
+		"Difficulty": "Easy",
+		"Question": "<p>The oesophagus has both a digestive and respiratory function.</p>",
+		"Explanation": "The oesophagus is only concerned with the transport of solids and liquids into the stomach through the process of peristalsis.",
+		"Answers":
+		[
+			{
+				"Text": "False",
+				"Score": ".5"
+			},
+			{
+				"Text": "True"
+			},
+		]
+	},
+	{
+		"Category": "Digestive System",
+		"Difficulty": "Medium",
+		"Question": "<p>The <a href=\"http://en.wikipedia.org/wiki/Pyloric_sphincter\">pyloric sphincter</a> prevents the stomach contents from flowing back into the <a href=\"http://en.wikipedia.org/wiki/Oesophagus\">oesophagus</a>.</p>",
+		"Explanation": "The <a href=\"http://en.wikipedia.org/wiki/Lower_oesophageal_sphincter\">lower oesophageal sphincter</a> (cardiac sphincter) is located at the entrance of the stomach at the base of the oesophagus. It prevents the back-flow of stomach contents into the oesophagus. The pyloric sphincter (or pylorus) is a ring of smooth muscle located at the opening between the stomach and the duodenum.",
+		"Answers":
+		[
+			{
+				"Text": "False",
+				"Score": ".5"
+			},
+			{
+				"Text": "True"
+			},
+		]
+	},
+	{
+		"Category": "Digestive System",
+		"Difficulty": "Medium",
+		"Question": "<p>Hydrochloric acid (HCl) is produced by <a href=\"http://en.wikipedia.org/wiki/Gastric_chief_cell\">chief cells</a> within the <a href=\"http://en.wikipedia.org/wiki/Small_intestine\">small intestine</a>.</p>",
+		"Explanation": "The <a href=\"http://en.wikipedia.org/wiki/Parietal_cells\">parietal cells</a> produce HCl and <a href=\"http://en.wikipedia.org/wiki/Intrinsic_factor\">intrinsic factor</a>. HCl protects the small intestine against bacteria, denatures proteins, stimulates the secretion of hormones that promote the flow of bile and pancreatic juice (secretin and cholecystokinin (CCK)), and helps to activate pepsinogen into <a href=\"http://en.wikipedia.org/wiki/Pepsin\">pepsin</a>.",
+		"Answers":
+		[
+			{
+				"Text": "False",
+				"Score": ".5"
+			},
+			{
+				"Text": "True"
+			},
+		]
+	},
+	{
+		"Category": "Digestive System",
+		"Difficulty": "Medium",
+		"Question": "<p>Gastric emptying is regulated by neuronal and hormonal reflexes.</p>",
+		"Answers":
+		[
+			{
+				"Text": "True",
+				"Score": ".5"
+			},
+			{
+				"Text": "False"
+			},
+		]
+	},
+	{
+		"Category": "Digestive System",
+		"Difficulty": "Medium",
+		"Question": "<p>Which of the following is not a part of the <a href=\"http://en.wikipedia.org/wiki/Small_intestine\">small intestine</a>?</p>",
+		"Answers":
+		[
+			{
+				"Text": "Caecum",
+				"Score": "1",
+				"Explanation": "The caecum is a pouch that is considered to be the beginning of the <a href=\"http://en.wikipedia.org/wiki/Large_intestine\">large intestine</a>. It receives faecal material from the ileum, and connects to the ascending colon of the large intestine."
+			},
+			{
+				"Text": "Duodenum",
+				"Explanation": "The duodenum precedes the jejunum and ileum and is the shortest part of the small intestine. Here the digestive juices from the pancreas (digestive enzymes) and hormones and the gall bladder (bile) mix. The digestive enzymes break down proteins and bile and emulsify fats into micelles."
+			},
+			{
+				"Text": "Jejunum",
+				"Explanation": "The jejunum is the midsection of the small intestine, connecting the duodenum to the ileum. In the jejunum, products of digestion (sugars, amino acids, and fatty acids) are absorbed into the bloodstream."
+			},
+			{
+				"Text": "Ileum",
+				"Explanation": "The ileum is the last part of the small intestine. It has villi similar to the jejunum, and absorbs mainly vitamin B12 and bile acids, as well as any other remaining nutrients."
+			},
+			{
+				"Text": "All of the above are parts of the small intestine",
+				"IsLast": "true",
+				"Explanation": "The caecum is part of the <a href=\"http://en.wikipedia.org/wiki/Large_intestine\">large intestine</a>."
+			},
+		]
+	},
+	{
+		"Category": "Digestive System",
+		"Difficulty": "Medium",
+		"Question": "<p>Which of the following is not a major layer of the gastrointestinal tract?</p>",
+		"Answers":
+		[
+			{
+				"Text": "Sigmoid flexure",
+				"Score": "1",
+				"Explanation": "The sigmoid flexure is the part of the <a href=\"http://en.wikipedia.org/wiki/Large_intestine\">large intestine</a> that is closest to the rectum and anus."
+			},
+			{
+				"Text": "Mucosa",
+				"Explanation": "The mucosa is the innermost layer of the gastrointestinal tract that is surrounding the lumen, or open space within the tube. This layer comes in direct contact with digested food (chyme). It contains the <a href=\"http://en.wikipedia.org/wiki/Epithelium\">epithelium</a>, lamina propria and muscularis mucosae."
+			},
+			{
+				"Text": "Submucosa",
+				"Explanation": "The submucosa consists of a dense irregular layer of connective tissue with large blood vessels, lymphatics, and nerves branching into the mucosa and muscularis externa."
+			},
+			{
+				"Text": "Muscularis externa",
+				"Explanation": "The muscularis externa consists of an inner circular layer and a longitudinal outer muscular layer. The circular muscle layer prevents food from travelling backward and the longitudinal layer shortens the tract."
+			},
+			{
+				"Text": "Serosa",
+				"Explanation": "The serosa or adventitia is the outermost layer of the GI tract consists of several layers of connective tissue."
+			},
+		]
+	},
+	{
+		"Category": "Digestive System",
+		"Difficulty": "Easy",
+		"Question": "<p>Which of the following is not a part of the <a href=\"http://en.wikipedia.org/wiki/Large_intestine\">large intestine</a>?</p>",
+		"Image": "Large Intestine.png",
+		"ImageUrl": "http://en.wikipedia.org/wiki/File:Blausen_0604_LargeIntestine2.png",
+		"Answers":
+		[
+			{
+				"Text": "Anus",
+				"Score": "1"
+			},
+			{
+				"Text": "Rectum",
+				"Explanation": "The rectum is the final straight portion of the large intestine. The human rectum is about 12 centimetres long."
+			},
+			{
+				"Text": "Colon",
+				"Explanation": "Colon includes the ascending colon, transverse colon, descending colon and sigmoid colon: The main function of the Colon is to absorb water, but it also contains bacteria that produce beneficial vitamins like vitamin K."
+			},
+			{
+				"Text": "Caecum",
+				"Explanation": "The caecum is a pouch that is considered to be the beginning of the large intestine. It receives faecal material from the ileum, and connects to the ascending colon of the large intestine."
+			},
+			{
+				"Text": "All of the above are part of the large intestine",
+				"IsLast": "true",
+				"Explanation": "The <a href=\"http://en.wikipedia.org/wiki/Human_anus\">anus</a> is not part of the large intestine."
+			},
+		]
+	},
+	{
+		"Category": "Digestive System",
+		"Difficulty": "Medium",
+		"Question": "<p>Which layer of the gastrointestinal tract contains the lamina propria?</p>",
+		"Image": "GIT layers.png",
+		"Answers":
+		[
+			{
+				"Text": "Mucosa",
+				"Score": "1",
+				"Explanation": "The mucosa is the innermost layer of the gastrointestinal tract that is surrounding the lumen, or open space within the tube. This layer comes in direct contact with digested food (chyme). It contains the <a href=\"http://en.wikipedia.org/wiki/Epithelium\">epithelium</a>, lamina propria and muscularis mucosae."
+			},
+			{
+				"Text": "Submucosa",
+				"Explanation": "The submucosa consists of a dense irregular layer of connective tissue with large blood vessels, lymphatics, and nerves branching into the mucosa and muscularis externa."
+			},
+			{
+				"Text": "Muscularis externa",
+				"Explanation": "The muscularis externa consists of an inner circular layer and a longitudinal outer muscular layer. The circular muscle layer prevents food from travelling backward and the longitudinal layer shortens the tract."
+			},
+			{
+				"Text": "Serosa",
+				"Explanation": "The serosa or adventitia is the outermost layer of the GI tract consists of several layers of connective tissue."
+			},
+			{
+				"Text": "None of the above",
+				"IsLast": "true"
+			},
+		]
+	},
+	{
+		"Category": "Digestive System",
+		"Difficulty": "Medium",
+		"Question": "<p>In the mouth, the tooth sockets are lined with __________.</p>",
+		"Answers":
+		[
+			{
+				"Text": "Periodontal ligament",
+				"Score": "1"
+			},
+			{
+				"Text": "Cementum",
+				"Explanation": "Cementum is a specialized calcified substance covering the root of a tooth. The cementum is the part of the periodontium that attaches the teeth to the alveolar bone by anchoring the periodontal ligament."
+			},
+			{
+				"Text": "Gingivae",
+				"Explanation": "The gingivae or gums, consist of the mucosal tissue that lies over the mandible and maxilla bones inside the mouth."
+			},
+			{
+				"Text": "Pulp"
+			},
+			{
+				"Text": "Root"
+			},
+		]
+	},
+	{
+		"Category": "Digestive System",
+		"Difficulty": "Easy",
+		"Question": "<p>Which of the following accessory organs stores bile?</p>",
+		"Answers":
+		[
+			{
+				"Text": "Gallbladder",
+				"Score": "1"
+			},
+			{
+				"Text": "Liver"
+			},
+			{
+				"Text": "Teeth"
+			},
+			{
+				"Text": "Pharynx"
+			},
+			{
+				"Text": "Salivary glands"
+			},
+		]
+	},
+	{
+		"Category": "Digestive System",
+		"Difficulty": "Hard",
+		"Question": "<p>Which cell secretes the hormone that promotes production of hydrochloric acid?</p>",
+		"Image": "Control-of-stomach-acid-sec.png",
+		"ImageUrl": "http://en.wikipedia.org/wiki/File:Control-of-stomach-acid-sec.png",
+		"Answers":
+		[
+			{
+				"Text": "G cell",
+				"Score": "1",
+				"Explanation": "The G cell is a type of cell in the stomach and duodenum that secretes gastrin. It works in conjunction with <a href=\"http://en.wikipedia.org/wiki/Gastric_chief_cell\">gastric chief cells</a> and <a href=\"http://en.wikipedia.org/wiki/Parietal_cells\">parietal cells</a>."
+			},
+			{
+				"Text": "Chief cell",
+				"Explanation": "A <a href=\"http://en.wikipedia.org/wiki/Gastric_chief_cell\">gastric chief cell</a> is a cell in the stomach that releases pepsinogen, gastric lipase and chymosin. It works in conjunction with the <a href=\"http://en.wikipedia.org/wiki/Parietal_cells\">parietal cell</a>, which releases gastric acid, converting the pepsinogen into <a href=\"http://en.wikipedia.org/wiki/Pepsin\">pepsin</a>."
+			},
+			{
+				"Text": "Mucus cell"
+			},
+			{
+				"Text": "D cell"
+			},
+			{
+				"Text": "Parietal cell",
+				"Explanation": "<a href=\"http://en.wikipedia.org/wiki/Parietal_cells\">Parietal cells</a> are the stomach epithelial cells that secrete gastric acid (HCl) and <a href=\"http://en.wikipedia.org/wiki/Intrinsic_factor\">intrinsic factor</a>. These cells are only located in glands found in a particular area of the stomach, known as the fundus."
+			},
+		]
+	},
+	{
+		"Category": "Digestive System",
+		"Difficulty": "Medium",
+		"Question": "<p>The enzyme <a href=\"http://en.wikipedia.org/wiki/Pepsin\">pepsin</a> digests which dietary component?</p>",
+		"Image": "5Pepsinogen to pepsin.jpg",
+		"Answers":
+		[
+			{
+				"Text": "Proteins",
+				"Score": "1",
+				"Explanation": "Pepsin is one of three principal protein-degrading, or proteolytic, enzymes in the digestive system, the other two being <a href=\"http://en.wikipedia.org/wiki/Chymotrypsin\">chymotrypsin</a> and <a href=\"http://en.wikipedia.org/wiki/Trypsin\">trypsin</a>. Pepsin is an enzyme whose zymogen (pepsinogen) is released by the <a href=\"http://en.wikipedia.org/wiki/Gastric_chief_cell\">chief cells</a> in the stomach and that degrades food proteins into peptides. It was discovered in 1836 by Theodor Schwann who coined its name from the Greek word pepsis, meaning digestion (peptein: to digest). It was the first enzyme discovered."
+			},
+			{
+				"Text": "Fats"
+			},
+			{
+				"Text": "Carbohydrates"
+			},
+			{
+				"Text": "Vitamins"
+			},
+			{
+				"Text": "Nucleic acids"
+			},
+		]
+	},
+	{
+		"Category": "Digestive System",
+		"Difficulty": "Medium",
+		"Question": "<p>The <a href=\"http://en.wikipedia.org/wiki/Ileum\">ileum</a> is the longest section of the __________.</p>",
+		"Answers":
+		[
+			{
+				"Text": "small intestine",
+				"Score": "1"
+			},
+			{
+				"Text": "large intestine"
+			},
+			{
+				"Text": "liver"
+			},
+			{
+				"Text": "stomach"
+			},
+			{
+				"Text": "oesophagus"
+			},
+		]
+	},
+	{
+		"Category": "Digestive System",
+		"Difficulty": "Medium",
+		"Question": "<p>The mucosa of the <a href=\"http://en.wikipedia.org/wiki/Large_intestine\">large intestine</a> produce __________ secretions.</p>",
+		"Answers":
+		[
+			{
+				"Text": "alkaline",
+				"Score": "1"
+			},
+			{
+				"Text": "acidic"
+			},
+			{
+				"Text": "fatty"
+			},
+			{
+				"Text": "sweet"
+			},
+			{
+				"Text": "sour"
+			},
+		]
+	},
+	{
+		"Category": "Digestive System",
+		"Difficulty": "Medium",
+		"KeyQuestion": "<p>The layer of the gastrointestinal tract (GIT) called the *answer text* is __________.</p>",
+		"ValueQuestion": "<p>What is the name for the layer of the gastrointestinal tract (GIT) that is *answer text*?</p>",
+		"KeyValue": "true",
+		"Answers":
+		[
+			{
+				"Key": "Mucosa",
+				"Text": "the layer that surrounds the lumen and absorbs nutrients"
+			},
+			{
+				"Key": "Submucosa",
+				"Text": "a dense irregular layer of connective tissue with large blood vessels, lymphatics, and nerves"
+			},
+			{
+				"Key": "Muscularis externa",
+				"Text": "an inner circular layer and a longitudinal outer muscular layer"
+			},
+			{
+				"Key": "Serosa",
+				"Text": "the outermost layer of the GIT that suspends GIT in the abdominopelvic cavity"
+			},
+		]
+	},
+	{
+		"Category": "Digestive System",
+		"Difficulty": "Hard",
+		"KeyQuestion": "<p>The *answer text* in the stomach  __________.</p>",
+		"ValueQuestion": "<p>What is the name for the stomach cell that *answer text*?</p>",
+		"KeyValue": "true",
+		"Answers":
+		[
+			{
+				"Key": "Chief cell",
+				"Text": "is activated by pepsin which breaks down proteins to peptides"
+			},
+			{
+				"Key": "Parietal cell",
+				"Text": "secretes HCL to kill microbes in food and convert pepsinogen to pepsin"
+			},
+			{
+				"Key": "G cell",
+				"Text": "stimulates parietal cells to secrete HCl and chief cells to secrete pepsinogen"
+			},
+			{
+				"Key": "Mucous cell",
+				"Text": "secretes protective barrier that prevents digestion of stomach wall"
+			},
+		]
+	},
+	{
+		"Category": "Digestive System",
+		"Difficulty": "Medium",
+		"Question": "<p>List the regions of the <a href=\"http://en.wikipedia.org/wiki/Small_intestine\">small intestine</a> in order from the stomach to <a href=\"http://en.wikipedia.org/wiki/Large_intestine\">large intestine</a>.</p>",
+		"Answers":
+		[
+			{
+				"Text": "Duodenum, jejunum, ileum",
+				"Score": "1"
+			},
+			{
+				"Text": "Jejunum, duodenum, ileum"
+			},
+			{
+				"Text": "Ileum, Duodenum, jejunum"
+			},
+			{
+				"Text": "Jejunum, ileum, duodenum"
+			},
+			{
+				"Text": "Ileum, jejunum, duodenum"
+			},
+		]
+	},
+	{
+		"Category": "Digestive System",
+		"Difficulty": "Easy",
+		"Question": "<p>List the major parts of the gastrointestinal tract from mouth to anus</p>",
+		"Answers":
+		[
+			{
+				"Text": "Mouth, pharynx, esophagus, stomach, small intestine, large intestine, anus",
+				"Score": "1"
+			},
+			{
+				"Text": "Mouth, pharynx, esophagus, stomach, large intestine, small intestine, anus"
+			},
+			{
+				"Text": "Mouth, esophagus, pharynx, stomach, small intestine, large intestine, anus"
+			},
+			{
+				"Text": "Mouth, pharynx, esophagus, small intestine, large intestine, stomach, anus"
+			},
+			{
+				"Text": "Anus, large intestine, small intestine, stomach, esophagus, pharynx, mouth"
+			},
+		]
+	},
+	{
+		"Category": "Digestive System",
+		"Difficulty": "Medium",
+		"Question": "<p>List the salivary glands located around the mouth.</p>",
+		"Answers":
+		[
+			{
+				"Text": "Parotid, submandibular, sublingual",
+				"Score": "1"
+			},
+			{
+				"Text": "Parotid, submaxillar, sublingual"
+			},
+			{
+				"Text": "Carotid, submaxillar, sublingual"
+			},
+			{
+				"Text": "Carotid, submandibular, superlingual"
+			},
+			{
+				"Text": "Parotid, submandibular, superlingual"
+			},
+		]
+	},
+	{
+		"Category": "Digestive System",
+		"Difficulty": "Medium",
+		"Question": "<p>What is not a component of pancreatic juice?</p>",
+		"Answers":
+		[
+			{
+				"Text": "Hydrochloric acid",
+				"Score": "1"
+			},
+			{
+				"Text": "Water"
+			},
+			{
+				"Text": "Salts"
+			},
+			{
+				"Text": "Sodium bicarbonate"
+			},
+			{
+				"Text": "Digestive enzymes"
+			},
+		]
+	},
+	{
+		"Category": "Digestive System",
+		"Difficulty": "Hard",
+		"Question": "<p>Which blood vessels enter and leave the liver?</p>",
+		"Answers":
+		[
+			{
+				"Text": "Hepatic artery and hepatic portal vein enter; hepatic vein leaves",
+				"Score": "1"
+			},
+			{
+				"Text": "Hepatic artery enters; hepatic vein and hepatic portal vein leave"
+			},
+			{
+				"Text": "Hepatic vein enters; hepatic artery and hepatic portal vein leave"
+			},
+			{
+				"Text": "Hepatic artery and hepatic portal vein enter; hepatic artery leaves"
+			},
+			{
+				"Text": "Hepatic artery and hepatic portal vein enter and leave"
+			},
+		]
+	},
+	{
+		"Category": "Digestive System",
+		"Difficulty": "Medium",
+		"KeyQuestion": "<p>What is label \"*answer text*\" on the picture of the layers of the gastrointestinal tract?</p>",
+		"ValueQuestion": "<p>Identify the *answer text* on the picture of the layers of the gastrointestinal tract.</p>",
+		"KeyValue": "true",
+		"MaxNumberOfAnswers": "6",
+		"Image": "Layers_of_the_Gastrointestinal_Tract.png",
+		"ImageUrl": "http://cnx.org/content/m46506/latest/?collection=col11496/latest",
+		"Answers":
+		[
+			{
+				"Key": "A",
+				"Text": "Lumen"
+			},
+			{
+				"Key": "B",
+				"Text": "Mucosa"
+			},
+			{
+				"Key": "B1",
+				"Text": "Mucosa's epithelium"
+			},
+			{
+				"Key": "B2",
+				"Text": "Lamina propria"
+			},
+			{
+				"Key": "B3",
+				"Text": "Muscularis mucosae"
+			},
+			{
+				"Key": "C",
+				"Text": "Muscularis externa"
+			},
+			{
+				"Key": "C1",
+				"Text": "Circular muscle"
+			},
+			{
+				"Key": "C2",
+				"Text": "Longitudinal muscle"
+			},
+			{
+				"Key": "D",
+				"Text": "Serosa"
+			},
+			{
+				"Key": "D1",
+				"Text": "Areolar connective tissue"
+			},
+			{
+				"Key": "D2",
+				"Text": "Serosa's epithelium"
+			},
+			{
+				"Key": "E",
+				"Text": "Submucosa"
+			},
+		]
+	},
+	{
+		"Category": "Digestive System",
+		"Difficulty": "Easy",
+		"Question": "<p>Which of these organs is not considered an accessory digestive structure?</p>",
+		"Answers":
+		[
+			{
+				"Text": "Mouth",
+				"Score": "1"
+			},
+			{
+				"Text": "Salivary glands"
+			},
+			{
+				"Text": "Pancreas"
+			},
+			{
+				"Text": "Liver"
+			},
+			{
+				"Text": "Gallbladder"
+			},
+		]
+	},
+	{
+		"Category": "Digestive System",
+		"Difficulty": "Medium",
+		"Question": "<p>Which of the following membranes cover the stomach?</p>",
+		"Answers":
+		[
+			{
+				"Text": "Visceral peritoneum",
+				"Score": "1"
+			},
+			{
+				"Text": "Parietal peritoneum "
+			},
+			{
+				"Text": "Mesocolon"
+			},
+			{
+				"Text": "Falciform ligament"
+			},
+			{
+				"Text": "Parietal pericardium"
+			},
+		]
+	},
+	{
+		"Category": "Integumentary System",
+		"Difficulty": "Medium",
+		"KeyQuestion": "<p>What is label \"*answer text*\" on the picture of the human nail?</p>",
+		"ValueQuestion": "<p>Identify the *answer text* on the picture of the human nail.</p>",
+		"KeyValue": "true",
+		"MaxNumberOfAnswers": "6",
+		"Image": "Human nail anatomy.png",
+		"ImageUrl": "http://en.wikipedia.org/wiki/File:Human_nail_anatomy.jpg",
+		"Answers":
+		[
+			{
+				"Key": "A",
+				"Text": "Nail plate"
+			},
+			{
+				"Key": "B",
+				"Text": "Lunula"
+			},
+			{
+				"Key": "C",
+				"Text": "Root"
+			},
+			{
+				"Key": "D",
+				"Text": "Sinus"
+			},
+			{
+				"Key": "E",
+				"Text": "Matrix"
+			},
+			{
+				"Key": "F",
+				"Text": "Nail bed"
+			},
+			{
+				"Key": "G",
+				"Text": "Hyponychium"
+			},
+			{
+				"Key": "H",
+				"Text": "Free margin"
+			}
+		]
+	},
+	{
+		"Category": "Cells and Structures",
+		"Difficulty": "Easy",
+		"KeyQuestion": "<p>Which of the following images of the various human systems is the *answer text*?</p>",
+		"ValueQuestion": "<p>What is the name of the human system in the featured picture?</p>",
+		"DynamicAnswer": "true",
+		"MaxNumberOfAnswers": "5",
+		"Copyright": "http://cnx.org/content/m45985/latest/?collection=col11496/1.6",
+		"Answers":
+		[
+			{
+				"Image": "Digestive System.png",
+				"Text": "Digestive System"
+			},
+			{
+				"Image": "Urinary System.png",
+				"Text": "Urinary System"
+			},
+			{
+				"Image": "Respiratory System.png",
+				"Text": "Respiratory System"
+			},
+			{
+				"Image": "Cardiovascular System.png",
+				"Text": "Cardiovascular System"
+			},
+			{
+				"Image": "Muscular System.png",
+				"Text": "Muscular System"
+			},
+			{
+				"Image": "Nervous System.png",
+				"Text": "Nervous System"
+			},
+			{
+				"Image": "Skeletal System.png",
+				"Text": "Skeletal System"
+			},
+			{
+				"Image": "Lymphatic System.png",
+				"Text": "Lymphatic System"
+			},
+			{
+				"Image": "Integumentary System.png",
+				"Text": "Integumentary System"
+			},
+			{
+				"Image": "Endocrine System.png",
+				"Text": "Endocrine System"
+			}
+		]
+	},
+	{
+		"Category": "Cells and Structures",
+		"Difficulty": "Hard",
+		"KeyQuestion": "<p>*answer text* <a href=\"http://en.wikipedia.org/wiki/Epithelium\">epithelium</a> can be found in __________.</p>",
+		"ValueQuestion": "<p>What type of <a href=\"http://en.wikipedia.org/wiki/Epithelium\">epithelium</a> can be found in *answer text*?</p>",
+		"KeyValue": "true",
+		"MaxNumberOfAnswers": "5",
+		"Answers":
+		[
+			{
+				"Key": "Simple Squamous",
+				"Text": "airs sacs of lungs and the lining of the heart, blood vessels and lymphatic vessels"
+			},
+			{
+				"Key": "Simple Columnar",
+				"Text": "ciliated tissues in bronchi, uterine tubes and uterus; nonciliated tissues in digestive tract and bladder"
+			},
+			{
+				"Key": "Simple Cuboidal",
+				"Text": "ducts and secretory portions of small glands and in the kidney tubules"
+			},
+			{
+				"Key": "Stratified Squamous",
+				"Text": "the lining of the oesophagus, mouth and vagina"
+			},
+			{
+				"Key": "Stratified Columnar",
+				"Text": "the male urethra and the ducts of some glands"
+			},
+			{
+				"Key": "Stratified Cuboidal",
+				"Text": "sweat glands, salivary glands and the mammary glands"
+			},
+			{
+				"Key": "Pseudostratified Columnar",
+				"Text": "ciliated tissue that lines the trachea and much of the upper respiratory tract"
+			},
+			{
+				"Key": "Transitional",
+				"Text": "bladder, urethra and the ureters"
+			}
+		]
+	},
+	{
+		"Category": "Cells and Structures",
+		"Difficulty": "Hard",
+		"KeyQuestion": "<p>The function of *answer text* <a href=\"http://en.wikipedia.org/wiki/Epithelium\">epithelium</a> is to __________.</p>",
+		"ValueQuestion": "<p>What type of <a href=\"http://en.wikipedia.org/wiki/Epithelium\">epithelium</a> functions to *answer text*?</p>",
+		"KeyValue": "true",
+		"MaxNumberOfAnswers": "5",
+		"Answers":
+		[
+			{
+				"Key": "Simple Squamous",
+				"Text": "allow materials to pass through by diffusion and filtration and to secrete lubricating substance"
+			},
+			{
+				"Key": "Simple Columnar",
+				"Text": "secrete and absorb"
+			},
+			{
+				"Key": "Simple Cuboidal",
+				"Text": "absorb and secrete mucous enzymes"
+			},
+			{
+				"Key": "Stratified Squamous",
+				"Text": "protect against abrasion"
+			},
+			{
+				"Key": "Stratified Columnar",
+				"Text": "secrete and protect"
+			},
+			{
+				"Key": "Pseudostratified Columnar",
+				"Text": "secrete mucus; ciliated tissue moves mucus"
+			},
+			{
+				"Key": "Transitional",
+				"Text": "allow the urinary organs to expand and stretch"
+			}
+		]
+	}
+]

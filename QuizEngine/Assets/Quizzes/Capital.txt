@@ -13,7 +13,7 @@
 			},
 			{
 				"Text": "a social relationship between people and things",
-				"Explanation": "Although capitalism may appear as a social relationship between things, that is part of the fetishism of commodities."
+				"Explanation": "Although capitalism may appear as a social relationship involving inanimate objects, Marx considers that to be part of the <a href\"http://en.wikipedia.org/wiki/Commodity_fetishism\">fetishism of commodities</a>. \"[...] the commodity-form, and the value-relation of the products of labour within which it appears, have absolutely no connection with the physical nature of the commodity and the material relations arising out of this. It is nothing but the definite social relation between men themselves which assumes here, for them, the fantastic form of a relation between things.\""
 			},
 			{
 				"Text": "a natural part of human society"
@@ -54,7 +54,7 @@
 				"Text": "Money"
 			},
 			{
-				"Text": "Unimproved land",
+				"Text": "Uncultivated land",
 				"Explanation": "\"Things which in and for themselves are not commodities, things such as conscience, honour, etc., can be offered for sale by their holders, and thus acquire the form of commodities through their price. Hence a thing can, formally speaking, have a price without having a value. The expression of price is in this case imaginary, like certain quantities in mathematics. On the other hand, the imaginary price-form may also conceal a real value-relation or one derived from it, as for instance the price of uncultivated land, which is without value because no human labour is objectified in it.\""
 			},
 			{
@@ -71,7 +71,7 @@
 		"Answers":
 		[
 			{
-				"Text": "Unimproved land",
+				"Text": "Uncultivated land",
 				"Score": "1",
 				"Explanation": "\"Things which in and for themselves are not commodities, things such as conscience, honour, etc., can be offered for sale by their holders, and thus acquire the form of commodities through their price. Hence a thing can, formally speaking, have a price without having a value. The expression of price is in this case imaginary, like certain quantities in mathematics. On the other hand, the imaginary price-form may also conceal a real value-relation or one derived from it, as for instance the price of uncultivated land, which is without value because no human labour is objectified in it.\""
 			},

@@ -37,15 +37,7 @@ namespace QuizEngine
         {
             _quizAttempt = (QuizAttempt)e.Parameter;
 
-            if (_quizAttempt.PracticeMode)
-            {
-                ResultsStackPanel.Visibility = Visibility.Collapsed;
-            }
-            else
-            {
-                Results.Text = _quizAttempt.QuizResult();    
-            }
-            
+            Results.Text = _quizAttempt.QuizResult();                
             Duration.Text = _quizAttempt.QuizDuration.ToString();
 
             foreach (var question in _quizAttempt.QuizQuestions)

@@ -46,12 +46,12 @@ namespace QuizEngine
         public DateTimeOffset QuizStart;
         public DateTimeOffset QuizEnd;
 
-        private float Score
+        private double Score
         {
             get { return QuizQuestions.Where(x => x.SelectedAnswer != null).Sum(x => x.SelectedAnswer.Score); }
         }
 
-        private float ScoreOutOf { get { return QuizQuestions.Sum(x => x.Answers.Single(a => a.Score > 0).Score); } }
+        private double ScoreOutOf { get { return QuizQuestions.Sum(x => x.CorrectAnswer.Score); } }
         private double ScorePercentage { get { return Math.Round((Score / ScoreOutOf) * 100); } }
 
         public string QuizResult()

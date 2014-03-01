@@ -24,7 +24,7 @@ namespace QuizEngine
     {
         public static MainPage Current;
 
-        public const string Quiz = "Human Body Systems";
+        public const string Quiz = "Human Anatomy and Physiology";
         //public const string Quiz = "Chemistry";
         //public const string Quiz = "Spanish Civil War";
 

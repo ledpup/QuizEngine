@@ -1958,7 +1958,7 @@
 	{
 		"Category": "Politics",
 		"Difficulty": "Easy",
-		"Question": "<p>In <a href=\"http://en.wikipedia.org/wiki/Homage_to_Catalonia\">Homage to Catalonia</a>, <a href=\"http://en.wikipedia.org/wiki/George_Orwell\">George Orwell</a> wrote: \"[Under] the surface-aspect of the town, under the luxury and growing poverty, under the seeming gaiety of the streets with their propaganda-posters, and thronging crowds, there was an unmistakable and horrible feeling of political rivalry and hatred. People of all shades of opinion were saying forebodingly: \"There's going to be trouble before long.\" The danger was quite simple and intelligible. It was the antagonism between those who wished the revolution to go forward and those who wished to check or prevent it - ultimately, between Anarchists and Communists.\"</p><p></p><p>Who wanted to suspend the revolution?</p>",
+		"Question": "<p>In <a href=\"http://en.wikipedia.org/wiki/Homage_to_Catalonia\">Homage to Catalonia</a>, <a href=\"http://en.wikipedia.org/wiki/George_Orwell\">George Orwell</a> wrote: \"[Under] the surface-aspect of the town, under the luxury and growing poverty, under the seeming gaiety of the streets with their propaganda-posters, and thronging crowds, there was an unmistakable and horrible feeling of political rivalry and hatred. People of all shades of opinion were saying forebodingly: \"There's going to be trouble before long.\" The danger was quite simple and intelligible. It was the antagonism between those who wished the revolution to go forward and those who wished to check or prevent it - ultimately, between Anarchists and Communists.\"</p><p>Who wanted to suspend the revolution?</p>",
 		"Answers":
 		[
 			{

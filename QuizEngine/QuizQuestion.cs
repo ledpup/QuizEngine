@@ -62,11 +62,11 @@ namespace QuizEngine
         }
 
         [DataMemberAttribute]
-        public float Score
+        public double Score
         {
             get
             {
-                if (_score == 0) _score = 1;
+                if (_score < 0.01D) _score = 1;
 
                 return _score;
             }
@@ -89,7 +89,7 @@ namespace QuizEngine
 
         }
 
-        private float _score;
+        private double _score;
 
 
         public string ImageFullPath { get { return "Assets/Quizzes/" + MainPage.Quiz + "/" + Image; } }
@@ -106,7 +106,7 @@ namespace QuizEngine
         [DataMemberAttribute]
         public string Image;
         [DataMemberAttribute]
-        public float Score;
+        public double Score;
         [DataMemberAttribute]
         public bool IsLast;
         [DataMemberAttribute]

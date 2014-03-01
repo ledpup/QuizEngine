@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Package xmlns="http://schemas.microsoft.com/appx/2010/manifest">
-  <Identity Name="1587LedEnterprises.SpanishCivilWarQuiz" Publisher="CN=4C21CD0D-E8FD-4545-9469-B8B74DA697F5" Version="1.0.2.3" />
+  <Identity Name="1587LedEnterprises.HumanAnatomyandPhysiologyQuiz" Publisher="CN=4C21CD0D-E8FD-4545-9469-B8B74DA697F5" Version="1.0.2.6" />
   <Properties>
-    <DisplayName>Spanish Civil War Quiz</DisplayName>
+    <DisplayName>Human Anatomy and Physiology Quiz</DisplayName>
     <PublisherDisplayName>Led Industries</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
@@ -15,7 +15,7 @@
   </Resources>
   <Applications>
     <Application Id="App" Executable="$targetnametoken$.exe" EntryPoint="QuizEngine.App">
-      <VisualElements DisplayName="Spanish Civil War Quiz" Logo="Assets\Logo.png" SmallLogo="Assets\SmallLogo.png" Description="QuizEngine" ForegroundText="light" BackgroundColor="#464646">
+      <VisualElements DisplayName="Human Anatomy and Physiology Quiz" Logo="Assets\Logo.png" SmallLogo="Assets\SmallLogo.png" Description="QuizEngine" ForegroundText="light" BackgroundColor="#464646">
         <DefaultTile ShowName="allLogos" WideLogo="Assets\WideLogo.png" />
         <SplashScreen Image="Assets\SplashScreen.png" BackgroundColor="black" />
         <InitialRotationPreference>

@@ -8,6 +8,6 @@
     mc:Ignorable="d">
 
     <Grid>
-        <Button HorizontalAlignment="Center" Width="300" Height="100" Click="Finish_Click">Finish Quiz</Button>
+        <Button HorizontalAlignment="Center" Width="300" Height="100" Click="Finish_Click">Finish</Button>
     </Grid>
 </controls:GesturePageBase>

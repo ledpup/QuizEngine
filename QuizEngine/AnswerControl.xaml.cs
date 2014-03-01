@@ -18,6 +18,8 @@ namespace QuizEngine
                 throw new NullReferenceException("No quiz question has been assigned.");
 
             txtTitle.Text = string.Format("{0}.", quizQuestion.QuestionNumber);
+            txtQuestionInfo.Text = string.Format("{0}, {1}, {2}", quizQuestion.Difficulty, quizQuestion.Category,
+                quizQuestion.CorrectAnswer.Score);
             txtDescription.DataContext = quizQuestion.Question;
             txtExplanation.DataContext = string.Format("<p>{0}</p>", quizQuestion.FullExplanation);
 
