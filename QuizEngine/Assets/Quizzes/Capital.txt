@@ -1,22 +1,22 @@
 ﻿[
 	{
 		"Difficulty": "Easy",
-		"Question": "Capitalism is defined by Marx as",
+		"Question": "Capitalism is defined by Marx as a",
 		"Answers":
 		[
 			{
-				"Text": "a social relationship between people",
+				"Text": "social relationship between people",
 				"Score": "1"
 			},
 			{
-				"Text": "a relationship between things and their prices"
+				"Text": "relationship between things and their prices"
 			},
 			{
-				"Text": "a social relationship between people and things",
+				"Text": "social relationship between people and things",
 				"Explanation": "Although capitalism may appear as a social relationship involving inanimate objects, Marx considers that to be part of the <a href\"http://en.wikipedia.org/wiki/Commodity_fetishism\">fetishism of commodities</a>. \"[...] the commodity-form, and the value-relation of the products of labour within which it appears, have absolutely no connection with the physical nature of the commodity and the material relations arising out of this. It is nothing but the definite social relation between men themselves which assumes here, for them, the fantastic form of a relation between things.\""
 			},
 			{
-				"Text": "a natural part of human society"
+				"Text": "natural part of human society"
 			}
 		]
 	},
@@ -33,11 +33,10 @@
 				"Text": ""
 			},
 			{
-				"Text": "a social relationship between people and things",
-				"Explanation": "Although capitalism may appear as a social relationship between things, that is part of the fetishism of commodities."
+				"Text": ""
 			},
 			{
-				"Text": "a natural part of human society"
+				"Text": "It can not - this is a flaw that the labour theory of value cannot reconcile"
 			}
 		]
 	},
@@ -55,7 +54,7 @@
 			},
 			{
 				"Text": "Uncultivated land",
-				"Explanation": "\"Things which in and for themselves are not commodities, things such as conscience, honour, etc., can be offered for sale by their holders, and thus acquire the form of commodities through their price. Hence a thing can, formally speaking, have a price without having a value. The expression of price is in this case imaginary, like certain quantities in mathematics. On the other hand, the imaginary price-form may also conceal a real value-relation or one derived from it, as for instance the price of uncultivated land, which is without value because no human labour is objectified in it.\""
+				"Explanation": "\"Things which in and for themselves are not commodities, things such as conscience, honour, etc., can be offered for sale by their holders, and thus acquire the form of commodities through their price. Hence a thing can, formally speaking, have a price without having a value. The expression of price is in this case imaginary, like certain quantities in mathematics. On the other hand, the imaginary price-form may also conceal a real value-relation or one derived from it, as for instance the price of uncultivated land, which is without value because no human labour is objectified in it.\" (Karl Marx, <a href=\"http://en.wikipedia.org/wiki/Capital,_Volume_I\">Capital, Volume 1</a>)"
 			},
 			{
 				"Text": "Private property"
@@ -119,7 +118,8 @@
 		[
 			{
 				"Text": "Labour-power is the source of all material wealth",
-				"Score": "1"
+				"Score": "1",
+				"Explanation": "\"Labour is <i>not the source</i> of all wealth. <i>Nature</i> is just as much the source of use values (and it is surely of such that material wealth consists!) as labour, which itself is only the manifestation of a force of nature, human labour power.\" (Karl Marx, <a href=\"http://en.wikipedia.org/wiki/Critique_of_the_Gotha_Program\">The Critique of the Gotha Programme</a>)"
 			},
 			{
 				"Text": "Labour-power is what a worker is forced to sell to survive"

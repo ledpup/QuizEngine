@@ -333,7 +333,7 @@ namespace QuizEngine
 
         private void FullSizeImage(ImageSource imageSource)
         {
-            FullscreenImage.Visibility = Visibility.Visible;
+            brdFullscreen.Visibility = Visibility.Visible;
             FullscreenImage.Source = imageSource;
 
             brdMediaBorderVisibility.Visibility = Visibility.Collapsed;
@@ -351,7 +351,7 @@ namespace QuizEngine
 
         private void DismissFullScreenImage()
         {
-            FullscreenImage.Visibility = Visibility.Collapsed;
+            brdFullscreen.Visibility = Visibility.Collapsed;
 
             if (!string.IsNullOrEmpty(_quizQuestion.Image))
             {
@@ -379,6 +379,11 @@ namespace QuizEngine
         }
 
         private void FullscreenImage_OnRightTapped(object sender, RightTappedRoutedEventArgs e)
+        {
+            DismissFullScreenImage();
+        }
+
+        private void BrdFullscreen_OnTapped(object sender, TappedRoutedEventArgs e)
         {
             DismissFullScreenImage();
         }

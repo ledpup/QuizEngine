@@ -33,8 +33,17 @@
         </Storyboard>
     </Page.Resources>
 
-    <Grid>
-        <Image x:Name="FullscreenImage" Stretch="Uniform" Visibility="Collapsed" Tapped="FullscreenImage_Tapped" RightTapped="FullscreenImage_OnRightTapped" Canvas.ZIndex="2"></Image>
+    <Grid x:Name="MyGrid">
+        <Border
+            x:Name="brdFullscreen"
+            Background="#00000000"
+            Height="{Binding ActualHeight, ElementName=MyGrid}"
+            Width="{Binding ActualWidth, ElementName=MyGrid}"
+            Canvas.ZIndex="2"
+            Tapped="BrdFullscreen_OnTapped"
+            Visibility="Collapsed">
+                <Image x:Name="FullscreenImage" Stretch="Uniform" Tapped="FullscreenImage_Tapped" RightTapped="FullscreenImage_OnRightTapped" Canvas.ZIndex="2"></Image>
+        </Border>
         <TextBlock x:Name="SwipeText" FontSize="56" TextAlignment="Center" Visibility="Collapsed" Text="Swipe left for the next question" Foreground="{StaticResource AppBlueBrush}" Canvas.ZIndex="1" IsHitTestVisible="False">
             <TextBlock.RenderTransform>
                 <CompositeTransform TranslateY="200" />
