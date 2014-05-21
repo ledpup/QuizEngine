@@ -161,7 +161,6 @@
     <Content Include="Assets\Logo.png" />
     <Content Include="Assets\Quizzes\Human Anatomy and Physiology backgrounds - main\Brain.png" />
     <Content Include="Assets\Quizzes\Human Anatomy and Physiology backgrounds - main\Heart.png" />
-    <Content Include="Assets\Quizzes\Human Anatomy and Physiology backgrounds - main\Skeleton.png" />
     <Content Include="Assets\Quizzes\Human Anatomy and Physiology backgrounds\Human Body Systems.png" />
     <Content Include="Assets\Quizzes\Human Anatomy and Physiology.txt" />
     <Content Include="Assets\Quizzes\Human Anatomy and Physiology\5Pepsinogen to pepsin.jpg" />
