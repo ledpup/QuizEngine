@@ -37,8 +37,8 @@
         <Border
             x:Name="brdFullscreen"
             Background="#00000000"
-            Height="{Binding ActualHeight, ElementName=MyGrid}"
-            Width="{Binding ActualWidth, ElementName=MyGrid}"
+            Height="{Binding Height, ElementName=MyGrid}"
+            Width="{Binding Width, ElementName=MyGrid}"
             Canvas.ZIndex="2"
             Tapped="BrdFullscreen_OnTapped"
             Visibility="Collapsed">
