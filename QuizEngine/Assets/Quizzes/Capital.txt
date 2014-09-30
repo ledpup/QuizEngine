@@ -42,7 +42,7 @@
 	},
 	{
 		"Difficulty": "Medium",
-		"Question": "Which of the following is not a commodity?",
+		"Question": "Which of the following can not be exchanged as a commodity?",
 		"Answers":
 		[
 			{
@@ -54,7 +54,7 @@
 			},
 			{
 				"Text": "Uncultivated land",
-				"Explanation": "\"Things which in and for themselves are not commodities, things such as conscience, honour, etc., can be offered for sale by their holders, and thus acquire the form of commodities through their price. Hence a thing can, formally speaking, have a price without having a value. The expression of price is in this case imaginary, like certain quantities in mathematics. On the other hand, the imaginary price-form may also conceal a real value-relation or one derived from it, as for instance the price of uncultivated land, which is without value because no human labour is objectified in it.\" (Karl Marx, <a href=\"http://en.wikipedia.org/wiki/Capital,_Volume_I\">Capital, Volume 1</a>)"
+				"Explanation": "\"Things which in and for themselves are not commodities, things such as conscience, honour, etc., can be offered for sale by their holders, and thus acquire the form of commodities through their price. Hence a thing can, formally speaking, have a price without having a value. The expression of price is in this case imaginary, like certain quantities in mathematics. On the other hand, the imaginary price-form may also conceal a real value-relation or one derived from it, as for instance the price of uncultivated land, which is without value because no human labour is objectified in it.\" (Karl Marx, <a href=\"http://en.wikipedia.org/wiki/Capital,_Volume_I\">Capital Volume 1</a>)"
 			},
 			{
 				"Text": "Private property"
@@ -90,7 +90,7 @@
 	},
 	{
 		"Difficulty": "Easy",
-		"Question": "Capital, volume 1, was first published in which year?",
+		"Question": "Capital Volume 1, was first published in which year?",
 		"Answers":
 		[
 			{
@@ -112,7 +112,7 @@
 		]
 	},
 	{
-		"Difficulty": "Easy",
+		"Difficulty": "Medium",
 		"Question": "Choose the statement about labour-power which is not correct.",
 		"Answers":
 		[
@@ -128,10 +128,33 @@
 				"Text": "Labour-power is the source of all value"
 			},
 			{
-				"Text": "Labour-power has a value"
+				"Text": "Labour-power has a value in a capitalist society"
 			},
 			{
-				"Text": "Labour-power is a commodity"
+				"Text": "Labour-power is a commodity in a capitalist society"
+			}
+		]
+	},
+	{
+		"Difficulty": "Easy",
+		"Question": "The subtitle of Capital Volume 1, is?",
+		"Answers":
+		[
+			{
+				"Text": "A Critique of Political Economy",
+				"Score": "1"
+			},
+			{
+				"Text": "Contribution to the Critique of Political Economy"
+			},
+			{
+				"Text": "A New Political Economy"
+			},
+			{
+				"Text": "A Radical Political Economy"
+			},
+			{
+				"Text": "Contribution to Political Economy"
 			}
 		]
 	}
