@@ -164,8 +164,10 @@
     <Content Include="Assets\Quizzes\Human Anatomy and Physiology backgrounds\Human Body Systems.png" />
     <Content Include="Assets\Quizzes\Human Anatomy and Physiology.txt" />
     <Content Include="Assets\Quizzes\Human Anatomy and Physiology\5Pepsinogen to pepsin.jpg" />
+    <Content Include="Assets\Quizzes\Human Anatomy and Physiology\Abdominal regions.png" />
     <Content Include="Assets\Quizzes\Human Anatomy and Physiology\Alveolus diagram.png" />
     <Content Include="Assets\Quizzes\Human Anatomy and Physiology\Anaphase.png" />
+    <Content Include="Assets\Quizzes\Human Anatomy and Physiology\Anatomical planes.png" />
     <Content Include="Assets\Quizzes\Human Anatomy and Physiology\Anatomy_of_liver_and_gall_bladder.png" />
     <Content Include="Assets\Quizzes\Human Anatomy and Physiology\Anterior Muscles.png" />
     <Content Include="Assets\Quizzes\Human Anatomy and Physiology\Bipolar neuron.png" />
@@ -182,6 +184,7 @@
     <Content Include="Assets\Quizzes\Human Anatomy and Physiology\Endocrine System.png" />
     <Content Include="Assets\Quizzes\Human Anatomy and Physiology\Endocrine_central_nervous.png" />
     <Content Include="Assets\Quizzes\Human Anatomy and Physiology\Epithelial Tissue.jpg" />
+    <Content Include="Assets\Quizzes\Human Anatomy and Physiology\Eye muscles.png" />
     <Content Include="Assets\Quizzes\Human Anatomy and Physiology\Female Reproductive System.png" />
     <Content Include="Assets\Quizzes\Human Anatomy and Physiology\Figure_38_02_04.png" />
     <Content Include="Assets\Quizzes\Human Anatomy and Physiology\FluorescentCells.jpg" />
@@ -204,6 +207,7 @@
     <Content Include="Assets\Quizzes\Human Anatomy and Physiology\InsulinHexamer.jpg" />
     <Content Include="Assets\Quizzes\Human Anatomy and Physiology\Integumentary System.png" />
     <Content Include="Assets\Quizzes\Human Anatomy and Physiology\Isotonic.png" />
+    <Content Include="Assets\Quizzes\Human Anatomy and Physiology\Kidney.png" />
     <Content Include="Assets\Quizzes\Human Anatomy and Physiology\Large Intestine.png" />
     <Content Include="Assets\Quizzes\Human Anatomy and Physiology\Layers of the epidermis.png" />
     <Content Include="Assets\Quizzes\Human Anatomy and Physiology\Layers_of_the_Gastrointestinal_Tract.png" />
@@ -218,6 +222,8 @@
     <Content Include="Assets\Quizzes\Human Anatomy and Physiology\Monomer.png" />
     <Content Include="Assets\Quizzes\Human Anatomy and Physiology\Multipolar neuron.png" />
     <Content Include="Assets\Quizzes\Human Anatomy and Physiology\Muscular System.png" />
+    <Content Include="Assets\Quizzes\Human Anatomy and Physiology\Nephron - absorption and secretion.png" />
+    <Content Include="Assets\Quizzes\Human Anatomy and Physiology\Nephron.png" />
     <Content Include="Assets\Quizzes\Human Anatomy and Physiology\Nervous System.png" />
     <Content Include="Assets\Quizzes\Human Anatomy and Physiology\Neuron cell.png" />
     <Content Include="Assets\Quizzes\Human Anatomy and Physiology\Normal ECG Tracing.png" />
