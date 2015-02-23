@@ -1,4 +1,4 @@
-[
+﻿[
 	{
 		"Category": "Politics",
 		"Difficulty": "Medium",
@@ -380,7 +380,7 @@
 				"Text": "Demonstrations by Franco's supporters against \"anarchist dictatorship\" in the Catalan city"
 			},
 			{
-				"Text": "Starving civil population demonstrations claiming for a better distribution of provisions"
+				"Text": "Demonstrations by starving civilians wanting a better distribution of provisions"
 			},
 			{
 				"Text": "None of the above",
@@ -1227,7 +1227,7 @@
 	{
 		"Category": "Military",
 		"Difficulty": "Medium",
-		"Question": "<p>As part of the failed <a href=\"http://en.wikipedia.org/wiki/Spanish_coup_of_July_1936\">coup</a> against the government, the Nationalists initially controlled (or quickly captured) the regions of Galicia, Leon, Old Castile and Navarre (as well as parts of Andalusia). Over the next few years, the remaining regions of Spain fell to the Nationalists in which order? (Ordered by first to last.)</p>",
+		"Question": "<p>As part of the failed <a href=\"http://en.wikipedia.org/wiki/Spanish_coup_of_July_1936\">coup</a> against the government, the Nationalists initially controlled (or quickly captured) the regions of Galicia, Leon, Old Castile and Navarre (as well as parts of Andalusia). Over the next few years, the remaining regions of Spain fell to the Nationalists in which chronological order?</p>",
 		"Image": "Spanish Regions.png",
 		"Answers":
 		[
@@ -1403,7 +1403,7 @@
 				"Text": "The women's movement of the Falange"
 			},
 			{
-				"Text": "Name of the Carlist women's movement"
+				"Text": "The name of the Carlist women's movement"
 			}
 		]
 	},
@@ -1796,6 +1796,10 @@
 			},
 			{
 				"Text": "CEDA"
+			},
+			{
+				"Text": "All of the above",
+				"IsLast": "true"
 			}
 		]
 	},
@@ -1979,7 +1983,7 @@
 			{
 				"Text": "Freemasons",
 				"Score": "1",
-				"Explanation": "After the war, material from the Republican zone \"was converted into a massive index of 80,000 suspected Freemasons, despite the fact that there had been nearer five than ten thousand Freemasons in Spain in 1936 and that fewer than one thousand remained after 1939. These files would facilitate the purges carried out in the 1940s under the infamous Special Tribunal created to implement the Law for the Repression of Freemasonry and Communism of February 1940.\" (Paul Preston, <a href=\"http://www.amazon.com/The-Spanish-Holocaust-Extermination-Twentieth-Century/dp/039306476X\">The Spanish Holocaust</a>, 2007)"
+				"Explanation": "After the war, material from the Republican zone \"was converted into a massive index of 80,000 suspected Freemasons, despite the fact that there had been nearer to five to ten thousand Freemasons in Spain in 1936 and that fewer than one thousand remained after 1939. These files would facilitate the purges carried out in the 1940s under the infamous Special Tribunal created to implement the Law for the Repression of Freemasonry and Communism of February 1940.\" (Paul Preston, <a href=\"http://www.amazon.com/The-Spanish-Holocaust-Extermination-Twentieth-Century/dp/039306476X\">The Spanish Holocaust</a>, 2007)"
 			},
 			{
 				"Text": "Trade unionists"
@@ -2017,7 +2021,7 @@
 			{
 				"Image": "Portugal.png",
 				"Text": "Portugal",
-				"Explanation": "In the first weeks of the war the Portuguese army tried to form a <a href=\"http://en.wikipedia.org/wiki/Viriatos\">Viriatos Legion</a> to aid the right-wing insurgents in Spain. The Legion was disbanded before any recruitment drive could take place after pro-Republican incidents in Portugal. Portugal contributed money, munitions, manpower and support to Nationalist forces throughout the war."
+				"Explanation": "In the first weeks of the war, the Portuguese army tried to form a <a href=\"http://en.wikipedia.org/wiki/Viriatos\">Viriatos Legion</a> to aid the right-wing insurgents in Spain. The Legion was disbanded before any recruitment drive could take place after pro-Republican incidents in Portugal. Portugal contributed money, munitions, manpower and support to Nationalist forces throughout the war."
 			},
 			{
 				"Image": "Blank flag.png",
@@ -3018,7 +3022,7 @@
 			{
 				"Text": "Only the PCE",
 				"Score": "1",
-				"Explanation": "Of all the political parties of the Popular Front (there were 15 parties, though only 5 with more than 10 seats), only the <a href=\"http://en.wikipedia.org/wiki/Communist_Party_of_Spain_(main)\">Spanish Communist Party</a> (PCE) was allied to the Russian Communist controlled Comintern. The PCE had 17 of the 285 (6%) seats of the Popular Front government."
+				"Explanation": "Of all the political parties of the Popular Front (there were 15 parties, though only 5 with more than 10 seats), only the <a href=\"http://en.wikipedia.org/wiki/Communist_Party_of_Spain_(main)\">Spanish Communist Party</a> (PCE) was allied to the Russian Communist controlled Comintern. The PCE had 17 of the 285 seats (6%) of the of the Popular Front government."
 			},
 			{
 				"Text": "PSOE and the PCE"
@@ -3439,7 +3443,7 @@
 			{
 				"Text": "The International Brigades were disbanded for political gain by the Republic",
 				"Score": "1",
-				"Explanation": "The International Brigades were withdrawn during the <a href=\"http://en.wikipedia.org/wiki/Battle_of_the_Ebro\">Battle of the Ebro</a> in an attempt to pressure the Nationalists' Nazi and fascist backers to withdrawn their support. They weren't successful as the German and Italian forces remained until the end of the war."
+				"Explanation": "The International Brigades were withdrawn during the <a href=\"http://en.wikipedia.org/wiki/Battle_of_the_Ebro\">Battle of the Ebro</a> in an attempt to pressure the Nationalists' Nazi and fascist backers to withdrawn their support. Nevertheless, the German and Italian forces remained until the end of the war."
 			},
 			{
 				"Text": "The International Brigades were defeated in the Nationalist victory against the Republic"
