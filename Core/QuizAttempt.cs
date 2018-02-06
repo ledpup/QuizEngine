@@ -12,28 +12,19 @@ namespace QuizEngine
         {
             QuizQuestions = quizQuestions;
             PracticeMode = practiceMode;
-            DispatcherTimerSetup();
         }
 
-        public Timer DispatcherTimer;
+        
         int _timesToTick;
         private int _timesTicked;
         private DateTimeOffset _quizEnds;
         public TimeSpan QuizTimeRemaining;
 
-        void DispatcherTimerSetup()
-        {
-            DispatcherTimer = new Timer();// { Interval = new TimeSpan(0, 0, 1) };
-
-            _timesToTick = 60 * QuizQuestions.Count;
-            QuizStart = DateTimeOffset.Now;
-            DispatcherTimer.Start();
-            _quizEnds = QuizStart.AddSeconds(_timesToTick);
-        }
+        
 
         public void EndQuiz()
         {
-            DispatcherTimer.Stop();
+            
 
             if (QuizEnd != DateTimeOffset.MinValue)
                 throw new Exception("The quiz has already ended.");

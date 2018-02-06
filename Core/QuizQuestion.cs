@@ -91,7 +91,7 @@ namespace QuizEngine
         private float _score;
 
 
-        public string ImageFullPath { get { return "Assets/Quizzes/" + MainPage.Quiz + "/" + Image; } }
+        public string ImageFullPath { get { return "Assets/Quizzes/" + "/" + Image; } }
     }
 
     [DataContractAttribute]
