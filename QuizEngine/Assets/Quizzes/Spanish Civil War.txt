@@ -1159,6 +1159,7 @@
 		"Category": "Military",
 		"Difficulty": "Hard",
 		"Question": "<p>Select the list of military offensives that is in correct chronological order, from earliest to latest.</p>",
+                "Explanation": "Battle of Jarama: 6–27 February, 1937\r\nBattle of Guadalajara: 8–23 March, 1937\r\nBattle of Brunete: 6–25 July 1937\r\nBattle of Teruel: 15 December, 1937 – 22 February, 1938\r\nBattle of the Ebro: 25 July – 16 November, 1938",
 		"Answers":
 		[
 			{
@@ -1294,7 +1295,7 @@
 	{
 		"Category": "Personalities",
 		"Difficulty": "Medium",
-		"Question": "<p>When asked by the US journalist <a href=\"http://en.wikipedia.org/wiki/John_T._Whitaker\">John T. Whitaker</a> about his reason for ordering the killing 4,000 people during the <a href=\"http://en.wikipedia.org/wiki/Massacre_of_Badajoz\">Badajoz massacre</a> (10% of the city's population), who answered:</p><p></p><p>\"Of course we killed them. What did you suppose? Will I take 4,000 red prisoners with my column, having to advance against the clock? Or will I leave them in my rearguard so that Badajoz will be red another time?\"</p>",
+		"Question": "<p>When asked by the US journalist <a href=\"http://en.wikipedia.org/wiki/John_T._Whitaker\">John T. Whitaker</a> about his reason for ordering the killing of 4,000 people during the <a href=\"http://en.wikipedia.org/wiki/Massacre_of_Badajoz\">Badajoz massacre</a> (10% of the city's population), who answered:</p><p></p><p>\"Of course we killed them. What did you suppose? Will I take 4,000 red prisoners with my column, having to advance against the clock? Or will I leave them in my rearguard so that Badajoz will be red another time?\"</p>",
 		"Answers":
 		[
 			{
