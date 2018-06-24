@@ -18,18 +18,11 @@ namespace QuizEngine
     /// </summary>
     public sealed partial class QuestionPage : GesturePageBase//, INotifyPropertyChanged
     {
-        //public event PropertyChangedEventHandler PropertyChanged;
-
-        //public void NotifyPropertyChanged([CallerMemberName] string propertyName = "")
-        //{
-        //    if (PropertyChanged != null)
-        //    {
-        //        PropertyChanged(this, new PropertyChangedEventArgs(propertyName));
-        //    }
-        //}
-
         readonly QuizQuestion _quizQuestion;
         private bool _practiceMode;
+
+        public QuestionPage() : base(new ZoomedOutInfo { Text = "NoQuestion", Image = "Unanswered.png" })
+        { }
 
         public QuestionPage(bool practiceMode, QuestionAnswer quizQuestion)
             : base(new ZoomedOutInfo { Text = quizQuestion.Question.QuestionNumber.ToString(), Image = "Unanswered.png" })
@@ -186,15 +179,10 @@ namespace QuizEngine
                 {
                     Tag = answer.Id,
                     Content = buttonContent,
-                    HorizontalContentAlignment = HorizontalAlignment.Left,
-                    HorizontalAlignment = HorizontalAlignment.Left,
-                    VerticalContentAlignment = VerticalAlignment.Center,
-                    BorderThickness = new Thickness(1),
-                    Padding = new Thickness(12),
-                    //Margin = new Thickness(2),
                     Background = new SolidColorBrush(new Color {A = 125}),
                 };
 
+                button.Style = (Style)Resources["CustomButtonStyle"];
                 button.Holding += ButtonOnHolding;
                 button.RightTapped += ButtonOnRightTapped;
 
@@ -253,7 +241,7 @@ namespace QuizEngine
                         buttonContent.Children.Add(textBlock);
                 }
 
-                button.Click += button_Click;
+                button.Click += Button_Click;
                 Answers.Children.Add(button);
             }
         }
@@ -278,7 +266,7 @@ namespace QuizEngine
             }
         }
 
-        void button_Click(object sender, RoutedEventArgs e)
+        void Button_Click(object sender, RoutedEventArgs e)
         {
             AnimateHand();
 
@@ -326,7 +314,7 @@ namespace QuizEngine
             ExplanationView.DataContext = string.Format("<p>{0}</p>", explanationText);
         }
  
-        private void imgQuestionImage_Tapped(object sender, TappedRoutedEventArgs e)
+        private void ImgQuestionImage_Tapped(object sender, TappedRoutedEventArgs e)
         {
             FullSizeImage(imgQuestionImage.Source);
         }

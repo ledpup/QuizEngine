@@ -24,8 +24,7 @@
                 x:Name="semanticZoom"
                 IsZoomedInViewActive="True"
                 ScrollViewer.ZoomMode="Enabled"
-                IsZoomOutButtonEnabled="True"
-            >
+                IsZoomOutButtonEnabled="True">
 
             <SemanticZoom.ZoomedOutView>
                 <GridView
@@ -60,10 +59,6 @@
                                     <RowDefinition Height="*"/>
                                     <RowDefinition Height="*"/>
                                 </Grid.RowDefinitions>
-
-                                <!--<Grid.ColumnDefinitions>
-                                        <ColumnDefinition Width="*"/>
-                                    </Grid.ColumnDefinitions>-->
 
                                 <Border
                                         Grid.Row="1"
@@ -103,12 +98,6 @@
                         AutomationProperties.Name="Zoomed-in View"
                         >
 
-                    <!--<FlipView.ItemContainerStyle>
-                            <Style TargetType="FlipViewItem">
-                                <Setter Property="Margin" Value="100,0,100,75"/>
-                            </Style>
-                        </FlipView.ItemContainerStyle>-->
-
                     <FlipView.ItemsPanel>
                         <ItemsPanelTemplate>
                             <StackPanel Orientation="Horizontal"/>
@@ -119,9 +108,6 @@
                         <DataTemplate>
                             <UserControl TabNavigation="Cycle">
                                 <Grid>
-                                    <!--Grid.Column="1"
-                                            Grid.ColumnSpan="{Binding QuestionColumnSpan}"
-                                            Grid.Row="5"-->
                                     <ContentPresenter Content="{Binding PlayArea}" />
                                 </Grid>
                             </UserControl>
