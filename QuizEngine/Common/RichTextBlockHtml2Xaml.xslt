@@ -20,8 +20,8 @@
           </Style>
           <Style x:Key="Link" TargetType="HyperlinkButton">
             <Setter Property="BorderThickness" Value="0" />
-            <Setter Property="FontSize" Value="11" />
-            <Setter Property="Margin" Value="-15,-11" />
+            <Setter Property="Margin" Value="0,-10" />
+            <Setter Property="FontSize" Value="larger" />
           </Style>
         </RichTextBlock.Resources>
         <xsl:if test="normalize-space(text()) != ''">
@@ -71,7 +71,7 @@
     </xsl:template>
 
     <xsl:template match="A | a">
-      <Span><InlineUIContainer><HyperlinkButton Style="{{StaticResource HyperlinkButtonStyle}}"><xsl:attribute name="NavigateUri"><xsl:value-of select="@href"/></xsl:attribute><xsl:apply-templates /></HyperlinkButton></InlineUIContainer></Span>
+      <Span><InlineUIContainer><HyperlinkButton Style="{{StaticResource Link}}"><xsl:attribute name="NavigateUri"><xsl:value-of select="@href"/></xsl:attribute><xsl:apply-templates /></HyperlinkButton></InlineUIContainer></Span>
     </xsl:template>
 
     <xsl:template match="IMG | img">
