@@ -242,19 +242,12 @@ namespace QuizEngine.Common
             if (this._layoutAwareControls == null)
             {
                 // Start listening to view state changes when there are controls interested in updates
-                Window.Current.SizeChanged += this.WindowSizeChanged;
                 this._layoutAwareControls = new List<Control>();
             }
             this._layoutAwareControls.Add(control);
 
-            // Set the initial visual state of the control
-            VisualStateManager.GoToState(control, DetermineVisualState(ApplicationView.Value), false);
         }
 
-        private void WindowSizeChanged(object sender, WindowSizeChangedEventArgs e)
-        {
-            this.InvalidateVisualState();
-        }
 
         /// <summary>
         /// Invoked as an event handler, typically on the <see cref="FrameworkElement.Unloaded"/>
@@ -276,44 +269,9 @@ namespace QuizEngine.Common
             {
                 // Stop listening to view state changes when no controls are interested in updates
                 this._layoutAwareControls = null;
-                Window.Current.SizeChanged -= this.WindowSizeChanged;
             }
         }
 
-        /// <summary>
-        /// Translates <see cref="ApplicationViewState"/> values into strings for visual state
-        /// management within the page.  The default implementation uses the names of enum values.
-        /// Subclasses may override this method to control the mapping scheme used.
-        /// </summary>
-        /// <param name="viewState">View state for which a visual state is desired.</param>
-        /// <returns>Visual state name used to drive the
-        /// <see cref="VisualStateManager"/></returns>
-        /// <seealso cref="InvalidateVisualState"/>
-        protected virtual string DetermineVisualState(ApplicationViewState viewState)
-        {
-            return viewState.ToString();
-        }
-
-        /// <summary>
-        /// Updates all controls that are listening for visual state changes with the correct
-        /// visual state.
-        /// </summary>
-        /// <remarks>
-        /// Typically used in conjunction with overriding <see cref="DetermineVisualState"/> to
-        /// signal that a different value may be returned even though the view state has not
-        /// changed.
-        /// </remarks>
-        public void InvalidateVisualState()
-        {
-            if (this._layoutAwareControls != null)
-            {
-                string visualState = DetermineVisualState(ApplicationView.Value);
-                foreach (var layoutAwareControl in this._layoutAwareControls)
-                {
-                    VisualStateManager.GoToState(layoutAwareControl, visualState, false);
-                }
-            }
-        }
 
         #endregion
 
@@ -417,16 +375,12 @@ namespace QuizEngine.Common
                 public K Key { get; private set; }
             }
 
-            private Dictionary<K, V> _dictionary = new Dictionary<K, V>();
+            private readonly Dictionary<K, V> _dictionary = new Dictionary<K, V>();
             public event MapChangedEventHandler<K, V> MapChanged;
 
             private void InvokeMapChanged(CollectionChange change, K key)
             {
-                var eventHandler = MapChanged;
-                if (eventHandler != null)
-                {
-                    eventHandler(this, new ObservableDictionaryChangedEventArgs(change, key));
-                }
+                MapChanged?.Invoke(this, new ObservableDictionaryChangedEventArgs(change, key));
             }
 
             public void Add(K key, V value)
@@ -452,8 +406,7 @@ namespace QuizEngine.Common
 
             public bool Remove(KeyValuePair<K, V> item)
             {
-                V currentValue;
-                if (this._dictionary.TryGetValue(item.Key, out currentValue) &&
+                if (this._dictionary.TryGetValue(item.Key, out V currentValue) &&
                     Object.Equals(item.Value, currentValue) && this._dictionary.Remove(item.Key))
                 {
                     this.InvokeMapChanged(CollectionChange.ItemRemoved, item.Key);

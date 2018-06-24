@@ -129,6 +129,9 @@ namespace QuizEngine.Common
                 Assembly assembly = typeof(Properties).GetTypeInfo().Assembly;
                 using (Stream stream = assembly.GetManifestResourceStream("QuizEngine.Common.RichTextBlockHtml2Xaml.xslt"))
                 {
+                    if (stream == null)
+                        throw new Exception("Stream based on QuizEngine.Common.RichTextBlockHtml2Xaml.xslt is null. Ensure it is an embedded resource.");
+
                     StreamReader reader = new StreamReader(stream);
                     string content = await reader.ReadToEndAsync();
                     XmlDocument html2XamlXslDoc = new XmlDocument();

@@ -19,11 +19,10 @@ namespace QuizEngine
             this.InitializeComponent();
 
             var random = new Random();
-            MainPage.SelectBackgroundImage(BackgroundImageSnappedOrFilledScreen, random, "backgrounds - main");
+            //MainPage.SelectBackgroundImage(BackgroundImageSnappedOrFilledScreen, random, "backgrounds - main");
 
-            SnappedQuizName.Text = MainPage.QuizTitle;
+            //SnappedQuizName.Text = MainPage.QuizTitle;
 
-            Window.Current.SizeChanged += VisualStateChanged;
         }
 
         QuizAttempt _quizAttempt;
@@ -53,18 +52,6 @@ namespace QuizEngine
             Frame.Navigate(typeof (NewAttemptPage));
         }
 
-        private void VisualStateChanged(object sender, WindowSizeChangedEventArgs e)
-        {
-            var visualState = DetermineVisualState(ApplicationView.Value);
 
-            if (visualState == "Snapped" || visualState == "Filled")
-            {
-                VisualStateManager.GoToState(this, "Filled", false);
-            }
-            else
-            {
-                VisualStateManager.GoToState(this, "FullScreenLandscape", false);
-            }
-        }
     }
 }

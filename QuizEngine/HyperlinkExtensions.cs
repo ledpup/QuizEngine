@@ -69,15 +69,19 @@
                     // Add text before match.
                     int matchIndex = match.Index;
                     text = source.Substring(index, matchIndex - index);
-                    run = new Run();
-                    run.Text = text;
+                    run = new Run
+                    {
+                        Text = text
+                    };
                     par.Inlines.Add(run);
 
                     // Add match as hyperlink.
                     string hyper = match.Value;
                     link = new Hyperlink();
-                    run = new Run();
-                    run.Text = hyper;
+                    run = new Run
+                    {
+                        Text = hyper
+                    };
                     link.Inlines.Add(run);
 
                     // Complete link if necessary.
@@ -99,8 +103,10 @@
 
                 // Add text after last match.
                 text = source.Substring(index, source.Length - index);
-                run = new Run();
-                run.Text = text;
+                run = new Run
+                {
+                    Text = text
+                };
                 par.Inlines.Add(run);
 
                 // Update RichTextBlock content.

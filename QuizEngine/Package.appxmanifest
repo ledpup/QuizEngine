@@ -1,28 +1,29 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Package xmlns="http://schemas.microsoft.com/appx/2010/manifest">
-  <Identity Name="1587LedEnterprises.HumanAnatomyandPhysiologyQuiz" Publisher="CN=4C21CD0D-E8FD-4545-9469-B8B74DA697F5" Version="1.0.2.6" />
+<Package xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10" xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest" xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10" IgnorableNamespaces="uap mp">
+  <Identity Name="1587LedEnterprises.HumanAnatomyandPhysiologyQuiz" Publisher="CN=4C21CD0D-E8FD-4545-9469-B8B74DA697F5" Version="1.5.0.6" />
+  <mp:PhoneIdentity PhoneProductId="41b8ad12-124b-4b50-a8cb-8179fe568c0d" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
   <Properties>
     <DisplayName>Human Anatomy and Physiology Quiz</DisplayName>
     <PublisherDisplayName>Led Industries</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
-  <Prerequisites>
-    <OSMinVersion>6.2.1</OSMinVersion>
-    <OSMaxVersionTested>6.2.1</OSMaxVersionTested>
-  </Prerequisites>
+  <Dependencies>
+    <TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.0.0" MaxVersionTested="10.0.0.0" />
+  </Dependencies>
   <Resources>
     <Resource Language="x-generate" />
   </Resources>
   <Applications>
     <Application Id="App" Executable="$targetnametoken$.exe" EntryPoint="QuizEngine.App">
-      <VisualElements DisplayName="Human Anatomy and Physiology Quiz" Logo="Assets\Logo.png" SmallLogo="Assets\SmallLogo.png" Description="QuizEngine" ForegroundText="light" BackgroundColor="#464646">
-        <DefaultTile ShowName="allLogos" WideLogo="Assets\WideLogo.png" />
-        <SplashScreen Image="Assets\SplashScreen.png" BackgroundColor="black" />
-        <InitialRotationPreference>
-          <Rotation Preference="landscape" />
-          <Rotation Preference="landscapeFlipped" />
-        </InitialRotationPreference>
-      </VisualElements>
+      <uap:VisualElements DisplayName="Human Anatomy and Physiology Quiz" Square150x150Logo="Assets\Logo.png" Square44x44Logo="Assets\SmallLogo.png" Description="QuizEngine" BackgroundColor="#464646">
+        <uap:DefaultTile Wide310x150Logo="Assets\WideLogo.png" Square310x310Logo="Assets\LargeTile.png" Square71x71Logo="Assets\SmallTile.png">
+        </uap:DefaultTile>
+        <uap:SplashScreen Image="Assets\SplashScreen.png" BackgroundColor="black" />
+        <uap:InitialRotationPreference>
+          <uap:Rotation Preference="landscape" />
+          <uap:Rotation Preference="landscapeFlipped" />
+        </uap:InitialRotationPreference>
+      </uap:VisualElements>
     </Application>
   </Applications>
 </Package>

@@ -7,13 +7,6 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:common="using:QuizEngine.Common"
     mc:Ignorable="d">
     <Grid>
-        <Grid x:Name="SnappedOrFilledScreen">
-            <Grid.Background>
-                <ImageBrush x:Name="BackgroundImageSnappedOrFilledScreen" Stretch="Uniform" ></ImageBrush>
-            </Grid.Background>
-            <TextBlock x:Name="SnappedQuizName" Margin="20" Style="{StaticResource AppTitleTextStyle}" Foreground="White" />
-        </Grid>
-
         <ScrollViewer x:Name="Fullscreen" ZoomMode="Disabled">
             <StackPanel Margin="50,0">
                 <Button Margin="10,30,10,30" Padding="10" Width="250" HorizontalAlignment="Center" Click="Button_Click">New Quiz</Button>
@@ -25,46 +18,11 @@
                     <TextBlock Margin="5" Style="{StaticResource AppTitleTextStyle}">Duration:</TextBlock>
                     <TextBlock x:Name="Duration" Margin="5" Style="{StaticResource AppTitleTextStyle}"></TextBlock>
                 </StackPanel>
-        
+
                 <StackPanel x:Name="QuestionsAndAnswers" />
                 <Button Margin="10,30,10,10" Padding="10" Width="250" HorizontalAlignment="Center" Click="Button_Click">New Quiz</Button>
-        
+
             </StackPanel>
         </ScrollViewer>
-
-        <VisualStateManager.VisualStateGroups>
-            <VisualStateGroup x:Name="ApplicationViewStates">
-                <VisualState x:Name="FullScreenLandscape">
-                    <Storyboard>
-                        <ObjectAnimationUsingKeyFrames Storyboard.TargetName="SnappedOrFilledScreen" Storyboard.TargetProperty="Visibility">
-                            <DiscreteObjectKeyFrame KeyTime="0" Value="Collapsed"/>
-                        </ObjectAnimationUsingKeyFrames>
-                        <ObjectAnimationUsingKeyFrames Storyboard.TargetName="Fullscreen" Storyboard.TargetProperty="Visibility">
-                            <DiscreteObjectKeyFrame KeyTime="0" Value="Visible"/>
-                        </ObjectAnimationUsingKeyFrames>
-                    </Storyboard>
-                </VisualState>
-                <VisualState x:Name="Filled">
-                    <Storyboard>
-                        <ObjectAnimationUsingKeyFrames Storyboard.TargetName="SnappedOrFilledScreen" Storyboard.TargetProperty="Visibility">
-                            <DiscreteObjectKeyFrame KeyTime="0" Value="Visible"/>
-                        </ObjectAnimationUsingKeyFrames>
-                        <ObjectAnimationUsingKeyFrames Storyboard.TargetName="Fullscreen" Storyboard.TargetProperty="Visibility">
-                            <DiscreteObjectKeyFrame KeyTime="0" Value="Collapsed"/>
-                        </ObjectAnimationUsingKeyFrames>
-                    </Storyboard>
-                </VisualState>
-                <VisualState x:Name="Snapped">
-                    <Storyboard>
-                        <ObjectAnimationUsingKeyFrames Storyboard.TargetName="SnappedOrFilledScreen" Storyboard.TargetProperty="Visibility">
-                            <DiscreteObjectKeyFrame KeyTime="0" Value="Visible"/>
-                        </ObjectAnimationUsingKeyFrames>
-                        <ObjectAnimationUsingKeyFrames Storyboard.TargetName="Fullscreen" Storyboard.TargetProperty="Visibility">
-                            <DiscreteObjectKeyFrame KeyTime="0" Value="Collapsed"/>
-                        </ObjectAnimationUsingKeyFrames>
-                    </Storyboard>
-                </VisualState>
-            </VisualStateGroup>
-        </VisualStateManager.VisualStateGroups>
     </Grid>
 </common:LayoutAwarePage>

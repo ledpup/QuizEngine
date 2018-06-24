@@ -25,9 +25,9 @@ namespace QuizEngine
 
             NewMethod();
 
-            Window.Current.SizeChanged += VisualStateChanged;
+            //Window.Current.SizeChanged += VisualStateChanged;
 
-            SnappedQuizName.Text = MainPage.QuizTitle;
+            //SnappedQuizName.Text = MainPage.QuizTitle;
             Title.Text = MainPage.QuizTitle;
             
         }
@@ -48,7 +48,7 @@ namespace QuizEngine
             Practice_Checked(null, null);
 
             var random = new Random();
-            MainPage.SelectBackgroundImage(BackgroundImageSnappedOrFilledScreen, random, "backgrounds - main");
+            //MainPage.SelectBackgroundImage(BackgroundImageSnappedOrFilledScreen, random, "backgrounds - main");
             MainPage.SelectBackgroundImage(BackgroundImage, random, "backgrounds - main");
 
 
@@ -67,15 +67,15 @@ namespace QuizEngine
                     Padding = new Thickness(5),
                     Style = (Style)Application.Current.Resources["AppCheckBoxStyle"],
                 };
-                checkBox.Click += checkBox_Click;
-                checkBox_Click(checkBox, null);
+                checkBox.Click += CheckBox_Click;
+                CheckBox_Click(checkBox, null);
                 Categories.Children.Add(checkBox);
             }
 
             //NumberOfQuestions.Maximum = _completeQuizQuestions.Count;
         }
 
-        void checkBox_Click(object sender, RoutedEventArgs e)
+        void CheckBox_Click(object sender, RoutedEventArgs e)
         {
             SetCategory((CheckBox) sender, (string)((CheckBox) sender).Tag);
         }
@@ -123,6 +123,7 @@ namespace QuizEngine
         {
             _quizConfig.NumberOfQuestions = (int)NumberOfQuestions.Value;
 
+            // Change this to shuffle, not reverse, when you're ready to do a release version
             //_quizQuestions.Shuffle();
             _quizQuestions.Reverse();
 
@@ -216,27 +217,13 @@ namespace QuizEngine
             QuizTypeDescription.Text = "No time-limit\r\nAnswers are displayed as you go\r\nGreen highlights a correct answer; red hightlights an incorrect answer";
         }
 
-        private void VisualStateChanged(object sender, WindowSizeChangedEventArgs e)
-        {
-            var visualState = DetermineVisualState(ApplicationView.Value);
-
-            if (visualState == "Snapped" || visualState == "Filled")
-            {
-                VisualStateManager.GoToState(this, "Filled", false);
-            }
-            else
-            {
-                VisualStateManager.GoToState(this, "FullScreenLandscape", false);
-            }
-        }
-
         private void InvertSelection_OnClick(object sender, RoutedEventArgs e)
         {
             var tempNumberOfQuestions = NumberOfQuestions.Value;
             foreach (CheckBox categoryCheckBox in Categories.Children)
             {
                 categoryCheckBox.IsChecked = !categoryCheckBox.IsChecked;
-                checkBox_Click(categoryCheckBox, null);
+                CheckBox_Click(categoryCheckBox, null);
             }
             NumberOfQuestions.Value = tempNumberOfQuestions > NumberOfQuestions.Maximum ? NumberOfQuestions.Maximum : tempNumberOfQuestions;
         }

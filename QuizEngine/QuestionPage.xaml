@@ -44,7 +44,7 @@
             Visibility="Collapsed">
                 <Image x:Name="FullscreenImage" Stretch="Uniform" Tapped="FullscreenImage_Tapped" RightTapped="FullscreenImage_OnRightTapped" Canvas.ZIndex="2"></Image>
         </Border>
-        <TextBlock x:Name="SwipeText" FontSize="56" TextAlignment="Center" Visibility="Collapsed" Text="Swipe left for the next question" Foreground="{StaticResource AppBlueBrush}" Canvas.ZIndex="1" IsHitTestVisible="False">
+        <TextBlock x:Name="SwipeText" FontSize="56" TextAlignment="Center" Visibility="Collapsed" Text="Swipe left or click arrow for the next question" Foreground="{StaticResource AppBlueBrush}" Canvas.ZIndex="1" IsHitTestVisible="False">
             <TextBlock.RenderTransform>
                 <CompositeTransform TranslateY="200" />
             </TextBlock.RenderTransform>
