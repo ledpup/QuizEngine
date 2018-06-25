@@ -7,7 +7,7 @@
         //String Description { get; }
         //string QuestionImage { get; }
         //GesturePageBase PlayArea { get; }
-        bool Selected { get; set; }
+        //bool Selected { get; set; }
         void UpdateZoomedOutImage();
     }
 }

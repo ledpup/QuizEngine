@@ -21,7 +21,7 @@ namespace QuizEngine
         readonly QuizQuestion _quizQuestion;
         private bool _practiceMode;
 
-        public QuestionPage() : base(new ZoomedOutInfo { Text = "NoQuestion", Image = "Unanswered.png" })
+        public QuestionPage() : base(new ZoomedOutInfo { Text = "0", Image = "Unanswered.png" })
         { }
 
         public QuestionPage(bool practiceMode, QuestionAnswer quizQuestion)
@@ -156,19 +156,6 @@ namespace QuizEngine
             }
         }
 
-        protected override void OnSelected()
-        {
-            //if (_wasPlaying)
-            //{
-            //    MediaContent.Play();    
-            //}
-        }
-
-        protected override void OnUnselected()
-        {
-            //MediaContent.Pause();
-        }
-
         private void DisplayAnswers()
         {
             foreach (var answer in _quizQuestion.Answers)
@@ -275,20 +262,20 @@ namespace QuizEngine
             foreach (Button answer in Answers.Children.Where(x => x is Button))
                 answer.Background = Background = new SolidColorBrush(new Color { A = 125 });
 
-            var newAnswer = _quizQuestion.Answers.Single(x => x.Id == int.Parse(button.Tag.ToString()));
+            var selectedAnswer = _quizQuestion.Answers.Single(x => x.Id == int.Parse(button.Tag.ToString()));
 
             brdExplanation.Visibility = Visibility.Collapsed;
 
             string explanationText = "";
 
-            if (_quizQuestion.SelectedAnswer == newAnswer)
+            if (_quizQuestion.SelectedAnswer == selectedAnswer)
             {
                 _quizQuestion.SelectedAnswer = null;
                 ExplanationView.DataContext = null;
                 return;
             }
 
-            _quizQuestion.SelectedAnswer = newAnswer;
+            _quizQuestion.SelectedAnswer = selectedAnswer;
 
             ZoomedOutInfo.Image = _quizQuestion.SelectedAnswer == null ? "Unanswered.png" : "Answered.png";
 

@@ -154,9 +154,12 @@
                         <RowDefinition Height="Auto" ></RowDefinition>
                     </Grid.RowDefinitions>
                     <Image
-                        x:Name="imgQuestionImage" Grid.Row="0"
+                        x:Name="imgQuestionImage" 
+                        Grid.Row="0"
                         Source="{Binding}"
-                        Stretch="Uniform" Tapped="ImgQuestionImage_Tapped" />
+                        Stretch="Uniform" 
+                        Tapped="ImgQuestionImage_Tapped"
+                         />
 
                     <StackPanel Grid.Row="1">
                         <HyperlinkButton x:Name="ImageUrl" HorizontalAlignment="Right" Visibility="Collapsed"></HyperlinkButton>

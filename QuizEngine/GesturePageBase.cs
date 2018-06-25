@@ -27,43 +27,6 @@ namespace QuizEngine.Controls
     [Windows.Foundation.Metadata.WebHostHidden]
     public class GesturePageBase : Windows.UI.Xaml.Controls.Page
     {
-        ///// <summary>
-        ///// Creates a button that when clicked displays a flyout with the specified <paramref name="links"/>.
-        ///// Clicking on a link opens a web browser on that page.
-        ///// </summary>
-        ///// <param name="links"></param>
-        ///// <returns></returns>
-        //internal static Windows.UI.Xaml.Controls.Button CreateLinksAppBarButton(Dictionary<string, Uri> links)
-        //{
-        //    var popup = new Windows.UI.Popups.PopupMenu();
-        //    Windows.UI.Popups.UICommandInvokedHandler popupHandler = async command =>
-        //    {
-        //        await Windows.System.Launcher.LaunchUriAsync(links[command.Label]);
-        //    };
-
-        //    foreach (var item in links)
-        //    {
-        //        popup.Commands.Add(new Windows.UI.Popups.UICommand(item.Key, popupHandler));
-        //    }
-
-        //    var button = new Windows.UI.Xaml.Controls.Button
-        //    {
-        //        Style = App.Current.Resources["LinksAppBarButtonStyle"] as Style
-        //    };
-        //    button.Click += async (sender, e) =>
-        //    {
-        //        var btnSender = sender as Windows.UI.Xaml.Controls.Button;
-        //        var transform = btnSender.TransformToVisual(Window.Current.Content) as Windows.UI.Xaml.Media.MatrixTransform;
-        //        var point = transform.TransformPoint(new Windows.Foundation.Point());             
-
-        //        await popup.ShowAsync(point);
-        //    };
-
-        //    return button;
-        //}
-
-
-
         /// <summary>
         /// Constructor.
         /// </summary>
@@ -94,9 +57,7 @@ namespace QuizEngine.Controls
             //_nonContextualItems = new List<Windows.UI.Xaml.Controls.Button>();
             //_links = new Dictionary<string, Uri>();
 
-            
-
-            _isSelected = false;
+            //_isSelected = false;
         }
 
         protected IGesturePageInfo _appPageInfo;
@@ -104,14 +65,6 @@ namespace QuizEngine.Controls
         {
             get { return _appPageInfo; }
         }
-
-        //public virtual ImageBrush ZoomedOutImage { get; set; }
-
-        //protected readonly Dictionary<string, Uri> _links;
-        //public IEnumerable<KeyValuePair<string, Uri>> Links
-        //{
-        //    get { return this._links; }
-        //}
 
         // The content of the global app bar in this app is a grid that contains
         // two panels for contextual and non-contextual items respectively.
@@ -122,52 +75,10 @@ namespace QuizEngine.Controls
         // Non contextual app bar items for this page, used by Selected to configure the app bar
         protected readonly List<Windows.UI.Xaml.Controls.Button> _nonContextualItems;
 
-        // Whether this is the selected page in the FlipView
-        private bool _isSelected;
-        internal bool Selected
-        {
-            get { return _isSelected; }
-            set
-            {
-                if (_isSelected != value)
-                {
-                    if (value)
-                    {
-                        OnSelected();
-                    }
-                    else
-                    {
-                        OnUnselected();
-                    }
-
-                    _isSelected = value;
-                }
-            }
-        }
-
-        // Called when this becomes the selected page in the FlipView
-        protected virtual void OnSelected()
-        {
-            // Populate the panel for non contextual items
-            //foreach (var item in _nonContextualItems)
-            //{
-            //    _nonContextualItemsPanel.Children.Add(item);
-            //}
-        }
-
-        // Called when this is no longer the selected page in the FlipView
-        protected virtual void OnUnselected()
-        {
-            // Remove items from the panel for non contextual items
-            //foreach (var item in _nonContextualItems)
-            //{
-            //    _nonContextualItemsPanel.Children.Remove(item);
-            //}
-        }
-
         public static readonly DependencyProperty DefaultViewModelProperty =
             DependencyProperty.Register("DefaultViewModel", typeof(IObservableMap<String, Object>),
             typeof(GesturePageBase), null);
+
         public ZoomedOutInfo ZoomedOutInfo;
 
         protected IObservableMap<String, Object> DefaultViewModel
@@ -188,7 +99,6 @@ namespace QuizEngine.Controls
 
     sealed class GesturePageInfo : IGesturePageInfo, INotifyPropertyChanged
     {
-        //private readonly QuizQuestion _quizQuestion;
         private ZoomedOutInfo _zoomedOutInfo;
 
         public GesturePageInfo(GesturePageBase playArea, ZoomedOutInfo zoomedOutInfo)
@@ -201,10 +111,7 @@ namespace QuizEngine.Controls
 
         public void NotifyPropertyChanged([CallerMemberName] string propertyName = "")
         {
-            if (PropertyChanged != null)
-            {
-                PropertyChanged(this, new PropertyChangedEventArgs(propertyName));
-            }
+            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
         }
 
         public string Id { get { return _zoomedOutInfo.Text; } }
@@ -221,11 +128,6 @@ namespace QuizEngine.Controls
                 return new BitmapImage(new Uri(string.Format("ms-appx:///Assets/{0}", _zoomedOutInfo.Image)));
             }
         }
-
-        
-
         public GesturePageBase PlayArea { get; private set; }
-
-        public bool Selected { get { return PlayArea.Selected; } set { PlayArea.Selected = value; } }
     }
 }
