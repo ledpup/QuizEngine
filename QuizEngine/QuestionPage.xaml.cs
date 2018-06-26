@@ -278,6 +278,7 @@ namespace QuizEngine
             _quizQuestion.SelectedAnswer = selectedAnswer;
 
             ZoomedOutInfo.Image = _quizQuestion.SelectedAnswer == null ? "Unanswered.png" : "Answered.png";
+            AppPageInfo.UpdateZoomedOutImage();
 
             if (_practiceMode)
             {

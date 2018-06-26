@@ -165,6 +165,5 @@ pip-log.txt
 #Mr Developer
 .mr.developer.cfg
 
-# Mac crap
 .DS_Store
-/.vs/QuizEngine/v15/Server/sqlite3
+/.vs/*

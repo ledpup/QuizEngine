@@ -44,7 +44,7 @@ namespace QuizEngine.Controls
 
             // Create GesturePageInfo
             // NOTE: we need a separate class to avoid issues when using this control as data item for the SemanticZoom
-            _appPageInfo = new GesturePageInfo(this, zoomedOutInfo);
+            _appPageInfo = new GesturePageInfo(this);
 
             // The content of the global app bar in this app is a grid that contains
             // two panels for contextual and non-contextual items respectively.
@@ -99,12 +99,9 @@ namespace QuizEngine.Controls
 
     sealed class GesturePageInfo : IGesturePageInfo, INotifyPropertyChanged
     {
-        private ZoomedOutInfo _zoomedOutInfo;
-
-        public GesturePageInfo(GesturePageBase playArea, ZoomedOutInfo zoomedOutInfo)
+        public GesturePageInfo(GesturePageBase gesturePageBase)
         {
-            PlayArea = playArea;
-            _zoomedOutInfo = zoomedOutInfo;
+            PlayArea = gesturePageBase;
         }
 
         public event PropertyChangedEventHandler PropertyChanged;
@@ -114,7 +111,7 @@ namespace QuizEngine.Controls
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
         }
 
-        public string Id { get { return _zoomedOutInfo.Text; } }
+        public string Id { get { return PlayArea.ZoomedOutInfo.Text; } }
 
         public void UpdateZoomedOutImage()
         {
@@ -125,7 +122,7 @@ namespace QuizEngine.Controls
         {
             get
             {
-                return new BitmapImage(new Uri(string.Format("ms-appx:///Assets/{0}", _zoomedOutInfo.Image)));
+                return new BitmapImage(new Uri(string.Format("ms-appx:///Assets/{0}", PlayArea.ZoomedOutInfo.Image)));
             }
         }
         public GesturePageBase PlayArea { get; private set; }
