@@ -167,3 +167,6 @@ pip-log.txt
 
 .DS_Store
 /.vs/*
+/QuizEngine/_pkginfo.txt
+/QuizEngine/BundleArtifacts
+*.pfx

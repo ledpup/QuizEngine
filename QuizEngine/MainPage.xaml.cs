@@ -102,17 +102,6 @@ namespace QuizEngine
 
         }
 
-        //private async Task LoadQuiz()
-        //{
-
-        //    _quizQuestions.Reverse();
-
-        //    PrepareQuestions(_quizQuestions);
-        //}
-
-
-
-
         void DispatcherTimer_Tick(object sender, object e)
         {
             var quizTimeOut = _quizAttempt.UpdateTimeRemainingOnQuiz();
