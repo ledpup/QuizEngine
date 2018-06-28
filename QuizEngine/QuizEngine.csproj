@@ -144,9 +144,9 @@
     <None Include="QuizEngine_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Assets\Answered.png" />
-    <Content Include="Assets\Cross.png" />
-    <Content Include="Assets\Fin.png" />
+    <Content Include="Assets\CoreImages\Answered.png" />
+    <Content Include="Assets\CoreImages\Cross.png" />
+    <Content Include="Assets\CoreImages\Fin.png" />
     <Content Include="Assets\LargeTile.scale-100.png" />
     <Content Include="Assets\LargeTile.scale-200.png" />
     <Content Include="Assets\LargeTile.scale-400.png" />
@@ -260,24 +260,24 @@
     <Content Include="Assets\SmallTile.scale-200.png" />
     <Content Include="Assets\SmallTile.scale-400.png" />
     <Content Include="Assets\SplashScreen.scale-180.png" />
+    <Content Include="Assets\SplashScreen.scale-200.png" />
     <Content Include="Assets\SplashScreen.scale-400.png" />
     <Content Include="Assets\StoreLogo.scale-100.png" />
     <Content Include="Assets\StoreLogo.scale-125.png" />
     <Content Include="Assets\StoreLogo.scale-150.png" />
     <Content Include="Assets\StoreLogo.scale-200.png" />
     <Content Include="Assets\StoreLogo.scale-400.png" />
-    <Content Include="Assets\Swipe Left.png" />
-    <Content Include="Assets\Tick.png" />
-    <Content Include="Assets\Unanswered.png" />
+    <Content Include="Assets\CoreImages\SwipeLeft.png" />
+    <Content Include="Assets\CoreImages\Tick.png" />
+    <Content Include="Assets\CoreImages\Unanswered.png" />
     <Content Include="Assets\WideLogo.scale-100.png" />
     <Content Include="Assets\WideLogo.scale-200.png" />
     <Content Include="Assets\WideLogo.scale-400.png" />
-    <Content Include="Assets\Zoom.png" />
+    <Content Include="Assets\CoreImages\Zoom.png" />
     <Content Include="Common\ReadMe.txt" />
     <EmbeddedResource Include="Common\RichTextBlockHtml2Xaml.xslt" />
     <Content Include="Package.StoreAssociation.xml" />
     <Content Include="Properties\Default.rd.xml" />
-    <Content Include="Assets\SplashScreen.scale-200.png" />
   </ItemGroup>
   <ItemGroup>
     <ApplicationDefinition Include="App.xaml">

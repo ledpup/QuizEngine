@@ -122,7 +122,7 @@ namespace QuizEngine.Controls
         {
             get
             {
-                return new BitmapImage(new Uri(string.Format("ms-appx:///Assets/{0}", PlayArea.ZoomedOutInfo.Image)));
+                return new BitmapImage(new Uri(string.Format("ms-appx:///Assets/CoreImages/{0}", PlayArea.ZoomedOutInfo.Image)));
             }
         }
         public GesturePageBase PlayArea { get; private set; }

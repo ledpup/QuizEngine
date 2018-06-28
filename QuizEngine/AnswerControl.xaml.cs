@@ -45,9 +45,6 @@ namespace QuizEngine
             
             BuildAnswer(CorrectTextAnswer, CorrectImageAnswer, quizQuestion.CorrectAnswer, (SolidColorBrush) Application.Current.Resources["GreenBrush"] );
 
-            //var image = answerCorrect ? "Tick.png" : "Cross.png";
-
-            //imgCorrect.Source = new BitmapImage(new Uri("ms-appx:///Assets/" + image));
         }
 
         private void BuildAnswer(TextBlock textAnswer, Image imageAnswer, Answer answer, SolidColorBrush foreground)

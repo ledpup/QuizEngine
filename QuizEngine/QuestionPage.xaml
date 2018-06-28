@@ -223,7 +223,7 @@
                 common:Properties.Html="{Binding}"
                 />
 
-            <Image Grid.Column="2" Grid.Row="3" x:Name="imageToAnimate" Source="/Assets/Swipe Left.png" Width="75" Stretch="Uniform" RenderTransformOrigin="0.5,0.5" HorizontalAlignment="Right" Margin="0,30,0,0" Visibility="Collapsed">
+            <Image Grid.Column="2" Grid.Row="3" x:Name="imageToAnimate" Source="/Assets/CoreImages/SwipeLeft.png" Width="75" Stretch="Uniform" RenderTransformOrigin="0.5,0.5" HorizontalAlignment="Right" Margin="0,30,0,0" Visibility="Collapsed">
                 <Image.RenderTransform>
                     <CompositeTransform/>
                 </Image.RenderTransform>
