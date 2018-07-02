@@ -1,6 +1,7 @@
 [
 	{
 		"Category": "Functional groups",
+		"Difficulty": "Easy",
 		"Question": "What functional groups does aspirin have?",
 		"Image": "Aspirin.png",
 		"Answers":
@@ -22,6 +23,7 @@
 	},
 	{
 		"Category": "Functional groups",
+		"Difficulty": "Easy",
 		"KeyQuestion": "Identify the *answer text* functional group.",
 		"ValueQuestion": "What is the image of the function group on the called?",
 		"DynamicAnswer": "true",
@@ -64,6 +66,7 @@
 	},
 	{
 		"Category": "Functional groups",
+		"Difficulty": "Medium",
 		"KeyQuestion": "Identify the *answer text*.",
 		"ValueQuestion": "What is the image of the nitrogen based function group on the called?",
 		"DynamicAnswer": true,
@@ -89,6 +92,7 @@
 	},
 	{
 		"Category": "Introduction",
+		"Difficulty": "Easy",
 		"Question": "One mole of carbon dioxide and one mole of salicylic acid __________.",
 		"Answers":
 		[
@@ -111,7 +115,117 @@
 		]
 	},
 	{
+		"Category": "Introduction",
+		"Difficulty": "Easy",
+		"Question": "What is the product of the oxidation of a primary alcohol?",
+		"Answers":
+		[
+			{
+				"Text": "A carboxylic acid or an aldehyde",
+				"Score": "1"
+			},
+			{
+				"Text": "An aldehyde",
+				"Explanation": "Carboxylic acids are also products of the oxidisation of a primary alcohol"
+			},
+			{
+				"Text": "An alkyne or a carboxlic acid"
+			},
+			{
+				"Text": "A carboxylic acid",
+				"Explanation": "Aldehydes are also products of the oxidisation of a primary alcohol"
+			},
+			{
+				"Text": "A ketone"
+			},
+			{
+				"Text": "An alkene"
+			}
+		]
+	},
+	{
+		"Category": "Introduction",
+		"Difficulty": "Easy",
+		"Question": "Treatment of a secondary alcohol with an excess amount of oxidising agent will produce",
+		"Answers":
+		[
+			{
+				"Text": "A ketone",
+				"Score": "1"
+			},
+			{
+				"Text": "A carboxylic acid or an aldehyde",
+				"Explanation": "Carboxylic acids and aldehydes are products of the oxidisation of a primary alcohol"
+			},
+			{
+				"Text": "A carboxylic acid",
+				"Explanation": "Carboxylic acids are a product of the oxidisation of a primary alcohol"
+			},
+			{
+				"Text": "An alkyne or a carboxlic acid"
+			},
+			{
+				"Text": "An aldehyde",
+				"Explanation": "Aldehydes are a product of the oxidisation of a primary alcohol"
+			},
+			{
+				"Text": "No reaction"
+			},
+			{
+				"Text": "An alkene"
+			}
+		]
+	},
+	{
+		"Category": "Introduction",
+		"Difficulty": "Easy",
+		"Question": "The movement of a solvent across a semipermeable membrane because of concentration differences is called",
+		"Answers":
+		[
+			{
+				"Text": "Osmosis",
+				"Score": "1"
+			},
+			{
+				"Text": "Dialysis"
+			},
+			{
+				"Text": "Diffusion",
+				"Explanation": "Diffusion is the net movement of molecules or atoms from a region of high concentration to a region of low concentration"
+			},
+			{
+				"Text": "Hemolysis",
+				"Explanation": "Hemolysis is the rupturing (lysis) of red blood cells"
+			},
+			{
+				"Text": "Hydration"
+			}
+		]
+	},
+	{
+		"Category": "Introduction",
+		"Difficulty": "Easy",
+		"Question": "Two elements have an electronegativity difference of 0.1. They are likely to form",
+		"Answers":
+		[
+			{
+				"Text": "A covalent compound",
+				"Score": "1"
+			},
+			{
+				"Text": "An ionic compound"
+			},
+			{
+				"Text": "A polar covalent compound"
+			},
+			{
+				"Text": "A pure covalent compound"
+			},
+		]
+	},
+	{
 		"Category": "Cells",
+		"Difficulty": "Easy",
 		"Question": "The smooth endoplasmic reticulum is responsible for creating __________. The rough endoplasmic reticulum is responsible for creating __________.",
 		"Answers":
 		[
@@ -802,7 +916,7 @@
 		[
 			{
 				"Text": "False",
-				"Score": "1"
+				"Score": "0.5"
 			},
 			{
 				"Text": "True"
@@ -841,7 +955,7 @@
 		[
 			{
 				"Text": "True",
-				"Score": "1"
+				"Score": "0.5"
 			},
 			{
 				"Text": "False"
@@ -1297,7 +1411,8 @@
 		[
 			{
 				"Text": "Three",
-				"Score": "1"
+				"Score": "1",
+				"Explanation": "Guanine + cytosine have three bonds. Adenine + thymine/uracil have two hydrogen bonds."
 			},
 			{
 				"Text": "Two"
