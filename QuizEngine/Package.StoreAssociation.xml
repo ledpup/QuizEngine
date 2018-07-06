@@ -359,22 +359,17 @@
     <Language Code="zu-za" InMinimumRequirementSet="true" />
   </SupportedLocales>
   <ProductReservedInfo>
-    <MainPackageIdentityName>1587LedEnterprises.HumanAnatomyandPhysiologyQuiz</MainPackageIdentityName>
+    <MainPackageIdentityName>1587LedEnterprises.BiochemistryQuiz</MainPackageIdentityName>
     <ReservedNames>
-      <ReservedName>Human Anatomy and Physiology Quiz</ReservedName>
+      <ReservedName>Biochemistry Quiz</ReservedName>
     </ReservedNames>
   </ProductReservedInfo>
   <AccountPackageIdentityNames>
     <MainPackageIdentityName>1587LedEnterprises.ChemistryQuiz</MainPackageIdentityName>
     <MainPackageIdentityName>1587LedEnterprises.GCS</MainPackageIdentityName>
+    <MainPackageIdentityName>1587LedEnterprises.HumanAnatomyandPhysiologyQuiz</MainPackageIdentityName>
     <MainPackageIdentityName>1587LedEnterprises.OpenOthello</MainPackageIdentityName>
     <MainPackageIdentityName>1587LedEnterprises.SpanishCivilWarQuiz</MainPackageIdentityName>
   </AccountPackageIdentityNames>
-  <PackageInfoList LandingUrl="https://developer.microsoft.com/dashboard/Application?appId=9WZDNCRDWZZ0">
-    <PackageInfo>
-      <OsMinVersion>6.2.1.0</OsMinVersion>
-      <PackageArchitecture>neutral</PackageArchitecture>
-      <PackageMaxArchitectureVersion>1.0.2.6</PackageMaxArchitectureVersion>
-    </PackageInfo>
-  </PackageInfoList>
+  <PackageInfoList LandingUrl="https://developer.microsoft.com/dashboard/Application?appId=9N098MLV7R4F" />
 </StoreAssociation>

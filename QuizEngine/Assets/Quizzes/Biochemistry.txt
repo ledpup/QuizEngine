@@ -26,7 +26,7 @@
 		"Difficulty": "Easy",
 		"KeyQuestion": "Identify the *answer text* functional group.",
 		"ValueQuestion": "What is the image of the function group on the called?",
-		"DynamicAnswer": "true",
+		"DynamicAnswer": true,
 		"MaxNumberOfAnswers": "5",
 		"Answers":
 		[
@@ -253,7 +253,7 @@
 		"Difficulty": "Medium",
 		"KeyQuestion": "From the diagrams of amino acids, select one which is *answer text*.",
 		"ValueQuestion": "What property does the pictured amino acid have?",
-		"DynamicAnswer": "true",
+		"DynamicAnswer": true,
 		"Answers":
 		[
 			{
@@ -281,7 +281,7 @@
 		"Difficulty": "Hard",
 		"KeyQuestion": "What is the chemical structure of *answer text*?",
 		"ValueQuestion": "What is the name of the pictured amino acid?",
-		"DynamicAnswer": "true",
+		"DynamicAnswer": true,
 		"MaxNumberOfAnswers": "5",
 		"Answers":
 		[
@@ -500,7 +500,7 @@
 			},
 			{
 				"Text": "None of the above",
-				"IsLast": "true"
+				"IsLast": true
 			},
 		]
 	},
@@ -509,7 +509,7 @@
 		"Difficulty": "Medium",
 		"KeyQuestion": "A protein's *answer text* can be described as __________.",
 		"ValueQuestion": "Which protein structure has *answer text*?",
-		"KeyValue": "true",
+		"KeyValue": true,
 		"Answers":
 		[
 			{
@@ -566,7 +566,7 @@
 		"Difficulty": "Easy",
 		"KeyQuestion": "A class of proteins called *answer text* can be described as __________.",
 		"ValueQuestion": "What is the protein class where proteins are *answer text*?",
-		"KeyValue": "true",
+		"KeyValue": true,
 		"Answers":
 		[
 			{
@@ -1121,7 +1121,7 @@
 		"Difficulty": "Easy",
 		"KeyQuestion": "<p>On a <a href=\"https://en.wikipedia.org/wiki/Michaelis%E2%80%93Menten_kinetics\">Michaelis-Menten</a> plot, *answer text* can be defined as __________.</p>",
 		"ValueQuestion": "<p>On a <a href=\"https://en.wikipedia.org/wiki/Michaelis%E2%80%93Menten_kinetics\">Michaelis-Menten</a> plot, *answer text* has which symbol?</p>",
-		"KeyValue": "true",
+		"KeyValue": true,
 		"Answers":
 		[
 			{
@@ -1148,7 +1148,7 @@
 		"Difficulty": "Medium",
 		"KeyQuestion": "<p>Below are <a href=\"https://en.wikipedia.org/wiki/Lineweaver%E2%80%93Burk_plot\">Lineweaver-Burk plots</a> of different types of reversible <a href=\"https://en.wikipedia.org/wiki/Enzyme_inhibitor\">enzyme inhibitors</a>. The arrow shows the effect of increasing concentrations of inhibitor. Which plot can be described as *answer text*?</p>",
 		"ValueQuestion": "The picture is a Lineweaver–Burk plot. The arrow shows the effect of increasing concentrations of inhibitor. What type of reversible enzyme inhibitor would produce this graph?",
-		"DynamicAnswer": "true",
+		"DynamicAnswer": true,
 		"Answers":
 		[
 			{
@@ -1190,7 +1190,7 @@
 			},
 			{
 				"Text": "None of the answers are correct",
-				"IsLast": "true"
+				"IsLast": true
 			},
 		]
 	},
@@ -1265,7 +1265,7 @@
 			},
 			{
 				"Text": "All of the above are correct",
-				"IsLast": "true"
+				"IsLast": true
 			},
 		]
 	},
@@ -1290,7 +1290,7 @@
 			},
 			{
 				"Text": "All of the above are correct",
-				"IsLast": "true"
+				"IsLast": true
 			},
 		]
 	},
@@ -1316,7 +1316,7 @@
 			},
 			{
 				"Text": "All are inhibitor enzymes",
-				"IsLast": "true"
+				"IsLast": true
 			},
 		]
 	},
@@ -1341,7 +1341,7 @@
 			},
 			{
 				"Text": "None of these is a Lineweaver-Burke plot",
-				"IsLast": "true"
+				"IsLast": true
 			},
 		]
 	},
@@ -1355,7 +1355,7 @@
 				"Text": "None of the above",
 				"Score": "1",
 				"Explanation": "A nucleic acid with ribose bond group is called a nucleoside.",
-				"IsLast": "true"
+				"IsLast": true
 			},
 			{
 				"Text": "Nucleic acid"
@@ -1407,7 +1407,7 @@
 			},
 			{
 				"Text": "None of the above",
-				"IsLast": "true"
+				"IsLast": true
 			},
 		]
 	},
@@ -1433,7 +1433,7 @@
 			},
 			{
 				"Text": "None of the above",
-				"IsLast": "true"
+				"IsLast": true
 			},
 		]
 	},
@@ -1537,7 +1537,7 @@
 			{
 				"Text": "All of the above",
 				"Score": "1",
-				"IsLast": "true"
+				"IsLast": true
 			},
 			{
 				"Text": "ATP"
@@ -1562,7 +1562,7 @@
 			{
 				"Text": "None of the above; guanine-cytosine regions are stronger",
 				"Score": "1",
-				"IsLast": "true"
+				"IsLast": true
 			},
 			{
 				"Text": "It has two hydrogen bonds"
@@ -1624,7 +1624,7 @@
 			},
 			{
 				"Text": "None of the above",
-				"IsLast": "true"
+				"IsLast": true
 			},
 		]
 	},
@@ -1654,7 +1654,7 @@
 			},
 			{
 				"Text": "None of these molecules",
-				"IsLast": "true"
+				"IsLast": true
 			},
 		]
 	},
@@ -1668,7 +1668,7 @@
 			{
 				"Text": "None of these molecules",
 				"Score": "1",
-				"IsLast": "true"
+				"IsLast": true
 			},
 			{
 				"Image": "Alanine.png",
@@ -1787,7 +1787,7 @@
 			},
 			{
 				"Text": "None of the above",
-				"IsLast": "true"
+				"IsLast": true
 			},
 		]
 	},
@@ -1958,7 +1958,7 @@
 		"Difficulty": "Hard",
 		"KeyQuestion": "What is the feature with label \"*answer text*\" on the picture of DNA replication?",
 		"ValueQuestion": "Identify the *answer text* on the picture of DNA replication.",
-		"KeyValue": "true",
+		"KeyValue": true,
 		"MaxNumberOfAnswers": "5",
 		"Image": "DNA replication.png",
 		"Answers":
@@ -2087,7 +2087,7 @@
 			},
 			{
 				"Text": "None of the above",
-				"IsLast": "true"
+				"IsLast": true
 			},
 		]
 	},
@@ -2101,7 +2101,7 @@
 			{
 				"Text": "None of the above",
 				"Score": "1",
-				"IsLast": "true",
+				"IsLast": true,
 				"Explanation": "The two principles commonly used are isoelectric focusing and SDS-PAGE"
 			},
 			{
@@ -2237,7 +2237,7 @@
 			},
 			{
 				"Text": "None of the above. All techniques can be used for peptide sequencing.",
-				"IsLast": "true"
+				"IsLast": true
 			},
 		]
 	},
@@ -2262,7 +2262,7 @@
 			},
 			{
 				"Text": "None of the above. All techniques are examples of column chromatography.",
-				"IsLast": "true"
+				"IsLast": true
 			},
 		]
 	},
@@ -2327,7 +2327,7 @@
 			{
 				"Text": "All of the above are steps in the process of protein separation and characterisation",
 				"Score": "1",
-				"IsLast": "true"
+				"IsLast": true
 			},
 			{
 				"Text": "Protein purification"
@@ -2629,7 +2629,7 @@
 		"Difficulty": "Hard",
 		"KeyQuestion": "What is the definition of \"*answer text*\"?",
 		"ValueQuestion": "What is defined as *answer text*?",
-		"KeyValue": "true",
+		"KeyValue": true,
 		"MaxNumberOfAnswers": "5",
 		"Answers":
 		[
@@ -2669,7 +2669,7 @@
 		"Difficulty": "Hard",
 		"KeyQuestion": "Which of the following 2D Fischer projections of carbohydrates represents *answer text*?",
 		"ValueQuestion": "What is the name of the pictured carbohydrate?",
-		"DynamicAnswer": "true",
+		"DynamicAnswer": true,
 		"MaxNumberOfAnswers": "5",
 		"Answers":
 		[
@@ -2712,7 +2712,7 @@
 		"Difficulty": "Hard",
 		"KeyQuestion": "Which of the following Hawthorn projections of carbohydrates represents *answer text*?",
 		"ValueQuestion": "What is the name of the pictured carbohydrate?",
-		"DynamicAnswer": "true",
+		"DynamicAnswer": true,
 		"Answers":
 		[
 			{
@@ -2771,7 +2771,7 @@
 		"Difficulty": "Medium",
 		"KeyQuestion": "The formation of *answer text* requires __________.",
 		"ValueQuestion": "What is formed when *answer text* are combined?",
-		"KeyValue": "true",
+		"KeyValue": true,
 		"Answers":
 		[
 			{
@@ -2904,7 +2904,7 @@
 		"Difficulty": "Hard",
 		"KeyQuestion": "<p>The <a href=\"https://en.wikipedia.org/wiki/Homopolysaccharide\">homopolysaccharide</a> *answer text* is composed of __________.</p>",
 		"ValueQuestion": "What is the name of the homopolysaccharide that is composed of *answer text*?",
-		"KeyValue": "true",
+		"KeyValue": true,
 		"Answers":
 		[
 			{
@@ -3236,7 +3236,7 @@
 		"Difficulty": "Medium",
 		"KeyQuestion": "The reaction known as *answer text* is the __________.",
 		"ValueQuestion": "The *answer text* is known as __________.",
-		"KeyValue": "true",
+		"KeyValue": true,
 		"Answers":
 		[
 			{
@@ -3302,7 +3302,7 @@
 			},
 			{
 				"Text": "None of the above",
-				"IsLast": "true"
+				"IsLast": true
 			},
 		]
 	},
@@ -3342,7 +3342,7 @@
 			{
 				"Text": "All of the above",
 				"Score": "1",
-				"IsLast": "true",
+				"IsLast": true,
 				"Explanation": "Pyruvate can also be reduced by lactate dehydrogenase to produce lactate."
 			},
 			{
@@ -3364,7 +3364,7 @@
 		"Difficulty": "Easy",
 		"KeyQuestion": "The lipid suffix *answer text* means the lipid is __________.",
 		"ValueQuestion": "What is the suffix for a lipid that is *answer text*?",
-		"KeyValue": "true",
+		"KeyValue": true,
 		"Score": ".75",
 		"Answers":
 		[

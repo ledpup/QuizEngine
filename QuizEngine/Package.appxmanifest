@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Package xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10" xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest" xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10" IgnorableNamespaces="uap mp">
-  <Identity Name="1587LedEnterprises.HumanAnatomyandPhysiologyQuiz" Publisher="CN=4C21CD0D-E8FD-4545-9469-B8B74DA697F5" Version="1.0.0.0" />
-  <mp:PhoneIdentity PhoneProductId="76cc0959-3a7c-4b72-840c-77619396c8e0" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
+  <Identity Name="1587LedEnterprises.BiochemistryQuiz" Publisher="CN=4C21CD0D-E8FD-4545-9469-B8B74DA697F5" Version="1.0.0.0" />
+  <mp:PhoneIdentity PhoneProductId="aa60b263-ae26-4296-8416-6e3a6f1e0968" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
   <Properties>
-    <DisplayName>Human Anatomy and Physiology Quiz</DisplayName>
+    <DisplayName>Biochemistry Quiz</DisplayName>
     <PublisherDisplayName>Led Industries</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
