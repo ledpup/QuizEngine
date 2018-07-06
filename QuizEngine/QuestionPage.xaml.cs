@@ -75,7 +75,13 @@ namespace QuizEngine
                 MediaContent.MediaEnded += MediaContent_MediaEnded;
             }
             
-            Answers.ItemWidth = ItemWidth;
+            if (_quizQuestion.ImageAnswers)
+            {
+                Answers.ItemWidth = 240;
+            }
+            else
+                Answers.ItemWidth = 1000;
+
 
             DisplayAnswers();
             
@@ -127,7 +133,7 @@ namespace QuizEngine
         {
             get
             {
-                if (_quizQuestion.ImageAnswers)
+                if (_quizQuestion.ImageAnswers || string.IsNullOrWhiteSpace(_quizQuestion.Image))
                     return 2;
 
                 return 1;
@@ -145,14 +151,6 @@ namespace QuizEngine
                     return 1;
 
                 return 2;
-            }
-        }
-
-        double ItemWidth
-        {
-            get
-            {
-                return _quizQuestion.ImageAnswers ? 240 : 700;
             }
         }
 
@@ -194,7 +192,7 @@ namespace QuizEngine
                                                 {
                                                     Text = answer.Text, 
                                                     MinWidth = 400,
-                                                    TextWrapping = TextWrapping.Wrap,
+                                                    //TextWrapping = TextWrapping.Wrap,
                                                 };
 
                     if (_quizQuestion.KeyValue)

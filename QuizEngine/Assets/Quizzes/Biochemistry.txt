@@ -504,7 +504,7 @@
 		"Category": "Amino acids and proteins",
 		"Difficulty": "Medium",
 		"KeyQuestion": "A protein's *answer text* can be described as __________.",
-		"ValueQuestion": "What is a protein structure that is *answer text* called?",
+		"ValueQuestion": "Which protein structure has *answer text*?",
 		"KeyValue": "true",
 		"Answers":
 		[
@@ -518,11 +518,11 @@
 			},
 			{
 				"Key": "Tertiary structure",
-				"Text": "characterised by a hydrophobic core, salt bridges, hydrogen and disulfide bonds"
+				"Text": "a hydrophobic core, salt bridges, hydrogen and disulfide bonds"
 			},
 			{
 				"Key": "Quaternary structure",
-				"Text": "the structure formed by several polypeptide chains which function as a single protein complex"
+				"Text": "a structure formed by several polypeptide chains which function as a single protein complex"
 			}
 		]
 	},
@@ -794,7 +794,7 @@
 		"Answers":
 		[
 			{
-				"Text": "Condensation reaction between the amino group of one amino acid with the carboxylic acid group of another",
+				"Text": "Condensation reaction between an amino group of one amino acid with the carboxylic acid group of another",
 				"Score": "1"
 			},
 			{

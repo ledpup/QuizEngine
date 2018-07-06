@@ -25,7 +25,7 @@ namespace QuizEngine
         public static MainPage Current;
 
         //public const string Quiz = "Human Anatomy and Physiology";
-        public const string Quiz = "Chemistry";
+        public const string Quiz = "Biochemistry";
         //public const string Quiz = "Spanish Civil War";
 
         // Data source for the semantic zoom

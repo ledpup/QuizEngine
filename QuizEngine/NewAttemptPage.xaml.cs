@@ -124,8 +124,8 @@ namespace QuizEngine
             _quizConfig.NumberOfQuestions = (int)NumberOfQuestions.Value;
 
             // Change this to shuffle, not reverse, when you're ready to do a release version
-            _quizQuestions.Shuffle();
-            //_quizQuestions.Reverse();
+            //_quizQuestions.Shuffle();
+            _quizQuestions.Reverse();
 
             _quizQuestions = _quizQuestions.Take(_quizConfig.NumberOfQuestions).ToList();
 

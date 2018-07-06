@@ -1969,7 +1969,7 @@
 		"Question": "<p>There are five types of bone.</p>",
 		"Image": "Bone types.jpg",
 		"ImageUrl": "http://cnx.org/content/m44789/latest/Figure_38_02_01.jpg",
-		"Explanation": "There are long, short, flat, irregular and seasmoid bones.",
+		"Explanation": "There are long, short, flat, irregular and sesamoid bones.",
 		"Answers":
 		[
 			{
