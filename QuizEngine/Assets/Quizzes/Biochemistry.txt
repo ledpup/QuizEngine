@@ -3047,7 +3047,8 @@
 				"Text": "16"
 			},
 			{
-				"Text": "None"
+				"Text": "None",
+				"IsLast": true
 			},
 		]
 	},
@@ -3362,7 +3363,7 @@
 		"Category": "Lipids",
 		"Difficulty": "Easy",
 		"KeyQuestion": "The lipid suffix *answer text* means the lipid is __________.",
-		"ValueQuestion": "What is lipid suffix for a lipid that is *answer text*?",
+		"ValueQuestion": "What is the suffix for a lipid that is *answer text*?",
 		"KeyValue": "true",
 		"Score": ".75",
 		"Answers":
