@@ -1,6 +1,6 @@
 [
 	{
-		"Category": "Functional groups",
+		"Category": "Introduction",
 		"Difficulty": "Easy",
 		"Question": "What functional groups does aspirin have?",
 		"Image": "Aspirin.png",
@@ -22,7 +22,7 @@
 		]
 	},
 	{
-		"Category": "Functional groups",
+		"Category": "Introduction",
 		"Difficulty": "Easy",
 		"KeyQuestion": "Identify the *answer text* functional group.",
 		"ValueQuestion": "What is the image of the function group on the called?",
@@ -65,7 +65,7 @@
 		]
 	},
 	{
-		"Category": "Functional groups",
+		"Category": "Introduction",
 		"Difficulty": "Medium",
 		"KeyQuestion": "Identify the *answer text*.",
 		"ValueQuestion": "What is the image of the nitrogen based function group on the called?",
@@ -169,11 +169,12 @@
 				"Explanation": "Aldehydes are a product of the oxidisation of a primary alcohol"
 			},
 			{
-				"Text": "No reaction"
+				"Text": "An alkene"
 			},
 			{
-				"Text": "An alkene"
-			}
+				"Text": "No reaction",
+				"IsLast": true
+			},
 		]
 	},
 	{
@@ -265,11 +266,13 @@
 			},
 			{
 				"Image": "Lysine.png",
-				"Text": "Positively charged"
+				"Text": "Positively charged",
+				"Explanation": "At a pH inferior to their pK, the lysine, arginine and histidine side chains accept an H+ ion (proton) and are positive charged. They are therefore basic."
 			},
 			{
 				"Image": "Aspartic acid.png",
-				"Text": "Negatively charged"
+				"Text": "Negatively charged",
+				"Explanation": "At a pH superior to their pK, the carboxylic side chains lose an H+ ion (proton) and are negative charged. Aspartic acid and glutamic acid are therefore acid."
 			},
 		]
 	},
@@ -379,7 +382,7 @@
 			},
 			{
 				"Text": "H\u2083N\u207ACHRCOO\u207B",
-				"Explanation": "This is the ionised (zwitterion) form of an amino acid."
+				"Explanation": "<p>This is the ionised (<a href=\"https://en.wikipedia.org/wiki/Zwitterion\">zwitterion</a>) form of an amino acid.</p>"
 			},
 			{
 				"Text": "H\u2082NCHCOOH",
@@ -418,7 +421,8 @@
 	{
 		"Category": "Amino acids and proteins",
 		"Difficulty": "Medium",
-		"Question": "Which amino acid is achiral (is not an enantiomer/optical isomer)?",
+		"Question": "<p>Which amino acid is <a href=\"https://en.wikipedia.org/wiki/Chirality_(chemistry)\">achiral</a> (is not an enantiomer/optical isomer)?</p>",
+		"Image": "Chirality_with_hands.png",
 		"Answers":
 		[
 			{
@@ -447,7 +451,7 @@
 	{
 		"Category": "Amino acids and proteins",
 		"Difficulty": "Easy",
-		"Question": "Peptides are formed by amino acids bonding with the carboxyl group of the N-terminal end.",
+		"Question": "<p><a href=\"https://en.wikipedia.org/wiki/Peptide\">Peptides</a> are formed by amino acids bonding with the carboxyl group of the <a href=\"https://en.wikipedia.org/wiki/N-terminus\">N-terminal end</a>.</p>",
 		"Explanation": "Peptides are formed by amino acids bonding with the carboxyl group of the C-terminal end.",
 		"Answers":
 		[
@@ -463,7 +467,7 @@
 	{
 		"Category": "Amino acids and proteins",
 		"Difficulty": "Easy",
-		"Question": "A zwitterion is a neutral molecule with positive and negative electrical charge regions.",
+		"Question": "<p>A <a href=\"https://en.wikipedia.org/wiki/Zwitterion\">zwitterion</a> is a neutral molecule with positive and negative electrical charge regions.</p>",
 		"Answers":
 		[
 			{
@@ -478,7 +482,7 @@
 	{
 		"Category": "Amino acids and proteins",
 		"Difficulty": "Medium",
-		"Question": "The formation of a peptide bond between glycine (CH\u2082NH\u2082COOH) and alanine (CH\u2083CHNH\u2082COOH) creates what products?",
+		"Question": "<p>The formation of a <a href=\"https://en.wikipedia.org/wiki/Peptide\">peptide</a> bond between <a href=\"https://en.wikipedia.org/wiki/Glycine\">glycine</a> (CH\u2082NH\u2082COOH) and <a href=\"https://en.wikipedia.org/wiki/Alanine\">alanine</a> (CH\u2083CHNH\u2082COOH) creates what products?</p>",
 		"Answers":
 		[
 			{
@@ -545,7 +549,7 @@
 	{
 		"Category": "Amino acids and proteins",
 		"Difficulty": "Easy",
-		"Question": "Peptide bonds are created by condensation or dehydration.",
+		"Question": "<p><a href=\"https://en.wikipedia.org/wiki/Peptide\">Peptides</a> bonds are created by condensation or dehydration.</p>",
 		"Answers":
 		[
 			{
@@ -590,7 +594,8 @@
 	{
 		"Category": "Amino acids and proteins",
 		"Difficulty": "Hard",
-		"Question": "α-helices and β-sheets are properties of what type of protein structure?",
+		"Question": "<p><a href=\"https://en.wikipedia.org/wiki/Alpha_helix\">α-helices</a> and <a href=\"https://en.wikipedia.org/wiki/Beta_sheet\">β-sheets</a> are properties of what type of protein structure?</p>",
+		"Image": "b-sheet and a-helix.png",
 		"Answers":
 		[
 			{
@@ -619,7 +624,7 @@
 	{
 		"Category": "Amino acids and proteins",
 		"Difficulty": "Hard",
-		"Question": "What is the basic structural features of haemoglobin in humans?",
+		"Question": "<p>What is the basic structural features of <a href=\"https://en.wikipedia.org/wiki/Hemoglobin\">haemoglobin</a> in humans?</p>",
 		"Answers":
 		[
 			{
@@ -667,7 +672,7 @@
 	},
 	{
 		"Category": "Cells",
-		"Difficulty": "Medium",
+		"Difficulty": "Easy",
 		"Question": "Which of the following is the correct order when going from the smallest to the largest structure?",
 		"Answers":
 		[
@@ -692,7 +697,7 @@
 	},
 	{
 		"Category": "Cells",
-		"Difficulty": "Medium",
+		"Difficulty": "Easy",
 		"Question": "Which of the following is considered to be the \"universal energy molecule\"?",
 		"Answers":
 		[
@@ -780,17 +785,18 @@
 				"Text": "Arginine"
 			},
 			{
-				"Text": "No amino acid contains sulphur"
+				"Text": "Methionine"
 			},
 			{
-				"Text": "Methionine"
+				"Text": "No amino acid contains sulphur",
+				"IsLast": true
 			},
 		]
 	},
 	{
 		"Category": "Amino acids and proteins",
 		"Difficulty": "Medium",
-		"Question": "Which of the following statements best describes a peptide bond?",
+		"Question": "<p>Which of the following statements best describes a <a href=\"https://en.wikipedia.org/wiki/Peptide\">peptide</a> bond?</p>",
 		"Answers":
 		[
 			{
@@ -828,17 +834,18 @@
 				"Text": "Arginine"
 			},
 			{
-				"Text": "No amino acid contains sulphur"
+				"Text": "Serine"
 			},
 			{
-				"Text": "Serine"
+				"Text": "No amino acid contains sulphur",
+				"IsLast": true
 			},
 		]
 	},
 	{
 		"Category": "Amino acids and proteins",
 		"Difficulty": "Hard",
-		"Question": "Disulphide bridges in proteins are formed between which amino acids?",
+		"Question": "<p><a href=\"https://en.wikipedia.org/wiki/Disulfide\">Disulphide bridges</a> in proteins are formed between which amino acids?</p>",
 		"Answers":
 		[
 			{
@@ -862,7 +869,7 @@
 	{
 		"Category": "Amino acids and proteins",
 		"Difficulty": "Medium",
-		"Question": "How many peptide bonds and amino acids will you find in a pentapeptide?",
+		"Question": "<p>How many <a href=\"https://en.wikipedia.org/wiki/Peptide\">peptide</a> bonds and amino acids will you find in a pentapeptide?</p>",
 		"Answers":
 		[
 			{
@@ -949,7 +956,7 @@
 	},
 	{
 		"Category": "Enzymes",
-		"Difficulty": "Meidum",
+		"Difficulty": "Medium",
 		"Question": "If the Km value is low then the affinity is high.",
 		"Answers":
 		[
@@ -990,7 +997,7 @@
 	{
 		"Category": "Enzymes",
 		"Difficulty": "Medium",
-		"Question": "Vitamin B1 is an example of which type of prosthetic group?",
+		"Question": "<p><a href=\"https://en.wikipedia.org/wiki/Thiamine\">Vitamin B1</a> is an example of which type of prosthetic group?</p>",
 		"Answers":
 		[
 			{
@@ -1087,7 +1094,7 @@
 	{
 		"Category": "Enzymes",
 		"Difficulty": "Easy",
-		"Question": "Which parameters are plotted on a Lineweaver-Burk plot?",
+		"Question": "<p>Which parameters are plotted on a <a href=\"https://en.wikipedia.org/wiki/Lineweaver%E2%80%93Burk_plot\">Lineweaver-Burk plot</a>?</p>",
 		"Image": "Lineweaver-Burke plot - no labels on axes.png",
 		"Answers":
 		[
@@ -1112,8 +1119,8 @@
 	{
 		"Category": "Enzymes",
 		"Difficulty": "Easy",
-		"KeyQuestion": "On a Michaelis-Menton plot, *answer text* can be defined as __________.",
-		"ValueQuestion": "On a Michaelis-Menton plot, *answer text* has which symbol?",
+		"KeyQuestion": "<p>On a <a href=\"https://en.wikipedia.org/wiki/Michaelis%E2%80%93Menten_kinetics\">Michaelis-Menten</a> plot, *answer text* can be defined as __________.</p>",
+		"ValueQuestion": "<p>On a <a href=\"https://en.wikipedia.org/wiki/Michaelis%E2%80%93Menten_kinetics\">Michaelis-Menten</a> plot, *answer text* has which symbol?</p>",
 		"KeyValue": "true",
 		"Answers":
 		[
@@ -1139,7 +1146,7 @@
 	{
 		"Category": "Enzymes",
 		"Difficulty": "Medium",
-		"KeyQuestion": "Below are Lineweaver–Burk plots of different types of reversible enzyme inhibitors. The arrow shows the effect of increasing concentrations of inhibitor. Which plot can be described as *answer text*?",
+		"KeyQuestion": "<p>Below are <a href=\"https://en.wikipedia.org/wiki/Lineweaver%E2%80%93Burk_plot\">Lineweaver-Burk plots</a> of different types of reversible <a href=\"https://en.wikipedia.org/wiki/Enzyme_inhibitor\">enzyme inhibitors</a>. The arrow shows the effect of increasing concentrations of inhibitor. Which plot can be described as *answer text*?</p>",
 		"ValueQuestion": "The picture is a Lineweaver–Burk plot. The arrow shows the effect of increasing concentrations of inhibitor. What type of reversible enzyme inhibitor would produce this graph?",
 		"DynamicAnswer": "true",
 		"Answers":
@@ -1240,7 +1247,7 @@
 	{
 		"Category": "Enzymes",
 		"Difficulty": "Hard",
-		"Question": "Which of the following claims about non-competitive inhibitor enzymes is not correct?",
+		"Question": "<p>Which of the following claims about non-competitive <a href=\"https://en.wikipedia.org/wiki/Enzyme_inhibitor\">enzyme inhibitors</a> is not correct?</p>",
 		"Answers":
 		[
 			{
@@ -1265,7 +1272,7 @@
 	{
 		"Category": "Enzymes",
 		"Difficulty": "Hard",
-		"Question": "Which of the following claims about uncompetitive inhibitor enzymes is not correct?",
+		"Question": "<p>Which of the following claims about uncompetitive <a href=\"https://en.wikipedia.org/wiki/Enzyme_inhibitor\">enzyme inhibitors</a> is not correct?</p>",
 		"Answers":
 		[
 			{
@@ -1290,12 +1297,13 @@
 	{
 		"Category": "Enzymes",
 		"Difficulty": "Easy",
-		"Question": "Which of the following is not an inhibitor enzymes?",
+		"Question": "<p>Which of the following is not an <a href=\"https://en.wikipedia.org/wiki/Enzyme_inhibitor\">enzyme inhibitor</a>?</p>",
 		"Answers":
 		[
 			{
 				"Text": "Hyper-competitive",
-				"Score": "1"
+				"Score": "1",
+				"Explanation": "There is no such thing as a hyper-competitive enzyme inhibitor."
 			},
 			{
 				"Text": "Competitive"
@@ -1315,7 +1323,7 @@
 	{
 		"Category": "Enzymes",
 		"Difficulty": "Medium",
-		"Question": "Identify the Lineweaver-Burke plot.",
+		"Question": "<p>Identify the <a href=\"https://en.wikipedia.org/wiki/Lineweaver%E2%80%93Burk_plot\">Lineweaver-Burk plot</a>.</p>",
 		"Answers":
 		[
 			{
@@ -2060,7 +2068,7 @@
 	{
 		"Category": "Protein separation",
 		"Difficulty": "Medium",
-		"Question": "Why is sodium dodecyl sulphate added to a protein mixture?",
+		"Question": "<p>Why is <a href=\"https://en.wikipedia.org/wiki/Sodium_dodecyl_sulfate\">sodium dodecyl sulphate</a> added to a protein mixture?</p>",
 		"Answers":
 		[
 			{
@@ -2211,7 +2219,7 @@
 	{
 		"Category": "Protein separation",
 		"Difficulty": "Easy",
-		"Question": "What is not a technique that can be used for peptide sequencing?",
+		"Question": "<p>What is not a technique that can be used for <a href=\"https://en.wikipedia.org/wiki/Peptide\">peptide</a> sequencing?</p>",
 		"Answers":
 		[
 			{
@@ -2338,7 +2346,7 @@
 	{
 		"Category": "Enzymes",
 		"Difficulty": "Medium",
-		"Question": "What are the parameters of the x and y axes of a Michaelis-Menten plot?",
+		"Question": "<p>What are the parameters of the x and y axes of a <a href=\"https://en.wikipedia.org/wiki/Michaelis%E2%80%93Menten_kinetics\">Michaelis-Menten</a> plot?</p>",
 		"Image": "Michaelis-Menten saturation curve of an enzyme reaction - no labels on axes.png",
 		"Answers":
 		[
@@ -2647,7 +2655,8 @@
 			},
 			{
 				"Key": "Mutarotation",
-				"Text": "the change in the optical rotation that occurs by epimerisation"
+				"Text": "the change in the optical rotation that occurs by epimerisation",
+				"Explanation": "Mutarotation is the change in the optical rotation because of the change in the equilibrium between two anomers, when the corresponding stereocenters interconvert. Cyclic sugars show mutarotation as α and β anomeric forms interconvert. The optical rotation of the solution depends on the optical rotation of each anomer and their ratio in the solution."
 			},
 			{
 				"Key": "Epimer",
@@ -2745,7 +2754,7 @@
 	{
 		"Category": "Carbohydrates",
 		"Difficulty": "Easy",
-		"Question": "Cellulose is a simple polysaccharide. It's a homopolysaccharide, made up of D-glucose in β(1→4) glycosidic links.",
+		"Question": "<p>Cellulose is a simple polysaccharide. It's a <a href=\"https://en.wikipedia.org/wiki/Homopolysaccharide\">homopolysaccharide</a>, made up of D-glucose in β(1→4) glycosidic links.</p>",
 		"Answers":
 		[
 			{
@@ -2893,7 +2902,7 @@
 	{
 		"Category": "Carbohydrates",
 		"Difficulty": "Hard",
-		"KeyQuestion": "The homopolysaccharide *answer text* is composed of __________.",
+		"KeyQuestion": "<p>The <a href=\"https://en.wikipedia.org/wiki/Homopolysaccharide\">homopolysaccharide</a> *answer text* is composed of __________.</p>",
 		"ValueQuestion": "What is the name of the homopolysaccharide that is composed of *answer text*?",
 		"KeyValue": "true",
 		"Answers":
@@ -3172,7 +3181,7 @@
 	{
 		"Category": "Carbohydrate metabolism",
 		"Difficulty": "Easy",
-		"Question": "What is the end-point in the metabolic pathway of glycolysis?",
+		"Question": "<p>What is the end-point in the metabolic pathway of <a href=\"https://en.wikipedia.org/wiki/Glycolysis\">glycolysis</a>?</p>",
 		"Image": "Glycolysis.png",
 		"ImageText": "JohnyAbb",
 		"Answers":
@@ -3198,7 +3207,7 @@
 	{
 		"Category": "Carbohydrate metabolism",
 		"Difficulty": "Medium",
-		"Question": "What is the function of a kinase within the glycolytic pathway?",
+		"Question": "<p>What is the function of a kinase within the <a href=\"https://en.wikipedia.org/wiki/Glycolysis\">glycolytic pathway</a>?</p>",
 		"Answers":
 		[
 			{
@@ -3250,7 +3259,7 @@
 	{
 		"Category": "Carbohydrate metabolism",
 		"Difficulty": "Medium",
-		"Question": "What is the net gain, per glucose, in ATP and NADH at the end of the glycolytic pathway?",
+		"Question": "<p>What is the net gain, per glucose, in <a href=\"https://en.wikipedia.org/wiki/Adenosine_triphosphate\">ATP</a> and <a href=\"https://en.wikipedia.org/wiki/Nicotinamide_adenine_dinucleotide\">NADH</a> at the end of the <a href=\"https://en.wikipedia.org/wiki/Glycolysis\">glycolytic pathway</a>?</p>",
 		"Answers":
 		[
 			{
@@ -3274,7 +3283,7 @@
 	{
 		"Category": "Carbohydrate metabolism",
 		"Difficulty": "Medium",
-		"Question": "What is name of the stage of glycolytic pathway where glucose is broken down, resulting in fructose 1,6-bisphosphate?",
+		"Question": "<p>What is name of the stage of <a href=\"https://en.wikipedia.org/wiki/Glycolysis\">glycolytic pathway</a> where glucose is broken down, resulting in fructose 1,6-bisphosphate?</p>",
 		"Answers":
 		[
 			{
@@ -3299,7 +3308,7 @@
 	{
 		"Category": "Carbohydrate metabolism",
 		"Difficulty": "Medium",
-		"Question": "During the energy investment stage of the glycolytic pathway, how many ATP molecules are used per glucose?",
+		"Question": "<p>During the energy investment stage of the <a href=\"https://en.wikipedia.org/wiki/Glycolysis\">glycolytic pathway</a>, how many <a href=\"https://en.wikipedia.org/wiki/Adenosine_triphosphate\">ATP</a> molecules are used per glucose?</p>",
 		"Answers":
 		[
 			{
@@ -3310,20 +3319,21 @@
 				"Text": "4"
 			},
 			{
-				"Text": "None"
-			},
-			{
 				"Text": "1"
 			},
 			{
 				"Text": "8"
+			},
+			{
+				"Text": "None",
+				"IsLast": true
 			},
 		]
 	},
 	{
 		"Category": "Carbohydrate metabolism",
 		"Difficulty": "Medium",
-		"Question": "How does pyruvate feature in human biochemistry?",
+		"Question": "<p>How does <a href=\"https://en.wikipedia.org/wiki/Pyruvic_acid\">pyruvate</a> feature in human biochemistry?</p>",
 		"Image": "Pyruvate.png",
 		"ImageText": "Pyruvate",
 		"Answers":
@@ -3368,6 +3378,21 @@
 			{
 				"Key": "-ate",
 				"Text": "a charged carboxylic group"
+			},
+		]
+	},
+	{
+		"Category": "Cells",
+		"Difficulty": "Medium",
+		"Question": "<p>In most organisms, <a href=\"https://en.wikipedia.org/wiki/Glycolysis\">glycolysis</a> occurs in the <a href=\"https://en.wikipedia.org/wiki/Cytosol\">cytosol</a>.</p>",
+		"Answers":
+		[
+			{
+				"Text": "True",
+				"Score": ".5"
+			},
+			{
+				"Text": "False"
 			},
 		]
 	},

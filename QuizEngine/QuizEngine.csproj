@@ -171,10 +171,12 @@
     <Content Include="Assets\Quizzes\Biochemistry\Amide.png" />
     <Content Include="Assets\Quizzes\Biochemistry\Aspartic acid.png" />
     <Content Include="Assets\Quizzes\Biochemistry\Aspirin.png" />
+    <Content Include="Assets\Quizzes\Biochemistry\b-sheet and a-helix.png" />
     <Content Include="Assets\Quizzes\Biochemistry\Beta-D-Glucofuranose.png" />
     <Content Include="Assets\Quizzes\Biochemistry\Beta-D-Glucopyranose.png" />
     <Content Include="Assets\Quizzes\Biochemistry\Carbonyl.png" />
     <Content Include="Assets\Quizzes\Biochemistry\Carboxylic acid.png" />
+    <Content Include="Assets\Quizzes\Biochemistry\Chirality_with_hands.png" />
     <Content Include="Assets\Quizzes\Biochemistry\Competitive.png" />
     <Content Include="Assets\Quizzes\Biochemistry\Cysteine.png" />
     <Content Include="Assets\Quizzes\Biochemistry\Cytosine.png" />

@@ -75,16 +75,9 @@ namespace QuizEngine
                 MediaContent.MediaEnded += MediaContent_MediaEnded;
             }
             
-            if (_quizQuestion.ImageAnswers)
-            {
-                Answers.ItemWidth = 240;
-            }
-            else
-                Answers.ItemWidth = 1000;
-
-
-            DisplayAnswers();
+            Answers.ItemWidth = _quizQuestion.ImageAnswers ? 240 : 1200;
             
+            DisplayAnswers();           
         }
 
         void MediaContent_MediaEnded(object sender, RoutedEventArgs e)

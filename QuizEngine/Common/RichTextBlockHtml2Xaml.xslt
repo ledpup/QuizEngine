@@ -20,8 +20,8 @@
           </Style>
           <Style x:Key="Link" TargetType="HyperlinkButton">
             <Setter Property="BorderThickness" Value="0" />
-            <Setter Property="Margin" Value="0,-10" />
-            <Setter Property="FontSize" Value="larger" />
+            <Setter Property="Margin" Value="0,-11" />
+            <Setter Property="FontSize" Value="xx-large" />
           </Style>
         </RichTextBlock.Resources>
         <xsl:if test="normalize-space(text()) != ''">

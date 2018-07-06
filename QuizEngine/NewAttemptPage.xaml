@@ -27,7 +27,7 @@
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="Rectangle">
                 <EasingDoubleKeyFrame KeyTime="0" Value="0"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:2" Value="0"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:4" Value="0.5"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:4" Value="0.75"/>
             </DoubleAnimationUsingKeyFrames>
         </Storyboard>
     </Page.Resources>
@@ -39,7 +39,7 @@
 
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="*"/>
-                <ColumnDefinition Width="6*"/>
+                <ColumnDefinition Width="10*"/>
                 <ColumnDefinition Width="*"/>
             </Grid.ColumnDefinitions>
             <Grid.RowDefinitions>
@@ -51,7 +51,7 @@
 
             <TextBlock x:Name="Title" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="3" Margin="20" Style="{StaticResource AppTitleTextStyle}" FontSize="48">Spanish Civil War Quiz</TextBlock>
 
-            <Rectangle x:Name="Rectangle" HorizontalAlignment="Center" Margin="0" VerticalAlignment="Center" Grid.Column="1" Stretch="UniformToFill" Grid.Row="2" Fill="{StaticResource BlackBrush}" Opacity="0.5" />
+            <Rectangle x:Name="Rectangle" HorizontalAlignment="Center" Margin="0" VerticalAlignment="Center" Grid.Column="1" Stretch="UniformToFill" Grid.Row="2" Fill="{StaticResource BlackBrush}" />
 
             <Grid x:Name="Controls" Grid.Column="1" Grid.Row="2" Margin="10">
                 <Grid.ColumnDefinitions>
@@ -80,7 +80,7 @@
                     <Button Click="InvertSelection_OnClick">Invert selection</Button>
                 </StackPanel>
                 
-                <VariableSizedWrapGrid x:Name="Categories" Grid.Column="1" Grid.Row="1" Grid.ColumnSpan="2" VerticalAlignment="Center" Orientation="Horizontal" ItemWidth="275">
+                <VariableSizedWrapGrid x:Name="Categories" Grid.Column="1" Grid.Row="1" Grid.ColumnSpan="2" VerticalAlignment="Center" Orientation="Horizontal" ItemWidth="300">
                 </VariableSizedWrapGrid>
                 <TextBlock Grid.Column="0" Grid.Row="2" Style="{StaticResource AppDescriptionTextStyle}" VerticalAlignment="Center">Number of<LineBreak />Questions:</TextBlock>
                 <uc:EnhancedSlider x:Name="NumberOfQuestions" Grid.Column="1" Grid.Row="2" Grid.ColumnSpan="2" HorizontalAlignment="Stretch" Margin="0" VerticalAlignment="Center" Minimum="5" Maximum="50" Value="20" FontSize="20" />
@@ -91,7 +91,7 @@
                         <RadioButton x:Name="Practice" GroupName="Group1" Padding="10" Checked="Practice_Checked" Style="{StaticResource AppRadioButtonStyle}">Practice</RadioButton>
                         <RadioButton x:Name="Test" GroupName="Group1" Padding="10" Checked="Test_Checked" Style="{StaticResource AppRadioButtonStyle}">Test</RadioButton>
                     </StackPanel>
-                <TextBlock x:Name="QuizTypeDescription" Grid.Column="2" Grid.Row="3" Margin="20,0,0,0" Style="{StaticResource AppDescriptionTextStyle}" VerticalAlignment="Center" />
+                <TextBlock x:Name="QuizTypeDescription" Grid.Column="2" Grid.Row="3" Margin="50,0,0,0" Style="{StaticResource AppDescriptionTextStyle}" VerticalAlignment="Center" />
 
                 <Button x:Name="StartQuiz" Grid.Column="0" Grid.Row="4" Grid.ColumnSpan="3" HorizontalAlignment="Center" Click="StartQuiz_Click" Padding="10" Width="250">Start</Button>
                 <TextBlock x:Name="DifficultyWarning" Grid.Column="0" Grid.Row="4" Grid.ColumnSpan="3" FontWeight="Bold" Foreground="{StaticResource RedBrush}" Style="{StaticResource AppDescriptionTextStyle}" HorizontalAlignment="Center" VerticalAlignment="Center" Visibility="Collapsed">At least one difficulty level and category needs to be selected to start the quiz.</TextBlock>
