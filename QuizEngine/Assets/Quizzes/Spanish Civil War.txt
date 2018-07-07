@@ -2011,7 +2011,7 @@
 			{
 				"Image": "United Kingdom.png",
 				"Text": "United Kingdom",
-				"Explanation": "The UK was decidedly pro-fascist throughout the war. It sent MI6 agents to transport <a href=\"http://en.wikipedia.org/wiki/Francisco_Franco\">Franco</a> to Spanish Morocco. It's navy defended the Nationalist controlled city of Algeciras. It co-organised (with France) the <a href=\"http://en.wikipedia.org/wiki/Non-intervention_in_the_Spanish_Civil_War\">Non-Intervention Committee</a> that effectively aided the fascists."
+				"Explanation": "The UK was decidedly pro-fascist throughout the war. It sent MI6 agents to transport <a href=\"http://en.wikipedia.org/wiki/Francisco_Franco\">Franco</a> to Spanish Morocco. Its navy defended the Nationalist controlled city of Algeciras. It co-organised (with France) the <a href=\"http://en.wikipedia.org/wiki/Non-intervention_in_the_Spanish_Civil_War\">Non-Intervention Committee</a> that effectively aided the fascists."
 			},
 			{
 				"Image": "Flag of the United States of America.png",
@@ -3200,7 +3200,7 @@
 		]
 	},
 	{
-		"Category": "Politics",
+		"Category": "Personalities",
 		"Difficulty": "Medium",
 		"Question": "<p>\"We have no fear of them,\" <a href=\"http://en.wikipedia.org/wiki/Jos%C3%A9_Mill%C3%A1n_Astray\">Millán Astray</a> shouted, \"let them come and see what we are capable of under this flag.\"</p><p>A voice was heard crying \"¡Viva Millán Astray!\"</p><p>\"What’s that?\" cried the general. \"No vivas for me! But let all shout with me\" [...]</p>",
 		"Image": "Millán Astray.png",
@@ -3461,7 +3461,7 @@
 		]
 	},
 	{
-		"Category": "Politics",
+		"Category": "Personalities",
 		"Difficulty": "Easy",
 		"Question": "<p>Winston Churchill made the following statements to the House of Commons on 11 November, 1936: \"there is no doubt the revolutionary situation in Spain was initiated by Russia\" and \"if not for Russia, Russian Communism whose propagation and intrigue had been tormenting Spain for more than six months before the revolt, there would be no Spanish horror.\" (Svetlana Pozharskaya, <i>Comintern and The Spanish Civil War in Spain</i>)</p><p>For what reason were these assertions incorrect?</p>",
 		"Image": "Sir Winston S Churchill.jpg",
@@ -3545,7 +3545,7 @@
 			{
 				"Text": "PRF",
 				"Score": "1",
-				"Explanation": "The PRF was a political party that existed at the time of the <a href=\"http://en.wikipedia.org/wiki/First_Spanish_Republic\">First Spanish Republic</a>. One of it's leaders was <a href=\"http://en.wikipedia.org/wiki/Francisco_Pi_y_Margall\">Francisco Pi y Margall</a> who was briefly president of the First Republic. It was disbanded in 1910."
+				"Explanation": "The PRF was a political party that existed at the time of the <a href=\"http://en.wikipedia.org/wiki/First_Spanish_Republic\">First Spanish Republic</a>. One of its leaders was <a href=\"http://en.wikipedia.org/wiki/Francisco_Pi_y_Margall\">Francisco Pi y Margall</a> who was briefly president of the First Republic. It was disbanded in 1910."
 			},
 			{
 				"Text": "CNT"
@@ -3857,7 +3857,7 @@
 			{
 				"Text": "The Fifth Regiment",
 				"Score": "1",
-				"Explanation": "\"[The Fifth Regiment] was based upon the communist militia, the MAOC; but others joined as a result of a recruiting drive led by <a href=\"http://en.wikipedia.org/wiki/Dolores_Ib%C3%A1rruri\">La Pasionaria</a>, the first headquarters being the Salesian convent of Francos Rodríguez in Madrid. By the end of July [1936], 1,000 members of 'the Fifth Regiment' had gone to the front. It had its own reserves, system of supplies, and artillery.\" (Hugh Thomas, <a href=\"http://www.amazon.com/The-Spanish-Civil-War-Paperbacks/dp/0375755152/ref=pd_sim_b_2\">The Spanish Civil War</a>)"
+				"Explanation": "\"[The Fifth Regiment] was based upon the communist militia, the <a href=\"https://en.wikipedia.org/wiki/Antifascist_Worker_and_Peasant_Militias\">MAOC</a>; but others joined as a result of a recruiting drive led by <a href=\"http://en.wikipedia.org/wiki/Dolores_Ib%C3%A1rruri\">La Pasionaria</a>, the first headquarters being the Salesian convent of Francos Rodríguez in Madrid. By the end of July [1936], 1,000 members of 'the Fifth Regiment' had gone to the front. It had its own reserves, system of supplies, and artillery.\" (Hugh Thomas, <a href=\"http://www.amazon.com/The-Spanish-Civil-War-Paperbacks/dp/0375755152/ref=pd_sim_b_2\">The Spanish Civil War</a>)"
 			},
 			{
 				"Text": "The Iron Column"
